@@ -1,0 +1,1234 @@
+{
+    "Meta": {
+        "Name": "en",
+        "Title": "English (English)"
+    },
+    "Texts": {
+        "Name": {
+            "#KEYWORDS": "Keywords",
+            "#NAME": "Name",
+            "#RATING": "Rating",
+            "#RATING_MINIMUM": "Minimum Rating",
+            "#RATING_MAXIMUM": "Maximum Rating",
+            "#TITLE": "Title",
+            "#SUBTITLE": "Subtitle",
+            "#ARTISTS": "Artists",
+            "#AUTHOR": "Author",
+            "#GENRE": "Genre",
+            "#CATEGORY": "Category",
+            "#LANGUAGE": "Language",
+            "#DIFFICULTY": "Difficulty",
+            "#LENGTH": "Length",
+            "#LENGTH_MINIMUM": "Minimum Length",
+            "#LENGTH_MAXIMUM": "Maximum Length",
+            "#SPEED": "Level Speed",
+            "#AUTO": "Auto Play",
+            "#MIRROR": "Mirror Level",
+            "#RANDOM": "Random",
+            "#HIDDEN": "Hidden",
+            "#JUDGMENT_STRICT": "Strict Judgment",
+            "#JUDGMENT_LOOSE": "Loose Judgment",
+            "#EFFECT": "SFX",
+            "#EFFECT_AUTO": "Auto SFX",
+            "#STAGE": "Stage Visibility",
+            "#STAGE_SIZE": "Stage Size",
+            "#STAGE_ROTATION": "Stage Rotation",
+            "#STAGE_ALPHA": "Stage Transparency",
+            "#STAGE_TILT": "Stage Tilt",
+            "#STAGE_COVER_VERTICAL": "Vertical Stage Cover",
+            "#STAGE_COVER_HORIZONTAL": "Horizontal Stage Cover",
+            "#STAGE_COVER_ALPHA": "Stage Cover Transparency",
+            "#STAGE_ASPECTRATIO_LOCK": "Lock Stage Aspect Ratio",
+            "#STAGE_EFFECT": "Stage Effect",
+            "#STAGE_EFFECT_SIZE": "Stage Effect Size",
+            "#STAGE_EFFECT_ROTATION": "Stage Effect Rotation",
+            "#STAGE_EFFECT_ALPHA": "Stage Effect Transparency",
+            "#LANE": "Lane Visibility",
+            "#LANE_SIZE": "Lane Size",
+            "#LANE_ROTATION": "Lane Rotation",
+            "#LANE_ALPHA": "Lane Transparency",
+            "#LANE_EFFECT": "Lane Effect",
+            "#LANE_EFFECT_SIZE": "Lane Effect Size",
+            "#LANE_EFFECT_ROTATION": "Lane Effect Rotation",
+            "#LANE_EFFECT_ALPHA": "Lane Effect Transparency",
+            "#JUDGELINE": "Judgment Line Visibility",
+            "#JUDGELINE_SIZE": "Judgment Line Size",
+            "#JUDGELINE_ROTATION": "Judgment Line Rotation",
+            "#JUDGELINE_ALPHA": "Judgment Line Transparency",
+            "#JUDGELINE_EFFECT": "Judgment Line Effect",
+            "#JUDGELINE_EFFECT_SIZE": "Judgment Line Effect Size",
+            "#JUDGELINE_EFFECT_ROTATION": "Judgment Line Effect Rotation",
+            "#JUDGELINE_EFFECT_ALPHA": "Judgment Line Effect Transparency",
+            "#SLOT": "Slot Visibility",
+            "#SLOT_SIZE": "Slot Size",
+            "#SLOT_ROTATION": "Slot Rotation",
+            "#SLOT_ALPHA": "Slot Transparency",
+            "#SLOT_EFFECT": "Slot Effect",
+            "#SLOT_EFFECT_SIZE": "Slot Effect Size",
+            "#SLOT_EFFECT_ROTATION": "Slot Effect Rotation",
+            "#SLOT_EFFECT_ALPHA": "Slot Effect Transparency",
+            "#NOTE": "Note Visibility",
+            "#NOTE_SPEED": "Note Speed",
+            "#NOTE_SPEED_RANDOM": "Random Note Speed",
+            "#NOTE_SIZE": "Note Size",
+            "#NOTE_ROTATION": "Note Rotation",
+            "#NOTE_ALPHA": "Note Transparency",
+            "#NOTE_EFFECT": "Note Effect",
+            "#NOTE_EFFECT_SIZE": "Note Effect Size",
+            "#NOTE_EFFECT_ROTATION": "Note Effect Rotation",
+            "#NOTE_EFFECT_ALPHA": "Note Effect Transparency",
+            "#MARKER": "Marker Visibility",
+            "#MARKER_SIZE": "Marker Size",
+            "#MARKER_ROTATION": "Marker Rotation",
+            "#MARKER_ALPHA": "Marker Transparency",
+            "#CONNECTOR": "Connector Visibility",
+            "#CONNECTOR_SIZE": "Connector Size",
+            "#CONNECTOR_ROTATION": "Connector Rotation",
+            "#CONNECTOR_ALPHA": "Connector Transparency",
+            "#SIMLINE": "Simultaneous Line Visibility",
+            "#SIMLINE_SIZE": "Simultaneous Line Size",
+            "#SIMLINE_ROTATION": "Simultaneous Line Rotation",
+            "#SIMLINE_ALPHA": "Simultaneous Line Transparency"
+        },
+        "Value": {
+            "#NONE": "None",
+            "#ANY": "Any",
+            "#ALL": "All",
+            "#OTHERS": "Others",
+            "#SHORT": "Short",
+            "#LONG": "Long",
+            "#HIGH": "High",
+            "#MID": "Mid",
+            "#LOW": "Low",
+            "#SMALL": "Small",
+            "#MEDIUM": "Medium",
+            "#LARGE": "Large",
+            "#LEFT": "Left",
+            "#RIGHT": "Right",
+            "#UP": "Up",
+            "#DOWN": "Down",
+            "#FRONT": "Front",
+            "#BACK": "Back",
+            "#CENTER": "Center",
+            "#TOP": "Top",
+            "#BOTTOM": "Bottom",
+            "#TOP_LEFT": "Top Left",
+            "#TOP_CENTER": "Top Center",
+            "#TOP_RIGHT": "Top Right",
+            "#CENTER_LEFT": "Center Left",
+            "#CENTER_RIGHT": "Center Right",
+            "#BOTTOM_LEFT": "Bottom Left",
+            "#BOTTOM_CENTER": "Bottom Center",
+            "#BOTTOM_RIGHT": "Bottom Right",
+            "#CLOCKWISE": "Clockwise",
+            "#COUNTERCLOCKWISE": "Counterclockwise",
+            "#FORWARD": "Forward",
+            "#BACKWARD": "Backward",
+            "#SIMPLE": "Simple",
+            "#EASY": "Easy",
+            "#NORMAL": "Normal",
+            "#HARD": "Hard",
+            "#EXPERT": "Expert",
+            "#MASTER": "Master",
+            "#PRO": "Pro",
+            "#TECHNICAL": "Technical",
+            "#SPECIAL": "Special"
+        },
+        "Placeholder": {
+            "#KEYWORDS": "Enter keywords...",
+            "#NAME": "Enter name...",
+            "#RATING": "Enter rating...",
+            "#RATING_MINIMUM": "Enter minimum rating...",
+            "#RATING_MAXIMUM": "Enter maximum rating...",
+            "#TITLE": "Enter title...",
+            "#SUBTITLE": "Enter subtitle...",
+            "#ARTISTS": "Enter artists...",
+            "#AUTHOR": "Enter author...",
+            "#GENRE": "Enter genre...",
+            "#CATEGORY": "Enter category...",
+            "#LANGUAGE": "Enter language...",
+            "#DIFFICULTY": "Enter difficulty...",
+            "#LENGTH": "Enter length...",
+            "#LENGTH_MINIMUM": "Enter minimum length...",
+            "#LENGTH_MAXIMUM": "Enter maximum length..."
+        }
+    },
+    "Common": {
+        "Loading": "Loading...",
+        "On": "ON",
+        "Off": "OFF",
+        "Select": "Select",
+        "Edit": "Edit",
+        "View": "View",
+        "Cancel": "Cancel",
+        "Confirm": "Confirm",
+        "Retry": "Retry",
+        "Error": {
+            "Title": "Error"
+        },
+        "Confirmation": {
+            "Title": "Confirmation"
+        },
+        "SuccessNotification": {
+            "Title": "Success"
+        },
+        "Next": "Next",
+        "Add": "Add",
+        "Import": "Import",
+        "Search": "Search",
+        "More": "More",
+        "PullToRefresh": "Pull to refresh",
+        "Judgment": "Judgment",
+        "Accuracy": "Accuracy",
+        "Grade": "Grade",
+        "ArcadeScore": "Arc Score",
+        "AccuracyScore": "Acc Score",
+        "Combo": "Combo",
+        "Perfect": "Perfect",
+        "Great": "Great",
+        "Good": "Good",
+        "Miss": "Miss",
+        "ColorField": {
+            "Hex": "HEX",
+            "Rgb": "RGB",
+            "Hsv": "HSV",
+            "HexPlaceholder": "Enter color hex...",
+            "R": "Red",
+            "G": "Green",
+            "B": "Blue",
+            "H": "Hue",
+            "S": "Saturation",
+            "V": "Value",
+            "A": "Alpha"
+        },
+        "PullToLoad": {
+            "None": "Nothing more to load",
+            "More": "Pull to load more"
+        },
+        "UI": {
+            "Metric": {
+                "Arcade": "Arcade Score",
+                "Accuracy": "Accuracy Score",
+                "Life": "Life",
+                "PerfectRate": "Perfect Rate",
+                "ErrorHeatmap": "Error Heatmap"
+            },
+            "JudgmentErrorStyle": {
+                "None": "None",
+                "Plus": "+ / -",
+                "Minus": "- / +",
+                "ArrowUp": "↑ / ↓",
+                "ArrowDown": "↓ / ↑",
+                "ArrowLeft": "← / →",
+                "ArrowRight": "→ / ←",
+                "TriangleUp": "▲ / ▼",
+                "TriangleDown": "▼ / ▲",
+                "TriangleLeft": "◄ / ►",
+                "TriangleRight": "► / ◄"
+            },
+            "JudgmentErrorPlacement": {
+                "Both": "Both",
+                "Left": "Left",
+                "Right": "Right"
+            },
+            "Visibility": "Visibility",
+            "Animation": "Animation",
+            "Tween": "Tween",
+            "Ease": {
+                "Linear": "Linear",
+                "InSine": "Sine (In)",
+                "OutSine": "Sine (Out)",
+                "InOutSine": "Sine (In Out)",
+                "OutInSine": "Sine (Out In)",
+                "InQuad": "Quad (In)",
+                "OutQuad": "Quad (Out)",
+                "InOutQuad": "Quad (In Out)",
+                "OutInQuad": "Quad (Out In)",
+                "InCubic": "Cubic (In)",
+                "OutCubic": "Cubic (Out)",
+                "InOutCubic": "Cubic (In Out)",
+                "OutInCubic": "Cubic (Out In)",
+                "InQuart": "Quart (In)",
+                "OutQuart": "Quart (Out)",
+                "InOutQuart": "Quart (In Out)",
+                "OutInQuart": "Quart (Out In)",
+                "InQuint": "Quint (In)",
+                "OutQuint": "Quint (Out)",
+                "InOutQuint": "Quint (In Out)",
+                "OutInQuint": "Quint (Out In)",
+                "InExpo": "Expo (In)",
+                "OutExpo": "Expo (Out)",
+                "InOutExpo": "Expo (In Out)",
+                "OutInExpo": "Expo (Out In)",
+                "InCirc": "Circ (In)",
+                "OutCirc": "Circ (Out)",
+                "InOutCirc": "Circ (In Out)",
+                "OutInCirc": "Circ (Out In)",
+                "InBack": "Back (In)",
+                "OutBack": "Back (Out)",
+                "InOutBack": "Back (In Out)",
+                "OutInBack": "Back (Out In)",
+                "InElastic": "Elastic (In)",
+                "OutElastic": "Elastic (Out)",
+                "InOutElastic": "Elastic (In Out)",
+                "OutInElastic": "Elastic (Out In)"
+            }
+        }
+    },
+    "Themes": {
+        "Dark": "Dark",
+        "Light": "Light"
+    },
+    "Clients": {
+        "Master": {
+            "Info": {
+                "Loading": "Loading Sonolus info...",
+                "Error": "Failed to load Sonolus info.\n\nPlease check your internet connection and try again."
+            },
+            "List": {
+                "Loading": "Loading languages...",
+                "Error": "Failed to load languages.\n\nPlease check your internet connection and try again."
+            },
+            "Localization": {
+                "Loading": "Loading language...",
+                "Error": "Failed to load language \"{0}\".\n\nPlease check your internet connection and try again."
+            }
+        },
+        "CustomServer": {
+            "SonolusVersionError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem.",
+            "ServerInfo": {
+                "Loading": "Loading server information...",
+                "Error": "Failed to load server information of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Level": {
+                "List": {
+                    "Loading": "Loading levels...",
+                    "Error": "Failed to load levels at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading level details...",
+                    "Error": "Failed to load level details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking level compatibility...",
+                    "Error": "Level \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                },
+                "Cover": {
+                    "Loading": "Loading level cover...",
+                    "Error": "Failed to load level cover of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Bgm": {
+                    "Loading": "Loading level BGM...",
+                    "Error": "Failed to load level BGM of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Preview": {
+                    "Loading": "Loading level preview...",
+                    "Error": "Failed to load level preview of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Data": {
+                    "Loading": "Loading level data...",
+                    "Error": "Failed to load level data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
+            "Skin": {
+                "List": {
+                    "Loading": "Loading skins...",
+                    "Error": "Failed to load skins at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading skin details...",
+                    "Error": "Failed to load skin details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking skin compatibility...",
+                    "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading skin thumbnail...",
+                    "Error": "Failed to load skin thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Data": {
+                    "Loading": "Loading skin data...",
+                    "Error": "Failed to load skin data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Texture": {
+                    "Loading": "Loading skin texture...",
+                    "Error": "Failed to load skin texture of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
+            "Background": {
+                "List": {
+                    "Loading": "Loading backgrounds...",
+                    "Error": "Failed to load backgrounds at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading background details...",
+                    "Error": "Failed to load background details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking background compatibility...",
+                    "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading background thumbnail...",
+                    "Error": "Failed to load background thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Data": {
+                    "Loading": "Loading background data...",
+                    "Error": "Failed to load background data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Image": {
+                    "Loading": "Loading background image...",
+                    "Error": "Failed to load background image of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Configuration": {
+                    "Loading": "Loading background configuration...",
+                    "Error": "Failed to load background configuration of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
+            "Effect": {
+                "List": {
+                    "Loading": "Loading SFX...",
+                    "Error": "Failed to load SFX at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading SFX details...",
+                    "Error": "Failed to load SFX details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking SFX compatibility...",
+                    "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading SFX thumbnail...",
+                    "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Data": {
+                    "Loading": "Loading SFX data...",
+                    "Error": "Failed to load SFX data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Audio": {
+                    "Loading": "Loading SFX audio...",
+                    "Error": "Failed to load SFX audio of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
+            "Particle": {
+                "List": {
+                    "Loading": "Loading particles...",
+                    "Error": "Failed to load particles at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading particle details...",
+                    "Error": "Failed to load particle details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking particle compatibility...",
+                    "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading particle thumbnail...",
+                    "Error": "Failed to load particle thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Data": {
+                    "Loading": "Loading particle data...",
+                    "Error": "Failed to load particle data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Texture": {
+                    "Loading": "Loading particle texture...",
+                    "Error": "Failed to load particle texture of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
+            "Engine": {
+                "List": {
+                    "Loading": "Loading engines...",
+                    "Error": "Failed to load engines at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading engine details...",
+                    "Error": "Failed to load engine details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking engine compatibility...",
+                    "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading engine thumbnail...",
+                    "Error": "Failed to load engine thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Data": {
+                    "Loading": "Loading engine data...",
+                    "Error": "Failed to load engine data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Rom": {
+                    "Loading": "Loading engine ROM...",
+                    "Error": "Failed to load engine rom of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Configuration": {
+                    "Loading": "Loading engine configuration...",
+                    "Error": "Failed to load engine configuration of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            }
+        },
+        "Collection": {
+            "ServerInfo": {
+                "Loading": "Loading collection information...",
+                "Error": "Failed to load collection information of \"{0}\".\n\nYour collection may be corrupted."
+            },
+            "Level": {
+                "List": {
+                    "Loading": "Loading levels...",
+                    "Error": "Failed to load levels at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading level details...",
+                    "Error": "Failed to load level details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking level compatibility...",
+                    "Error": "Level \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this level, or use a different level."
+                },
+                "Cover": {
+                    "Loading": "Loading level cover...",
+                    "Error": "Failed to load level cover of \"{0}\".\n\nPlease update this level, or use a different level."
+                },
+                "Bgm": {
+                    "Loading": "Loading level BGM...",
+                    "Error": "Failed to load level BGM of \"{0}\".\n\nPlease update this level, or use a different level."
+                },
+                "Preview": {
+                    "Loading": "Loading level preview...",
+                    "Error": "Failed to load level preview of \"{0}\".\n\nPlease update this level, or use a different level."
+                },
+                "Data": {
+                    "Loading": "Loading level data...",
+                    "Error": "Failed to load level data of \"{0}\".\n\nPlease update this level, or use a different level."
+                }
+            },
+            "Skin": {
+                "List": {
+                    "Loading": "Loading skins...",
+                    "Error": "Failed to load skins at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading skin details...",
+                    "Error": "Failed to load skin details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking skin compatibility...",
+                    "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this skin, or use a different skin."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading skin thumbnail...",
+                    "Error": "Failed to load skin thumbnail of \"{0}\".\n\nPlease update this skin, or use a different skin."
+                },
+                "Data": {
+                    "Loading": "Loading skin data...",
+                    "Error": "Failed to load skin data of \"{0}\".\n\nPlease update this skin, or use a different skin."
+                },
+                "Texture": {
+                    "Loading": "Loading skin texture...",
+                    "Error": "Failed to load skin texture of \"{0}\".\n\nPlease update this skin, or use a different skin."
+                }
+            },
+            "Background": {
+                "List": {
+                    "Loading": "Loading backgrounds...",
+                    "Error": "Failed to load backgrounds at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading background details...",
+                    "Error": "Failed to load background details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking background compatibility...",
+                    "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this background, or use a different background."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading background thumbnail...",
+                    "Error": "Failed to load background thumbnail of \"{0}\".\n\nPlease update this background, or use a different background."
+                },
+                "Data": {
+                    "Loading": "Loading background data...",
+                    "Error": "Failed to load background data of \"{0}\".\n\nPlease update this background, or use a different background."
+                },
+                "Image": {
+                    "Loading": "Loading background image...",
+                    "Error": "Failed to load background image of \"{0}\".\n\nPlease update this background, or use a different background."
+                },
+                "Configuration": {
+                    "Loading": "Loading background configuration...",
+                    "Error": "Failed to load background configuration of \"{0}\".\n\nPlease update this background, or use a different background."
+                }
+            },
+            "Effect": {
+                "List": {
+                    "Loading": "Loading SFX...",
+                    "Error": "Failed to load SFX at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading SFX details...",
+                    "Error": "Failed to load SFX details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking SFX compatibility...",
+                    "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this SFX, or use a different SFX."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading SFX thumbnail...",
+                    "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
+                },
+                "Data": {
+                    "Loading": "Loading SFX data...",
+                    "Error": "Failed to load SFX data of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
+                },
+                "Audio": {
+                    "Loading": "Loading SFX audio...",
+                    "Error": "Failed to load SFX audio of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
+                }
+            },
+            "Particle": {
+                "List": {
+                    "Loading": "Loading particles...",
+                    "Error": "Failed to load particles at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading particle details...",
+                    "Error": "Failed to load particle details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking particle compatibility...",
+                    "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this particle, or use a different particle."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading particle thumbnail...",
+                    "Error": "Failed to load particle thumbnail of \"{0}\".\n\nPlease update this particle, or use a different particle."
+                },
+                "Data": {
+                    "Loading": "Loading particle data...",
+                    "Error": "Failed to load particle data of \"{0}\".\n\nPlease update this particle, or use a different particle."
+                },
+                "Texture": {
+                    "Loading": "Loading particle texture...",
+                    "Error": "Failed to load particle texture of \"{0}\".\n\nPlease update this particle, or use a different particle."
+                }
+            },
+            "Engine": {
+                "List": {
+                    "Loading": "Loading engines...",
+                    "Error": "Failed to load engines at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading engine details...",
+                    "Error": "Failed to load engine details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking engine compatibility...",
+                    "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this engine, or use a different engine."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading engine thumbnail...",
+                    "Error": "Failed to load engine thumbnail of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                },
+                "Data": {
+                    "Loading": "Loading engine data...",
+                    "Error": "Failed to load engine data of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                },
+                "Rom": {
+                    "Loading": "Loading engine ROM...",
+                    "Error": "Failed to load engine rom of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                },
+                "Configuration": {
+                    "Loading": "Loading engine configuration...",
+                    "Error": "Failed to load engine configuration of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                }
+            }
+        },
+        "Scp": {
+            "ServerInfo": {
+                "Loading": "Loading package information...",
+                "Error": "Failed to load package information of \"{0}\".\n\nYour package may be unsupported or corrupted."
+            },
+            "Level": {
+                "List": {
+                    "Loading": "Loading levels...",
+                    "Error": "Failed to load levels at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading level details...",
+                    "Error": "Failed to load level details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking level compatibility...",
+                    "Error": "Level \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Cover": {
+                    "Loading": "Loading level cover...",
+                    "Error": "Failed to load level cover of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Bgm": {
+                    "Loading": "Loading level BGM...",
+                    "Error": "Failed to load level BGM of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Preview": {
+                    "Loading": "Loading level preview...",
+                    "Error": "Failed to load level preview of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Data": {
+                    "Loading": "Loading level data...",
+                    "Error": "Failed to load level data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            },
+            "Skin": {
+                "List": {
+                    "Loading": "Loading skins...",
+                    "Error": "Failed to load skins at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading skin details...",
+                    "Error": "Failed to load skin details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking skin compatibility...",
+                    "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading skin thumbnail...",
+                    "Error": "Failed to load skin thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Data": {
+                    "Loading": "Loading skin data...",
+                    "Error": "Failed to load skin data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Texture": {
+                    "Loading": "Loading skin texture...",
+                    "Error": "Failed to load skin texture of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            },
+            "Background": {
+                "List": {
+                    "Loading": "Loading backgrounds...",
+                    "Error": "Failed to load backgrounds at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading background details...",
+                    "Error": "Failed to load background details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking background compatibility...",
+                    "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading background thumbnail...",
+                    "Error": "Failed to load background thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Data": {
+                    "Loading": "Loading background data...",
+                    "Error": "Failed to load background data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Image": {
+                    "Loading": "Loading background image...",
+                    "Error": "Failed to load background image of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Configuration": {
+                    "Loading": "Loading background configuration...",
+                    "Error": "Failed to load background configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            },
+            "Effect": {
+                "List": {
+                    "Loading": "Loading SFX...",
+                    "Error": "Failed to load SFX at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading SFX details...",
+                    "Error": "Failed to load SFX details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking SFX compatibility...",
+                    "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading SFX thumbnail...",
+                    "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Data": {
+                    "Loading": "Loading SFX data...",
+                    "Error": "Failed to load SFX data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Audio": {
+                    "Loading": "Loading SFX audio...",
+                    "Error": "Failed to load SFX audio of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            },
+            "Particle": {
+                "List": {
+                    "Loading": "Loading particles...",
+                    "Error": "Failed to load particles at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading particle details...",
+                    "Error": "Failed to load particle details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking particle compatibility...",
+                    "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading particle thumbnail...",
+                    "Error": "Failed to load particle thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Data": {
+                    "Loading": "Loading particle data...",
+                    "Error": "Failed to load particle data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Texture": {
+                    "Loading": "Loading particle texture...",
+                    "Error": "Failed to load particle texture of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            },
+            "Engine": {
+                "List": {
+                    "Loading": "Loading engines...",
+                    "Error": "Failed to load engines at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading engine details...",
+                    "Error": "Failed to load engine details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking engine compatibility...",
+                    "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading engine thumbnail...",
+                    "Error": "Failed to load engine thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Data": {
+                    "Loading": "Loading engine data...",
+                    "Error": "Failed to load engine data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Rom": {
+                    "Loading": "Loading engine ROM...",
+                    "Error": "Failed to load engine rom of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Configuration": {
+                    "Loading": "Loading engine configuration...",
+                    "Error": "Failed to load engine configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            }
+        }
+    },
+    "Title": {
+        "TapToStart": "Tap to Start"
+    },
+    "Layout": {
+        "Refresh": "Refresh",
+        "Back": "Back"
+    },
+    "Routes": {
+        "JumpToPage": {
+            "Title": "Jump to Page",
+            "Page": "Page",
+            "PagePlaceholder": "Enter page number...",
+            "Jump": "Jump"
+        },
+        "SelectLocalization": {
+            "Title": "Select Language",
+            "Description": "Select a preferred language:"
+        },
+        "SelectTheme": {
+            "Title": "Select Theme",
+            "Description": "Select a theme:"
+        },
+        "Home": {
+            "Title": "Home",
+            "Play": "Play",
+            "Settings": "Settings",
+            "UpdateAvailable": {
+                "Title": "Update Available",
+                "Description": "Sonolus version {0} is available!\n\nVisit our website:\nhttps://sonolus.com",
+                "Open": "Open"
+            }
+        },
+        "SelectServer": {
+            "Title": "Select Server",
+            "CustomServers": {
+                "Title": "Custom Servers",
+                "RemoveConfirmation": {
+                    "Description": "Are you sure to remove \"{0}\"?"
+                }
+            },
+            "Collections": {
+                "Title": "Collections",
+                "RemoveConfirmation": {
+                    "Description": "Are you sure to remove \"{0}\"?"
+                }
+            }
+        },
+        "EditCustomServer": {
+            "Title": "Edit Custom Server",
+            "Address": "Address",
+            "AddressPlaceholder": "Enter custom server address...",
+            "Name": "Name",
+            "NamePlaceholder": "Enter custom server name..."
+        },
+        "AddCustomServerAddress": {
+            "Title": "Add Custom Server",
+            "Address": "Address",
+            "AddressPlaceholder": "Enter custom server address..."
+        },
+        "AddCustomServerInfo": {
+            "Title": "Add Custom Server",
+            "Name": "Name",
+            "NamePlaceholder": "Enter custom server name..."
+        },
+        "EditCollection": {
+            "Title": "Edit Collection",
+            "Name": "Name",
+            "NamePlaceholder": "Enter collection name..."
+        },
+        "AddCollection": {
+            "Title": "Add Collection",
+            "Name": "Name",
+            "NamePlaceholder": "Enter collection name..."
+        },
+        "SelectCollection": {
+            "Title": "Select Collection",
+            "Collections": {
+                "Title": "Collections",
+                "RemoveConfirmation": {
+                    "Description": "Are you sure to remove \"{0}\"?"
+                }
+            }
+        },
+        "ImportScp": {
+            "Scp": {
+                "Loading": "Loading package...",
+                "Error": "Failed to load package \"{0}\".\n\nYour package may be unsupported or corrupted."
+            }
+        },
+        "EditVisibility": {
+            "Scale": "Scale",
+            "Alpha": "Alpha"
+        },
+        "EditAnimation": {
+            "Scale": "Scale",
+            "Alpha": "Alpha"
+        },
+        "EditTween": {
+            "From": "From",
+            "To": "To",
+            "Duration": "Duration",
+            "Ease": "Ease"
+        },
+        "EditColors": {
+            "Foreground": "Foreground",
+            "Background": "Background"
+        },
+        "Server": {
+            "Home": {
+                "Levels": "Levels",
+                "Skins": "Skins",
+                "Backgrounds": "Backgrounds",
+                "Effects": "SFX",
+                "Particles": "Particles",
+                "Engines": "Engines"
+            },
+            "Search": {
+                "Title": "Search"
+            },
+            "LevelList": {
+                "Title": "Levels"
+            },
+            "SkinList": {
+                "Title": "Skins"
+            },
+            "BackgroundList": {
+                "Title": "Backgrounds"
+            },
+            "EffectList": {
+                "Title": "SFX"
+            },
+            "ParticleList": {
+                "Title": "Particles"
+            },
+            "EngineList": {
+                "Title": "Engines"
+            },
+            "ItemDetails": {
+                "Actions": {
+                    "Configuration": "Configuration",
+                    "Save": "Save",
+                    "Update": "Update"
+                },
+                "Description": {
+                    "Title": "Description"
+                },
+                "Recommended": {
+                    "Title": "Recommended"
+                }
+            },
+            "LevelDetails": {
+                "Actions": {
+                    "Play": "Play"
+                },
+                "Play": {
+                    "Effect": {
+                        "Audio": {
+                            "Loading": "Decoding SFX audio...",
+                            "Error": "Failed to decode SFX audio of \"{0}\".\n\nPlease contact SFX author to report the problem."
+                        }
+                    },
+                    "Level": {
+                        "Bgm": {
+                            "Loading": "Decoding level BGM...",
+                            "Error": "Failed to decode level BGM of \"{0}\".\n\nPlease contact level author to report the problem."
+                        }
+                    },
+                    "Boot": {
+                        "Loading": "Booting level...",
+                        "Error": "Failed to boot level \"{0}\".\n\nPlease contact level author to report the problem."
+                    }
+                }
+            },
+            "LevelConfiguration": {
+                "Title": "Level Configuration",
+                "Options": {
+                    "Title": "Options"
+                },
+                "UI": {
+                    "Title": "UI",
+                    "PrimaryMetric": "Primary Metric",
+                    "SecondaryMetric": "Secondary Metric",
+                    "JudgmentErrorStyle": "Judgment Error Style",
+                    "JudgmentErrorPlacement": "Judgment Error Placement",
+                    "JudgmentErrorMin": "Minimum Judgment Error",
+                    "MenuStyle": "MenuStyle",
+                    "JudgmentStyle": "JudgmentStyle",
+                    "ComboStyle": "ComboStyle",
+                    "PrimaryMetricStyle": "PrimaryMetricStyle",
+                    "SecondaryMetricStyle": "SecondaryMetricStyle"
+                },
+                "Offsets": {
+                    "Title": "Offsets",
+                    "LevelAudioOffset": "Level Audio Offset",
+                    "ServerAudioOffset": "Server Audio Offset",
+                    "EngineInputOffset": "Engine Input Offset"
+                }
+            },
+            "BackgroundConfiguration": {
+                "Title": "Background Configuration",
+                "Background": {
+                    "Title": "Background",
+                    "Blur": "Blur",
+                    "Mask": "Mask"
+                }
+            },
+            "EngineConfiguration": {
+                "Title": "Engine Configuration",
+                "Skin": {
+                    "Title": "Skin"
+                },
+                "Background": {
+                    "Title": "Background"
+                },
+                "Effect": {
+                    "Title": "SFX"
+                },
+                "Particle": {
+                    "Title": "Particle"
+                },
+                "Options": {
+                    "Title": "Options"
+                },
+                "UI": {
+                    "Title": "UI",
+                    "PrimaryMetric": "Primary Metric",
+                    "SecondaryMetric": "Secondary Metric",
+                    "JudgmentErrorStyle": "Judgment Error Style",
+                    "JudgmentErrorPlacement": "Judgment Error Placement",
+                    "JudgmentErrorMin": "Minimum Judgment Error",
+                    "MenuStyle": "MenuStyle",
+                    "JudgmentStyle": "JudgmentStyle",
+                    "ComboStyle": "ComboStyle",
+                    "PrimaryMetricStyle": "PrimaryMetricStyle",
+                    "SecondaryMetricStyle": "SecondaryMetricStyle"
+                },
+                "Offsets": {
+                    "Title": "Offsets",
+                    "EngineInputOffset": "Engine Input Offset"
+                }
+            }
+        },
+        "Settings": {
+            "Title": "Settings",
+            "Graphics": {
+                "Title": "Graphics",
+                "RenderScale": "Render Scale",
+                "AntiAliasing": {
+                    "Title": "Anti-Aliasing",
+                    "Options": {
+                        "Off": "Off",
+                        "TwoX": "2x",
+                        "FourX": "4x",
+                        "EightX": "8x"
+                    }
+                },
+                "GpuParticleSystem": "GPU Particle System",
+                "IgnoreNotch": "Ignore Notch"
+            },
+            "Audio": {
+                "Title": "Audio",
+                "BgmVolume": "BGM Volume",
+                "SfxVolume": "SFX Volume",
+                "PreviewBgm": {
+                    "Title": "Preview BGM",
+                    "Options": {
+                        "Off": "Off",
+                        "DetailsOnly": "Details Only",
+                        "ListAndDetails": "List and Details"
+                    }
+                }
+            },
+            "UI": {
+                "Title": "UI",
+                "Localization": "Language",
+                "Theme": "Theme",
+                "Scale": "UI Scale",
+                "PerfectJudgmentColors": "Perfect Judgment Colors",
+                "GreatJudgmentColors": "Great Judgment Colors",
+                "GoodJudgmentColors": "Good Judgment Colors",
+                "MissJudgmentColors": "Miss Judgment Colors",
+                "PositiveJudgmentErrorColors": "Positive Judgment Error Colors",
+                "NegativeJudgmentErrorColors": "Negative Judgment Error Colors",
+                "AllPerfectComboColors": "All Perfect Combo Colors",
+                "FullComboComboColors": "Full Combo Combo Colors",
+                "PassComboColors": "Pass Combo Colors",
+                "FailComboColors": "Fail Combo Colors",
+                "BoldComboNumber": "Bold Combo Number",
+                "ShowZeroCombo": "Show Zero Combo"
+            },
+            "Offsets": {
+                "Title": "Offsets",
+                "Device": {
+                    "Title": "Device",
+                    "Option": "Device {0}"
+                },
+                "DeviceAudioOffset": "Device Audio Offset",
+                "DeviceInputOffset": "Device Input Offset"
+            },
+            "Repository": {
+                "Title": "Repository",
+                "Manage": "Manage"
+            },
+            "Cache": {
+                "Title": "Cache",
+                "AlwaysRevalidate": "Always Revalidate",
+                "Manage": "Manage"
+            },
+            "Developer": {
+                "Title": "Developer",
+                "ShowFps": "Show FPS",
+                "ShowTouches": "Show Touches",
+                "TouchSize": "Touch Size",
+                "TouchAlpha": "Touch Alpha",
+                "DebugMode": "Debug Mode"
+            }
+        },
+        "ManageRepository": {
+            "Title": "Manage Repository",
+            "Repository": {
+                "Title": "Repository",
+                "Description": "Repository stores all resources locally available on this device.",
+                "Size": "Size: {0}"
+            },
+            "DeleteRepository": {
+                "Title": "Delete Repository",
+                "Description": "Delete all repository resources which causes Sonolus to re-download when requested.",
+                "Delete": "Delete",
+                "DeleteConfirmation": {
+                    "Description": "Are you sure to delete all repository resources?",
+                    "Loading": "Deleting repository..."
+                }
+            }
+        },
+        "ManageCache": {
+            "Title": "Manage Cache",
+            "Cache": {
+                "Title": "Cache",
+                "Description": "Cache allows Sonolus to speed up loading network requests and reduce bandwidth usage, by memorizing network URLs and the local repository resources they associate with.\nCache takes up a very small amount of storage, and is recommended to not be deleted.",
+                "Count": "Cache: {0} entries"
+            },
+            "ExpireCache": {
+                "Title": "Expire Cache",
+                "Description": "Expire all cache which causes Sonolus to revalidate before using the local repository resources which network URLs are associated with.",
+                "Expire": "Expire",
+                "ExpireConfirmation": {
+                    "Description": "Are you sure to expire all cache?"
+                }
+            },
+            "DeleteCache": {
+                "Title": "Delete Cache",
+                "Description": "Delete all cache which causes Sonolus to re-download all network requests. Not recommended.",
+                "Delete": "Delete",
+                "DeleteConfirmation": {
+                    "Description": "Are you sure to delete all cache?"
+                }
+            }
+        }
+    },
+    "Scp": {
+        "PermissionError": {
+            "Description": "Sonolus is unable to obtain required permissions to perform this action.\n\nPlease open Settings and grant Sonolus permissions.",
+            "Open": "Open"
+        }
+    },
+    "Runtimes": {
+        "Level": {
+            "Play": {
+                "Routes": {
+                    "Pause": {
+                        "Title": "Pause",
+                        "Control": {
+                            "Title": "Control",
+                            "Exit": "Exit",
+                            "Restart": "Restart"
+                        },
+                        "Snapshot": {
+                            "Title": "Snapshot",
+                            "Record": "Record",
+                            "Replay": "Replay"
+                        },
+                        "Debug": {
+                            "Title": "Debug"
+                        }
+                    },
+                    "Result": {
+                        "Title": "Result",
+                        "Options": {
+                            "HasUsedPause": "Pause",
+                            "HasUsedSnapshot": "Snapshot"
+                        },
+                        "Graphs": {
+                            "Title": "Graphs",
+                            "Judgment": {
+                                "Title": "Judgment Graph"
+                            },
+                            "Accuracy": {
+                                "Title": "Accuracy Graph",
+                                "AbsValue": "Abs Value",
+                                "Mean": "Mean",
+                                "StDev": "St Dev",
+                                "Min": "Min",
+                                "Max": "Max"
+                            },
+                            "Bucket": {
+                                "Title": "Bucket Graph"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

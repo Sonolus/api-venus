@@ -1,0 +1,12 @@
+{
+  "name": "sonolus-api-venus",
+  "private": true,
+  "scripts": {
+    "build": "node src/build.mjs"
+  },
+  "author": "NonSpicyBurrito",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
