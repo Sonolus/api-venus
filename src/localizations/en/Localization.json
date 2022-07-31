@@ -1003,11 +1003,11 @@
                     "JudgmentErrorStyle": "Judgment Error Style",
                     "JudgmentErrorPlacement": "Judgment Error Placement",
                     "JudgmentErrorMin": "Minimum Judgment Error",
-                    "MenuStyle": "MenuStyle",
-                    "JudgmentStyle": "JudgmentStyle",
-                    "ComboStyle": "ComboStyle",
-                    "PrimaryMetricStyle": "PrimaryMetricStyle",
-                    "SecondaryMetricStyle": "SecondaryMetricStyle"
+                    "MenuStyle": "Menu Style",
+                    "JudgmentStyle": "Judgment Style",
+                    "ComboStyle": "Combo Style",
+                    "PrimaryMetricStyle": "Primary Metric Style",
+                    "SecondaryMetricStyle": "Secondary Metric Style"
                 },
                 "Offsets": {
                     "Title": "Offsets",
@@ -1048,11 +1048,11 @@
                     "JudgmentErrorStyle": "Judgment Error Style",
                     "JudgmentErrorPlacement": "Judgment Error Placement",
                     "JudgmentErrorMin": "Minimum Judgment Error",
-                    "MenuStyle": "MenuStyle",
-                    "JudgmentStyle": "JudgmentStyle",
-                    "ComboStyle": "ComboStyle",
-                    "PrimaryMetricStyle": "PrimaryMetricStyle",
-                    "SecondaryMetricStyle": "SecondaryMetricStyle"
+                    "MenuStyle": "Menu Style",
+                    "JudgmentStyle": "Judgment Style",
+                    "ComboStyle": "Combo Style",
+                    "PrimaryMetricStyle": "Primary Metric Style",
+                    "SecondaryMetricStyle": "Secondary Metric Style"
                 },
                 "Offsets": {
                     "Title": "Offsets",
