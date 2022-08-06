@@ -1215,12 +1215,12 @@
                                 "Title": "判定グラフ"
                             },
                             "Accuracy": {
-                                "Title": "Accuracy Graph",
-                                "AbsValue": "Abs Value",
-                                "Mean": "Mean",
-                                "StDev": "St Dev",
-                                "Min": "最小",
-                                "Max": "最大"
+                                "Title": "精度グラフ",
+                                "AbsValue": "絶対値",
+                                "Mean": "平均値",
+                                "StDev": "標準偏差",
+                                "Min": "最小値",
+                                "Max": "最大値"
                             },
                             "Bucket": {
                                 "Title": "バケットグラフ"
