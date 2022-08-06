@@ -333,7 +333,7 @@
             "Skin": {
                 "List": {
                     "Loading": "スキン一覧を読み込み中...",
-                    "Error": "Failed to load スキン一覧 at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "ページ {0} のスキン一覧の読み込みに失敗しました。\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Details": {
                     "Loading": "スキン情報を読み込み中...",
@@ -362,27 +362,27 @@
                     "Error": "Failed to load 背景一覧 at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Details": {
-                    "Loading": "Loading background details...",
+                    "Loading": "背景情報を読み込み中...",
                     "Error": "Failed to load background details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Compatibility": {
-                    "Loading": "Checking background compatibility...",
+                    "Loading": "背景の互換性を確認中...",
                     "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading background thumbnail...",
+                    "Loading": "背景サムネイルを読み込み中...",
                     "Error": "Failed to load background thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Data": {
-                    "Loading": "Loading background data...",
+                    "Loading": "背景データを読み込み中...",
                     "Error": "Failed to load background data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Image": {
-                    "Loading": "Loading background image...",
+                    "Loading": "背景画像を読み込み中...",
                     "Error": "Failed to load background image of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Configuration": {
-                    "Loading": "Loading background configuration...",
+                    "Loading": "背景設定を読み込み中...",
                     "Error": "Failed to load background configuration of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 }
             },
@@ -392,23 +392,23 @@
                     "Error": "Failed to load SFX at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Details": {
-                    "Loading": "Loading SFX details...",
+                    "Loading": "SE情報を読み込み中...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Compatibility": {
-                    "Loading": "Checking SFX compatibility...",
+                    "Loading": "SEの互換性を確認中...",
                     "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading SFX thumbnail...",
+                    "Loading": "SEサムネイルを読み込み中...",
                     "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Data": {
-                    "Loading": "Loading SFX data...",
+                    "Loading": "SEデータを読み込み中...",
                     "Error": "Failed to load SFX data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Audio": {
-                    "Loading": "Loading SFX audio...",
+                    "Loading": "SE音源ファイルを読み込み中...",
                     "Error": "Failed to load SFX audio of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 }
             },
@@ -422,19 +422,19 @@
                     "Error": "Failed to load particle details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Compatibility": {
-                    "Loading": "Checking particle compatibility...",
+                    "Loading": "パーティクルの互換性を確認中...",
                     "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading particle thumbnail...",
+                    "Loading": "パーティクルサムネイルを読み込み中...",
                     "Error": "Failed to load particle thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Data": {
-                    "Loading": "Loading particle data...",
+                    "Loading": "パーティクルデータを読み込み中...",
                     "Error": "Failed to load particle data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Texture": {
-                    "Loading": "Loading particle texture...",
+                    "Loading": "パーティクルテクスチャを読み込み中...",
                     "Error": "Failed to load particle texture of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 }
             },
@@ -452,19 +452,19 @@
                     "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading engine thumbnail...",
+                    "Loading": "エンジンサムネイルを読み込み中...",
                     "Error": "Failed to load engine thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Data": {
-                    "Loading": "Loading engine data...",
+                    "Loading": "エンジンデータを読み込み中...",
                     "Error": "Failed to load engine data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Rom": {
-                    "Loading": "Loading engine ROM...",
+                    "Loading": "エンジンROMを読み込み中...",
                     "Error": "Failed to load engine rom of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Configuration": {
-                    "Loading": "Loading engine configuration...",
+                    "Loading": "エンジン設定を読み込み中...",
                     "Error": "Failed to load engine configuration of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 }
             }
@@ -507,7 +507,7 @@
             "Skin": {
                 "List": {
                     "Loading": "スキン一覧を読み込み中...",
-                    "Error": "Failed to load スキン一覧 at page {0}.\n\nYour collection may be corrupted."
+                    "Error": "ページ {0} のスキン一覧の読み込みに失敗しました。\n\nYour collection may be corrupted."
                 },
                 "Details": {
                     "Loading": "スキン情報を読み込み中...",
@@ -536,27 +536,27 @@
                     "Error": "Failed to load 背景一覧 at page {0}.\n\nYour collection may be corrupted."
                 },
                 "Details": {
-                    "Loading": "Loading background details...",
+                    "Loading": "背景情報を読み込み中...",
                     "Error": "Failed to load background details of \"{0}\".\n\nYour collection may be corrupted."
                 },
                 "Compatibility": {
-                    "Loading": "Checking background compatibility...",
+                    "Loading": "背景の互換性を確認中...",
                     "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this background, or use a different background."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading background thumbnail...",
+                    "Loading": "背景サムネイルを読み込み中...",
                     "Error": "Failed to load background thumbnail of \"{0}\".\n\nPlease update this background, or use a different background."
                 },
                 "Data": {
-                    "Loading": "Loading background data...",
+                    "Loading": "背景データを読み込み中...",
                     "Error": "Failed to load background data of \"{0}\".\n\nPlease update this background, or use a different background."
                 },
                 "Image": {
-                    "Loading": "Loading background image...",
+                    "Loading": "背景画像を読み込み中...",
                     "Error": "Failed to load background image of \"{0}\".\n\nPlease update this background, or use a different background."
                 },
                 "Configuration": {
-                    "Loading": "Loading background configuration...",
+                    "Loading": "背景設定を読み込み中...",
                     "Error": "Failed to load background configuration of \"{0}\".\n\nPlease update this background, or use a different background."
                 }
             },
@@ -566,23 +566,23 @@
                     "Error": "Failed to load SFX at page {0}.\n\nYour collection may be corrupted."
                 },
                 "Details": {
-                    "Loading": "Loading SFX details...",
+                    "Loading": "SE情報を読み込み中...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nYour collection may be corrupted."
                 },
                 "Compatibility": {
-                    "Loading": "Checking SFX compatibility...",
+                    "Loading": "SEの互換性を確認中...",
                     "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this SFX, or use a different SFX."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading SFX thumbnail...",
+                    "Loading": "SEサムネイルを読み込み中...",
                     "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
                 },
                 "Data": {
-                    "Loading": "Loading SFX data...",
+                    "Loading": "SEデータを読み込み中...",
                     "Error": "Failed to load SFX data of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
                 },
                 "Audio": {
-                    "Loading": "Loading SFX audio...",
+                    "Loading": "SE音源ファイルを読み込み中...",
                     "Error": "Failed to load SFX audio of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
                 }
             },
@@ -596,19 +596,19 @@
                     "Error": "Failed to load particle details of \"{0}\".\n\nYour collection may be corrupted."
                 },
                 "Compatibility": {
-                    "Loading": "Checking particle compatibility...",
+                    "Loading": "パーティクルの互換性を確認中...",
                     "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this particle, or use a different particle."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading particle thumbnail...",
+                    "Loading": "パーティクルサムネイルを読み込み中...",
                     "Error": "Failed to load particle thumbnail of \"{0}\".\n\nPlease update this particle, or use a different particle."
                 },
                 "Data": {
-                    "Loading": "Loading particle data...",
+                    "Loading": "パーティクルデータを読み込み中...",
                     "Error": "Failed to load particle data of \"{0}\".\n\nPlease update this particle, or use a different particle."
                 },
                 "Texture": {
-                    "Loading": "Loading particle texture...",
+                    "Loading": "パーティクルテクスチャを読み込み中...",
                     "Error": "Failed to load particle texture of \"{0}\".\n\nPlease update this particle, or use a different particle."
                 }
             },
@@ -626,26 +626,26 @@
                     "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this engine, or use a different engine."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading engine thumbnail...",
+                    "Loading": "エンジンサムネイルを読み込み中...",
                     "Error": "Failed to load engine thumbnail of \"{0}\".\n\nPlease update this engine, or use a different engine."
                 },
                 "Data": {
-                    "Loading": "Loading engine data...",
+                    "Loading": "エンジンデータを読み込み中...",
                     "Error": "Failed to load engine data of \"{0}\".\n\nPlease update this engine, or use a different engine."
                 },
                 "Rom": {
-                    "Loading": "Loading engine ROM...",
+                    "Loading": "エンジンROMを読み込み中...",
                     "Error": "Failed to load engine rom of \"{0}\".\n\nPlease update this engine, or use a different engine."
                 },
                 "Configuration": {
-                    "Loading": "Loading engine configuration...",
+                    "Loading": "エンジン設定を読み込み中...",
                     "Error": "Failed to load engine configuration of \"{0}\".\n\nPlease update this engine, or use a different engine."
                 }
             }
         },
         "Scp": {
             "ServerInfo": {
-                "Loading": "Loading package information...",
+                "Loading": "パッケージ情報を読み込み中...",
                 "Error": "Failed to load package information of \"{0}\".\n\nYour package may be unsupported or corrupted."
             },
             "Level": {
@@ -681,7 +681,7 @@
             "Skin": {
                 "List": {
                     "Loading": "スキン一覧を読み込み中...",
-                    "Error": "Failed to load スキン一覧 at page {0}.\n\nYour package may be unsupported or corrupted."
+                    "Error": "ページ {0} のスキン一覧の読み込みに失敗しました。\n\nYour package may be unsupported or corrupted."
                 },
                 "Details": {
                     "Loading": "スキン情報を読み込み中...",
@@ -710,27 +710,27 @@
                     "Error": "Failed to load 背景一覧 at page {0}.\n\nYour package may be unsupported or corrupted."
                 },
                 "Details": {
-                    "Loading": "Loading background details...",
+                    "Loading": "背景情報を読み込み中...",
                     "Error": "Failed to load background details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Compatibility": {
-                    "Loading": "Checking background compatibility...",
+                    "Loading": "背景の互換性を確認中...",
                     "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading background thumbnail...",
+                    "Loading": "背景サムネイルを読み込み中...",
                     "Error": "Failed to load background thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Data": {
-                    "Loading": "Loading background data...",
+                    "Loading": "背景データを読み込み中...",
                     "Error": "Failed to load background data of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Image": {
-                    "Loading": "Loading background image...",
+                    "Loading": "背景画像を読み込み中...",
                     "Error": "Failed to load background image of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Configuration": {
-                    "Loading": "Loading background configuration...",
+                    "Loading": "背景設定を読み込み中...",
                     "Error": "Failed to load background configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 }
             },
@@ -740,23 +740,23 @@
                     "Error": "Failed to load SFX at page {0}.\n\nYour package may be unsupported or corrupted."
                 },
                 "Details": {
-                    "Loading": "Loading SFX details...",
+                    "Loading": "SE情報を読み込み中...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Compatibility": {
-                    "Loading": "Checking SFX compatibility...",
+                    "Loading": "SEの互換性を確認中...",
                     "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading SFX thumbnail...",
+                    "Loading": "SEサムネイルを読み込み中...",
                     "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Data": {
-                    "Loading": "Loading SFX data...",
+                    "Loading": "SEデータを読み込み中...",
                     "Error": "Failed to load SFX data of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Audio": {
-                    "Loading": "Loading SFX audio...",
+                    "Loading": "SE音源ファイルを読み込み中...",
                     "Error": "Failed to load SFX audio of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 }
             },
@@ -770,19 +770,19 @@
                     "Error": "Failed to load particle details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Compatibility": {
-                    "Loading": "Checking particle compatibility...",
+                    "Loading": "パーティクルの互換性を確認中...",
                     "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading particle thumbnail...",
+                    "Loading": "パーティクルサムネイルを読み込み中...",
                     "Error": "Failed to load particle thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Data": {
-                    "Loading": "Loading particle data...",
+                    "Loading": "パーティクルデータを読み込み中...",
                     "Error": "Failed to load particle data of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Texture": {
-                    "Loading": "Loading particle texture...",
+                    "Loading": "パーティクルテクスチャを読み込み中...",
                     "Error": "Failed to load particle texture of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 }
             },
@@ -800,19 +800,19 @@
                     "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
                 },
                 "Thumbnail": {
-                    "Loading": "Loading engine thumbnail...",
+                    "Loading": "エンジンサムネイルを読み込み中...",
                     "Error": "Failed to load engine thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Data": {
-                    "Loading": "Loading engine data...",
+                    "Loading": "エンジンデータを読み込み中...",
                     "Error": "Failed to load engine data of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Rom": {
-                    "Loading": "Loading engine ROM...",
+                    "Loading": "エンジンROMを読み込み中...",
                     "Error": "Failed to load engine rom of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "Configuration": {
-                    "Loading": "Loading engine configuration...",
+                    "Loading": "エンジン設定を読み込み中...",
                     "Error": "Failed to load engine configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 }
             }
