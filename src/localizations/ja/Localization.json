@@ -192,14 +192,14 @@
             "Hex": "HEX",
             "Rgb": "RGB",
             "Hsv": "HSV",
-            "HexPlaceholder": "Enter color hex...",
-            "R": "Red",
-            "G": "Green",
-            "B": "Blue",
-            "H": "Hue",
-            "S": "Saturation",
-            "V": "Value",
-            "A": "Alpha"
+            "HexPlaceholder": "色(HEX値)を入力してください...",
+            "R": "赤 (R)",
+            "G": "緑 (G)",
+            "B": "青 (B)",
+            "H": "色相 (H)",
+            "S": "彩度 (S)",
+            "V": "明度 (V)",
+            "A": "透明度 (A)"
         },
         "PullToLoad": {
             "None": "最終ページです",
@@ -233,7 +233,7 @@
             },
             "Visibility": "見た目",
             "Animation": "アニメーション",
-            "Tween": "Tween",
+            "Tween": "トゥイーン",
             "Ease": {
                 "Linear": "Linear",
                 "InSine": "Sine (In)",
@@ -819,85 +819,85 @@
         }
     },
     "Title": {
-        "TapToStart": "タップでスタート"
+        "TapToStart": "タップしてスタート"
     },
     "Layout": {
-        "Refresh": "Refresh",
-        "Back": "Back"
+        "Refresh": "更新",
+        "Back": "戻る"
     },
     "Routes": {
         "JumpToPage": {
-            "Title": "Jump to Page",
-            "Page": "Page",
-            "PagePlaceholder": "Enter page number...",
-            "Jump": "Jump"
+            "Title": "ページを指定して移動",
+            "Page": "ページ番号",
+            "PagePlaceholder": "例 1",
+            "Jump": "移動する"
         },
         "SelectLocalization": {
-            "Title": "Select Language",
-            "Description": "Select a preferred language:"
+            "Title": "言語選択",
+            "Description": "利用する言語を選択してください:"
         },
         "SelectTheme": {
-            "Title": "Select Theme",
-            "Description": "Select a theme:"
+            "Title": "テーマ選択",
+            "Description": "好きなテーマを選んでください:"
         },
         "Home": {
-            "Title": "Home",
-            "Play": "Play",
-            "Settings": "Settings",
+            "Title": "ホーム",
+            "Play": "プレイ",
+            "Settings": "全体設定",
             "UpdateAvailable": {
-                "Title": "Update Available",
-                "Description": "Sonolus version {0} is available!\n\nVisit our website:\nhttps://sonolus.com",
-                "Open": "Open"
+                "Title": "アップデート通知",
+                "Description": "Sonolus バージョン {0}が公開されました!\n\nサイト:\nhttps://sonolus.com から最新版をダウンロードしてください!",
+                "Open": "サイトを開く"
             }
         },
         "SelectServer": {
-            "Title": "Select Server",
+            "Title": "サーバー選択",
             "CustomServers": {
-                "Title": "Custom Servers",
+                "Title": "カスタムサーバー",
                 "RemoveConfirmation": {
-                    "Description": "Are you sure to remove \"{0}\"?"
+                    "Description": "\"{0}\"を削除しますか?\n\n削除後、再びこのサーバーを使う場合は再追加が必要になります。"
                 }
             },
             "Collections": {
-                "Title": "Collections",
+                "Title": "コレクション",
                 "RemoveConfirmation": {
-                    "Description": "Are you sure to remove \"{0}\"?"
+                    "Description": "本当に\"{0}\"を削除しますか?\n\nこの操作は取り消せません。\n\n削除後、コレクション内の内容は全て失われます。"
                 }
             }
         },
         "EditCustomServer": {
-            "Title": "Edit Custom Server",
-            "Address": "Address",
-            "AddressPlaceholder": "Enter custom server address...",
-            "Name": "Name",
-            "NamePlaceholder": "Enter custom server name..."
+            "Title": "カスタムサーバーの編集",
+            "Address": "サーバーアドレス",
+            "AddressPlaceholder": "例 https://servers.sonolus.com/test-prototype",
+            "Name": "サーバー名",
+            "NamePlaceholder": "例 Test Prototype"
         },
         "AddCustomServerAddress": {
-            "Title": "Add Custom Server",
-            "Address": "Address",
-            "AddressPlaceholder": "Enter custom server address..."
+            "Title": "カスタムサーバーの追加",
+            "Address": "サーバーアドレスを入力してください",
+            "AddressPlaceholder": "例 https://servers.sonolus.com/test-prototype"
         },
         "AddCustomServerInfo": {
-            "Title": "Add Custom Server",
-            "Name": "Name",
-            "NamePlaceholder": "Enter custom server name..."
+            "Title": "カスタムサーバーの追加",
+            "Name": "サーバー名を入力してください(任意)",
+            "NamePlaceholder": "例 Test Prototype"
         },
         "EditCollection": {
-            "Title": "Edit Collection",
-            "Name": "Name",
-            "NamePlaceholder": "Enter collection name..."
+            "Title": "コレクションの編集",
+            "Name": "コレクション名",
+            "NamePlaceholder": "例 お気に入り"
         },
         "AddCollection": {
-            "Title": "Add Collection",
-            "Name": "Name",
-            "NamePlaceholder": "Enter collection name..."
+            "Title": "コレクションの追加",
+            "Name": "コレクション名",
+            "NamePlaceholder": "例 お気に入り"
         },
         "SelectCollection": {
-            "Title": "Select Collection",
+            "Title": "コレクションの選択",
             "Collections": {
-                "Title": "Collections",
+                "Title": "コレクション一覧",
                 "RemoveConfirmation": {
-                    "Description": "Are you sure to remove \"{0}\"?"
+                    "Description": "本当に\"{0}\"を削除しますか?\n\nこの操作は取り消せません。\n\n削除後、コレクション内の内容は全て失われます。"
                 }
             }
         },
@@ -908,34 +908,34 @@
             }
         },
         "EditVisibility": {
-            "Scale": "Scale",
-            "Alpha": "Alpha"
+            "Scale": "大きさ",
+            "Alpha": "不透明度"
         },
         "EditAnimation": {
-            "Scale": "Scale",
-            "Alpha": "Alpha"
+            "Scale": "大きさ",
+            "Alpha": "不透明度"
         },
         "EditTween": {
-            "From": "From",
-            "To": "To",
-            "Duration": "Duration",
-            "Ease": "Ease"
+            "From": "開始値",
+            "To": "終了値",
+            "Duration": "所要時間",
+            "Ease": "イージング関数"
         },
         "EditColors": {
-            "Foreground": "Foreground",
-            "Background": "Background"
+            "Foreground": "文字色",
+            "Background": "縁色"
         },
         "Server": {
             "Home": {
                 "Levels": "レベル一覧",
                 "Skins": "スキン一覧",
                 "Backgrounds": "背景一覧",
-                "Effects": "SFX",
+                "Effects": "効果音一覧",
                 "Particles": "パーティクル一覧",
                 "Engines": "エンジン一覧"
             },
             "Search": {
-                "Title": "Search"
+                "Title": "検索"
             },
             "LevelList": {
                 "Title": "レベル一覧"
@@ -947,7 +947,7 @@
                 "Title": "背景一覧"
             },
             "EffectList": {
-                "Title": "SFX"
+                "Title": "効果音一覧"
             },
             "ParticleList": {
                 "Title": "パーティクル一覧"
@@ -975,212 +975,212 @@
                 "Play": {
                     "Effect": {
                         "Audio": {
-                            "Loading": "Decoding SFX audio...",
-                            "Error": "Failed to decode SFX audio of \"{0}\".\n\nPlease contact SFX author to report the problem."
+                            "Loading": "効果音をデコード中...",
+                            "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡下さい。"
                         }
                     },
                     "Level": {
                         "Bgm": {
-                            "Loading": "Decoding level BGM...",
-                            "Error": "Failed to decode level BGM of \"{0}\".\n\nPlease contact level author to report the problem."
+                            "Loading": "レベルBGMをデコード中...",
+                            "Error": "レベルBGM \"{0}\"のデコードに失敗しました。\n\nレベルの作者にご連絡ください。"
                         }
                     },
                     "Boot": {
-                        "Loading": "Booting level...",
-                        "Error": "Failed to boot level \"{0}\".\n\nPlease contact level author to report the problem."
+                        "Loading": "レベルを開始中...",
+                        "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
                     }
                 }
             },
             "LevelConfiguration": {
-                "Title": "Level Configuration",
+                "Title": "レベル設定",
                 "Options": {
-                    "Title": "Options"
+                    "Title": "オプション"
                 },
                 "UI": {
                     "Title": "UI",
-                    "PrimaryMetric": "Primary Metric",
-                    "SecondaryMetric": "Secondary Metric",
-                    "JudgmentErrorStyle": "Judgment Error Style",
-                    "JudgmentErrorPlacement": "Judgment Error Placement",
-                    "JudgmentErrorMin": "Minimum Judgment Error",
-                    "MenuStyle": "Menu Style",
-                    "JudgmentStyle": "Judgment Style",
-                    "ComboStyle": "Combo Style",
-                    "PrimaryMetricStyle": "Primary Metric Style",
-                    "SecondaryMetricStyle": "Secondary Metric Style"
+                    "PrimaryMetric": "メイン指標",
+                    "SecondaryMetric": "サブ指標",
+                    "JudgmentErrorStyle": "判定スタイル",
+                    "JudgmentErrorPlacement": "判定表示位置",
+                    "JudgmentErrorMin": "判定最小誤差",
+                    "MenuStyle": "メニュースタイル",
+                    "JudgmentStyle": "判定スタイル",
+                    "ComboStyle": "コンボスタイル",
+                    "PrimaryMetricStyle": "メイン指標スタイル",
+                    "SecondaryMetricStyle": "サブ指標スタイル"
                 },
                 "Offsets": {
-                    "Title": "Offsets",
-                    "LevelAudioOffset": "Level Audio Offset",
-                    "ServerAudioOffset": "Server Audio Offset",
-                    "EngineInputOffset": "Engine Input Offset"
+                    "Title": "オフセット",
+                    "LevelAudioOffset": "レベル音オフセット",
+                    "ServerAudioOffset": "サーバー音オフセット",
+                    "EngineInputOffset": "エンジン入力オフセット"
                 }
             },
             "BackgroundConfiguration": {
-                "Title": "Background Configuration",
+                "Title": "背景設定",
                 "Background": {
-                    "Title": "Background",
-                    "Blur": "Blur",
-                    "Mask": "Mask"
+                    "Title": "背景",
+                    "Blur": "ぼかし",
+                    "Mask": "マスク色"
                 }
             },
             "EngineConfiguration": {
-                "Title": "Engine Configuration",
+                "Title": "エンジン設定",
                 "Skin": {
-                    "Title": "Skin"
+                    "Title": "使用スキン"
                 },
                 "Background": {
-                    "Title": "Background"
+                    "Title": "使用背景"
                 },
                 "Effect": {
-                    "Title": "SFX"
+                    "Title": "使用効果音"
                 },
                 "Particle": {
-                    "Title": "Particle"
+                    "Title": "使用パーティクル"
                 },
                 "Options": {
-                    "Title": "Options"
+                    "Title": "オプション"
                 },
                 "UI": {
                     "Title": "UI",
-                    "PrimaryMetric": "Primary Metric",
-                    "SecondaryMetric": "Secondary Metric",
-                    "JudgmentErrorStyle": "Judgment Error Style",
-                    "JudgmentErrorPlacement": "Judgment Error Placement",
-                    "JudgmentErrorMin": "Minimum Judgment Error",
-                    "MenuStyle": "Menu Style",
-                    "JudgmentStyle": "Judgment Style",
-                    "ComboStyle": "Combo Style",
-                    "PrimaryMetricStyle": "Primary Metric Style",
-                    "SecondaryMetricStyle": "Secondary Metric Style"
+                    "PrimaryMetric": "メイン指標",
+                    "SecondaryMetric": "サブ指標",
+                    "JudgmentErrorStyle": "判定スタイル",
+                    "JudgmentErrorPlacement": "判定表示位置",
+                    "JudgmentErrorMin": "判定最小誤差",
+                    "MenuStyle": "メニュースタイル",
+                    "JudgmentStyle": "判定スタイル",
+                    "ComboStyle": "コンボスタイル",
+                    "PrimaryMetricStyle": "メイン指標スタイル",
+                    "SecondaryMetricStyle": "サブ指標スタイル"
                 },
                 "Offsets": {
-                    "Title": "Offsets",
-                    "EngineInputOffset": "Engine Input Offset"
+                    "Title": "オフセット",
+                    "EngineInputOffset": "エンジン入力オフセット"
                 }
             }
         },
         "Settings": {
-            "Title": "Settings",
+            "Title": "設定",
             "Graphics": {
-                "Title": "Graphics",
-                "RenderScale": "Render Scale",
+                "Title": "グラフィック",
+                "RenderScale": "レンダリング解像度",
                 "AntiAliasing": {
-                    "Title": "Anti-Aliasing",
+                    "Title": "アンチエイリアス",
                     "Options": {
-                        "Off": "Off",
-                        "TwoX": "2x",
-                        "FourX": "4x",
-                        "EightX": "8x"
+                        "Off": "オフ",
+                        "TwoX": "2倍",
+                        "FourX": "4倍",
+                        "EightX": "8倍"
                     }
                 },
-                "GpuParticleSystem": "GPU Particle System",
-                "IgnoreNotch": "Ignore Notch"
+                "GpuParticleSystem": "GPUパーティクルシステム",
+                "IgnoreNotch": "ノッチを無視"
             },
             "Audio": {
-                "Title": "Audio",
-                "BgmVolume": "BGM Volume",
-                "SfxVolume": "SFX Volume",
+                "Title": "オーディオ",
+                "BgmVolume": "BGM音量",
+                "SfxVolume": "SE音量",
                 "PreviewBgm": {
-                    "Title": "Preview BGM",
+                    "Title": "プレビューBGM",
                     "Options": {
-                        "Off": "Off",
-                        "DetailsOnly": "Details Only",
-                        "ListAndDetails": "List and Details"
+                        "Off": "オフ",
+                        "DetailsOnly": "詳細画面のみ",
+                        "ListAndDetails": "一覧画面と詳細画面"
                     }
                 }
             },
             "UI": {
                 "Title": "UI",
-                "Localization": "Language",
-                "Theme": "Theme",
-                "Scale": "UI Scale",
-                "PerfectJudgmentColors": "Perfect Judgment Colors",
-                "GreatJudgmentColors": "Great Judgment Colors",
-                "GoodJudgmentColors": "Good Judgment Colors",
-                "MissJudgmentColors": "Miss Judgment Colors",
-                "PositiveJudgmentErrorColors": "Positive Judgment Error Colors",
-                "NegativeJudgmentErrorColors": "Negative Judgment Error Colors",
-                "AllPerfectComboColors": "All Perfect Combo Colors",
-                "FullComboComboColors": "Full Combo Combo Colors",
-                "PassComboColors": "Pass Combo Colors",
-                "FailComboColors": "Fail Combo Colors",
-                "BoldComboNumber": "Bold Combo Number",
-                "ShowZeroCombo": "Show Zero Combo"
+                "Localization": "言語",
+                "Theme": "テーマ",
+                "Scale": "UIスケール",
+                "PerfectJudgmentColors": "Perfect判定色",
+                "GreatJudgmentColors": "Great判定色",
+                "GoodJudgmentColors": "Good判定色",
+                "MissJudgmentColors": "Miss判定色",
+                "PositiveJudgmentErrorColors": "ポジティブ判定の色",
+                "NegativeJudgmentErrorColors": "ネガティブ判定の色",
+                "AllPerfectComboColors": "All Perfect時のコンボ色",
+                "FullComboComboColors": "Full Combo時のコンボ色",
+                "PassComboColors": "Pass時のコンボ色",
+                "FailComboColors": "Fail時のコンボ色",
+                "BoldComboNumber": "太字コンボ表示",
+                "ShowZeroCombo": "ゼロコンボ表示"
             },
             "Offsets": {
-                "Title": "Offsets",
+                "Title": "オフセット",
                 "Device": {
-                    "Title": "Device",
-                    "Option": "Device {0}"
+                    "Title": "デバイス別オフセット",
+                    "Option": "デバイス {0}"
                 },
-                "DeviceAudioOffset": "Device Audio Offset",
-                "DeviceInputOffset": "Device Input Offset"
+                "DeviceAudioOffset": "デバイスの音オフセット",
+                "DeviceInputOffset": "デバイスの入力オフセット"
             },
             "Repository": {
-                "Title": "Repository",
-                "Manage": "Manage"
+                "Title": "リポジトリ",
+                "Manage": "管理"
             },
             "Cache": {
-                "Title": "Cache",
-                "AlwaysRevalidate": "Always Revalidate",
-                "Manage": "Manage"
+                "Title": "キャッシュ",
+                "AlwaysRevalidate": "常に再検証",
+                "Manage": "管理"
             },
             "Developer": {
-                "Title": "Developer",
-                "ShowFps": "Show FPS",
-                "ShowTouches": "Show Touches",
-                "TouchSize": "Touch Size",
-                "TouchAlpha": "Touch Alpha",
-                "DebugMode": "Debug Mode"
+                "Title": "開発者設定",
+                "ShowFps": "FPS表示",
+                "ShowTouches": "タッチ表示",
+                "TouchSize": "タッチ表示サイズ",
+                "TouchAlpha": "タッチ表示不透明度",
+                "DebugMode": "デバッグモード"
             }
         },
         "ManageRepository": {
-            "Title": "Manage Repository",
+            "Title": "リポジトリ管理",
             "Repository": {
-                "Title": "Repository",
-                "Description": "Repository stores all resources locally available on this device.",
-                "Size": "Size: {0}"
+                "Title": "リポジトリ",
+                "Description": "リポジトリには、オフラインで利用可能なすべてのリソースが保存されます。",
+                "Size": "全体サイズ：{0}"
             },
             "DeleteRepository": {
-                "Title": "Delete Repository",
-                "Description": "Delete all repository resources which causes Sonolus to re-download when requested.",
-                "Delete": "Delete",
+                "Title": "リポジトリの削除",
+                "Description": "リポジトリのリソースをすべて削除すると、必要になった際、再度ダウンロードが必要になります。",
+                "Delete": "削除する",
                 "DeleteConfirmation": {
-                    "Description": "Are you sure to delete all repository resources?",
-                    "Loading": "Deleting repository..."
+                    "Description": "本当にリポジトリの全てのリソースを削除してよろしいですか?",
+                    "Loading": "リポジトリを削除しています..."
                 }
             }
         },
         "ManageCache": {
-            "Title": "Manage Cache",
+            "Title": "キャッシュ管理",
             "Cache": {
-                "Title": "Cache",
-                "Description": "Cache allows Sonolus to speed up loading network requests and reduce bandwidth usage, by memorizing network URLs and the local repository resources they associate with.\nCache takes up a very small amount of storage, and is recommended to not be deleted.",
-                "Count": "Cache: {0} entries"
+                "Title": "キャッシュ",
+                "Description": "キャッシュはリソースとそれに関連するURLを一時的に記憶しておく機能です。この機能によりSonolusは、ネットワーク経由の読み込みを高速化し、データ転送量を削減します。キャッシュはごく少量のストレージしか使用しないため、削除しないことをお勧めします。",
+                "Count": "キャッシュ：{0}件"
             },
             "ExpireCache": {
-                "Title": "Expire Cache",
-                "Description": "Expire all cache which causes Sonolus to revalidate before using the local repository resources which network URLs are associated with.",
-                "Expire": "Expire",
+                "Title": "キャッシュの失効",
+                "Description": "失効させると、次回キャッシュ読み込み時にネットワーク経由でリソースの更新を検証します。更新がある場合ダウンロードが発生します。",
+                "Expire": "失効させる",
                 "ExpireConfirmation": {
-                    "Description": "Are you sure to expire all cache?"
+                    "Description": "すべてのキャッシュを失効させますか?"
                 }
             },
             "DeleteCache": {
-                "Title": "Delete Cache",
-                "Description": "Delete all cache which causes Sonolus to re-download all network requests. Not recommended.",
-                "Delete": "Delete",
+                "Title": "キャッシュの削除",
+                "Description": "削除すると、次回キャッシュ読み込み時、すべてのリソースの再ダウンロードが発生します。(おすすめしません)",
+                "Delete": "削除する",
                 "DeleteConfirmation": {
-                    "Description": "Are you sure to delete all cache?"
+                    "Description": "本当にキャッシュをすべて削除しますか?"
                 }
             }
         }
     },
     "Scp": {
         "PermissionError": {
-            "Description": "Sonolus is unable to obtain required permissions to perform this action.\n\nPlease open Settings and grant Sonolus permissions.",
-            "Open": "Open"
+            "Description": "指定された動作に必要な権限が不足しているため実行できません。\n\n端末の設定画面からSonolusに権限を付与してください。",
+            "Open": "設定画面を開く"
         }
     },
     "Runtimes": {
@@ -1215,12 +1215,12 @@
                                 "Title": "判定グラフ"
                             },
                             "Accuracy": {
-                                "Title": "Accuracy Graph",
-                                "AbsValue": "Abs Value",
-                                "Mean": "Mean",
-                                "StDev": "St Dev",
-                                "Min": "最小",
-                                "Max": "最大"
+                                "Title": "精度グラフ",
+                                "AbsValue": "絶対値",
+                                "Mean": "平均値",
+                                "StDev": "標準偏差",
+                                "Min": "最小値",
+                                "Max": "最大値"
                             },
                             "Bucket": {
                                 "Title": "バケットグラフ"
