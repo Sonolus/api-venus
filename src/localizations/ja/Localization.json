@@ -908,12 +908,12 @@
             }
         },
         "EditVisibility": {
-            "Scale": "Scale",
-            "Alpha": "Alpha"
+            "Scale": "大きさ",
+            "Alpha": "不透明度"
         },
         "EditAnimation": {
-            "Scale": "Scale",
-            "Alpha": "Alpha"
+            "Scale": "大きさ",
+            "Alpha": "不透明度"
         },
         "EditTween": {
             "From": "From",
@@ -922,8 +922,8 @@
             "Ease": "Ease"
         },
         "EditColors": {
-            "Foreground": "Foreground",
-            "Background": "Background"
+            "Foreground": "文字色",
+            "Background": "縁色"
         },
         "Server": {
             "Home": {
@@ -998,22 +998,22 @@
                 },
                 "UI": {
                     "Title": "UI",
-                    "PrimaryMetric": "Primary Metric",
-                    "SecondaryMetric": "Secondary Metric",
-                    "JudgmentErrorStyle": "Judgment Error Style",
-                    "JudgmentErrorPlacement": "Judgment Error Placement",
+                    "PrimaryMetric": "メイン指標",
+                    "SecondaryMetric": "サブ指標",
+                    "JudgmentErrorStyle": "判定スタイル",
+                    "JudgmentErrorPlacement": "判定表示位置",
                     "JudgmentErrorMin": "Minimum Judgment Error",
-                    "MenuStyle": "Menu Style",
+                    "MenuStyle": "メニュースタイル",
                     "JudgmentStyle": "Judgment Style",
                     "ComboStyle": "Combo Style",
-                    "PrimaryMetricStyle": "Primary Metric Style",
-                    "SecondaryMetricStyle": "Secondary Metric Style"
+                    "PrimaryMetricStyle": "メイン指標スタイル",
+                    "SecondaryMetricStyle": "サブ指標スタイル"
                 },
                 "Offsets": {
-                    "Title": "Offsets",
-                    "LevelAudioOffset": "Level Audio Offset",
-                    "ServerAudioOffset": "Server Audio Offset",
-                    "EngineInputOffset": "Engine Input Offset"
+                    "Title": "オフセット",
+                    "LevelAudioOffset": "レベル音オフセット",
+                    "ServerAudioOffset": "サーバー音オフセット",
+                    "EngineInputOffset": "エンジン入力オフセット"
                 }
             },
             "BackgroundConfiguration": {
