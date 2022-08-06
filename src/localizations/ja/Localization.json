@@ -1179,8 +1179,8 @@
     },
     "Scp": {
         "PermissionError": {
-            "Description": "Sonolus is unable to obtain required permissions to perform this action.\n\nPlease open Settings and grant Sonolus permissions.",
-            "Open": "Open"
+            "Description": "指定された動作に必要な権限が不足しているため実行できません。\n\n端末の設定画面からSonolusに権限を付与してください。",
+            "Open": "設定画面を開く"
         }
     },
     "Runtimes": {
