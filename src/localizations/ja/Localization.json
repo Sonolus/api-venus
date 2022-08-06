@@ -1188,42 +1188,42 @@
             "Play": {
                 "Routes": {
                     "Pause": {
-                        "Title": "Pause",
+                        "Title": "一時停止",
                         "Control": {
-                            "Title": "Control",
-                            "Exit": "Exit",
-                            "Restart": "Restart"
+                            "Title": "操作",
+                            "Exit": "終了",
+                            "Restart": "リスタート"
                         },
                         "Snapshot": {
-                            "Title": "Snapshot",
-                            "Record": "Record",
-                            "Replay": "Replay"
+                            "Title": "区間練習",
+                            "Record": "セーブ",
+                            "Replay": "ロード"
                         },
                         "Debug": {
-                            "Title": "Debug"
+                            "Title": "デバッグ"
                         }
                     },
                     "Result": {
-                        "Title": "Result",
+                        "Title": "リザルト",
                         "Options": {
-                            "HasUsedPause": "Pause",
-                            "HasUsedSnapshot": "Snapshot"
+                            "HasUsedPause": "一時停止使用",
+                            "HasUsedSnapshot": "区間練習使用"
                         },
                         "Graphs": {
-                            "Title": "Graphs",
+                            "Title": "グラフ",
                             "Judgment": {
-                                "Title": "Judgment Graph"
+                                "Title": "判定グラフ"
                             },
                             "Accuracy": {
                                 "Title": "Accuracy Graph",
                                 "AbsValue": "Abs Value",
                                 "Mean": "Mean",
                                 "StDev": "St Dev",
-                                "Min": "Min",
-                                "Max": "Max"
+                                "Min": "最小",
+                                "Max": "最大"
                             },
                             "Bucket": {
-                                "Title": "Bucket Graph"
+                                "Title": "バケットグラフ"
                             }
                         }
                     }
