@@ -192,14 +192,14 @@
             "Hex": "HEX",
             "Rgb": "RGB",
             "Hsv": "HSV",
-            "HexPlaceholder": "Enter color hex...",
-            "R": "Red",
-            "G": "Green",
-            "B": "Blue",
-            "H": "Hue",
-            "S": "Saturation",
-            "V": "Value",
-            "A": "Alpha"
+            "HexPlaceholder": "色(HEX値)を入力してください...",
+            "R": "赤 (R)",
+            "G": "緑 (G)",
+            "B": "青 (B)",
+            "H": "色相 (H)",
+            "S": "彩度 (S)",
+            "V": "明度 (V)",
+            "A": "透明度 (A)"
         },
         "PullToLoad": {
             "None": "最終ページです",
