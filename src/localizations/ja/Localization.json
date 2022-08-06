@@ -282,538 +282,538 @@
     "Clients": {
         "Master": {
             "Info": {
-                "Loading": "Loading Sonolus info...",
-                "Error": "Failed to load Sonolus info.\n\nPlease check your internet connection and try again."
+                "Loading": "Sonolusの最新情報を読み込み中...",
+                "Error": "Sonolusの最新情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
             },
             "List": {
-                "Loading": "Loading languages...",
-                "Error": "Failed to load languages.\n\nPlease check your internet connection and try again."
+                "Loading": "言語一覧を読み込み中...",
+                "Error": "言語一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
             },
             "Localization": {
-                "Loading": "Loading language...",
-                "Error": "Failed to load language \"{0}\".\n\nPlease check your internet connection and try again."
+                "Loading": "言語情報を読み込み中...",
+                "Error": "言語\"{0}\"の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
             }
         },
         "CustomServer": {
-            "SonolusVersionError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem.",
+            "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
             "ServerInfo": {
-                "Loading": "Loading server information...",
-                "Error": "Failed to load server information of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                "Loading": "サーバー情報を読み込み中...",
+                "Error": "\"{0}\"のサーバー情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
             },
             "Level": {
                 "List": {
                     "Loading": "レベル一覧を読み込み中...",
-                    "Error": "Failed to load レベル一覧 at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Details": {
                     "Loading": "レベル情報を読み込み中...",
-                    "Error": "Failed to load level details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Compatibility": {
                     "Loading": "レベルの互換性を確認中...",
-                    "Error": "Level \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nサーバーの管理者にお問い合わせ下さい。"
                 },
                 "Cover": {
                     "Loading": "レベルカバーを読み込み中...",
-                    "Error": "Failed to load level cover of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Bgm": {
                     "Loading": "レベルBGMを読み込み中...",
-                    "Error": "Failed to load level BGM of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Preview": {
                     "Loading": "レベルプレビューを読み込み中...",
-                    "Error": "Failed to load level preview of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Data": {
                     "Loading": "レベルデータを読み込み中...",
-                    "Error": "Failed to load level data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 }
             },
             "Skin": {
                 "List": {
                     "Loading": "スキン一覧を読み込み中...",
-                    "Error": "ページ {0} のスキン一覧の読み込みに失敗しました。\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Details": {
                     "Loading": "スキン情報を読み込み中...",
-                    "Error": "Failed to load skin details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Compatibility": {
                     "Loading": "スキンの互換性を確認中...",
-                    "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nサーバーの管理者にお問い合わせ下さい。"
                 },
                 "Thumbnail": {
                     "Loading": "スキンサムネイルを読み込み中...",
-                    "Error": "Failed to load skin thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Data": {
                     "Loading": "スキンデータを読み込み中...",
-                    "Error": "Failed to load skin data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Texture": {
                     "Loading": "スキンテクスチャを読み込み中...",
-                    "Error": "Failed to load skin texture of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 }
             },
             "Background": {
                 "List": {
                     "Loading": "背景一覧を読み込み中...",
-                    "Error": "Failed to load 背景一覧 at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Details": {
                     "Loading": "背景情報を読み込み中...",
-                    "Error": "Failed to load background details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Compatibility": {
                     "Loading": "背景の互換性を確認中...",
-                    "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nサーバーの管理者にお問い合わせ下さい。"
                 },
                 "Thumbnail": {
                     "Loading": "背景サムネイルを読み込み中...",
-                    "Error": "Failed to load background thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Data": {
                     "Loading": "背景データを読み込み中...",
-                    "Error": "Failed to load background data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Image": {
                     "Loading": "背景画像を読み込み中...",
-                    "Error": "Failed to load background image of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Configuration": {
                     "Loading": "背景設定を読み込み中...",
-                    "Error": "Failed to load background configuration of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 }
             },
             "Effect": {
                 "List": {
                     "Loading": "SE一覧を読み込み中...",
-                    "Error": "Failed to load SFX at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Details": {
                     "Loading": "SE情報を読み込み中...",
-                    "Error": "Failed to load SFX details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Compatibility": {
                     "Loading": "SEの互換性を確認中...",
-                    "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nサーバーの管理者にお問い合わせ下さい。"
                 },
                 "Thumbnail": {
                     "Loading": "SEサムネイルを読み込み中...",
-                    "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Data": {
                     "Loading": "SEデータを読み込み中...",
-                    "Error": "Failed to load SFX data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Audio": {
                     "Loading": "SE音源ファイルを読み込み中...",
-                    "Error": "Failed to load SFX audio of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 }
             },
             "Particle": {
                 "List": {
                     "Loading": "パーティクル一覧を読み込み中...",
-                    "Error": "Failed to load パーティクル一覧 at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Details": {
                     "Loading": "パーティクル情報を読み込み中...",
-                    "Error": "Failed to load particle details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Compatibility": {
                     "Loading": "パーティクルの互換性を確認中...",
-                    "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nサーバーの管理者にお問い合わせ下さい。"
                 },
                 "Thumbnail": {
                     "Loading": "パーティクルサムネイルを読み込み中...",
-                    "Error": "Failed to load particle thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Data": {
                     "Loading": "パーティクルデータを読み込み中...",
-                    "Error": "Failed to load particle data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Texture": {
                     "Loading": "パーティクルテクスチャを読み込み中...",
-                    "Error": "Failed to load particle texture of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 }
             },
             "Engine": {
                 "List": {
                     "Loading": "エンジン一覧を読み込み中...",
-                    "Error": "Failed to load エンジン一覧 at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Details": {
                     "Loading": "エンジン情報を読み込み中...",
-                    "Error": "Failed to load engine details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Compatibility": {
                     "Loading": "エンジンの互換性を確認中...",
-                    "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nサーバーの管理者にお問い合わせ下さい。"
                 },
                 "Thumbnail": {
                     "Loading": "エンジンサムネイルを読み込み中...",
-                    "Error": "Failed to load engine thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Data": {
                     "Loading": "エンジンデータを読み込み中...",
-                    "Error": "Failed to load engine data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Rom": {
                     "Loading": "エンジンROMを読み込み中...",
-                    "Error": "Failed to load engine rom of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 },
                 "Configuration": {
                     "Loading": "エンジン設定を読み込み中...",
-                    "Error": "Failed to load engine configuration of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
                 }
             }
         },
         "Collection": {
             "ServerInfo": {
-                "Loading": "Loading collection information...",
-                "Error": "Failed to load collection information of \"{0}\".\n\nYour collection may be corrupted."
+                "Loading": "コレクション情報を読み込み中...",
+                "Error": "\"{0}\"のコレクション情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
             },
             "Level": {
                 "List": {
                     "Loading": "レベル一覧を読み込み中...",
-                    "Error": "Failed to load レベル一覧 at page {0}.\n\nYour collection may be corrupted."
+                    "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Details": {
                     "Loading": "レベル情報を読み込み中...",
-                    "Error": "Failed to load level details of \"{0}\".\n\nYour collection may be corrupted."
+                    "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Compatibility": {
                     "Loading": "レベルの互換性を確認中...",
-                    "Error": "Level \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this level, or use a different level."
+                    "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
                 },
                 "Cover": {
                     "Loading": "レベルカバーを読み込み中...",
-                    "Error": "Failed to load level cover of \"{0}\".\n\nPlease update this level, or use a different level."
+                    "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
                 },
                 "Bgm": {
                     "Loading": "レベルBGMを読み込み中...",
-                    "Error": "Failed to load level BGM of \"{0}\".\n\nPlease update this level, or use a different level."
+                    "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
                 },
                 "Preview": {
                     "Loading": "レベルプレビューを読み込み中...",
-                    "Error": "Failed to load level preview of \"{0}\".\n\nPlease update this level, or use a different level."
+                    "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
                 },
                 "Data": {
                     "Loading": "レベルデータを読み込み中...",
-                    "Error": "Failed to load level data of \"{0}\".\n\nPlease update this level, or use a different level."
+                    "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
                 }
             },
             "Skin": {
                 "List": {
                     "Loading": "スキン一覧を読み込み中...",
-                    "Error": "ページ {0} のスキン一覧の読み込みに失敗しました。\n\nYour collection may be corrupted."
+                    "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Details": {
                     "Loading": "スキン情報を読み込み中...",
-                    "Error": "Failed to load skin details of \"{0}\".\n\nYour collection may be corrupted."
+                    "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Compatibility": {
                     "Loading": "スキンの互換性を確認中...",
-                    "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this skin, or use a different skin."
+                    "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
                 },
                 "Thumbnail": {
                     "Loading": "スキンサムネイルを読み込み中...",
-                    "Error": "Failed to load skin thumbnail of \"{0}\".\n\nPlease update this skin, or use a different skin."
+                    "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
                 },
                 "Data": {
                     "Loading": "スキンデータを読み込み中...",
-                    "Error": "Failed to load skin data of \"{0}\".\n\nPlease update this skin, or use a different skin."
+                    "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
                 },
                 "Texture": {
                     "Loading": "スキンテクスチャを読み込み中...",
-                    "Error": "Failed to load skin texture of \"{0}\".\n\nPlease update this skin, or use a different skin."
+                    "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
                 }
             },
             "Background": {
                 "List": {
                     "Loading": "背景一覧を読み込み中...",
-                    "Error": "Failed to load 背景一覧 at page {0}.\n\nYour collection may be corrupted."
+                    "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Details": {
                     "Loading": "背景情報を読み込み中...",
-                    "Error": "Failed to load background details of \"{0}\".\n\nYour collection may be corrupted."
+                    "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Compatibility": {
                     "Loading": "背景の互換性を確認中...",
-                    "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this background, or use a different background."
+                    "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
                 },
                 "Thumbnail": {
                     "Loading": "背景サムネイルを読み込み中...",
-                    "Error": "Failed to load background thumbnail of \"{0}\".\n\nPlease update this background, or use a different background."
+                    "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
                 },
                 "Data": {
                     "Loading": "背景データを読み込み中...",
-                    "Error": "Failed to load background data of \"{0}\".\n\nPlease update this background, or use a different background."
+                    "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
                 },
                 "Image": {
                     "Loading": "背景画像を読み込み中...",
-                    "Error": "Failed to load background image of \"{0}\".\n\nPlease update this background, or use a different background."
+                    "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
                 },
                 "Configuration": {
                     "Loading": "背景設定を読み込み中...",
-                    "Error": "Failed to load background configuration of \"{0}\".\n\nPlease update this background, or use a different background."
+                    "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
                 }
             },
             "Effect": {
                 "List": {
                     "Loading": "SE一覧を読み込み中...",
-                    "Error": "Failed to load SFX at page {0}.\n\nYour collection may be corrupted."
+                    "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Details": {
                     "Loading": "SE情報を読み込み中...",
-                    "Error": "Failed to load SFX details of \"{0}\".\n\nYour collection may be corrupted."
+                    "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Compatibility": {
                     "Loading": "SEの互換性を確認中...",
-                    "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this SFX, or use a different SFX."
+                    "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
                 },
                 "Thumbnail": {
                     "Loading": "SEサムネイルを読み込み中...",
-                    "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
+                    "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
                 },
                 "Data": {
                     "Loading": "SEデータを読み込み中...",
-                    "Error": "Failed to load SFX data of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
+                    "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
                 },
                 "Audio": {
                     "Loading": "SE音源ファイルを読み込み中...",
-                    "Error": "Failed to load SFX audio of \"{0}\".\n\nPlease update this SFX, or use a different SFX."
+                    "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
                 }
             },
             "Particle": {
                 "List": {
                     "Loading": "パーティクル一覧を読み込み中...",
-                    "Error": "Failed to load パーティクル一覧 at page {0}.\n\nYour collection may be corrupted."
+                    "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Details": {
                     "Loading": "パーティクル情報を読み込み中...",
-                    "Error": "Failed to load particle details of \"{0}\".\n\nYour collection may be corrupted."
+                    "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Compatibility": {
                     "Loading": "パーティクルの互換性を確認中...",
-                    "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this particle, or use a different particle."
+                    "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
                 },
                 "Thumbnail": {
                     "Loading": "パーティクルサムネイルを読み込み中...",
-                    "Error": "Failed to load particle thumbnail of \"{0}\".\n\nPlease update this particle, or use a different particle."
+                    "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
                 },
                 "Data": {
                     "Loading": "パーティクルデータを読み込み中...",
-                    "Error": "Failed to load particle data of \"{0}\".\n\nPlease update this particle, or use a different particle."
+                    "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
                 },
                 "Texture": {
                     "Loading": "パーティクルテクスチャを読み込み中...",
-                    "Error": "Failed to load particle texture of \"{0}\".\n\nPlease update this particle, or use a different particle."
+                    "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
                 }
             },
             "Engine": {
                 "List": {
                     "Loading": "エンジン一覧を読み込み中...",
-                    "Error": "Failed to load エンジン一覧 at page {0}.\n\nYour collection may be corrupted."
+                    "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Details": {
                     "Loading": "エンジン情報を読み込み中...",
-                    "Error": "Failed to load engine details of \"{0}\".\n\nYour collection may be corrupted."
+                    "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
                 },
                 "Compatibility": {
                     "Loading": "エンジンの互換性を確認中...",
-                    "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this engine, or use a different engine."
+                    "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
                 },
                 "Thumbnail": {
                     "Loading": "エンジンサムネイルを読み込み中...",
-                    "Error": "Failed to load engine thumbnail of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                    "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
                 },
                 "Data": {
                     "Loading": "エンジンデータを読み込み中...",
-                    "Error": "Failed to load engine data of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                    "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
                 },
                 "Rom": {
                     "Loading": "エンジンROMを読み込み中...",
-                    "Error": "Failed to load engine rom of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                    "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
                 },
                 "Configuration": {
                     "Loading": "エンジン設定を読み込み中...",
-                    "Error": "Failed to load engine configuration of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                    "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
                 }
             }
         },
         "Scp": {
             "ServerInfo": {
                 "Loading": "パッケージ情報を読み込み中...",
-                "Error": "Failed to load package information of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                "Error": "\"{0}\"のパッケージ情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
             },
             "Level": {
                 "List": {
                     "Loading": "レベル一覧を読み込み中...",
-                    "Error": "Failed to load レベル一覧 at page {0}.\n\nYour package may be unsupported or corrupted."
+                    "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Details": {
                     "Loading": "レベル情報を読み込み中...",
-                    "Error": "Failed to load level details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Compatibility": {
                     "Loading": "レベルの互換性を確認中...",
-                    "Error": "Level \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                    "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Cover": {
                     "Loading": "レベルカバーを読み込み中...",
-                    "Error": "Failed to load level cover of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Bgm": {
                     "Loading": "レベルBGMを読み込み中...",
-                    "Error": "Failed to load level BGM of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Preview": {
                     "Loading": "レベルプレビューを読み込み中...",
-                    "Error": "Failed to load level preview of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Data": {
                     "Loading": "レベルデータを読み込み中...",
-                    "Error": "Failed to load level data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 }
             },
             "Skin": {
                 "List": {
                     "Loading": "スキン一覧を読み込み中...",
-                    "Error": "ページ {0} のスキン一覧の読み込みに失敗しました。\n\nYour package may be unsupported or corrupted."
+                    "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Details": {
                     "Loading": "スキン情報を読み込み中...",
-                    "Error": "Failed to load skin details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Compatibility": {
                     "Loading": "スキンの互換性を確認中...",
-                    "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                    "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Thumbnail": {
                     "Loading": "スキンサムネイルを読み込み中...",
-                    "Error": "Failed to load skin thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Data": {
                     "Loading": "スキンデータを読み込み中...",
-                    "Error": "Failed to load skin data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Texture": {
                     "Loading": "スキンテクスチャを読み込み中...",
-                    "Error": "Failed to load skin texture of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 }
             },
             "Background": {
                 "List": {
                     "Loading": "背景一覧を読み込み中...",
-                    "Error": "Failed to load 背景一覧 at page {0}.\n\nYour package may be unsupported or corrupted."
+                    "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Details": {
                     "Loading": "背景情報を読み込み中...",
-                    "Error": "Failed to load background details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Compatibility": {
                     "Loading": "背景の互換性を確認中...",
-                    "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                    "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Thumbnail": {
                     "Loading": "背景サムネイルを読み込み中...",
-                    "Error": "Failed to load background thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Data": {
                     "Loading": "背景データを読み込み中...",
-                    "Error": "Failed to load background data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Image": {
                     "Loading": "背景画像を読み込み中...",
-                    "Error": "Failed to load background image of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Configuration": {
                     "Loading": "背景設定を読み込み中...",
-                    "Error": "Failed to load background configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 }
             },
             "Effect": {
                 "List": {
                     "Loading": "SE一覧を読み込み中...",
-                    "Error": "Failed to load SFX at page {0}.\n\nYour package may be unsupported or corrupted."
+                    "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Details": {
                     "Loading": "SE情報を読み込み中...",
-                    "Error": "Failed to load SFX details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Compatibility": {
                     "Loading": "SEの互換性を確認中...",
-                    "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                    "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Thumbnail": {
                     "Loading": "SEサムネイルを読み込み中...",
-                    "Error": "Failed to load SFX thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Data": {
                     "Loading": "SEデータを読み込み中...",
-                    "Error": "Failed to load SFX data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Audio": {
                     "Loading": "SE音源ファイルを読み込み中...",
-                    "Error": "Failed to load SFX audio of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 }
             },
             "Particle": {
                 "List": {
                     "Loading": "パーティクル一覧を読み込み中...",
-                    "Error": "Failed to load パーティクル一覧 at page {0}.\n\nYour package may be unsupported or corrupted."
+                    "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Details": {
                     "Loading": "パーティクル情報を読み込み中...",
-                    "Error": "Failed to load particle details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Compatibility": {
                     "Loading": "パーティクルの互換性を確認中...",
-                    "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                    "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Thumbnail": {
                     "Loading": "パーティクルサムネイルを読み込み中...",
-                    "Error": "Failed to load particle thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Data": {
                     "Loading": "パーティクルデータを読み込み中...",
-                    "Error": "Failed to load particle data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Texture": {
                     "Loading": "パーティクルテクスチャを読み込み中...",
-                    "Error": "Failed to load particle texture of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 }
             },
             "Engine": {
                 "List": {
                     "Loading": "エンジン一覧を読み込み中...",
-                    "Error": "Failed to load エンジン一覧 at page {0}.\n\nYour package may be unsupported or corrupted."
+                    "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Details": {
                     "Loading": "エンジン情報を読み込み中...",
-                    "Error": "Failed to load engine details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Compatibility": {
                     "Loading": "エンジンの互換性を確認中...",
-                    "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                    "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Thumbnail": {
                     "Loading": "エンジンサムネイルを読み込み中...",
-                    "Error": "Failed to load engine thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Data": {
                     "Loading": "エンジンデータを読み込み中...",
-                    "Error": "Failed to load engine data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Rom": {
                     "Loading": "エンジンROMを読み込み中...",
-                    "Error": "Failed to load engine rom of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 },
                 "Configuration": {
                     "Loading": "エンジン設定を読み込み中...",
-                    "Error": "Failed to load engine configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
                 }
             }
         }
@@ -903,8 +903,8 @@
         },
         "ImportScp": {
             "Scp": {
-                "Loading": "Loading package...",
-                "Error": "Failed to load package \"{0}\".\n\nYour package may be unsupported or corrupted."
+                "Loading": "パッケージを読み込み中...",
+                "Error": "パッケージ\"{0}\"の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
             }
         },
         "EditVisibility": {
