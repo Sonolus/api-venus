@@ -201,6 +201,9 @@
       "V": "明度",
       "A": "透明度"
     },
+    "DeviceOffsetField": {
+      "Calibrate": "校準"
+    },
     "PullToLoad": {
       "None": "沒有更多內容",
       "More": "下拉載入更多"
@@ -925,6 +928,17 @@
       "Foreground": "前景",
       "Background": "背景"
     },
+    "CalibrateAudio": {
+      "Title": "校準音頻",
+      "Description": "通過調整設備音頻偏移來校準音頻，直到音頻與圖像同步。",
+      "DeviceAudioOffset": "設備音頻偏移"
+    },
+    "CalibrateInput": {
+      "Title": "校準輸入",
+      "Description": "通過點擊螢幕來校準輸入。請先請確保正確校準您的音頻偏移。\n如果您習慣了不提供此類選項的遊戲，可以將這個選項保持為0。",
+      "Result": "建議偏移：{0} (±{1})",
+      "DeviceInputOffset": "設備輸入偏移"
+    },
     "Server": {
       "Home": {
         "Levels": "關卡",
@@ -936,6 +950,11 @@
       },
       "Search": {
         "Title": "搜尋"
+      },
+      "ItemList": {
+        "DeleteConfirmation": {
+          "Description": "您確定要刪除“{0}”嗎？"
+        }
       },
       "LevelList": {
         "Title": "關卡"
@@ -996,6 +1015,11 @@
         "Options": {
           "Title": "選項"
         },
+        "Audio": {
+          "Title": "音頻",
+          "BgmVolume": "樂曲音量",
+          "SfxVolume": "SE音量"
+        },
         "UI": {
           "Title": "UI",
           "PrimaryMetric": "主要指標",
@@ -1013,7 +1037,9 @@
           "Title": "偏移",
           "LevelAudioOffset": "關卡音頻偏移",
           "ServerAudioOffset": "伺服器音頻偏移",
-          "EngineInputOffset": "引擎輸入偏移"
+          "DeviceAudioOffset": "設備音頻偏移",
+          "EngineInputOffset": "引擎輸入偏移",
+          "DeviceInputOffset": "設備輸入偏移"
         }
       },
       "BackgroundConfiguration": {
@@ -1081,12 +1107,29 @@
         "Title": "音頻",
         "BgmVolume": "樂曲音量",
         "SfxVolume": "SE音量",
+        "AlwaysDecodeLevelBgm": "始終解碼關卡樂曲",
         "PreviewBgm": {
           "Title": "預覽樂曲",
           "Options": {
             "Off": "關",
             "DetailsOnly": "只在詳情",
             "ListAndDetails": "在列表和詳情"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "關卡樂曲質量",
+          "Options": {
+            "Low": "低",
+            "Mid": "中",
+            "High": "高"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "預覽樂曲質量",
+          "Options": {
+            "Low": "低",
+            "Mid": "中",
+            "High": "高"
           }
         }
       },
@@ -1129,10 +1172,11 @@
       "Developer": {
         "Title": "開發工具",
         "ShowFps": "顯示 FPS",
+        "FpsStyle": "FPS樣式",
         "ShowTouches": "顯示觸摸點",
-        "TouchSize": "觸摸點大小",
-        "TouchAlpha": "觸摸點透明度",
-        "DebugMode": "開發模式"
+        "TouchStyle": "觸摸點樣式",
+        "DebugMode": "開發模式",
+        "DebugLogStyle": "開發日誌樣式"
       }
     },
     "ManageRepository": {
@@ -1196,8 +1240,8 @@
             },
             "Snapshot": {
               "Title": "選段重玩",
-              "Record": "設置錨點",
-              "Replay": "退回錨點"
+              "Mark": "標記",
+              "Jump": "跳回"
             },
             "Debug": {
               "Title": "開發工具"
