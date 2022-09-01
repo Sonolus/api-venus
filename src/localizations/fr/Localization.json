@@ -201,6 +201,9 @@
       "V": "Value",
       "A": "Alpha"
     },
+    "DeviceOffsetField": {
+      "Calibrate": "Calibrez l'audio en ajustant le décalage audio du périphérique jusqu'à ce que l'audio et les graphiques soient synchronisés."
+    },
     "PullToLoad": {
       "None": "Rien de plus à charger",
       "More": "Tirez pour charger plus"
@@ -925,6 +928,17 @@
       "Foreground": "Premier plan",
       "Background": "Arrière plan"
     },
+    "CalibrateAudio": {
+      "Title": "Calibrate Audio",
+      "Description": "Calibrez l'audio en ajustant le décalage audio du périphérique jusqu'à ce que l'audio et les graphiques soient synchronisés.",
+      "DeviceAudioOffset": "Device Audio Offset"
+    },
+    "CalibrateInput": {
+      "Title": "Calibrer l'entrée",
+      "Description": "Calibrez l'entrée en appuyant avec votre doigt. Veuillez d'abord vous assurer que votre décalage audio est correctement calibré.\nSi vous êtes habitué aux jeux qui n'offrent pas cette option, vous pouvez le laisser à 0.",
+      "Result": "Recommended Offset: {0} (±{1})",
+      "DeviceInputOffset": "Device Input Offset"
+    },
     "Server": {
       "Home": {
         "Levels": "Niveaux",
@@ -936,6 +950,11 @@
       },
       "Search": {
         "Title": "Chercher"
+      },
+      "ItemList": {
+        "DeleteConfirmation": {
+          "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
+        }
       },
       "LevelList": {
         "Title": "Niveaux"
@@ -996,6 +1015,11 @@
         "Options": {
           "Title": "Options"
         },
+        "Audio": {
+          "Title": "Audio",
+          "BgmVolume": "BGM Volume",
+          "SfxVolume": "SFX Volume"
+        },
         "UI": {
           "Title": "UI",
           "PrimaryMetric": "Métrique principale",
@@ -1013,7 +1037,9 @@
           "Title": "Offsets",
           "LevelAudioOffset": "Level Audio Offset",
           "ServerAudioOffset": "Server Audio Offset",
-          "EngineInputOffset": "Engine Input Offset"
+          "DeviceAudioOffset": "Device Audio Offset",
+          "EngineInputOffset": "Engine Input Offset",
+          "DeviceInputOffset": "Device Input Offset"
         }
       },
       "BackgroundConfiguration": {
@@ -1081,12 +1107,29 @@
         "Title": "Audio",
         "BgmVolume": "BGM Volume",
         "SfxVolume": "SFX Volume",
+        "AlwaysDecodeLevelBgm": "Toujours décoder le niveau BGM",
         "PreviewBgm": {
           "Title": "Preview BGM",
           "Options": {
             "Off": "Off",
             "DetailsOnly": "Détails uniquement",
             "ListAndDetails": "Liste et détails"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "Niveau de qualité BGM",
+          "Options": {
+            "Low": "Low",
+            "Mid": "Mid",
+            "High": "High"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "Preview de la qualité BGM",
+          "Options": {
+            "Low": "Low",
+            "Mid": "Mid",
+            "High": "High"
           }
         }
       },
@@ -1129,10 +1172,11 @@
       "Developer": {
         "Title": "Développeur",
         "ShowFps": "Afficher FPS",
+        "FpsStyle": "FPS Style",
         "ShowTouches": "Afficher les touches",
-        "TouchSize": "Taille des touches",
-        "TouchAlpha": "Touche Alpha",
-        "DebugMode": "Debug Mode"
+        "TouchStyle": "Style tactile",
+        "DebugMode": "Debug Mode",
+        "DebugLogStyle": "Debug Log Style"
       }
     },
     "ManageRepository": {
@@ -1196,8 +1240,8 @@
             },
             "Snapshot": {
               "Title": "Snapshot",
-              "Record": "Record",
-              "Replay": "Replay"
+              "Mark": "Mark",
+              "Jump": "Jump"
             },
             "Debug": {
               "Title": "Debug"
