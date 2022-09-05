@@ -929,7 +929,9 @@
       "Background": "縁色"
     },
     "CalibrateAudio": {
-      "Title": "音声の調整"
+      "Title": "音声の調整",
+      "Description": "音と画面が合うまでデバイス音オフセットを調整してください。",
+      "DeviceAudioOffset": "デバイス音オフセット"
     },
     "CalibrateInput": {
       "Title": "入力の調整",
