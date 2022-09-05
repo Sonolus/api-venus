@@ -929,9 +929,13 @@
       "Background": "縁色"
     },
     "CalibrateAudio": {
+      "Title": "音声の調整"
     },
     "CalibrateInput": {
-      "Description": "指でタップして入力を調整します。調整前に、オーディオオフセットが正しく調整されていることを確認してください。\nこのようなオプションがあるゲームに慣れていない場合は、0 のままにしておくのをお勧めします。"
+      "Title": "入力の調整",
+      "Description": "指でタップして入力を調整します。調整前に、オーディオオフセットが正しく調整されていることを確認してください。\nこのようなオプションがあるゲームに慣れていない場合は、0 のままにしておくのをお勧めします。",
+      "Result": "おすすめオフセット: {0} (±{1})",
+      "DeviceInputOffset": "デバイス入力オフセット"
     },
     "Server": {
       "Home": {
@@ -947,6 +951,7 @@
       },
       "ItemList": {
         "DeleteConfirmation": {
+          "Description": "「{0}」を削除してもよろしいですか?"
         }
       },
       "LevelList": {
@@ -1009,6 +1014,9 @@
           "Title": "オプション"
         },
         "Audio": {
+          "Title": "オーディオ",
+          "BgmVolume": "BGMの音量",
+          "SfxVolume": "効果音の音量"
         },
         "UI": {
           "Title": "UI",
@@ -1027,7 +1035,9 @@
           "Title": "オフセット",
           "LevelAudioOffset": "レベル音オフセット",
           "ServerAudioOffset": "サーバー音オフセット",
-          "EngineInputOffset": "エンジン入力オフセット"
+          "DeviceAudioOffset": "デバイス音オフセット",
+          "EngineInputOffset": "エンジン入力オフセット",
+          "DeviceInputOffset": "デバイス入力オフセット"
         }
       },
       "BackgroundConfiguration": {
@@ -1095,6 +1105,7 @@
         "Title": "オーディオ",
         "BgmVolume": "BGM音量",
         "SfxVolume": "SE音量",
+        "AlwaysDecodeLevelBgm": "常にレベルBGMをデコードする",
         "PreviewBgm": {
           "Title": "プレビューBGM",
           "Options": {
@@ -1104,7 +1115,11 @@
           }
         },
         "LevelBgmQuality": {
+          "Title": "レベルBGMの品質",
           "Options": {
+            "Low": "低",
+            "Mid": "中",
+            "High": "高"
           }
         },
         "PreviewBgmQuality": {
@@ -1155,6 +1170,7 @@
       "Developer": {
         "Title": "開発者設定",
         "ShowFps": "FPS表示",
+        "FpsStyle": "FPSの見た目",
         "ShowTouches": "タッチ表示",
         "TouchStyle": "タッチ時のスタイル",
         "DebugMode": "デバッグモード",
