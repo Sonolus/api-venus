@@ -30,7 +30,7 @@
       "#JUDGMENT_LOOSE": "Penilaian Longgar",
       "#EFFECT": "SFX",
       "#EFFECT_AUTO": "SFX Auto ",
-      "#STAGE": "Visibilitas Stage",
+      "#STAGE": "Stage",
       "#STAGE_SIZE": "Ukuran Stage",
       "#STAGE_ROTATION": "Rotasi Stage",
       "#STAGE_ALPHA": "Transparansi Stage",
@@ -43,7 +43,7 @@
       "#STAGE_EFFECT_SIZE": "Ukuran Efek Stage",
       "#STAGE_EFFECT_ROTATION": "Rotasi Efek Stage",
       "#STAGE_EFFECT_ALPHA": "Transparansi Efek Stage",
-      "#LANE": "Visibilitas Lane",
+      "#LANE": "Lane",
       "#LANE_SIZE": "Ukuran Lane",
       "#LANE_ROTATION": "Rotasi Lane",
       "#LANE_ALPHA": "Transparansi Lane",
@@ -51,7 +51,7 @@
       "#LANE_EFFECT_SIZE": "Ukuran Efek Lane",
       "#LANE_EFFECT_ROTATION": "Rotasi Efek Lane",
       "#LANE_EFFECT_ALPHA": "Transparansi Efek Lane",
-      "#JUDGELINE": "Visibilitas Penilaian Line",
+      "#JUDGELINE": "Penilaian Line",
       "#JUDGELINE_SIZE": "Ukuran Penilaian Line",
       "#JUDGELINE_ROTATION": "Rotasi Penilaian Line",
       "#JUDGELINE_ALPHA": "Transparansi Penilaian Line",
@@ -59,7 +59,7 @@
       "#JUDGELINE_EFFECT_SIZE": "Penilaian Ukuran Efek Line",
       "#JUDGELINE_EFFECT_ROTATION": "Rotasi Efek Penilaian Line",
       "#JUDGELINE_EFFECT_ALPHA": "Transparansi Efek Penilaian Line",
-      "#SLOT": "Visibilitas Slot",
+      "#SLOT": "Slot",
       "#SLOT_SIZE": "Ukuran Slot",
       "#SLOT_ROTATION": "Rotasi Slot",
       "#SLOT_ALPHA": "Transparansi Slot",
@@ -67,7 +67,7 @@
       "#SLOT_EFFECT_SIZE": "Ukuran Efek Slot",
       "#SLOT_EFFECT_ROTATION": "Rotasi Efek Slot",
       "#SLOT_EFFECT_ALPHA": "Transparansi Efek Slot",
-      "#NOTE": "Visibilitas Note",
+      "#NOTE": "Note",
       "#NOTE_SPEED": "Kecepatan Note",
       "#NOTE_SPEED_RANDOM": "Acak Kecepatan Note",
       "#NOTE_SIZE": "Ukuran Note",
@@ -77,15 +77,15 @@
       "#NOTE_EFFECT_SIZE": "Ukuran Efek Note",
       "#NOTE_EFFECT_ROTATION": "Rotasi Efek Note",
       "#NOTE_EFFECT_ALPHA": "Transparansi Efek Note",
-      "#MARKER": "Visibilitas Marker",
+      "#MARKER": "Marker",
       "#MARKER_SIZE": "Ukuran Marker",
       "#MARKER_ROTATION": "Rotasi Marker",
       "#MARKER_ALPHA": "Transparansi Marker",
-      "#CONNECTOR": "Visibilitas Konektor",
+      "#CONNECTOR": "Konektor",
       "#CONNECTOR_SIZE": "Ukuran Konektor",
       "#CONNECTOR_ROTATION": "Rotasi Konektor",
       "#CONNECTOR_ALPHA": "Transparansi Konektor",
-      "#SIMLINE": "Visibilitas Line Simultan",
+      "#SIMLINE": "Line Simultan",
       "#SIMLINE_SIZE": "Ukuran Line Simultan",
       "#SIMLINE_ROTATION": "Rotasi Line Simultan",
       "#SIMLINE_ALPHA": "Transparansi Line Simultan"
@@ -200,6 +200,9 @@
       "S": "Saturasi",
       "V": "Value",
       "A": "Alpha"
+    },
+    "DeviceOffsetField": {
+      "Calibrate": "Kalibrasi"
     },
     "PullToLoad": {
       "None": "Tidak ada lagi yang harus dimuat",
@@ -925,6 +928,17 @@
       "Foreground": "Foreground",
       "Background": "Background"
     },
+    "CalibrateAudio": {
+      "Title": "Kalibrasi Audio",
+      "Description": "Kalibrasi audio dengan menyesuaikan Offset Audio Perangkat sampai audio dan grafik sinkron.",
+      "DeviceAudioOffset": "Offset Audio Perangkat"
+    },
+    "CalibrateInput": {
+      "Title": "Kalibrasi Input",
+      "Description": "Kalibrasi input dengan mengetuk dengan jari Anda. Pastikan offset audio Anda dikalibrasi dengan benar terlebih dulu.\nJika Anda terbiasa dengan game yang tidak menawarkan opsi seperti itu, Anda bisa membiarkannya pada 0.\n",
+      "Result": "Rekomendasi Offset: {0} (±{1})",
+      "DeviceInputOffset": "Offset Input Perangkat"
+    },
     "Server": {
       "Home": {
         "Levels": "Level",
@@ -936,6 +950,11 @@
       },
       "Search": {
         "Title": "Cari"
+      },
+      "ItemList": {
+        "DeleteConfirmation": {
+          "Description": "Apakah Anda yakin ingin menghapus \"{0}\"?"
+        }
       },
       "LevelList": {
         "Title": "Level"
@@ -996,6 +1015,11 @@
         "Options": {
           "Title": "Opsi"
         },
+        "Audio": {
+          "Title": "Audio",
+          "BgmVolume": "Volume BGM",
+          "SfxVolume": "Volume SFX"
+        },
         "UI": {
           "Title": "UI",
           "PrimaryMetric": "Metrik Utama",
@@ -1013,7 +1037,9 @@
           "Title": "Offset",
           "LevelAudioOffset": "Offset Audio Level",
           "ServerAudioOffset": "Offset Audio Server",
-          "EngineInputOffset": "Offset Input Mesin"
+          "DeviceAudioOffset": "Offset Audio Perangkat",
+          "EngineInputOffset": "Offset Input Mesin",
+          "DeviceInputOffset": "Offset Input Perangkat"
         }
       },
       "BackgroundConfiguration": {
@@ -1081,12 +1107,29 @@
         "Title": "Audio",
         "BgmVolume": "Volume BGM",
         "SfxVolume": "Volume SFX",
+        "AlwaysDecodeLevelBgm": "Selalu Decode BGM Level",
         "PreviewBgm": {
           "Title": "Pratinjau BGM",
           "Options": {
             "Off": "Off",
             "DetailsOnly": "Detail",
             "ListAndDetails": "Daftar dan Detail"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "Kualitas BGM Level",
+          "Options": {
+            "Low": "Buruk",
+            "Mid": "Biasa",
+            "High": "Bagus"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "Kualitas Pratinjau BGM",
+          "Options": {
+            "Low": "Buruk",
+            "Mid": "Biasa",
+            "High": "Bagus"
           }
         }
       },
@@ -1129,10 +1172,11 @@
       "Developer": {
         "Title": "Pengembang",
         "ShowFps": "Tampilkan FPS",
+        "FpsStyle": "Style FPS",
         "ShowTouches": "Tampilkan Sentuhan",
-        "TouchSize": "Ukuran Sentuhan",
-        "TouchAlpha": "Alpha Sentuhan",
-        "DebugMode": "Mode Debug"
+        "TouchStyle": "Style Sentuhan",
+        "DebugMode": "Mode Debug",
+        "DebugLogStyle": "Style Debug Log"
       }
     },
     "ManageRepository": {
@@ -1196,8 +1240,8 @@
             },
             "Snapshot": {
               "Title": "Snapshot",
-              "Record": "Simpan",
-              "Replay": "Ulang"
+              "Mark": "Tandai",
+              "Jump": "Balik"
             },
             "Debug": {
               "Title": "Debug"

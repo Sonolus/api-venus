@@ -30,7 +30,7 @@
       "#JUDGMENT_LOOSE": "宽松判定",
       "#EFFECT": "音效",
       "#EFFECT_AUTO": "自动音效",
-      "#STAGE": "舞台可见性",
+      "#STAGE": "舞台",
       "#STAGE_SIZE": "舞台大小",
       "#STAGE_ROTATION": "舞台旋转",
       "#STAGE_ALPHA": "舞台透明度",
@@ -43,7 +43,7 @@
       "#STAGE_EFFECT_SIZE": "舞台效果大小",
       "#STAGE_EFFECT_ROTATION": "舞台效果旋转",
       "#STAGE_EFFECT_ALPHA": "舞台效果透明度",
-      "#LANE": "轨道可见性",
+      "#LANE": "轨道",
       "#LANE_SIZE": "轨道大小",
       "#LANE_ROTATION": "轨道旋转",
       "#LANE_ALPHA": "轨道透明度",
@@ -51,7 +51,7 @@
       "#LANE_EFFECT_SIZE": "轨道效果大小",
       "#LANE_EFFECT_ROTATION": "轨道效果旋转",
       "#LANE_EFFECT_ALPHA": "轨道效果透明度",
-      "#JUDGELINE": "判定线可见性",
+      "#JUDGELINE": "判定线",
       "#JUDGELINE_SIZE": "判定线大小",
       "#JUDGELINE_ROTATION": "判定线旋转",
       "#JUDGELINE_ALPHA": "判定线透明度",
@@ -59,7 +59,7 @@
       "#JUDGELINE_EFFECT_SIZE": "判定线效果大小",
       "#JUDGELINE_EFFECT_ROTATION": "判定线效果旋转",
       "#JUDGELINE_EFFECT_ALPHA": "判定线效果透明度",
-      "#SLOT": "键位可见性",
+      "#SLOT": "键位",
       "#SLOT_SIZE": "键位大小",
       "#SLOT_ROTATION": "键位旋转",
       "#SLOT_ALPHA": "键位透明度",
@@ -67,7 +67,7 @@
       "#SLOT_EFFECT_SIZE": "键位效果大小",
       "#SLOT_EFFECT_ROTATION": "键位效果旋转",
       "#SLOT_EFFECT_ALPHA": "键位效果透明度",
-      "#NOTE": "音符可见性",
+      "#NOTE": "音符",
       "#NOTE_SPEED": "音符速度",
       "#NOTE_SPEED_RANDOM": "随机音符速度",
       "#NOTE_SIZE": "音符大小",
@@ -77,15 +77,15 @@
       "#NOTE_EFFECT_SIZE": "音符效果大小",
       "#NOTE_EFFECT_ROTATION": "音符效果旋转",
       "#NOTE_EFFECT_ALPHA": "音符效果透明度",
-      "#MARKER": "标记可见性",
+      "#MARKER": "标记",
       "#MARKER_SIZE": "标记大小",
       "#MARKER_ROTATION": "标记旋转",
       "#MARKER_ALPHA": "标记透明度",
-      "#CONNECTOR": "音符连接可见性",
+      "#CONNECTOR": "音符连接",
       "#CONNECTOR_SIZE": "音符连接大小",
       "#CONNECTOR_ROTATION": "音符连接旋转",
       "#CONNECTOR_ALPHA": "音符连接透明度",
-      "#SIMLINE": "同步线可见性",
+      "#SIMLINE": "同步线",
       "#SIMLINE_SIZE": "同步线大小",
       "#SIMLINE_ROTATION": "同步线旋转",
       "#SIMLINE_ALPHA": "同步线透明度"
@@ -200,6 +200,9 @@
       "S": "饱和（S）",
       "V": "值（V）",
       "A": "透明度（A）"
+    },
+    "DeviceOffsetField": {
+      "Calibrate": "校准"
     },
     "PullToLoad": {
       "None": "无更多内容",
@@ -925,6 +928,17 @@
       "Foreground": "前景",
       "Background": "背景"
     },
+    "CalibrateAudio": {
+      "Title": "校准音频",
+      "Description": "通过调整设备音频偏移来校准音频，让音频和图形同步。",
+      "DeviceAudioOffset": "设备音频偏移"
+    },
+    "CalibrateInput": {
+      "Title": "校准输入",
+      "Description": "通过用手指敲击来校准输入。请首先确保您的音频偏移已正确校准。\n如果您习惯玩不带此选项的游戏，可以保留为0。",
+      "Result": "推荐偏移：{0} (±{1})",
+      "DeviceInputOffset": "设备输入偏移"
+    },
     "Server": {
       "Home": {
         "Levels": "关卡",
@@ -936,6 +950,11 @@
       },
       "Search": {
         "Title": "搜索"
+      },
+      "ItemList": {
+        "DeleteConfirmation": {
+          "Description": "您确定要删除“{0}”吗？"
+        }
       },
       "LevelList": {
         "Title": "关卡"
@@ -996,6 +1015,11 @@
         "Options": {
           "Title": "选项"
         },
+        "Audio": {
+          "Title": "音频",
+          "BgmVolume": "音乐音量",
+          "SfxVolume": "音效音量"
+        },
         "UI": {
           "Title": "用户界面",
           "PrimaryMetric": "主要指标",
@@ -1013,7 +1037,9 @@
           "Title": "偏移",
           "LevelAudioOffset": "关卡音频偏移",
           "ServerAudioOffset": "服务器音频偏移",
-          "EngineInputOffset": "引擎输入偏移"
+          "DeviceAudioOffset": "设备音频偏移",
+          "EngineInputOffset": "引擎输入偏移",
+          "DeviceInputOffset": "设备输入偏移"
         }
       },
       "BackgroundConfiguration": {
@@ -1081,12 +1107,29 @@
         "Title": "音频",
         "BgmVolume": "音乐音量",
         "SfxVolume": "音效音量",
+        "AlwaysDecodeLevelBgm": "总是解码关卡音乐",
         "PreviewBgm": {
           "Title": "预览音乐",
           "Options": {
             "Off": "关",
             "DetailsOnly": "仅在详情",
             "ListAndDetails": "列表与详情"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "关卡音乐质量",
+          "Options": {
+            "Low": "低",
+            "Mid": "中",
+            "High": "高"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "预览音乐质量",
+          "Options": {
+            "Low": "低",
+            "Mid": "中",
+            "High": "高"
           }
         }
       },
@@ -1129,10 +1172,11 @@
       "Developer": {
         "Title": "开发者",
         "ShowFps": "显示帧率",
+        "FpsStyle": "帧率样式",
         "ShowTouches": "显示触摸",
-        "TouchSize": "触摸大小",
-        "TouchAlpha": "触摸透明度",
-        "DebugMode": "调试模式"
+        "TouchStyle": "触摸样式",
+        "DebugMode": "调试模式",
+        "DebugLogStyle": "调试日志样式"
       }
     },
     "ManageRepository": {
@@ -1196,8 +1240,8 @@
             },
             "Snapshot": {
               "Title": "快照",
-              "Record": "记录",
-              "Replay": "回放"
+              "Mark": "标记",
+              "Jump": "跳至"
             },
             "Debug": {
               "Title": "调试"
