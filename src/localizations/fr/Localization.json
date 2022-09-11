@@ -169,15 +169,16 @@
     "Confirmation": {
       "Title": "Confirmation"
     },
-    "SuccessNotification": {
-      "Title": "Succès"
-    },
     "Next": "Prochain",
     "Add": "Ajouter",
     "Import": "Import",
     "Search": "Chercher",
     "More": "Suite",
     "PullToRefresh": "Glisser pour rafraîchir",
+    "Save": "Sauvegarder",
+    "Share": "Partager",
+    "Update": "Mise à jour",
+    "Delete": "Effacer",
     "Judgment": "Jugement",
     "Accuracy": "Précision",
     "Grade": "Grade",
@@ -299,9 +300,15 @@
     },
     "CustomServer": {
       "SonolusVersionError": "Ce serveur ne prend en charge que la version {0} de Sonolus.\n\nVeuillez mettre à jour votre application Sonolus ou contacter le propriétaire du serveur pour signaler le problème.",
-      "ServerInfo": {
-        "Loading": "Chargement des informations sur le serveur...",
-        "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+      "Server": {
+        "Info": {
+          "Loading": "Chargement des informations sur le serveur...",
+          "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Banner": {
+          "Loading": "Chargement de la bannière du serveur...",
+          "Error": "Échec du chargement de la bannière de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        }
       },
       "Level": {
         "List": {
@@ -473,9 +480,15 @@
       }
     },
     "Collection": {
-      "ServerInfo": {
-        "Loading": "Chargement des informations sur la collection...",
-        "Error": "Échec du chargement des informations de collecte de \"{0}\".\n\nVotre collection est peut-être corrompue."
+      "Server": {
+        "Info": {
+          "Loading": "Chargement des informations sur la collection...",
+          "Error": "Échec du chargement des informations de collection de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Banner": {
+          "Loading": "Chargement de la bannière de collection...",
+          "Error": "Échec du chargement de la bannière de collection de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        }
       },
       "Level": {
         "List": {
@@ -647,9 +660,15 @@
       }
     },
     "Scp": {
-      "ServerInfo": {
-        "Loading": "Chargement des informations sur le package...",
-        "Error": "Échec du chargement des informations sur le package de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+      "Server": {
+        "Info": {
+          "Loading": "Chargement des informations sur le package...",
+          "Error": "Échec du chargement des informations sur le package de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Banner": {
+          "Loading": "Chargement de la bannière du package...",
+          "Error": "Échec du chargement de la bannière du package \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        }
       },
       "Level": {
         "List": {
@@ -821,6 +840,11 @@
       }
     }
   },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "Le lien \"{0}\" n'est pas valide.\n\nVeuillez utiliser un autre lien."
+    }
+  },
   "Title": {
     "TapToStart": "Appuyez pour commencer"
   },
@@ -882,6 +906,9 @@
     },
     "AddCustomServerInfo": {
       "Title": "Ajouter un serveur personnalisé",
+      "Info": {
+        "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier si vous avez saisi la bonne adresse de serveur, vérifiez votre connexion Internet et réessayez, ou contactez le propriétaire du serveur pour signaler le problème."
+      },
       "Name": "Nom",
       "NamePlaceholder": "Entrez le nom du serveur personnalisé..."
     },
@@ -908,6 +935,14 @@
       "Scp": {
         "Loading": "Chargement du package...",
         "Error": "Échec du chargement du package \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+      },
+      "Success": {
+        "Title": "Package importé"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "Package exporté"
       }
     },
     "EditVisibility": {
@@ -946,7 +981,13 @@
         "Backgrounds": "Arrière-plans",
         "Effects": "SFX",
         "Particles": "Particules",
-        "Engines": "Engines"
+        "Engines": "Engines",
+        "SaveSuccess": {
+          "Title": "Serveur enregistré"
+        },
+        "ShareSuccess": {
+          "Title": "Lien serveur copié"
+        }
       },
       "Search": {
         "Title": "Chercher"
@@ -957,28 +998,47 @@
         }
       },
       "LevelList": {
-        "Title": "Niveaux"
+        "Title": "Niveaux",
+        "ShareSuccess": {
+          "Title": "Lien du niveau copié"
+        }
       },
       "SkinList": {
-        "Title": "Skins"
+        "Title": "Skins",
+        "ShareSuccess": {
+          "Title": "Lien Skins copié"
+        }
       },
       "BackgroundList": {
-        "Title": "Arrière-plan"
+        "Title": "Arrière-plan",
+        "ShareSuccess": {
+          "Title": "Lien d'arrière-plan copié"
+        }
       },
       "EffectList": {
-        "Title": "SFX"
+        "Title": "SFX",
+        "ShareSuccess": {
+          "Title": "Lien SFX copié"
+        }
       },
       "ParticleList": {
-        "Title": "Particules"
+        "Title": "Particules",
+        "ShareSuccess": {
+          "Title": "Lien particules copié"
+        }
       },
       "EngineList": {
-        "Title": "Engines"
+        "Title": "Engines",
+        "ShareSuccess": {
+          "Title": "Lien engine copié"
+        }
       },
       "ItemDetails": {
         "Actions": {
-          "Configuration": "Configuration",
-          "Save": "Sauvegarder",
-          "Update": "Mise à jour"
+          "Configuration": "Configuration"
+        },
+        "DeleteConfirmation": {
+          "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
         },
         "Description": {
           "Title": "Description"
@@ -1008,6 +1068,34 @@
             "Loading": "Démarrage du niveau...",
             "Error": "Échec du niveau de démarrage \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
           }
+        },
+        "ShareSuccess": {
+          "Title": "Lien du niveau copié"
+        }
+      },
+      "SkinDetails": {
+        "ShareSuccess": {
+          "Title": "Lien du skin copié"
+        }
+      },
+      "BackgroundDetails": {
+        "ShareSuccess": {
+          "Title": "Lien d'arrière-plan copié"
+        }
+      },
+      "EffectDetails": {
+        "ShareSuccess": {
+          "Title": "Lien d'effet copié"
+        }
+      },
+      "ParticleDetails": {
+        "ShareSuccess": {
+          "Title": "Lien de particules copié"
+        }
+      },
+      "EngineDetails": {
+        "ShareSuccess": {
+          "Title": "Lien engine copié"
         }
       },
       "LevelConfiguration": {
@@ -1083,6 +1171,36 @@
         "Offsets": {
           "Title": "Offsets",
           "EngineInputOffset": "Engine Input Offset"
+        }
+      },
+      "LevelSaver": {
+        "Success": {
+          "Title": "Niveau enregistré"
+        }
+      },
+      "SkinSaver": {
+        "Success": {
+          "Title": "Skin enregistré"
+        }
+      },
+      "BackgroundSaver": {
+        "Success": {
+          "Title": "Arrière-plan enregistré"
+        }
+      },
+      "EffectSaver": {
+        "Success": {
+          "Title": "Effet enregistré"
+        }
+      },
+      "ParticleSaver": {
+        "Success": {
+          "Title": "Particule enregistrée"
+        }
+      },
+      "EngineSaver": {
+        "Success": {
+          "Title": "Engine enregistré"
         }
       }
     },
@@ -1193,6 +1311,9 @@
         "DeleteConfirmation": {
           "Description": "Êtes-vous sûr de supprimer toutes les ressources du référentiel ?",
           "Loading": "Suppression du référentiel..."
+        },
+        "Success": {
+          "Title": "Dépôt supprimé"
         }
       }
     },
@@ -1209,6 +1330,9 @@
         "Expire": "Expirer",
         "ExpireConfirmation": {
           "Description": "Êtes-vous sûr de faire expirer tout le cache ?"
+        },
+        "Success": {
+          "Title": "Cache expiré"
         }
       },
       "DeleteCache": {
@@ -1217,6 +1341,9 @@
         "Delete": "Effacer",
         "DeleteConfirmation": {
           "Description": "Êtes-vous sûr de supprimer tout le cache ?"
+        },
+        "Success": {
+          "Title": "Cache supprimé"
         }
       }
     }
