@@ -169,15 +169,16 @@
     "Confirmation": {
       "Title": "確認"
     },
-    "SuccessNotification": {
-      "Title": "成功"
-    },
     "Next": "次",
     "Add": "追加",
     "Import": "インポート",
     "Search": "検索",
     "More": "もっと",
     "PullToRefresh": "離すと更新",
+    "Save": "保存",
+    "Share": "共有",
+    "Update": "更新",
+    "Delete": "消去",
     "Judgment": "判定",
     "Accuracy": "精度スコア",
     "Grade": "結果",
@@ -299,9 +300,15 @@
     },
     "CustomServer": {
       "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
-      "ServerInfo": {
-        "Loading": "サーバー情報を読み込み中...",
-        "Error": "\"{0}\"のサーバー情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+      "Server": {
+        "Info": {
+          "Loading": "サーバー情報を読み込み中...",
+          "Error": "\"{0}\" のサーバー情報の読み込みに失敗しました。\n\n入力したサーバーアドレスが正しいか、インターネット接続に問題ないかを確認し、改善しない場合、サーバーの所有者にご連絡ください。"
+        },
+        "Banner": {
+          "Loading": "サーバーバナーを読み込み中...",
+          "Error": "\"{0}\" のサーバー バナーを読み込めませんでした。\n\nインターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。"
+        }
       },
       "Level": {
         "List": {
@@ -473,9 +480,15 @@
       }
     },
     "Collection": {
-      "ServerInfo": {
-        "Loading": "コレクション情報を読み込み中...",
-        "Error": "\"{0}\"のコレクション情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+      "Server": {
+        "Info": {
+          "Loading": "コレクションを読み込み中...",
+          "Error": "\"{0}\" のコレクション情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Banner": {
+          "Loading": "コレクションバナーを読み込み中...",
+          "Error": "「{0}」のコレクション バナーを読み込めませんでした。\n\nコレクションが破損している可能性があります。"
+        }
       },
       "Level": {
         "List": {
@@ -647,9 +660,15 @@
       }
     },
     "Scp": {
-      "ServerInfo": {
-        "Loading": "パッケージ情報を読み込み中...",
-        "Error": "\"{0}\"のパッケージ情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+      "Server": {
+        "Info": {
+          "Loading": "パッケージ情報を読み込み中...",
+          "Error": "「{0}」のパッケージ情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Banner": {
+          "Loading": "パッケージ バナーを読み込み中...",
+          "Error": "「{0}」のパッケージ バナーを読み込めませんでした。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
       },
       "Level": {
         "List": {
@@ -821,6 +840,11 @@
       }
     }
   },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "リンク \"{0}\" は無効です。\n\nリンクに打ち間違えがないかご確認ください。"
+    }
+  },
   "Title": {
     "TapToStart": "タップしてスタート"
   },
@@ -882,6 +906,9 @@
     },
     "AddCustomServerInfo": {
       "Title": "カスタムサーバーの追加",
+      "Info": {
+        "Error": "\"{0}\" のサーバー情報の読み込みに失敗しました。\n\n入力したサーバーアドレスが正しいか、インターネット接続に問題ないかを確認し、改善しない場合サーバーの所有者に問題を報告してください。"
+      },
       "Name": "サーバー名を入力してください(任意)",
       "NamePlaceholder": "例 Test Prototype"
     },
@@ -908,6 +935,14 @@
       "Scp": {
         "Loading": "パッケージを読み込み中...",
         "Error": "パッケージ\"{0}\"の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+      },
+      "Success": {
+        "Title": "パッケージを読み込みました。"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "パッケージを書き出しました。"
       }
     },
     "EditVisibility": {
@@ -946,7 +981,13 @@
         "Backgrounds": "背景一覧",
         "Effects": "効果音一覧",
         "Particles": "パーティクル一覧",
-        "Engines": "エンジン一覧"
+        "Engines": "エンジン一覧",
+        "SaveSuccess": {
+          "Title": "サーバーを保存しました"
+        },
+        "ShareSuccess": {
+          "Title": "サーバーのリンクをコピーしました。"
+        }
       },
       "Search": {
         "Title": "検索"
@@ -957,28 +998,47 @@
         }
       },
       "LevelList": {
-        "Title": "レベル一覧"
+        "Title": "レベル一覧",
+        "ShareSuccess": {
+          "Title": "レベル一覧のリンクをコピーしました。"
+        }
       },
       "SkinList": {
-        "Title": "スキン一覧"
+        "Title": "スキン一覧",
+        "ShareSuccess": {
+          "Title": "スキン一覧のリンクをコピーしました"
+        }
       },
       "BackgroundList": {
-        "Title": "背景一覧"
+        "Title": "背景一覧",
+        "ShareSuccess": {
+          "Title": "背景一覧のリンクをコピーしました"
+        }
       },
       "EffectList": {
-        "Title": "効果音一覧"
+        "Title": "効果音一覧",
+        "ShareSuccess": {
+          "Title": "効果音一覧のリンクをコピーしました"
+        }
       },
       "ParticleList": {
-        "Title": "パーティクル一覧"
+        "Title": "パーティクル一覧",
+        "ShareSuccess": {
+          "Title": "パーティクル一覧のリンクをコピーしました"
+        }
       },
       "EngineList": {
-        "Title": "エンジン一覧"
+        "Title": "エンジン一覧",
+        "ShareSuccess": {
+          "Title": "エンジン一覧のリンクをコピーしました"
+        }
       },
       "ItemDetails": {
         "Actions": {
-          "Configuration": "設定",
-          "Save": "保存",
-          "Update": "更新"
+          "Configuration": "設定"
+        },
+        "DeleteConfirmation": {
+          "Description": "「{0}」を削除してもよろしいですか?"
         },
         "Description": {
           "Title": "説明文"
@@ -1008,6 +1068,34 @@
             "Loading": "レベルを開始中...",
             "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
           }
+        },
+        "ShareSuccess": {
+          "Title": "レベルのリンクをコピーしました"
+        }
+      },
+      "SkinDetails": {
+        "ShareSuccess": {
+          "Title": "スキンのリンクをコピーしました"
+        }
+      },
+      "BackgroundDetails": {
+        "ShareSuccess": {
+          "Title": "背景のリンクをコピーしました"
+        }
+      },
+      "EffectDetails": {
+        "ShareSuccess": {
+          "Title": "効果音のリンクをコピーしました"
+        }
+      },
+      "ParticleDetails": {
+        "ShareSuccess": {
+          "Title": "パーティクルのリンクをコピーしました"
+        }
+      },
+      "EngineDetails": {
+        "ShareSuccess": {
+          "Title": "エンジンのリンクをコピーしました"
         }
       },
       "LevelConfiguration": {
@@ -1083,6 +1171,36 @@
         "Offsets": {
           "Title": "オフセット",
           "EngineInputOffset": "エンジン入力オフセット"
+        }
+      },
+      "LevelSaver": {
+        "Success": {
+          "Title": "レベルのリンクをコピーしました"
+        }
+      },
+      "SkinSaver": {
+        "Success": {
+          "Title": "スキンを保存しました"
+        }
+      },
+      "BackgroundSaver": {
+        "Success": {
+          "Title": "背景を保存しました"
+        }
+      },
+      "EffectSaver": {
+        "Success": {
+          "Title": "効果音を保存しました"
+        }
+      },
+      "ParticleSaver": {
+        "Success": {
+          "Title": "パーティクルを保存しました"
+        }
+      },
+      "EngineSaver": {
+        "Success": {
+          "Title": "エンジンを保存しました"
         }
       }
     },
@@ -1193,6 +1311,9 @@
         "DeleteConfirmation": {
           "Description": "本当にリポジトリの全てのリソースを削除してよろしいですか?",
           "Loading": "リポジトリを削除しています..."
+        },
+        "Success": {
+          "Title": "リポジトリを削除しました"
         }
       }
     },
@@ -1209,6 +1330,9 @@
         "Expire": "失効させる",
         "ExpireConfirmation": {
           "Description": "すべてのキャッシュを失効させますか?"
+        },
+        "Success": {
+          "Title": "キャッシュを有効期限切れにしました"
         }
       },
       "DeleteCache": {
@@ -1217,6 +1341,9 @@
         "Delete": "削除する",
         "DeleteConfirmation": {
           "Description": "本当にキャッシュをすべて削除しますか?"
+        },
+        "Success": {
+          "Title": "キャッシュを削除しました"
         }
       }
     }
