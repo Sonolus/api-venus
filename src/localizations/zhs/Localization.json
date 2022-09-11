@@ -882,13 +882,13 @@
       "CustomServers": {
         "Title": "自定义服务器",
         "RemoveConfirmation": {
-          "Description": "您确定要删除”{0}“吗？"
+          "Description": "您确定要删除“{0}”吗？"
         }
       },
       "Collections": {
         "Title": "收藏",
         "RemoveConfirmation": {
-          "Description": "您确定要删除”{0}“吗？"
+          "Description": "您确定要删除“{0}”吗？"
         }
       }
     },
@@ -927,14 +927,14 @@
       "Collections": {
         "Title": "收藏",
         "RemoveConfirmation": {
-          "Description": "您确定要删除”{0}“吗？"
+          "Description": "您确定要删除“{0}”吗？"
         }
       }
     },
     "ImportScp": {
       "Scp": {
         "Loading": "正在加载收藏包…",
-        "Error": "加载收藏包”{0}“失败。\n\n您的收藏包可能不受支持或已损坏。"
+        "Error": "加载收藏包“{0}”失败。\n\n您的收藏包可能不受支持或已损坏。"
       },
       "Success": {
         "Title": "收藏包已导入"
@@ -1038,7 +1038,7 @@
           "Configuration": "配置"
         },
         "DeleteConfirmation": {
-          "Description": "您确定要删除”{0}“吗？"
+          "Description": "您确定要删除“{0}”吗？"
         },
         "Description": {
           "Title": "描述"
@@ -1055,18 +1055,18 @@
           "Effect": {
             "Audio": {
               "Loading": "正在解码音效音频…",
-              "Error": "解码音效”{0}“音频失败。\n\n请联系音效作者并汇报这个问题。"
+              "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
             }
           },
           "Level": {
             "Bgm": {
               "Loading": "正在解码关卡音乐…",
-              "Error": "解码关卡”{0}“音乐失败。\n\n请联系关卡作者并汇报这个问题。"
+              "Error": "解码关卡“{0}”音乐失败。\n\n请联系关卡作者并汇报这个问题。"
             }
           },
           "Boot": {
             "Loading": "正在启动关卡…",
-            "Error": "启动关卡”{0}“失败。\n\n请联系关卡作者并汇报这个问题。"
+            "Error": "启动关卡“{0}”失败。\n\n请联系关卡作者并汇报这个问题。"
           }
         },
         "ShareSuccess": {
