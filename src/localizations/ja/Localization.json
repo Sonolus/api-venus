@@ -169,15 +169,16 @@
     "Confirmation": {
       "Title": "確認"
     },
-    "SuccessNotification": {
-      "Title": "成功"
-    },
     "Next": "次",
     "Add": "追加",
     "Import": "インポート",
     "Search": "検索",
     "More": "もっと",
     "PullToRefresh": "離すと更新",
+    "Save": "保存",
+    "Share": "共有",
+    "Update": "更新",
+    "Delete": "消去",
     "Judgment": "判定",
     "Accuracy": "精度スコア",
     "Grade": "結果",
@@ -299,9 +300,13 @@
     },
     "CustomServer": {
       "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
-      "ServerInfo": {
-        "Loading": "サーバー情報を読み込み中...",
-        "Error": "\"{0}\"のサーバー情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+      "Server": {
+        "Info": {
+          "Loading": "サーバー情報を読み込み中..."
+        },
+        "Banner": {
+          "Loading": "サーバーバナーを読み込み中..."
+        }
       },
       "Level": {
         "List": {
@@ -473,9 +478,12 @@
       }
     },
     "Collection": {
-      "ServerInfo": {
-        "Loading": "コレクション情報を読み込み中...",
-        "Error": "\"{0}\"のコレクション情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+      "Server": {
+        "Info": {
+          "Loading": "コレクションを読み込み中..."
+        },
+        "Banner": {
+        }
       },
       "Level": {
         "List": {
@@ -647,9 +655,11 @@
       }
     },
     "Scp": {
-      "ServerInfo": {
-        "Loading": "パッケージ情報を読み込み中...",
-        "Error": "\"{0}\"のパッケージ情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+      "Server": {
+        "Info": {
+        },
+        "Banner": {
+        }
       },
       "Level": {
         "List": {
@@ -821,6 +831,10 @@
       }
     }
   },
+  "DeepLink": {
+    "Invalid": {
+    }
+  },
   "Title": {
     "TapToStart": "タップしてスタート"
   },
@@ -882,6 +896,8 @@
     },
     "AddCustomServerInfo": {
       "Title": "カスタムサーバーの追加",
+      "Info": {
+      },
       "Name": "サーバー名を入力してください(任意)",
       "NamePlaceholder": "例 Test Prototype"
     },
@@ -908,6 +924,14 @@
       "Scp": {
         "Loading": "パッケージを読み込み中...",
         "Error": "パッケージ\"{0}\"の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+      },
+      "Success": {
+        "Title": "パッケージを読み込みました。"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "パッケージを書き出しました。"
       }
     },
     "EditVisibility": {
@@ -946,7 +970,11 @@
         "Backgrounds": "背景一覧",
         "Effects": "効果音一覧",
         "Particles": "パーティクル一覧",
-        "Engines": "エンジン一覧"
+        "Engines": "エンジン一覧",
+        "SaveSuccess": {
+        },
+        "ShareSuccess": {
+        }
       },
       "Search": {
         "Title": "検索"
@@ -957,28 +985,40 @@
         }
       },
       "LevelList": {
-        "Title": "レベル一覧"
+        "Title": "レベル一覧",
+        "ShareSuccess": {
+        }
       },
       "SkinList": {
-        "Title": "スキン一覧"
+        "Title": "スキン一覧",
+        "ShareSuccess": {
+        }
       },
       "BackgroundList": {
-        "Title": "背景一覧"
+        "Title": "背景一覧",
+        "ShareSuccess": {
+        }
       },
       "EffectList": {
-        "Title": "効果音一覧"
+        "Title": "効果音一覧",
+        "ShareSuccess": {
+        }
       },
       "ParticleList": {
-        "Title": "パーティクル一覧"
+        "Title": "パーティクル一覧",
+        "ShareSuccess": {
+        }
       },
       "EngineList": {
-        "Title": "エンジン一覧"
+        "Title": "エンジン一覧",
+        "ShareSuccess": {
+        }
       },
       "ItemDetails": {
         "Actions": {
-          "Configuration": "設定",
-          "Save": "保存",
-          "Update": "更新"
+          "Configuration": "設定"
+        },
+        "DeleteConfirmation": {
         },
         "Description": {
           "Title": "説明文"
@@ -1008,6 +1048,28 @@
             "Loading": "レベルを開始中...",
             "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
           }
+        },
+        "ShareSuccess": {
+        }
+      },
+      "SkinDetails": {
+        "ShareSuccess": {
+        }
+      },
+      "BackgroundDetails": {
+        "ShareSuccess": {
+        }
+      },
+      "EffectDetails": {
+        "ShareSuccess": {
+        }
+      },
+      "ParticleDetails": {
+        "ShareSuccess": {
+        }
+      },
+      "EngineDetails": {
+        "ShareSuccess": {
         }
       },
       "LevelConfiguration": {
@@ -1083,6 +1145,30 @@
         "Offsets": {
           "Title": "オフセット",
           "EngineInputOffset": "エンジン入力オフセット"
+        }
+      },
+      "LevelSaver": {
+        "Success": {
+        }
+      },
+      "SkinSaver": {
+        "Success": {
+        }
+      },
+      "BackgroundSaver": {
+        "Success": {
+        }
+      },
+      "EffectSaver": {
+        "Success": {
+        }
+      },
+      "ParticleSaver": {
+        "Success": {
+        }
+      },
+      "EngineSaver": {
+        "Success": {
         }
       }
     },
@@ -1193,6 +1279,8 @@
         "DeleteConfirmation": {
           "Description": "本当にリポジトリの全てのリソースを削除してよろしいですか?",
           "Loading": "リポジトリを削除しています..."
+        },
+        "Success": {
         }
       }
     },
@@ -1209,6 +1297,8 @@
         "Expire": "失効させる",
         "ExpireConfirmation": {
           "Description": "すべてのキャッシュを失効させますか?"
+        },
+        "Success": {
         }
       },
       "DeleteCache": {
@@ -1217,6 +1307,8 @@
         "Delete": "削除する",
         "DeleteConfirmation": {
           "Description": "本当にキャッシュをすべて削除しますか?"
+        },
+        "Success": {
         }
       }
     }
