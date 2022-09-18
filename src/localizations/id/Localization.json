@@ -856,7 +856,7 @@
     "JumpToPage": {
       "Title": "Lompat ke Halaman",
       "Page": "Halaman",
-      "PagePlaceholder": "Masukkan nomor halama...",
+      "PagePlaceholder": "Masukkan nomor halaman...",
       "Jump": "Lompat"
     },
     "SelectLocalization": {
@@ -1119,7 +1119,7 @@
           "JudgmentStyle": "Style Penilaian",
           "ComboStyle": "Style Kombo",
           "PrimaryMetricStyle": "Style Metrik Utama",
-          "SecondaryMetricStyle": "Style Metric Sekunder"
+          "SecondaryMetricStyle": "Style Metrik Sekunder"
         },
         "Offsets": {
           "Title": "Offset",
