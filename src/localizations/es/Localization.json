@@ -169,15 +169,16 @@
     "Confirmation": {
       "Title": "Confirmación"
     },
-    "SuccessNotification": {
-      "Title": "Éxito"
-    },
     "Next": "Siguiente",
     "Add": "Agregar",
     "Import": "Importar",
     "Search": "Buscar",
     "More": "Más",
     "PullToRefresh": "Arrastre para actualizar",
+    "Save": "Guardar",
+    "Share": "Compartir",
+    "Update": "Actualizar",
+    "Delete": "Eliminar",
     "Judgment": "Juicio",
     "Accuracy": "Precisión",
     "Grade": "Calificación",
@@ -200,6 +201,9 @@
       "S": "Saturación",
       "V": "Valor",
       "A": "Alpha"
+    },
+    "DeviceOffsetField": {
+      "Calibrate": "Calibrar"
     },
     "PullToLoad": {
       "None": "Nada más que cargar",
@@ -296,9 +300,15 @@
     },
     "CustomServer": {
       "SonolusVersionError": "Este servidor solo es compatible con la versión {0} de Sonolus.\n\nActualice su aplicación Sonolus o comuníquese con el propietario del servidor para informar el problema.",
-      "ServerInfo": {
-        "Loading": "Cargando información del servidor...",
-        "Error": "Error al cargar la información del servidor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+      "Server": {
+        "Info": {
+          "Loading": "Cargando información del servidor...",
+          "Error": "Error al cargar la información del servidor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+        },
+        "Banner": {
+          "Loading": "Cargando banner del servidor...",
+          "Error": "No se pudo cargar el banner del servidor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+        }
       },
       "Level": {
         "List": {
@@ -470,9 +480,15 @@
       }
     },
     "Collection": {
-      "ServerInfo": {
-        "Loading": "Cargando información de la colección...",
-        "Error": "No se pudo cargar la información de la colección de \"{0}\".\n\nTu colección puede estar dañada."
+      "Server": {
+        "Info": {
+          "Loading": "Cargando información de la colección...",
+          "Error": "No se pudo cargar la información de la colección de \"{0}\".\n\nTu colección puede estar dañada."
+        },
+        "Banner": {
+          "Loading": "Cargando el banner de la colección...",
+          "Error": "Error al cargar el banner de colección de \"{0}\".\n\nTu colección puede estar dañada."
+        }
       },
       "Level": {
         "List": {
@@ -644,9 +660,15 @@
       }
     },
     "Scp": {
-      "ServerInfo": {
-        "Loading": "Cargando información del paquete...",
-        "Error": "Error al cargar la información del paquete de \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
+      "Server": {
+        "Info": {
+          "Loading": "Cargando información del paquete...",
+          "Error": "Error al cargar la información del paquete de \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
+        },
+        "Banner": {
+          "Loading": "Cargando el banner del paquete...",
+          "Error": "Error al cargar el banner del paquete de \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
+        }
       },
       "Level": {
         "List": {
@@ -818,6 +840,11 @@
       }
     }
   },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "El enlace \"{0}\" no es válido.\n\nUtilice un enlace diferente."
+    }
+  },
   "Title": {
     "TapToStart": "Toque para comenzar"
   },
@@ -879,6 +906,9 @@
     },
     "AddCustomServerInfo": {
       "Title": "Agregar servidor personalizado",
+      "Info": {
+        "Error": "Error al cargar la información del servidor de \"{0}\".\n\nVerifique si ingresó la dirección del servidor correcta, verifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+      },
       "Name": "Nombre",
       "NamePlaceholder": "Introduce el nombre del servidor personalizado..."
     },
@@ -905,6 +935,14 @@
       "Scp": {
         "Loading": "Cargando paquete...",
         "Error": "Error al cargar el paquete \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
+      },
+      "Success": {
+        "Title": "Paquete importado"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "Paquete exportado"
       }
     },
     "EditVisibility": {
@@ -925,6 +963,17 @@
       "Foreground": "Superficie",
       "Background": "Fondo"
     },
+    "CalibrateAudio": {
+      "Title": "Calibrar audio",
+      "Description": "Calibre el audio ajustando la compensación de audio del dispositivo hasta que el audio y los gráficos se sincronicen.",
+      "DeviceAudioOffset": "Compensación de audio del dispositivo"
+    },
+    "CalibrateInput": {
+      "Title": "Calibrar entrada",
+      "Description": "Calibre la entrada tocando con el dedo. Primero asegúrese de que su compensación de audio esté calibrada correctamente.\nSi estás acostumbrado a juegos que no ofrecen esa opción, puedes dejarlo en 0.",
+      "Result": "Compensación recomendada: {0} (±{1})",
+      "DeviceInputOffset": "Compensación de entrada del dispositivo"
+    },
     "Server": {
       "Home": {
         "Levels": "Niveles",
@@ -932,34 +981,64 @@
         "Backgrounds": "Fondos",
         "Effects": "Efectos de sonido",
         "Particles": "Partículas",
-        "Engines": "Motores"
+        "Engines": "Motores",
+        "SaveSuccess": {
+          "Title": "Servidor guardado"
+        },
+        "ShareSuccess": {
+          "Title": "Enlace del servidor copiado"
+        }
       },
       "Search": {
         "Title": "Búsqueda"
       },
+      "ItemList": {
+        "DeleteConfirmation": {
+          "Description": "¿Está seguro de eliminar \"{0}\"?"
+        }
+      },
       "LevelList": {
-        "Title": "Niveles"
+        "Title": "Niveles",
+        "ShareSuccess": {
+          "Title": "Enlace de niveles copiado"
+        }
       },
       "SkinList": {
-        "Title": "Skins"
+        "Title": "Skins",
+        "ShareSuccess": {
+          "Title": "Enlace de skins copiado"
+        }
       },
       "BackgroundList": {
-        "Title": "Fondos"
+        "Title": "Fondos",
+        "ShareSuccess": {
+          "Title": "Enlace de fondos copiado"
+        }
       },
       "EffectList": {
-        "Title": "Efectos de sonido"
+        "Title": "Efectos de sonido",
+        "ShareSuccess": {
+          "Title": "Enlace de efectos de sonido copiado"
+        }
       },
       "ParticleList": {
-        "Title": "Partículas"
+        "Title": "Partículas",
+        "ShareSuccess": {
+          "Title": "Enlace de partículas copiado"
+        }
       },
       "EngineList": {
-        "Title": "Motores"
+        "Title": "Motores",
+        "ShareSuccess": {
+          "Title": "Enlace de motores copiado"
+        }
       },
       "ItemDetails": {
         "Actions": {
-          "Configuration": "Configuración",
-          "Save": "Guardar",
-          "Update": "Actualizar"
+          "Configuration": "Configuración"
+        },
+        "DeleteConfirmation": {
+          "Description": "¿Está seguro de eliminar \"{0}\"?"
         },
         "Description": {
           "Title": "Descripción"
@@ -989,12 +1068,45 @@
             "Loading": "Iniciando nivel...",
             "Error": "Error al iniciar el nivel \"{0}\".\n\nPóngase en contacto con el autor del nivel para informar el problema."
           }
+        },
+        "ShareSuccess": {
+          "Title": "Enlace de nivel copiado"
+        }
+      },
+      "SkinDetails": {
+        "ShareSuccess": {
+          "Title": "Enlace de skin copiado"
+        }
+      },
+      "BackgroundDetails": {
+        "ShareSuccess": {
+          "Title": "Enlace de fondo copiado"
+        }
+      },
+      "EffectDetails": {
+        "ShareSuccess": {
+          "Title": "Enlace de efecto copiado"
+        }
+      },
+      "ParticleDetails": {
+        "ShareSuccess": {
+          "Title": "Enlace de partículas copiado"
+        }
+      },
+      "EngineDetails": {
+        "ShareSuccess": {
+          "Title": "Enlace de motor copiado"
         }
       },
       "LevelConfiguration": {
         "Title": "Configuración de nivel",
         "Options": {
           "Title": "Opciones"
+        },
+        "Audio": {
+          "Title": "Audio",
+          "BgmVolume": "Volumen de música",
+          "SfxVolume": "Volumen de efectos de sonido"
         },
         "UI": {
           "Title": "Interfaz de usuario",
@@ -1013,7 +1125,9 @@
           "Title": "Compensaciones",
           "LevelAudioOffset": "Compensación de nivel de audio",
           "ServerAudioOffset": "Compensación de audio del servidor",
-          "EngineInputOffset": "Compensación de entrada del motor"
+          "DeviceAudioOffset": "Compensación de audio del dispositivo",
+          "EngineInputOffset": "Compensación de entrada del motor",
+          "DeviceInputOffset": "Compensación de entrada del dispositivo"
         }
       },
       "BackgroundConfiguration": {
@@ -1058,6 +1172,36 @@
           "Title": "Compensaciones",
           "EngineInputOffset": "Compensación de entrada del motor"
         }
+      },
+      "LevelSaver": {
+        "Success": {
+          "Title": "Nivel guardado"
+        }
+      },
+      "SkinSaver": {
+        "Success": {
+          "Title": "Skin guardada"
+        }
+      },
+      "BackgroundSaver": {
+        "Success": {
+          "Title": "Fondo guardado"
+        }
+      },
+      "EffectSaver": {
+        "Success": {
+          "Title": "Efecto guardado"
+        }
+      },
+      "ParticleSaver": {
+        "Success": {
+          "Title": "Partícula guardada"
+        }
+      },
+      "EngineSaver": {
+        "Success": {
+          "Title": "Motor guardado"
+        }
       }
     },
     "Settings": {
@@ -1081,12 +1225,29 @@
         "Title": "Audio",
         "BgmVolume": "Volumen de música",
         "SfxVolume": "Volumen de los efectos de sonido",
+        "AlwaysDecodeLevelBgm": "Siempre decodificar música del nivel",
         "PreviewBgm": {
           "Title": "Vista previa de la música",
           "Options": {
             "Off": "Apagado",
             "DetailsOnly": "Solo detalles",
             "ListAndDetails": "Lista y Detalles"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "Calidad de la música",
+          "Options": {
+            "Low": "Baja",
+            "Mid": "Media",
+            "High": "Alta"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "Calidad de la vista previa de la música",
+          "Options": {
+            "Low": "Baja",
+            "Mid": "Media",
+            "High": "Alta"
           }
         }
       },
@@ -1129,10 +1290,11 @@
       "Developer": {
         "Title": "Desarrollador",
         "ShowFps": "Mostrar FPS",
+        "FpsStyle": "Estilo FPS",
         "ShowTouches": "Mostrar toques",
-        "TouchSize": "Tamaño de toque",
-        "TouchAlpha": "Alpha de toque",
-        "DebugMode": "Modo Debug"
+        "TouchStyle": "Estilo táctil",
+        "DebugMode": "Modo Debug",
+        "DebugLogStyle": "Estilo de registro de debug"
       }
     },
     "ManageRepository": {
@@ -1149,6 +1311,9 @@
         "DeleteConfirmation": {
           "Description": "¿Está seguro de eliminar todos los recursos del repositorio?",
           "Loading": "Eliminando repositorio..."
+        },
+        "Success": {
+          "Title": "Repositorio eliminado"
         }
       }
     },
@@ -1165,6 +1330,9 @@
         "Expire": "Caducar",
         "ExpireConfirmation": {
           "Description": "¿Estás seguro de caducar todo el caché?"
+        },
+        "Success": {
+          "Title": "Caché caducado"
         }
       },
       "DeleteCache": {
@@ -1173,6 +1341,9 @@
         "Delete": "Eliminar",
         "DeleteConfirmation": {
           "Description": "¿Estás seguro de eliminar todo el caché?"
+        },
+        "Success": {
+          "Title": "Caché eliminado"
         }
       }
     }
@@ -1196,8 +1367,8 @@
             },
             "Snapshot": {
               "Title": "Snapshot",
-              "Record": "Registrar",
-              "Replay": "Reproducir"
+              "Mark": "Marcar",
+              "Jump": "Saltar"
             },
             "Debug": {
               "Title": "Debug"
