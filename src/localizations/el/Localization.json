@@ -1,0 +1,865 @@
+{
+  "Meta": {
+    "Name": "el",
+    "Title": "Ελληνικά (Greek)"
+  },
+  "Texts": {
+    "Name": {
+      "#KEYWORDS": "Λέξεις - κλειδιά",
+      "#NAME": "Όνομα",
+      "#RATING": "Επίπεδο Δυσκολίας",
+      "#RATING_MINIMUM": "Ελάχιστο Επίπεδο Δυσκολίας",
+      "#RATING_MAXIMUM": "Μέγιστο Επίπεδο Δυσκολίας",
+      "#TITLE": "Τίτλος",
+      "#SUBTITLE": "Υπότιτλος",
+      "#ARTISTS": "Καλλιτέχνες",
+      "#AUTHOR": "Στιχουργός",
+      "#GENRE": "Είδος",
+      "#CATEGORY": "Κατηγορία",
+      "#DIFFICULTY": "Δυσκολία",
+      "#LENGTH": "Διάρκεια",
+      "#LENGTH_MINIMUM": "Ελάχιστη Διάρκεια",
+      "#LENGTH_MAXIMUM": "Μέγιστη Διάρκεια",
+      "#MIRROR": "Κατοπτρισμός Επιπέδου",
+      "#RANDOM": "Τυχαίο",
+      "#HIDDEN": "Κρυμμένα",
+      "#JUDGMENT_STRICT": "Σκληρή Κριτική",
+      "#STAGE_ROTATION": "Περιστροφή Σταδίου",
+      "#STAGE_ALPHA": "Διαφάνεια Σταδίου",
+      "#STAGE_TILT": "Κλίση Σταδίου",
+      "#STAGE_COVER_VERTICAL": "Κάθετο Κάλυμμα Σκηνής",
+      "#STAGE_COVER_HORIZONTAL": "Οριζόντιο Κάλυμμα Σταδίου",
+      "#STAGE_COVER_ALPHA": "Διαφάνεια Καλύμματος Σκηνής",
+      "#STAGE_ASPECTRATIO_LOCK": "Κλείδωμα Αναλογίας Διαστάσεων Σταδίου",
+      "#STAGE_EFFECT": "Εφέ Σταδίου",
+      "#STAGE_EFFECT_SIZE": "Μέγεθος Εφέ Σταδίου",
+      "#STAGE_EFFECT_ROTATION": "Περιστροφή Εφέ Σταδίου",
+      "#STAGE_EFFECT_ALPHA": "Διαφάνεια Εφέ Σταδίου",
+      "#LANE": "Ορατότητα Λωρίδας",
+      "#LANE_SIZE": "Μέγεθος Λωρίδας",
+      "#LANE_ROTATION": "Περιστροφή Λωρίδας",
+      "#JUDGELINE_ALPHA": "Διαφάνεια της γραμμής κριτικής",
+      "#JUDGELINE_EFFECT_SIZE": "Μέγεθος Εφέ Γραμμής Κριτικής ",
+      "#SLOT_ALPHA": "Διαφάνεια Υποδοχής",
+      "#NOTE": "Ορατότητα Νοτών",
+      "#NOTE_SPEED": "Ταχύτητα Νοτών",
+      "#NOTE_SPEED_RANDOM": "Τυχαία Ταχύτητα Νοτών",
+      "#NOTE_SIZE": "Μέγεθος Νοτών",
+      "#NOTE_ROTATION": "Περιστροφή νοτών",
+      "#NOTE_ALPHA": "Διαφάνεια Νοτών",
+      "#NOTE_EFFECT": "Εφέ Νοτών",
+      "#NOTE_EFFECT_SIZE": "Μέγεθος Εφέ Νοτών",
+      "#NOTE_EFFECT_ROTATION": "Περιστροφή Εφέ Νοτών",
+      "#NOTE_EFFECT_ALPHA": "Διαφάνεια Εφέ Νοτών",
+      "#MARKER": "Ορατότητα Δείκτη",
+      "#MARKER_ROTATION": "Περιστροφή Δείκτη",
+      "#CONNECTOR_SIZE": "Μέγεθος Συνδέσμου",
+      "#CONNECTOR_ROTATION": "Περιστροφή Συνδέσμου",
+      "#SIMLINE_ROTATION": "Ταυτόχρονη Περιστροφή Γραμμών"
+    },
+    "Value": {
+      "#LONG": "Μακρύ",
+      "#CLOCKWISE": "Δεξιόστροφα",
+      "#BACKWARD": "Προς Τα Πίσω",
+      "#SIMPLE": "Έυκολο",
+      "#EASY": "Έυκολο",
+      "#NORMAL": "Κανονικό",
+      "#HARD": "Δύσκολο",
+      "#EXPERT": "Δυσκολότερο",
+      "#MASTER": "Πάρα πολύ δύσκολο",
+      "#TECHNICAL": "Τεχνικό",
+      "#SPECIAL": "Ειδικό"
+    },
+    "Placeholder": {
+      "#RATING": "Εισαγάγετε επίπεδο δυσκολίας...",
+      "#RATING_MINIMUM": "Εισαγάγετε το ελάχιστο επίπεδο δυσκολίας..."
+    }
+  },
+  "Common": {
+    "Error": {
+    },
+    "Confirmation": {
+    },
+    "More": "Περισσότερα",
+    "Save": "Αποθήκευση",
+    "Share": "Μοιραστείτε",
+    "Update": "Ενημέρωση",
+    "Delete": "Διαγραφή",
+    "Perfect": "Τέλεια",
+    "Great": "Πολύ καλά",
+    "Good": "Καλά",
+    "Miss": "Χαμένα",
+    "ColorField": {
+      "Hex": "HEX",
+      "HexPlaceholder": "Εισαγάγετε τον Κωδικό Χρώματος hex...",
+      "R": "Κόκκινο",
+      "G": "Πράσινο",
+      "V": "Αξία",
+      "A": "Άλφα"
+    },
+    "DeviceOffsetField": {
+      "Calibrate": "Βαθμονόμηση"
+    },
+    "PullToLoad": {
+    },
+    "UI": {
+      "Metric": {
+        "Life": "Ζωή",
+        "ErrorHeatmap": "Heatmap Σφάλματος"
+      },
+      "JudgmentErrorStyle": {
+        "None": "Τίποτα"
+      },
+      "JudgmentErrorPlacement": {
+      },
+      "Animation": "Κίνηση",
+      "Ease": {
+        "InOutQuad": "Quad (In Out)",
+        "OutInQuad": "Quad (Out In)",
+        "InCubic": "Cubic (In)",
+        "OutCubic": "Cubic (Out)",
+        "InOutCubic": "Cubic (In Out)",
+        "OutInCubic": "Cubic (Out In)",
+        "InQuart": "Quart (In)",
+        "OutQuart": "Quart (Out)",
+        "InQuint": "Quint (In)",
+        "OutQuint": "Quint (Out)",
+        "InExpo": "Expo (In)",
+        "OutExpo": "Expo (Out)",
+        "OutInExpo": "Expo (Out In)",
+        "OutCirc": "Circ (Out)",
+        "InOutCirc": "Circ (In Out)",
+        "OutInCirc": "Circ (Out In)",
+        "InBack": "Back (In)",
+        "OutBack": "Back (Out)",
+        "InOutBack": "Back (In Out)",
+        "OutInBack": "Back (Out In)",
+        "InElastic": "Elastic (In)",
+        "OutElastic": "Elastic (Out)",
+        "InOutElastic": "Elastic (In Out)",
+        "OutInElastic": "Elastic (Out In)"
+      }
+    }
+  },
+  "Themes": {
+  },
+  "Clients": {
+    "Master": {
+      "Info": {
+      },
+      "List": {
+      },
+      "Localization": {
+      }
+    },
+    "CustomServer": {
+      "Server": {
+        "Info": {
+          "Loading": "Φόρτωση πληροφοριών διακομιστή...",
+          "Error": "Απέτυχε η φόρτωση των πληροφοριών διακομιστή του \"{0}\".\n\nΕλέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά ή επικοινωνήστε με τον ιδιοκτήτη του διακομιστή για να αναφέρετε το πρόβλημα."
+        },
+        "Banner": {
+          "Loading": "Φόρτωση banner διακομιστή...",
+          "Error": "Η φόρτωση του banner διακομιστή του \"{0}\" απέτυχε.\n\nΕλέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά ή επικοινωνήστε με τον ιδιοκτήτη του διακομιστή για να αναφέρετε το πρόβλημα."
+        }
+      },
+      "Level": {
+        "List": {
+          "Error": "Η φόρτωση των τραγουδιών στη σελίδα {0} απέτυχε.\n\nΠαρακαλούμε ελέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά ή επικοινωνήστε με τον ιδιοκτήτη του διακομιστή για να αναφέρετε το πρόβλημα."
+        },
+        "Details": {
+          "Loading": "Φόρτωση λεπτομερειών τραγουδιού..."
+        },
+        "Compatibility": {
+          "Error": "Το τραγούδι \"{0}\" δεν είναι συμβατό με την τρέχουσα έκδοση Sonolus.\n\nΠαρακαλούμε επικοινωνήστε με τον ιδιοκτήτη του διακομιστή για να αναφέρετε το πρόβλημα."
+        },
+        "Cover": {
+        },
+        "Bgm": {
+          "Loading": "Φόρτωση BGM τραγουδιού..."
+        },
+        "Preview": {
+          "Loading": "Φόρτωση προεπισκόπησης τραγουδιού..."
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "Φόρτωση γραφικών..."
+        },
+        "Details": {
+          "Loading": "Φόρτωση λεπτομερειών γραφικών...",
+          "Error": "Η φόρτωση των λεπτομερειών των γραφικών του \"{0}\" απέτυχε.\n\nΕλέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά ή επικοινωνήστε με τον ιδιοκτήτη του διακομιστή για να αναφέρετε το πρόβλημα."
+        },
+        "Compatibility": {
+          "Loading": "Έλεγχος συμβατότητας γραφικών..."
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+          "Loading": "Φόρτωση γραφικών..."
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Rom": {
+          "Error": "Απέτυχε η φόρτωση του rom μηχανής του \"{0}\".\n\nΕλέγξτε τη σύνδεσή σας στο διαδίκτυο και δοκιμάστε ξανά ή επικοινωνήστε με τον ιδιοκτήτη του διακομιστή για να αναφέρετε το πρόβλημα."
+        },
+        "Configuration": {
+        }
+      }
+    },
+    "Collection": {
+      "Server": {
+        "Info": {
+          "Loading": "Φόρτωση πληροφοριών συλλογής...",
+          "Error": "Η φόρτωση των πληροφοριών συλλογής του \"{0}\" απέτυχε.\n\nΗ συλλογή σας μπορεί να είναι κατεστραμμένη."
+        },
+        "Banner": {
+          "Loading": "Φόρτωση banner συλλογής...",
+          "Error": "Η φόρτωση του banner συλλογής \"{0}\" απέτυχε.\n\nΗ συλλογή σας μπορεί να είναι κατεστραμμένη."
+        }
+      },
+      "Level": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+          "Error": "Η φόρτωση της εικόνας του τραγουδιού \"{0}\" απέτυχε.\n\nΠαρακαλούμε ενημερώστε αυτό το τραγούδι ή χρησιμοποιήστε ένα διαφορετικό τραγούδι."
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "Φόρτωση γραφικών...",
+          "Error": "Απέτυχε η φόρτωση των γραφικών στη σελίδα {0}.\n\nΗ συλλογή σας μπορεί να είναι κατεστραμμένη."
+        },
+        "Details": {
+          "Loading": "Φόρτωση λεπτομερειών γραφικών..."
+        },
+        "Compatibility": {
+          "Loading": "Έλεγχος συμβατότητας γραφικών...",
+          "Error": "Τα γραφικά \"{0}\" δεν είναι συμβατά με την τρέχουσα έκδοση Sonolus.\n\nΠαρακαλούμε ενημερώστε αυτά τα γραφικά ή χρησιμοποιήστε διαφορετικά γραφικά."
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+          "Error": "Η φόρτωση των γραφικών του \"{0}\" απέτυχε.\n\nΠαρακαλούμε ενημερώστε αυτά τα γραφικά ή χρησιμοποιήστε διαφορετικά γραφικά."
+        },
+        "Texture": {
+          "Loading": "Φόρτωση γραφικών..."
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Rom": {
+          "Error": "Απέτυχε η φόρτωση του rom μηχανής του \"{0}\".\n\nΕνημερώστε αυτόν τον κινητήρα ή χρησιμοποιήστε διαφορετική μηχανή."
+        },
+        "Configuration": {
+        }
+      }
+    },
+    "Scp": {
+      "Server": {
+        "Info": {
+          "Loading": "Φόρτωση πληροφοριών πακέτου...",
+          "Error": "Απέτυχε η φόρτωση των πληροφοριών πακέτου του \"{0}\".\n\nΤο πακέτο σας ενδέχεται να μην υποστηρίζεται ή να είναι κατεστραμμένο."
+        },
+        "Banner": {
+          "Loading": "Φόρτωση banner πακέτου...",
+          "Error": "Απέτυχε η φόρτωση του banner πακέτου \"{0}\".\n\nΤο πακέτο σας ενδέχεται να μην υποστηρίζεται ή να είναι κατεστραμμένο."
+        }
+      },
+      "Level": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Rom": {
+        },
+        "Configuration": {
+        }
+      }
+    }
+  },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "Ο σύνδεσμος \"{0}\" δεν είναι έγκυρος.\n\nΧρησιμοποιήστε διαφορετικό σύνδεσμο."
+    }
+  },
+  "Title": {
+  },
+  "Layout": {
+  },
+  "Routes": {
+    "JumpToPage": {
+    },
+    "SelectLocalization": {
+    },
+    "SelectTheme": {
+    },
+    "Home": {
+      "Play": "Παιχνίδι",
+      "UpdateAvailable": {
+        "Open": "Άνοιγμα"
+      }
+    },
+    "SelectServer": {
+      "Title": "Επιλέξτε Διακομιστή",
+      "CustomServers": {
+        "RemoveConfirmation": {
+        }
+      },
+      "Collections": {
+        "RemoveConfirmation": {
+        }
+      }
+    },
+    "EditCustomServer": {
+    },
+    "AddCustomServerAddress": {
+      "AddressPlaceholder": "Εισαγάγετε διεύθυνση προσαρμοσμένου διακομιστή..."
+    },
+    "AddCustomServerInfo": {
+      "Info": {
+        "Error": "Απέτυχε η φόρτωση των πληροφοριών διακομιστή του \"{0}\".\n\nΕλέγξτε εάν έχετε εισαγάγει τη σωστή διεύθυνση διακομιστή, ελέγξτε τη σύνδεσή σας στο Διαδίκτυο και δοκιμάστε ξανά ή επικοινωνήστε με τον ιδιοκτήτη του διακομιστή για να αναφέρετε το πρόβλημα."
+      }
+    },
+    "EditCollection": {
+    },
+    "AddCollection": {
+    },
+    "SelectCollection": {
+      "Collections": {
+        "RemoveConfirmation": {
+        }
+      }
+    },
+    "ImportScp": {
+      "Scp": {
+      },
+      "Success": {
+        "Title": "Πακέτο Εισάχθηκε "
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "Πακέτο Εξάχθηκε"
+      }
+    },
+    "EditVisibility": {
+    },
+    "EditAnimation": {
+    },
+    "EditTween": {
+    },
+    "EditColors": {
+    },
+    "CalibrateAudio": {
+      "Title": "Βαθμονόμηση Ήχου",
+      "Description": "Βαθμονομήστε τον ήχο προσαρμόζοντας τη μετατόπιση ήχου συσκευής μέχρι να συγχρονιστούν ο ήχος και τα γραφικά.",
+      "DeviceAudioOffset": "Μετατόπιση Ήχου Συσκευής"
+    },
+    "CalibrateInput": {
+      "Title": "Βαθμονόμηση Εισόδου",
+      "Description": "Βαθμονομήστε αγγίζοντας μαζί με το δάχτυλό σας. Βεβαιωθείτε πρώτα ότι η μετατόπιση ήχου σας έχει βαθμονομηθεί σωστά.\nΕάν είστε συνηθισμένοι σε παιχνίδια που δεν προσφέρουν τέτοια επιλογή, μπορείτε να το αφήσετε στο 0.",
+      "Result": "Προτεινόμενη μετατόπιση: {0} (±{1})",
+      "DeviceInputOffset": "Μετατόπιση Εισόδου Συσκευής"
+    },
+    "Server": {
+      "Home": {
+        "SaveSuccess": {
+          "Title": "Ο διακομιστής αποθηκεύτηκε"
+        },
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος διακομιστή αντιγράφηκε"
+        }
+      },
+      "Search": {
+      },
+      "ItemList": {
+        "DeleteConfirmation": {
+          "Description": "Είστε βέβαιοι ότι θα διαγράψετε το \"{0}\";"
+        }
+      },
+      "LevelList": {
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος επιπέδων αντιγράφηκε"
+        }
+      },
+      "SkinList": {
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος γραφικών αντιγράφηκε"
+        }
+      },
+      "BackgroundList": {
+        "Title": "Φόντο",
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος φόντου αντιγράφηκε"
+        }
+      },
+      "EffectList": {
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος SFX αντιγράφηκε"
+        }
+      },
+      "ParticleList": {
+        "ShareSuccess": {
+          "Title": "Αντιγράφηκε ο σύνδεσμος σωματιδίων"
+        }
+      },
+      "EngineList": {
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος μηχανών αντιγράφηκε"
+        }
+      },
+      "ItemDetails": {
+        "Actions": {
+        },
+        "DeleteConfirmation": {
+          "Description": "Είστε βέβαιοι ότι θα διαγράψετε το \"{0}\";"
+        },
+        "Description": {
+        },
+        "Recommended": {
+          "Title": "Προτεινόμενο"
+        }
+      },
+      "LevelDetails": {
+        "Actions": {
+        },
+        "Play": {
+          "Effect": {
+            "Audio": {
+            }
+          },
+          "Level": {
+            "Bgm": {
+              "Error": "Απέτυχε η αποκωδικοποίηση του BGM επιπέδου του \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα επιπέδου για να αναφέρετε το πρόβλημα."
+            }
+          },
+          "Boot": {
+            "Loading": "Εκκίνηση Επιπέδου..."
+          }
+        },
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος επιπέδου αντιγράφηκε"
+        }
+      },
+      "SkinDetails": {
+        "ShareSuccess": {
+          "Title": "Αντιγράφηκε ο σύνδεσμος γραφικών"
+        }
+      },
+      "BackgroundDetails": {
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος φόντου αντιγράφηκε"
+        }
+      },
+      "EffectDetails": {
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος εφέ αντιγράφηκε"
+        }
+      },
+      "ParticleDetails": {
+        "ShareSuccess": {
+          "Title": "Αντιγράφηκε ο σύνδεσμος σωματιδίων"
+        }
+      },
+      "EngineDetails": {
+        "ShareSuccess": {
+          "Title": "Ο σύνδεσμος μηχανής αντιγράφηκε"
+        }
+      },
+      "LevelConfiguration": {
+        "Options": {
+        },
+        "Audio": {
+          "Title": "Ήχος",
+          "BgmVolume": "Ένταση BGM",
+          "SfxVolume": "Ένταση SFX"
+        },
+        "UI": {
+        },
+        "Offsets": {
+          "DeviceAudioOffset": "Μετατόπιση ήχου συσκευής",
+          "DeviceInputOffset": "Μετατόπιση εισόδου συσκευής"
+        }
+      },
+      "BackgroundConfiguration": {
+        "Background": {
+        }
+      },
+      "EngineConfiguration": {
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Options": {
+        },
+        "UI": {
+          "PrimaryMetric": "Κύρια Μετρική",
+          "MenuStyle": "Στυλ Μενού",
+          "ComboStyle": "Στυλ Combo",
+          "SecondaryMetricStyle": "Δευτερεύον Στυλ Μετρήσεων"
+        },
+        "Offsets": {
+        }
+      },
+      "LevelSaver": {
+        "Success": {
+          "Title": "Επίπεδο αποθηκευμένο"
+        }
+      },
+      "SkinSaver": {
+        "Success": {
+          "Title": "Γραφικά αποθηκευμένα"
+        }
+      },
+      "BackgroundSaver": {
+        "Success": {
+          "Title": "Το φόντο αποθηκεύτηκε"
+        }
+      },
+      "EffectSaver": {
+        "Success": {
+          "Title": "Το εφέ αποθηκεύτηκε"
+        }
+      },
+      "ParticleSaver": {
+        "Success": {
+          "Title": "Το σωματίδιο αποθηκεύτηκε"
+        }
+      },
+      "EngineSaver": {
+        "Success": {
+          "Title": "Η μηχανή αποθηκεύτηκε"
+        }
+      }
+    },
+    "Settings": {
+      "Graphics": {
+        "AntiAliasing": {
+          "Options": {
+          }
+        }
+      },
+      "Audio": {
+        "AlwaysDecodeLevelBgm": "Συνεχής Αποκωδικοποίηση BGM επιπέδου",
+        "PreviewBgm": {
+          "Options": {
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "Ποιότητα BGM Επιπέδου",
+          "Options": {
+            "Low": "Χαμηλό",
+            "Mid": "Μεσαίο",
+            "High": "Υψηλό"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "Ποιότητα Προεπισκόπηση BGM",
+          "Options": {
+            "Low": "Χαμηλό",
+            "Mid": "Μεσαίο",
+            "High": "Υψηλό"
+          }
+        }
+      },
+      "UI": {
+      },
+      "Offsets": {
+        "Device": {
+        }
+      },
+      "Repository": {
+        "Title": "Αποθετήριο",
+        "Manage": "Διαχείρηση"
+      },
+      "Cache": {
+        "AlwaysRevalidate": "Πάντα Επαναβεβαίωση"
+      },
+      "Developer": {
+        "FpsStyle": "Στυλ FPS",
+        "ShowTouches": "Εμφάνιση Πατημάτων",
+        "TouchStyle": "Στυλ \"Αγγίγματος\"",
+        "DebugLogStyle": "Στυλ Καταγραφής Εντοπισμού Σφαλμάτων"
+      }
+    },
+    "ManageRepository": {
+      "Repository": {
+      },
+      "DeleteRepository": {
+        "DeleteConfirmation": {
+        },
+        "Success": {
+          "Title": "Το αποθετήριο διαγράφηκε"
+        }
+      }
+    },
+    "ManageCache": {
+      "Cache": {
+      },
+      "ExpireCache": {
+        "Expire": "Λήξη",
+        "ExpireConfirmation": {
+          "Description": "Είστε βέβαιοι να λήξει όλη η προσωρινή μνήμη;"
+        },
+        "Success": {
+          "Title": "Η προσωρινή μνήμη έληξε"
+        }
+      },
+      "DeleteCache": {
+        "Delete": "Διαγραφή",
+        "DeleteConfirmation": {
+          "Description": "Είστε βέβαιοι να διαγράψετε όλη την προσωρινή μνήμη;"
+        },
+        "Success": {
+          "Title": "Η προσωρινή μνήμη διαγράφηκε"
+        }
+      }
+    }
+  },
+  "Scp": {
+    "PermissionError": {
+      "Open": "Άνοιγμα"
+    }
+  },
+  "Runtimes": {
+    "Level": {
+      "Play": {
+        "Routes": {
+          "Pause": {
+            "Control": {
+            },
+            "Snapshot": {
+              "Mark": "Σήμανση",
+              "Jump": "Άλμα"
+            },
+            "Debug": {
+            }
+          },
+          "Result": {
+            "Options": {
+            },
+            "Graphs": {
+              "Judgment": {
+                "Title": "Γράφημα Κριτήριων"
+              },
+              "Accuracy": {
+                "AbsValue": "Αξία Abs",
+                "Mean": "Μέσος Όρος",
+                "Min": "Ελάχιστο"
+              },
+              "Bucket": {
+                "Title": "Γράφημα \"κουβά\""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
