@@ -154,7 +154,7 @@
     }
   },
   "Common": {
-    "Loading": "載入中...",
+    "Loading": "載入中…",
     "On": "開",
     "Off": "關",
     "Select": "選擇",
@@ -169,15 +169,16 @@
     "Confirmation": {
       "Title": "確認"
     },
-    "SuccessNotification": {
-      "Title": "成功"
-    },
     "Next": "下一個",
     "Add": "新增",
     "Import": "導入",
     "Search": "搜尋",
     "More": "更多",
     "PullToRefresh": "下拉刷新",
+    "Save": "保存",
+    "Share": "分享",
+    "Update": "更新",
+    "Delete": "刪除",
     "Judgment": "判定",
     "Accuracy": "準確率",
     "Grade": "評級",
@@ -299,9 +300,15 @@
     },
     "CustomServer": {
       "SonolusVersionError": "此伺服器只支持{0}版本的Sonolus。\n\n請更新Sonolus，或聯絡伺服器擁有人報告這個問題。",
-      "ServerInfo": {
-        "Loading": "正在載入伺服器的資訊…",
-        "Error": "無法載入伺服器\"{0}\"的資訊。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+      "Server": {
+        "Info": {
+          "Loading": "正在載入伺服器資訊…",
+          "Error": "無法載入伺服器\"{0}\"的資訊。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+        },
+        "Banner": {
+          "Loading": "正在載入伺服器橫幅…",
+          "Error": "無法載入伺服器\"{0}\"的橫幅。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+        }
       },
       "Level": {
         "List": {
@@ -313,7 +320,7 @@
           "Error": "無法載入關卡\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Compatibility": {
-          "Loading": "正在檢查關卡兼容性...",
+          "Loading": "正在檢查關卡兼容性…",
           "Error": "關卡\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請聯絡伺服器擁有人報告這個問題。"
         },
         "Cover": {
@@ -343,7 +350,7 @@
           "Error": "無法載入佈景\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Compatibility": {
-          "Loading": "正在檢查佈景兼容性...",
+          "Loading": "正在檢查佈景兼容性…",
           "Error": "佈景\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請聯絡伺服器擁有人報告這個問題。"
         },
         "Thumbnail": {
@@ -369,19 +376,19 @@
           "Error": "無法載入背景\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Compatibility": {
-          "Loading": "正在檢查背景兼容性...",
+          "Loading": "正在檢查背景兼容性…",
           "Error": "背景\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請聯絡伺服器擁有人報告這個問題。"
         },
         "Thumbnail": {
-          "Loading": "正在載入背景縮圖...",
+          "Loading": "正在載入背景縮圖…",
           "Error": "無法載入背景\"{0}\"的縮圖。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Data": {
-          "Loading": "正在載入背景數據...",
+          "Loading": "正在載入背景數據…",
           "Error": "無法載入背景\"{0}\"的數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Image": {
-          "Loading": "正在載入背景圖片...",
+          "Loading": "正在載入背景圖片…",
           "Error": "無法載入背景\"{0}\"的圖片。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Configuration": {
@@ -399,8 +406,8 @@
           "Error": "無法載入SE\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Compatibility": {
-          "Loading": "正在檢查SE兼容性...",
-          "Error": "SE”{0}“與當前的 Sonolus 版本不兼容。\n\n請聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在檢查SE兼容性…",
+          "Error": "SE\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請聯絡伺服器擁有人報告這個問題。"
         },
         "Thumbnail": {
           "Loading": "正在載入SE縮圖…",
@@ -425,7 +432,7 @@
           "Error": "無法載入粒子效果\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Compatibility": {
-          "Loading": "正在檢查粒子效果兼容性...",
+          "Loading": "正在檢查粒子效果兼容性…",
           "Error": "粒子效果\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請聯絡伺服器擁有人報告這個問題。"
         },
         "Thumbnail": {
@@ -451,7 +458,7 @@
           "Error": "無法載入引擎\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Compatibility": {
-          "Loading": "正在檢查引擎兼容性...",
+          "Loading": "正在檢查引擎兼容性…",
           "Error": "引擎\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請聯絡伺服器擁有人報告這個問題。"
         },
         "Thumbnail": {
@@ -464,7 +471,7 @@
         },
         "Rom": {
           "Loading": "正在載入引擎rom…",
-          "Error": "無法載入引擎”{0}“的rom。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入引擎\"{0}\"的rom。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
         },
         "Configuration": {
           "Loading": "正在載入引擎設定…",
@@ -473,9 +480,15 @@
       }
     },
     "Collection": {
-      "ServerInfo": {
-        "Loading": "正在載入收藏資訊…",
-        "Error": "無法載入收藏”{0}“的資訊。\n\n你的收藏可能已損壞。"
+      "Server": {
+        "Info": {
+          "Loading": "正在載入收藏資訊…",
+          "Error": "無法載入收藏\"{0}\"的資訊。\n\n你的收藏包可能已損壞。"
+        },
+        "Banner": {
+          "Loading": "正在載入收藏橫幅…",
+          "Error": "無法載入收藏\"{0}\"的橫幅。\n\n你的收藏可能已損壞。"
+        }
       },
       "Level": {
         "List": {
@@ -487,7 +500,7 @@
           "Error": "無法載入關卡\"{0}\"詳情。\n\n你的收藏可能已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查關卡兼容性...",
+          "Loading": "正在檢查關卡兼容性…",
           "Error": "關卡\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請更新此關卡，或遊玩不同的關卡。"
         },
         "Cover": {
@@ -517,7 +530,7 @@
           "Error": "無法載入佈景詳情第{0}頁。\n\n你的收藏可能已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查佈景兼容性...",
+          "Loading": "正在檢查佈景兼容性…",
           "Error": "佈景\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請更新此佈景，或使用不同的佈景。"
         },
         "Thumbnail": {
@@ -543,8 +556,8 @@
           "Error": "無法載入背景\"{0}\"的詳情。\n\n你的收藏可能已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查背景兼容性...",
-          "Error": "背景”{0}“與當前的 Sonolus 版本不兼容。\n\n請更新這個背景，或使用其它的背景。"
+          "Loading": "正在檢查背景兼容性…",
+          "Error": "背景\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請更新這個背景，或使用其它的背景。"
         },
         "Thumbnail": {
           "Loading": "正在載入背景縮圖…",
@@ -573,8 +586,8 @@
           "Error": "無法載入SE詳情第{0}頁。\n\n你的收藏可能已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查SE兼容性...",
-          "Error": "SE”{0}“與當前的 Sonolus 版本不兼容。\n\n請更新此SE，或使用不同的SE。"
+          "Loading": "正在檢查SE兼容性…",
+          "Error": "SE\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請更新此SE，或使用不同的SE。"
         },
         "Thumbnail": {
           "Loading": "正在載入SE縮圖…",
@@ -599,7 +612,7 @@
           "Error": "無法載入粒子效果詳情第{0}頁。\n\n你的收藏可能已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查粒子效果兼容性...",
+          "Loading": "正在檢查粒子效果兼容性…",
           "Error": "粒子效果\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請更新此粒子效果，或使用不同的粒子效果。"
         },
         "Thumbnail": {
@@ -625,7 +638,7 @@
           "Error": "無法載入引擎\"{0}\"的詳情。\n\n你的收藏可能已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查引擎兼容性...",
+          "Loading": "正在檢查引擎兼容性…",
           "Error": "引擎\"{0}\"與當前的 Sonolus 版本不兼容。\n\n請更新此引擎，或使用不同的引擎。"
         },
         "Thumbnail": {
@@ -647,9 +660,15 @@
       }
     },
     "Scp": {
-      "ServerInfo": {
-        "Loading": "正在載入收藏包資訊…",
-        "Error": "無法載入收藏包\"{0}\"的資訊。\n\n你的收藏包可能不受支持或已損壞。"
+      "Server": {
+        "Info": {
+          "Loading": "正在載入收藏包資訊…",
+          "Error": "無法載入收藏包\"{0}\"的資訊。\n\n你的收藏包可能不受支持或已損壞。"
+        },
+        "Banner": {
+          "Loading": "正在載入收藏包橫幅…",
+          "Error": "無法載入收藏包\"{0}\"的橫幅。\n\n你的收藏包可能不受支持或已損壞。"
+        }
       },
       "Level": {
         "List": {
@@ -661,7 +680,7 @@
           "Error": "無法載入關卡\"{0}\"的詳情。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查關卡兼容性...",
+          "Loading": "正在檢查關卡兼容性…",
           "Error": "關卡\"{0}\"與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持已損壞。"
         },
         "Cover": {
@@ -691,12 +710,12 @@
           "Error": "無法載入佈景\"{0}\"的詳情。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查佈景兼容性...",
+          "Loading": "正在檢查佈景兼容性…",
           "Error": "佈景\"{0}\"與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Thumbnail": {
           "Loading": "正在載入佈景縮圖…",
-          "Error": "佈景”{0}\"的詳情與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
+          "Error": "佈景\"{0}\"的詳情與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Data": {
           "Loading": "正在載入佈景數據…",
@@ -704,7 +723,7 @@
         },
         "Texture": {
           "Loading": "正在載入佈景材質…",
-          "Error": "佈景”{0}“的材質與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已經損毀。"
+          "Error": "佈景\"{0}\"的材質與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已經損毀。"
         }
       },
       "Background": {
@@ -718,7 +737,7 @@
         },
         "Compatibility": {
           "Loading": "正在檢查背景兼容性…",
-          "Error": "背景”{0}“與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
+          "Error": "背景\"{0}\"與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Thumbnail": {
           "Loading": "正在載入背景縮圖…",
@@ -747,8 +766,8 @@
           "Error": "無法載入SE\"{0}\"的詳情。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查SE兼容性...",
-          "Error": "SE“{0}”與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
+          "Loading": "正在檢查SE兼容性…",
+          "Error": "SE\"{0}\"與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Thumbnail": {
           "Loading": "正在載入SE縮圖…",
@@ -774,11 +793,11 @@
         },
         "Compatibility": {
           "Loading": "正在檢查粒子兼容性…",
-          "Error": "粒子”{0}“與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
+          "Error": "粒子\"{0}\"與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Thumbnail": {
           "Loading": "正在載入粒子效果縮圖…",
-          "Error": "粒子”{0}“的縮圖與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
+          "Error": "粒子\"{0}\"的縮圖與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Data": {
           "Loading": "正在載入粒子效果數據…",
@@ -786,7 +805,7 @@
         },
         "Texture": {
           "Loading": "正在載入粒子效果材質…",
-          "Error": "粒子”{0}“的材質與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
+          "Error": "粒子\"{0}\"的材質與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
         }
       },
       "Engine": {
@@ -799,7 +818,7 @@
           "Error": "無法載入引擎\"{0}\"的詳情。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查引擎兼容性...",
+          "Loading": "正在檢查引擎兼容性…",
           "Error": "引擎\"{0}\"與當前的 Sonolus 版本不兼容。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Thumbnail": {
@@ -821,6 +840,11 @@
       }
     }
   },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "鏈接\"{0}\"無效。\n\n請使用其他鏈接。"
+    }
+  },
   "Title": {
     "TapToStart": "點擊開始"
   },
@@ -832,7 +856,7 @@
     "JumpToPage": {
       "Title": "跳轉到",
       "Page": "頁數",
-      "PagePlaceholder": "輸入頁數...",
+      "PagePlaceholder": "輸入頁數…",
       "Jump": "跳轉"
     },
     "SelectLocalization": {
@@ -882,6 +906,9 @@
     },
     "AddCustomServerInfo": {
       "Title": "新增自定義伺服器",
+      "Info": {
+        "Error": "無法載入伺服器\"{0}\"的資訊。\n\n請檢查你是否輸入了正確的伺服器地址，檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+      },
       "Name": "名稱",
       "NamePlaceholder": "輸入自定義伺服器名稱…"
     },
@@ -908,6 +935,14 @@
       "Scp": {
         "Loading": "正在載入收藏包…",
         "Error": "無法載入收藏包\"{0}\"。\n\n你的收藏包可能不受支持或已損壞。"
+      },
+      "Success": {
+        "Title": "已導入收藏包"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "已導出收藏包"
       }
     },
     "EditVisibility": {
@@ -946,39 +981,64 @@
         "Backgrounds": "背景",
         "Effects": "SE",
         "Particles": "粒子效果",
-        "Engines": "引擎"
+        "Engines": "引擎",
+        "SaveSuccess": {
+          "Title": "已保存伺服器"
+        },
+        "ShareSuccess": {
+          "Title": "已複製伺服器鏈接"
+        }
       },
       "Search": {
         "Title": "搜尋"
       },
       "ItemList": {
         "DeleteConfirmation": {
-          "Description": "您確定要刪除“{0}”嗎？"
+          "Description": "您確定要刪除\"{0}\"嗎？"
         }
       },
       "LevelList": {
-        "Title": "關卡"
+        "Title": "關卡",
+        "ShareSuccess": {
+          "Title": "已複製關卡鏈接"
+        }
       },
       "SkinList": {
-        "Title": "佈景"
+        "Title": "佈景",
+        "ShareSuccess": {
+          "Title": "已複製佈景鏈接"
+        }
       },
       "BackgroundList": {
-        "Title": "背景"
+        "Title": "背景",
+        "ShareSuccess": {
+          "Title": "已複製背景鏈接"
+        }
       },
       "EffectList": {
-        "Title": "SE"
+        "Title": "SE",
+        "ShareSuccess": {
+          "Title": "已複製SE鏈接"
+        }
       },
       "ParticleList": {
-        "Title": "粒子效果"
+        "Title": "粒子效果",
+        "ShareSuccess": {
+          "Title": "已複製粒子效果鏈接"
+        }
       },
       "EngineList": {
-        "Title": "引擎"
+        "Title": "引擎",
+        "ShareSuccess": {
+          "Title": "已複製引擎鏈接"
+        }
       },
       "ItemDetails": {
         "Actions": {
-          "Configuration": "設定",
-          "Save": "儲存",
-          "Update": "更新"
+          "Configuration": "設定"
+        },
+        "DeleteConfirmation": {
+          "Description": "您確定要刪除\"{0}\"嗎？"
         },
         "Description": {
           "Title": "描述"
@@ -994,13 +1054,13 @@
         "Play": {
           "Effect": {
             "Audio": {
-              "Loading": "正在解碼SE片段...",
+              "Loading": "正在解碼SE片段…",
               "Error": "無法解碼SE\"{0}\"的片段。\n\n請聯絡SE作者報告這個問題。"
             }
           },
           "Level": {
             "Bgm": {
-              "Loading": "正在解碼關卡樂曲...",
+              "Loading": "正在解碼關卡樂曲…",
               "Error": "無法解碼關卡\"{0}\"的樂曲。\n\n請聯絡關卡作者報告這個問題。"
             }
           },
@@ -1008,6 +1068,34 @@
             "Loading": "正在起動關卡…",
             "Error": "無法起動關卡\"{0}\"。\n\n請聯絡關卡作者報告這個問題。"
           }
+        },
+        "ShareSuccess": {
+          "Title": "已複製關卡鏈接"
+        }
+      },
+      "SkinDetails": {
+        "ShareSuccess": {
+          "Title": "已複製佈景鏈接"
+        }
+      },
+      "BackgroundDetails": {
+        "ShareSuccess": {
+          "Title": "已複製背景鏈接"
+        }
+      },
+      "EffectDetails": {
+        "ShareSuccess": {
+          "Title": "已複製特效鏈接"
+        }
+      },
+      "ParticleDetails": {
+        "ShareSuccess": {
+          "Title": "已複製粒子效果鏈接"
+        }
+      },
+      "EngineDetails": {
+        "ShareSuccess": {
+          "Title": "已複製引擎鏈接"
         }
       },
       "LevelConfiguration": {
@@ -1083,6 +1171,36 @@
         "Offsets": {
           "Title": "偏移",
           "EngineInputOffset": "引擎輸入偏移"
+        }
+      },
+      "LevelSaver": {
+        "Success": {
+          "Title": "已保存關卡"
+        }
+      },
+      "SkinSaver": {
+        "Success": {
+          "Title": "已保存佈景"
+        }
+      },
+      "BackgroundSaver": {
+        "Success": {
+          "Title": "已保存背景"
+        }
+      },
+      "EffectSaver": {
+        "Success": {
+          "Title": "已保存特效"
+        }
+      },
+      "ParticleSaver": {
+        "Success": {
+          "Title": "已保存粒子效果"
+        }
+      },
+      "EngineSaver": {
+        "Success": {
+          "Title": "已保存引擎"
         }
       }
     },
@@ -1193,6 +1311,9 @@
         "DeleteConfirmation": {
           "Description": "你確定要刪除所有資料庫資源嗎？",
           "Loading": "刪除資料庫"
+        },
+        "Success": {
+          "Title": "已刪除資料庫"
         }
       }
     },
@@ -1209,6 +1330,9 @@
         "Expire": "過期",
         "ExpireConfirmation": {
           "Description": "你確定要將全部緩存過期嗎？"
+        },
+        "Success": {
+          "Title": "已將緩存過期"
         }
       },
       "DeleteCache": {
@@ -1217,6 +1341,9 @@
         "Delete": "刪除",
         "DeleteConfirmation": {
           "Description": "你確定要刪除全部緩存嗎？"
+        },
+        "Success": {
+          "Title": "已將緩存刪除"
         }
       }
     }

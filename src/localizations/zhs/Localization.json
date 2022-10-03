@@ -169,15 +169,16 @@
     "Confirmation": {
       "Title": "确认"
     },
-    "SuccessNotification": {
-      "Title": "成功"
-    },
     "Next": "下一步",
     "Add": "添加",
     "Import": "导入",
     "Search": "搜索",
     "More": "更多",
     "PullToRefresh": "拉动刷新",
+    "Save": "保存",
+    "Share": "分享",
+    "Update": "更新",
+    "Delete": "删除",
     "Judgment": "判定",
     "Accuracy": "准度",
     "Grade": "评级",
@@ -299,9 +300,15 @@
     },
     "CustomServer": {
       "SonolusVersionError": "此服务器只支持 Sonolus 版本 {0}。\n\n请更新您的 Sonolus，或联系服务器运营并汇报这个问题。",
-      "ServerInfo": {
-        "Loading": "正在加载服务器信息…",
-        "Error": "加载服务器“{0}”信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+      "Server": {
+        "Info": {
+          "Loading": "正在加载服务器信息…",
+          "Error": "加载服务器“{0}”信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Banner": {
+          "Loading": "正在加载服务器横幅…",
+          "Error": "加载服务器“{0}”横幅失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
       },
       "Level": {
         "List": {
@@ -473,9 +480,15 @@
       }
     },
     "Collection": {
-      "ServerInfo": {
-        "Loading": "正在加载收藏信息…",
-        "Error": "加载收藏“{0}”信息失败。\n\n您的收藏可能已损坏。"
+      "Server": {
+        "Info": {
+          "Loading": "正在加载收藏信息…",
+          "Error": "加载收藏“{0}”信息失败。\n\n您的收藏可能已损坏。"
+        },
+        "Banner": {
+          "Loading": "正在加载收藏横幅…",
+          "Error": "加载收藏“{0}”横幅失败。\n\n您的收藏可能已损坏。"
+        }
       },
       "Level": {
         "List": {
@@ -647,9 +660,15 @@
       }
     },
     "Scp": {
-      "ServerInfo": {
-        "Loading": "加载收藏包信息…",
-        "Error": "加载收藏包“{0}”信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+      "Server": {
+        "Info": {
+          "Loading": "加载收藏包信息…",
+          "Error": "加载收藏包“{0}”信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Banner": {
+          "Loading": "加载收藏包横幅…",
+          "Error": "加载收藏包“{0}”横幅失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
       },
       "Level": {
         "List": {
@@ -821,6 +840,11 @@
       }
     }
   },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "链接“{0}”无效。\n\n请使用其他链接。"
+    }
+  },
   "Title": {
     "TapToStart": "点击开始"
   },
@@ -858,13 +882,13 @@
       "CustomServers": {
         "Title": "自定义服务器",
         "RemoveConfirmation": {
-          "Description": "您确定要删除”{0}“吗？"
+          "Description": "您确定要删除“{0}”吗？"
         }
       },
       "Collections": {
         "Title": "收藏",
         "RemoveConfirmation": {
-          "Description": "您确定要删除”{0}“吗？"
+          "Description": "您确定要删除“{0}”吗？"
         }
       }
     },
@@ -882,6 +906,9 @@
     },
     "AddCustomServerInfo": {
       "Title": "添加自定义服务器",
+      "Info": {
+        "Error": "加载服务器“{0}”信息失败。\n\n请检查您是否输入了正确的服务器地址，检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+      },
       "Name": "名称",
       "NamePlaceholder": "输入自定义服务器名称…"
     },
@@ -900,14 +927,22 @@
       "Collections": {
         "Title": "收藏",
         "RemoveConfirmation": {
-          "Description": "您确定要删除”{0}“吗？"
+          "Description": "您确定要删除“{0}”吗？"
         }
       }
     },
     "ImportScp": {
       "Scp": {
         "Loading": "正在加载收藏包…",
-        "Error": "加载收藏包”{0}“失败。\n\n您的收藏包可能不受支持或已损坏。"
+        "Error": "加载收藏包“{0}”失败。\n\n您的收藏包可能不受支持或已损坏。"
+      },
+      "Success": {
+        "Title": "收藏包已导入"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "收藏包已导出"
       }
     },
     "EditVisibility": {
@@ -946,7 +981,13 @@
         "Backgrounds": "背景",
         "Effects": "音效",
         "Particles": "粒子效果",
-        "Engines": "引擎"
+        "Engines": "引擎",
+        "SaveSuccess": {
+          "Title": "服务器已保存"
+        },
+        "ShareSuccess": {
+          "Title": "服务器链接已复制"
+        }
       },
       "Search": {
         "Title": "搜索"
@@ -957,28 +998,47 @@
         }
       },
       "LevelList": {
-        "Title": "关卡"
+        "Title": "关卡",
+        "ShareSuccess": {
+          "Title": "关卡链接已复制"
+        }
       },
       "SkinList": {
-        "Title": "皮肤"
+        "Title": "皮肤",
+        "ShareSuccess": {
+          "Title": "皮肤链接已复制"
+        }
       },
       "BackgroundList": {
-        "Title": "背景"
+        "Title": "背景",
+        "ShareSuccess": {
+          "Title": "背景链接已复制"
+        }
       },
       "EffectList": {
-        "Title": "音效"
+        "Title": "音效",
+        "ShareSuccess": {
+          "Title": "音效链接已复制"
+        }
       },
       "ParticleList": {
-        "Title": "粒子效果"
+        "Title": "粒子效果",
+        "ShareSuccess": {
+          "Title": "粒子效果链接已复制"
+        }
       },
       "EngineList": {
-        "Title": "引擎"
+        "Title": "引擎",
+        "ShareSuccess": {
+          "Title": "引擎链接已复制"
+        }
       },
       "ItemDetails": {
         "Actions": {
-          "Configuration": "配置",
-          "Save": "保存",
-          "Update": "更新"
+          "Configuration": "配置"
+        },
+        "DeleteConfirmation": {
+          "Description": "您确定要删除“{0}”吗？"
         },
         "Description": {
           "Title": "描述"
@@ -995,19 +1055,47 @@
           "Effect": {
             "Audio": {
               "Loading": "正在解码音效音频…",
-              "Error": "解码音效”{0}“音频失败。\n\n请联系音效作者并汇报这个问题。"
+              "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
             }
           },
           "Level": {
             "Bgm": {
               "Loading": "正在解码关卡音乐…",
-              "Error": "解码关卡”{0}“音乐失败。\n\n请联系关卡作者并汇报这个问题。"
+              "Error": "解码关卡“{0}”音乐失败。\n\n请联系关卡作者并汇报这个问题。"
             }
           },
           "Boot": {
             "Loading": "正在启动关卡…",
-            "Error": "启动关卡”{0}“失败。\n\n请联系关卡作者并汇报这个问题。"
+            "Error": "启动关卡“{0}”失败。\n\n请联系关卡作者并汇报这个问题。"
           }
+        },
+        "ShareSuccess": {
+          "Title": "关卡链接已复制"
+        }
+      },
+      "SkinDetails": {
+        "ShareSuccess": {
+          "Title": "皮肤链接已复制"
+        }
+      },
+      "BackgroundDetails": {
+        "ShareSuccess": {
+          "Title": "背景链接已复制"
+        }
+      },
+      "EffectDetails": {
+        "ShareSuccess": {
+          "Title": "音效链接已复制"
+        }
+      },
+      "ParticleDetails": {
+        "ShareSuccess": {
+          "Title": "粒子效果链接已复制"
+        }
+      },
+      "EngineDetails": {
+        "ShareSuccess": {
+          "Title": "引擎链接已复制"
         }
       },
       "LevelConfiguration": {
@@ -1083,6 +1171,36 @@
         "Offsets": {
           "Title": "偏移",
           "EngineInputOffset": "引擎输入偏移"
+        }
+      },
+      "LevelSaver": {
+        "Success": {
+          "Title": "关卡已保存"
+        }
+      },
+      "SkinSaver": {
+        "Success": {
+          "Title": "皮肤已保存"
+        }
+      },
+      "BackgroundSaver": {
+        "Success": {
+          "Title": "背景已保存"
+        }
+      },
+      "EffectSaver": {
+        "Success": {
+          "Title": "音效已保存"
+        }
+      },
+      "ParticleSaver": {
+        "Success": {
+          "Title": "粒子效果已保存"
+        }
+      },
+      "EngineSaver": {
+        "Success": {
+          "Title": "引擎已保存"
         }
       }
     },
@@ -1193,6 +1311,9 @@
         "DeleteConfirmation": {
           "Description": "您确定要删除全部资料库资源吗？",
           "Loading": "正在删除资料库…"
+        },
+        "Success": {
+          "Title": "资料库已删除"
         }
       }
     },
@@ -1209,6 +1330,9 @@
         "Expire": "过期",
         "ExpireConfirmation": {
           "Description": "您确定要将全部缓存过期吗？"
+        },
+        "Success": {
+          "Title": "缓存已过期"
         }
       },
       "DeleteCache": {
@@ -1217,6 +1341,9 @@
         "Delete": "删除",
         "DeleteConfirmation": {
           "Description": "您确定要删除全部缓存吗？"
+        },
+        "Success": {
+          "Title": "缓存已删除"
         }
       }
     }

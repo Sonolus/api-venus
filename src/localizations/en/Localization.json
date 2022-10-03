@@ -169,15 +169,16 @@
         "Confirmation": {
             "Title": "Confirmation"
         },
-        "SuccessNotification": {
-            "Title": "Success"
-        },
         "Next": "Next",
         "Add": "Add",
         "Import": "Import",
         "Search": "Search",
         "More": "More",
         "PullToRefresh": "Pull to refresh",
+        "Save": "Save",
+        "Share": "Share",
+        "Update": "Update",
+        "Delete": "Delete",
         "Judgment": "Judgment",
         "Accuracy": "Accuracy",
         "Grade": "Grade",
@@ -299,9 +300,15 @@
         },
         "CustomServer": {
             "SonolusVersionError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem.",
-            "ServerInfo": {
-                "Loading": "Loading server information...",
-                "Error": "Failed to load server information of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            "Server": {
+                "Info": {
+                    "Loading": "Loading server information...",
+                    "Error": "Failed to load server information of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Banner": {
+                    "Loading": "Loading server banner...",
+                    "Error": "Failed to load server banner of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
             },
             "Level": {
                 "List": {
@@ -473,9 +480,15 @@
             }
         },
         "Collection": {
-            "ServerInfo": {
-                "Loading": "Loading collection information...",
-                "Error": "Failed to load collection information of \"{0}\".\n\nYour collection may be corrupted."
+            "Server": {
+                "Info": {
+                    "Loading": "Loading collection information...",
+                    "Error": "Failed to load collection information of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Banner": {
+                    "Loading": "Loading collection banner...",
+                    "Error": "Failed to load collection banner of \"{0}\".\n\nYour collection may be corrupted."
+                }
             },
             "Level": {
                 "List": {
@@ -647,9 +660,15 @@
             }
         },
         "Scp": {
-            "ServerInfo": {
-                "Loading": "Loading package information...",
-                "Error": "Failed to load package information of \"{0}\".\n\nYour package may be unsupported or corrupted."
+            "Server": {
+                "Info": {
+                    "Loading": "Loading package information...",
+                    "Error": "Failed to load package information of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Banner": {
+                    "Loading": "Loading package banner...",
+                    "Error": "Failed to load package banner of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
             },
             "Level": {
                 "List": {
@@ -821,6 +840,11 @@
             }
         }
     },
+    "DeepLink": {
+        "Invalid": {
+            "Description": "Link \"{0}\" is invalid.\n\nPlease use a different link."
+        }
+    },
     "Title": {
         "TapToStart": "Tap to Start"
     },
@@ -882,6 +906,9 @@
         },
         "AddCustomServerInfo": {
             "Title": "Add Custom Server",
+            "Info": {
+                "Error": "Failed to load server information of \"{0}\".\n\nPlease check if you have entered the correct server address, check your internet connection and try again, or contact server owner to report the problem."
+            },
             "Name": "Name",
             "NamePlaceholder": "Enter custom server name..."
         },
@@ -908,6 +935,14 @@
             "Scp": {
                 "Loading": "Loading package...",
                 "Error": "Failed to load package \"{0}\".\n\nYour package may be unsupported or corrupted."
+            },
+            "Success": {
+                "Title": "Package Imported"
+            }
+        },
+        "ExportScp": {
+            "Success": {
+                "Title": "Package Exported"
             }
         },
         "EditVisibility": {
@@ -946,7 +981,13 @@
                 "Backgrounds": "Backgrounds",
                 "Effects": "SFX",
                 "Particles": "Particles",
-                "Engines": "Engines"
+                "Engines": "Engines",
+                "SaveSuccess": {
+                    "Title": "Server Saved"
+                },
+                "ShareSuccess": {
+                    "Title": "Server Link Copied"
+                }
             },
             "Search": {
                 "Title": "Search"
@@ -957,28 +998,47 @@
                 }
             },
             "LevelList": {
-                "Title": "Levels"
+                "Title": "Levels",
+                "ShareSuccess": {
+                    "Title": "Levels Link Copied"
+                }
             },
             "SkinList": {
-                "Title": "Skins"
+                "Title": "Skins",
+                "ShareSuccess": {
+                    "Title": "Skins Link Copied"
+                }
             },
             "BackgroundList": {
-                "Title": "Backgrounds"
+                "Title": "Backgrounds",
+                "ShareSuccess": {
+                    "Title": "Backgrounds Link Copied"
+                }
             },
             "EffectList": {
-                "Title": "SFX"
+                "Title": "SFX",
+                "ShareSuccess": {
+                    "Title": "SFX Link Copied"
+                }
             },
             "ParticleList": {
-                "Title": "Particles"
+                "Title": "Particles",
+                "ShareSuccess": {
+                    "Title": "Particles Link Copied"
+                }
             },
             "EngineList": {
-                "Title": "Engines"
+                "Title": "Engines",
+                "ShareSuccess": {
+                    "Title": "Engines Link Copied"
+                }
             },
             "ItemDetails": {
                 "Actions": {
-                    "Configuration": "Configuration",
-                    "Save": "Save",
-                    "Update": "Update"
+                    "Configuration": "Configuration"
+                },
+                "DeleteConfirmation": {
+                    "Description": "Are you sure to delete \"{0}\"?"
                 },
                 "Description": {
                     "Title": "Description"
@@ -1008,6 +1068,34 @@
                         "Loading": "Booting level...",
                         "Error": "Failed to boot level \"{0}\".\n\nPlease contact level author to report the problem."
                     }
+                },
+                "ShareSuccess": {
+                    "Title": "Level Link Copied"
+                }
+            },
+            "SkinDetails": {
+                "ShareSuccess": {
+                    "Title": "Skin Link Copied"
+                }
+            },
+            "BackgroundDetails": {
+                "ShareSuccess": {
+                    "Title": "Background Link Copied"
+                }
+            },
+            "EffectDetails": {
+                "ShareSuccess": {
+                    "Title": "Effect Link Copied"
+                }
+            },
+            "ParticleDetails": {
+                "ShareSuccess": {
+                    "Title": "Particle Link Copied"
+                }
+            },
+            "EngineDetails": {
+                "ShareSuccess": {
+                    "Title": "Engine Link Copied"
                 }
             },
             "LevelConfiguration": {
@@ -1083,6 +1171,36 @@
                 "Offsets": {
                     "Title": "Offsets",
                     "EngineInputOffset": "Engine Input Offset"
+                }
+            },
+            "LevelSaver": {
+                "Success": {
+                    "Title": "Level Saved"
+                }
+            },
+            "SkinSaver": {
+                "Success": {
+                    "Title": "Skin Saved"
+                }
+            },
+            "BackgroundSaver": {
+                "Success": {
+                    "Title": "Background Saved"
+                }
+            },
+            "EffectSaver": {
+                "Success": {
+                    "Title": "Effect Saved"
+                }
+            },
+            "ParticleSaver": {
+                "Success": {
+                    "Title": "Particle Saved"
+                }
+            },
+            "EngineSaver": {
+                "Success": {
+                    "Title": "Engine Saved"
                 }
             }
         },
@@ -1193,6 +1311,9 @@
                 "DeleteConfirmation": {
                     "Description": "Are you sure to delete all repository resources?",
                     "Loading": "Deleting repository..."
+                },
+                "Success": {
+                    "Title": "Repository Deleted"
                 }
             }
         },
@@ -1209,6 +1330,9 @@
                 "Expire": "Expire",
                 "ExpireConfirmation": {
                     "Description": "Are you sure to expire all cache?"
+                },
+                "Success": {
+                    "Title": "Cache Expired"
                 }
             },
             "DeleteCache": {
@@ -1217,6 +1341,9 @@
                 "Delete": "Delete",
                 "DeleteConfirmation": {
                     "Description": "Are you sure to delete all cache?"
+                },
+                "Success": {
+                    "Title": "Cache Deleted"
                 }
             }
         }

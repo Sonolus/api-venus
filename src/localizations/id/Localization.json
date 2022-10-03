@@ -169,15 +169,16 @@
     "Confirmation": {
       "Title": "Konfirmasi"
     },
-    "SuccessNotification": {
-      "Title": "Sukses"
-    },
     "Next": "Selanjutnya",
     "Add": "Tambah",
     "Import": "Impor",
     "Search": "Cari",
     "More": "Selebihnya",
     "PullToRefresh": "Tarik untuk menyegarkan",
+    "Save": "Simpan",
+    "Share": "Berbagi",
+    "Update": "Perbarui",
+    "Delete": "Hapus",
     "Judgment": "Penilaian",
     "Accuracy": "Akurasi",
     "Grade": "Nilai",
@@ -299,9 +300,15 @@
     },
     "CustomServer": {
       "SonolusVersionError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilahkan perbarui Sonolus Anda, atau hubungi pembuat server untuk melaporkan masalahnya.",
-      "ServerInfo": {
-        "Loading": "Memuat informasi server...",
-        "Error": "Gagal memuat informasi server \"{0}\".\n\nSilahkan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+      "Server": {
+        "Info": {
+          "Loading": "Memuat informasi server...",
+          "Error": "Gagal memuat informasi server \"{0}\".\n\nSilahkan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+        },
+        "Banner": {
+          "Loading": "Memuat banner server...",
+          "Error": "Gagal memuat banner server \"{0}\".\n\nSilahkan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+        }
       },
       "Level": {
         "List": {
@@ -473,9 +480,15 @@
       }
     },
     "Collection": {
-      "ServerInfo": {
-        "Loading": "Memuat informasi koleksi...",
-        "Error": "Gagal memuat informasi koleksi...\n\nKoleksi Anda mungkin korup."
+      "Server": {
+        "Info": {
+          "Loading": "Memuat informasi koleksi...",
+          "Error": "Gagal memuat informasi koleksi \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Banner": {
+          "Loading": "Memuat banner koleksi...",
+          "Error": "Gagal memuat banner koleksi \"{0}\".\n\nKoleksi Anda mungkin korup."
+        }
       },
       "Level": {
         "List": {
@@ -647,9 +660,15 @@
       }
     },
     "Scp": {
-      "ServerInfo": {
-        "Loading": "Memuat informasi paket...",
-        "Error": "Gagal memuat informasi paket \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+      "Server": {
+        "Info": {
+          "Loading": "Memuat informasi paket...",
+          "Error": "Gagal memuat informasi paket \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Banner": {
+          "Loading": "Memuat banner paket...",
+          "Error": "Gagal memuat banner paket \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        }
       },
       "Level": {
         "List": {
@@ -821,6 +840,11 @@
       }
     }
   },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "Link \"{0}\" is tidak valid.\n\nSilahkan gunakan link yang berbeda."
+    }
+  },
   "Title": {
     "TapToStart": "Tekan untuk Memulai"
   },
@@ -832,7 +856,7 @@
     "JumpToPage": {
       "Title": "Lompat ke Halaman",
       "Page": "Halaman",
-      "PagePlaceholder": "Masukkan nomor halama...",
+      "PagePlaceholder": "Masukkan nomor halaman...",
       "Jump": "Lompat"
     },
     "SelectLocalization": {
@@ -882,6 +906,9 @@
     },
     "AddCustomServerInfo": {
       "Title": "Tambah Kustom Server",
+      "Info": {
+        "Error": "Gagal memuat informasi server \"{0}\".\n\nSilahkan periksa jika Anda memasukkan alamat server yang benar, periksa koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+      },
       "Name": "Nama Kustom Server",
       "NamePlaceholder": "Masukkan nama kustom server..."
     },
@@ -908,6 +935,14 @@
       "Scp": {
         "Loading": "Memuat paket...",
         "Error": "Gagal memuat paket \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+      },
+      "Success": {
+        "Title": "Paket Diimpor"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "Paket Diekspor"
       }
     },
     "EditVisibility": {
@@ -946,7 +981,13 @@
         "Backgrounds": "Latar",
         "Effects": "SFX",
         "Particles": "Partikel",
-        "Engines": "Mesin"
+        "Engines": "Mesin",
+        "SaveSuccess": {
+          "Title": "Server Disimpan"
+        },
+        "ShareSuccess": {
+          "Title": "Link Server Disalin"
+        }
       },
       "Search": {
         "Title": "Cari"
@@ -957,28 +998,47 @@
         }
       },
       "LevelList": {
-        "Title": "Level"
+        "Title": "Level",
+        "ShareSuccess": {
+          "Title": "Link Level Disalin"
+        }
       },
       "SkinList": {
-        "Title": "Skin"
+        "Title": "Skin",
+        "ShareSuccess": {
+          "Title": "Link Skin Disalin"
+        }
       },
       "BackgroundList": {
-        "Title": "Latar"
+        "Title": "Latar",
+        "ShareSuccess": {
+          "Title": "Link Latar Disalin"
+        }
       },
       "EffectList": {
-        "Title": "SFX"
+        "Title": "SFX",
+        "ShareSuccess": {
+          "Title": "Link SFX Disalin"
+        }
       },
       "ParticleList": {
-        "Title": "Partikel"
+        "Title": "Partikel",
+        "ShareSuccess": {
+          "Title": "Link Partikel Disalin"
+        }
       },
       "EngineList": {
-        "Title": "Mesin"
+        "Title": "Mesin",
+        "ShareSuccess": {
+          "Title": "Link Mesin Disalin"
+        }
       },
       "ItemDetails": {
         "Actions": {
-          "Configuration": "Konfigurasi",
-          "Save": "Simpan",
-          "Update": "Perbarui"
+          "Configuration": "Konfigurasi"
+        },
+        "DeleteConfirmation": {
+          "Description": "Apakah Anda yakin ingin menghapus \"{0}\"?"
         },
         "Description": {
           "Title": "Deskripsi"
@@ -1008,6 +1068,34 @@
             "Loading": "Booting level...",
             "Error": "Gagal untuk boot level \"{0}\".\n\nSilahkan hubungi pembuat level untuk melaporkan masalahnya."
           }
+        },
+        "ShareSuccess": {
+          "Title": "Link Level Disalin"
+        }
+      },
+      "SkinDetails": {
+        "ShareSuccess": {
+          "Title": "Link Skin Disalin"
+        }
+      },
+      "BackgroundDetails": {
+        "ShareSuccess": {
+          "Title": "Link Latar Disalin"
+        }
+      },
+      "EffectDetails": {
+        "ShareSuccess": {
+          "Title": "Link Efek Disalin"
+        }
+      },
+      "ParticleDetails": {
+        "ShareSuccess": {
+          "Title": "Link Partikel Disalin"
+        }
+      },
+      "EngineDetails": {
+        "ShareSuccess": {
+          "Title": "Link Mesin Disalin"
         }
       },
       "LevelConfiguration": {
@@ -1031,7 +1119,7 @@
           "JudgmentStyle": "Style Penilaian",
           "ComboStyle": "Style Kombo",
           "PrimaryMetricStyle": "Style Metrik Utama",
-          "SecondaryMetricStyle": "Style Metric Sekunder"
+          "SecondaryMetricStyle": "Style Metrik Sekunder"
         },
         "Offsets": {
           "Title": "Offset",
@@ -1083,6 +1171,36 @@
         "Offsets": {
           "Title": "Offset",
           "EngineInputOffset": "Offset Input Mesin"
+        }
+      },
+      "LevelSaver": {
+        "Success": {
+          "Title": "Level Disimpan"
+        }
+      },
+      "SkinSaver": {
+        "Success": {
+          "Title": "Skin Disimpan"
+        }
+      },
+      "BackgroundSaver": {
+        "Success": {
+          "Title": "Latar Disimpan"
+        }
+      },
+      "EffectSaver": {
+        "Success": {
+          "Title": "Efek Disimpan"
+        }
+      },
+      "ParticleSaver": {
+        "Success": {
+          "Title": "Partikel Disimpan"
+        }
+      },
+      "EngineSaver": {
+        "Success": {
+          "Title": "Mesin Disimpan"
         }
       }
     },
@@ -1193,6 +1311,9 @@
         "DeleteConfirmation": {
           "Description": "Apakah Anda yakin untuk menghapus semua repositori?",
           "Loading": "Menghapus repositori..."
+        },
+        "Success": {
+          "Title": "Repositori Dihapus"
         }
       }
     },
@@ -1209,6 +1330,9 @@
         "Expire": "Akhiri",
         "ExpireConfirmation": {
           "Description": "Apakah Anda yakin untuk mengakhiri semua cache?"
+        },
+        "Success": {
+          "Title": "Cache Expired"
         }
       },
       "DeleteCache": {
@@ -1217,6 +1341,9 @@
         "Delete": "Hapus",
         "DeleteConfirmation": {
           "Description": "Apakah Anda yakin untuk menghapus semua cache?"
+        },
+        "Success": {
+          "Title": "Cache Dihapus"
         }
       }
     }
