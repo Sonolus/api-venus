@@ -92,7 +92,7 @@
     },
     "Value": {
       "#NONE": "Κανένας",
-      "#ANY": "Οποιος",
+      "#ANY": "Οποιοδήποτε",
       "#ALL": "Ολα",
       "#OTHERS": "Οι υπολοιποι",
       "#SHORT": "Μικρός",
@@ -110,10 +110,10 @@
       "#FRONT": "Εμπρός",
       "#BACK": "Πίσω",
       "#CENTER": "Κέντρο",
-      "#TOP": "Μπλουζα",
-      "#BOTTOM": "Κάτω μέρος",
+      "#TOP": "Πάνω-Πάνω",
+      "#BOTTOM": "Κάτω-Κάτω",
       "#TOP_LEFT": "Πάνω αριστερά",
-      "#TOP_CENTER": "Κορυφαίο Κέντρο",
+      "#TOP_CENTER": "Πάνω-Κέντρο",
       "#TOP_RIGHT": "Πάνω δεξιά",
       "#CENTER_LEFT": "Κεντροαριστερά",
       "#CENTER_RIGHT": "Κεντροδεξιά",
@@ -155,13 +155,13 @@
   },
   "Common": {
     "Loading": "Φόρτωση...",
-    "On": "ΕΠΙ",
-    "Off": "ΜΑΚΡΙΑ ΑΠΟ",
-    "Select": "Επιλέγω",
+    "On": "ΕΝΕΡΓΟΠΟΙΗΜΕΝΟ",
+    "Off": "ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΟ",
+    "Select": "Επιλογή",
     "Edit": "Επεξεργασία",
-    "View": "Θέα",
+    "View": "Προβολή",
     "Cancel": "Ματαίωση",
-    "Confirm": "Επιβεβαιώνω",
+    "Confirm": "Επιβεβαίωση",
     "Retry": "Ξαναδοκιμάσετε",
     "Error": {
       "Title": "Λάθος"
@@ -182,8 +182,8 @@
     "Judgment": "Κρίση",
     "Accuracy": "Ακρίβεια",
     "Grade": "Βαθμός",
-    "ArcadeScore": "Arc Score",
-    "AccuracyScore": "Βαθμολογία Acc",
+    "ArcadeScore": "Βαθμολογία",
+    "AccuracyScore": "Βαθμολογία Ακρίβειας",
     "Combo": "Combo",
     "Perfect": "Τέλεια",
     "Great": "Πολύ καλά",
@@ -233,19 +233,19 @@
       "JudgmentErrorPlacement": {
         "Both": "Και τα δυο",
         "Left": "Αριστερά",
-        "Right": "σωστά"
+        "Right": "Δεξιά"
       },
       "Visibility": "Ορατότητα",
       "Animation": "Κίνηση",
       "Tween": "Tween",
       "Ease": {
-        "Linear": "Γραμμικός",
+        "Linear": "Linear",
         "InSine": "Sine (In)",
-        "OutSine": "Sine (Έξω)",
+        "OutSine": "Sine (Out)",
         "InOutSine": "Sine (In Out)",
         "OutInSine": "Sine (Out In)",
-        "InQuad": "Τετράκλινο (σε)",
-        "OutQuad": "Τετραγωνικό (Έξω)",
+        "InQuad": "Quad (In)",
+        "OutQuad": "Quad (Out)",
         "InOutQuad": "Quad (In Out)",
         "OutInQuad": "Quad (Out In)",
         "InCubic": "Cubic (In)",
@@ -1212,7 +1212,7 @@
         "AntiAliasing": {
           "Title": "Anti-Aliasing",
           "Options": {
-            "Off": "Μακριά από",
+            "Off": "Απενεργοποιημένο",
             "TwoX": "2x",
             "FourX": "4x",
             "EightX": "8x"
