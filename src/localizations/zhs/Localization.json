@@ -867,18 +867,7 @@
       "Title": "选择主题",
       "Description": "选择一个主题："
     },
-    "Home": {
-      "Title": "主页",
-      "Play": "开始",
-      "Settings": "设置",
-      "UpdateAvailable": {
-        "Title": "更新可用",
-        "Description": "Sonolus 版本 {0} 更新！\n\n访问我们的网站：\nhttps://sonolus.com",
-        "Open": "打开"
-      }
-    },
-    "SelectServer": {
-      "Title": "选择服务器",
+    "SelectClient": {
       "CustomServers": {
         "Title": "自定义服务器",
         "RemoveConfirmation": {
@@ -921,15 +910,6 @@
       "Title": "添加收藏",
       "Name": "名称",
       "NamePlaceholder": "输入收藏名称…"
-    },
-    "SelectCollection": {
-      "Title": "选择收藏",
-      "Collections": {
-        "Title": "收藏",
-        "RemoveConfirmation": {
-          "Description": "您确定要删除“{0}”吗？"
-        }
-      }
     },
     "ImportScp": {
       "Scp": {
@@ -974,6 +954,16 @@
       "Result": "推荐偏移：{0} (±{1})",
       "DeviceInputOffset": "设备输入偏移"
     },
+    "Home": {
+      "Title": "主页",
+      "Play": "开始",
+      "Settings": "设置",
+      "UpdateAvailable": {
+        "Title": "更新可用",
+        "Description": "Sonolus 版本 {0} 更新！\n\n访问我们的网站：\nhttps://sonolus.com",
+        "Open": "打开"
+      }
+    },
     "Server": {
       "Home": {
         "Levels": "关卡",
@@ -992,48 +982,48 @@
       "Search": {
         "Title": "搜索"
       },
-      "ItemList": {
+      "Lists": {
         "DeleteConfirmation": {
           "Description": "您确定要删除“{0}”吗？"
+        },
+        "Level": {
+          "Title": "关卡",
+          "ShareSuccess": {
+            "Title": "关卡链接已复制"
+          }
+        },
+        "Skin": {
+          "Title": "皮肤",
+          "ShareSuccess": {
+            "Title": "皮肤链接已复制"
+          }
+        },
+        "Background": {
+          "Title": "背景",
+          "ShareSuccess": {
+            "Title": "背景链接已复制"
+          }
+        },
+        "Effect": {
+          "Title": "音效",
+          "ShareSuccess": {
+            "Title": "音效链接已复制"
+          }
+        },
+        "Particle": {
+          "Title": "粒子效果",
+          "ShareSuccess": {
+            "Title": "粒子效果链接已复制"
+          }
+        },
+        "Engine": {
+          "Title": "引擎",
+          "ShareSuccess": {
+            "Title": "引擎链接已复制"
+          }
         }
       },
-      "LevelList": {
-        "Title": "关卡",
-        "ShareSuccess": {
-          "Title": "关卡链接已复制"
-        }
-      },
-      "SkinList": {
-        "Title": "皮肤",
-        "ShareSuccess": {
-          "Title": "皮肤链接已复制"
-        }
-      },
-      "BackgroundList": {
-        "Title": "背景",
-        "ShareSuccess": {
-          "Title": "背景链接已复制"
-        }
-      },
-      "EffectList": {
-        "Title": "音效",
-        "ShareSuccess": {
-          "Title": "音效链接已复制"
-        }
-      },
-      "ParticleList": {
-        "Title": "粒子效果",
-        "ShareSuccess": {
-          "Title": "粒子效果链接已复制"
-        }
-      },
-      "EngineList": {
-        "Title": "引擎",
-        "ShareSuccess": {
-          "Title": "引擎链接已复制"
-        }
-      },
-      "ItemDetails": {
+      "Details": {
         "Actions": {
           "Configuration": "配置"
         },
@@ -1045,162 +1035,177 @@
         },
         "Recommended": {
           "Title": "推荐"
-        }
-      },
-      "LevelDetails": {
-        "Actions": {
-          "Play": "开始"
         },
-        "Play": {
-          "Effect": {
-            "Audio": {
-              "Loading": "正在解码音效音频…",
-              "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
+        "Level": {
+          "Actions": {
+            "Play": "开始"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "正在解码音效音频…",
+                "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "正在解码关卡音乐…",
+                "Error": "解码关卡“{0}”音乐失败。\n\n请联系关卡作者并汇报这个问题。"
+              }
+            },
+            "Boot": {
+              "Loading": "正在启动关卡…",
+              "Error": "启动关卡“{0}”失败。\n\n请联系关卡作者并汇报这个问题。"
             }
           },
-          "Level": {
-            "Bgm": {
-              "Loading": "正在解码关卡音乐…",
-              "Error": "解码关卡“{0}”音乐失败。\n\n请联系关卡作者并汇报这个问题。"
-            }
-          },
-          "Boot": {
-            "Loading": "正在启动关卡…",
-            "Error": "启动关卡“{0}”失败。\n\n请联系关卡作者并汇报这个问题。"
+          "ShareSuccess": {
+            "Title": "关卡链接已复制"
           }
         },
-        "ShareSuccess": {
-          "Title": "关卡链接已复制"
-        }
-      },
-      "SkinDetails": {
-        "ShareSuccess": {
-          "Title": "皮肤链接已复制"
-        }
-      },
-      "BackgroundDetails": {
-        "ShareSuccess": {
-          "Title": "背景链接已复制"
-        }
-      },
-      "EffectDetails": {
-        "ShareSuccess": {
-          "Title": "音效链接已复制"
-        }
-      },
-      "ParticleDetails": {
-        "ShareSuccess": {
-          "Title": "粒子效果链接已复制"
-        }
-      },
-      "EngineDetails": {
-        "ShareSuccess": {
-          "Title": "引擎链接已复制"
-        }
-      },
-      "LevelConfiguration": {
-        "Title": "关卡配置",
-        "Options": {
-          "Title": "选项"
-        },
-        "Audio": {
-          "Title": "音频",
-          "BgmVolume": "音乐音量",
-          "SfxVolume": "音效音量"
-        },
-        "UI": {
-          "Title": "用户界面",
-          "PrimaryMetric": "主要指标",
-          "SecondaryMetric": "次要指标",
-          "JudgmentErrorStyle": "判定误差样式",
-          "JudgmentErrorPlacement": "判定误差位置",
-          "JudgmentErrorMin": "最小判定误差",
-          "MenuStyle": "菜单样式",
-          "JudgmentStyle": "判定样式",
-          "ComboStyle": "连击样式",
-          "PrimaryMetricStyle": "主要指标样式",
-          "SecondaryMetricStyle": "次要指标样式"
-        },
-        "Offsets": {
-          "Title": "偏移",
-          "LevelAudioOffset": "关卡音频偏移",
-          "ServerAudioOffset": "服务器音频偏移",
-          "DeviceAudioOffset": "设备音频偏移",
-          "EngineInputOffset": "引擎输入偏移",
-          "DeviceInputOffset": "设备输入偏移"
-        }
-      },
-      "BackgroundConfiguration": {
-        "Title": "背景配置",
-        "Background": {
-          "Title": "背景",
-          "Blur": "模糊",
-          "Mask": "遮罩"
-        }
-      },
-      "EngineConfiguration": {
-        "Title": "引擎配置",
         "Skin": {
-          "Title": "皮肤"
+          "ShareSuccess": {
+            "Title": "皮肤链接已复制"
+          }
         },
         "Background": {
-          "Title": "背景"
+          "ShareSuccess": {
+            "Title": "背景链接已复制"
+          }
         },
         "Effect": {
-          "Title": "音效"
+          "ShareSuccess": {
+            "Title": "音效链接已复制"
+          }
         },
         "Particle": {
-          "Title": "粒子效果"
+          "ShareSuccess": {
+            "Title": "粒子效果链接已复制"
+          }
         },
-        "Options": {
-          "Title": "选项"
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "引擎链接已复制"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "关卡配置",
+          "Skin": {
+            "Title": "皮肤"
+          },
+          "Background": {
+            "Title": "背景"
+          },
+          "Effect": {
+            "Title": "音效"
+          },
+          "Particle": {
+            "Title": "粒子效果"
+          },
+          "Options": {
+            "Title": "选项"
+          },
+          "Audio": {
+            "Title": "音频",
+            "BgmVolume": "音乐音量",
+            "SfxVolume": "音效音量"
+          },
+          "UI": {
+            "Title": "用户界面",
+            "PrimaryMetric": "主要指标",
+            "SecondaryMetric": "次要指标",
+            "JudgmentErrorStyle": "判定误差样式",
+            "JudgmentErrorPlacement": "判定误差位置",
+            "JudgmentErrorMin": "最小判定误差",
+            "MenuStyle": "菜单样式",
+            "JudgmentStyle": "判定样式",
+            "ComboStyle": "连击样式",
+            "PrimaryMetricStyle": "主要指标样式",
+            "SecondaryMetricStyle": "次要指标样式"
+          },
+          "Offsets": {
+            "Title": "偏移",
+            "LevelAudioOffset": "关卡音频偏移",
+            "ServerAudioOffset": "服务器音频偏移",
+            "DeviceAudioOffset": "设备音频偏移",
+            "EngineInputOffset": "引擎输入偏移",
+            "DeviceInputOffset": "设备输入偏移"
+          }
         },
-        "UI": {
-          "Title": "用户界面",
-          "PrimaryMetric": "主要指标",
-          "SecondaryMetric": "次要指标",
-          "JudgmentErrorStyle": "判定误差样式",
-          "JudgmentErrorPlacement": "判定误差位置",
-          "JudgmentErrorMin": "最小判定误差",
-          "MenuStyle": "菜单样式",
-          "JudgmentStyle": "判定样式",
-          "ComboStyle": "连击样式",
-          "PrimaryMetricStyle": "主要指标样式",
-          "SecondaryMetricStyle": "次要指标样式"
+        "Background": {
+          "Title": "背景配置",
+          "Image": {
+            "Blur": "模糊",
+            "Mask": "遮罩"
+          }
         },
-        "Offsets": {
-          "Title": "偏移",
-          "EngineInputOffset": "引擎输入偏移"
+        "Engine": {
+          "Title": "引擎配置",
+          "Skin": {
+            "Title": "皮肤"
+          },
+          "Background": {
+            "Title": "背景"
+          },
+          "Effect": {
+            "Title": "音效"
+          },
+          "Particle": {
+            "Title": "粒子效果"
+          },
+          "Options": {
+            "Title": "选项"
+          },
+          "UI": {
+            "Title": "用户界面",
+            "PrimaryMetric": "主要指标",
+            "SecondaryMetric": "次要指标",
+            "JudgmentErrorStyle": "判定误差样式",
+            "JudgmentErrorPlacement": "判定误差位置",
+            "JudgmentErrorMin": "最小判定误差",
+            "MenuStyle": "菜单样式",
+            "JudgmentStyle": "判定样式",
+            "ComboStyle": "连击样式",
+            "PrimaryMetricStyle": "主要指标样式",
+            "SecondaryMetricStyle": "次要指标样式"
+          },
+          "Offsets": {
+            "Title": "偏移",
+            "EngineInputOffset": "引擎输入偏移"
+          }
         }
       },
-      "LevelSaver": {
-        "Success": {
-          "Title": "关卡已保存"
-        }
-      },
-      "SkinSaver": {
-        "Success": {
-          "Title": "皮肤已保存"
-        }
-      },
-      "BackgroundSaver": {
-        "Success": {
-          "Title": "背景已保存"
-        }
-      },
-      "EffectSaver": {
-        "Success": {
-          "Title": "音效已保存"
-        }
-      },
-      "ParticleSaver": {
-        "Success": {
-          "Title": "粒子效果已保存"
-        }
-      },
-      "EngineSaver": {
-        "Success": {
-          "Title": "引擎已保存"
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "关卡已保存"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "皮肤已保存"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景已保存"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "音效已保存"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "粒子效果已保存"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "引擎已保存"
+          }
         }
       }
     },

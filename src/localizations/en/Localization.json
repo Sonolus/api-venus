@@ -298,12 +298,99 @@
                 "Error": "Failed to load language \"{0}\".\n\nPlease check your internet connection and try again."
             }
         },
+        "Service": {
+            "UserProfile": {
+                "Loading": "Loading user profile...",
+                "Error": "Failed to load user profile of \"{0}\".\n\nPlease check if the user ID is correct, or check your internet connection and try again."
+            },
+            "Login": {
+                "Loading": "Signing in...",
+                "Error": "Failed to sign in.\n\nPlease check your internet connection and try again.",
+                "Success": {
+                    "New": {
+                        "Title": "Signed up"
+                    },
+                    "Old": {
+                        "Title": "Signed in"
+                    }
+                }
+            },
+            "EditName": {
+                "Loading": "Editing name...",
+                "Error": "Failed to edit name.\n\nPlease check if your name is legal and within length limit, or check your internet connection and try again.",
+                "Success": {
+                    "Title": "Name Edited"
+                }
+            },
+            "EditAvatar": {
+                "Loading": "Editing avatar...",
+                "Error": "Failed to edit avatar.\n\nPlease check if your avatar is legal, or check your internet connection and try again.",
+                "Success": {
+                    "Title": "Avatar Edited"
+                }
+            },
+            "EditAboutMe": {
+                "Loading": "Editing about me...",
+                "Error": "Failed to edit about me.\n\nPlease check if your about me is legal and within length limit, or check your internet connection and try again.",
+                "Success": {
+                    "Title": "About Me Edited"
+                }
+            },
+            "EditSocialLinks": {
+                "Loading": "Editing social links...",
+                "Error": "Failed to edit social links.\n\nPlease check if your social links are legal and within length limit, or check your internet connection and try again.",
+                "Success": {
+                    "Title": "Social Links Edited"
+                }
+            },
+            "EditFavorites": {
+                "Loading": "Editing favorites...",
+                "Error": "Failed to edit favorites.\n\nPlease check if your favorites are legal and within length limit, or check your internet connection and try again.",
+                "Success": {
+                    "Title": "Favorites Edited"
+                }
+            },
+            "AuthenticateServer": {
+                "Loading": "Requesting Sonolus authentication...",
+                "Error": "Failed to request authentication from Sonolus.\n\nPlease check your internet connection and try again, or contact Sonolus to report the problem."
+            },
+            "Logout": {
+                "Loading": "Signing out...",
+                "Error": "Failed to sign out.\n\nPlease check your internet connection and try again.",
+                "Success": {
+                    "Title": "Signed out"
+                }
+            }
+        },
         "CustomServer": {
             "SonolusVersionError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem.",
+            "Session": {
+                "NeedAuthentication": {
+                    "NotLoggedInError": {
+                        "Description": "This server requires authentication.\n\nPlease sign in first and try again."
+                    },
+                    "Confirmation": {
+                        "Description": "This server requires authentication.\n\nAuthenticate as \"{0}\" and continue?"
+                    }
+                },
+                "AuthenticationExpired": {
+                    "Description": "Your authentication has expired.\n\nAuthenticate as \"{0}\" again and continue?"
+                },
+                "AuthenticationRejected": {
+                    "Description": "Your authentication was rejected by the server.\n\nAuthenticate as \"{0}\" again and continue?"
+                },
+                "Authenticate": {
+                    "Loading": "Requesting server authentication...",
+                    "Error": "Failed to request authentication from \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "AddressMismatchError": {
+                    "Description": "Authentication address mismatched.\n\nPlease contact server owner to report the problem."
+                }
+            },
             "Server": {
                 "Info": {
                     "Loading": "Loading server information...",
-                    "Error": "Failed to load server information of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    "Error": "Failed to load server information of \"{0}\".\n\nPlease check if the server address is correct, check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "Banner": {
                     "Loading": "Loading server banner...",
@@ -861,24 +948,14 @@
         },
         "SelectLocalization": {
             "Title": "Select Language",
-            "Description": "Select a preferred language:"
+            "Description": "Select a preferred language:",
+            "Error": "Failed to load languages."
         },
         "SelectTheme": {
             "Title": "Select Theme",
             "Description": "Select a theme:"
         },
-        "Home": {
-            "Title": "Home",
-            "Play": "Play",
-            "Settings": "Settings",
-            "UpdateAvailable": {
-                "Title": "Update Available",
-                "Description": "Sonolus version {0} is available!\n\nVisit our website:\nhttps://sonolus.com",
-                "Open": "Open"
-            }
-        },
-        "SelectServer": {
-            "Title": "Select Server",
+        "SelectClient": {
             "CustomServers": {
                 "Title": "Custom Servers",
                 "RemoveConfirmation": {
@@ -889,6 +966,90 @@
                 "Title": "Collections",
                 "RemoveConfirmation": {
                     "Description": "Are you sure to remove \"{0}\"?"
+                }
+            }
+        },
+        "Selects": {
+            "ToPlay": {
+                "Title": "Play",
+                "Description": "Select a custom server or collection to start playing."
+            },
+            "ToSave": {
+                "Level": {
+                    "Title": "Save Level",
+                    "Description": "Select a collection to save this level to."
+                },
+                "Skin": {
+                    "Title": "Save Skin",
+                    "Description": "Select a collection to save this skin to."
+                },
+                "Background": {
+                    "Title": "Save Background",
+                    "Description": "Select a collection to save this background to."
+                },
+                "Effect": {
+                    "Title": "Save Effect",
+                    "Description": "Select a collection to save this effect to."
+                },
+                "Particle": {
+                    "Title": "Save Particle",
+                    "Description": "Select a collection to save this particle to."
+                },
+                "Engine": {
+                    "Title": "Save Engine",
+                    "Description": "Select a collection to save this engine to."
+                }
+            },
+            "ToUse": {
+                "Level": {
+                    "Title": "Select Level",
+                    "Description": "Select a custom server or collection to use its levels."
+                },
+                "Skin": {
+                    "Title": "Select Skin",
+                    "Description": "Select a custom server or collection to use its skins."
+                },
+                "Background": {
+                    "Title": "Select Background",
+                    "Description": "Select a custom server or collection to use its backgrounds."
+                },
+                "Effect": {
+                    "Title": "Select Effect",
+                    "Description": "Select a custom server or collection to use its effects."
+                },
+                "Particle": {
+                    "Title": "Select Particle",
+                    "Description": "Select a custom server or collection to use its particles."
+                },
+                "Engine": {
+                    "Title": "Select Engine",
+                    "Description": "Select a custom server or collection to use its engines."
+                }
+            },
+            "ToAddFavorite": {
+                "Level": {
+                    "Title": "Add Favorite Level",
+                    "Description": "Select a custom server to add its levels to favorite."
+                },
+                "Skin": {
+                    "Title": "Add Favorite Skin",
+                    "Description": "Select a custom server to add its skins to favorite."
+                },
+                "Background": {
+                    "Title": "Add Favorite Background",
+                    "Description": "Select a custom server to add its backgrounds to favorite."
+                },
+                "Effect": {
+                    "Title": "Add Favorite Effect",
+                    "Description": "Select a custom server to add its effects to favorite."
+                },
+                "Particle": {
+                    "Title": "Add Favorite Particle",
+                    "Description": "Select a custom server to add its particles to favorite."
+                },
+                "Engine": {
+                    "Title": "Add Favorite Engine",
+                    "Description": "Select a custom server to add its engines to favorite."
                 }
             }
         },
@@ -921,15 +1082,6 @@
             "Title": "Add Collection",
             "Name": "Name",
             "NamePlaceholder": "Enter collection name..."
-        },
-        "SelectCollection": {
-            "Title": "Select Collection",
-            "Collections": {
-                "Title": "Collections",
-                "RemoveConfirmation": {
-                    "Description": "Are you sure to remove \"{0}\"?"
-                }
-            }
         },
         "ImportScp": {
             "Scp": {
@@ -974,6 +1126,91 @@
             "Result": "Recommended Offset: {0} (±{1})",
             "DeviceInputOffset": "Device Input Offset"
         },
+        "Home": {
+            "Title": "Home",
+            "Play": "Play",
+            "Players": "Players",
+            "Account": "Account",
+            "Settings": "Settings",
+            "UpdateAvailable": {
+                "Title": "Update Available",
+                "Description": "Sonolus version {0} is available!\n\nVisit our website:\nhttps://sonolus.com",
+                "Open": "Open"
+            }
+        },
+        "Players": {
+            "Title": "Players",
+            "PlayerLookup": {
+                "Title": "Player Lookup",
+                "Id": "Player ID",
+                "IdPlaceholder": "Enter player ID...",
+                "Lookup": "Lookup"
+            }
+        },
+        "Account": {
+            "Title": "Account",
+            "MyAccount": {
+                "Title": "My Account",
+                "Login": {
+                    "Apple": "Sign in with Apple",
+                    "Google": "Sign in with Google",
+                    "Wechat": "Sign in with WeChat"
+                },
+                "Profile": "Profile",
+                "Logout": "Sign out"
+            }
+        },
+        "UserProfile": {
+            "Home": {
+                "Main": {
+                    "EditName": "Edit Name",
+                    "EditAvatar": "Edit Avatar"
+                },
+                "AboutMe": {
+                    "Title": "About Me"
+                },
+                "SocialLinks": {
+                    "Title": "Social Links",
+                    "None": "No social links."
+                },
+                "Favorites": {
+                    "Title": "Favorites",
+                    "None": "No favorites."
+                }
+            },
+            "EditName": {
+                "Title": "Edit Name",
+                "Name": "Name",
+                "NamePlaceholder": "Enter player name..."
+            },
+            "EditAvatar": {
+                "Title": "Edit Avatar",
+                "Foreground": "Foreground",
+                "Background": "Background"
+            },
+            "EditAboutMe": {
+                "Title": "Edit About Me",
+                "AboutMe": "About Me",
+                "AboutMePlaceholder": "Enter about me..."
+            },
+            "AddSocialLink": {
+                "Title": "Add Social Link",
+                "SocialLinkTitle": "Title",
+                "SocialLinkTitlePlaceholder": "Enter social link title...",
+                "SocialLinkAddress": "Address",
+                "SocialLinkAddressPlaceholder": "Enter social link address..."
+            },
+            "AddFavorite": {
+                "Title": "Add Favorite",
+                "Description": "Select the type of favorite to add:",
+                "Level": "Level",
+                "Skin": "Skin",
+                "Background": "Background",
+                "Effect": "SFX",
+                "Particle": "Particle",
+                "Engine": "Engine"
+            }
+        },
         "Server": {
             "Home": {
                 "Levels": "Levels",
@@ -992,48 +1229,48 @@
             "Search": {
                 "Title": "Search"
             },
-            "ItemList": {
+            "Lists": {
                 "DeleteConfirmation": {
                     "Description": "Are you sure to delete \"{0}\"?"
+                },
+                "Level": {
+                    "Title": "Levels",
+                    "ShareSuccess": {
+                        "Title": "Levels Link Copied"
+                    }
+                },
+                "Skin": {
+                    "Title": "Skins",
+                    "ShareSuccess": {
+                        "Title": "Skins Link Copied"
+                    }
+                },
+                "Background": {
+                    "Title": "Backgrounds",
+                    "ShareSuccess": {
+                        "Title": "Backgrounds Link Copied"
+                    }
+                },
+                "Effect": {
+                    "Title": "SFX",
+                    "ShareSuccess": {
+                        "Title": "SFX Link Copied"
+                    }
+                },
+                "Particle": {
+                    "Title": "Particles",
+                    "ShareSuccess": {
+                        "Title": "Particles Link Copied"
+                    }
+                },
+                "Engine": {
+                    "Title": "Engines",
+                    "ShareSuccess": {
+                        "Title": "Engines Link Copied"
+                    }
                 }
             },
-            "LevelList": {
-                "Title": "Levels",
-                "ShareSuccess": {
-                    "Title": "Levels Link Copied"
-                }
-            },
-            "SkinList": {
-                "Title": "Skins",
-                "ShareSuccess": {
-                    "Title": "Skins Link Copied"
-                }
-            },
-            "BackgroundList": {
-                "Title": "Backgrounds",
-                "ShareSuccess": {
-                    "Title": "Backgrounds Link Copied"
-                }
-            },
-            "EffectList": {
-                "Title": "SFX",
-                "ShareSuccess": {
-                    "Title": "SFX Link Copied"
-                }
-            },
-            "ParticleList": {
-                "Title": "Particles",
-                "ShareSuccess": {
-                    "Title": "Particles Link Copied"
-                }
-            },
-            "EngineList": {
-                "Title": "Engines",
-                "ShareSuccess": {
-                    "Title": "Engines Link Copied"
-                }
-            },
-            "ItemDetails": {
+            "Details": {
                 "Actions": {
                     "Configuration": "Configuration"
                 },
@@ -1045,162 +1282,187 @@
                 },
                 "Recommended": {
                     "Title": "Recommended"
-                }
-            },
-            "LevelDetails": {
-                "Actions": {
-                    "Play": "Play"
                 },
-                "Play": {
-                    "Effect": {
-                        "Audio": {
-                            "Loading": "Decoding SFX audio...",
-                            "Error": "Failed to decode SFX audio of \"{0}\".\n\nPlease contact SFX author to report the problem."
+                "Level": {
+                    "Actions": {
+                        "Play": "Play"
+                    },
+                    "Play": {
+                        "Effect": {
+                            "Audio": {
+                                "Loading": "Decoding SFX audio...",
+                                "Error": "Failed to decode SFX audio of \"{0}\".\n\nPlease contact SFX author to report the problem."
+                            }
+                        },
+                        "Level": {
+                            "Bgm": {
+                                "Loading": "Decoding level BGM...",
+                                "Error": "Failed to decode level BGM of \"{0}\".\n\nPlease contact level author to report the problem."
+                            }
+                        },
+                        "Boot": {
+                            "Loading": "Booting level...",
+                            "Error": "Failed to boot level \"{0}\".\n\nPlease contact level author to report the problem."
                         }
                     },
-                    "Level": {
-                        "Bgm": {
-                            "Loading": "Decoding level BGM...",
-                            "Error": "Failed to decode level BGM of \"{0}\".\n\nPlease contact level author to report the problem."
-                        }
-                    },
-                    "Boot": {
-                        "Loading": "Booting level...",
-                        "Error": "Failed to boot level \"{0}\".\n\nPlease contact level author to report the problem."
+                    "ShareSuccess": {
+                        "Title": "Level Link Copied"
                     }
                 },
-                "ShareSuccess": {
-                    "Title": "Level Link Copied"
-                }
-            },
-            "SkinDetails": {
-                "ShareSuccess": {
-                    "Title": "Skin Link Copied"
-                }
-            },
-            "BackgroundDetails": {
-                "ShareSuccess": {
-                    "Title": "Background Link Copied"
-                }
-            },
-            "EffectDetails": {
-                "ShareSuccess": {
-                    "Title": "Effect Link Copied"
-                }
-            },
-            "ParticleDetails": {
-                "ShareSuccess": {
-                    "Title": "Particle Link Copied"
-                }
-            },
-            "EngineDetails": {
-                "ShareSuccess": {
-                    "Title": "Engine Link Copied"
-                }
-            },
-            "LevelConfiguration": {
-                "Title": "Level Configuration",
-                "Options": {
-                    "Title": "Options"
-                },
-                "Audio": {
-                    "Title": "Audio",
-                    "BgmVolume": "BGM Volume",
-                    "SfxVolume": "SFX Volume"
-                },
-                "UI": {
-                    "Title": "UI",
-                    "PrimaryMetric": "Primary Metric",
-                    "SecondaryMetric": "Secondary Metric",
-                    "JudgmentErrorStyle": "Judgment Error Style",
-                    "JudgmentErrorPlacement": "Judgment Error Placement",
-                    "JudgmentErrorMin": "Minimum Judgment Error",
-                    "MenuStyle": "Menu Style",
-                    "JudgmentStyle": "Judgment Style",
-                    "ComboStyle": "Combo Style",
-                    "PrimaryMetricStyle": "Primary Metric Style",
-                    "SecondaryMetricStyle": "Secondary Metric Style"
-                },
-                "Offsets": {
-                    "Title": "Offsets",
-                    "LevelAudioOffset": "Level Audio Offset",
-                    "ServerAudioOffset": "Server Audio Offset",
-                    "DeviceAudioOffset": "Device Audio Offset",
-                    "EngineInputOffset": "Engine Input Offset",
-                    "DeviceInputOffset": "Device Input Offset"
-                }
-            },
-            "BackgroundConfiguration": {
-                "Title": "Background Configuration",
-                "Background": {
-                    "Title": "Background",
-                    "Blur": "Blur",
-                    "Mask": "Mask"
-                }
-            },
-            "EngineConfiguration": {
-                "Title": "Engine Configuration",
                 "Skin": {
-                    "Title": "Skin"
+                    "ShareSuccess": {
+                        "Title": "Skin Link Copied"
+                    }
                 },
                 "Background": {
-                    "Title": "Background"
+                    "ShareSuccess": {
+                        "Title": "Background Link Copied"
+                    }
                 },
                 "Effect": {
-                    "Title": "SFX"
+                    "ShareSuccess": {
+                        "Title": "Effect Link Copied"
+                    }
                 },
                 "Particle": {
-                    "Title": "Particle"
+                    "ShareSuccess": {
+                        "Title": "Particle Link Copied"
+                    }
                 },
-                "Options": {
-                    "Title": "Options"
+                "Engine": {
+                    "ShareSuccess": {
+                        "Title": "Engine Link Copied"
+                    }
+                }
+            },
+            "Configurations": {
+                "Level": {
+                    "Title": "Level Configuration",
+                    "Skin": {
+                        "Title": "Skin"
+                    },
+                    "Background": {
+                        "Title": "Background"
+                    },
+                    "Effect": {
+                        "Title": "SFX"
+                    },
+                    "Particle": {
+                        "Title": "Particle"
+                    },
+                    "Options": {
+                        "Title": "Options"
+                    },
+                    "Audio": {
+                        "Title": "Audio",
+                        "BgmVolume": "BGM Volume",
+                        "SfxVolume": "SFX Volume"
+                    },
+                    "UI": {
+                        "Title": "UI",
+                        "PrimaryMetric": "Primary Metric",
+                        "SecondaryMetric": "Secondary Metric",
+                        "JudgmentErrorStyle": "Judgment Error Style",
+                        "JudgmentErrorPlacement": "Judgment Error Placement",
+                        "JudgmentErrorMin": "Minimum Judgment Error",
+                        "MenuStyle": "Menu Style",
+                        "JudgmentStyle": "Judgment Style",
+                        "ComboStyle": "Combo Style",
+                        "PrimaryMetricStyle": "Primary Metric Style",
+                        "SecondaryMetricStyle": "Secondary Metric Style"
+                    },
+                    "Offsets": {
+                        "Title": "Offsets",
+                        "LevelAudioOffset": "Level Audio Offset",
+                        "ServerAudioOffset": "Server Audio Offset",
+                        "DeviceAudioOffset": "Device Audio Offset",
+                        "EngineInputOffset": "Engine Input Offset",
+                        "DeviceInputOffset": "Device Input Offset"
+                    }
                 },
-                "UI": {
-                    "Title": "UI",
-                    "PrimaryMetric": "Primary Metric",
-                    "SecondaryMetric": "Secondary Metric",
-                    "JudgmentErrorStyle": "Judgment Error Style",
-                    "JudgmentErrorPlacement": "Judgment Error Placement",
-                    "JudgmentErrorMin": "Minimum Judgment Error",
-                    "MenuStyle": "Menu Style",
-                    "JudgmentStyle": "Judgment Style",
-                    "ComboStyle": "Combo Style",
-                    "PrimaryMetricStyle": "Primary Metric Style",
-                    "SecondaryMetricStyle": "Secondary Metric Style"
+                "Skin": {
+                    "Title": "Skin Configuration"
                 },
-                "Offsets": {
-                    "Title": "Offsets",
-                    "EngineInputOffset": "Engine Input Offset"
+                "Background": {
+                    "Title": "Background Configuration",
+                    "Image": {
+                        "Title": "Image",
+                        "Blur": "Blur",
+                        "Mask": "Mask"
+                    }
+                },
+                "Effect": {
+                    "Title": "Effect Configuration"
+                },
+                "Particle": {
+                    "Title": "Particle Configuration"
+                },
+                "Engine": {
+                    "Title": "Engine Configuration",
+                    "Skin": {
+                        "Title": "Skin"
+                    },
+                    "Background": {
+                        "Title": "Background"
+                    },
+                    "Effect": {
+                        "Title": "SFX"
+                    },
+                    "Particle": {
+                        "Title": "Particle"
+                    },
+                    "Options": {
+                        "Title": "Options"
+                    },
+                    "UI": {
+                        "Title": "UI",
+                        "PrimaryMetric": "Primary Metric",
+                        "SecondaryMetric": "Secondary Metric",
+                        "JudgmentErrorStyle": "Judgment Error Style",
+                        "JudgmentErrorPlacement": "Judgment Error Placement",
+                        "JudgmentErrorMin": "Minimum Judgment Error",
+                        "MenuStyle": "Menu Style",
+                        "JudgmentStyle": "Judgment Style",
+                        "ComboStyle": "Combo Style",
+                        "PrimaryMetricStyle": "Primary Metric Style",
+                        "SecondaryMetricStyle": "Secondary Metric Style"
+                    },
+                    "Offsets": {
+                        "Title": "Offsets",
+                        "EngineInputOffset": "Engine Input Offset"
+                    }
                 }
             },
-            "LevelSaver": {
-                "Success": {
-                    "Title": "Level Saved"
-                }
-            },
-            "SkinSaver": {
-                "Success": {
-                    "Title": "Skin Saved"
-                }
-            },
-            "BackgroundSaver": {
-                "Success": {
-                    "Title": "Background Saved"
-                }
-            },
-            "EffectSaver": {
-                "Success": {
-                    "Title": "Effect Saved"
-                }
-            },
-            "ParticleSaver": {
-                "Success": {
-                    "Title": "Particle Saved"
-                }
-            },
-            "EngineSaver": {
-                "Success": {
-                    "Title": "Engine Saved"
+            "Savers": {
+                "Level": {
+                    "Success": {
+                        "Title": "Level Saved"
+                    }
+                },
+                "Skin": {
+                    "Success": {
+                        "Title": "Skin Saved"
+                    }
+                },
+                "Background": {
+                    "Success": {
+                        "Title": "Background Saved"
+                    }
+                },
+                "Effect": {
+                    "Success": {
+                        "Title": "Effect Saved"
+                    }
+                },
+                "Particle": {
+                    "Success": {
+                        "Title": "Particle Saved"
+                    }
+                },
+                "Engine": {
+                    "Success": {
+                        "Title": "Engine Saved"
+                    }
                 }
             }
         },

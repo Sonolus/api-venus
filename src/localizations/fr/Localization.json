@@ -867,18 +867,7 @@
       "Title": "Sélectionne un thème",
       "Description": "Sélectionnez un thème :"
     },
-    "Home": {
-      "Title": "Home",
-      "Play": "Play",
-      "Settings": "Réglages",
-      "UpdateAvailable": {
-        "Title": "Mise à jour disponible",
-        "Description": "La version Sonolus {0} est disponible !\n\nVisitez notre site Internet:\nhttps://sonolus.com",
-        "Open": "Open"
-      }
-    },
-    "SelectServer": {
-      "Title": "Sélectionnez le serveur",
+    "SelectClient": {
       "CustomServers": {
         "Title": "Serveurs personnalisés",
         "RemoveConfirmation": {
@@ -921,15 +910,6 @@
       "Title": "Ajouter une collection",
       "Name": "Nom",
       "NamePlaceholder": "Entrez le nom de la collection..."
-    },
-    "SelectCollection": {
-      "Title": "Sélectionner la collection",
-      "Collections": {
-        "Title": "Collections",
-        "RemoveConfirmation": {
-          "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
-        }
-      }
     },
     "ImportScp": {
       "Scp": {
@@ -974,6 +954,16 @@
       "Result": "Recommended Offset: {0} (±{1})",
       "DeviceInputOffset": "Device Input Offset"
     },
+    "Home": {
+      "Title": "Home",
+      "Play": "Play",
+      "Settings": "Réglages",
+      "UpdateAvailable": {
+        "Title": "Mise à jour disponible",
+        "Description": "La version Sonolus {0} est disponible !\n\nVisitez notre site Internet:\nhttps://sonolus.com",
+        "Open": "Open"
+      }
+    },
     "Server": {
       "Home": {
         "Levels": "Niveaux",
@@ -992,48 +982,48 @@
       "Search": {
         "Title": "Chercher"
       },
-      "ItemList": {
+      "Lists": {
         "DeleteConfirmation": {
           "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
+        },
+        "Level": {
+          "Title": "Niveaux",
+          "ShareSuccess": {
+            "Title": "Lien du niveau copié"
+          }
+        },
+        "Skin": {
+          "Title": "Skins",
+          "ShareSuccess": {
+            "Title": "Lien Skins copié"
+          }
+        },
+        "Background": {
+          "Title": "Arrière-plan",
+          "ShareSuccess": {
+            "Title": "Lien d'arrière-plan copié"
+          }
+        },
+        "Effect": {
+          "Title": "SFX",
+          "ShareSuccess": {
+            "Title": "Lien SFX copié"
+          }
+        },
+        "Particle": {
+          "Title": "Particules",
+          "ShareSuccess": {
+            "Title": "Lien particules copié"
+          }
+        },
+        "Engine": {
+          "Title": "Engines",
+          "ShareSuccess": {
+            "Title": "Lien engine copié"
+          }
         }
       },
-      "LevelList": {
-        "Title": "Niveaux",
-        "ShareSuccess": {
-          "Title": "Lien du niveau copié"
-        }
-      },
-      "SkinList": {
-        "Title": "Skins",
-        "ShareSuccess": {
-          "Title": "Lien Skins copié"
-        }
-      },
-      "BackgroundList": {
-        "Title": "Arrière-plan",
-        "ShareSuccess": {
-          "Title": "Lien d'arrière-plan copié"
-        }
-      },
-      "EffectList": {
-        "Title": "SFX",
-        "ShareSuccess": {
-          "Title": "Lien SFX copié"
-        }
-      },
-      "ParticleList": {
-        "Title": "Particules",
-        "ShareSuccess": {
-          "Title": "Lien particules copié"
-        }
-      },
-      "EngineList": {
-        "Title": "Engines",
-        "ShareSuccess": {
-          "Title": "Lien engine copié"
-        }
-      },
-      "ItemDetails": {
+      "Details": {
         "Actions": {
           "Configuration": "Configuration"
         },
@@ -1045,162 +1035,177 @@
         },
         "Recommended": {
           "Title": "Recommandé"
-        }
-      },
-      "LevelDetails": {
-        "Actions": {
-          "Play": "Play"
         },
-        "Play": {
-          "Effect": {
-            "Audio": {
-              "Loading": "Décodage audio SFX...",
-              "Error": "Impossible de décoder l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
+        "Level": {
+          "Actions": {
+            "Play": "Play"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Décodage audio SFX...",
+                "Error": "Impossible de décoder l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Decodage du niveau de BGM",
+                "Error": "Impossible de décoder le niveau BGM de \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
+              }
+            },
+            "Boot": {
+              "Loading": "Démarrage du niveau...",
+              "Error": "Échec du niveau de démarrage \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
             }
           },
-          "Level": {
-            "Bgm": {
-              "Loading": "Decodage du niveau de BGM",
-              "Error": "Impossible de décoder le niveau BGM de \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
-            }
-          },
-          "Boot": {
-            "Loading": "Démarrage du niveau...",
-            "Error": "Échec du niveau de démarrage \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
+          "ShareSuccess": {
+            "Title": "Lien du niveau copié"
           }
         },
-        "ShareSuccess": {
-          "Title": "Lien du niveau copié"
-        }
-      },
-      "SkinDetails": {
-        "ShareSuccess": {
-          "Title": "Lien du skin copié"
-        }
-      },
-      "BackgroundDetails": {
-        "ShareSuccess": {
-          "Title": "Lien d'arrière-plan copié"
-        }
-      },
-      "EffectDetails": {
-        "ShareSuccess": {
-          "Title": "Lien d'effet copié"
-        }
-      },
-      "ParticleDetails": {
-        "ShareSuccess": {
-          "Title": "Lien de particules copié"
-        }
-      },
-      "EngineDetails": {
-        "ShareSuccess": {
-          "Title": "Lien engine copié"
-        }
-      },
-      "LevelConfiguration": {
-        "Title": "Configuration du niveau",
-        "Options": {
-          "Title": "Options"
-        },
-        "Audio": {
-          "Title": "Audio",
-          "BgmVolume": "BGM Volume",
-          "SfxVolume": "SFX Volume"
-        },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "Métrique principale",
-          "SecondaryMetric": "Métrique secondaire",
-          "JudgmentErrorStyle": "Style d'erreur de jugement",
-          "JudgmentErrorPlacement": "Placement d'erreur de jugement",
-          "JudgmentErrorMin": "Erreur de jugement minimale",
-          "MenuStyle": "Style de menus",
-          "JudgmentStyle": "Style de jugement",
-          "ComboStyle": "Style de combo",
-          "PrimaryMetricStyle": "Style de métrique principal",
-          "SecondaryMetricStyle": "Style de métrique secondaire"
-        },
-        "Offsets": {
-          "Title": "Offsets",
-          "LevelAudioOffset": "Level Audio Offset",
-          "ServerAudioOffset": "Server Audio Offset",
-          "DeviceAudioOffset": "Device Audio Offset",
-          "EngineInputOffset": "Engine Input Offset",
-          "DeviceInputOffset": "Device Input Offset"
-        }
-      },
-      "BackgroundConfiguration": {
-        "Title": "Configuration de l'arrière-plan",
-        "Background": {
-          "Title": "Arrière plan",
-          "Blur": "Blur",
-          "Mask": "Masque"
-        }
-      },
-      "EngineConfiguration": {
-        "Title": "Engine Configuration",
         "Skin": {
-          "Title": "Skin"
+          "ShareSuccess": {
+            "Title": "Lien du skin copié"
+          }
         },
         "Background": {
-          "Title": "Arrière plan"
+          "ShareSuccess": {
+            "Title": "Lien d'arrière-plan copié"
+          }
         },
         "Effect": {
-          "Title": "SFX"
+          "ShareSuccess": {
+            "Title": "Lien d'effet copié"
+          }
         },
         "Particle": {
-          "Title": "Particule"
+          "ShareSuccess": {
+            "Title": "Lien de particules copié"
+          }
         },
-        "Options": {
-          "Title": "Options"
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "Lien engine copié"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "Configuration du niveau",
+          "Skin": {
+            "Title": "Skin"
+          },
+          "Background": {
+            "Title": "Arrière plan"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Particule"
+          },
+          "Options": {
+            "Title": "Options"
+          },
+          "Audio": {
+            "Title": "Audio",
+            "BgmVolume": "BGM Volume",
+            "SfxVolume": "SFX Volume"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "Métrique principale",
+            "SecondaryMetric": "Métrique secondaire",
+            "JudgmentErrorStyle": "Style d'erreur de jugement",
+            "JudgmentErrorPlacement": "Placement d'erreur de jugement",
+            "JudgmentErrorMin": "Erreur de jugement minimale",
+            "MenuStyle": "Style de menus",
+            "JudgmentStyle": "Style de jugement",
+            "ComboStyle": "Style de combo",
+            "PrimaryMetricStyle": "Style de métrique principal",
+            "SecondaryMetricStyle": "Style de métrique secondaire"
+          },
+          "Offsets": {
+            "Title": "Offsets",
+            "LevelAudioOffset": "Level Audio Offset",
+            "ServerAudioOffset": "Server Audio Offset",
+            "DeviceAudioOffset": "Device Audio Offset",
+            "EngineInputOffset": "Engine Input Offset",
+            "DeviceInputOffset": "Device Input Offset"
+          }
         },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "Métrique primaire",
-          "SecondaryMetric": "Métrique secondaire",
-          "JudgmentErrorStyle": "Style d'erreur de jugement",
-          "JudgmentErrorPlacement": "Placement d'erreur de jugement",
-          "JudgmentErrorMin": "Erreur de jugement minimale",
-          "MenuStyle": "Style de menus",
-          "JudgmentStyle": "Style de jugement",
-          "ComboStyle": "Style de combo",
-          "PrimaryMetricStyle": "Style de métrique principal",
-          "SecondaryMetricStyle": "Style de métrique secondaire"
+        "Background": {
+          "Title": "Configuration de l'arrière-plan",
+          "Image": {
+            "Blur": "Blur",
+            "Mask": "Masque"
+          }
         },
-        "Offsets": {
-          "Title": "Offsets",
-          "EngineInputOffset": "Engine Input Offset"
+        "Engine": {
+          "Title": "Engine Configuration",
+          "Skin": {
+            "Title": "Skin"
+          },
+          "Background": {
+            "Title": "Arrière plan"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Particule"
+          },
+          "Options": {
+            "Title": "Options"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "Métrique primaire",
+            "SecondaryMetric": "Métrique secondaire",
+            "JudgmentErrorStyle": "Style d'erreur de jugement",
+            "JudgmentErrorPlacement": "Placement d'erreur de jugement",
+            "JudgmentErrorMin": "Erreur de jugement minimale",
+            "MenuStyle": "Style de menus",
+            "JudgmentStyle": "Style de jugement",
+            "ComboStyle": "Style de combo",
+            "PrimaryMetricStyle": "Style de métrique principal",
+            "SecondaryMetricStyle": "Style de métrique secondaire"
+          },
+          "Offsets": {
+            "Title": "Offsets",
+            "EngineInputOffset": "Engine Input Offset"
+          }
         }
       },
-      "LevelSaver": {
-        "Success": {
-          "Title": "Niveau enregistré"
-        }
-      },
-      "SkinSaver": {
-        "Success": {
-          "Title": "Skin enregistré"
-        }
-      },
-      "BackgroundSaver": {
-        "Success": {
-          "Title": "Arrière-plan enregistré"
-        }
-      },
-      "EffectSaver": {
-        "Success": {
-          "Title": "Effet enregistré"
-        }
-      },
-      "ParticleSaver": {
-        "Success": {
-          "Title": "Particule enregistrée"
-        }
-      },
-      "EngineSaver": {
-        "Success": {
-          "Title": "Engine enregistré"
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "Niveau enregistré"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Skin enregistré"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Arrière-plan enregistré"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Effet enregistré"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Particule enregistrée"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Engine enregistré"
+          }
         }
       }
     },

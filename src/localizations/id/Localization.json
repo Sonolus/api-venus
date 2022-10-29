@@ -867,18 +867,7 @@
       "Title": "Pilih Tema",
       "Description": "Pilih sebuah tema:"
     },
-    "Home": {
-      "Title": "Home",
-      "Play": "Main",
-      "Settings": "Pengaturan",
-      "UpdateAvailable": {
-        "Title": "Pembaruan Tersedia",
-        "Description": "Sonolus versi {0} tersedia!\n\nKunjungi website kami:\nhttps://sonolus.com",
-        "Open": "Buka"
-      }
-    },
-    "SelectServer": {
-      "Title": "Pilih Server",
+    "SelectClient": {
       "CustomServers": {
         "Title": "Kustom Server",
         "RemoveConfirmation": {
@@ -921,15 +910,6 @@
       "Title": "Tambah Koleksi",
       "Name": "Nama Koleksi",
       "NamePlaceholder": "Masukkan nama koleksi..."
-    },
-    "SelectCollection": {
-      "Title": "Pilih Koleksi",
-      "Collections": {
-        "Title": "Koleksi",
-        "RemoveConfirmation": {
-          "Description": "Apakah Anda yakin untuk menghapus \"{0}\"?"
-        }
-      }
     },
     "ImportScp": {
       "Scp": {
@@ -974,6 +954,16 @@
       "Result": "Rekomendasi Offset: {0} (±{1})",
       "DeviceInputOffset": "Offset Input Perangkat"
     },
+    "Home": {
+      "Title": "Home",
+      "Play": "Main",
+      "Settings": "Pengaturan",
+      "UpdateAvailable": {
+        "Title": "Pembaruan Tersedia",
+        "Description": "Sonolus versi {0} tersedia!\n\nKunjungi website kami:\nhttps://sonolus.com",
+        "Open": "Buka"
+      }
+    },
     "Server": {
       "Home": {
         "Levels": "Level",
@@ -992,48 +982,48 @@
       "Search": {
         "Title": "Cari"
       },
-      "ItemList": {
+      "Lists": {
         "DeleteConfirmation": {
           "Description": "Apakah Anda yakin ingin menghapus \"{0}\"?"
+        },
+        "Level": {
+          "Title": "Level",
+          "ShareSuccess": {
+            "Title": "Link Level Disalin"
+          }
+        },
+        "Skin": {
+          "Title": "Skin",
+          "ShareSuccess": {
+            "Title": "Link Skin Disalin"
+          }
+        },
+        "Background": {
+          "Title": "Latar",
+          "ShareSuccess": {
+            "Title": "Link Latar Disalin"
+          }
+        },
+        "Effect": {
+          "Title": "SFX",
+          "ShareSuccess": {
+            "Title": "Link SFX Disalin"
+          }
+        },
+        "Particle": {
+          "Title": "Partikel",
+          "ShareSuccess": {
+            "Title": "Link Partikel Disalin"
+          }
+        },
+        "Engine": {
+          "Title": "Mesin",
+          "ShareSuccess": {
+            "Title": "Link Mesin Disalin"
+          }
         }
       },
-      "LevelList": {
-        "Title": "Level",
-        "ShareSuccess": {
-          "Title": "Link Level Disalin"
-        }
-      },
-      "SkinList": {
-        "Title": "Skin",
-        "ShareSuccess": {
-          "Title": "Link Skin Disalin"
-        }
-      },
-      "BackgroundList": {
-        "Title": "Latar",
-        "ShareSuccess": {
-          "Title": "Link Latar Disalin"
-        }
-      },
-      "EffectList": {
-        "Title": "SFX",
-        "ShareSuccess": {
-          "Title": "Link SFX Disalin"
-        }
-      },
-      "ParticleList": {
-        "Title": "Partikel",
-        "ShareSuccess": {
-          "Title": "Link Partikel Disalin"
-        }
-      },
-      "EngineList": {
-        "Title": "Mesin",
-        "ShareSuccess": {
-          "Title": "Link Mesin Disalin"
-        }
-      },
-      "ItemDetails": {
+      "Details": {
         "Actions": {
           "Configuration": "Konfigurasi"
         },
@@ -1045,162 +1035,177 @@
         },
         "Recommended": {
           "Title": "Rekomendasi"
-        }
-      },
-      "LevelDetails": {
-        "Actions": {
-          "Play": "Main"
         },
-        "Play": {
-          "Effect": {
-            "Audio": {
-              "Loading": "Decoding audio SFX...",
-              "Error": "Gagal untuk mengdecode audio SFX \"{0}\".\n\nSilahkan hubungi pembuat SFX untuk melaporkan masalahnya."
+        "Level": {
+          "Actions": {
+            "Play": "Main"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Decoding audio SFX...",
+                "Error": "Gagal untuk mengdecode audio SFX \"{0}\".\n\nSilahkan hubungi pembuat SFX untuk melaporkan masalahnya."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Decoding BGM level...",
+                "Error": "Gagal untuk mengdecode BGM level \"{0}\".\n\nSilahkan hubungi pembuat level untuk melaporkan masalahnya."
+              }
+            },
+            "Boot": {
+              "Loading": "Booting level...",
+              "Error": "Gagal untuk boot level \"{0}\".\n\nSilahkan hubungi pembuat level untuk melaporkan masalahnya."
             }
           },
-          "Level": {
-            "Bgm": {
-              "Loading": "Decoding BGM level...",
-              "Error": "Gagal untuk mengdecode BGM level \"{0}\".\n\nSilahkan hubungi pembuat level untuk melaporkan masalahnya."
-            }
-          },
-          "Boot": {
-            "Loading": "Booting level...",
-            "Error": "Gagal untuk boot level \"{0}\".\n\nSilahkan hubungi pembuat level untuk melaporkan masalahnya."
+          "ShareSuccess": {
+            "Title": "Link Level Disalin"
           }
         },
-        "ShareSuccess": {
-          "Title": "Link Level Disalin"
-        }
-      },
-      "SkinDetails": {
-        "ShareSuccess": {
-          "Title": "Link Skin Disalin"
-        }
-      },
-      "BackgroundDetails": {
-        "ShareSuccess": {
-          "Title": "Link Latar Disalin"
-        }
-      },
-      "EffectDetails": {
-        "ShareSuccess": {
-          "Title": "Link Efek Disalin"
-        }
-      },
-      "ParticleDetails": {
-        "ShareSuccess": {
-          "Title": "Link Partikel Disalin"
-        }
-      },
-      "EngineDetails": {
-        "ShareSuccess": {
-          "Title": "Link Mesin Disalin"
-        }
-      },
-      "LevelConfiguration": {
-        "Title": "Konfigurasi Level",
-        "Options": {
-          "Title": "Opsi"
-        },
-        "Audio": {
-          "Title": "Audio",
-          "BgmVolume": "Volume BGM",
-          "SfxVolume": "Volume SFX"
-        },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "Metrik Utama",
-          "SecondaryMetric": "Metrik Sekunder",
-          "JudgmentErrorStyle": "Style Penilaian Error",
-          "JudgmentErrorPlacement": "Penempatan Penilaian Error",
-          "JudgmentErrorMin": "Penilaian Error Minimum",
-          "MenuStyle": "Style Menu",
-          "JudgmentStyle": "Style Penilaian",
-          "ComboStyle": "Style Kombo",
-          "PrimaryMetricStyle": "Style Metrik Utama",
-          "SecondaryMetricStyle": "Style Metrik Sekunder"
-        },
-        "Offsets": {
-          "Title": "Offset",
-          "LevelAudioOffset": "Offset Audio Level",
-          "ServerAudioOffset": "Offset Audio Server",
-          "DeviceAudioOffset": "Offset Audio Perangkat",
-          "EngineInputOffset": "Offset Input Mesin",
-          "DeviceInputOffset": "Offset Input Perangkat"
-        }
-      },
-      "BackgroundConfiguration": {
-        "Title": "Konfigurasi Latar",
-        "Background": {
-          "Title": "Latar",
-          "Blur": "Blur",
-          "Mask": "Mask"
-        }
-      },
-      "EngineConfiguration": {
-        "Title": "Konfigurasi Mesin",
         "Skin": {
-          "Title": "Skin"
+          "ShareSuccess": {
+            "Title": "Link Skin Disalin"
+          }
         },
         "Background": {
-          "Title": "Latar"
+          "ShareSuccess": {
+            "Title": "Link Latar Disalin"
+          }
         },
         "Effect": {
-          "Title": "SFX"
+          "ShareSuccess": {
+            "Title": "Link Efek Disalin"
+          }
         },
         "Particle": {
-          "Title": "Partikel"
+          "ShareSuccess": {
+            "Title": "Link Partikel Disalin"
+          }
         },
-        "Options": {
-          "Title": "Opsi"
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "Link Mesin Disalin"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "Konfigurasi Level",
+          "Skin": {
+            "Title": "Skin"
+          },
+          "Background": {
+            "Title": "Latar"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Partikel"
+          },
+          "Options": {
+            "Title": "Opsi"
+          },
+          "Audio": {
+            "Title": "Audio",
+            "BgmVolume": "Volume BGM",
+            "SfxVolume": "Volume SFX"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "Metrik Utama",
+            "SecondaryMetric": "Metrik Sekunder",
+            "JudgmentErrorStyle": "Style Penilaian Error",
+            "JudgmentErrorPlacement": "Penempatan Penilaian Error",
+            "JudgmentErrorMin": "Penilaian Error Minimum",
+            "MenuStyle": "Style Menu",
+            "JudgmentStyle": "Style Penilaian",
+            "ComboStyle": "Style Kombo",
+            "PrimaryMetricStyle": "Style Metrik Utama",
+            "SecondaryMetricStyle": "Style Metrik Sekunder"
+          },
+          "Offsets": {
+            "Title": "Offset",
+            "LevelAudioOffset": "Offset Audio Level",
+            "ServerAudioOffset": "Offset Audio Server",
+            "DeviceAudioOffset": "Offset Audio Perangkat",
+            "EngineInputOffset": "Offset Input Mesin",
+            "DeviceInputOffset": "Offset Input Perangkat"
+          }
         },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "Metrik Utama",
-          "SecondaryMetric": "Metrik Sekunder",
-          "JudgmentErrorStyle": "Style Penilaian Error",
-          "JudgmentErrorPlacement": "Penempatan Penilaian Error",
-          "JudgmentErrorMin": "Penilaian Error Minimum",
-          "MenuStyle": "Style Menu",
-          "JudgmentStyle": "Style Penilaian",
-          "ComboStyle": "Style Kombo",
-          "PrimaryMetricStyle": "Style Metrik Utama",
-          "SecondaryMetricStyle": "Style Metrik Sekunder"
+        "Background": {
+          "Title": "Konfigurasi Latar",
+          "Image": {
+            "Blur": "Blur",
+            "Mask": "Mask"
+          }
         },
-        "Offsets": {
-          "Title": "Offset",
-          "EngineInputOffset": "Offset Input Mesin"
+        "Engine": {
+          "Title": "Konfigurasi Mesin",
+          "Skin": {
+            "Title": "Skin"
+          },
+          "Background": {
+            "Title": "Latar"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Partikel"
+          },
+          "Options": {
+            "Title": "Opsi"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "Metrik Utama",
+            "SecondaryMetric": "Metrik Sekunder",
+            "JudgmentErrorStyle": "Style Penilaian Error",
+            "JudgmentErrorPlacement": "Penempatan Penilaian Error",
+            "JudgmentErrorMin": "Penilaian Error Minimum",
+            "MenuStyle": "Style Menu",
+            "JudgmentStyle": "Style Penilaian",
+            "ComboStyle": "Style Kombo",
+            "PrimaryMetricStyle": "Style Metrik Utama",
+            "SecondaryMetricStyle": "Style Metrik Sekunder"
+          },
+          "Offsets": {
+            "Title": "Offset",
+            "EngineInputOffset": "Offset Input Mesin"
+          }
         }
       },
-      "LevelSaver": {
-        "Success": {
-          "Title": "Level Disimpan"
-        }
-      },
-      "SkinSaver": {
-        "Success": {
-          "Title": "Skin Disimpan"
-        }
-      },
-      "BackgroundSaver": {
-        "Success": {
-          "Title": "Latar Disimpan"
-        }
-      },
-      "EffectSaver": {
-        "Success": {
-          "Title": "Efek Disimpan"
-        }
-      },
-      "ParticleSaver": {
-        "Success": {
-          "Title": "Partikel Disimpan"
-        }
-      },
-      "EngineSaver": {
-        "Success": {
-          "Title": "Mesin Disimpan"
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "Level Disimpan"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Skin Disimpan"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Latar Disimpan"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Efek Disimpan"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Partikel Disimpan"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Mesin Disimpan"
+          }
         }
       }
     },

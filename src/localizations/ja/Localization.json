@@ -867,18 +867,7 @@
       "Title": "テーマ選択",
       "Description": "好きなテーマを選んでください:"
     },
-    "Home": {
-      "Title": "ホーム",
-      "Play": "プレイ",
-      "Settings": "全体設定",
-      "UpdateAvailable": {
-        "Title": "アップデート通知",
-        "Description": "Sonolus バージョン {0}が公開されました!\n\nサイト:\nhttps://sonolus.com から最新版をダウンロードしてください!",
-        "Open": "サイトを開く"
-      }
-    },
-    "SelectServer": {
-      "Title": "サーバー選択",
+    "SelectClient": {
       "CustomServers": {
         "Title": "カスタムサーバー",
         "RemoveConfirmation": {
@@ -921,15 +910,6 @@
       "Title": "コレクションの追加",
       "Name": "コレクション名",
       "NamePlaceholder": "例 お気に入り"
-    },
-    "SelectCollection": {
-      "Title": "コレクションの選択",
-      "Collections": {
-        "Title": "コレクション一覧",
-        "RemoveConfirmation": {
-          "Description": "本当に\"{0}\"を削除しますか?\n\nこの操作は取り消せません。\n\n削除後、コレクション内の内容は全て失われます。"
-        }
-      }
     },
     "ImportScp": {
       "Scp": {
@@ -974,6 +954,16 @@
       "Result": "おすすめオフセット: {0} (±{1})",
       "DeviceInputOffset": "デバイス入力オフセット"
     },
+    "Home": {
+      "Title": "ホーム",
+      "Play": "プレイ",
+      "Settings": "全体設定",
+      "UpdateAvailable": {
+        "Title": "アップデート通知",
+        "Description": "Sonolus バージョン {0}が公開されました!\n\nサイト:\nhttps://sonolus.com から最新版をダウンロードしてください!",
+        "Open": "サイトを開く"
+      }
+    },
     "Server": {
       "Home": {
         "Levels": "レベル一覧",
@@ -992,48 +982,48 @@
       "Search": {
         "Title": "検索"
       },
-      "ItemList": {
+      "Lists": {
         "DeleteConfirmation": {
           "Description": "「{0}」を削除してもよろしいですか?"
+        },
+        "Level": {
+          "Title": "レベル一覧",
+          "ShareSuccess": {
+            "Title": "レベル一覧のリンクをコピーしました。"
+          }
+        },
+        "Skin": {
+          "Title": "スキン一覧",
+          "ShareSuccess": {
+            "Title": "スキン一覧のリンクをコピーしました"
+          }
+        },
+        "Background": {
+          "Title": "背景一覧",
+          "ShareSuccess": {
+            "Title": "背景一覧のリンクをコピーしました"
+          }
+        },
+        "Effect": {
+          "Title": "効果音一覧",
+          "ShareSuccess": {
+            "Title": "効果音一覧のリンクをコピーしました"
+          }
+        },
+        "Particle": {
+          "Title": "パーティクル一覧",
+          "ShareSuccess": {
+            "Title": "パーティクル一覧のリンクをコピーしました"
+          }
+        },
+        "Engine": {
+          "Title": "エンジン一覧",
+          "ShareSuccess": {
+            "Title": "エンジン一覧のリンクをコピーしました"
+          }
         }
       },
-      "LevelList": {
-        "Title": "レベル一覧",
-        "ShareSuccess": {
-          "Title": "レベル一覧のリンクをコピーしました。"
-        }
-      },
-      "SkinList": {
-        "Title": "スキン一覧",
-        "ShareSuccess": {
-          "Title": "スキン一覧のリンクをコピーしました"
-        }
-      },
-      "BackgroundList": {
-        "Title": "背景一覧",
-        "ShareSuccess": {
-          "Title": "背景一覧のリンクをコピーしました"
-        }
-      },
-      "EffectList": {
-        "Title": "効果音一覧",
-        "ShareSuccess": {
-          "Title": "効果音一覧のリンクをコピーしました"
-        }
-      },
-      "ParticleList": {
-        "Title": "パーティクル一覧",
-        "ShareSuccess": {
-          "Title": "パーティクル一覧のリンクをコピーしました"
-        }
-      },
-      "EngineList": {
-        "Title": "エンジン一覧",
-        "ShareSuccess": {
-          "Title": "エンジン一覧のリンクをコピーしました"
-        }
-      },
-      "ItemDetails": {
+      "Details": {
         "Actions": {
           "Configuration": "設定"
         },
@@ -1045,162 +1035,177 @@
         },
         "Recommended": {
           "Title": "おすすめ"
-        }
-      },
-      "LevelDetails": {
-        "Actions": {
-          "Play": "プレイ"
         },
-        "Play": {
-          "Effect": {
-            "Audio": {
-              "Loading": "効果音をデコード中...",
-              "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡下さい。"
+        "Level": {
+          "Actions": {
+            "Play": "プレイ"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "効果音をデコード中...",
+                "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡下さい。"
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "レベルBGMをデコード中...",
+                "Error": "レベルBGM \"{0}\"のデコードに失敗しました。\n\nレベルの作者にご連絡ください。"
+              }
+            },
+            "Boot": {
+              "Loading": "レベルを開始中...",
+              "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
             }
           },
-          "Level": {
-            "Bgm": {
-              "Loading": "レベルBGMをデコード中...",
-              "Error": "レベルBGM \"{0}\"のデコードに失敗しました。\n\nレベルの作者にご連絡ください。"
-            }
-          },
-          "Boot": {
-            "Loading": "レベルを開始中...",
-            "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
+          "ShareSuccess": {
+            "Title": "レベルのリンクをコピーしました"
           }
         },
-        "ShareSuccess": {
-          "Title": "レベルのリンクをコピーしました"
-        }
-      },
-      "SkinDetails": {
-        "ShareSuccess": {
-          "Title": "スキンのリンクをコピーしました"
-        }
-      },
-      "BackgroundDetails": {
-        "ShareSuccess": {
-          "Title": "背景のリンクをコピーしました"
-        }
-      },
-      "EffectDetails": {
-        "ShareSuccess": {
-          "Title": "効果音のリンクをコピーしました"
-        }
-      },
-      "ParticleDetails": {
-        "ShareSuccess": {
-          "Title": "パーティクルのリンクをコピーしました"
-        }
-      },
-      "EngineDetails": {
-        "ShareSuccess": {
-          "Title": "エンジンのリンクをコピーしました"
-        }
-      },
-      "LevelConfiguration": {
-        "Title": "レベル設定",
-        "Options": {
-          "Title": "オプション"
-        },
-        "Audio": {
-          "Title": "オーディオ",
-          "BgmVolume": "BGMの音量",
-          "SfxVolume": "効果音の音量"
-        },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "メイン指標",
-          "SecondaryMetric": "サブ指標",
-          "JudgmentErrorStyle": "判定スタイル",
-          "JudgmentErrorPlacement": "判定表示位置",
-          "JudgmentErrorMin": "判定最小誤差",
-          "MenuStyle": "メニュースタイル",
-          "JudgmentStyle": "判定スタイル",
-          "ComboStyle": "コンボスタイル",
-          "PrimaryMetricStyle": "メイン指標スタイル",
-          "SecondaryMetricStyle": "サブ指標スタイル"
-        },
-        "Offsets": {
-          "Title": "オフセット",
-          "LevelAudioOffset": "レベル音オフセット",
-          "ServerAudioOffset": "サーバー音オフセット",
-          "DeviceAudioOffset": "デバイス音オフセット",
-          "EngineInputOffset": "エンジン入力オフセット",
-          "DeviceInputOffset": "デバイス入力オフセット"
-        }
-      },
-      "BackgroundConfiguration": {
-        "Title": "背景設定",
-        "Background": {
-          "Title": "背景",
-          "Blur": "ぼかし",
-          "Mask": "マスク色"
-        }
-      },
-      "EngineConfiguration": {
-        "Title": "エンジン設定",
         "Skin": {
-          "Title": "使用スキン"
+          "ShareSuccess": {
+            "Title": "スキンのリンクをコピーしました"
+          }
         },
         "Background": {
-          "Title": "使用背景"
+          "ShareSuccess": {
+            "Title": "背景のリンクをコピーしました"
+          }
         },
         "Effect": {
-          "Title": "使用効果音"
+          "ShareSuccess": {
+            "Title": "効果音のリンクをコピーしました"
+          }
         },
         "Particle": {
-          "Title": "使用パーティクル"
+          "ShareSuccess": {
+            "Title": "パーティクルのリンクをコピーしました"
+          }
         },
-        "Options": {
-          "Title": "オプション"
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "エンジンのリンクをコピーしました"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "レベル設定",
+          "Skin": {
+            "Title": "使用スキン"
+          },
+          "Background": {
+            "Title": "使用背景"
+          },
+          "Effect": {
+            "Title": "使用効果音"
+          },
+          "Particle": {
+            "Title": "使用パーティクル"
+          },
+          "Options": {
+            "Title": "オプション"
+          },
+          "Audio": {
+            "Title": "オーディオ",
+            "BgmVolume": "BGMの音量",
+            "SfxVolume": "効果音の音量"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "メイン指標",
+            "SecondaryMetric": "サブ指標",
+            "JudgmentErrorStyle": "判定スタイル",
+            "JudgmentErrorPlacement": "判定表示位置",
+            "JudgmentErrorMin": "判定最小誤差",
+            "MenuStyle": "メニュースタイル",
+            "JudgmentStyle": "判定スタイル",
+            "ComboStyle": "コンボスタイル",
+            "PrimaryMetricStyle": "メイン指標スタイル",
+            "SecondaryMetricStyle": "サブ指標スタイル"
+          },
+          "Offsets": {
+            "Title": "オフセット",
+            "LevelAudioOffset": "レベル音オフセット",
+            "ServerAudioOffset": "サーバー音オフセット",
+            "DeviceAudioOffset": "デバイス音オフセット",
+            "EngineInputOffset": "エンジン入力オフセット",
+            "DeviceInputOffset": "デバイス入力オフセット"
+          }
         },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "メイン指標",
-          "SecondaryMetric": "サブ指標",
-          "JudgmentErrorStyle": "判定スタイル",
-          "JudgmentErrorPlacement": "判定表示位置",
-          "JudgmentErrorMin": "判定最小誤差",
-          "MenuStyle": "メニュースタイル",
-          "JudgmentStyle": "判定スタイル",
-          "ComboStyle": "コンボスタイル",
-          "PrimaryMetricStyle": "メイン指標スタイル",
-          "SecondaryMetricStyle": "サブ指標スタイル"
+        "Background": {
+          "Title": "背景設定",
+          "Image": {
+            "Blur": "ぼかし",
+            "Mask": "マスク色"
+          }
         },
-        "Offsets": {
-          "Title": "オフセット",
-          "EngineInputOffset": "エンジン入力オフセット"
+        "Engine": {
+          "Title": "エンジン設定",
+          "Skin": {
+            "Title": "使用スキン"
+          },
+          "Background": {
+            "Title": "使用背景"
+          },
+          "Effect": {
+            "Title": "使用効果音"
+          },
+          "Particle": {
+            "Title": "使用パーティクル"
+          },
+          "Options": {
+            "Title": "オプション"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "メイン指標",
+            "SecondaryMetric": "サブ指標",
+            "JudgmentErrorStyle": "判定スタイル",
+            "JudgmentErrorPlacement": "判定表示位置",
+            "JudgmentErrorMin": "判定最小誤差",
+            "MenuStyle": "メニュースタイル",
+            "JudgmentStyle": "判定スタイル",
+            "ComboStyle": "コンボスタイル",
+            "PrimaryMetricStyle": "メイン指標スタイル",
+            "SecondaryMetricStyle": "サブ指標スタイル"
+          },
+          "Offsets": {
+            "Title": "オフセット",
+            "EngineInputOffset": "エンジン入力オフセット"
+          }
         }
       },
-      "LevelSaver": {
-        "Success": {
-          "Title": "レベルのリンクをコピーしました"
-        }
-      },
-      "SkinSaver": {
-        "Success": {
-          "Title": "スキンを保存しました"
-        }
-      },
-      "BackgroundSaver": {
-        "Success": {
-          "Title": "背景を保存しました"
-        }
-      },
-      "EffectSaver": {
-        "Success": {
-          "Title": "効果音を保存しました"
-        }
-      },
-      "ParticleSaver": {
-        "Success": {
-          "Title": "パーティクルを保存しました"
-        }
-      },
-      "EngineSaver": {
-        "Success": {
-          "Title": "エンジンを保存しました"
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "レベルのリンクをコピーしました"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "スキンを保存しました"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景を保存しました"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "効果音を保存しました"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "パーティクルを保存しました"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "エンジンを保存しました"
+          }
         }
       }
     },
