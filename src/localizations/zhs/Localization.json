@@ -298,8 +298,95 @@
         "Error": "加载语言“{0}”失败。\n\n请检查您的网络连接并重试。"
       }
     },
+    "Service": {
+      "UserProfile": {
+        "Loading": "正在加载用户资料…",
+        "Error": "加载“{0}”的用户资料失败。\n\n请检查用户 ID 是否正确，或检查您的网络连接并重试。"
+      },
+      "Login": {
+        "Loading": "正在登录中…",
+        "Error": "登录失败。\n\n请检查您的网络连接并重试。",
+        "Success": {
+          "New": {
+            "Title": "已注册"
+          },
+          "Old": {
+            "Title": "已登录"
+          }
+        }
+      },
+      "EditName": {
+        "Loading": "正在编辑名字…",
+        "Error": "编辑名字失败。\n\n请检查您的名字是否合法并在长度范围内，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "名称已编辑"
+        }
+      },
+      "EditAvatar": {
+        "Loading": "正在编辑头像…",
+        "Error": "编辑头像失败。\n\n请检查您的头像是否合法，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "头像已编辑"
+        }
+      },
+      "EditAboutMe": {
+        "Loading": "正在编辑关于我…",
+        "Error": "编辑关于我失败。\n\n请检查您的关于我是否合法并在长度范围内，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "关于我已编辑"
+        }
+      },
+      "EditSocialLinks": {
+        "Loading": "正在编辑社交链接…",
+        "Error": "编辑社交链接失败。\n\n请检查您的社交链接是否合法且在长度范围内，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "社交链接已编辑"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "正在编辑最爱…",
+        "Error": "编辑最爱失败。\n\n请检查您的最爱是否合法并在长度范围内，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "最爱已编辑"
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "请求 Sonolus 身份验证…",
+        "Error": "从 Sonolus 请求身份验证失败。\n\n请检查您的网络连接并重试，或联系 Sonolus 并汇报这个问题。"
+      },
+      "Logout": {
+        "Loading": "正在登出…",
+        "Error": "登出失败。\n\n请检查您的网络连接并重试。",
+        "Success": {
+          "Title": "已登出"
+        }
+      }
+    },
     "CustomServer": {
       "SonolusVersionError": "此服务器只支持 Sonolus 版本 {0}。\n\n请更新您的 Sonolus，或联系服务器运营并汇报这个问题。",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "此服务器需要身份验证。\n\n请先登录并重试。"
+          },
+          "Confirmation": {
+            "Description": "此服务器需要身份验证。\n\n验证为“{0}”并继续？"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "您的身份验证已过期。\n\n再次验证为“{0}”并继续？"
+        },
+        "AuthenticationRejected": {
+          "Description": "服务器拒绝了您的身份验证。\n\n再次验证为“{0}”并继续？"
+        },
+        "Authenticate": {
+          "Loading": "正在请求服务器身份验证…",
+          "Error": "从“{0}”请求身份验证失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "AddressMismatchError": {
+          "Description": "身份验证地址不匹配。\n\n请联系服务器运营并汇报问题。"
+        }
+      },
       "Server": {
         "Info": {
           "Loading": "正在加载服务器信息…",
@@ -662,11 +749,11 @@
     "Scp": {
       "Server": {
         "Info": {
-          "Loading": "加载收藏包信息…",
+          "Loading": "正在加载收藏包信息…",
           "Error": "加载收藏包“{0}”信息失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
         "Banner": {
-          "Loading": "加载收藏包横幅…",
+          "Loading": "正在加载收藏包横幅…",
           "Error": "加载收藏包“{0}”横幅失败。\n\n您的收藏包可能不受支持或已损坏。"
         }
       },
@@ -861,7 +948,8 @@
     },
     "SelectLocalization": {
       "Title": "选择语言",
-      "Description": "选择一个首选语言："
+      "Description": "选择一个首选语言：",
+      "Error": "加载语言失败。"
     },
     "SelectTheme": {
       "Title": "选择主题",
@@ -878,6 +966,90 @@
         "Title": "收藏",
         "RemoveConfirmation": {
           "Description": "您确定要删除“{0}”吗？"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "开始",
+        "Description": "选择一个自定义服务器或收藏来开始游玩。"
+      },
+      "ToSave": {
+        "Level": {
+          "Title": "保存关卡",
+          "Description": "选择一个收藏来保存这个关卡。"
+        },
+        "Skin": {
+          "Title": "选择皮肤",
+          "Description": "选择一个收藏来保存这个皮肤。"
+        },
+        "Background": {
+          "Title": "保存背景",
+          "Description": "选择一个收藏来保存这个背景。"
+        },
+        "Effect": {
+          "Title": "保存音效",
+          "Description": "选择一个收藏来保存这个音效。"
+        },
+        "Particle": {
+          "Title": "保存粒子效果",
+          "Description": "选择一个收藏来保存这个粒子效果。"
+        },
+        "Engine": {
+          "Title": "保存引擎",
+          "Description": "选择一个收藏来保存这个引擎。"
+        }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "选择关卡",
+          "Description": "选择一个自定义服务器或收藏来使用其中的关卡。"
+        },
+        "Skin": {
+          "Title": "选择皮肤",
+          "Description": "选择一个自定义服务器或收藏来使用其中的皮肤。"
+        },
+        "Background": {
+          "Title": "选择背景",
+          "Description": "选择一个自定义服务器或收藏来使用其中的背景。"
+        },
+        "Effect": {
+          "Title": "选择音效",
+          "Description": "选择一个自定义服务器或收藏来使用其中的音效。"
+        },
+        "Particle": {
+          "Title": "选择粒子效果",
+          "Description": "选择一个自定义服务器或收藏来使用其中的粒子效果。"
+        },
+        "Engine": {
+          "Title": "选择引擎",
+          "Description": "选择一个自定义服务器或收藏来使用其中的引擎。"
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "添加最爱关卡",
+          "Description": "选择一个自定义服务器来添加其中的关卡到最爱。"
+        },
+        "Skin": {
+          "Title": "添加最爱皮肤",
+          "Description": "选择一个自定义服务器来添加其中的皮肤到最爱。"
+        },
+        "Background": {
+          "Title": "添加最爱背景",
+          "Description": "选择一个自定义服务器来添加其中的背景到最爱。"
+        },
+        "Effect": {
+          "Title": "添加最爱音效",
+          "Description": "选择一个自定义服务器来添加其中的音效到最爱。"
+        },
+        "Particle": {
+          "Title": "添加最爱粒子效果",
+          "Description": "选择一个自定义服务器来添加其中的粒子效果到最爱。"
+        },
+        "Engine": {
+          "Title": "添加最爱引擎",
+          "Description": "选择一个自定义服务器来添加其中的引擎到最爱。"
         }
       }
     },
@@ -957,11 +1129,86 @@
     "Home": {
       "Title": "主页",
       "Play": "开始",
+      "Players": "玩家",
+      "Account": "账号",
       "Settings": "设置",
       "UpdateAvailable": {
         "Title": "更新可用",
         "Description": "Sonolus 版本 {0} 更新！\n\n访问我们的网站：\nhttps://sonolus.com",
         "Open": "打开"
+      }
+    },
+    "Players": {
+      "Title": "玩家",
+      "PlayerLookup": {
+        "Title": "玩家查询",
+        "Id": "玩家 ID",
+        "IdPlaceholder": "输入玩家 ID…",
+        "Lookup": "查询"
+      }
+    },
+    "Account": {
+      "Title": "账号",
+      "MyAccount": {
+        "Title": "我的账号",
+        "Login": {
+          "Apple": "苹果登录",
+          "Google": "谷歌登录",
+          "Wechat": "微信登录"
+        },
+        "Profile": "资料",
+        "Logout": "登出"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "编辑名字",
+          "EditAvatar": "编辑头像"
+        },
+        "AboutMe": {
+          "Title": "关于我"
+        },
+        "SocialLinks": {
+          "Title": "社交链接",
+          "None": "没有社交链接。"
+        },
+        "Favorites": {
+          "Title": "最爱",
+          "None": "没有最爱。"
+        }
+      },
+      "EditName": {
+        "Title": "编辑名字",
+        "Name": "名字",
+        "NamePlaceholder": "输入玩家名字…"
+      },
+      "EditAvatar": {
+        "Title": "编辑头像",
+        "Foreground": "前景",
+        "Background": "背景"
+      },
+      "EditAboutMe": {
+        "Title": "编辑关于我",
+        "AboutMe": "关于我",
+        "AboutMePlaceholder": "输入关于我…"
+      },
+      "AddSocialLink": {
+        "Title": "添加社交链接",
+        "SocialLinkTitle": "标题",
+        "SocialLinkTitlePlaceholder": "输入社交链接标题…",
+        "SocialLinkAddress": "地址",
+        "SocialLinkAddressPlaceholder": "输入社交链接地址…"
+      },
+      "AddFavorite": {
+        "Title": "添加最爱",
+        "Description": "选择要添加的最爱类型：",
+        "Level": "关卡",
+        "Skin": "皮肤",
+        "Background": "背景",
+        "Effect": "音效",
+        "Particle": "粒子效果",
+        "Engine": "引擎"
       }
     },
     "Server": {
@@ -1133,12 +1380,22 @@
             "DeviceInputOffset": "设备输入偏移"
           }
         },
+        "Skin": {
+          "Title": "皮肤配置"
+        },
         "Background": {
           "Title": "背景配置",
           "Image": {
+            "Title": "图像",
             "Blur": "模糊",
             "Mask": "遮罩"
           }
+        },
+        "Effect": {
+          "Title": "音效配置"
+        },
+        "Particle": {
+          "Title": "粒子效果配置"
         },
         "Engine": {
           "Title": "引擎配置",
