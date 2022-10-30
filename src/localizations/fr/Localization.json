@@ -298,8 +298,95 @@
         "Error": "Échec du chargement de la langue \"{0}\".\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
       }
     },
+    "Service": {
+      "UserProfile": {
+        "Loading": "Chargement du profil utilisateur...",
+        "Error": "Échec du chargement du profil utilisateur de \"{0}\".\n\nVeuillez vérifier si l'ID utilisateur est correct ou vérifiez votre connexion Internet et réessayez."
+      },
+      "Login": {
+        "Loading": "Connexion...",
+        "Error": "Échec de la connexion.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez.",
+        "Success": {
+          "New": {
+            "Title": "Inscrit !"
+          },
+          "Old": {
+            "Title": "Incrire"
+          }
+        }
+      },
+      "EditName": {
+        "Loading": "Modification du nom...",
+        "Error": "Échec de la modification du nom.\n\nVeuillez vérifier si votre nom est légal et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "Nom modifié"
+        }
+      },
+      "EditAvatar": {
+        "Loading": "Modification de l'avatar...",
+        "Error": "Échec de la modification de l'avatar.\n\nVeuillez vérifier si votre avatar est légal ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "Avatar modifié"
+        }
+      },
+      "EditAboutMe": {
+        "Loading": "Changer à propos de moi...",
+        "Error": "Échec de la modification à propos de moi.\n\nVeuillez vérifier si votre à propos de moi est légal et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "À propos de moi modifié"
+        }
+      },
+      "EditSocialLinks": {
+        "Loading": "Modification des liens sociaux...",
+        "Error": "Échec de la modification des liens sociaux.\n\nVeuillez vérifier si vos liens sociaux sont légaux et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "Liens sociaux modifiés"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "Modification des favoris...",
+        "Error": "Échec de la modification des favoris.\n\nVeuillez vérifier si vos favoris sont légaux et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "Favoris modifiés"
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "Demande d'authentification Sonolus...",
+        "Error": "Échec de la demande d'authentification auprès de Sonolus.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez Sonolus pour signaler le problème."
+      },
+      "Logout": {
+        "Loading": "Déconnection...",
+        "Error": "Échec de la déconnexion.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez.",
+        "Success": {
+          "Title": "Déconnecter"
+        }
+      }
+    },
     "CustomServer": {
       "SonolusVersionError": "Ce serveur ne prend en charge que la version {0} de Sonolus.\n\nVeuillez mettre à jour votre application Sonolus ou contacter le propriétaire du serveur pour signaler le problème.",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "Ce serveur nécessite une authentification.\n\nVeuillez d'abord vous connecter et réessayer."
+          },
+          "Confirmation": {
+            "Description": "Ce serveur nécessite une authentification.\n\nS'authentifier en tant que \"{0}\" et continuer ?"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "Votre authentification a expiré.\n\nS'authentifier à nouveau en tant que \"{0}\" et continuer ?"
+        },
+        "AuthenticationRejected": {
+          "Description": "Votre authentification a été rejetée par le serveur.\n\nS'authentifier à nouveau en tant que \"{0}\" et continuer ?"
+        },
+        "Authenticate": {
+          "Loading": "Demande d'authentification du serveur...",
+          "Error": "Échec de la demande d'authentification de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "AddressMismatchError": {
+          "Description": "L'adresse d'authentification ne correspond pas.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        }
+      },
       "Server": {
         "Info": {
           "Loading": "Chargement des informations sur le serveur...",
@@ -861,7 +948,8 @@
     },
     "SelectLocalization": {
       "Title": "Choisir la langue",
-      "Description": "Sélectionnez une langue préférée :"
+      "Description": "Sélectionnez une langue préférée :",
+      "Error": "Échec du chargement des langues."
     },
     "SelectTheme": {
       "Title": "Sélectionne un thème",
@@ -878,6 +966,90 @@
         "Title": "Collections",
         "RemoveConfirmation": {
           "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "Jouer",
+        "Description": "Sélectionnez un serveur personnalisé ou une collection pour commencer à jouer."
+      },
+      "ToSave": {
+        "Level": {
+          "Title": "Enregistrer le niveau",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer ce niveau."
+        },
+        "Skin": {
+          "Title": "Enregistrer le skin",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer ce skin."
+        },
+        "Background": {
+          "Title": "Enregistrer l'arrière-plan",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cet arrière-plan."
+        },
+        "Effect": {
+          "Title": "Enregistrer l'effet",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cet effet."
+        },
+        "Particle": {
+          "Title": "Enregistrer la particule",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cette particule."
+        },
+        "Engine": {
+          "Title": "Enregistrer le moteur",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer ce moteur."
+        }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "Choisir le niveau",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses niveaux."
+        },
+        "Skin": {
+          "Title": "Sélectionnez le skin",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses skins."
+        },
+        "Background": {
+          "Title": "Sélectionnez l'arrière-plan",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses arrière-plans."
+        },
+        "Effect": {
+          "Title": "Sélectionnez l'effet",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses effets."
+        },
+        "Particle": {
+          "Title": "Sélectionner la particule",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses particules."
+        },
+        "Engine": {
+          "Title": "Sélectionnez l'engine\n",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses engines."
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "Ajouter un niveau favori",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses niveaux aux favoris."
+        },
+        "Skin": {
+          "Title": "Ajouter un skin préféré",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses skins aux favoris."
+        },
+        "Background": {
+          "Title": "Ajouter un arrière-plan favori",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses arrière-plans aux favoris."
+        },
+        "Effect": {
+          "Title": "Ajouter un effet favori",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses effets aux favoris."
+        },
+        "Particle": {
+          "Title": "Ajouter une particule préférée",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses particules aux favoris."
+        },
+        "Engine": {
+          "Title": "Ajouter un engine favori",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses engines aux favoris."
         }
       }
     },
@@ -957,11 +1129,86 @@
     "Home": {
       "Title": "Home",
       "Play": "Play",
+      "Players": "Joueurs",
+      "Account": "Compte",
       "Settings": "Réglages",
       "UpdateAvailable": {
         "Title": "Mise à jour disponible",
         "Description": "La version Sonolus {0} est disponible !\n\nVisitez notre site Internet:\nhttps://sonolus.com",
         "Open": "Open"
+      }
+    },
+    "Players": {
+      "Title": "Joueurs",
+      "PlayerLookup": {
+        "Title": "Recherche de joueur",
+        "Id": "ID du joueur",
+        "IdPlaceholder": "Entrez l'ID du joueur...",
+        "Lookup": "Chercher"
+      }
+    },
+    "Account": {
+      "Title": "Compte",
+      "MyAccount": {
+        "Title": "Mon compte",
+        "Login": {
+          "Apple": "Connectez-vous avec Apple",
+          "Google": "Connectez-vous avec Google",
+          "Wechat": "Connectez-vous avec WeChat"
+        },
+        "Profile": "Profil",
+        "Logout": "Déconnexion"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "Modifier le nom",
+          "EditAvatar": "Modifier l'Avatar"
+        },
+        "AboutMe": {
+          "Title": "À propos de moi"
+        },
+        "SocialLinks": {
+          "Title": "Liens sociaux",
+          "None": "Aucun lien social."
+        },
+        "Favorites": {
+          "Title": "Favoris",
+          "None": "Pas de favoris."
+        }
+      },
+      "EditName": {
+        "Title": "Modifier le nom",
+        "Name": "Nom",
+        "NamePlaceholder": "Entrez le nom du joueur..."
+      },
+      "EditAvatar": {
+        "Title": "Modifier l'Avatar",
+        "Foreground": "Premier plan",
+        "Background": "Arrière plan"
+      },
+      "EditAboutMe": {
+        "Title": "Modifier À propos de moi",
+        "AboutMe": "À propos de moi",
+        "AboutMePlaceholder": "Entrez à propos de moi..."
+      },
+      "AddSocialLink": {
+        "Title": "Ajouter un lien social",
+        "SocialLinkTitle": "Titre",
+        "SocialLinkTitlePlaceholder": "Saisissez le titre du lien social...",
+        "SocialLinkAddress": "Adresse",
+        "SocialLinkAddressPlaceholder": "Entrez l'adresse du lien social..."
+      },
+      "AddFavorite": {
+        "Title": "Ajouter un favori",
+        "Description": "Sélectionnez le type de favori à ajouter :",
+        "Level": "Niveau",
+        "Skin": "Skin",
+        "Background": "Arrière plan",
+        "Effect": "SFX",
+        "Particle": "Particule",
+        "Engine": "Engine"
       }
     },
     "Server": {
@@ -1133,12 +1380,22 @@
             "DeviceInputOffset": "Device Input Offset"
           }
         },
+        "Skin": {
+          "Title": "Skin Configuration"
+        },
         "Background": {
           "Title": "Configuration de l'arrière-plan",
           "Image": {
+            "Title": "Image",
             "Blur": "Blur",
             "Mask": "Masque"
           }
+        },
+        "Effect": {
+          "Title": "Configuration d'effet"
+        },
+        "Particle": {
+          "Title": "Configuration des particules"
         },
         "Engine": {
           "Title": "Engine Configuration",
