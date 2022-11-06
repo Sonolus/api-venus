@@ -298,8 +298,83 @@
         "Error": "言語\"{0}\"の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
       }
     },
+    "Service": {
+      "UserProfile": {
+        "Loading": "ユーザープロフィールを読み込み中...",
+        "Error": "\"{0}\" のユーザー プロファイルを読み込めませんでした。\n\nユーザー ID が正しいか、およびインターネット接続を確認してもう一度お試しください。"
+      },
+      "Login": {
+        "Success": {
+          "New": {
+          },
+          "Old": {
+          }
+        }
+      },
+      "EditName": {
+        "Loading": "名前を変更中...",
+        "Error": "名前の変更に失敗しました。\n\n別の名前を使うか、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+          "Title": "名前を変更しました"
+        }
+      },
+      "EditAvatar": {
+        "Loading": "アバターを変更中...",
+        "Error": "アバターの変更に失敗しました。\n\n別のアバターを使うか、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+          "Title": "アバターを変更しました"
+        }
+      },
+      "EditAboutMe": {
+        "Loading": "プロフィールを変更しています...",
+        "Error": "プロフィールの変更に失敗しました。\n\n他のプロフィールを指定するか、インターネット接続を確認してからもう一度お試しください。",
+        "Success": {
+          "Title": "プロフィールを変更しました"
+        }
+      },
+      "EditSocialLinks": {
+        "Loading": "SNSリンクを変更中...",
+        "Success": {
+          "Title": "ソーシャルリンクを変更しました"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "お気に入りを変更中...",
+        "Error": "お気に入りの変更に失敗しました。\n\nお気に入り登録内容、お気に入り数、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "Sonolus認証をリクエスト中...",
+        "Error": "Sonolus認証のリクエストに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。改善しない場合、Sonolusに問題をご報告ください。"
+      },
+      "Logout": {
+        "Loading": "サインアウト中...",
+        "Success": {
+        }
+      }
+    },
     "CustomServer": {
       "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "このサーバーを利用するには認証が必要です。\n\nまずサインインを行い、その後再度お試しください。"
+          },
+          "Confirmation": {
+            "Description": "このサーバーを利用するには認証が必要です。\n\n「{0}」として認証して続行しますか?"
+          }
+        },
+        "AuthenticationExpired": {
+        },
+        "AuthenticationRejected": {
+        },
+        "Authenticate": {
+        },
+        "AddressMismatchError": {
+          "Description": "認証先アドレスが一致しません。\n\nサーバー所有者に連絡して問題を報告してください。"
+        }
+      },
       "Server": {
         "Info": {
           "Loading": "サーバー情報を読み込み中...",
@@ -881,6 +956,88 @@
         }
       }
     },
+    "Selects": {
+      "ToPlay": {
+      },
+      "ToSave": {
+        "Level": {
+          "Title": "レベルの保存",
+          "Description": "このレベルの保存先コレクションを選択してください。"
+        },
+        "Skin": {
+          "Title": "スキンの保存",
+          "Description": "このスキンの保存先コレクションを選択してください。"
+        },
+        "Background": {
+          "Title": "背景の保存",
+          "Description": "この背景の保存先コレクションを選択してください。"
+        },
+        "Effect": {
+          "Title": "効果音の保存",
+          "Description": "この効果音の保存先コレクションを選択してください。"
+        },
+        "Particle": {
+          "Title": "パーティクルの保存",
+          "Description": "このパーティクルの保存先コレクションを選択してください。"
+        },
+        "Engine": {
+          "Title": "エンジンの保存",
+          "Description": "このエンジンの保存先コレクションを選択してください。"
+        }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "レベルの選択",
+          "Description": "使用したいレベルのある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Skin": {
+          "Title": "スキンの選択",
+          "Description": "使いたいスキンのあるカスタム サーバーまたはコレクションを選択してください。"
+        },
+        "Background": {
+          "Title": "背景の選択",
+          "Description": "使いたい背景のあるカスタム サーバーまたはコレクションを選択してください。"
+        },
+        "Effect": {
+          "Title": "効果音の選択",
+          "Description": "使用したい効果音のある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Particle": {
+          "Title": "パーティクルの選択",
+          "Description": "使用したいパーティクルのある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Engine": {
+          "Title": "エンジンの選択",
+          "Description": "使用したいエンジンのある、カスタムサーバーまたはコレクションを選択してください。"
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "お気に入りレベルの追加",
+          "Description": "お気に入りに追加したいレベルがある、カスタムサーバーを選択してください。"
+        },
+        "Skin": {
+          "Title": "お気に入りスキンの追加",
+          "Description": "お気に入りに追加したいスキンがある、カスタムサーバーを選択してください。"
+        },
+        "Background": {
+          "Title": "お気に入り背景の追加",
+          "Description": "お気に入りに追加したい背景がある、カスタムサーバーを選択してください。"
+        },
+        "Effect": {
+          "Title": "お気に入り効果音の追加",
+          "Description": "お気に入りに追加したい効果音がある、カスタムサーバーを選択してください。"
+        },
+        "Particle": {
+          "Title": "お気に入りパーティクルの追加",
+          "Description": "お気に入りに追加したいパーティクルがある、カスタムサーバーを選択してください。"
+        },
+        "Engine": {
+          "Title": "お気に入りエンジンの追加",
+          "Description": "お気に入りに追加したいエンジンがある、カスタムサーバーを選択してください。"
+        }
+      }
+    },
     "EditCustomServer": {
       "Title": "カスタムサーバーの編集",
       "Address": "サーバーアドレス",
@@ -957,11 +1114,86 @@
     "Home": {
       "Title": "ホーム",
       "Play": "プレイ",
+      "Players": "プレイヤー",
+      "Account": "アカウント",
       "Settings": "全体設定",
       "UpdateAvailable": {
         "Title": "アップデート通知",
         "Description": "Sonolus バージョン {0}が公開されました!\n\nサイト:\nhttps://sonolus.com から最新版をダウンロードしてください!",
         "Open": "サイトを開く"
+      }
+    },
+    "Players": {
+      "Title": "プレイヤー一覧",
+      "PlayerLookup": {
+        "Title": "プレイヤーを調べる",
+        "Id": "プレイヤーID",
+        "IdPlaceholder": "例: 1005",
+        "Lookup": "調べる"
+      }
+    },
+    "Account": {
+      "Title": "アカウント",
+      "MyAccount": {
+        "Title": "マイアカウント",
+        "Login": {
+          "Apple": "Apple でサインイン",
+          "Google": "Google でサインイン",
+          "Wechat": "WeChat でサインイン"
+        },
+        "Profile": "プロフィール",
+        "Logout": "サインアウト"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "名前の変更",
+          "EditAvatar": "アバターの変更"
+        },
+        "AboutMe": {
+          "Title": "自己紹介"
+        },
+        "SocialLinks": {
+          "Title": "ソーシャルリンク",
+          "None": "ソーシャルリンクはありません。"
+        },
+        "Favorites": {
+          "Title": "お気に入り",
+          "None": "お気に入りはありません。"
+        }
+      },
+      "EditName": {
+        "Title": "名前の変更",
+        "Name": "名前",
+        "NamePlaceholder": "プレイヤー名を入力..."
+      },
+      "EditAvatar": {
+        "Title": "アバターの変更",
+        "Foreground": "前面",
+        "Background": "後面"
+      },
+      "EditAboutMe": {
+        "Title": "自己紹介の変更",
+        "AboutMe": "自己紹介",
+        "AboutMePlaceholder": "自己紹介の入力..."
+      },
+      "AddSocialLink": {
+        "Title": "ソーシャルリンクの追加",
+        "SocialLinkTitle": "タイトル",
+        "SocialLinkTitlePlaceholder": "例: Twitter",
+        "SocialLinkAddress": "アドレス",
+        "SocialLinkAddressPlaceholder": "例: https://twitter.com/usagi_anime"
+      },
+      "AddFavorite": {
+        "Title": "お気に入りの追加",
+        "Description": "お気に入りに追加する要素の種類を選択してください。",
+        "Level": "レベル",
+        "Skin": "スキン",
+        "Background": "背景",
+        "Effect": "効果音",
+        "Particle": "パーティクル",
+        "Engine": "エンジン"
       }
     },
     "Server": {
@@ -1133,12 +1365,22 @@
             "DeviceInputOffset": "デバイス入力オフセット"
           }
         },
+        "Skin": {
+          "Title": "スキン設定"
+        },
         "Background": {
           "Title": "背景設定",
           "Image": {
+            "Title": "画像",
             "Blur": "ぼかし",
             "Mask": "マスク色"
           }
+        },
+        "Effect": {
+          "Title": "効果音設定"
+        },
+        "Particle": {
+          "Title": "パーティクル設定"
         },
         "Engine": {
           "Title": "エンジン設定",
