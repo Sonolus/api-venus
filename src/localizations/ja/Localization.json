@@ -298,8 +298,95 @@
         "Error": "言語\"{0}\"の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
       }
     },
+    "Service": {
+      "UserProfile": {
+        "Loading": "ユーザープロフィールを読み込み中...",
+        "Error": "\"{0}\" のユーザー プロファイルを読み込めませんでした。\n\nユーザー ID が正しいか、およびインターネット接続を確認してもう一度お試しください。"
+      },
+      "Login": {
+        "Loading": "サインイン中...",
+        "Error": "サインインできませんでした。\n\nインターネット接続を確認して、もう一度お試しください。",
+        "Success": {
+          "New": {
+            "Title": "サインインしました"
+          },
+          "Old": {
+            "Title": "サインインしました"
+          }
+        }
+      },
+      "EditName": {
+        "Loading": "名前を変更中...",
+        "Error": "名前の変更に失敗しました。\n\n別の名前を使うか、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+          "Title": "名前を変更しました"
+        }
+      },
+      "EditAvatar": {
+        "Loading": "アバターを変更中...",
+        "Error": "アバターの変更に失敗しました。\n\n別のアバターを使うか、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+          "Title": "アバターを変更しました"
+        }
+      },
+      "EditAboutMe": {
+        "Loading": "プロフィールを変更しています...",
+        "Error": "プロフィールの変更に失敗しました。\n\n他のプロフィールを指定するか、インターネット接続を確認してからもう一度お試しください。",
+        "Success": {
+          "Title": "プロフィールを変更しました"
+        }
+      },
+      "EditSocialLinks": {
+        "Loading": "SNSリンクを変更中...",
+        "Error": "SNSリンクの編集に失敗しました。\n\nリンクの長さとインターネット接続を確認してください。",
+        "Success": {
+          "Title": "ソーシャルリンクを変更しました"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "お気に入りを変更中...",
+        "Error": "お気に入りの変更に失敗しました。\n\nお気に入り登録内容、お気に入り数、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+          "Title": "完了"
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "Sonolus認証をリクエスト中...",
+        "Error": "Sonolus認証のリクエストに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。改善しない場合、Sonolusに問題をご報告ください。"
+      },
+      "Logout": {
+        "Loading": "サインアウト中...",
+        "Error": "サインアウトに失敗しました。\n\nインターネット接続を確認して、もう一度お試しください。",
+        "Success": {
+          "Title": "サインアウトしました"
+        }
+      }
+    },
     "CustomServer": {
       "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "このサーバーを利用するには認証が必要です。\n\nまずサインインを行い、その後再度お試しください。"
+          },
+          "Confirmation": {
+            "Description": "このサーバーを利用するには認証が必要です。\n\n「{0}」として認証して続行しますか?"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "認証の有効期限が切れています。\n\n「{0}」として再度認証して続行しますか?"
+        },
+        "AuthenticationRejected": {
+          "Description": "認証がサーバーによって拒否されました。\n\n「{0}」として再度認証して続行しますか?"
+        },
+        "Authenticate": {
+          "Loading": "サーバー認証を要求しています...",
+          "Error": "\"{0}\" からの認証を要求できませんでした。\n\nインターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。"
+        },
+        "AddressMismatchError": {
+          "Description": "認証先アドレスが一致しません。\n\nサーバー所有者に連絡して問題を報告してください。"
+        }
+      },
       "Server": {
         "Info": {
           "Loading": "サーバー情報を読み込み中...",
@@ -861,24 +948,14 @@
     },
     "SelectLocalization": {
       "Title": "言語選択",
-      "Description": "利用する言語を選択してください:"
+      "Description": "利用する言語を選択してください:",
+      "Error": "言語を読み込めませんでした。"
     },
     "SelectTheme": {
       "Title": "テーマ選択",
       "Description": "好きなテーマを選んでください:"
     },
-    "Home": {
-      "Title": "ホーム",
-      "Play": "プレイ",
-      "Settings": "全体設定",
-      "UpdateAvailable": {
-        "Title": "アップデート通知",
-        "Description": "Sonolus バージョン {0}が公開されました!\n\nサイト:\nhttps://sonolus.com から最新版をダウンロードしてください!",
-        "Open": "サイトを開く"
-      }
-    },
-    "SelectServer": {
-      "Title": "サーバー選択",
+    "SelectClient": {
       "CustomServers": {
         "Title": "カスタムサーバー",
         "RemoveConfirmation": {
@@ -889,6 +966,90 @@
         "Title": "コレクション",
         "RemoveConfirmation": {
           "Description": "本当に\"{0}\"を削除しますか?\n\nこの操作は取り消せません。\n\n削除後、コレクション内の内容は全て失われます。"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "遊ぶ",
+        "Description": "カスタム サーバーまたはコレクションを選択して開始します。"
+      },
+      "ToSave": {
+        "Level": {
+          "Title": "レベルの保存",
+          "Description": "このレベルの保存先コレクションを選択してください。"
+        },
+        "Skin": {
+          "Title": "スキンの保存",
+          "Description": "このスキンの保存先コレクションを選択してください。"
+        },
+        "Background": {
+          "Title": "背景の保存",
+          "Description": "この背景の保存先コレクションを選択してください。"
+        },
+        "Effect": {
+          "Title": "効果音の保存",
+          "Description": "この効果音の保存先コレクションを選択してください。"
+        },
+        "Particle": {
+          "Title": "パーティクルの保存",
+          "Description": "このパーティクルの保存先コレクションを選択してください。"
+        },
+        "Engine": {
+          "Title": "エンジンの保存",
+          "Description": "このエンジンの保存先コレクションを選択してください。"
+        }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "レベルの選択",
+          "Description": "使用したいレベルのある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Skin": {
+          "Title": "スキンの選択",
+          "Description": "使いたいスキンのあるカスタム サーバーまたはコレクションを選択してください。"
+        },
+        "Background": {
+          "Title": "背景の選択",
+          "Description": "使いたい背景のあるカスタム サーバーまたはコレクションを選択してください。"
+        },
+        "Effect": {
+          "Title": "効果音の選択",
+          "Description": "使用したい効果音のある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Particle": {
+          "Title": "パーティクルの選択",
+          "Description": "使用したいパーティクルのある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Engine": {
+          "Title": "エンジンの選択",
+          "Description": "使用したいエンジンのある、カスタムサーバーまたはコレクションを選択してください。"
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "お気に入りレベルの追加",
+          "Description": "お気に入りに追加したいレベルがある、カスタムサーバーを選択してください。"
+        },
+        "Skin": {
+          "Title": "お気に入りスキンの追加",
+          "Description": "お気に入りに追加したいスキンがある、カスタムサーバーを選択してください。"
+        },
+        "Background": {
+          "Title": "お気に入り背景の追加",
+          "Description": "お気に入りに追加したい背景がある、カスタムサーバーを選択してください。"
+        },
+        "Effect": {
+          "Title": "お気に入り効果音の追加",
+          "Description": "お気に入りに追加したい効果音がある、カスタムサーバーを選択してください。"
+        },
+        "Particle": {
+          "Title": "お気に入りパーティクルの追加",
+          "Description": "お気に入りに追加したいパーティクルがある、カスタムサーバーを選択してください。"
+        },
+        "Engine": {
+          "Title": "お気に入りエンジンの追加",
+          "Description": "お気に入りに追加したいエンジンがある、カスタムサーバーを選択してください。"
         }
       }
     },
@@ -921,15 +1082,6 @@
       "Title": "コレクションの追加",
       "Name": "コレクション名",
       "NamePlaceholder": "例 お気に入り"
-    },
-    "SelectCollection": {
-      "Title": "コレクションの選択",
-      "Collections": {
-        "Title": "コレクション一覧",
-        "RemoveConfirmation": {
-          "Description": "本当に\"{0}\"を削除しますか?\n\nこの操作は取り消せません。\n\n削除後、コレクション内の内容は全て失われます。"
-        }
-      }
     },
     "ImportScp": {
       "Scp": {
@@ -974,6 +1126,91 @@
       "Result": "おすすめオフセット: {0} (±{1})",
       "DeviceInputOffset": "デバイス入力オフセット"
     },
+    "Home": {
+      "Title": "ホーム",
+      "Play": "プレイ",
+      "Players": "プレイヤー",
+      "Account": "アカウント",
+      "Settings": "全体設定",
+      "UpdateAvailable": {
+        "Title": "アップデート通知",
+        "Description": "Sonolus バージョン {0}が公開されました!\n\nサイト:\nhttps://sonolus.com から最新版をダウンロードしてください!",
+        "Open": "サイトを開く"
+      }
+    },
+    "Players": {
+      "Title": "プレイヤー一覧",
+      "PlayerLookup": {
+        "Title": "プレイヤーを調べる",
+        "Id": "プレイヤーID",
+        "IdPlaceholder": "例: 1005",
+        "Lookup": "調べる"
+      }
+    },
+    "Account": {
+      "Title": "アカウント",
+      "MyAccount": {
+        "Title": "マイアカウント",
+        "Login": {
+          "Apple": "Apple でサインイン",
+          "Google": "Google でサインイン",
+          "Wechat": "WeChat でサインイン"
+        },
+        "Profile": "プロフィール",
+        "Logout": "サインアウト"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "名前の変更",
+          "EditAvatar": "アバターの変更"
+        },
+        "AboutMe": {
+          "Title": "自己紹介"
+        },
+        "SocialLinks": {
+          "Title": "ソーシャルリンク",
+          "None": "ソーシャルリンクはありません。"
+        },
+        "Favorites": {
+          "Title": "お気に入り",
+          "None": "お気に入りはありません。"
+        }
+      },
+      "EditName": {
+        "Title": "名前の変更",
+        "Name": "名前",
+        "NamePlaceholder": "プレイヤー名を入力..."
+      },
+      "EditAvatar": {
+        "Title": "アバターの変更",
+        "Foreground": "前面",
+        "Background": "後面"
+      },
+      "EditAboutMe": {
+        "Title": "自己紹介の変更",
+        "AboutMe": "自己紹介",
+        "AboutMePlaceholder": "自己紹介の入力..."
+      },
+      "AddSocialLink": {
+        "Title": "ソーシャルリンクの追加",
+        "SocialLinkTitle": "タイトル",
+        "SocialLinkTitlePlaceholder": "例: Twitter",
+        "SocialLinkAddress": "アドレス",
+        "SocialLinkAddressPlaceholder": "例: https://twitter.com/usagi_anime"
+      },
+      "AddFavorite": {
+        "Title": "お気に入りの追加",
+        "Description": "お気に入りに追加する要素の種類を選択してください。",
+        "Level": "レベル",
+        "Skin": "スキン",
+        "Background": "背景",
+        "Effect": "効果音",
+        "Particle": "パーティクル",
+        "Engine": "エンジン"
+      }
+    },
     "Server": {
       "Home": {
         "Levels": "レベル一覧",
@@ -992,48 +1229,48 @@
       "Search": {
         "Title": "検索"
       },
-      "ItemList": {
+      "Lists": {
         "DeleteConfirmation": {
           "Description": "「{0}」を削除してもよろしいですか?"
+        },
+        "Level": {
+          "Title": "レベル一覧",
+          "ShareSuccess": {
+            "Title": "レベル一覧のリンクをコピーしました。"
+          }
+        },
+        "Skin": {
+          "Title": "スキン一覧",
+          "ShareSuccess": {
+            "Title": "スキン一覧のリンクをコピーしました"
+          }
+        },
+        "Background": {
+          "Title": "背景一覧",
+          "ShareSuccess": {
+            "Title": "背景一覧のリンクをコピーしました"
+          }
+        },
+        "Effect": {
+          "Title": "効果音一覧",
+          "ShareSuccess": {
+            "Title": "効果音一覧のリンクをコピーしました"
+          }
+        },
+        "Particle": {
+          "Title": "パーティクル一覧",
+          "ShareSuccess": {
+            "Title": "パーティクル一覧のリンクをコピーしました"
+          }
+        },
+        "Engine": {
+          "Title": "エンジン一覧",
+          "ShareSuccess": {
+            "Title": "エンジン一覧のリンクをコピーしました"
+          }
         }
       },
-      "LevelList": {
-        "Title": "レベル一覧",
-        "ShareSuccess": {
-          "Title": "レベル一覧のリンクをコピーしました。"
-        }
-      },
-      "SkinList": {
-        "Title": "スキン一覧",
-        "ShareSuccess": {
-          "Title": "スキン一覧のリンクをコピーしました"
-        }
-      },
-      "BackgroundList": {
-        "Title": "背景一覧",
-        "ShareSuccess": {
-          "Title": "背景一覧のリンクをコピーしました"
-        }
-      },
-      "EffectList": {
-        "Title": "効果音一覧",
-        "ShareSuccess": {
-          "Title": "効果音一覧のリンクをコピーしました"
-        }
-      },
-      "ParticleList": {
-        "Title": "パーティクル一覧",
-        "ShareSuccess": {
-          "Title": "パーティクル一覧のリンクをコピーしました"
-        }
-      },
-      "EngineList": {
-        "Title": "エンジン一覧",
-        "ShareSuccess": {
-          "Title": "エンジン一覧のリンクをコピーしました"
-        }
-      },
-      "ItemDetails": {
+      "Details": {
         "Actions": {
           "Configuration": "設定"
         },
@@ -1045,162 +1282,187 @@
         },
         "Recommended": {
           "Title": "おすすめ"
-        }
-      },
-      "LevelDetails": {
-        "Actions": {
-          "Play": "プレイ"
         },
-        "Play": {
-          "Effect": {
-            "Audio": {
-              "Loading": "効果音をデコード中...",
-              "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡下さい。"
+        "Level": {
+          "Actions": {
+            "Play": "プレイ"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "効果音をデコード中...",
+                "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡下さい。"
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "レベルBGMをデコード中...",
+                "Error": "レベルBGM \"{0}\"のデコードに失敗しました。\n\nレベルの作者にご連絡ください。"
+              }
+            },
+            "Boot": {
+              "Loading": "レベルを開始中...",
+              "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
             }
           },
-          "Level": {
-            "Bgm": {
-              "Loading": "レベルBGMをデコード中...",
-              "Error": "レベルBGM \"{0}\"のデコードに失敗しました。\n\nレベルの作者にご連絡ください。"
-            }
-          },
-          "Boot": {
-            "Loading": "レベルを開始中...",
-            "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
+          "ShareSuccess": {
+            "Title": "レベルのリンクをコピーしました"
           }
         },
-        "ShareSuccess": {
-          "Title": "レベルのリンクをコピーしました"
-        }
-      },
-      "SkinDetails": {
-        "ShareSuccess": {
-          "Title": "スキンのリンクをコピーしました"
-        }
-      },
-      "BackgroundDetails": {
-        "ShareSuccess": {
-          "Title": "背景のリンクをコピーしました"
-        }
-      },
-      "EffectDetails": {
-        "ShareSuccess": {
-          "Title": "効果音のリンクをコピーしました"
-        }
-      },
-      "ParticleDetails": {
-        "ShareSuccess": {
-          "Title": "パーティクルのリンクをコピーしました"
-        }
-      },
-      "EngineDetails": {
-        "ShareSuccess": {
-          "Title": "エンジンのリンクをコピーしました"
-        }
-      },
-      "LevelConfiguration": {
-        "Title": "レベル設定",
-        "Options": {
-          "Title": "オプション"
-        },
-        "Audio": {
-          "Title": "オーディオ",
-          "BgmVolume": "BGMの音量",
-          "SfxVolume": "効果音の音量"
-        },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "メイン指標",
-          "SecondaryMetric": "サブ指標",
-          "JudgmentErrorStyle": "判定スタイル",
-          "JudgmentErrorPlacement": "判定表示位置",
-          "JudgmentErrorMin": "判定最小誤差",
-          "MenuStyle": "メニュースタイル",
-          "JudgmentStyle": "判定スタイル",
-          "ComboStyle": "コンボスタイル",
-          "PrimaryMetricStyle": "メイン指標スタイル",
-          "SecondaryMetricStyle": "サブ指標スタイル"
-        },
-        "Offsets": {
-          "Title": "オフセット",
-          "LevelAudioOffset": "レベル音オフセット",
-          "ServerAudioOffset": "サーバー音オフセット",
-          "DeviceAudioOffset": "デバイス音オフセット",
-          "EngineInputOffset": "エンジン入力オフセット",
-          "DeviceInputOffset": "デバイス入力オフセット"
-        }
-      },
-      "BackgroundConfiguration": {
-        "Title": "背景設定",
-        "Background": {
-          "Title": "背景",
-          "Blur": "ぼかし",
-          "Mask": "マスク色"
-        }
-      },
-      "EngineConfiguration": {
-        "Title": "エンジン設定",
         "Skin": {
-          "Title": "使用スキン"
+          "ShareSuccess": {
+            "Title": "スキンのリンクをコピーしました"
+          }
         },
         "Background": {
-          "Title": "使用背景"
+          "ShareSuccess": {
+            "Title": "背景のリンクをコピーしました"
+          }
         },
         "Effect": {
-          "Title": "使用効果音"
+          "ShareSuccess": {
+            "Title": "効果音のリンクをコピーしました"
+          }
         },
         "Particle": {
-          "Title": "使用パーティクル"
+          "ShareSuccess": {
+            "Title": "パーティクルのリンクをコピーしました"
+          }
         },
-        "Options": {
-          "Title": "オプション"
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "エンジンのリンクをコピーしました"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "レベル設定",
+          "Skin": {
+            "Title": "使用スキン"
+          },
+          "Background": {
+            "Title": "使用背景"
+          },
+          "Effect": {
+            "Title": "使用効果音"
+          },
+          "Particle": {
+            "Title": "使用パーティクル"
+          },
+          "Options": {
+            "Title": "オプション"
+          },
+          "Audio": {
+            "Title": "オーディオ",
+            "BgmVolume": "BGMの音量",
+            "SfxVolume": "効果音の音量"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "メイン指標",
+            "SecondaryMetric": "サブ指標",
+            "JudgmentErrorStyle": "判定スタイル",
+            "JudgmentErrorPlacement": "判定表示位置",
+            "JudgmentErrorMin": "判定最小誤差",
+            "MenuStyle": "メニュースタイル",
+            "JudgmentStyle": "判定スタイル",
+            "ComboStyle": "コンボスタイル",
+            "PrimaryMetricStyle": "メイン指標スタイル",
+            "SecondaryMetricStyle": "サブ指標スタイル"
+          },
+          "Offsets": {
+            "Title": "オフセット",
+            "LevelAudioOffset": "レベル音オフセット",
+            "ServerAudioOffset": "サーバー音オフセット",
+            "DeviceAudioOffset": "デバイス音オフセット",
+            "EngineInputOffset": "エンジン入力オフセット",
+            "DeviceInputOffset": "デバイス入力オフセット"
+          }
         },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "メイン指標",
-          "SecondaryMetric": "サブ指標",
-          "JudgmentErrorStyle": "判定スタイル",
-          "JudgmentErrorPlacement": "判定表示位置",
-          "JudgmentErrorMin": "判定最小誤差",
-          "MenuStyle": "メニュースタイル",
-          "JudgmentStyle": "判定スタイル",
-          "ComboStyle": "コンボスタイル",
-          "PrimaryMetricStyle": "メイン指標スタイル",
-          "SecondaryMetricStyle": "サブ指標スタイル"
+        "Skin": {
+          "Title": "スキン設定"
         },
-        "Offsets": {
-          "Title": "オフセット",
-          "EngineInputOffset": "エンジン入力オフセット"
+        "Background": {
+          "Title": "背景設定",
+          "Image": {
+            "Title": "画像",
+            "Blur": "ぼかし",
+            "Mask": "マスク色"
+          }
+        },
+        "Effect": {
+          "Title": "効果音設定"
+        },
+        "Particle": {
+          "Title": "パーティクル設定"
+        },
+        "Engine": {
+          "Title": "エンジン設定",
+          "Skin": {
+            "Title": "使用スキン"
+          },
+          "Background": {
+            "Title": "使用背景"
+          },
+          "Effect": {
+            "Title": "使用効果音"
+          },
+          "Particle": {
+            "Title": "使用パーティクル"
+          },
+          "Options": {
+            "Title": "オプション"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "メイン指標",
+            "SecondaryMetric": "サブ指標",
+            "JudgmentErrorStyle": "判定スタイル",
+            "JudgmentErrorPlacement": "判定表示位置",
+            "JudgmentErrorMin": "判定最小誤差",
+            "MenuStyle": "メニュースタイル",
+            "JudgmentStyle": "判定スタイル",
+            "ComboStyle": "コンボスタイル",
+            "PrimaryMetricStyle": "メイン指標スタイル",
+            "SecondaryMetricStyle": "サブ指標スタイル"
+          },
+          "Offsets": {
+            "Title": "オフセット",
+            "EngineInputOffset": "エンジン入力オフセット"
+          }
         }
       },
-      "LevelSaver": {
-        "Success": {
-          "Title": "レベルのリンクをコピーしました"
-        }
-      },
-      "SkinSaver": {
-        "Success": {
-          "Title": "スキンを保存しました"
-        }
-      },
-      "BackgroundSaver": {
-        "Success": {
-          "Title": "背景を保存しました"
-        }
-      },
-      "EffectSaver": {
-        "Success": {
-          "Title": "効果音を保存しました"
-        }
-      },
-      "ParticleSaver": {
-        "Success": {
-          "Title": "パーティクルを保存しました"
-        }
-      },
-      "EngineSaver": {
-        "Success": {
-          "Title": "エンジンを保存しました"
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "レベルのリンクをコピーしました"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "スキンを保存しました"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景を保存しました"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "効果音を保存しました"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "パーティクルを保存しました"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "エンジンを保存しました"
+          }
         }
       }
     },

@@ -298,8 +298,95 @@
 				"Error": "\"{0}\" 언어를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요."
 			}
 		},
+		"Service": {
+			"UserProfile": {
+				"Loading": "유저 프로필을 불러오는 중...",
+				"Error": "\"{0}\" 유저의 프로필을 불러오지 못했어요.\n\n유저 ID를 다시 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요."
+			},
+			"Login": {
+				"Loading": "로그인 하는 중...",
+				"Error": "로그인에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"New": {
+						"Title": "가입 완료"
+					},
+					"Old": {
+						"Title": "로그인 성공"
+					}
+				}
+			},
+			"EditName": {
+				"Loading": "이름을 수정하는 중...",
+				"Error": "이름을 수정하지 못했어요.\n\n이름이 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "이름을 수정했어요"
+				}
+			},
+			"EditAvatar": {
+				"Loading": "프로필 사진을 수정하는 중...",
+				"Error": "프로필 사진을 수정하지 못했어요.\n\n프로필 사진이 잘못되었는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "프로필 사진을 수정했어요"
+				}
+			},
+			"EditAboutMe": {
+				"Loading": "자기소개를 수정하는 중...",
+				"Error": "자기소개를 수정하지 못했어요.\n\n자기소개가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "자기소개를 수정했어요"
+				}
+			},
+			"EditSocialLinks": {
+				"Loading": "SNS 링크를 수정하는 중...",
+				"Error": "SNS 링크를 수정하지 못했어요.\n\nSNS 링크가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "SNS 링크를 수정했어요"
+				}
+			},
+			"EditFavorites": {
+				"Loading": "즐겨찾기를 수정하는 중...",
+				"Error": "즐겨찾기를 수정하지 못했어요.\n\n즐겨찾기가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "즐겨찾기를 수정했어요"
+				}
+			},
+			"AuthenticateServer": {
+				"Loading": "Sonolus 인증 요청하는 중...",
+				"Error": "Sonolus에서 인증을 요청하지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해보거나, Sonolus에 문의해주세요."
+			},
+			"Logout": {
+				"Loading": "로그아웃 하는 중...",
+				"Error": "로그아웃에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "로그아웃 완료"
+				}
+			}
+		},
 		"CustomServer": {
 			"SonolusVersionError": "이 서버는 Sonolus {0} 버전만 지원해요.\n\nSonolus를 업데이트하거나, 서버 주인에게 문의해주세요.",
+			"Session": {
+				"NeedAuthentication": {
+					"NotLoggedInError": {
+						"Description": "이 서버는 인증이 필요해요.\n\n먼저 로그인을 한 후 다시 시도해주세요."
+					},
+					"Confirmation": {
+						"Description": "이 서버는 인증이 필요해요.\n\n\"{0}\" (으)로 인증하고 계속할까요?"
+					}
+				},
+				"AuthenticationExpired": {
+					"Description": "인증이 만료되었어요.\n\n\"{0}\" (으)로 다시 인증하고 계속할까요?"
+				},
+				"AuthenticationRejected": {
+					"Description": "인증이 거부되었어요.\n\n\"{0}\" (으)로 인증하고 계속할까요?"
+				},
+				"Authenticate": {
+					"Loading": "서버 인증 요청 중...",
+					"Error": "\"{0}\" 서버 인증 요청에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"AddressMismatchError": {
+					"Description": "인증 주소가 맞지 않아요.\n\n서버 주인에게 문의해주세요."
+				}
+			},
 			"Server": {
 				"Info": {
 					"Loading": "서버 정보를 불러오는 중...",
@@ -685,7 +772,7 @@
 				},
 				"Cover": {
 					"Loading": "레벨 이미지를 불러오는 중...",
-					"Error": "Failed to load level cover of \"{0}\".\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+					"Error": "\"{0}\" 레벨의 이미지를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
 				},
 				"Bgm": {
 					"Loading": "레벨 음악을 불러오는 중...",
@@ -861,24 +948,14 @@
 		},
 		"SelectLocalization": {
 			"Title": "언어 선택",
-			"Description": "선호하는 언어를 선택하세요:"
+			"Description": "선호하는 언어를 선택하세요:",
+			"Error": "언어 목록을 불러오지 못했어요."
 		},
 		"SelectTheme": {
 			"Title": "테마 선택",
 			"Description": "테마를 선택하세요:"
 		},
-		"Home": {
-			"Title": "홈",
-			"Play": "플레이",
-			"Settings": "설정",
-			"UpdateAvailable": {
-				"Title": "업데이트 가능",
-				"Description": "Sonolus {0} 버전을 사용할 수 있습니다!\n\n웹사이트를 확인하세요:\nhttps://sonolus.com",
-				"Open": "열기"
-			}
-		},
-		"SelectServer": {
-			"Title": "서버 선택",
+		"SelectClient": {
 			"CustomServers": {
 				"Title": "커스텀 서버",
 				"RemoveConfirmation": {
@@ -889,6 +966,90 @@
 				"Title": "컬렉션",
 				"RemoveConfirmation": {
 					"Description": "정말로 \"{0}\" 컬렉션을 삭제할까요?"
+				}
+			}
+		},
+		"Selects": {
+			"ToPlay": {
+				"Title": "플레이",
+				"Description": "커스텀 서버 또는 컬렉션을 선택해서 플레이를 시작하세요."
+			},
+			"ToSave": {
+				"Level": {
+					"Title": "레벨 저장",
+					"Description": "이 레벨을 저장할 컬렉션을 선택하세요."
+				},
+				"Skin": {
+					"Title": "스킨 저장",
+					"Description": "이 스킨을 저장할 컬렉션을 선택하세요."
+				},
+				"Background": {
+					"Title": "배경 저장",
+					"Description": "이 배경을 저장할 컬렉션을 선택하세요."
+				},
+				"Effect": {
+					"Title": "SE 저장",
+					"Description": "이 SE를 저장할 컬렉션을 선택하세요."
+				},
+				"Particle": {
+					"Title": "탭 이펙트 저장",
+					"Description": "이 탭 이펙트를 저장할 컬렉션을 선택하세요."
+				},
+				"Engine": {
+					"Title": "엔진 저장",
+					"Description": "이 엔진을 저장할 컬렉션을 선택하세요."
+				}
+			},
+			"ToUse": {
+				"Level": {
+					"Title": "레벨 선택",
+					"Description": "레벨을 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Skin": {
+					"Title": "스킨 선택",
+					"Description": "스킨을 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Background": {
+					"Title": "배경 선택",
+					"Description": "배경을 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Effect": {
+					"Title": "SE 선택",
+					"Description": "SE를 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Particle": {
+					"Title": "탭 이펙트 선택",
+					"Description": "탭 이펙트를 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Engine": {
+					"Title": "엔진 선택",
+					"Description": "엔진을 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				}
+			},
+			"ToAddFavorite": {
+				"Level": {
+					"Title": "레벨 즐겨찾기 추가",
+					"Description": "즐겨찾기에 레벨을 추가할 커스텀 서버를 선택하세요."
+				},
+				"Skin": {
+					"Title": "스킨 즐겨찾기 추가",
+					"Description": "즐겨찾기에 스킨을 추가할 커스텀 서버를 선택하세요."
+				},
+				"Background": {
+					"Title": "배경 즐겨찾기 추가",
+					"Description": "즐겨찾기에 배경을 추가할 커스텀 서버를 선택하세요."
+				},
+				"Effect": {
+					"Title": "SE 즐겨찾기 추가",
+					"Description": "즐겨찾기에 SE를 추가할 커스텀 서버를 선택하세요."
+				},
+				"Particle": {
+					"Title": "탭 이펙트 즐겨찾기 추가",
+					"Description": "즐겨찾기에 탭 이펙트를 추가할 커스텀 서버를 선택하세요."
+				},
+				"Engine": {
+					"Title": "엔진 즐겨찾기 추가",
+					"Description": "즐겨찾기에 엔진을 추가할 커스텀 서버를 선택하세요."
 				}
 			}
 		},
@@ -921,15 +1082,6 @@
 			"Title": "컬렉션 추가",
 			"Name": "이름",
 			"NamePlaceholder": "컬렉션 이름 입력..."
-		},
-		"SelectCollection": {
-			"Title": "컬렉션 선택",
-			"Collections": {
-				"Title": "컬렉션",
-				"RemoveConfirmation": {
-					"Description": "정말로 \"{0}\" 컬렉션을 삭제할까요?"
-				}
-			}
 		},
 		"ImportScp": {
 			"Scp": {
@@ -974,6 +1126,91 @@
 			"Result": "추천 오프셋: {0} (±{1})",
 			"DeviceInputOffset": "기기 입력 오프셋"
 		},
+		"Home": {
+			"Title": "홈",
+			"Play": "플레이",
+			"Players": "Players",
+			"Account": "Account",
+			"Settings": "설정",
+			"UpdateAvailable": {
+				"Title": "업데이트 가능",
+				"Description": "Sonolus {0} 버전을 사용할 수 있습니다!\n\n웹사이트를 확인하세요:\nhttps://sonolus.com",
+				"Open": "열기"
+			}
+		},
+		"Players": {
+			"Title": "플레이어",
+			"PlayerLookup": {
+				"Title": "플레이어 검색",
+				"Id": "플레이어 ID",
+				"IdPlaceholder": "플레이어 ID 입력...",
+				"Lookup": "검색"
+			}
+		},
+		"Account": {
+			"Title": "계정",
+			"MyAccount": {
+				"Title": "내 계정",
+				"Login": {
+					"Apple": "Apple로 로그인",
+					"Google": "Google로 로그인",
+					"Wechat": "WeChat으로 로그인"
+				},
+				"Profile": "프로필",
+				"Logout": "로그아웃"
+			}
+		},
+		"UserProfile": {
+			"Home": {
+				"Main": {
+					"EditName": "이름 수정",
+					"EditAvatar": "프로필 사진 수정"
+				},
+				"AboutMe": {
+					"Title": "자기소개"
+				},
+				"SocialLinks": {
+					"Title": "SNS 링크",
+					"None": "SNS 링크가 없어요."
+				},
+				"Favorites": {
+					"Title": "즐겨찾기",
+					"None": "즐겨찾기가 없어요."
+				}
+			},
+			"EditName": {
+				"Title": "이름 수정",
+				"Name": "이름",
+				"NamePlaceholder": "플레이어 이름 입력..."
+			},
+			"EditAvatar": {
+				"Title": "프로필 사진 수정",
+				"Foreground": "전경",
+				"Background": "배경"
+			},
+			"EditAboutMe": {
+				"Title": "자기소개 수정",
+				"AboutMe": "자기소개",
+				"AboutMePlaceholder": "자기소개 입력..."
+			},
+			"AddSocialLink": {
+				"Title": "SNS 링크 추가",
+				"SocialLinkTitle": "이름",
+				"SocialLinkTitlePlaceholder": "SNS 이름 입력 (예: 트위터, 인스타)...",
+				"SocialLinkAddress": "링크",
+				"SocialLinkAddressPlaceholder": "SNS 링크 입력..."
+			},
+			"AddFavorite": {
+				"Title": "즐겨찾기 추가",
+				"Description": "추가할 즐겨찾기 타입을 선택하세요:",
+				"Level": "레벨",
+				"Skin": "스킨",
+				"Background": "배경",
+				"Effect": "SE",
+				"Particle": "탭 이펙트",
+				"Engine": "엔진"
+			}
+		},
 		"Server": {
 			"Home": {
 				"Levels": "레벨",
@@ -992,48 +1229,48 @@
 			"Search": {
 				"Title": "검색"
 			},
-			"ItemList": {
+			"Lists": {
 				"DeleteConfirmation": {
 					"Description": "정말 \"{0}\" 아이템을 삭제할까요?"
+				},
+				"Level": {
+					"Title": "레벨",
+					"ShareSuccess": {
+						"Title": "레벨 목록 링크 복사됨"
+					}
+				},
+				"Skin": {
+					"Title": "스킨",
+					"ShareSuccess": {
+						"Title": "스킨 목록 링크 복사됨"
+					}
+				},
+				"Background": {
+					"Title": "배경",
+					"ShareSuccess": {
+						"Title": "배경 목록 링크 복사됨"
+					}
+				},
+				"Effect": {
+					"Title": "SE",
+					"ShareSuccess": {
+						"Title": "SE 목록 링크 복사됨"
+					}
+				},
+				"Particle": {
+					"Title": "탭 이펙트",
+					"ShareSuccess": {
+						"Title": "탭 이펙트 목록 링크 복사됨"
+					}
+				},
+				"Engine": {
+					"Title": "엔진",
+					"ShareSuccess": {
+						"Title": "엔진 목록 링크 복사됨"
+					}
 				}
 			},
-			"LevelList": {
-				"Title": "레벨",
-				"ShareSuccess": {
-					"Title": "레벨 목록 링크 복사됨"
-				}
-			},
-			"SkinList": {
-				"Title": "스킨",
-				"ShareSuccess": {
-					"Title": "스킨 목록 링크 복사됨"
-				}
-			},
-			"BackgroundList": {
-				"Title": "배경",
-				"ShareSuccess": {
-					"Title": "배경 목록 링크 복사됨"
-				}
-			},
-			"EffectList": {
-				"Title": "SE",
-				"ShareSuccess": {
-					"Title": "SE 목록 링크 복사됨"
-				}
-			},
-			"ParticleList": {
-				"Title": "탭 이펙트",
-				"ShareSuccess": {
-					"Title": "탭 이펙트 목록 링크 복사됨"
-				}
-			},
-			"EngineList": {
-				"Title": "엔진",
-				"ShareSuccess": {
-					"Title": "엔진 목록 링크 복사됨"
-				}
-			},
-			"ItemDetails": {
+			"Details": {
 				"Actions": {
 					"Configuration": "설정"
 				},
@@ -1045,162 +1282,187 @@
 				},
 				"Recommended": {
 					"Title": "추천"
-				}
-			},
-			"LevelDetails": {
-				"Actions": {
-					"Play": "플레이"
 				},
-				"Play": {
-					"Effect": {
-						"Audio": {
-							"Loading": "SE 오디오를 디코딩 하는 중...",
-							"Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+				"Level": {
+					"Actions": {
+						"Play": "플레이"
+					},
+					"Play": {
+						"Effect": {
+							"Audio": {
+								"Loading": "SE 오디오를 디코딩 하는 중...",
+								"Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+							}
+						},
+						"Level": {
+							"Bgm": {
+								"Loading": "레벨 음악을 디코딩 하는 중...",
+								"Error": "\"{0}\" 레벨의 음악을 디코딩하지 못했어요.\n\n레벨 제작자에게 문의해주세요."
+							}
+						},
+						"Boot": {
+							"Loading": "레벨을 시작하는 중...",
+							"Error": "\"{0}\" 레벨을 시작하지 못했어요.\n\n레벨 제작자에게 문의해주세요."
 						}
 					},
-					"Level": {
-						"Bgm": {
-							"Loading": "레벨 음악을 디코딩 하는 중...",
-							"Error": "\"{0}\" 레벨의 음악을 디코딩하지 못했어요.\n\n레벨 제작자에게 문의해주세요."
-						}
-					},
-					"Boot": {
-						"Loading": "레벨을 시작하는 중...",
-						"Error": "\"{0}\" 레벨을 시작하지 못했어요.\n\n레벨 제작자에게 문의해주세요."
+					"ShareSuccess": {
+						"Title": "레벨 링크 복사 됨"
 					}
 				},
-				"ShareSuccess": {
-					"Title": "레벨 링크 복사 됨"
-				}
-			},
-			"SkinDetails": {
-				"ShareSuccess": {
-					"Title": "스킨 링크 복사됨"
-				}
-			},
-			"BackgroundDetails": {
-				"ShareSuccess": {
-					"Title": "배경 링크 복사됨"
-				}
-			},
-			"EffectDetails": {
-				"ShareSuccess": {
-					"Title": "SE 링크 복사됨"
-				}
-			},
-			"ParticleDetails": {
-				"ShareSuccess": {
-					"Title": "탭 이펙트 링크 복사됨"
-				}
-			},
-			"EngineDetails": {
-				"ShareSuccess": {
-					"Title": "엔진 링크 복사됨"
-				}
-			},
-			"LevelConfiguration": {
-				"Title": "레벨 설정",
-				"Options": {
-					"Title": "옵션"
-				},
-				"Audio": {
-					"Title": "오디오",
-					"BgmVolume": "BGM 볼륨",
-					"SfxVolume": "SE 볼륨"
-				},
-				"UI": {
-					"Title": "UI",
-					"PrimaryMetric": "기본 메트릭",
-					"SecondaryMetric": "보조 메트릭",
-					"JudgmentErrorStyle": "특수 판정 스타일",
-					"JudgmentErrorPlacement": "특수 판정 위치",
-					"JudgmentErrorMin": "특수 판정 최소값",
-					"MenuStyle": "메뉴 스타일",
-					"JudgmentStyle": "판정 스타일",
-					"ComboStyle": "콤보 스타일",
-					"PrimaryMetricStyle": "기본 메트릭 스타일",
-					"SecondaryMetricStyle": "보조 메트릭 스타일"
-				},
-				"Offsets": {
-					"Title": "오프셋",
-					"LevelAudioOffset": "레벨 오디오 오프셋",
-					"ServerAudioOffset": "서버 오디오 오프셋",
-					"DeviceAudioOffset": "기기 오디오 오프셋",
-					"EngineInputOffset": "엔진 입력 오프셋",
-					"DeviceInputOffset": "기기 입력 오프셋"
-				}
-			},
-			"BackgroundConfiguration": {
-				"Title": "배경 설정",
-				"Background": {
-					"Title": "배경",
-					"Blur": "블러",
-					"Mask": "마스크"
-				}
-			},
-			"EngineConfiguration": {
-				"Title": "엔진 설정",
 				"Skin": {
-					"Title": "스킨"
+					"ShareSuccess": {
+						"Title": "스킨 링크 복사됨"
+					}
 				},
 				"Background": {
-					"Title": "배경"
+					"ShareSuccess": {
+						"Title": "배경 링크 복사됨"
+					}
 				},
 				"Effect": {
-					"Title": "SE"
+					"ShareSuccess": {
+						"Title": "SE 링크 복사됨"
+					}
 				},
 				"Particle": {
-					"Title": "탭 이펙트"
+					"ShareSuccess": {
+						"Title": "탭 이펙트 링크 복사됨"
+					}
 				},
-				"Options": {
-					"Title": "옵션"
+				"Engine": {
+					"ShareSuccess": {
+						"Title": "엔진 링크 복사됨"
+					}
+				}
+			},
+			"Configurations": {
+				"Level": {
+					"Title": "레벨 설정",
+					"Skin": {
+						"Title": "스킨"
+					},
+					"Background": {
+						"Title": "배경"
+					},
+					"Effect": {
+						"Title": "SE"
+					},
+					"Particle": {
+						"Title": "탭 이펙트"
+					},
+					"Options": {
+						"Title": "옵션"
+					},
+					"Audio": {
+						"Title": "오디오",
+						"BgmVolume": "BGM 볼륨",
+						"SfxVolume": "SE 볼륨"
+					},
+					"UI": {
+						"Title": "UI",
+						"PrimaryMetric": "기본 메트릭",
+						"SecondaryMetric": "보조 메트릭",
+						"JudgmentErrorStyle": "특수 판정 스타일",
+						"JudgmentErrorPlacement": "특수 판정 위치",
+						"JudgmentErrorMin": "특수 판정 최소값",
+						"MenuStyle": "메뉴 스타일",
+						"JudgmentStyle": "판정 스타일",
+						"ComboStyle": "콤보 스타일",
+						"PrimaryMetricStyle": "기본 메트릭 스타일",
+						"SecondaryMetricStyle": "보조 메트릭 스타일"
+					},
+					"Offsets": {
+						"Title": "오프셋",
+						"LevelAudioOffset": "레벨 오디오 오프셋",
+						"ServerAudioOffset": "서버 오디오 오프셋",
+						"DeviceAudioOffset": "기기 오디오 오프셋",
+						"EngineInputOffset": "엔진 입력 오프셋",
+						"DeviceInputOffset": "기기 입력 오프셋"
+					}
 				},
-				"UI": {
-					"Title": "UI",
-					"PrimaryMetric": "기본 메트릭",
-					"SecondaryMetric": "보조 메트릭",
-					"JudgmentErrorStyle": "특수 판정 스타일",
-					"JudgmentErrorPlacement": "특수 판정 위치",
-					"JudgmentErrorMin": "특수 판정 최소값",
-					"MenuStyle": "메뉴 스타일",
-					"JudgmentStyle": "판정 스타일",
-					"ComboStyle": "콤보 스타일",
-					"PrimaryMetricStyle": "기본 메트릭 스타일",
-					"SecondaryMetricStyle": "보조 메트릭 스타일"
+				"Skin": {
+					"Title": "스킨 설정"
 				},
-				"Offsets": {
-					"Title": "오프셋",
-					"EngineInputOffset": "엔진 입력 오프셋"
+				"Background": {
+					"Title": "배경 설정",
+					"Image": {
+						"Title": "이미지",
+						"Blur": "블러",
+						"Mask": "마스크"
+					}
+				},
+				"Effect": {
+					"Title": "SE 설정"
+				},
+				"Particle": {
+					"Title": "탭 이펙트 설정"
+				},
+				"Engine": {
+					"Title": "엔진 설정",
+					"Skin": {
+						"Title": "스킨"
+					},
+					"Background": {
+						"Title": "배경"
+					},
+					"Effect": {
+						"Title": "SE"
+					},
+					"Particle": {
+						"Title": "탭 이펙트"
+					},
+					"Options": {
+						"Title": "옵션"
+					},
+					"UI": {
+						"Title": "UI",
+						"PrimaryMetric": "기본 메트릭",
+						"SecondaryMetric": "보조 메트릭",
+						"JudgmentErrorStyle": "특수 판정 스타일",
+						"JudgmentErrorPlacement": "특수 판정 위치",
+						"JudgmentErrorMin": "특수 판정 최소값",
+						"MenuStyle": "메뉴 스타일",
+						"JudgmentStyle": "판정 스타일",
+						"ComboStyle": "콤보 스타일",
+						"PrimaryMetricStyle": "기본 메트릭 스타일",
+						"SecondaryMetricStyle": "보조 메트릭 스타일"
+					},
+					"Offsets": {
+						"Title": "오프셋",
+						"EngineInputOffset": "엔진 입력 오프셋"
+					}
 				}
 			},
-			"LevelSaver": {
-				"Success": {
-					"Title": "레벨 저장 완료"
-				}
-			},
-			"SkinSaver": {
-				"Success": {
-					"Title": "스킨 저장 완료"
-				}
-			},
-			"BackgroundSaver": {
-				"Success": {
-					"Title": "배경 저장 완료"
-				}
-			},
-			"EffectSaver": {
-				"Success": {
-					"Title": "SE 저장 완료"
-				}
-			},
-			"ParticleSaver": {
-				"Success": {
-					"Title": "탭 이펙트 저장 완료"
-				}
-			},
-			"EngineSaver": {
-				"Success": {
-					"Title": "엔진 저장 완료"
+			"Savers": {
+				"Level": {
+					"Success": {
+						"Title": "레벨 저장 완료"
+					}
+				},
+				"Skin": {
+					"Success": {
+						"Title": "스킨 저장 완료"
+					}
+				},
+				"Background": {
+					"Success": {
+						"Title": "배경 저장 완료"
+					}
+				},
+				"Effect": {
+					"Success": {
+						"Title": "SE 저장 완료"
+					}
+				},
+				"Particle": {
+					"Success": {
+						"Title": "탭 이펙트 저장 완료"
+					}
+				},
+				"Engine": {
+					"Success": {
+						"Title": "엔진 저장 완료"
+					}
 				}
 			}
 		},
@@ -1313,7 +1575,7 @@
 					"Loading": "저장소 삭제 중..."
 				},
 				"Success": {
-					"Title": "저장소 삭제 성공"
+					"Title": "저장소를 삭제했어요"
 				}
 			}
 		},
@@ -1332,18 +1594,18 @@
 					"Description": "정말 모든 캐시를 만료시킬까요?"
 				},
 				"Success": {
-					"Title": "캐시 만료 성공"
+					"Title": "캐시를 만료시켰어요"
 				}
 			},
 			"DeleteCache": {
-				"Title": "Delete Cache",
+				"Title": "캐시 삭제",
 				"Description": "모든 캐시를 삭제하면 Sonolus가 모든 네트워크 요청을 다시 다운로드하게 됩니다. 권장되지 않아요.",
 				"Delete": "삭제",
 				"DeleteConfirmation": {
 					"Description": "정말 모든 캐시를 삭제할까요?"
 				},
 				"Success": {
-					"Title": "캐시 삭제 성공"
+					"Title": "캐시를 삭제했어요"
 				}
 			}
 		}

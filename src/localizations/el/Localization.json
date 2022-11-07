@@ -867,18 +867,7 @@
       "Title": "Επέλεξε θέμα",
       "Description": "Επιλέξτε ένα θέμα:"
     },
-    "Home": {
-      "Title": "Σπίτι",
-      "Play": "Παιχνίδι",
-      "Settings": "Ρυθμίσεις",
-      "UpdateAvailable": {
-        "Title": "Διαθέσιμη ενημέρωση",
-        "Description": "Η έκδοση Sonolus {0} είναι διαθέσιμη!\n\nΕπισκεφτείτε την ιστοσελίδα μας:\nhttps://sonolus.com",
-        "Open": "Άνοιγμα"
-      }
-    },
-    "SelectServer": {
-      "Title": "Επιλέξτε Διακομιστή",
+    "SelectClient": {
       "CustomServers": {
         "Title": "Προσαρμοσμένοι Διακομιστές",
         "RemoveConfirmation": {
@@ -921,15 +910,6 @@
       "Title": "Προσθήκη συλλογής",
       "Name": "Ονομα",
       "NamePlaceholder": "Εισαγάγετε όνομα συλλογής..."
-    },
-    "SelectCollection": {
-      "Title": "Επιλέξτε Συλλογή",
-      "Collections": {
-        "Title": "Συλλογές",
-        "RemoveConfirmation": {
-          "Description": "Είστε βέβαιοι ότι θα καταργήσετε το \"{0}\";"
-        }
-      }
     },
     "ImportScp": {
       "Scp": {
@@ -974,6 +954,16 @@
       "Result": "Προτεινόμενη μετατόπιση: {0} (±{1})",
       "DeviceInputOffset": "Μετατόπιση Εισόδου Συσκευής"
     },
+    "Home": {
+      "Title": "Σπίτι",
+      "Play": "Παιχνίδι",
+      "Settings": "Ρυθμίσεις",
+      "UpdateAvailable": {
+        "Title": "Διαθέσιμη ενημέρωση",
+        "Description": "Η έκδοση Sonolus {0} είναι διαθέσιμη!\n\nΕπισκεφτείτε την ιστοσελίδα μας:\nhttps://sonolus.com",
+        "Open": "Άνοιγμα"
+      }
+    },
     "Server": {
       "Home": {
         "Levels": "Επίπεδα",
@@ -992,48 +982,48 @@
       "Search": {
         "Title": "Αναζήτηση"
       },
-      "ItemList": {
+      "Lists": {
         "DeleteConfirmation": {
           "Description": "Είστε βέβαιοι ότι θα διαγράψετε το \"{0}\";"
+        },
+        "Level": {
+          "Title": "Επίπεδα",
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος επιπέδων αντιγράφηκε"
+          }
+        },
+        "Skin": {
+          "Title": "Δέρματα",
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος γραφικών αντιγράφηκε"
+          }
+        },
+        "Background": {
+          "Title": "Φόντο",
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος φόντου αντιγράφηκε"
+          }
+        },
+        "Effect": {
+          "Title": "SFX",
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος SFX αντιγράφηκε"
+          }
+        },
+        "Particle": {
+          "Title": "Σωματίδια",
+          "ShareSuccess": {
+            "Title": "Αντιγράφηκε ο σύνδεσμος σωματιδίων"
+          }
+        },
+        "Engine": {
+          "Title": "Μηχανές",
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος μηχανών αντιγράφηκε"
+          }
         }
       },
-      "LevelList": {
-        "Title": "Επίπεδα",
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος επιπέδων αντιγράφηκε"
-        }
-      },
-      "SkinList": {
-        "Title": "Δέρματα",
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος γραφικών αντιγράφηκε"
-        }
-      },
-      "BackgroundList": {
-        "Title": "Φόντο",
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος φόντου αντιγράφηκε"
-        }
-      },
-      "EffectList": {
-        "Title": "SFX",
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος SFX αντιγράφηκε"
-        }
-      },
-      "ParticleList": {
-        "Title": "Σωματίδια",
-        "ShareSuccess": {
-          "Title": "Αντιγράφηκε ο σύνδεσμος σωματιδίων"
-        }
-      },
-      "EngineList": {
-        "Title": "Μηχανές",
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος μηχανών αντιγράφηκε"
-        }
-      },
-      "ItemDetails": {
+      "Details": {
         "Actions": {
           "Configuration": "Διαμόρφωση"
         },
@@ -1045,162 +1035,177 @@
         },
         "Recommended": {
           "Title": "Προτεινόμενο"
-        }
-      },
-      "LevelDetails": {
-        "Actions": {
-          "Play": "Παίζω"
         },
-        "Play": {
-          "Effect": {
-            "Audio": {
-              "Loading": "Αποκωδικοποίηση ήχου SFX...",
-              "Error": "Απέτυχε η αποκωδικοποίηση του ήχου SFX του \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα του SFX για να αναφέρετε το πρόβλημα."
+        "Level": {
+          "Actions": {
+            "Play": "Παίζω"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Αποκωδικοποίηση ήχου SFX...",
+                "Error": "Απέτυχε η αποκωδικοποίηση του ήχου SFX του \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα του SFX για να αναφέρετε το πρόβλημα."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Επίπεδο αποκωδικοποίησης BGM...",
+                "Error": "Απέτυχε η αποκωδικοποίηση του BGM επιπέδου του \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα επιπέδου για να αναφέρετε το πρόβλημα."
+              }
+            },
+            "Boot": {
+              "Loading": "Εκκίνηση Επιπέδου...",
+              "Error": "Αποτυχία εκκίνησης του επιπέδου \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα επιπέδου για να αναφέρετε το πρόβλημα."
             }
           },
-          "Level": {
-            "Bgm": {
-              "Loading": "Επίπεδο αποκωδικοποίησης BGM...",
-              "Error": "Απέτυχε η αποκωδικοποίηση του BGM επιπέδου του \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα επιπέδου για να αναφέρετε το πρόβλημα."
-            }
-          },
-          "Boot": {
-            "Loading": "Εκκίνηση Επιπέδου...",
-            "Error": "Αποτυχία εκκίνησης του επιπέδου \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα επιπέδου για να αναφέρετε το πρόβλημα."
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος επιπέδου αντιγράφηκε"
           }
         },
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος επιπέδου αντιγράφηκε"
-        }
-      },
-      "SkinDetails": {
-        "ShareSuccess": {
-          "Title": "Αντιγράφηκε ο σύνδεσμος γραφικών"
-        }
-      },
-      "BackgroundDetails": {
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος φόντου αντιγράφηκε"
-        }
-      },
-      "EffectDetails": {
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος εφέ αντιγράφηκε"
-        }
-      },
-      "ParticleDetails": {
-        "ShareSuccess": {
-          "Title": "Αντιγράφηκε ο σύνδεσμος σωματιδίων"
-        }
-      },
-      "EngineDetails": {
-        "ShareSuccess": {
-          "Title": "Ο σύνδεσμος μηχανής αντιγράφηκε"
-        }
-      },
-      "LevelConfiguration": {
-        "Title": "Διαμόρφωση επιπέδου",
-        "Options": {
-          "Title": "Επιλογές"
-        },
-        "Audio": {
-          "Title": "Ήχος",
-          "BgmVolume": "Ένταση BGM",
-          "SfxVolume": "Ένταση SFX"
-        },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "Κύρια Μετρική",
-          "SecondaryMetric": "Δευτερεύουσα μετρική",
-          "JudgmentErrorStyle": "Στυλ σφαλμάτων κρίσης",
-          "JudgmentErrorPlacement": "Τοποθέτηση σφάλματος κρίσης",
-          "JudgmentErrorMin": "Ελάχιστο σφάλμα κρίσης",
-          "MenuStyle": "Στυλ μενού",
-          "JudgmentStyle": "Στυλ κρίσης",
-          "ComboStyle": "Combo Style",
-          "PrimaryMetricStyle": "Πρωτεύον μετρικό στυλ",
-          "SecondaryMetricStyle": "Δευτερεύον μετρικό στυλ"
-        },
-        "Offsets": {
-          "Title": "Μετατοπίσεις",
-          "LevelAudioOffset": "Επίπεδο μετατόπισης ήχου",
-          "ServerAudioOffset": "Μετατόπιση ήχου διακομιστή",
-          "DeviceAudioOffset": "Μετατόπιση ήχου συσκευής",
-          "EngineInputOffset": "Μετατόπιση εισόδου κινητήρα",
-          "DeviceInputOffset": "Μετατόπιση εισόδου συσκευής"
-        }
-      },
-      "BackgroundConfiguration": {
-        "Title": "Διαμόρφωση φόντου",
-        "Background": {
-          "Title": "Ιστορικό",
-          "Blur": "Θολούρα",
-          "Mask": "Μάσκα"
-        }
-      },
-      "EngineConfiguration": {
-        "Title": "Διαμόρφωση κινητήρα",
         "Skin": {
-          "Title": "Δέρμα"
+          "ShareSuccess": {
+            "Title": "Αντιγράφηκε ο σύνδεσμος γραφικών"
+          }
         },
         "Background": {
-          "Title": "Ιστορικό"
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος φόντου αντιγράφηκε"
+          }
         },
         "Effect": {
-          "Title": "SFX"
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος εφέ αντιγράφηκε"
+          }
         },
         "Particle": {
-          "Title": "Σωματίδιο"
+          "ShareSuccess": {
+            "Title": "Αντιγράφηκε ο σύνδεσμος σωματιδίων"
+          }
         },
-        "Options": {
-          "Title": "Επιλογές"
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "Ο σύνδεσμος μηχανής αντιγράφηκε"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "Διαμόρφωση επιπέδου",
+          "Skin": {
+            "Title": "Δέρμα"
+          },
+          "Background": {
+            "Title": "Ιστορικό"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Σωματίδιο"
+          },
+          "Options": {
+            "Title": "Επιλογές"
+          },
+          "Audio": {
+            "Title": "Ήχος",
+            "BgmVolume": "Ένταση BGM",
+            "SfxVolume": "Ένταση SFX"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "Κύρια Μετρική",
+            "SecondaryMetric": "Δευτερεύουσα μετρική",
+            "JudgmentErrorStyle": "Στυλ σφαλμάτων κρίσης",
+            "JudgmentErrorPlacement": "Τοποθέτηση σφάλματος κρίσης",
+            "JudgmentErrorMin": "Ελάχιστο σφάλμα κρίσης",
+            "MenuStyle": "Στυλ μενού",
+            "JudgmentStyle": "Στυλ κρίσης",
+            "ComboStyle": "Combo Style",
+            "PrimaryMetricStyle": "Πρωτεύον μετρικό στυλ",
+            "SecondaryMetricStyle": "Δευτερεύον μετρικό στυλ"
+          },
+          "Offsets": {
+            "Title": "Μετατοπίσεις",
+            "LevelAudioOffset": "Επίπεδο μετατόπισης ήχου",
+            "ServerAudioOffset": "Μετατόπιση ήχου διακομιστή",
+            "DeviceAudioOffset": "Μετατόπιση ήχου συσκευής",
+            "EngineInputOffset": "Μετατόπιση εισόδου κινητήρα",
+            "DeviceInputOffset": "Μετατόπιση εισόδου συσκευής"
+          }
         },
-        "UI": {
-          "Title": "UI",
-          "PrimaryMetric": "Κύρια Μετρική",
-          "SecondaryMetric": "Δευτερεύουσα μετρική",
-          "JudgmentErrorStyle": "Στυλ λάθους κρίσης",
-          "JudgmentErrorPlacement": "Τοποθέτηση σφάλματος κρίσης",
-          "JudgmentErrorMin": "Ελάχιστο σφάλμα κρίσης",
-          "MenuStyle": "Στυλ Μενού",
-          "JudgmentStyle": "Στυλ κρίσης",
-          "ComboStyle": "Στυλ Combo",
-          "PrimaryMetricStyle": "Πρωτεύον μετρικό στυλ",
-          "SecondaryMetricStyle": "Δευτερεύον Στυλ Μετρήσεων"
+        "Background": {
+          "Title": "Διαμόρφωση φόντου",
+          "Image": {
+            "Blur": "Θολούρα",
+            "Mask": "Μάσκα"
+          }
         },
-        "Offsets": {
-          "Title": "Μετατοπίσεις",
-          "EngineInputOffset": "Μετατόπιση εισόδου κινητήρα"
+        "Engine": {
+          "Title": "Διαμόρφωση κινητήρα",
+          "Skin": {
+            "Title": "Δέρμα"
+          },
+          "Background": {
+            "Title": "Ιστορικό"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Σωματίδιο"
+          },
+          "Options": {
+            "Title": "Επιλογές"
+          },
+          "UI": {
+            "Title": "UI",
+            "PrimaryMetric": "Κύρια Μετρική",
+            "SecondaryMetric": "Δευτερεύουσα μετρική",
+            "JudgmentErrorStyle": "Στυλ λάθους κρίσης",
+            "JudgmentErrorPlacement": "Τοποθέτηση σφάλματος κρίσης",
+            "JudgmentErrorMin": "Ελάχιστο σφάλμα κρίσης",
+            "MenuStyle": "Στυλ Μενού",
+            "JudgmentStyle": "Στυλ κρίσης",
+            "ComboStyle": "Στυλ Combo",
+            "PrimaryMetricStyle": "Πρωτεύον μετρικό στυλ",
+            "SecondaryMetricStyle": "Δευτερεύον Στυλ Μετρήσεων"
+          },
+          "Offsets": {
+            "Title": "Μετατοπίσεις",
+            "EngineInputOffset": "Μετατόπιση εισόδου κινητήρα"
+          }
         }
       },
-      "LevelSaver": {
-        "Success": {
-          "Title": "Επίπεδο αποθηκευμένο"
-        }
-      },
-      "SkinSaver": {
-        "Success": {
-          "Title": "Γραφικά αποθηκευμένα"
-        }
-      },
-      "BackgroundSaver": {
-        "Success": {
-          "Title": "Το φόντο αποθηκεύτηκε"
-        }
-      },
-      "EffectSaver": {
-        "Success": {
-          "Title": "Το εφέ αποθηκεύτηκε"
-        }
-      },
-      "ParticleSaver": {
-        "Success": {
-          "Title": "Το σωματίδιο αποθηκεύτηκε"
-        }
-      },
-      "EngineSaver": {
-        "Success": {
-          "Title": "Η μηχανή αποθηκεύτηκε"
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "Επίπεδο αποθηκευμένο"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Γραφικά αποθηκευμένα"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Το φόντο αποθηκεύτηκε"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Το εφέ αποθηκεύτηκε"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Το σωματίδιο αποθηκεύτηκε"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Η μηχανή αποθηκεύτηκε"
+          }
         }
       }
     },
