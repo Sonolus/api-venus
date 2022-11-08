@@ -12,7 +12,7 @@
       "#RATING_MAXIMUM": "最高等級",
       "#TITLE": "標題",
       "#SUBTITLE": "副標題",
-      "#ARTISTS": "歌手/作曲",
+      "#ARTISTS": "繪師",
       "#AUTHOR": "作者",
       "#GENRE": "曲風",
       "#CATEGORY": "分類",
@@ -298,8 +298,95 @@
         "Error": "無法載入語言\"{0}\"。\n\n請檢查你的互聯網連接並重試。"
       }
     },
+    "Service": {
+      "UserProfile": {
+        "Loading": "正在載入用戶資料...",
+        "Error": "加載“{0}”的用戶資料失敗。\n\n請檢查用戶 ID 是否正確，或檢查您的網路連線並重試。"
+      },
+      "Login": {
+        "Loading": "正在登入...",
+        "Error": "登入失敗。\n\n請檢查網路連線狀態再試一次。",
+        "Success": {
+          "New": {
+            "Title": "註冊成功"
+          },
+          "Old": {
+            "Title": "登入成功"
+          }
+        }
+      },
+      "EditName": {
+        "Loading": "正在編輯名稱...",
+        "Error": "編輯名稱失敗。\n\n請檢查你的名稱是否符合規範和在限制大小內，或檢查你的網路連線並再試一次。",
+        "Success": {
+          "Title": "名稱編輯成功"
+        }
+      },
+      "EditAvatar": {
+        "Loading": "正在編輯頭像...",
+        "Error": "編輯頭像失敗。\n\n請檢查你的頭像是否符合規範和在限制大小內，或檢查你的網路連線並再試一次。",
+        "Success": {
+          "Title": "頭像編輯成功"
+        }
+      },
+      "EditAboutMe": {
+        "Loading": "正在編輯關於我...",
+        "Error": "無法編輯關於我的信息。\n\n請檢查你的關於我是否符合規範和在限制大小內，或檢查你的網路連線並再試一次。",
+        "Success": {
+          "Title": "關於我編輯成功"
+        }
+      },
+      "EditSocialLinks": {
+        "Loading": "正在編輯社交連結...",
+        "Error": "編輯社交連接失敗。\n\n請檢查您的社交連接是否合法且在長度限制內，或檢查您的網路連線並重試。",
+        "Success": {
+          "Title": "社交連接已編輯"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "正在編輯收藏夾...",
+        "Error": "無法編輯收藏。\n\n請檢查您的收藏是否合法且在長度限制內，或檢查您的網路連線並重試。",
+        "Success": {
+          "Title": "收藏已編輯"
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "請求 Sonolus 身份驗驗證...",
+        "Error": "無法請求 Sonolus 身份驗證。\n\n請檢查您的網路連線並重試，或聯繫 Sonolus 回報問題。"
+      },
+      "Logout": {
+        "Loading": "登出中...",
+        "Error": "無法登出。\n\n請檢查您的網路連線，然後再試一次。",
+        "Success": {
+          "Title": "登出成功"
+        }
+      }
+    },
     "CustomServer": {
       "SonolusVersionError": "此伺服器只支持{0}版本的Sonolus。\n\n請更新Sonolus，或聯絡伺服器擁有人報告這個問題。",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "此服務器需要身份驗證。\n\n請先登入，然後再試一次。"
+          },
+          "Confirmation": {
+            "Description": "此服務器需要身份驗證。\n\n驗證為“{0}”並繼續？"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "您的身份驗證已過期。\n\n再次驗證為“{0}”並繼續？"
+        },
+        "AuthenticationRejected": {
+          "Description": "您的身分認證被伺服器拒絕。\n\n再次驗證為“{0}”並繼續？"
+        },
+        "Authenticate": {
+          "Loading": "正在請求服務器身份驗證...",
+          "Error": "從“{0}”請求身份驗證失敗。\n\n請檢查您的網路連線並再試一次，或聯繫伺服器擁有者回報問題。"
+        },
+        "AddressMismatchError": {
+          "Description": "身份驗證地址不符合。\n\n請聯繫伺服器擁有者回報問題。"
+        }
+      },
       "Server": {
         "Info": {
           "Loading": "正在載入伺服器資訊…",
@@ -861,7 +948,8 @@
     },
     "SelectLocalization": {
       "Title": "選擇語言",
-      "Description": "選擇你想使用的介面語言："
+      "Description": "選擇你想使用的介面語言：",
+      "Error": "加載語言失敗。"
     },
     "SelectTheme": {
       "Title": "選擇主題",
@@ -878,6 +966,90 @@
         "Title": "收藏",
         "RemoveConfirmation": {
           "Description": "你確定要刪除\"{0}\"嗎？"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "開始",
+        "Description": "選擇一個自訂義伺服器或是收藏已開始遊戲。"
+      },
+      "ToSave": {
+        "Level": {
+          "Title": "儲存關卡",
+          "Description": "選擇一個收藏以儲存此關卡。"
+        },
+        "Skin": {
+          "Title": "儲存皮膚",
+          "Description": "選擇一個收藏來保存這個皮膚。"
+        },
+        "Background": {
+          "Title": "儲存關卡",
+          "Description": "選擇一個收藏以儲存此背景。"
+        },
+        "Effect": {
+          "Title": "儲存效果",
+          "Description": "選擇一個收藏以儲存此效果。"
+        },
+        "Particle": {
+          "Title": "儲存粒子",
+          "Description": "選擇一個收藏來儲存這個粒子。"
+        },
+        "Engine": {
+          "Title": "儲存引擎",
+          "Description": "選擇一個收藏來儲存這個引擎。"
+        }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "選擇難度",
+          "Description": "選擇一個自定義伺服器或收藏以使用其級別。"
+        },
+        "Skin": {
+          "Title": "選擇皮膚",
+          "Description": "選擇一個自定義服務器或收藏以使用其外觀。"
+        },
+        "Background": {
+          "Title": "選擇背景",
+          "Description": "選擇一個自定義伺服器或是收藏以使用他的背景。"
+        },
+        "Effect": {
+          "Title": "選擇效果",
+          "Description": "選擇一個自定義伺服器或收藏以使用其效果。"
+        },
+        "Particle": {
+          "Title": "選擇粒子",
+          "Description": "選擇一個自定義伺服器或收藏以使用其粒子。"
+        },
+        "Engine": {
+          "Title": "選擇引擎",
+          "Description": "選擇一個自定義伺服器或收藏以使用其引擎。"
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "添加收藏級別",
+          "Description": "選擇一個自定義伺服器以將其級別添加到收藏。"
+        },
+        "Skin": {
+          "Title": "添加最喜歡的皮膚",
+          "Description": "選擇一個自定義伺服器以將其皮膚添加到收藏。"
+        },
+        "Background": {
+          "Title": "添加最喜歡的背景",
+          "Description": "選擇一個自定義伺服器以將其背景添加到收藏。"
+        },
+        "Effect": {
+          "Title": "添加收藏效果",
+          "Description": "選擇一個自定義伺服器以將其效果添加到收藏。"
+        },
+        "Particle": {
+          "Title": "添加最喜歡的粒子",
+          "Description": "選擇一個自定義伺服器以將其粒子添加到收藏。"
+        },
+        "Engine": {
+          "Title": "添加收藏引擎",
+          "Description": "選擇一個自定義伺服器以將其引擎添加到收藏。"
         }
       }
     },
@@ -957,11 +1129,86 @@
     "Home": {
       "Title": "主頁",
       "Play": "開始",
+      "Players": "玩家",
+      "Account": "帳號",
       "Settings": "設定",
       "UpdateAvailable": {
         "Title": "有可用更新",
         "Description": "Sonolus {0} 版本已發佈！\n\n請瀏覽我們的網頁：\nhttps://sonolus.com",
         "Open": "打開"
+      }
+    },
+    "Players": {
+      "Title": "玩家",
+      "PlayerLookup": {
+        "Title": "尋找玩家",
+        "Id": "玩家ID",
+        "IdPlaceholder": "輸入玩家ID...",
+        "Lookup": "尋找"
+      }
+    },
+    "Account": {
+      "Title": "帳號",
+      "MyAccount": {
+        "Title": "我的帳號",
+        "Login": {
+          "Apple": "使用 Apple 登入",
+          "Google": "使用 Google 登入",
+          "Wechat": "用微信登入"
+        },
+        "Profile": "簡介",
+        "Logout": "登出"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "編輯名稱",
+          "EditAvatar": "編輯頭像"
+        },
+        "AboutMe": {
+          "Title": "關於我"
+        },
+        "SocialLinks": {
+          "Title": "社交連結",
+          "None": "沒有社交連接。"
+        },
+        "Favorites": {
+          "Title": "收藏",
+          "None": "沒有收藏。"
+        }
+      },
+      "EditName": {
+        "Title": "編輯名稱",
+        "Name": "名稱",
+        "NamePlaceholder": "輸入玩家名..."
+      },
+      "EditAvatar": {
+        "Title": "編輯頭像",
+        "Foreground": "前景",
+        "Background": "背景"
+      },
+      "EditAboutMe": {
+        "Title": "編輯關於我",
+        "AboutMe": "關於我",
+        "AboutMePlaceholder": "輸入關於我..."
+      },
+      "AddSocialLink": {
+        "Title": "增加社交連接",
+        "SocialLinkTitle": "標題",
+        "SocialLinkTitlePlaceholder": "輸入社交連接標題...",
+        "SocialLinkAddress": "連結",
+        "SocialLinkAddressPlaceholder": "輸入社交連接..."
+      },
+      "AddFavorite": {
+        "Title": "添加收藏",
+        "Description": "選擇要添加的收藏:",
+        "Level": "等級",
+        "Skin": "皮膚",
+        "Background": "背景",
+        "Effect": "SFX",
+        "Particle": "粒子",
+        "Engine": "引擎"
       }
     },
     "Server": {
@@ -1133,12 +1380,22 @@
             "DeviceInputOffset": "設備輸入偏移"
           }
         },
+        "Skin": {
+          "Title": "皮膚配置"
+        },
         "Background": {
           "Title": "背景設定",
           "Image": {
+            "Title": "圖片",
             "Blur": "模糊",
             "Mask": "遮罩"
           }
+        },
+        "Effect": {
+          "Title": "效果配置"
+        },
+        "Particle": {
+          "Title": "粒子配置"
         },
         "Engine": {
           "Title": "引擎設定",
