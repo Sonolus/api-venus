@@ -1474,6 +1474,7 @@
       "Title": "設定",
       "Graphics": {
         "Title": "圖像",
+        "TargetFps": "目標FPS",
         "RenderScale": "渲染程度",
         "AntiAliasing": {
           "Title": "抗鋸齒",
