@@ -1474,6 +1474,7 @@
       "Title": "설정",
       "Graphics": {
         "Title": "그래픽",
+        "TargetFps": "목표 FPS",
         "RenderScale": "렌더 스케일",
         "AntiAliasing": {
           "Title": "안티 앨리어싱",
