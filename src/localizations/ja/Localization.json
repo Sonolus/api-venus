@@ -1474,6 +1474,7 @@
       "Title": "設定",
       "Graphics": {
         "Title": "グラフィック",
+        "TargetFps": "目標FPS",
         "RenderScale": "レンダリング解像度",
         "AntiAliasing": {
           "Title": "アンチエイリアス",
