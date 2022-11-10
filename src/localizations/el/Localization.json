@@ -1474,6 +1474,7 @@
       "Title": "Ρυθμίσεις",
       "Graphics": {
         "Title": "Γραφικά",
+        "TargetFps": "Σοτόχς FPS",
         "RenderScale": "Κλίμακα απόδοσης",
         "AntiAliasing": {
           "Title": "Anti-Aliasing",
