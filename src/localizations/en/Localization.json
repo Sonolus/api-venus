@@ -1474,6 +1474,7 @@
             "Title": "Settings",
             "Graphics": {
                 "Title": "Graphics",
+                "TargetFps": "Target FPS",
                 "RenderScale": "Render Scale",
                 "AntiAliasing": {
                     "Title": "Anti-Aliasing",
