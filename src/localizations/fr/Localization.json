@@ -1154,6 +1154,7 @@
         "Login": {
           "Apple": "Connectez-vous avec Apple",
           "Google": "Connectez-vous avec Google",
+          "QQ": "Connectez-vous avec QQ",
           "Wechat": "Connectez-vous avec WeChat"
         },
         "Profile": "Profil",
@@ -1171,7 +1172,10 @@
         },
         "SocialLinks": {
           "Title": "Liens sociaux",
-          "None": "Aucun lien social."
+          "None": "Aucun lien social.",
+          "OpenConfirmation": {
+            "Description": "Ce lien social va à :\n{0}\n\nÊtes-vous sûr de visiter?"
+          }
         },
         "Favorites": {
           "Title": "Favoris",
