@@ -1474,6 +1474,7 @@
       "Title": "Pengaturan",
       "Graphics": {
         "Title": "Grafik",
+        "TargetFps": "Target FPS",
         "RenderScale": "Skala Render",
         "AntiAliasing": {
           "Title": "Anti-Aliasing",
