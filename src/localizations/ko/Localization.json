@@ -1,1672 +1,1704 @@
 {
-  "Meta": {
-    "Name": "ko",
-    "Title": "한국어 (Korean)"
-  },
-  "Texts": {
-    "Name": {
-      "#KEYWORDS": "키워드",
-      "#NAME": "이름",
-      "#RATING": "레벨",
-      "#RATING_MINIMUM": "최소 레벨",
-      "#RATING_MAXIMUM": "최대 레벨",
-      "#TITLE": "제목",
-      "#SUBTITLE": "부제목",
-      "#ARTISTS": "작곡가",
-      "#AUTHOR": "제작자",
-      "#GENRE": "장르",
-      "#CATEGORY": "카테고리",
-      "#LANGUAGE": "언어",
-      "#DIFFICULTY": "난이도",
-      "#LENGTH": "길이",
-      "#LENGTH_MINIMUM": "최소 길이",
-      "#LENGTH_MAXIMUM": "최대 길이",
-      "#SPEED": "레벨 속도",
-      "#AUTO": "오토 플레이",
-      "#MIRROR": "반전",
-      "#RANDOM": "랜덤",
-      "#HIDDEN": "히든",
-      "#JUDGMENT_STRICT": "엄격한 판정",
-      "#JUDGMENT_LOOSE": "느슨한 판정",
-      "#EFFECT": "SE",
-      "#EFFECT_AUTO": "자동 SE",
-      "#STAGE": "무대",
-      "#STAGE_SIZE": "무대 크기",
-      "#STAGE_ROTATION": "무대 회전",
-      "#STAGE_ALPHA": "무대 투명도",
-      "#STAGE_TILT": "무대 기울기",
-      "#STAGE_COVER_VERTICAL": "수직 가리개",
-      "#STAGE_COVER_HORIZONTAL": "수평 가리개",
-      "#STAGE_COVER_ALPHA": "가리개 투명도",
-      "#STAGE_ASPECTRATIO_LOCK": "화면비 잠금",
-      "#STAGE_EFFECT": "무대 효과",
-      "#STAGE_EFFECT_SIZE": "무대 효과 크기",
-      "#STAGE_EFFECT_ROTATION": "무대 효과 회전",
-      "#STAGE_EFFECT_ALPHA": "무대 효과 투명도",
-      "#LANE": "레인",
-      "#LANE_SIZE": "레인 크기",
-      "#LANE_ROTATION": "레인 회전",
-      "#LANE_ALPHA": "레인 투명도",
-      "#LANE_EFFECT": "레인 효과",
-      "#LANE_EFFECT_SIZE": "레인 효과 크기",
-      "#LANE_EFFECT_ROTATION": "레인 효과 회전",
-      "#LANE_EFFECT_ALPHA": "레인 효과 투명도",
-      "#JUDGELINE": "판정선",
-      "#JUDGELINE_SIZE": "판정선 크기",
-      "#JUDGELINE_ROTATION": "판정선 회전",
-      "#JUDGELINE_ALPHA": "판정선 투명도",
-      "#JUDGELINE_EFFECT": "판정선 효과",
-      "#JUDGELINE_EFFECT_SIZE": "판정선 효과 크기",
-      "#JUDGELINE_EFFECT_ROTATION": "판정선 효과 회전",
-      "#JUDGELINE_EFFECT_ALPHA": "판정선 효과 투명도",
-      "#SLOT": "슬롯",
-      "#SLOT_SIZE": "슬롯 크기",
-      "#SLOT_ROTATION": "슬롯 회전",
-      "#SLOT_ALPHA": "슬롯 투명도",
-      "#SLOT_EFFECT": "슬롯 효과",
-      "#SLOT_EFFECT_SIZE": "슬롯 효과 크기",
-      "#SLOT_EFFECT_ROTATION": "슬롯 효과 회전",
-      "#SLOT_EFFECT_ALPHA": "슬롯 효과 투명도",
-      "#NOTE": "노트",
-      "#NOTE_SPEED": "노트 속도",
-      "#NOTE_SPEED_RANDOM": "랜덤 노트 속도",
-      "#NOTE_SIZE": "노트 크기",
-      "#NOTE_ROTATION": "노트 회전",
-      "#NOTE_ALPHA": "노트 투명도",
-      "#NOTE_EFFECT": "노트 효과",
-      "#NOTE_EFFECT_SIZE": "노트 효과 크기",
-      "#NOTE_EFFECT_ROTATION": "노트 효과 회전",
-      "#NOTE_EFFECT_ALPHA": "노트 효과 투명도",
-      "#MARKER": "마커",
-      "#MARKER_SIZE": "마커 크기",
-      "#MARKER_ROTATION": "마커 회전",
-      "#MARKER_ALPHA": "마커 투명도",
-      "#CONNECTOR": "연결선",
-      "#CONNECTOR_SIZE": "연결선 크기",
-      "#CONNECTOR_ROTATION": "연결선 회전",
-      "#CONNECTOR_ALPHA": "연결선 투명도",
-      "#SIMLINE": "동시입력선",
-      "#SIMLINE_SIZE": "동시입력선 크기",
-      "#SIMLINE_ROTATION": "동시입력선 회전",
-      "#SIMLINE_ALPHA": "동시입력선 투명도"
-    },
-    "Value": {
-      "#NONE": "없음",
-      "#ANY": "모두",
-      "#ALL": "전체",
-      "#OTHERS": "기타",
-      "#SHORT": "짧음",
-      "#LONG": "길음",
-      "#HIGH": "높음",
-      "#MID": "중간",
-      "#LOW": "낮음",
-      "#SMALL": "작음",
-      "#MEDIUM": "중간",
-      "#LARGE": "큼",
-      "#LEFT": "왼쪽",
-      "#RIGHT": "오른쪽",
-      "#UP": "위",
-      "#DOWN": "아래",
-      "#FRONT": "앞",
-      "#BACK": "뒤",
-      "#CENTER": "가운데",
-      "#TOP": "위",
-      "#BOTTOM": "아래",
-      "#TOP_LEFT": "왼쪽 위",
-      "#TOP_CENTER": "가운데 위",
-      "#TOP_RIGHT": "오른쪽 위",
-      "#CENTER_LEFT": "왼쪽 가운데",
-      "#CENTER_RIGHT": "오른쪽 가운데",
-      "#BOTTOM_LEFT": "왼쪽 아래",
-      "#BOTTOM_CENTER": "가운데 아래",
-      "#BOTTOM_RIGHT": "오른쪽 아래",
-      "#CLOCKWISE": "시계방향",
-      "#COUNTERCLOCKWISE": "반시계방향",
-      "#FORWARD": "앞으로",
-      "#BACKWARD": "뒤로",
-      "#SIMPLE": "Simple",
-      "#EASY": "Easy",
-      "#NORMAL": "Normal",
-      "#HARD": "Hard",
-      "#EXPERT": "Expert",
-      "#MASTER": "Master",
-      "#PRO": "Pro",
-      "#TECHNICAL": "Technical",
-      "#SPECIAL": "Special"
-    },
-    "Placeholder": {
-      "#KEYWORDS": "키워드 입력...",
-      "#NAME": "이름 입력...",
-      "#RATING": "레이팅 입력...",
-      "#RATING_MINIMUM": "최소 레이팅 입력...",
-      "#RATING_MAXIMUM": "최대 레이팅 입력...",
-      "#TITLE": "제목 입력...",
-      "#SUBTITLE": "부제목 입력...",
-      "#ARTISTS": "작곡가 입력...",
-      "#AUTHOR": "제작자 입력...",
-      "#GENRE": "장르 입력...",
-      "#CATEGORY": "카테고리 입력...",
-      "#LANGUAGE": "언어 입력...",
-      "#DIFFICULTY": "난이도 입력...",
-      "#LENGTH": "길이 입력...",
-      "#LENGTH_MINIMUM": "최소 길이 입력...",
-      "#LENGTH_MAXIMUM": "최대 길이 입력..."
-    }
-  },
-  "Common": {
-    "Loading": "로딩 중...",
-    "On": "켜짐",
-    "Off": "꺼짐",
-    "Select": "선택",
-    "Edit": "수정",
-    "View": "보기",
-    "Cancel": "취소",
-    "Confirm": "확인",
-    "Retry": "재시도",
-    "Error": {
-      "Title": "오류"
-    },
-    "Confirmation": {
-      "Title": "확인"
-    },
-    "Next": "다음",
-    "Add": "추가",
-    "Import": "불러오기",
-    "Search": "검색",
-    "More": "더 보기",
-    "PullToRefresh": "당겨서 새로고침하기",
-    "Save": "저장",
-    "Share": "공유",
-    "Update": "업데이트",
-    "Delete": "삭제",
-    "Judgment": "판정",
-    "Accuracy": "정확도",
-    "Grade": "등급",
-    "ArcadeScore": "점수",
-    "AccuracyScore": "정확도 점수",
-    "Combo": "콤보",
-    "Perfect": "Perfect",
-    "Great": "Great",
-    "Good": "Good",
-    "Miss": "Miss",
-    "ColorField": {
-      "Hex": "HEX",
-      "Rgb": "RGB",
-      "Hsv": "HSV",
-      "HexPlaceholder": "색상 Hex값을 입력하세요...",
-      "R": "R",
-      "G": "G",
-      "B": "B",
-      "H": "H",
-      "S": "S",
-      "V": "V",
-      "A": "투명도"
-    },
-    "DeviceOffsetField": {
-      "Calibrate": "판정 조절"
-    },
-    "PullToLoad": {
-      "None": "더 불러올게 없어요",
-      "More": "당겨서 더 보기"
-    },
-    "UI": {
-      "Metric": {
-        "Arcade": "점수",
-        "Accuracy": "정확도 점수",
-        "Life": "라이프",
-        "PerfectRate": "Perfect 레이트",
-        "ErrorHeatmap": "미스 히트맵"
-      },
-      "JudgmentErrorStyle": {
-        "None": "없음",
-        "Plus": "+ / -",
-        "Minus": "- / +",
-        "ArrowUp": "↑ / ↓",
-        "ArrowDown": "↓ / ↑",
-        "ArrowLeft": "← / →",
-        "ArrowRight": "→ / ←",
-        "TriangleUp": "▲ / ▼",
-        "TriangleDown": "▼ / ▲",
-        "TriangleLeft": "◄ / ►",
-        "TriangleRight": "► / ◄"
-      },
-      "JudgmentErrorPlacement": {
-        "Both": "양쪽",
-        "Left": "왼쪽",
-        "Right": "오른쪽"
-      },
-      "Visibility": "가시성",
-      "Animation": "애니메이션",
-      "Tween": "트윈",
-      "Ease": {
-        "Linear": "리니어",
-        "InSine": "Sine (인)",
-        "OutSine": "Sine (아웃)",
-        "InOutSine": "Sine (인-아웃)",
-        "OutInSine": "Sine (아웃-인)",
-        "InQuad": "Quad (인)",
-        "OutQuad": "Quad (아웃)",
-        "InOutQuad": "Quad (인-아웃)",
-        "OutInQuad": "Quad (아웃-인)",
-        "InCubic": "Cubic (인)",
-        "OutCubic": "Cubic (아웃)",
-        "InOutCubic": "Cubic (인-아웃)",
-        "OutInCubic": "Cubic (아웃-인)",
-        "InQuart": "Quart (인)",
-        "OutQuart": "Quart (아웃)",
-        "InOutQuart": "Quart (인-아웃)",
-        "OutInQuart": "Quart (아웃-인)",
-        "InQuint": "Quint (인)",
-        "OutQuint": "Quint (아웃)",
-        "InOutQuint": "Quint (인-아웃)",
-        "OutInQuint": "Quint (아웃-인)",
-        "InExpo": "Expo (인)",
-        "OutExpo": "Expo (아웃)",
-        "InOutExpo": "Expo (인-아웃)",
-        "OutInExpo": "Expo (아웃-인)",
-        "InCirc": "Circ (인)",
-        "OutCirc": "Circ (아웃)",
-        "InOutCirc": "Circ (인-아웃)",
-        "OutInCirc": "Circ (아웃-인)",
-        "InBack": "Back (인)",
-        "OutBack": "Back (아웃)",
-        "InOutBack": "Back (인-아웃)",
-        "OutInBack": "Back (아웃-인)",
-        "InElastic": "Elastic (인)",
-        "OutElastic": "Elastic (아웃)",
-        "InOutElastic": "Elastic (인-아웃)",
-        "OutInElastic": "Elastic (아웃-인)"
-      }
-    }
-  },
-  "Themes": {
-    "Dark": "다크",
-    "Light": "라이트"
-  },
-  "Clients": {
-    "Master": {
-      "Info": {
-        "Loading": "Sonolus 정보를 불러오는 중...",
-        "Error": "Sonolus 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요."
-      },
-      "List": {
-        "Loading": "언어 목록을 불러오는 중...",
-        "Error": "언어 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요."
-      },
-      "Localization": {
-        "Loading": "언어를 불러오는 중...",
-        "Error": "\"{0}\" 언어를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요."
-      }
-    },
-    "Service": {
-      "UserProfile": {
-        "Loading": "유저 프로필을 불러오는 중...",
-        "Error": "\"{0}\" 유저의 프로필을 불러오지 못했어요.\n\n유저 ID를 다시 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요."
-      },
-      "Login": {
-        "Loading": "로그인 하는 중...",
-        "Error": "로그인에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
-        "Success": {
-          "New": {
-            "Title": "가입 완료"
-          },
-          "Old": {
-            "Title": "로그인 성공"
-          }
-        }
-      },
-      "EditName": {
-        "Loading": "이름을 수정하는 중...",
-        "Error": "이름을 수정하지 못했어요.\n\n이름이 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
-        "Success": {
-          "Title": "이름을 수정했어요"
-        }
-      },
-      "EditAvatar": {
-        "Loading": "프로필 사진을 수정하는 중...",
-        "Error": "프로필 사진을 수정하지 못했어요.\n\n프로필 사진이 잘못되었는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
-        "Success": {
-          "Title": "프로필 사진을 수정했어요"
-        }
-      },
-      "EditAboutMe": {
-        "Loading": "자기소개를 수정하는 중...",
-        "Error": "자기소개를 수정하지 못했어요.\n\n자기소개가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
-        "Success": {
-          "Title": "자기소개를 수정했어요"
-        }
-      },
-      "EditSocialLinks": {
-        "Loading": "SNS 링크를 수정하는 중...",
-        "Error": "SNS 링크를 수정하지 못했어요.\n\nSNS 링크가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
-        "Success": {
-          "Title": "SNS 링크를 수정했어요"
-        }
-      },
-      "EditFavorites": {
-        "Loading": "즐겨찾기를 수정하는 중...",
-        "Error": "즐겨찾기를 수정하지 못했어요.\n\n즐겨찾기가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
-        "Success": {
-          "Title": "즐겨찾기를 수정했어요"
-        }
-      },
-      "AuthenticateServer": {
-        "Loading": "Sonolus 인증 요청하는 중...",
-        "Error": "Sonolus에서 인증을 요청하지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해보거나, Sonolus에 문의해주세요."
-      },
-      "Logout": {
-        "Loading": "로그아웃 하는 중...",
-        "Error": "로그아웃에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
-        "Success": {
-          "Title": "로그아웃 완료"
-        }
-      }
-    },
-    "CustomServer": {
-      "SonolusVersionError": "이 서버는 Sonolus {0} 버전만 지원해요.\n\nSonolus를 업데이트하거나, 서버 주인에게 문의해주세요.",
-      "Session": {
-        "NeedAuthentication": {
-          "NotLoggedInError": {
-            "Description": "이 서버는 인증이 필요해요.\n\n먼저 로그인을 한 후 다시 시도해주세요."
-          },
-          "Confirmation": {
-            "Description": "이 서버는 인증이 필요해요.\n\n\"{0}\" (으)로 인증하고 계속할까요?"
-          }
-        },
-        "AuthenticationExpired": {
-          "Description": "인증이 만료되었어요.\n\n\"{0}\" (으)로 다시 인증하고 계속할까요?"
-        },
-        "AuthenticationRejected": {
-          "Description": "인증이 거부되었어요.\n\n\"{0}\" (으)로 인증하고 계속할까요?"
-        },
-        "Authenticate": {
-          "Loading": "서버 인증 요청 중...",
-          "Error": "\"{0}\" 서버 인증 요청에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "AddressMismatchError": {
-          "Description": "인증 주소가 맞지 않아요.\n\n서버 주인에게 문의해주세요."
-        }
-      },
-      "Server": {
-        "Info": {
-          "Loading": "서버 정보를 불러오는 중...",
-          "Error": "\"{0}\" 서버의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Banner": {
-          "Loading": "서버 배너를 불러오는 중...",
-          "Error": "\"{0}\" 서버의 배너를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        }
-      },
-      "Level": {
-        "List": {
-          "Loading": "레벨 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 레벨 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Details": {
-          "Loading": "레벨 정보를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Compatibility": {
-          "Loading": "레벨이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 레벨은 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
-        },
-        "Cover": {
-          "Loading": "레벨 이미지를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 이미지를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Bgm": {
-          "Loading": "레벨 음악을 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 음악을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Preview": {
-          "Loading": "레벨 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Data": {
-          "Loading": "레벨 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        }
-      },
-      "Skin": {
-        "List": {
-          "Loading": "스킨 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 스킨 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Details": {
-          "Loading": "스킨 정보를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Compatibility": {
-          "Loading": "스킨이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 스킨은 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "스킨 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Data": {
-          "Loading": "스킨 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Texture": {
-          "Loading": "스킨 텍스쳐를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 텍스쳐를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        }
-      },
-      "Background": {
-        "List": {
-          "Loading": "배경 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 배경 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Details": {
-          "Loading": "배경 정보를 불러오는 중...",
-          "Error": " \"{0}\" 배경의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Compatibility": {
-          "Loading": "배경이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 배경은 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "배경 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Data": {
-          "Loading": "배경 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Image": {
-          "Loading": "배경 이미지를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 이미지를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Configuration": {
-          "Loading": "배경 설정을 불러오는 중...",
-          "Error": "\"{0}\" 배경의 설정을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        }
-      },
-      "Effect": {
-        "List": {
-          "Loading": "SE 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 SE 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Details": {
-          "Loading": "SE 정보를 불러오는 중...",
-          "Error": "\"{0}\" SE의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Compatibility": {
-          "Loading": "SE가 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "SE 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" SE의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Data": {
-          "Loading": "SE 데이터를 불러오는 중...",
-          "Error": "\"{0}\" SE의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Audio": {
-          "Loading": "SE 오디오를 불러오는 중...",
-          "Error": "\"{0}\" SE의 오디오를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        }
-      },
-      "Particle": {
-        "List": {
-          "Loading": "탭 이펙트 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 탭 이펙트 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Details": {
-          "Loading": "탭 이펙트 정보를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Compatibility": {
-          "Loading": "탭 이펙트가 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 탭 이펙트는 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "탭 이펙트 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Data": {
-          "Loading": "탭 이펙트 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Texture": {
-          "Loading": "탭 이펙트 텍스쳐를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 텍스쳐를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        }
-      },
-      "Engine": {
-        "List": {
-          "Loading": "엔진 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 엔진 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Details": {
-          "Loading": "엔진 정보를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Compatibility": {
-          "Loading": "엔진이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 엔진은 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "엔진 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Data": {
-          "Loading": "엔진 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Rom": {
-          "Loading": "엔진 롬을 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 롬을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        },
-        "Configuration": {
-          "Loading": "엔진 설정을 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 설정을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
-        }
-      }
-    },
-    "Collection": {
-      "Server": {
-        "Info": {
-          "Loading": "컬렉션 정보를 불러오는 중...",
-          "Error": "\"{0}\" 컬렉션의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Banner": {
-          "Loading": "컬렉션 배너를 불러오는 중...",
-          "Error": "\"{0}\" 컬렉션의 배너를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        }
-      },
-      "Level": {
-        "List": {
-          "Loading": "레벨 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 레벨 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "레벨 정보를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "레벨이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 레벨은 현재 Sonolus 버전과 호환되지 않아요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
-        },
-        "Cover": {
-          "Loading": "레벨 이미지를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 이미지를 불러오지 못했어요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
-        },
-        "Bgm": {
-          "Loading": "레벨 음악을 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 음악을 불러오지 못했어요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
-        },
-        "Preview": {
-          "Loading": "레벨 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 미리보기를 불러오지 못했어요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
-        },
-        "Data": {
-          "Loading": "레벨 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 데이터를 불러오지 못했어요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
-        }
-      },
-      "Skin": {
-        "List": {
-          "Loading": "스킨 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 스킨 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "스킨 정보를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "스킨이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 스킨은 현재 Sonolus 버전과 호환되지 않아요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "스킨 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 미리보기를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
-        },
-        "Data": {
-          "Loading": "스킨 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 데이터를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
-        },
-        "Texture": {
-          "Loading": "스킨 텍스쳐를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 텍스쳐를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
-        }
-      },
-      "Background": {
-        "List": {
-          "Loading": "배경 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 배경 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "배경 정보를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "배경이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 배경은 현재 Sonolus 버전과 호환되지 않아요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "배경 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 미리보기를 불러오지 못했어요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
-        },
-        "Data": {
-          "Loading": "배경 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 데이터를 불러오지 못했어요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
-        },
-        "Image": {
-          "Loading": "배경 이미지를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 이미지를 불러오지 못했어요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
-        },
-        "Configuration": {
-          "Loading": "배경 설정을 불러오는 중...",
-          "Error": "\"{0}\" 배경의 설정을 불러오지 못했어요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
-        }
-      },
-      "Effect": {
-        "List": {
-          "Loading": "SE 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 SE 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "SE 정보를 불러오는 중...",
-          "Error": "\"{0}\" SE의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "SE가 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "SE 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" SE의 미리보기를 불러오지 못했어요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해주세요."
-        },
-        "Data": {
-          "Loading": "SE 데이터를 불러오는 중...",
-          "Error": "\"{0}\" SE의 데이터를 불러오지 못했어요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해주세요."
-        },
-        "Audio": {
-          "Loading": "SE 오디오를 불러오는 중...",
-          "Error": "\"{0}\" SE의 오디오를 불러오지 못했어요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해주세요."
-        }
-      },
-      "Particle": {
-        "List": {
-          "Loading": "탭 이펙트 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 탭 이펙트 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "탭 이펙트 정보를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "탭 이펙트가 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 탭 이펙트는 현재 Sonolus 버전과 호환되지 않아요.\n\n이 탭 이펙트를 업데이트 하거나, 다른 탭 이펙트를 사용해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "탭 이펙트 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 미리보기를 불러오지 못했어요.\n\n이 탭 이펙트를 업데이트 하거나, 다른 탭 이펙트를 사용해주세요."
-        },
-        "Data": {
-          "Loading": "탭 이펙트 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 데이터를 불러오지 못했어요.\n\n이 탭 이펙트를 업데이트 하거나, 다른 탭 이펙트를 사용해주세요."
-        },
-        "Texture": {
-          "Loading": "탭 이펙트 텍스쳐를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 텍스쳐를 불러오지 못했어요.\n\n이 탭 이펙트를 업데이트 하거나, 다른 탭 이펙트를 사용해주세요."
-        }
-      },
-      "Engine": {
-        "List": {
-          "Loading": "엔진 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 엔진 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "엔진 정보를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "엔진이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 엔진은 현재 Sonolus 버전과 호환되지 않아요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
-        },
-        "Thumbnail": {
-          "Loading": "엔진 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
-        },
-        "Data": {
-          "Loading": "엔진 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 데이터를 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
-        },
-        "Rom": {
-          "Loading": "엔진 롬을 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 롬을 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
-        },
-        "Configuration": {
-          "Loading": "엔진 설정을 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 설정을 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
-        }
-      }
-    },
-    "Scp": {
-      "Server": {
-        "Info": {
-          "Loading": "패키지 정보를 불러오는 중...",
-          "Error": "\"{0}\" 패키지의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Banner": {
-          "Loading": "패키지 배너를 불러오는 중...",
-          "Error": "\"{0}\" 패키지의 배너를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        }
-      },
-      "Level": {
-        "List": {
-          "Loading": "레벨 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 레벨 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "레벨 정보를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "레벨이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 레벨은 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Cover": {
-          "Loading": "레벨 이미지를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 이미지를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Bgm": {
-          "Loading": "레벨 음악을 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 음악을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Preview": {
-          "Loading": "레벨 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Data": {
-          "Loading": "레벨 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 레벨의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        }
-      },
-      "Skin": {
-        "List": {
-          "Loading": "스킨 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 스킨의 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "스킨 정보를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "스킨이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 스킨은 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Thumbnail": {
-          "Loading": "스킨 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Data": {
-          "Loading": "스킨 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Texture": {
-          "Loading": "스킨 텍스쳐를 불러오는 중...",
-          "Error": "\"{0}\" 스킨의 텍스쳐를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        }
-      },
-      "Background": {
-        "List": {
-          "Loading": "배경 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 배경 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "배경 정보를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "배경이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 배경은 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Thumbnail": {
-          "Loading": "배경 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Data": {
-          "Loading": "배경 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Image": {
-          "Loading": "배경 이미지를 불러오는 중...",
-          "Error": "\"{0}\" 배경의 이미지를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Configuration": {
-          "Loading": "배경 설정을 불러오는 중...",
-          "Error": "\"{0}\" 배경의 설정을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        }
-      },
-      "Effect": {
-        "List": {
-          "Loading": "SE 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 SE 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "SE 정보를 불러오는 중...",
-          "Error": "\"{0}\" SE의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "SE가 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Thumbnail": {
-          "Loading": "SE 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" SE의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Data": {
-          "Loading": "SE 데이터를 불러오는 중...",
-          "Error": "\"{0}\" SE의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Audio": {
-          "Loading": "SE 오디오를 불러오는 중...",
-          "Error": "\"{0}\" SE의 오디오를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        }
-      },
-      "Particle": {
-        "List": {
-          "Loading": "탭 이펙트 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 탭 이펙트 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "탭 이펙트 정보를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "탭 이펙트가 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 탭 이펙트는 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Thumbnail": {
-          "Loading": "탭 이펙트 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Data": {
-          "Loading": "탭 이펙트 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Texture": {
-          "Loading": "탭 이펙트 텍스쳐를 불러오는 중...",
-          "Error": "\"{0}\" 탭 이펙트의 텍스쳐를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        }
-      },
-      "Engine": {
-        "List": {
-          "Loading": "엔진 목록을 불러오는 중...",
-          "Error": "페이지 {0}의 엔진 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Details": {
-          "Loading": "엔진 정보를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Compatibility": {
-          "Loading": "엔진이 호환되는지 확인하는 중...",
-          "Error": "\"{0}\" 엔진의 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Thumbnail": {
-          "Loading": "엔진 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Data": {
-          "Loading": "엔진 데이터를 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Rom": {
-          "Loading": "엔진 롬을 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 롬을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        },
-        "Configuration": {
-          "Loading": "엔진 설정을 불러오는 중...",
-          "Error": "\"{0}\" 엔진의 설정을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-        }
-      }
-    }
-  },
-  "DeepLink": {
-    "Invalid": {
-      "Description": "\"{0}\" 링크는 잘못되었어요.\n\n다른 링크를 사용해주세요."
-    }
-  },
-  "Title": {
-    "TapToStart": "탭 해서 시작"
-  },
-  "Layout": {
-    "Refresh": "새로고침",
-    "Back": "뒤로가기"
-  },
-  "Routes": {
-    "JumpToPage": {
-      "Title": "페이지로 이동",
-      "Page": "페이지",
-      "PagePlaceholder": "페이지 번호 입력...",
-      "Jump": "점프"
-    },
-    "SelectLocalization": {
-      "Title": "언어 선택",
-      "Description": "선호하는 언어를 선택하세요:",
-      "Error": "언어 목록을 불러오지 못했어요."
-    },
-    "SelectTheme": {
-      "Title": "테마 선택",
-      "Description": "테마를 선택하세요:"
-    },
-    "SelectClient": {
-      "CustomServers": {
-        "Title": "커스텀 서버",
-        "RemoveConfirmation": {
-          "Description": "정말로 \"{0}\" 커스텀 서버를 삭제할까요?"
-        }
-      },
-      "Collections": {
-        "Title": "컬렉션",
-        "RemoveConfirmation": {
-          "Description": "정말로 \"{0}\" 컬렉션을 삭제할까요?"
-        }
-      }
-    },
-    "Selects": {
-      "ToPlay": {
-        "Title": "플레이",
-        "Description": "커스텀 서버 또는 컬렉션을 선택해서 플레이를 시작하세요."
-      },
-      "ToSave": {
-        "Level": {
-          "Title": "레벨 저장",
-          "Description": "이 레벨을 저장할 컬렉션을 선택하세요."
-        },
-        "Skin": {
-          "Title": "스킨 저장",
-          "Description": "이 스킨을 저장할 컬렉션을 선택하세요."
-        },
-        "Background": {
-          "Title": "배경 저장",
-          "Description": "이 배경을 저장할 컬렉션을 선택하세요."
-        },
-        "Effect": {
-          "Title": "SE 저장",
-          "Description": "이 SE를 저장할 컬렉션을 선택하세요."
-        },
-        "Particle": {
-          "Title": "탭 이펙트 저장",
-          "Description": "이 탭 이펙트를 저장할 컬렉션을 선택하세요."
-        },
-        "Engine": {
-          "Title": "엔진 저장",
-          "Description": "이 엔진을 저장할 컬렉션을 선택하세요."
-        }
-      },
-      "ToUse": {
-        "Level": {
-          "Title": "레벨 선택",
-          "Description": "레벨을 불러올 커스텀 서버나 컬렉션을 선택하세요."
-        },
-        "Skin": {
-          "Title": "스킨 선택",
-          "Description": "스킨을 불러올 커스텀 서버나 컬렉션을 선택하세요."
-        },
-        "Background": {
-          "Title": "배경 선택",
-          "Description": "배경을 불러올 커스텀 서버나 컬렉션을 선택하세요."
-        },
-        "Effect": {
-          "Title": "SE 선택",
-          "Description": "SE를 불러올 커스텀 서버나 컬렉션을 선택하세요."
-        },
-        "Particle": {
-          "Title": "탭 이펙트 선택",
-          "Description": "탭 이펙트를 불러올 커스텀 서버나 컬렉션을 선택하세요."
-        },
-        "Engine": {
-          "Title": "엔진 선택",
-          "Description": "엔진을 불러올 커스텀 서버나 컬렉션을 선택하세요."
-        }
-      },
-      "ToAddFavorite": {
-        "Level": {
-          "Title": "레벨 즐겨찾기 추가",
-          "Description": "즐겨찾기에 레벨을 추가할 커스텀 서버를 선택하세요."
-        },
-        "Skin": {
-          "Title": "스킨 즐겨찾기 추가",
-          "Description": "즐겨찾기에 스킨을 추가할 커스텀 서버를 선택하세요."
-        },
-        "Background": {
-          "Title": "배경 즐겨찾기 추가",
-          "Description": "즐겨찾기에 배경을 추가할 커스텀 서버를 선택하세요."
-        },
-        "Effect": {
-          "Title": "SE 즐겨찾기 추가",
-          "Description": "즐겨찾기에 SE를 추가할 커스텀 서버를 선택하세요."
-        },
-        "Particle": {
-          "Title": "탭 이펙트 즐겨찾기 추가",
-          "Description": "즐겨찾기에 탭 이펙트를 추가할 커스텀 서버를 선택하세요."
-        },
-        "Engine": {
-          "Title": "엔진 즐겨찾기 추가",
-          "Description": "즐겨찾기에 엔진을 추가할 커스텀 서버를 선택하세요."
-        }
-      }
-    },
-    "EditCustomServer": {
-      "Title": "커스텀 서버 수정",
-      "Address": "주소",
-      "AddressPlaceholder": "커스텀 서버 주소 입력...",
-      "Name": "이름",
-      "NamePlaceholder": "커스텀 서버 이름 입력..."
-    },
-    "AddCustomServerAddress": {
-      "Title": "커스텀 서버 추가",
-      "Address": "주소",
-      "AddressPlaceholder": "커스텀 서버 주소 입력..."
-    },
-    "AddCustomServerInfo": {
-      "Title": "커스텀 서버 추가",
-      "Info": {
-        "Error": "\"{0}\" 서버의 정보를 불러오지 못했어요.\n\n서버 주소를 다시 입력해보거나, 인터넷 연결을 확인하고 다시 시도해주세요. 그래도 안된다면 서버 주인에게 문의하세요."
-      },
-      "Name": "이름",
-      "NamePlaceholder": "커스텀 서버 이름 입력..."
-    },
-    "EditCollection": {
-      "Title": "컬렉션 수정",
-      "Name": "이름",
-      "NamePlaceholder": "컬렉션 이름 입력..."
-    },
-    "AddCollection": {
-      "Title": "컬렉션 추가",
-      "Name": "이름",
-      "NamePlaceholder": "컬렉션 이름 입력..."
-    },
-    "ImportScp": {
-      "Scp": {
-        "Loading": "패키지를 불러오는 중...",
-        "Error": "\"{0}\" 패키지를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
-      },
-      "Success": {
-        "Title": "패키지를 불러옴"
-      }
-    },
-    "ExportScp": {
-      "Success": {
-        "Title": "패키지를 내보냄"
-      }
-    },
-    "EditVisibility": {
-      "Scale": "스케일",
-      "Alpha": "투명도"
-    },
-    "EditAnimation": {
-      "Scale": "스케일",
-      "Alpha": "투명도"
-    },
-    "EditTween": {
-      "From": "시작",
-      "To": "끝",
-      "Duration": "길이",
-      "Ease": "함수"
-    },
-    "EditColors": {
-      "Foreground": "전경",
-      "Background": "배경"
-    },
-    "CalibrateAudio": {
-      "Title": "오디오 보정",
-      "Description": "오디오와 그래픽이 일치할 때 까지 기기 오디오 오프셋을 조정해 오디오를 보정하세요.",
-      "DeviceAudioOffset": "기기 오디오 오프셋"
-    },
-    "CalibrateInput": {
-      "Title": "입력 보정",
-      "Description": "먼저 오디오 오프셋이 보정되었는지 확인한 후, 손가락으로 탭하며 입력을 보정하세요.\n이런 설정이 없는 게임에 익숙하시다면, 0에 놔두세요.",
-      "Result": "추천 오프셋: {0} (±{1})",
-      "DeviceInputOffset": "기기 입력 오프셋"
-    },
-    "Home": {
-      "Title": "홈",
-      "Play": "플레이",
-      "Players": "Players",
-      "Account": "Account",
-      "Settings": "설정",
-      "UpdateAvailable": {
-        "Title": "업데이트 가능",
-        "Description": "Sonolus {0} 버전을 사용할 수 있습니다!\n\n웹사이트를 확인하세요:\nhttps://sonolus.com",
-        "Open": "열기"
-      }
-    },
-    "Players": {
-      "Title": "플레이어",
-      "PlayerLookup": {
-        "Title": "플레이어 검색",
-        "Id": "플레이어 ID",
-        "IdPlaceholder": "플레이어 ID 입력...",
-        "Lookup": "검색"
-      }
-    },
-    "Account": {
-      "Title": "계정",
-      "MyAccount": {
-        "Title": "내 계정",
-        "Login": {
-          "Apple": "Apple로 로그인",
-          "Google": "Google로 로그인",
-          "QQ": "QQ로 로그인",
-          "Wechat": "WeChat으로 로그인"
-        },
-        "Profile": "프로필",
-        "Logout": "로그아웃"
-      }
-    },
-    "UserProfile": {
-      "Home": {
-        "Main": {
-          "EditName": "이름 수정",
-          "EditAvatar": "프로필 사진 수정"
-        },
-        "AboutMe": {
-          "Title": "자기소개"
-        },
-        "SocialLinks": {
-          "Title": "SNS 링크",
-          "None": "SNS 링크가 없어요.",
-          "OpenConfirmation": {
-            "Description": "이 SNS 링크는 {0}(으)로 연결됩니다.\n\n정말 방문하시겠어요?"
-          }
-        },
-        "Favorites": {
-          "Title": "즐겨찾기",
-          "None": "즐겨찾기가 없어요."
-        }
-      },
-      "EditName": {
-        "Title": "이름 수정",
-        "Name": "이름",
-        "NamePlaceholder": "플레이어 이름 입력..."
-      },
-      "EditAvatar": {
-        "Title": "프로필 사진 수정",
-        "Foreground": "전경",
-        "Background": "배경"
-      },
-      "EditAboutMe": {
-        "Title": "자기소개 수정",
-        "AboutMe": "자기소개",
-        "AboutMePlaceholder": "자기소개 입력..."
-      },
-      "AddSocialLink": {
-        "Title": "SNS 링크 추가",
-        "SocialLinkTitle": "이름",
-        "SocialLinkTitlePlaceholder": "SNS 이름 입력 (예: 트위터, 인스타)...",
-        "SocialLinkAddress": "링크",
-        "SocialLinkAddressPlaceholder": "SNS 링크 입력..."
-      },
-      "AddFavorite": {
-        "Title": "즐겨찾기 추가",
-        "Description": "추가할 즐겨찾기 타입을 선택하세요:",
-        "Level": "레벨",
-        "Skin": "스킨",
-        "Background": "배경",
-        "Effect": "SE",
-        "Particle": "탭 이펙트",
-        "Engine": "엔진"
-      }
-    },
-    "Server": {
-      "Home": {
-        "Levels": "레벨",
-        "Skins": "스킨",
-        "Backgrounds": "배경",
-        "Effects": "SE",
-        "Particles": "탭 이펙트",
-        "Engines": "엔진",
-        "SaveSuccess": {
-          "Title": "서버 저장됨"
-        },
-        "ShareSuccess": {
-          "Title": "서버 링크 복사됨"
-        }
-      },
-      "Search": {
-        "Title": "검색"
-      },
-      "Lists": {
-        "DeleteConfirmation": {
-          "Description": "정말 \"{0}\" 아이템을 삭제할까요?"
-        },
-        "Level": {
-          "Title": "레벨",
-          "ShareSuccess": {
-            "Title": "레벨 목록 링크 복사됨"
-          }
-        },
-        "Skin": {
-          "Title": "스킨",
-          "ShareSuccess": {
-            "Title": "스킨 목록 링크 복사됨"
-          }
-        },
-        "Background": {
-          "Title": "배경",
-          "ShareSuccess": {
-            "Title": "배경 목록 링크 복사됨"
-          }
-        },
-        "Effect": {
-          "Title": "SE",
-          "ShareSuccess": {
-            "Title": "SE 목록 링크 복사됨"
-          }
-        },
-        "Particle": {
-          "Title": "탭 이펙트",
-          "ShareSuccess": {
-            "Title": "탭 이펙트 목록 링크 복사됨"
-          }
-        },
-        "Engine": {
-          "Title": "엔진",
-          "ShareSuccess": {
-            "Title": "엔진 목록 링크 복사됨"
-          }
-        }
-      },
-      "Details": {
-        "Actions": {
-          "Configuration": "설정"
-        },
-        "DeleteConfirmation": {
-          "Description": "정말 \"{0}\" 아이템을 삭제할까요?"
-        },
-        "Description": {
-          "Title": "설명"
-        },
-        "Recommended": {
-          "Title": "추천"
-        },
-        "Level": {
-          "Actions": {
-            "Play": "플레이"
-          },
-          "Play": {
-            "Effect": {
-              "Audio": {
-                "Loading": "SE 오디오를 디코딩 하는 중...",
-                "Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
-              }
-            },
-            "Level": {
-              "Bgm": {
-                "Loading": "레벨 음악을 디코딩 하는 중...",
-                "Error": "\"{0}\" 레벨의 음악을 디코딩하지 못했어요.\n\n레벨 제작자에게 문의해주세요."
-              }
-            },
-            "Boot": {
-              "Loading": "레벨을 시작하는 중...",
-              "Error": "\"{0}\" 레벨을 시작하지 못했어요.\n\n레벨 제작자에게 문의해주세요."
-            }
-          },
-          "ShareSuccess": {
-            "Title": "레벨 링크 복사 됨"
-          }
-        },
-        "Skin": {
-          "ShareSuccess": {
-            "Title": "스킨 링크 복사됨"
-          }
-        },
-        "Background": {
-          "ShareSuccess": {
-            "Title": "배경 링크 복사됨"
-          }
-        },
-        "Effect": {
-          "ShareSuccess": {
-            "Title": "SE 링크 복사됨"
-          }
-        },
-        "Particle": {
-          "ShareSuccess": {
-            "Title": "탭 이펙트 링크 복사됨"
-          }
-        },
-        "Engine": {
-          "ShareSuccess": {
-            "Title": "엔진 링크 복사됨"
-          }
-        }
-      },
-      "Configurations": {
-        "Level": {
-          "Title": "레벨 설정",
-          "Skin": {
-            "Title": "스킨"
-          },
-          "Background": {
-            "Title": "배경"
-          },
-          "Effect": {
-            "Title": "SE"
-          },
-          "Particle": {
-            "Title": "탭 이펙트"
-          },
-          "Options": {
-            "Title": "옵션"
-          },
-          "Audio": {
-            "Title": "오디오",
-            "BgmVolume": "BGM 볼륨",
-            "SfxVolume": "SE 볼륨"
-          },
-          "UI": {
-            "Title": "UI",
-            "PrimaryMetric": "기본 메트릭",
-            "SecondaryMetric": "보조 메트릭",
-            "JudgmentErrorStyle": "특수 판정 스타일",
-            "JudgmentErrorPlacement": "특수 판정 위치",
-            "JudgmentErrorMin": "특수 판정 최소값",
-            "MenuStyle": "메뉴 스타일",
-            "JudgmentStyle": "판정 스타일",
-            "ComboStyle": "콤보 스타일",
-            "PrimaryMetricStyle": "기본 메트릭 스타일",
-            "SecondaryMetricStyle": "보조 메트릭 스타일"
-          },
-          "Offsets": {
-            "Title": "오프셋",
-            "LevelAudioOffset": "레벨 오디오 오프셋",
-            "ServerAudioOffset": "서버 오디오 오프셋",
-            "DeviceAudioOffset": "기기 오디오 오프셋",
-            "EngineInputOffset": "엔진 입력 오프셋",
-            "DeviceInputOffset": "기기 입력 오프셋"
-          }
-        },
-        "Skin": {
-          "Title": "스킨 설정"
-        },
-        "Background": {
-          "Title": "배경 설정",
-          "Image": {
-            "Title": "이미지",
-            "Blur": "블러",
-            "Mask": "마스크"
-          }
-        },
-        "Effect": {
-          "Title": "SE 설정"
-        },
-        "Particle": {
-          "Title": "탭 이펙트 설정"
-        },
-        "Engine": {
-          "Title": "엔진 설정",
-          "Skin": {
-            "Title": "스킨"
-          },
-          "Background": {
-            "Title": "배경"
-          },
-          "Effect": {
-            "Title": "SE"
-          },
-          "Particle": {
-            "Title": "탭 이펙트"
-          },
-          "Options": {
-            "Title": "옵션"
-          },
-          "UI": {
-            "Title": "UI",
-            "PrimaryMetric": "기본 메트릭",
-            "SecondaryMetric": "보조 메트릭",
-            "JudgmentErrorStyle": "특수 판정 스타일",
-            "JudgmentErrorPlacement": "특수 판정 위치",
-            "JudgmentErrorMin": "특수 판정 최소값",
-            "MenuStyle": "메뉴 스타일",
-            "JudgmentStyle": "판정 스타일",
-            "ComboStyle": "콤보 스타일",
-            "PrimaryMetricStyle": "기본 메트릭 스타일",
-            "SecondaryMetricStyle": "보조 메트릭 스타일"
-          },
-          "Offsets": {
-            "Title": "오프셋",
-            "EngineInputOffset": "엔진 입력 오프셋"
-          }
-        }
-      },
-      "Savers": {
-        "Level": {
-          "Success": {
-            "Title": "레벨 저장 완료"
-          }
-        },
-        "Skin": {
-          "Success": {
-            "Title": "스킨 저장 완료"
-          }
-        },
-        "Background": {
-          "Success": {
-            "Title": "배경 저장 완료"
-          }
-        },
-        "Effect": {
-          "Success": {
-            "Title": "SE 저장 완료"
-          }
-        },
-        "Particle": {
-          "Success": {
-            "Title": "탭 이펙트 저장 완료"
-          }
-        },
-        "Engine": {
-          "Success": {
-            "Title": "엔진 저장 완료"
-          }
-        }
-      }
-    },
-    "Settings": {
-      "Title": "설정",
-      "Graphics": {
-        "Title": "그래픽",
-        "TargetFps": "목표 FPS",
-        "RenderScale": "렌더 스케일",
-        "AntiAliasing": {
-          "Title": "안티 앨리어싱",
-          "Options": {
-            "Off": "끄기",
-            "TwoX": "2x",
-            "FourX": "4x",
-            "EightX": "8x"
-          }
-        },
-        "GpuParticleSystem": "GPU 입자 시스템",
-        "IgnoreNotch": "노치 무시"
-      },
-      "Audio": {
-        "Title": "오디오",
-        "BgmVolume": "BGM 볼륨",
-        "SfxVolume": "SE 볼륨",
-        "AlwaysDecodeLevelBgm": "레벨 BGM 항상 디코딩하기",
-        "PreviewBgm": {
-          "Title": "BGM 미리보기",
-          "Options": {
-            "Off": "끄기",
-            "DetailsOnly": "자세한 정보",
-            "ListAndDetails": "목록과 자세한 정보"
-          }
-        },
-        "LevelBgmQuality": {
-          "Title": "레벨 BGM 품질",
-          "Options": {
-            "Low": "낮음",
-            "Mid": "중간",
-            "High": "높음"
-          }
-        },
-        "PreviewBgmQuality": {
-          "Title": "BGM 미리보기 품질",
-          "Options": {
-            "Low": "낮음",
-            "Mid": "중간",
-            "High": "높음"
-          }
-        }
-      },
-      "UI": {
-        "Title": "UI",
-        "Localization": "언어",
-        "Theme": "테마",
-        "Scale": "UI 스케일",
-        "PerfectJudgmentColors": "Perfect 판정 색",
-        "GreatJudgmentColors": "Great 판정 색",
-        "GoodJudgmentColors": "Good 판정 색",
-        "MissJudgmentColors": "Miss 판정 색",
-        "PositiveJudgmentErrorColors": "긍정적 특수 판정 색",
-        "NegativeJudgmentErrorColors": "부정적 특수 판정 색",
-        "AllPerfectComboColors": "AP 콤보 색",
-        "FullComboComboColors": "FC 콤보 색",
-        "PassComboColors": "Pass 콤보 색",
-        "FailComboColors": "Fail 콤보 색",
-        "BoldComboNumber": "콤보 볼드체 적용",
-        "ShowZeroCombo": "0 콤보 보이기"
-      },
-      "Offsets": {
-        "Title": "오프셋",
-        "Device": {
-          "Title": "기기",
-          "Option": "기기 {0}"
-        },
-        "DeviceAudioOffset": "기기 오디오 오프셋",
-        "DeviceInputOffset": "기기 입력 오프셋"
-      },
-      "Repository": {
-        "Title": "저장소",
-        "Manage": "관리"
-      },
-      "Cache": {
-        "Title": "캐시",
-        "AlwaysRevalidate": "항상 재검증",
-        "Manage": "관리"
-      },
-      "Developer": {
-        "Title": "개발자",
-        "ShowFps": "FPS 보이기",
-        "FpsStyle": "FPS 스타일",
-        "ShowTouches": "터치 보이기",
-        "TouchStyle": "터치 스타일",
-        "DebugMode": "디버그 모드",
-        "DebugLogStyle": "디버그 로그 스타일"
-      }
-    },
-    "ManageRepository": {
-      "Title": "저장소 관리",
-      "Repository": {
-        "Title": "저장소",
-        "Description": "저장소는 이 기기에서 사용할 수 있는 모든 리소스를 보관합니다.",
-        "Size": "크기: {0}"
-      },
-      "DeleteRepository": {
-        "Title": "저장소 삭제",
-        "Description": "저장소 리소스를 삭제하면 Sonolus가 필요할 때 다시 다운로드하게 됩니다.",
-        "Delete": "삭제",
-        "DeleteConfirmation": {
-          "Description": "정말 모든 저장소 리소스를 삭제할까요?",
-          "Loading": "저장소 삭제 중..."
-        },
-        "Success": {
-          "Title": "저장소를 삭제했어요"
-        }
-      }
-    },
-    "ManageCache": {
-      "Title": "캐시 관리",
-      "Cache": {
-        "Title": "캐시",
-        "Description": "Sonolus는 캐시를 사용하여 네트워크 URL과 연결된 로컬 저장소 리소스를 저장함으로써 네트워크 요청을 빠르게 로드하고 대역폭 사용을 줄여요. 캐시는 적은 양의 저장 공간을 차지하므로 삭제하지 않는 것이 좋아요.",
-        "Count": "캐시: {0} 항목"
-      },
-      "ExpireCache": {
-        "Title": "캐시 만료",
-        "Description": "모든 캐시를 만료시킬 경우 Sonolus가 네트워크 URL과 연결된 로컬 저장소 리소스를 사용하기 전에 다시 검증하게 됩니다.",
-        "Expire": "만료",
-        "ExpireConfirmation": {
-          "Description": "정말 모든 캐시를 만료시킬까요?"
-        },
-        "Success": {
-          "Title": "캐시를 만료시켰어요"
-        }
-      },
-      "DeleteCache": {
-        "Title": "캐시 삭제",
-        "Description": "모든 캐시를 삭제하면 Sonolus가 모든 네트워크 요청을 다시 다운로드하게 됩니다. 권장되지 않아요.",
-        "Delete": "삭제",
-        "DeleteConfirmation": {
-          "Description": "정말 모든 캐시를 삭제할까요?"
-        },
-        "Success": {
-          "Title": "캐시를 삭제했어요"
-        }
-      }
-    }
-  },
-  "Scp": {
-    "PermissionError": {
-      "Description": "권한이 부족하여 요청을 수행할 수 없었어요.\n\n설정을 열어 Sonolus에 권한을 부여해주세요.",
-      "Open": "열기"
-    }
-  },
-  "Runtimes": {
-    "Level": {
-      "Play": {
-        "Routes": {
-          "Pause": {
-            "Title": "일시정지",
-            "Control": {
-              "Title": "제어",
-              "Exit": "종료",
-              "Restart": "재시작"
-            },
-            "Snapshot": {
-              "Title": "스냅샷",
-              "Mark": "마크",
-              "Jump": "점프"
-            },
-            "Debug": {
-              "Title": "디버그"
-            }
-          },
-          "Result": {
-            "Title": "결과",
-            "Options": {
-              "HasUsedPause": "일시정지",
-              "HasUsedSnapshot": "스냅샷"
-            },
-            "Graphs": {
-              "Title": "그래프",
-              "Judgment": {
-                "Title": "판정 그래프"
-              },
-              "Accuracy": {
-                "Title": "정확도 그래프",
-                "AbsValue": "절대값",
-                "Mean": "평균치",
-                "StDev": "표준편차",
-                "Min": "최소값",
-                "Max": "최대값"
-              },
-              "Bucket": {
-                "Title": "판정 그래프"
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+	"Meta": {
+		"Name": "ko",
+		"Title": "한국어 (Korean)"
+	},
+	"Texts": {
+		"Name": {
+			"#KEYWORDS": "키워드",
+			"#NAME": "이름",
+			"#RATING": "레벨",
+			"#RATING_MINIMUM": "최소 레벨",
+			"#RATING_MAXIMUM": "최대 레벨",
+			"#TITLE": "제목",
+			"#SUBTITLE": "부제목",
+			"#ARTISTS": "작곡가",
+			"#AUTHOR": "제작자",
+			"#GENRE": "장르",
+			"#CATEGORY": "카테고리",
+			"#LANGUAGE": "언어",
+			"#DIFFICULTY": "난이도",
+			"#LENGTH": "길이",
+			"#LENGTH_MINIMUM": "최소 길이",
+			"#LENGTH_MAXIMUM": "최대 길이",
+			"#SPEED": "레벨 속도",
+			"#AUTO": "오토 플레이",
+			"#MIRROR": "반전",
+			"#RANDOM": "랜덤",
+			"#HIDDEN": "히든",
+			"#JUDGMENT_STRICT": "엄격한 판정",
+			"#JUDGMENT_LOOSE": "느슨한 판정",
+			"#EFFECT": "SE",
+			"#EFFECT_AUTO": "자동 SE",
+			"#STAGE": "무대",
+			"#STAGE_SIZE": "무대 크기",
+			"#STAGE_ROTATION": "무대 회전",
+			"#STAGE_ALPHA": "무대 투명도",
+			"#STAGE_TILT": "무대 기울기",
+			"#STAGE_COVER_VERTICAL": "수직 가리개",
+			"#STAGE_COVER_HORIZONTAL": "수평 가리개",
+			"#STAGE_COVER_ALPHA": "가리개 투명도",
+			"#STAGE_ASPECTRATIO_LOCK": "화면비 잠금",
+			"#STAGE_EFFECT": "무대 효과",
+			"#STAGE_EFFECT_SIZE": "무대 효과 크기",
+			"#STAGE_EFFECT_ROTATION": "무대 효과 회전",
+			"#STAGE_EFFECT_ALPHA": "무대 효과 투명도",
+			"#LANE": "레인",
+			"#LANE_SIZE": "레인 크기",
+			"#LANE_ROTATION": "레인 회전",
+			"#LANE_ALPHA": "레인 투명도",
+			"#LANE_EFFECT": "레인 효과",
+			"#LANE_EFFECT_SIZE": "레인 효과 크기",
+			"#LANE_EFFECT_ROTATION": "레인 효과 회전",
+			"#LANE_EFFECT_ALPHA": "레인 효과 투명도",
+			"#JUDGELINE": "판정선",
+			"#JUDGELINE_SIZE": "판정선 크기",
+			"#JUDGELINE_ROTATION": "판정선 회전",
+			"#JUDGELINE_ALPHA": "판정선 투명도",
+			"#JUDGELINE_EFFECT": "판정선 효과",
+			"#JUDGELINE_EFFECT_SIZE": "판정선 효과 크기",
+			"#JUDGELINE_EFFECT_ROTATION": "판정선 효과 회전",
+			"#JUDGELINE_EFFECT_ALPHA": "판정선 효과 투명도",
+			"#SLOT": "슬롯",
+			"#SLOT_SIZE": "슬롯 크기",
+			"#SLOT_ROTATION": "슬롯 회전",
+			"#SLOT_ALPHA": "슬롯 투명도",
+			"#SLOT_EFFECT": "슬롯 효과",
+			"#SLOT_EFFECT_SIZE": "슬롯 효과 크기",
+			"#SLOT_EFFECT_ROTATION": "슬롯 효과 회전",
+			"#SLOT_EFFECT_ALPHA": "슬롯 효과 투명도",
+			"#NOTE": "노트",
+			"#NOTE_SPEED": "노트 속도",
+			"#NOTE_SPEED_RANDOM": "랜덤 노트 속도",
+			"#NOTE_SIZE": "노트 크기",
+			"#NOTE_ROTATION": "노트 회전",
+			"#NOTE_ALPHA": "노트 투명도",
+			"#NOTE_EFFECT": "노트 효과",
+			"#NOTE_EFFECT_SIZE": "노트 효과 크기",
+			"#NOTE_EFFECT_ROTATION": "노트 효과 회전",
+			"#NOTE_EFFECT_ALPHA": "노트 효과 투명도",
+			"#MARKER": "마커",
+			"#MARKER_SIZE": "마커 크기",
+			"#MARKER_ROTATION": "마커 회전",
+			"#MARKER_ALPHA": "마커 투명도",
+			"#CONNECTOR": "연결선",
+			"#CONNECTOR_SIZE": "연결선 크기",
+			"#CONNECTOR_ROTATION": "연결선 회전",
+			"#CONNECTOR_ALPHA": "연결선 투명도",
+			"#SIMLINE": "동시입력선",
+			"#SIMLINE_SIZE": "동시입력선 크기",
+			"#SIMLINE_ROTATION": "동시입력선 회전",
+			"#SIMLINE_ALPHA": "동시입력선 투명도"
+		},
+		"Value": {
+			"#NONE": "없음",
+			"#ANY": "모두",
+			"#ALL": "전체",
+			"#OTHERS": "기타",
+			"#SHORT": "짧음",
+			"#LONG": "길음",
+			"#HIGH": "높음",
+			"#MID": "중간",
+			"#LOW": "낮음",
+			"#SMALL": "작음",
+			"#MEDIUM": "중간",
+			"#LARGE": "큼",
+			"#LEFT": "왼쪽",
+			"#RIGHT": "오른쪽",
+			"#UP": "위",
+			"#DOWN": "아래",
+			"#FRONT": "앞",
+			"#BACK": "뒤",
+			"#CENTER": "가운데",
+			"#TOP": "위",
+			"#BOTTOM": "아래",
+			"#TOP_LEFT": "왼쪽 위",
+			"#TOP_CENTER": "가운데 위",
+			"#TOP_RIGHT": "오른쪽 위",
+			"#CENTER_LEFT": "왼쪽 가운데",
+			"#CENTER_RIGHT": "오른쪽 가운데",
+			"#BOTTOM_LEFT": "왼쪽 아래",
+			"#BOTTOM_CENTER": "가운데 아래",
+			"#BOTTOM_RIGHT": "오른쪽 아래",
+			"#CLOCKWISE": "시계방향",
+			"#COUNTERCLOCKWISE": "반시계방향",
+			"#FORWARD": "앞으로",
+			"#BACKWARD": "뒤로",
+			"#SIMPLE": "Simple",
+			"#EASY": "Easy",
+			"#NORMAL": "Normal",
+			"#HARD": "Hard",
+			"#EXPERT": "Expert",
+			"#MASTER": "Master",
+			"#PRO": "Pro",
+			"#TECHNICAL": "Technical",
+			"#SPECIAL": "Special"
+		},
+		"Placeholder": {
+			"#KEYWORDS": "키워드 입력...",
+			"#NAME": "이름 입력...",
+			"#RATING": "레이팅 입력...",
+			"#RATING_MINIMUM": "최소 레이팅 입력...",
+			"#RATING_MAXIMUM": "최대 레이팅 입력...",
+			"#TITLE": "제목 입력...",
+			"#SUBTITLE": "부제목 입력...",
+			"#ARTISTS": "작곡가 입력...",
+			"#AUTHOR": "제작자 입력...",
+			"#GENRE": "장르 입력...",
+			"#CATEGORY": "카테고리 입력...",
+			"#LANGUAGE": "언어 입력...",
+			"#DIFFICULTY": "난이도 입력...",
+			"#LENGTH": "길이 입력...",
+			"#LENGTH_MINIMUM": "최소 길이 입력...",
+			"#LENGTH_MAXIMUM": "최대 길이 입력..."
+		},
+		"Unit": {
+			"#PERCENTAGE": "{0}%",
+			"#SECOND": "{0} 초",
+			"#MILLISECOND": "{0} ms"
+		}
+	},
+	"Common": {
+		"Loading": "로딩 중...",
+		"On": "켜짐",
+		"Off": "꺼짐",
+		"Select": "선택",
+		"Edit": "수정",
+		"View": "보기",
+		"Cancel": "취소",
+		"Confirm": "확인",
+		"Retry": "재시도",
+		"Error": {
+			"Title": "오류"
+		},
+		"Confirmation": {
+			"Title": "확인"
+		},
+		"Next": "다음",
+		"Add": "추가",
+		"Import": "불러오기",
+		"Search": "검색",
+		"More": "더 보기",
+		"PullToRefresh": "당겨서 새로고침하기",
+		"Save": "저장",
+		"Share": "공유",
+		"Update": "업데이트",
+		"Delete": "삭제",
+		"Preview": "미리보기",
+		"Judgment": "판정",
+		"Accuracy": "정확도",
+		"Grade": "등급",
+		"ArcadeScore": "점수",
+		"AccuracyScore": "정확도 점수",
+		"Combo": "콤보",
+		"Perfect": "Perfect",
+		"Great": "Great",
+		"Good": "Good",
+		"Miss": "Miss",
+		"ColorField": {
+			"Hex": "HEX",
+			"Rgb": "RGB",
+			"Hsv": "HSV",
+			"HexPlaceholder": "색상 Hex값을 입력하세요...",
+			"R": "R",
+			"G": "G",
+			"B": "B",
+			"H": "H",
+			"S": "S",
+			"V": "V",
+			"A": "투명도"
+		},
+		"DeviceOffsetField": {
+			"Calibrate": "판정 조절"
+		},
+		"PullToLoad": {
+			"None": "더 불러올게 없어요",
+			"More": "당겨서 더 보기"
+		},
+		"UI": {
+			"Metric": {
+				"Arcade": "점수",
+				"Accuracy": "정확도 점수",
+				"Life": "라이프",
+				"PerfectRate": "Perfect 레이트",
+				"ErrorHeatmap": "미스 히트맵"
+			},
+			"JudgmentErrorStyle": {
+				"None": "없음",
+				"Plus": "+ / -",
+				"Minus": "- / +",
+				"ArrowUp": "↑ / ↓",
+				"ArrowDown": "↓ / ↑",
+				"ArrowLeft": "← / →",
+				"ArrowRight": "→ / ←",
+				"TriangleUp": "▲ / ▼",
+				"TriangleDown": "▼ / ▲",
+				"TriangleLeft": "◄ / ►",
+				"TriangleRight": "► / ◄"
+			},
+			"JudgmentErrorPlacement": {
+				"Both": "양쪽",
+				"Left": "왼쪽",
+				"Right": "오른쪽"
+			},
+			"Visibility": "가시성",
+			"Animation": "애니메이션",
+			"Tween": "트윈",
+			"Ease": {
+				"Linear": "리니어",
+				"InSine": "Sine (인)",
+				"OutSine": "Sine (아웃)",
+				"InOutSine": "Sine (인-아웃)",
+				"OutInSine": "Sine (아웃-인)",
+				"InQuad": "Quad (인)",
+				"OutQuad": "Quad (아웃)",
+				"InOutQuad": "Quad (인-아웃)",
+				"OutInQuad": "Quad (아웃-인)",
+				"InCubic": "Cubic (인)",
+				"OutCubic": "Cubic (아웃)",
+				"InOutCubic": "Cubic (인-아웃)",
+				"OutInCubic": "Cubic (아웃-인)",
+				"InQuart": "Quart (인)",
+				"OutQuart": "Quart (아웃)",
+				"InOutQuart": "Quart (인-아웃)",
+				"OutInQuart": "Quart (아웃-인)",
+				"InQuint": "Quint (인)",
+				"OutQuint": "Quint (아웃)",
+				"InOutQuint": "Quint (인-아웃)",
+				"OutInQuint": "Quint (아웃-인)",
+				"InExpo": "Expo (인)",
+				"OutExpo": "Expo (아웃)",
+				"InOutExpo": "Expo (인-아웃)",
+				"OutInExpo": "Expo (아웃-인)",
+				"InCirc": "Circ (인)",
+				"OutCirc": "Circ (아웃)",
+				"InOutCirc": "Circ (인-아웃)",
+				"OutInCirc": "Circ (아웃-인)",
+				"InBack": "Back (인)",
+				"OutBack": "Back (아웃)",
+				"InOutBack": "Back (인-아웃)",
+				"OutInBack": "Back (아웃-인)",
+				"InElastic": "Elastic (인)",
+				"OutElastic": "Elastic (아웃)",
+				"InOutElastic": "Elastic (인-아웃)",
+				"OutInElastic": "Elastic (아웃-인)",
+				"None": "없음"
+			}
+		}
+	},
+	"Themes": {
+		"Dark": "다크",
+		"Light": "라이트"
+	},
+	"Clients": {
+		"Master": {
+			"Info": {
+				"Loading": "Sonolus 정보를 불러오는 중...",
+				"Error": "Sonolus 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요."
+			},
+			"List": {
+				"Loading": "언어 목록을 불러오는 중...",
+				"Error": "언어 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요."
+			},
+			"Localization": {
+				"Loading": "언어를 불러오는 중...",
+				"Error": "\"{0}\" 언어를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요."
+			}
+		},
+		"Service": {
+			"UserProfile": {
+				"Loading": "유저 프로필을 불러오는 중...",
+				"Error": "\"{0}\" 유저의 프로필을 불러오지 못했어요.\n\n유저 ID를 다시 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요."
+			},
+			"Login": {
+				"Loading": "로그인 하는 중...",
+				"Error": "로그인에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"New": {
+						"Title": "가입 완료"
+					},
+					"Old": {
+						"Title": "로그인 성공"
+					}
+				}
+			},
+			"EditName": {
+				"Loading": "이름을 수정하는 중...",
+				"Error": "이름을 수정하지 못했어요.\n\n이름이 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "이름을 수정했어요"
+				}
+			},
+			"EditAvatar": {
+				"Loading": "프로필 사진을 수정하는 중...",
+				"Error": "프로필 사진을 수정하지 못했어요.\n\n프로필 사진이 잘못되었는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "프로필 사진을 수정했어요"
+				}
+			},
+			"EditAboutMe": {
+				"Loading": "자기소개를 수정하는 중...",
+				"Error": "자기소개를 수정하지 못했어요.\n\n자기소개가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "자기소개를 수정했어요"
+				}
+			},
+			"EditSocialLinks": {
+				"Loading": "SNS 링크를 수정하는 중...",
+				"Error": "SNS 링크를 수정하지 못했어요.\n\nSNS 링크가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "SNS 링크를 수정했어요"
+				}
+			},
+			"EditFavorites": {
+				"Loading": "즐겨찾기를 수정하는 중...",
+				"Error": "즐겨찾기를 수정하지 못했어요.\n\n즐겨찾기가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "즐겨찾기를 수정했어요"
+				}
+			},
+			"AuthenticateServer": {
+				"Loading": "Sonolus 인증 요청하는 중...",
+				"Error": "Sonolus에서 인증을 요청하지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해보거나, Sonolus에 문의해주세요."
+			},
+			"Logout": {
+				"Loading": "로그아웃 하는 중...",
+				"Error": "로그아웃에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
+				"Success": {
+					"Title": "로그아웃 완료"
+				}
+			}
+		},
+		"CustomServer": {
+			"SonolusVersionError": "이 서버는 Sonolus {0} 버전만 지원해요.\n\nSonolus를 업데이트하거나, 서버 주인에게 문의해주세요.",
+			"Session": {
+				"NeedAuthentication": {
+					"NotLoggedInError": {
+						"Description": "이 서버는 인증이 필요해요.\n\n먼저 로그인을 한 후 다시 시도해주세요."
+					},
+					"Confirmation": {
+						"Description": "이 서버는 인증이 필요해요.\n\n\"{0}\" (으)로 인증하고 계속할까요?"
+					}
+				},
+				"AuthenticationExpired": {
+					"Description": "인증이 만료되었어요.\n\n\"{0}\" (으)로 다시 인증하고 계속할까요?"
+				},
+				"AuthenticationRejected": {
+					"Description": "인증이 거부되었어요.\n\n\"{0}\" (으)로 인증하고 계속할까요?"
+				},
+				"Authenticate": {
+					"Loading": "서버 인증 요청 중...",
+					"Error": "\"{0}\" 서버 인증 요청에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"AddressMismatchError": {
+					"Description": "인증 주소가 맞지 않아요.\n\n서버 주인에게 문의해주세요."
+				}
+			},
+			"Server": {
+				"Info": {
+					"Loading": "서버 정보를 불러오는 중...",
+					"Error": "\"{0}\" 서버의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Banner": {
+					"Loading": "서버 배너를 불러오는 중...",
+					"Error": "\"{0}\" 서버의 배너를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				}
+			},
+			"Level": {
+				"List": {
+					"Loading": "레벨 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 레벨 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Details": {
+					"Loading": "레벨 정보를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Compatibility": {
+					"Loading": "레벨이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 레벨은 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
+				},
+				"Cover": {
+					"Loading": "레벨 이미지를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 이미지를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Bgm": {
+					"Loading": "레벨 음악을 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 음악을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Preview": {
+					"Loading": "레벨 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Data": {
+					"Loading": "레벨 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				}
+			},
+			"Skin": {
+				"List": {
+					"Loading": "스킨 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 스킨 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Details": {
+					"Loading": "스킨 정보를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Compatibility": {
+					"Loading": "스킨이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 스킨은 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "스킨 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Data": {
+					"Loading": "스킨 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Texture": {
+					"Loading": "스킨 텍스쳐를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 텍스쳐를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				}
+			},
+			"Background": {
+				"List": {
+					"Loading": "배경 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 배경 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Details": {
+					"Loading": "배경 정보를 불러오는 중...",
+					"Error": " \"{0}\" 배경의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Compatibility": {
+					"Loading": "배경이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 배경은 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "배경 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Data": {
+					"Loading": "배경 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Image": {
+					"Loading": "배경 이미지를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 이미지를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Configuration": {
+					"Loading": "배경 설정을 불러오는 중...",
+					"Error": "\"{0}\" 배경의 설정을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				}
+			},
+			"Effect": {
+				"List": {
+					"Loading": "SE 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 SE 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Details": {
+					"Loading": "SE 정보를 불러오는 중...",
+					"Error": "\"{0}\" SE의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Compatibility": {
+					"Loading": "SE가 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "SE 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" SE의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Data": {
+					"Loading": "SE 데이터를 불러오는 중...",
+					"Error": "\"{0}\" SE의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Audio": {
+					"Loading": "SE 오디오를 불러오는 중...",
+					"Error": "\"{0}\" SE의 오디오를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				}
+			},
+			"Particle": {
+				"List": {
+					"Loading": "탭 이펙트 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 탭 이펙트 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Details": {
+					"Loading": "탭 이펙트 정보를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Compatibility": {
+					"Loading": "탭 이펙트가 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 탭 이펙트는 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "탭 이펙트 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Data": {
+					"Loading": "탭 이펙트 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Texture": {
+					"Loading": "탭 이펙트 텍스쳐를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 텍스쳐를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				}
+			},
+			"Engine": {
+				"List": {
+					"Loading": "엔진 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 엔진 목록을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Details": {
+					"Loading": "엔진 정보를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Compatibility": {
+					"Loading": "엔진이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 엔진은 현재 Sonolus 버전과 호환되지 않아요.\n\n서버 주인에게 문의해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "엔진 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Data": {
+					"Loading": "엔진 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Rom": {
+					"Loading": "엔진 롬을 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 롬을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				},
+				"Configuration": {
+					"Loading": "엔진 설정을 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 설정을 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
+				}
+			}
+		},
+		"Collection": {
+			"Server": {
+				"Info": {
+					"Loading": "컬렉션 정보를 불러오는 중...",
+					"Error": "\"{0}\" 컬렉션의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Banner": {
+					"Loading": "컬렉션 배너를 불러오는 중...",
+					"Error": "\"{0}\" 컬렉션의 배너를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				}
+			},
+			"Level": {
+				"List": {
+					"Loading": "레벨 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 레벨 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "레벨 정보를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "레벨이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 레벨은 현재 Sonolus 버전과 호환되지 않아요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
+				},
+				"Cover": {
+					"Loading": "레벨 이미지를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 이미지를 불러오지 못했어요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
+				},
+				"Bgm": {
+					"Loading": "레벨 음악을 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 음악을 불러오지 못했어요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
+				},
+				"Preview": {
+					"Loading": "레벨 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 미리보기를 불러오지 못했어요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
+				},
+				"Data": {
+					"Loading": "레벨 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 데이터를 불러오지 못했어요.\n\n이 레벨을 업데이트 하거나, 다른 레벨을 사용해주세요."
+				}
+			},
+			"Skin": {
+				"List": {
+					"Loading": "스킨 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 스킨 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "스킨 정보를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "스킨이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 스킨은 현재 Sonolus 버전과 호환되지 않아요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "스킨 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 미리보기를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
+				},
+				"Data": {
+					"Loading": "스킨 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 데이터를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
+				},
+				"Texture": {
+					"Loading": "스킨 텍스쳐를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 텍스쳐를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
+				}
+			},
+			"Background": {
+				"List": {
+					"Loading": "배경 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 배경 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "배경 정보를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "배경이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 배경은 현재 Sonolus 버전과 호환되지 않아요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "배경 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 미리보기를 불러오지 못했어요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
+				},
+				"Data": {
+					"Loading": "배경 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 데이터를 불러오지 못했어요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
+				},
+				"Image": {
+					"Loading": "배경 이미지를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 이미지를 불러오지 못했어요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
+				},
+				"Configuration": {
+					"Loading": "배경 설정을 불러오는 중...",
+					"Error": "\"{0}\" 배경의 설정을 불러오지 못했어요.\n\n이 배경을 업데이트 하거나, 다른 배경을 사용해주세요."
+				}
+			},
+			"Effect": {
+				"List": {
+					"Loading": "SE 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 SE 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "SE 정보를 불러오는 중...",
+					"Error": "\"{0}\" SE의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "SE가 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "SE 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" SE의 미리보기를 불러오지 못했어요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해주세요."
+				},
+				"Data": {
+					"Loading": "SE 데이터를 불러오는 중...",
+					"Error": "\"{0}\" SE의 데이터를 불러오지 못했어요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해주세요."
+				},
+				"Audio": {
+					"Loading": "SE 오디오를 불러오는 중...",
+					"Error": "\"{0}\" SE의 오디오를 불러오지 못했어요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해주세요."
+				}
+			},
+			"Particle": {
+				"List": {
+					"Loading": "탭 이펙트 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 탭 이펙트 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "탭 이펙트 정보를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "탭 이펙트가 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 탭 이펙트는 현재 Sonolus 버전과 호환되지 않아요.\n\n이 탭 이펙트를 업데이트 하거나, 다른 탭 이펙트를 사용해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "탭 이펙트 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 미리보기를 불러오지 못했어요.\n\n이 탭 이펙트를 업데이트 하거나, 다른 탭 이펙트를 사용해주세요."
+				},
+				"Data": {
+					"Loading": "탭 이펙트 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 데이터를 불러오지 못했어요.\n\n이 탭 이펙트를 업데이트 하거나, 다른 탭 이펙트를 사용해주세요."
+				},
+				"Texture": {
+					"Loading": "탭 이펙트 텍스쳐를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 텍스쳐를 불러오지 못했어요.\n\n이 탭 이펙트를 업데이트 하거나, 다른 탭 이펙트를 사용해주세요."
+				}
+			},
+			"Engine": {
+				"List": {
+					"Loading": "엔진 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 엔진 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "엔진 정보를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "엔진이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 엔진은 현재 Sonolus 버전과 호환되지 않아요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
+				},
+				"Thumbnail": {
+					"Loading": "엔진 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
+				},
+				"Data": {
+					"Loading": "엔진 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 데이터를 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
+				},
+				"Rom": {
+					"Loading": "엔진 롬을 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 롬을 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
+				},
+				"Configuration": {
+					"Loading": "엔진 설정을 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 설정을 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
+				}
+			}
+		},
+		"Scp": {
+			"Server": {
+				"Info": {
+					"Loading": "패키지 정보를 불러오는 중...",
+					"Error": "\"{0}\" 패키지의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Banner": {
+					"Loading": "패키지 배너를 불러오는 중...",
+					"Error": "\"{0}\" 패키지의 배너를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				}
+			},
+			"Level": {
+				"List": {
+					"Loading": "레벨 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 레벨 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "레벨 정보를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "레벨이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 레벨은 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Cover": {
+					"Loading": "레벨 이미지를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 이미지를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Bgm": {
+					"Loading": "레벨 음악을 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 음악을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Preview": {
+					"Loading": "레벨 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Data": {
+					"Loading": "레벨 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 레벨의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				}
+			},
+			"Skin": {
+				"List": {
+					"Loading": "스킨 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 스킨의 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "스킨 정보를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "스킨이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 스킨은 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Thumbnail": {
+					"Loading": "스킨 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Data": {
+					"Loading": "스킨 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Texture": {
+					"Loading": "스킨 텍스쳐를 불러오는 중...",
+					"Error": "\"{0}\" 스킨의 텍스쳐를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				}
+			},
+			"Background": {
+				"List": {
+					"Loading": "배경 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 배경 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "배경 정보를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "배경이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 배경은 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Thumbnail": {
+					"Loading": "배경 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Data": {
+					"Loading": "배경 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Image": {
+					"Loading": "배경 이미지를 불러오는 중...",
+					"Error": "\"{0}\" 배경의 이미지를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Configuration": {
+					"Loading": "배경 설정을 불러오는 중...",
+					"Error": "\"{0}\" 배경의 설정을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				}
+			},
+			"Effect": {
+				"List": {
+					"Loading": "SE 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 SE 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "SE 정보를 불러오는 중...",
+					"Error": "\"{0}\" SE의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "SE가 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Thumbnail": {
+					"Loading": "SE 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" SE의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Data": {
+					"Loading": "SE 데이터를 불러오는 중...",
+					"Error": "\"{0}\" SE의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Audio": {
+					"Loading": "SE 오디오를 불러오는 중...",
+					"Error": "\"{0}\" SE의 오디오를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				}
+			},
+			"Particle": {
+				"List": {
+					"Loading": "탭 이펙트 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 탭 이펙트 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "탭 이펙트 정보를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "탭 이펙트가 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 탭 이펙트는 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Thumbnail": {
+					"Loading": "탭 이펙트 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Data": {
+					"Loading": "탭 이펙트 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Texture": {
+					"Loading": "탭 이펙트 텍스쳐를 불러오는 중...",
+					"Error": "\"{0}\" 탭 이펙트의 텍스쳐를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				}
+			},
+			"Engine": {
+				"List": {
+					"Loading": "엔진 목록을 불러오는 중...",
+					"Error": "페이지 {0}의 엔진 목록을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Details": {
+					"Loading": "엔진 정보를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Compatibility": {
+					"Loading": "엔진이 호환되는지 확인하는 중...",
+					"Error": "\"{0}\" 엔진의 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Thumbnail": {
+					"Loading": "엔진 미리보기를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Data": {
+					"Loading": "엔진 데이터를 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Rom": {
+					"Loading": "엔진 롬을 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 롬을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				},
+				"Configuration": {
+					"Loading": "엔진 설정을 불러오는 중...",
+					"Error": "\"{0}\" 엔진의 설정을 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+				}
+			}
+		}
+	},
+	"DeepLink": {
+		"Invalid": {
+			"Description": "\"{0}\" 링크는 잘못되었어요.\n\n다른 링크를 사용해주세요."
+		}
+	},
+	"Title": {
+		"TapToStart": "탭 해서 시작"
+	},
+	"Layout": {
+		"Refresh": "새로고침",
+		"Back": "뒤로가기"
+	},
+	"Routes": {
+		"JumpToPage": {
+			"Title": "페이지로 이동",
+			"Page": "페이지",
+			"PagePlaceholder": "페이지 번호 입력...",
+			"Jump": "점프"
+		},
+		"SelectLocalization": {
+			"Title": "언어 선택",
+			"Description": "선호하는 언어를 선택하세요:",
+			"Error": "언어 목록을 불러오지 못했어요."
+		},
+		"SelectTheme": {
+			"Title": "테마 선택",
+			"Description": "테마를 선택하세요:"
+		},
+		"SelectClient": {
+			"CustomServers": {
+				"Title": "커스텀 서버",
+				"RemoveConfirmation": {
+					"Description": "정말로 \"{0}\" 커스텀 서버를 삭제할까요?"
+				}
+			},
+			"Collections": {
+				"Title": "컬렉션",
+				"RemoveConfirmation": {
+					"Description": "정말로 \"{0}\" 컬렉션을 삭제할까요?"
+				}
+			}
+		},
+		"Selects": {
+			"ToPlay": {
+				"Title": "플레이",
+				"Description": "커스텀 서버 또는 컬렉션을 선택해서 플레이를 시작하세요."
+			},
+			"ToSave": {
+				"Level": {
+					"Title": "레벨 저장",
+					"Description": "이 레벨을 저장할 컬렉션을 선택하세요."
+				},
+				"Skin": {
+					"Title": "스킨 저장",
+					"Description": "이 스킨을 저장할 컬렉션을 선택하세요."
+				},
+				"Background": {
+					"Title": "배경 저장",
+					"Description": "이 배경을 저장할 컬렉션을 선택하세요."
+				},
+				"Effect": {
+					"Title": "SE 저장",
+					"Description": "이 SE를 저장할 컬렉션을 선택하세요."
+				},
+				"Particle": {
+					"Title": "탭 이펙트 저장",
+					"Description": "이 탭 이펙트를 저장할 컬렉션을 선택하세요."
+				},
+				"Engine": {
+					"Title": "엔진 저장",
+					"Description": "이 엔진을 저장할 컬렉션을 선택하세요."
+				}
+			},
+			"ToUse": {
+				"Level": {
+					"Title": "레벨 선택",
+					"Description": "레벨을 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Skin": {
+					"Title": "스킨 선택",
+					"Description": "스킨을 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Background": {
+					"Title": "배경 선택",
+					"Description": "배경을 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Effect": {
+					"Title": "SE 선택",
+					"Description": "SE를 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Particle": {
+					"Title": "탭 이펙트 선택",
+					"Description": "탭 이펙트를 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				},
+				"Engine": {
+					"Title": "엔진 선택",
+					"Description": "엔진을 불러올 커스텀 서버나 컬렉션을 선택하세요."
+				}
+			},
+			"ToAddFavorite": {
+				"Level": {
+					"Title": "레벨 즐겨찾기 추가",
+					"Description": "즐겨찾기에 레벨을 추가할 커스텀 서버를 선택하세요."
+				},
+				"Skin": {
+					"Title": "스킨 즐겨찾기 추가",
+					"Description": "즐겨찾기에 스킨을 추가할 커스텀 서버를 선택하세요."
+				},
+				"Background": {
+					"Title": "배경 즐겨찾기 추가",
+					"Description": "즐겨찾기에 배경을 추가할 커스텀 서버를 선택하세요."
+				},
+				"Effect": {
+					"Title": "SE 즐겨찾기 추가",
+					"Description": "즐겨찾기에 SE를 추가할 커스텀 서버를 선택하세요."
+				},
+				"Particle": {
+					"Title": "탭 이펙트 즐겨찾기 추가",
+					"Description": "즐겨찾기에 탭 이펙트를 추가할 커스텀 서버를 선택하세요."
+				},
+				"Engine": {
+					"Title": "엔진 즐겨찾기 추가",
+					"Description": "즐겨찾기에 엔진을 추가할 커스텀 서버를 선택하세요."
+				}
+			}
+		},
+		"EditCustomServer": {
+			"Title": "커스텀 서버 수정",
+			"Address": "주소",
+			"AddressPlaceholder": "커스텀 서버 주소 입력...",
+			"Name": "이름",
+			"NamePlaceholder": "커스텀 서버 이름 입력..."
+		},
+		"AddCustomServerAddress": {
+			"Title": "커스텀 서버 추가",
+			"Address": "주소",
+			"AddressPlaceholder": "커스텀 서버 주소 입력..."
+		},
+		"AddCustomServerInfo": {
+			"Title": "커스텀 서버 추가",
+			"Info": {
+				"Error": "\"{0}\" 서버의 정보를 불러오지 못했어요.\n\n서버 주소를 다시 입력해보거나, 인터넷 연결을 확인하고 다시 시도해주세요. 그래도 안된다면 서버 주인에게 문의하세요."
+			},
+			"Name": "이름",
+			"NamePlaceholder": "커스텀 서버 이름 입력..."
+		},
+		"EditCollection": {
+			"Title": "컬렉션 수정",
+			"Name": "이름",
+			"NamePlaceholder": "컬렉션 이름 입력..."
+		},
+		"AddCollection": {
+			"Title": "컬렉션 추가",
+			"Name": "이름",
+			"NamePlaceholder": "컬렉션 이름 입력..."
+		},
+		"ImportScp": {
+			"Scp": {
+				"Loading": "패키지를 불러오는 중...",
+				"Error": "\"{0}\" 패키지를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
+			},
+			"Success": {
+				"Title": "패키지를 불러옴"
+			}
+		},
+		"ExportScp": {
+			"Success": {
+				"Title": "패키지를 내보냄"
+			}
+		},
+		"EditVisibility": {
+			"Scale": "스케일",
+			"Alpha": "투명도"
+		},
+		"EditAnimation": {
+			"Scale": "스케일",
+			"Alpha": "투명도"
+		},
+		"EditTween": {
+			"From": "시작",
+			"To": "끝",
+			"Duration": "길이",
+			"Ease": "함수"
+		},
+		"EditColors": {
+			"Foreground": "전경",
+			"Background": "배경"
+		},
+		"CalibrateAudio": {
+			"Title": "오디오 보정",
+			"Description": "오디오와 그래픽이 일치할 때 까지 기기 오디오 오프셋을 조정해 오디오를 보정하세요.",
+			"DeviceAudioOffset": "기기 오디오 오프셋"
+		},
+		"CalibrateInput": {
+			"Title": "입력 보정",
+			"Description": "먼저 오디오 오프셋이 보정되었는지 확인한 후, 손가락으로 탭하며 입력을 보정하세요.\n이런 설정이 없는 게임에 익숙하시다면, 0에 놔두세요.",
+			"Result": "추천 오프셋: {0} (±{1})",
+			"DeviceInputOffset": "기기 입력 오프셋"
+		},
+		"Home": {
+			"Title": "홈",
+			"Play": "플레이",
+			"Players": "Players",
+			"Account": "Account",
+			"Settings": "설정",
+			"UpdateAvailable": {
+				"Title": "업데이트 가능",
+				"Description": "Sonolus {0} 버전을 사용할 수 있습니다!\n\n웹사이트를 확인하세요:\nhttps://sonolus.com",
+				"Open": "열기"
+			}
+		},
+		"Players": {
+			"Title": "플레이어",
+			"PlayerLookup": {
+				"Title": "플레이어 검색",
+				"Id": "플레이어 ID",
+				"IdPlaceholder": "플레이어 ID 입력...",
+				"Lookup": "검색"
+			}
+		},
+		"Account": {
+			"Title": "계정",
+			"MyAccount": {
+				"Title": "내 계정",
+				"Login": {
+					"Apple": "Apple로 로그인",
+					"Google": "Google로 로그인",
+					"Wechat": "WeChat으로 로그인"
+				},
+				"Profile": "프로필",
+				"Logout": "로그아웃"
+			}
+		},
+		"UserProfile": {
+			"Home": {
+				"Main": {
+					"EditName": "이름 수정",
+					"EditAvatar": "프로필 사진 수정"
+				},
+				"AboutMe": {
+					"Title": "자기소개"
+				},
+				"SocialLinks": {
+					"Title": "SNS 링크",
+					"None": "SNS 링크가 없어요.",
+					"OpenConfirmation": {
+						"Description": "이 SNS 링크는 {0}(으)로 연결됩니다.\n\n정말 방문하시겠어요?"
+					}
+				},
+				"Favorites": {
+					"Title": "즐겨찾기",
+					"None": "즐겨찾기가 없어요."
+				}
+			},
+			"EditName": {
+				"Title": "이름 수정",
+				"Name": "이름",
+				"NamePlaceholder": "플레이어 이름 입력..."
+			},
+			"EditAvatar": {
+				"Title": "프로필 사진 수정",
+				"Foreground": "전경",
+				"Background": "배경"
+			},
+			"EditAboutMe": {
+				"Title": "자기소개 수정",
+				"AboutMe": "자기소개",
+				"AboutMePlaceholder": "자기소개 입력..."
+			},
+			"AddSocialLink": {
+				"Title": "SNS 링크 추가",
+				"SocialLinkTitle": "이름",
+				"SocialLinkTitlePlaceholder": "SNS 이름 입력 (예: 트위터, 인스타)...",
+				"SocialLinkAddress": "링크",
+				"SocialLinkAddressPlaceholder": "SNS 링크 입력..."
+			},
+			"AddFavorite": {
+				"Title": "즐겨찾기 추가",
+				"Description": "추가할 즐겨찾기 타입을 선택하세요:",
+				"Level": "레벨",
+				"Skin": "스킨",
+				"Background": "배경",
+				"Effect": "SE",
+				"Particle": "탭 이펙트",
+				"Engine": "엔진"
+			}
+		},
+		"Server": {
+			"Home": {
+				"Levels": "레벨",
+				"Skins": "스킨",
+				"Backgrounds": "배경",
+				"Effects": "SE",
+				"Particles": "탭 이펙트",
+				"Engines": "엔진",
+				"SaveSuccess": {
+					"Title": "서버 저장됨"
+				},
+				"ShareSuccess": {
+					"Title": "서버 링크 복사됨"
+				}
+			},
+			"Search": {
+				"Title": "검색"
+			},
+			"Lists": {
+				"DeleteConfirmation": {
+					"Description": "정말 \"{0}\" 아이템을 삭제할까요?"
+				},
+				"Level": {
+					"Title": "레벨",
+					"ShareSuccess": {
+						"Title": "레벨 목록 링크 복사됨"
+					}
+				},
+				"Skin": {
+					"Title": "스킨",
+					"ShareSuccess": {
+						"Title": "스킨 목록 링크 복사됨"
+					}
+				},
+				"Background": {
+					"Title": "배경",
+					"ShareSuccess": {
+						"Title": "배경 목록 링크 복사됨"
+					}
+				},
+				"Effect": {
+					"Title": "SE",
+					"ShareSuccess": {
+						"Title": "SE 목록 링크 복사됨"
+					}
+				},
+				"Particle": {
+					"Title": "탭 이펙트",
+					"ShareSuccess": {
+						"Title": "탭 이펙트 목록 링크 복사됨"
+					}
+				},
+				"Engine": {
+					"Title": "엔진",
+					"ShareSuccess": {
+						"Title": "엔진 목록 링크 복사됨"
+					}
+				}
+			},
+			"Details": {
+				"Actions": {
+					"Configuration": "설정"
+				},
+				"DeleteConfirmation": {
+					"Description": "정말 \"{0}\" 아이템을 삭제할까요?"
+				},
+				"Description": {
+					"Title": "설명"
+				},
+				"Recommended": {
+					"Title": "추천"
+				},
+				"Level": {
+					"Actions": {
+						"Play": "플레이"
+					},
+					"Play": {
+						"Effect": {
+							"Audio": {
+								"Loading": "SE 오디오를 디코딩 하는 중...",
+								"Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+							}
+						},
+						"Level": {
+							"Bgm": {
+								"Loading": "레벨 음악을 디코딩 하는 중...",
+								"Error": "\"{0}\" 레벨의 음악을 디코딩하지 못했어요.\n\n레벨 제작자에게 문의해주세요."
+							}
+						},
+						"Boot": {
+							"Loading": "레벨을 시작하는 중...",
+							"Error": "\"{0}\" 레벨을 시작하지 못했어요.\n\n레벨 제작자에게 문의해주세요."
+						}
+					},
+					"ShareSuccess": {
+						"Title": "레벨 링크 복사 됨"
+					}
+				},
+				"Skin": {
+					"ShareSuccess": {
+						"Title": "스킨 링크 복사됨"
+					}
+				},
+				"Background": {
+					"Preview": {
+						"Boot": {
+							"Loading": "배경 부팅 중...",
+							"Error": "\"{0}\" 배경을 부팅하지 못했어요.\n\n배경 제작자에게 문의해주세요."
+						}
+					},
+					"ShareSuccess": {
+						"Title": "배경 링크 복사됨"
+					}
+				},
+				"Effect": {
+					"ShareSuccess": {
+						"Title": "SE 링크 복사됨"
+					}
+				},
+				"Particle": {
+					"Preview": {
+						"Audio": {
+							"Loading": "SE 오디오를 디코딩 하는 중...",
+							"Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+						},
+						"Boot": {
+							"Loading": "SE 부팅 중...",
+							"Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+						}
+					},
+					"ShareSuccess": {
+						"Title": "탭 이펙트 링크 복사됨"
+					}
+				},
+				"Engine": {
+					"ShareSuccess": {
+						"Title": "엔진 링크 복사됨"
+					}
+				}
+			},
+			"Configurations": {
+				"Level": {
+					"Title": "레벨 설정",
+					"Skin": {
+						"Title": "스킨"
+					},
+					"Background": {
+						"Title": "배경"
+					},
+					"Effect": {
+						"Title": "SE"
+					},
+					"Particle": {
+						"Title": "탭 이펙트"
+					},
+					"Options": {
+						"Title": "옵션"
+					},
+					"Audio": {
+						"Title": "오디오",
+						"BgmVolume": "BGM 볼륨",
+						"SfxVolume": "SE 볼륨"
+					},
+					"UI": {
+						"Title": "UI",
+						"PrimaryMetric": "기본 메트릭",
+						"SecondaryMetric": "보조 메트릭",
+						"JudgmentErrorStyle": "특수 판정 스타일",
+						"JudgmentErrorPlacement": "특수 판정 위치",
+						"JudgmentErrorMin": "특수 판정 최소값",
+						"MenuStyle": "메뉴 스타일",
+						"JudgmentStyle": "판정 스타일",
+						"ComboStyle": "콤보 스타일",
+						"PrimaryMetricStyle": "기본 메트릭 스타일",
+						"SecondaryMetricStyle": "보조 메트릭 스타일"
+					},
+					"Offsets": {
+						"Title": "오프셋",
+						"LevelAudioOffset": "레벨 오디오 오프셋",
+						"ServerAudioOffset": "서버 오디오 오프셋",
+						"DeviceAudioOffset": "기기 오디오 오프셋",
+						"EngineInputOffset": "엔진 입력 오프셋",
+						"DeviceInputOffset": "기기 입력 오프셋"
+					}
+				},
+				"Skin": {
+					"Title": "스킨 설정"
+				},
+				"Background": {
+					"Title": "배경 설정",
+					"Image": {
+						"Title": "이미지",
+						"Blur": "블러",
+						"Mask": "마스크"
+					}
+				},
+				"Effect": {
+					"Title": "SE 설정"
+				},
+				"Particle": {
+					"Title": "탭 이펙트 설정"
+				},
+				"Engine": {
+					"Title": "엔진 설정",
+					"Skin": {
+						"Title": "스킨"
+					},
+					"Background": {
+						"Title": "배경"
+					},
+					"Effect": {
+						"Title": "SE"
+					},
+					"Particle": {
+						"Title": "탭 이펙트"
+					},
+					"Options": {
+						"Title": "옵션"
+					},
+					"UI": {
+						"Title": "UI",
+						"PrimaryMetric": "기본 메트릭",
+						"SecondaryMetric": "보조 메트릭",
+						"JudgmentErrorStyle": "특수 판정 스타일",
+						"JudgmentErrorPlacement": "특수 판정 위치",
+						"JudgmentErrorMin": "특수 판정 최소값",
+						"MenuStyle": "메뉴 스타일",
+						"JudgmentStyle": "판정 스타일",
+						"ComboStyle": "콤보 스타일",
+						"PrimaryMetricStyle": "기본 메트릭 스타일",
+						"SecondaryMetricStyle": "보조 메트릭 스타일"
+					},
+					"Offsets": {
+						"Title": "오프셋",
+						"EngineInputOffset": "엔진 입력 오프셋"
+					}
+				}
+			},
+			"Savers": {
+				"Level": {
+					"Success": {
+						"Title": "레벨 저장 완료"
+					}
+				},
+				"Skin": {
+					"Success": {
+						"Title": "스킨 저장 완료"
+					}
+				},
+				"Background": {
+					"Success": {
+						"Title": "배경 저장 완료"
+					}
+				},
+				"Effect": {
+					"Success": {
+						"Title": "SE 저장 완료"
+					}
+				},
+				"Particle": {
+					"Success": {
+						"Title": "탭 이펙트 저장 완료"
+					}
+				},
+				"Engine": {
+					"Success": {
+						"Title": "엔진 저장 완료"
+					}
+				}
+			}
+		},
+		"Settings": {
+			"Title": "설정",
+			"Graphics": {
+				"Title": "그래픽",
+				"TargetFps": "목표 FPS",
+				"RenderScale": "렌더 스케일",
+				"AntiAliasing": {
+					"Title": "안티 앨리어싱",
+					"Options": {
+						"Off": "끄기",
+						"TwoX": "2x",
+						"FourX": "4x",
+						"EightX": "8x"
+					}
+				},
+				"GpuParticleSystem": "GPU 입자 시스템",
+				"IgnoreNotch": "노치 무시"
+			},
+			"Audio": {
+				"Title": "오디오",
+				"BgmVolume": "BGM 볼륨",
+				"SfxVolume": "SE 볼륨",
+				"AlwaysDecodeLevelBgm": "레벨 BGM 항상 디코딩하기",
+				"PreviewBgm": {
+					"Title": "BGM 미리보기",
+					"Options": {
+						"Off": "끄기",
+						"DetailsOnly": "자세한 정보",
+						"ListAndDetails": "목록과 자세한 정보"
+					}
+				},
+				"LevelBgmQuality": {
+					"Title": "레벨 BGM 품질",
+					"Options": {
+						"Low": "낮음",
+						"Mid": "중간",
+						"High": "높음"
+					}
+				},
+				"PreviewBgmQuality": {
+					"Title": "BGM 미리보기 품질",
+					"Options": {
+						"Low": "낮음",
+						"Mid": "중간",
+						"High": "높음"
+					}
+				}
+			},
+			"UI": {
+				"Title": "UI",
+				"Localization": "언어",
+				"Theme": "테마",
+				"Scale": "UI 스케일",
+				"UnpauseDelay": "일시정지 해제 딜레이",
+				"PerfectJudgmentColors": "Perfect 판정 색",
+				"GreatJudgmentColors": "Great 판정 색",
+				"GoodJudgmentColors": "Good 판정 색",
+				"MissJudgmentColors": "Miss 판정 색",
+				"PositiveJudgmentErrorColors": "긍정적 특수 판정 색",
+				"NegativeJudgmentErrorColors": "부정적 특수 판정 색",
+				"AllPerfectComboColors": "AP 콤보 색",
+				"FullComboComboColors": "FC 콤보 색",
+				"PassComboColors": "Pass 콤보 색",
+				"FailComboColors": "Fail 콤보 색",
+				"BoldComboNumber": "콤보 볼드체 적용",
+				"ShowZeroCombo": "0 콤보 보이기"
+			},
+			"Offsets": {
+				"Title": "오프셋",
+				"Device": {
+					"Title": "기기",
+					"Option": "기기 {0}"
+				},
+				"DeviceAudioOffset": "기기 오디오 오프셋",
+				"DeviceInputOffset": "기기 입력 오프셋"
+			},
+			"Repository": {
+				"Title": "저장소",
+				"Manage": "관리"
+			},
+			"Cache": {
+				"Title": "캐시",
+				"AlwaysRevalidate": "항상 재검증",
+				"Manage": "관리"
+			},
+			"Developer": {
+				"Title": "개발자",
+				"ShowFps": "FPS 보이기",
+				"FpsStyle": "FPS 스타일",
+				"ShowTouches": "터치 보이기",
+				"TouchStyle": "터치 스타일",
+				"DebugMode": "디버그 모드",
+				"DebugLogStyle": "디버그 로그 스타일"
+			}
+		},
+		"ManageRepository": {
+			"Title": "저장소 관리",
+			"Repository": {
+				"Title": "저장소",
+				"Description": "저장소는 이 기기에서 사용할 수 있는 모든 리소스를 보관합니다.",
+				"Size": "크기: {0}"
+			},
+			"DeleteRepository": {
+				"Title": "저장소 삭제",
+				"Description": "저장소 리소스를 삭제하면 Sonolus가 필요할 때 다시 다운로드하게 됩니다.",
+				"Delete": "삭제",
+				"DeleteConfirmation": {
+					"Description": "정말 모든 저장소 리소스를 삭제할까요?",
+					"Loading": "저장소 삭제 중..."
+				},
+				"Success": {
+					"Title": "저장소를 삭제했어요"
+				}
+			}
+		},
+		"ManageCache": {
+			"Title": "캐시 관리",
+			"Cache": {
+				"Title": "캐시",
+				"Description": "Sonolus는 캐시를 사용하여 네트워크 URL과 연결된 로컬 저장소 리소스를 저장함으로써 네트워크 요청을 빠르게 로드하고 대역폭 사용을 줄여요. 캐시는 적은 양의 저장 공간을 차지하므로 삭제하지 않는 것이 좋아요.",
+				"Count": "캐시: {0} 항목"
+			},
+			"ExpireCache": {
+				"Title": "캐시 만료",
+				"Description": "모든 캐시를 만료시킬 경우 Sonolus가 네트워크 URL과 연결된 로컬 저장소 리소스를 사용하기 전에 다시 검증하게 됩니다.",
+				"Expire": "만료",
+				"ExpireConfirmation": {
+					"Description": "정말 모든 캐시를 만료시킬까요?"
+				},
+				"Success": {
+					"Title": "캐시를 만료시켰어요"
+				}
+			},
+			"DeleteCache": {
+				"Title": "캐시 삭제",
+				"Description": "모든 캐시를 삭제하면 Sonolus가 모든 네트워크 요청을 다시 다운로드하게 됩니다. 권장되지 않아요.",
+				"Delete": "삭제",
+				"DeleteConfirmation": {
+					"Description": "정말 모든 캐시를 삭제할까요?"
+				},
+				"Success": {
+					"Title": "캐시를 삭제했어요"
+				}
+			}
+		}
+	},
+	"Scp": {
+		"PermissionError": {
+			"Description": "권한이 부족하여 요청을 수행할 수 없었어요.\n\n설정을 열어 Sonolus에 권한을 부여해주세요.",
+			"Open": "열기"
+		}
+	},
+	"Runtimes": {
+		"Level": {
+			"Play": {
+				"Routes": {
+					"Pause": {
+						"Title": "일시정지",
+						"Control": {
+							"Title": "제어",
+							"Exit": "종료",
+							"Restart": "재시작"
+						},
+						"Snapshot": {
+							"Title": "스냅샷",
+							"Mark": "마크",
+							"Jump": "점프"
+						},
+						"Debug": {
+							"Title": "디버그"
+						}
+					},
+					"Result": {
+						"Title": "결과",
+						"Options": {
+							"HasUsedPause": "일시정지",
+							"HasUsedSnapshot": "스냅샷"
+						},
+						"Graphs": {
+							"Title": "그래프",
+							"Judgment": {
+								"Title": "판정 그래프"
+							},
+							"Accuracy": {
+								"Title": "정확도 그래프",
+								"AbsValue": "절대값",
+								"Mean": "평균치",
+								"StDev": "표준편차",
+								"Min": "최소값",
+								"Max": "최대값"
+							},
+							"Bucket": {
+								"Title": "판정 그래프"
+							}
+						}
+					}
+				}
+			}
+		},
+		"Effect": {
+			"Preview": {
+				"Routes": {
+					"Preview": {
+						"Play": "재생"
+					}
+				}
+			}
+		}
+	}
 }
