@@ -1154,6 +1154,7 @@
         "Login": {
           "Apple": "Masuk dengan Apple",
           "Google": "Masuk dengan Google",
+          "QQ": "Masuk dengan QQ",
           "Wechat": "Masuk dengan WeChat"
         },
         "Profile": "Profil",
@@ -1171,7 +1172,10 @@
         },
         "SocialLinks": {
           "Title": "Link Sosial",
-          "None": "Tidak ada link sosial."
+          "None": "Tidak ada link sosial.",
+          "OpenConfirmation": {
+            "Description": "Link sosial ini menuju ke:\n{0}\n\nApakah Anda yakin untuk melihat?"
+          }
         },
         "Favorites": {
           "Title": "Favorit",
@@ -1470,6 +1474,7 @@
       "Title": "Pengaturan",
       "Graphics": {
         "Title": "Grafik",
+        "TargetFps": "Target FPS",
         "RenderScale": "Skala Render",
         "AntiAliasing": {
           "Title": "Anti-Aliasing",

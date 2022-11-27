@@ -1154,6 +1154,7 @@
         "Login": {
           "Apple": "使用 Apple 登入",
           "Google": "使用 Google 登入",
+          "QQ": "使用QQ登入",
           "Wechat": "用微信登入"
         },
         "Profile": "簡介",
@@ -1171,7 +1172,10 @@
         },
         "SocialLinks": {
           "Title": "社交連結",
-          "None": "沒有社交連接。"
+          "None": "沒有社交連接。",
+          "OpenConfirmation": {
+            "Description": "此社交連結導向：\n{0}\n\n你確定要前往嗎？"
+          }
         },
         "Favorites": {
           "Title": "收藏",
@@ -1470,6 +1474,7 @@
       "Title": "設定",
       "Graphics": {
         "Title": "圖像",
+        "TargetFps": "目標FPS",
         "RenderScale": "渲染程度",
         "AntiAliasing": {
           "Title": "抗鋸齒",

@@ -1154,6 +1154,7 @@
         "Login": {
           "Apple": "苹果登录",
           "Google": "谷歌登录",
+          "QQ": "QQ登录",
           "Wechat": "微信登录"
         },
         "Profile": "资料",
@@ -1171,7 +1172,10 @@
         },
         "SocialLinks": {
           "Title": "社交链接",
-          "None": "没有社交链接。"
+          "None": "没有社交链接。",
+          "OpenConfirmation": {
+            "Description": "此社交链接指向：\n{0}\n\n你确定要打开吗？"
+          }
         },
         "Favorites": {
           "Title": "最爱",
@@ -1470,6 +1474,7 @@
       "Title": "设置",
       "Graphics": {
         "Title": "图像",
+        "TargetFps": "目标 FPS",
         "RenderScale": "渲染比例",
         "AntiAliasing": {
           "Title": "抗锯齿",

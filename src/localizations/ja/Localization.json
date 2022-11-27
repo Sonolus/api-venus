@@ -1154,6 +1154,7 @@
         "Login": {
           "Apple": "Apple でサインイン",
           "Google": "Google でサインイン",
+          "QQ": "QQでサインイン",
           "Wechat": "WeChat でサインイン"
         },
         "Profile": "プロフィール",
@@ -1171,7 +1172,10 @@
         },
         "SocialLinks": {
           "Title": "ソーシャルリンク",
-          "None": "ソーシャルリンクはありません。"
+          "None": "ソーシャルリンクはありません。",
+          "OpenConfirmation": {
+            "Description": "このリンクを開きますか？\n{0}"
+          }
         },
         "Favorites": {
           "Title": "お気に入り",
@@ -1470,6 +1474,7 @@
       "Title": "設定",
       "Graphics": {
         "Title": "グラフィック",
+        "TargetFps": "目標FPS",
         "RenderScale": "レンダリング解像度",
         "AntiAliasing": {
           "Title": "アンチエイリアス",

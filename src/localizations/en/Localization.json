@@ -1154,6 +1154,7 @@
                 "Login": {
                     "Apple": "Sign in with Apple",
                     "Google": "Sign in with Google",
+                    "QQ": "Sign in with QQ",
                     "Wechat": "Sign in with WeChat"
                 },
                 "Profile": "Profile",
@@ -1171,7 +1172,10 @@
                 },
                 "SocialLinks": {
                     "Title": "Social Links",
-                    "None": "No social links."
+                    "None": "No social links.",
+                    "OpenConfirmation": {
+                        "Description": "This social link goes to:\n{0}\n\nAre you sure to visit?"
+                    }
                 },
                 "Favorites": {
                     "Title": "Favorites",
@@ -1470,6 +1474,7 @@
             "Title": "Settings",
             "Graphics": {
                 "Title": "Graphics",
+                "TargetFps": "Target FPS",
                 "RenderScale": "Render Scale",
                 "AntiAliasing": {
                     "Title": "Anti-Aliasing",
