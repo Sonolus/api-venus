@@ -151,6 +151,11 @@
       "#LENGTH": "曲の長さを入力してください...",
       "#LENGTH_MINIMUM": "最短曲長を入力してください...",
       "#LENGTH_MAXIMUM": "最長曲長を入力してください..."
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0} %",
+      "#SECOND": "{0} 秒",
+      "#MILLISECOND": "{0} ms"
     }
   },
   "Common": {
@@ -179,6 +184,7 @@
     "Share": "共有",
     "Update": "更新",
     "Delete": "消去",
+    "Preview": "プレビュー",
     "Judgment": "判定",
     "Accuracy": "精度スコア",
     "Grade": "結果",
@@ -275,7 +281,8 @@
         "InElastic": "Elastic (In)",
         "OutElastic": "Elastic (Out)",
         "InOutElastic": "Elastic (In Out)",
-        "OutInElastic": "Elastic (Out In)"
+        "OutInElastic": "Elastic (Out In)",
+        "None": "なし"
       }
     }
   },
@@ -1154,7 +1161,6 @@
         "Login": {
           "Apple": "Apple でサインイン",
           "Google": "Google でサインイン",
-          "QQ": "QQでサインイン",
           "Wechat": "WeChat でサインイン"
         },
         "Profile": "プロフィール",
@@ -1319,11 +1325,27 @@
           }
         },
         "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "背景をセットアップ中...",
+              "Error": "背景 \"{0}\"の開始に失敗しました。\n\n背景の作者にご連絡ください。"
+            }
+          },
           "ShareSuccess": {
             "Title": "背景のリンクをコピーしました"
           }
         },
         "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "効果音をデコード中...",
+              "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡ください。"
+            },
+            "Boot": {
+              "Loading": "効果音をセットアップ中...",
+              "Error": "効果音 \"{0}\"のセットアップに失敗しました。\n\n効果音の作者にご連絡ください。"
+            }
+          },
           "ShareSuccess": {
             "Title": "効果音のリンクをコピーしました"
           }
@@ -1523,6 +1545,7 @@
         "Localization": "言語",
         "Theme": "テーマ",
         "Scale": "UIスケール",
+        "UnpauseDelay": "ポーズ解除時の待機時間",
         "PerfectJudgmentColors": "Perfect判定色",
         "GreatJudgmentColors": "Great判定色",
         "GoodJudgmentColors": "Good判定色",
@@ -1664,6 +1687,15 @@
                 "Title": "バケットグラフ"
               }
             }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "再生"
           }
         }
       }
