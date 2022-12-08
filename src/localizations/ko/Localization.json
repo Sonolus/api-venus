@@ -15,7 +15,9 @@
       "#ARTISTS": "작곡가",
       "#AUTHOR": "제작자",
       "#GENRE": "장르",
+      "#CATEGORY": "카테고리",
       "#LANGUAGE": "언어",
+      "#DIFFICULTY": "난이도",
       "#LENGTH": "길이",
       "#LENGTH_MINIMUM": "최소 길이",
       "#LENGTH_MAXIMUM": "최대 길이",
@@ -69,6 +71,7 @@
       "#NOTE_SPEED": "노트 속도",
       "#NOTE_SPEED_RANDOM": "랜덤 노트 속도",
       "#NOTE_SIZE": "노트 크기",
+      "#NOTE_ROTATION": "노트 회전",
       "#NOTE_ALPHA": "노트 투명도",
       "#NOTE_EFFECT": "노트 효과",
       "#NOTE_EFFECT_SIZE": "노트 효과 크기",
@@ -632,6 +635,7 @@
           "Error": "\"{0}\" 스킨의 데이터를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
         },
         "Texture": {
+          "Loading": "스킨 텍스쳐를 불러오는 중...",
           "Error": "\"{0}\" 스킨의 텍스쳐를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
         }
       },
