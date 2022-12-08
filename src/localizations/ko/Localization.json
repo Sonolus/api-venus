@@ -163,6 +163,7 @@
     "On": "켜짐",
     "Off": "꺼짐",
     "Select": "선택",
+    "Edit": "수정",
     "View": "보기",
     "Cancel": "취소",
     "Confirm": "확인",
@@ -1179,6 +1180,7 @@
           "Title": "SNS 링크",
           "None": "SNS 링크가 없어요.",
           "OpenConfirmation": {
+            "Description": "이 SNS 링크는 {0}(으)로 연결됩니다.\n\n정말 방문하시겠어요?"
           }
         },
         "Favorites": {
@@ -1336,8 +1338,12 @@
         "Effect": {
           "Preview": {
             "Audio": {
+              "Loading": "SE 오디오를 디코딩하는 중...",
+              "Error": "\"{0}\" SE 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
             },
             "Boot": {
+              "Loading": "SE 부팅 중...",
+              "Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요."
             }
           },
           "ShareSuccess": {
@@ -1500,6 +1506,7 @@
       "Title": "설정",
       "Graphics": {
         "Title": "그래픽",
+        "TargetFps": "목표 FPS",
         "RenderScale": "렌더 스케일",
         "AntiAliasing": {
           "Title": "안티 앨리어싱",
