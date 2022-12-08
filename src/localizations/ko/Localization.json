@@ -1336,11 +1336,24 @@
           }
         },
         "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "SE 오디오를 디코딩하는 중...",
+              "Error": "\"{0}\" SE 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+            },
+            "Boot": {
+              "Loading": "SE 부팅 중...",
+              "Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+            }
+          },
           "ShareSuccess": {
             "Title": "SE 링크 복사됨"
           }
         },
         "Particle": {
+          "ShareSuccess": {
+            "Title": "탭 이펙트 링크 복사됨"
+          },
           "Preview": {
             "Audio": {
               "Loading": "SE 오디오를 디코딩 하는 중...",
@@ -1350,9 +1363,6 @@
               "Loading": "SE 부팅 중...",
               "Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요."
             }
-          },
-          "ShareSuccess": {
-            "Title": "탭 이펙트 링크 복사됨"
           }
         },
         "Engine": {
