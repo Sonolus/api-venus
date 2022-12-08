@@ -151,6 +151,11 @@
       "#LENGTH": "길이 입력...",
       "#LENGTH_MINIMUM": "최소 길이 입력...",
       "#LENGTH_MAXIMUM": "최대 길이 입력..."
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} 초",
+      "#MILLISECOND": "{0} ms"
     }
   },
   "Common": {
@@ -179,6 +184,7 @@
     "Share": "공유",
     "Update": "업데이트",
     "Delete": "삭제",
+    "Preview": "미리보기",
     "Judgment": "판정",
     "Accuracy": "정확도",
     "Grade": "등급",
@@ -275,7 +281,8 @@
         "InElastic": "Elastic (인)",
         "OutElastic": "Elastic (아웃)",
         "InOutElastic": "Elastic (인-아웃)",
-        "OutInElastic": "Elastic (아웃-인)"
+        "OutInElastic": "Elastic (아웃-인)",
+        "None": "없음"
       }
     }
   },
@@ -1154,7 +1161,6 @@
         "Login": {
           "Apple": "Apple로 로그인",
           "Google": "Google로 로그인",
-          "QQ": "QQ로 로그인",
           "Wechat": "WeChat으로 로그인"
         },
         "Profile": "프로필",
@@ -1319,6 +1325,12 @@
           }
         },
         "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "배경 부팅 중...",
+              "Error": "\"{0}\" 배경을 부팅하지 못했어요.\n\n배경 제작자에게 문의해주세요."
+            }
+          },
           "ShareSuccess": {
             "Title": "배경 링크 복사됨"
           }
@@ -1329,6 +1341,16 @@
           }
         },
         "Particle": {
+          "Preview": {
+            "Audio": {
+              "Loading": "SE 오디오를 디코딩 하는 중...",
+              "Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+            },
+            "Boot": {
+              "Loading": "SE 부팅 중...",
+              "Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+            }
+          },
           "ShareSuccess": {
             "Title": "탭 이펙트 링크 복사됨"
           }
@@ -1523,6 +1545,7 @@
         "Localization": "언어",
         "Theme": "테마",
         "Scale": "UI 스케일",
+        "UnpauseDelay": "일시정지 해제 딜레이",
         "PerfectJudgmentColors": "Perfect 판정 색",
         "GreatJudgmentColors": "Great 판정 색",
         "GoodJudgmentColors": "Good 판정 색",
@@ -1664,6 +1687,15 @@
                 "Title": "판정 그래프"
               }
             }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "재생"
           }
         }
       }
