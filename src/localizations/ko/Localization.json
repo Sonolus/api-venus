@@ -15,9 +15,7 @@
       "#ARTISTS": "작곡가",
       "#AUTHOR": "제작자",
       "#GENRE": "장르",
-      "#CATEGORY": "카테고리",
       "#LANGUAGE": "언어",
-      "#DIFFICULTY": "난이도",
       "#LENGTH": "길이",
       "#LENGTH_MINIMUM": "최소 길이",
       "#LENGTH_MAXIMUM": "최대 길이",
@@ -71,7 +69,6 @@
       "#NOTE_SPEED": "노트 속도",
       "#NOTE_SPEED_RANDOM": "랜덤 노트 속도",
       "#NOTE_SIZE": "노트 크기",
-      "#NOTE_ROTATION": "노트 회전",
       "#NOTE_ALPHA": "노트 투명도",
       "#NOTE_EFFECT": "노트 효과",
       "#NOTE_EFFECT_SIZE": "노트 효과 크기",
@@ -163,7 +160,6 @@
     "On": "켜짐",
     "Off": "꺼짐",
     "Select": "선택",
-    "Edit": "수정",
     "View": "보기",
     "Cancel": "취소",
     "Confirm": "확인",
@@ -636,7 +632,6 @@
           "Error": "\"{0}\" 스킨의 데이터를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
         },
         "Texture": {
-          "Loading": "스킨 텍스쳐를 불러오는 중...",
           "Error": "\"{0}\" 스킨의 텍스쳐를 불러오지 못했어요.\n\n이 스킨을 업데이트 하거나, 다른 스킨을 사용해주세요."
         }
       },
@@ -1180,7 +1175,6 @@
           "Title": "SNS 링크",
           "None": "SNS 링크가 없어요.",
           "OpenConfirmation": {
-            "Description": "이 SNS 링크는 {0}(으)로 연결됩니다.\n\n정말 방문하시겠어요?"
           }
         },
         "Favorites": {
@@ -1338,12 +1332,8 @@
         "Effect": {
           "Preview": {
             "Audio": {
-              "Loading": "SE 오디오를 디코딩하는 중...",
-              "Error": "\"{0}\" SE 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
             },
             "Boot": {
-              "Loading": "SE 부팅 중...",
-              "Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요."
             }
           },
           "ShareSuccess": {
@@ -1360,8 +1350,8 @@
               "Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
             },
             "Boot": {
-              "Loading": "SE 부팅 중...",
-              "Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요."
+              "Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요.",
+              "Loading": "SE 부팅 중..."
             }
           }
         },
@@ -1506,7 +1496,6 @@
       "Title": "설정",
       "Graphics": {
         "Title": "그래픽",
-        "TargetFps": "목표 FPS",
         "RenderScale": "렌더 스케일",
         "AntiAliasing": {
           "Title": "안티 앨리어싱",
