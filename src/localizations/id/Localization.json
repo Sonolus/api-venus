@@ -151,6 +151,11 @@
       "#LENGTH": "Masukkan durasi...",
       "#LENGTH_MINIMUM": "Masukkan durasi minimum...",
       "#LENGTH_MAXIMUM": "Masukkan durasi maksimum"
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} s",
+      "#MILLISECOND": "{0} ms"
     }
   },
   "Common": {
@@ -179,6 +184,7 @@
     "Share": "Bagikan",
     "Update": "Perbarui",
     "Delete": "Hapus",
+    "Preview": "Pratinjau",
     "Judgment": "Penilaian",
     "Accuracy": "Akurasi",
     "Grade": "Nilai",
@@ -275,7 +281,8 @@
         "InElastic": "Elastic (In)",
         "OutElastic": "Elastic (Out)",
         "InOutElastic": "Elastic (In Out)",
-        "OutInElastic": "Elastic (Out In)"
+        "OutInElastic": "Elastic (Out In)",
+        "None": "Tidak Ada"
       }
     }
   },
@@ -1154,7 +1161,6 @@
         "Login": {
           "Apple": "Masuk dengan Apple",
           "Google": "Masuk dengan Google",
-          "QQ": "Masuk dengan QQ",
           "Wechat": "Masuk dengan WeChat"
         },
         "Profile": "Profil",
@@ -1319,11 +1325,27 @@
           }
         },
         "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "Booting latar...",
+              "Error": "Gagal untuk boot latar \"{0}\".\n\nSilakan hubungi pembuat latar untuk melaporkan masalahnya."
+            }
+          },
           "ShareSuccess": {
             "Title": "Link Latar Disalin"
           }
         },
         "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "Decoding audio SFX...",
+              "Error": "Gagal untuk mengdecode audio SFX \"{0}\".\n\nSilakan hubungi pembuat SFX untuk melaporkan masalahnya."
+            },
+            "Boot": {
+              "Loading": "Booting SFX...",
+              "Error": "Gagal untuk boot SFX \"{0}\".\n\nSilakan hubungi pembuat SFX untuk melaporkan masalahnya."
+            }
+          },
           "ShareSuccess": {
             "Title": "Link Efek Disalin"
           }
@@ -1523,6 +1545,7 @@
         "Localization": "Bahasa",
         "Theme": "Tema",
         "Scale": "Skala UI",
+        "UnpauseDelay": "Delay Setelah Jeda",
         "PerfectJudgmentColors": "Warna Penilaian Perfect",
         "GreatJudgmentColors": "Warna Penilaian Great",
         "GoodJudgmentColors": "Warna Penilaian Good",
@@ -1664,6 +1687,15 @@
                 "Title": "Grafik Klasifikasi"
               }
             }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "Main"
           }
         }
       }

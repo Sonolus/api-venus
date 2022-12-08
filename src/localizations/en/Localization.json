@@ -151,6 +151,11 @@
             "#LENGTH": "Enter length...",
             "#LENGTH_MINIMUM": "Enter minimum length...",
             "#LENGTH_MAXIMUM": "Enter maximum length..."
+        },
+        "Unit": {
+            "#PERCENTAGE": "{0}%",
+            "#SECOND": "{0} s",
+            "#MILLISECOND": "{0} ms"
         }
     },
     "Common": {
@@ -179,6 +184,7 @@
         "Share": "Share",
         "Update": "Update",
         "Delete": "Delete",
+        "Preview": "Preview",
         "Judgment": "Judgment",
         "Accuracy": "Accuracy",
         "Grade": "Grade",
@@ -275,7 +281,8 @@
                 "InElastic": "Elastic (In)",
                 "OutElastic": "Elastic (Out)",
                 "InOutElastic": "Elastic (In Out)",
-                "OutInElastic": "Elastic (Out In)"
+                "OutInElastic": "Elastic (Out In)",
+                "None": "None"
             }
         }
     },
@@ -1154,7 +1161,6 @@
                 "Login": {
                     "Apple": "Sign in with Apple",
                     "Google": "Sign in with Google",
-                    "QQ": "Sign in with QQ",
                     "Wechat": "Sign in with WeChat"
                 },
                 "Profile": "Profile",
@@ -1319,11 +1325,27 @@
                     }
                 },
                 "Background": {
+                    "Preview": {
+                        "Boot": {
+                            "Loading": "Booting background...",
+                            "Error": "Failed to boot background \"{0}\".\n\nPlease contact background author to report the problem."
+                        }
+                    },
                     "ShareSuccess": {
                         "Title": "Background Link Copied"
                     }
                 },
                 "Effect": {
+                    "Preview": {
+                        "Audio": {
+                            "Loading": "Decoding SFX audio...",
+                            "Error": "Failed to decode SFX audio of \"{0}\".\n\nPlease contact SFX author to report the problem."
+                        },
+                        "Boot": {
+                            "Loading": "Booting SFX...",
+                            "Error": "Failed to boot SFX \"{0}\".\n\nPlease contact SFX author to report the problem."
+                        }
+                    },
                     "ShareSuccess": {
                         "Title": "Effect Link Copied"
                     }
@@ -1523,6 +1545,7 @@
                 "Localization": "Language",
                 "Theme": "Theme",
                 "Scale": "UI Scale",
+                "UnpauseDelay": "Unpause Delay",
                 "PerfectJudgmentColors": "Perfect Judgment Colors",
                 "GreatJudgmentColors": "Great Judgment Colors",
                 "GoodJudgmentColors": "Good Judgment Colors",
@@ -1664,6 +1687,15 @@
                                 "Title": "Bucket Graph"
                             }
                         }
+                    }
+                }
+            }
+        },
+        "Effect": {
+            "Preview": {
+                "Routes": {
+                    "Preview": {
+                        "Play": "Play"
                     }
                 }
             }

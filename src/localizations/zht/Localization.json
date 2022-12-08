@@ -151,6 +151,11 @@
       "#LENGTH": "請輸入時長…",
       "#LENGTH_MINIMUM": "請輸入最短時長…",
       "#LENGTH_MAXIMUM": "請輸入最長時長…"
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} s",
+      "#MILLISECOND": "{0} ms"
     }
   },
   "Common": {
@@ -179,6 +184,7 @@
     "Share": "分享",
     "Update": "更新",
     "Delete": "刪除",
+    "Preview": "預覽",
     "Judgment": "判定",
     "Accuracy": "準確率",
     "Grade": "評級",
@@ -275,7 +281,8 @@
         "InElastic": "彈性（入）",
         "OutElastic": "彈性（出）",
         "InOutElastic": "彈性（入出）",
-        "OutInElastic": "彈性（出入）"
+        "OutInElastic": "彈性（出入）",
+        "None": "無"
       }
     }
   },
@@ -1154,7 +1161,6 @@
         "Login": {
           "Apple": "使用 Apple 登入",
           "Google": "使用 Google 登入",
-          "QQ": "使用QQ登入",
           "Wechat": "用微信登入"
         },
         "Profile": "簡介",
@@ -1319,11 +1325,27 @@
           }
         },
         "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "啟動背景...",
+              "Error": "啟動背景 “{0}” 失敗。\n\n請聯繫背景作者回報問題。"
+            }
+          },
           "ShareSuccess": {
             "Title": "已複製背景鏈接"
           }
         },
         "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "解碼音效中...",
+              "Error": "解碼音效 “{0}” 失敗。\n\n請聯繫音效作者回報問題。"
+            },
+            "Boot": {
+              "Loading": "啟動音效中...",
+              "Error": "啟動音效 “{0}” 失敗。\n\n請聯繫音效作者回報問題。"
+            }
+          },
           "ShareSuccess": {
             "Title": "已複製特效鏈接"
           }
@@ -1523,6 +1545,7 @@
         "Localization": "語言",
         "Theme": "主題",
         "Scale": "UI比例",
+        "UnpauseDelay": "暫停解除時的延遲",
         "PerfectJudgmentColors": "Perfect判定顏色",
         "GreatJudgmentColors": "Great判定顏色",
         "GoodJudgmentColors": "Good判定顏色",
@@ -1664,6 +1687,15 @@
                 "Title": "分類圖表"
               }
             }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "播放"
           }
         }
       }
