@@ -151,6 +151,11 @@
       "#LENGTH": "Entrez la longueur...",
       "#LENGTH_MINIMUM": "Entrez la longueur minimale...",
       "#LENGTH_MAXIMUM": "Entrez la longueur maximale..."
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} s",
+      "#MILLISECOND": "{0} ms"
     }
   },
   "Common": {
@@ -179,6 +184,7 @@
     "Share": "Partager",
     "Update": "Mise à jour",
     "Delete": "Effacer",
+    "Preview": "Preview",
     "Judgment": "Jugement",
     "Accuracy": "Précision",
     "Grade": "Grade",
@@ -275,7 +281,8 @@
         "InElastic": "Elastic (In)",
         "OutElastic": "Elastic (Out)",
         "InOutElastic": "Elastic (In Out)",
-        "OutInElastic": "Elastic (Out In)"
+        "OutInElastic": "Elastic (Out In)",
+        "None": "Aucun"
       }
     }
   },
@@ -1154,7 +1161,6 @@
         "Login": {
           "Apple": "Connectez-vous avec Apple",
           "Google": "Connectez-vous avec Google",
-          "QQ": "Connectez-vous avec QQ",
           "Wechat": "Connectez-vous avec WeChat"
         },
         "Profile": "Profil",
@@ -1319,11 +1325,27 @@
           }
         },
         "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "Démarrage de l'arrière-plan...",
+              "Error": "Échec du démarrage de l'arrière-plan \"{0}\".\n\nVeuillez contacter l'auteur de l'arrière-plan pour signaler le problème."
+            }
+          },
           "ShareSuccess": {
             "Title": "Lien d'arrière-plan copié"
           }
         },
         "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "Décodage audio SFX...",
+              "Error": "Impossible de décoder l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
+            },
+            "Boot": {
+              "Loading": "Démarrage de SFX...",
+              "Error": "Échec du démarrage du SFX \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
+            }
+          },
           "ShareSuccess": {
             "Title": "Lien d'effet copié"
           }
@@ -1474,6 +1496,7 @@
       "Title": "Réglages",
       "Graphics": {
         "Title": "Graphics",
+        "TargetFps": "FPS cible",
         "RenderScale": "Render Scale",
         "AntiAliasing": {
           "Title": "Anti-Aliasing",
@@ -1522,6 +1545,7 @@
         "Localization": "Language",
         "Theme": "Thème",
         "Scale": "Taille de l'UI",
+        "UnpauseDelay": "Reprendre le délai",
         "PerfectJudgmentColors": "Perfect couleurs de jugement",
         "GreatJudgmentColors": "Great couleurs de jugement",
         "GoodJudgmentColors": "Good couleurs de jugement",
@@ -1663,6 +1687,15 @@
                 "Title": "Graphique de compartiment"
               }
             }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "Jouer"
           }
         }
       }
