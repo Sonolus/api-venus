@@ -151,6 +151,11 @@
       "#LENGTH": "输入长度…",
       "#LENGTH_MINIMUM": "输入最短长度…",
       "#LENGTH_MAXIMUM": "输入最长长度…"
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} 秒",
+      "#MILLISECOND": "{0} 毫秒"
     }
   },
   "Common": {
@@ -179,6 +184,7 @@
     "Share": "分享",
     "Update": "更新",
     "Delete": "删除",
+    "Preview": "预览",
     "Judgment": "判定",
     "Accuracy": "准度",
     "Grade": "评级",
@@ -275,7 +281,8 @@
         "InElastic": "弹性（入）",
         "OutElastic": "弹性（出）",
         "InOutElastic": "弹性（入出）",
-        "OutInElastic": "弹性（出入）"
+        "OutInElastic": "弹性（出入）",
+        "None": "无"
       }
     }
   },
@@ -1154,7 +1161,6 @@
         "Login": {
           "Apple": "苹果登录",
           "Google": "谷歌登录",
-          "QQ": "QQ登录",
           "Wechat": "微信登录"
         },
         "Profile": "资料",
@@ -1319,11 +1325,27 @@
           }
         },
         "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "正在启动背景…",
+              "Error": "启动背景“{0}”失败。\n\n请联系背景作者并汇报这个问题。"
+            }
+          },
           "ShareSuccess": {
             "Title": "背景链接已复制"
           }
         },
         "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "正在解码音效音频…",
+              "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
+            },
+            "Boot": {
+              "Loading": "正在启动音效…",
+              "Error": "启动音效“{0}”失败。\n\n请联系音效作者并汇报这个问题。"
+            }
+          },
           "ShareSuccess": {
             "Title": "音效链接已复制"
           }
@@ -1523,6 +1545,7 @@
         "Localization": "语言",
         "Theme": "主题",
         "Scale": "用户界面比例",
+        "UnpauseDelay": "暂停恢复延迟",
         "PerfectJudgmentColors": "Perfect 判定颜色",
         "GreatJudgmentColors": "Great 判定颜色",
         "GoodJudgmentColors": "Good 判定颜色",
@@ -1664,6 +1687,15 @@
                 "Title": "分类图"
               }
             }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "播放"
           }
         }
       }
