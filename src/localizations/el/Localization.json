@@ -151,6 +151,11 @@
       "#LENGTH": "Εισαγάγετε μήκος...",
       "#LENGTH_MINIMUM": "Εισαγάγετε ελάχιστο μήκος...",
       "#LENGTH_MAXIMUM": "Εισαγάγετε μέγιστο μήκος..."
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} s",
+      "#MILLISECOND": "{0} ms"
     }
   },
   "Common": {
@@ -179,6 +184,7 @@
     "Share": "Μοιραστείτε",
     "Update": "Ενημέρωση",
     "Delete": "Διαγραφή",
+    "Preview": "Προεπισκόπηση",
     "Judgment": "Κρίση",
     "Accuracy": "Ακρίβεια",
     "Grade": "Βαθμός",
@@ -275,7 +281,8 @@
         "InElastic": "Elastic (In)",
         "OutElastic": "Elastic (Out)",
         "InOutElastic": "Elastic (In Out)",
-        "OutInElastic": "Elastic (Out In)"
+        "OutInElastic": "Elastic (Out In)",
+        "None": "Κανένα"
       }
     }
   },
@@ -1154,7 +1161,6 @@
         "Login": {
           "Apple": "Συνδεθείτε με την Apple",
           "Google": "Συνδεθείτε με το Google",
-          "QQ": "Συνδεθείτε με QQ",
           "Wechat": "Συνδεθείτε με το WeChat"
         },
         "Profile": "Προφίλ",
@@ -1319,11 +1325,27 @@
           }
         },
         "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "Εκκίνηση φόντου...",
+              "Error": "Απέτυχε η εκκίνηση του φόντου \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα του φόντου για να αναφέρετε το πρόβλημα."
+            }
+          },
           "ShareSuccess": {
             "Title": "Ο σύνδεσμος φόντου αντιγράφηκε"
           }
         },
         "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "Αποκωδικοποίηση ήχου SFX...",
+              "Error": "Απέτυχε η αποκωδικοποίηση του ήχου SFX του \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα του SFX για να αναφέρετε το πρόβλημα."
+            },
+            "Boot": {
+              "Loading": "Εκκίνηση SFX...",
+              "Error": "Απέτυχε η εκκίνηση του SFX \"{0}\".\n\nΕπικοινωνήστε με τον συγγραφέα του SFX για να αναφέρετε το πρόβλημα."
+            }
+          },
           "ShareSuccess": {
             "Title": "Ο σύνδεσμος εφέ αντιγράφηκε"
           }
@@ -1523,6 +1545,7 @@
         "Localization": "Γλώσσα",
         "Theme": "Θέμα",
         "Scale": "Κλίμακα διεπαφής χρήστη",
+        "UnpauseDelay": "Καθυστέρηση κατάργησης παύσης",
         "PerfectJudgmentColors": "Χρώματα τέλειας κρίσης",
         "GreatJudgmentColors": "Μεγάλη κρίση χρώματα",
         "GoodJudgmentColors": "Χρώματα καλής κρίσης",
@@ -1664,6 +1687,15 @@
                 "Title": "Γράφημα \"κουβά\""
               }
             }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "Παίξτε"
           }
         }
       }
