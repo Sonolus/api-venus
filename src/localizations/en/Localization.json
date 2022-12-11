@@ -415,7 +415,7 @@
                 },
                 "Compatibility": {
                     "Loading": "Checking level compatibility...",
-                    "Error": "Level \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "Level \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different level, or contact server owner to report the problem."
                 },
                 "Cover": {
                     "Loading": "Loading level cover...",
@@ -445,7 +445,7 @@
                 },
                 "Compatibility": {
                     "Loading": "Checking skin compatibility...",
-                    "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different skin, or contact server owner to report the problem."
                 },
                 "Thumbnail": {
                     "Loading": "Loading skin thumbnail...",
@@ -471,7 +471,7 @@
                 },
                 "Compatibility": {
                     "Loading": "Checking background compatibility...",
-                    "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "Background \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different background, or contact server owner to report the problem."
                 },
                 "Thumbnail": {
                     "Loading": "Loading background thumbnail...",
@@ -501,7 +501,7 @@
                 },
                 "Compatibility": {
                     "Loading": "Checking SFX compatibility...",
-                    "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different SFX, or contact server owner to report the problem."
                 },
                 "Thumbnail": {
                     "Loading": "Loading SFX thumbnail...",
@@ -527,7 +527,7 @@
                 },
                 "Compatibility": {
                     "Loading": "Checking particle compatibility...",
-                    "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different particle, or contact server owner to report the problem."
                 },
                 "Thumbnail": {
                     "Loading": "Loading particle thumbnail...",
@@ -553,7 +553,7 @@
                 },
                 "Compatibility": {
                     "Loading": "Checking engine compatibility...",
-                    "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nPlease contact server owner to report the problem."
+                    "Error": "Engine \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different engine, or contact server owner to report the problem."
                 },
                 "Thumbnail": {
                     "Loading": "Loading engine thumbnail...",
