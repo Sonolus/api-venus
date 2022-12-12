@@ -415,7 +415,7 @@
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas level...",
-          "Error": "Level \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Level \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan level yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
         },
         "Cover": {
           "Loading": "Memuat cover level.",
@@ -445,7 +445,7 @@
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas skin...",
-          "Error": "Skin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Skin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan skin yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail skin...",
@@ -471,7 +471,7 @@
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas latar...",
-          "Error": "Latar \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Latar \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan latar yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail latar...",
@@ -501,7 +501,7 @@
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas SFX...",
-          "Error": "SFX \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "SFX \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan SFX yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail SFX...",
@@ -527,7 +527,7 @@
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas partikel...",
-          "Error": "Partikel \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Partikel \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan partikel yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail partikel...",
@@ -553,7 +553,7 @@
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas mesin...",
-          "Error": "Mesin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Mesin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan mesin yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail mesin...",
