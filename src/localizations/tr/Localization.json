@@ -940,7 +940,7 @@
     }
   },
   "Title": {
-    "TapToStart": "Başlatmak için Dokun"
+    "TapToStart": "Başlatmak için Dokunun"
   },
   "Layout": {
     "Refresh": "Yenile",
@@ -1282,7 +1282,7 @@
       },
       "Details": {
         "Actions": {
-          "Configuration": "Yapılandırma"
+          "Configuration": "Yapılandır"
         },
         "DeleteConfirmation": {
           "Description": "\"{0}\"u silmek istediğinizden emin misiniz?"
