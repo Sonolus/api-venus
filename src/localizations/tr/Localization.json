@@ -74,7 +74,7 @@
       "#NOTE_ROTATION": "Nota Döndürmesi",
       "#NOTE_ALPHA": "Nota Saydamlığı",
       "#NOTE_EFFECT": "Nota Efekti",
-      "#NOTE_EFFECT_SIZE": "Note Efekt Büyüklüğü",
+      "#NOTE_EFFECT_SIZE": "Nota Efekt Büyüklüğü",
       "#NOTE_EFFECT_ROTATION": "Nota Efekt Döndürmesi",
       "#NOTE_EFFECT_ALPHA": "Note Efekt Saydamlığı",
       "#MARKER": "İmleç",
@@ -190,7 +190,7 @@
     "Grade": "Not",
     "ArcadeScore": "Atr. Skoru",
     "AccuracyScore": "Ksnlk. Skoru",
-    "Combo": "Combo",
+    "Combo": "Kombo",
     "Perfect": "Perfect",
     "Great": "Great",
     "Good": "Good",
@@ -1241,7 +1241,7 @@
       },
       "Lists": {
         "DeleteConfirmation": {
-          "Description": "\"{0}\"u silmek istediğinize emin misiniz?"
+          "Description": "\"{0}\" dosyasını silmek istediğinize emin misiniz?"
         },
         "Level": {
           "Title": "Seviyeler",
@@ -1285,7 +1285,7 @@
           "Configuration": "Yapılandır"
         },
         "DeleteConfirmation": {
-          "Description": "\"{0}\"u silmek istediğinizden emin misiniz?"
+          "Description": "\"{0}\" dosyasını silmek istediğinizden emin misiniz?"
         },
         "Description": {
           "Title": "Açıklama"
@@ -1695,7 +1695,7 @@
       "Preview": {
         "Routes": {
           "Preview": {
-            "Play": "Oyna"
+            "Play": "Oynat"
           }
         }
       }
