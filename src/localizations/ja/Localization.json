@@ -34,6 +34,7 @@
       "#STAGE_SIZE": "ステージの大きさ",
       "#STAGE_ROTATION": "ステージの回転",
       "#STAGE_ALPHA": "ステージの不透明度",
+      "#STAGE_ANIMATION": "ステージのアニメーション",
       "#STAGE_TILT": "ステージの傾き",
       "#STAGE_COVER_VERTICAL": "レーンカバー(縦方向)",
       "#STAGE_COVER_HORIZONTAL": "レーンカバー(横方向)",
