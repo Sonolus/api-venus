@@ -5,11 +5,8 @@
   },
   "Texts": {
     "Name": {
-      "#KEYWORDS": "키워드",
+      "#KEYWORDS": "검색어",
       "#NAME": "이름",
-      "#RATING": "레벨",
-      "#RATING_MINIMUM": "최소 레벨",
-      "#RATING_MAXIMUM": "최대 레벨",
       "#TITLE": "제목",
       "#SUBTITLE": "부제목",
       "#ARTISTS": "작곡가",
@@ -22,7 +19,7 @@
       "#LENGTH_MINIMUM": "최소 길이",
       "#LENGTH_MAXIMUM": "최대 길이",
       "#SPEED": "레벨 속도",
-      "#AUTO": "오토 플레이",
+      "#AUTO": "자동 플레이",
       "#MIRROR": "반전",
       "#RANDOM": "랜덤",
       "#HIDDEN": "히든",
@@ -143,11 +140,8 @@
       "#SPECIAL": "Special"
     },
     "Placeholder": {
-      "#KEYWORDS": "키워드 입력...",
+      "#KEYWORDS": "검색어 입력...",
       "#NAME": "이름 입력...",
-      "#RATING": "레이팅 입력...",
-      "#RATING_MINIMUM": "최소 레이팅 입력...",
-      "#RATING_MAXIMUM": "최대 레이팅 입력...",
       "#TITLE": "제목 입력...",
       "#SUBTITLE": "부제목 입력...",
       "#ARTISTS": "작곡가 입력...",
@@ -196,14 +190,14 @@
     "Judgment": "판정",
     "Accuracy": "정확도",
     "Grade": "등급",
-    "ArcadeScore": "점수",
+    "ArcadeScore": "아케이드 점수",
     "AccuracyScore": "정확도 점수",
     "Combo": "콤보",
     "Perfect": "Perfect",
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
-    "AdvancedOption": "이 옵션은 고급 플레이어를 위한 거에요.",
+    "AdvancedOption": "전문적인 플레이어를 위한 옵션입니다.",
     "ColorField": {
       "Hex": "HEX",
       "Rgb": "RGB",
@@ -221,7 +215,7 @@
       "Calibrate": "판정 조절"
     },
     "PullToLoad": {
-      "None": "더 불러올게 없어요",
+      "None": "불러올 항목이 더 이상 없습니다",
       "More": "당겨서 더 보기"
     },
     "UI": {
@@ -1215,7 +1209,7 @@
       "AddSocialLink": {
         "Title": "SNS 링크 추가",
         "SocialLinkTitle": "이름",
-        "SocialLinkTitlePlaceholder": "SNS 이름 입력 (예: 트위터, 인스타)...",
+        "SocialLinkTitlePlaceholder": "소셜 링크 제목 입력…",
         "SocialLinkAddress": "링크",
         "SocialLinkAddressPlaceholder": "SNS 링크 입력..."
       },
@@ -1362,16 +1356,6 @@
         "Particle": {
           "ShareSuccess": {
             "Title": "탭 이펙트 링크 복사됨"
-          },
-          "Preview": {
-            "Audio": {
-              "Loading": "SE 오디오를 디코딩 하는 중...",
-              "Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
-            },
-            "Boot": {
-              "Loading": "SE 부팅 중...",
-              "Error": "\"{0}\" SE를 부팅하지 못했어요.\n\nSE 제작자에게 문의해주세요."
-            }
           }
         },
         "Engine": {
@@ -1538,7 +1522,7 @@
           "Title": "BGM 미리보기",
           "Options": {
             "Off": "끄기",
-            "DetailsOnly": "자세한 정보",
+            "DetailsOnly": "자세한 정보만",
             "ListAndDetails": "목록과 자세한 정보"
           }
         },
@@ -1563,7 +1547,7 @@
         "Title": "UI",
         "Localization": "언어",
         "Theme": "테마",
-        "Scale": "UI 스케일",
+        "Scale": "UI 크기",
         "UnpauseDelay": "일시정지 해제 딜레이",
         "PerfectJudgmentColors": "Perfect 판정 색",
         "GreatJudgmentColors": "Great 판정 색",
@@ -1699,8 +1683,8 @@
                 "AbsValue": "절대값",
                 "Mean": "평균치",
                 "StDev": "표준편차",
-                "Min": "최소값",
-                "Max": "최대값"
+                "Min": "최솟값",
+                "Max": "최댓값"
               },
               "Bucket": {
                 "Title": "판정 그래프"
