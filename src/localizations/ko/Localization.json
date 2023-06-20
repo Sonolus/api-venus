@@ -7,6 +7,9 @@
     "Name": {
       "#KEYWORDS": "검색어",
       "#NAME": "이름",
+      "#RATING": "난이도",
+      "#RATING_MINIMUM": "최소 난이도",
+      "#RATING_MAXIMUM": "최대 난이도",
       "#TITLE": "제목",
       "#SUBTITLE": "부제목",
       "#ARTISTS": "작곡가",
@@ -142,6 +145,9 @@
     "Placeholder": {
       "#KEYWORDS": "검색어 입력...",
       "#NAME": "이름 입력...",
+      "#RATING": "난이도 입력...",
+      "#RATING_MINIMUM": "최소 난이도 입력...",
+      "#RATING_MAXIMUM": "최대 난이도 입력...",
       "#TITLE": "제목 입력...",
       "#SUBTITLE": "부제목 입력...",
       "#ARTISTS": "작곡가 입력...",
