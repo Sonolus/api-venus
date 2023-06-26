@@ -1,0 +1,809 @@
+{
+  "Meta": {
+    "Name": "ru"
+  },
+  "Texts": {
+    "Name": {
+    },
+    "Value": {
+    },
+    "Placeholder": {
+    },
+    "Unit": {
+    }
+  },
+  "Common": {
+    "Error": {
+    },
+    "Confirmation": {
+    },
+    "ColorField": {
+    },
+    "DeviceOffsetField": {
+    },
+    "PullToLoad": {
+    },
+    "UI": {
+      "Metric": {
+      },
+      "JudgmentErrorStyle": {
+      },
+      "JudgmentErrorPlacement": {
+      },
+      "Ease": {
+      }
+    }
+  },
+  "Themes": {
+  },
+  "Clients": {
+    "Master": {
+      "Info": {
+      },
+      "List": {
+      },
+      "Localization": {
+      }
+    },
+    "Service": {
+      "UserProfile": {
+      },
+      "Login": {
+        "Success": {
+          "New": {
+          },
+          "Old": {
+          }
+        }
+      },
+      "EditName": {
+        "Success": {
+        }
+      },
+      "EditAvatar": {
+        "Success": {
+        }
+      },
+      "EditAboutMe": {
+        "Success": {
+        }
+      },
+      "EditSocialLinks": {
+        "Success": {
+        }
+      },
+      "EditFavorites": {
+        "Success": {
+        }
+      },
+      "AuthenticateServer": {
+      },
+      "Logout": {
+        "Success": {
+        }
+      }
+    },
+    "CustomServer": {
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+          },
+          "Confirmation": {
+          }
+        },
+        "AuthenticationExpired": {
+        },
+        "AuthenticationRejected": {
+        },
+        "Authenticate": {
+        },
+        "AddressMismatchError": {
+        }
+      },
+      "Server": {
+        "Info": {
+        },
+        "Banner": {
+        }
+      },
+      "Level": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Rom": {
+        },
+        "Configuration": {
+        }
+      }
+    },
+    "Collection": {
+      "Server": {
+        "Info": {
+        },
+        "Banner": {
+        }
+      },
+      "Level": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Rom": {
+        },
+        "Configuration": {
+        }
+      }
+    },
+    "Scp": {
+      "Server": {
+        "Info": {
+        },
+        "Banner": {
+        }
+      },
+      "Level": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Cover": {
+        },
+        "Bgm": {
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Texture": {
+        }
+      },
+      "Engine": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Rom": {
+        },
+        "Configuration": {
+        }
+      }
+    }
+  },
+  "DeepLink": {
+    "Invalid": {
+    }
+  },
+  "Title": {
+  },
+  "Layout": {
+  },
+  "Routes": {
+    "JumpToPage": {
+    },
+    "SelectLocalization": {
+    },
+    "SelectTheme": {
+    },
+    "SelectClient": {
+      "CustomServers": {
+        "RemoveConfirmation": {
+        }
+      },
+      "Collections": {
+        "RemoveConfirmation": {
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+      },
+      "ToSave": {
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        }
+      },
+      "ToUse": {
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        }
+      }
+    },
+    "EditCustomServer": {
+    },
+    "AddCustomServerAddress": {
+    },
+    "AddCustomServerInfo": {
+      "Info": {
+      }
+    },
+    "EditCollection": {
+    },
+    "AddCollection": {
+    },
+    "ImportScp": {
+      "Scp": {
+      },
+      "Success": {
+      }
+    },
+    "ExportScp": {
+      "Success": {
+      }
+    },
+    "EditVisibility": {
+    },
+    "EditAnimation": {
+    },
+    "EditTween": {
+    },
+    "EditColors": {
+    },
+    "CalibrateAudio": {
+    },
+    "CalibrateInput": {
+    },
+    "Home": {
+      "UpdateAvailable": {
+      }
+    },
+    "Players": {
+      "PlayerLookup": {
+      }
+    },
+    "Account": {
+      "MyAccount": {
+        "Login": {
+        }
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+        },
+        "AboutMe": {
+        },
+        "SocialLinks": {
+          "OpenConfirmation": {
+          }
+        },
+        "Favorites": {
+        }
+      },
+      "EditName": {
+      },
+      "EditAvatar": {
+      },
+      "EditAboutMe": {
+      },
+      "AddSocialLink": {
+      },
+      "AddFavorite": {
+      }
+    },
+    "Server": {
+      "Home": {
+        "SaveSuccess": {
+        },
+        "ShareSuccess": {
+        }
+      },
+      "Search": {
+      },
+      "Lists": {
+        "DeleteConfirmation": {
+        },
+        "Level": {
+          "ShareSuccess": {
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+          }
+        },
+        "Background": {
+          "ShareSuccess": {
+          }
+        },
+        "Effect": {
+          "ShareSuccess": {
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+          }
+        },
+        "Engine": {
+          "ShareSuccess": {
+          }
+        }
+      },
+      "Details": {
+        "Actions": {
+        },
+        "DeleteConfirmation": {
+        },
+        "Description": {
+        },
+        "Recommended": {
+        },
+        "Level": {
+          "Actions": {
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+              }
+            },
+            "Level": {
+              "Bgm": {
+              }
+            },
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+          }
+        },
+        "Background": {
+          "Preview": {
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          }
+        },
+        "Effect": {
+          "Preview": {
+            "Audio": {
+            },
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+          }
+        },
+        "Engine": {
+          "ShareSuccess": {
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Skin": {
+          },
+          "Background": {
+          },
+          "Effect": {
+          },
+          "Particle": {
+          },
+          "Options": {
+          },
+          "Audio": {
+          },
+          "UI": {
+          },
+          "Offsets": {
+          }
+        },
+        "Skin": {
+        },
+        "Background": {
+          "Image": {
+          }
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+          "Skin": {
+          },
+          "Background": {
+          },
+          "Effect": {
+          },
+          "Particle": {
+          },
+          "Options": {
+          },
+          "UI": {
+          },
+          "Offsets": {
+          }
+        }
+      },
+      "Savers": {
+        "Level": {
+          "Success": {
+          }
+        },
+        "Skin": {
+          "Success": {
+          }
+        },
+        "Background": {
+          "Success": {
+          }
+        },
+        "Effect": {
+          "Success": {
+          }
+        },
+        "Particle": {
+          "Success": {
+          }
+        },
+        "Engine": {
+          "Success": {
+          }
+        }
+      }
+    },
+    "Settings": {
+      "Graphics": {
+        "AntiAliasing": {
+          "Options": {
+          }
+        }
+      },
+      "Audio": {
+        "PreviewBgm": {
+          "Options": {
+          }
+        },
+        "LevelBgmQuality": {
+          "Options": {
+          }
+        },
+        "PreviewBgmQuality": {
+          "Options": {
+          }
+        }
+      },
+      "UI": {
+      },
+      "Offsets": {
+        "Device": {
+        }
+      },
+      "Repository": {
+      },
+      "Cache": {
+      },
+      "Developer": {
+      }
+    },
+    "ManageRepository": {
+      "Repository": {
+      },
+      "DeleteRepository": {
+        "DeleteConfirmation": {
+        },
+        "Success": {
+        }
+      }
+    },
+    "ManageCache": {
+      "Cache": {
+      },
+      "ExpireCache": {
+        "ExpireConfirmation": {
+        },
+        "Success": {
+        }
+      },
+      "DeleteCache": {
+        "DeleteConfirmation": {
+        },
+        "Success": {
+        }
+      }
+    }
+  },
+  "Scp": {
+    "PermissionError": {
+    }
+  },
+  "Runtimes": {
+    "Level": {
+      "Play": {
+        "Routes": {
+          "Pause": {
+            "Control": {
+            },
+            "Snapshot": {
+            },
+            "Debug": {
+            }
+          },
+          "Result": {
+            "Options": {
+            },
+            "Graphs": {
+              "Judgment": {
+              },
+              "Accuracy": {
+              },
+              "Bucket": {
+              }
+            }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+          }
+        }
+      }
+    }
+  }
+}
