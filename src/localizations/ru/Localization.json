@@ -6,23 +6,80 @@
   "Texts": {
     "Name": {
       "#KEYWORDS": "Ключевые слова",
+      "#NAME": "Имя",
+      "#RATING": "Рейтинг",
+      "#RATING_MINIMUM": "Минимальный рейтинг",
+      "#RATING_MAXIMUM": "Максимальный рейтинг",
       "#TITLE": "Название",
       "#AUTHOR": "Автор",
+      "#GENRE": "Жанр",
       "#CATEGORY": "Категория",
+      "#LANGUAGE": "Язык",
+      "#DIFFICULTY": "Сложность",
+      "#LENGTH": "Длина",
+      "#LENGTH_MINIMUM": "Минимальная длина",
+      "#LENGTH_MAXIMUM": "Максимальная длина",
+      "#SPEED": "Скорость уровня",
+      "#AUTO": "Авто режим",
       "#MIRROR": "Зеркальный уровень",
+      "#RANDOM": "Случайный",
+      "#HIDDEN": "Спрятать",
       "#JUDGMENT_STRICT": "Строгая оценка",
       "#JUDGMENT_LOOSE": "Мягкая оценка",
       "#EFFECT_AUTO": "Автоматические  \nЭффекты",
       "#STAGE": "Уровень",
       "#STAGE_SIZE": "Размер уровня",
+      "#STAGE_ROTATION": "Крутящийся стадия",
       "#STAGE_ALPHA": "Прозрачность уровня",
-      "#STAGE_TILT": "Наклон уровня"
+      "#STAGE_TILT": "Наклон уровня",
+      "#STAGE_COVER_VERTICAL": "Вертикальная стадия",
+      "#STAGE_COVER_HORIZONTAL": "Горизонтальная стадия",
+      "#STAGE_COVER_ALPHA": "Ковер стадии прозрачности",
+      "#STAGE_ASPECTRATIO_LOCK": "Закрытая аспектации стадии",
+      "#STAGE_EFFECT": "Эффект стадии",
+      "#STAGE_EFFECT_SIZE": "Размер эффектов стадии",
+      "#STAGE_EFFECT_ROTATION": "Эффект крутящийся стадии",
+      "#STAGE_EFFECT_ALPHA": "Эффект прозрачной стадии",
+      "#LANE": "Линия",
+      "#LANE_SIZE": "Размер линии",
+      "#LANE_ROTATION": "Крутящийся линия",
+      "#LANE_ALPHA": "Прозрачность линии",
+      "#LANE_EFFECT": "Эффект линии",
+      "#LANE_EFFECT_SIZE": "Размер эффектов линии",
+      "#LANE_EFFECT_ALPHA": "Прозрачность эффектов линии",
+      "#JUDGELINE": "Cудейская линия",
+      "#JUDGELINE_SIZE": "Судейская размерная линия",
+      "#JUDGELINE_ROTATION": "Крутящийся судейская линия",
+      "#JUDGELINE_ALPHA": "Прозрачность судейская линия",
+      "#JUDGELINE_EFFECT_SIZE": "Размер судейской линии\nЭффекта",
+      "#SLOT": "Слот",
+      "#SLOT_SIZE": "Размер слота",
+      "#SLOT_ROTATION": "Ротация слотов",
+      "#SLOT_ALPHA": "Прозрачность слота",
+      "#SLOT_EFFECT": "Эффект слота",
+      "#SLOT_EFFECT_SIZE": "Размер эффект слота",
+      "#NOTE": "Нота",
+      "#NOTE_SPEED": "Скорость нот",
+      "#NOTE_SPEED_RANDOM": "Рандомная скорость нот",
+      "#NOTE_SIZE": "Размер нот",
+      "#NOTE_ALPHA": "Прозрачность нот",
+      "#NOTE_EFFECT": "Эффект нот"
     },
     "Value": {
+      "#LEFT": "Лево",
+      "#RIGHT": "Право",
+      "#UP": "Верх",
+      "#DOWN": "Вниз",
+      "#TOP_CENTER": "Вершина центра",
+      "#CENTER_LEFT": "Левый центр",
       "#CLOCKWISE": "По часовой стрелке",
       "#COUNTERCLOCKWISE": "Против часовой стрелки",
       "#FORWARD": "Вперёд",
-      "#BACKWARD": "Назад"
+      "#BACKWARD": "Назад",
+      "#EXPERT": "Эксперт",
+      "#MASTER": "Мастер",
+      "#PRO": "Про",
+      "#SPECIAL": "Специальный"
     },
     "Placeholder": {
     },
@@ -49,10 +106,23 @@
       "Title": "Подтверждение"
     },
     "Search": "Поиск",
+    "More": "Больше",
+    "PullToRefresh": "Потяните вниз чтобы обновить ",
+    "Save": "Сохранить",
+    "Share": "Отправить",
+    "Delete": "Удалить",
     "Judgment": "Оценивание",
+    "Accuracy": "Точность",
+    "Grade": "Награда",
+    "ArcadeScore": "Очки",
+    "AccuracyScore": "Точность очков",
     "Combo": "Комбо",
+    "Perfect": "Идеально",
+    "Great": "Отлично",
+    "Good": "Хорошо ",
     "Miss": "Мимо",
     "ColorField": {
+      "Rgb": "RGB",
       "R": "Красный",
       "G": "Зелёный",
       "B": "Синий",
@@ -65,11 +135,18 @@
       "Calibrate": "Калибровка"
     },
     "PullToLoad": {
+      "None": "Больше не загружать "
     },
     "UI": {
       "Metric": {
+        "Arcade": "Аркадные очки",
+        "Accuracy": "Очки точности",
+        "Life": "Жизнь",
+        "PerfectRate": "Идеальная оценка ",
+        "ErrorHeatmap": "Ошибка карты"
       },
       "JudgmentErrorStyle": {
+        "None": "Ничего",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -82,7 +159,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
+        "Both": "Оба",
+        "Left": "Лево",
+        "Right": "Право"
       },
+      "Visibility": "Видимость",
+      "Animation": "Анимация",
+      "Tween": "Твин",
       "Ease": {
         "Linear": "Линейная",
         "InSine": "Sine (In)",
@@ -730,6 +813,7 @@
         },
         "Engine": {
           "Skin": {
+            "Title": "Скин"
           },
           "Background": {
           },
@@ -782,6 +866,7 @@
       "Audio": {
         "PreviewBgm": {
           "Options": {
+            "Off": "Отключить"
           }
         },
         "LevelBgmQuality": {
@@ -790,6 +875,9 @@
         },
         "PreviewBgmQuality": {
           "Options": {
+            "Low": "Низкое",
+            "Mid": "Нормальное",
+            "High": "Высокая"
           }
         }
       },
@@ -806,12 +894,14 @@
       "Repository": {
       },
       "Cache": {
+        "Title": "Кэш"
       },
       "Developer": {
       }
     },
     "ManageRepository": {
       "Repository": {
+        "Size": "Размер: {0}"
       },
       "DeleteRepository": {
         "Delete": "Удалить",
@@ -856,10 +946,12 @@
           "Pause": {
             "Title": "Пауза",
             "Control": {
+              "Title": "Контроль",
               "Exit": "Выход",
               "Restart": "Рестарт"
             },
             "Snapshot": {
+              "Jump": "Прыжок"
             },
             "Debug": {
               "Title": "Дебаг"
