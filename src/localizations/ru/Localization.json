@@ -1,25 +1,68 @@
 {
   "Meta": {
-    "Name": "ru"
+    "Name": "ru",
+    "Title": "Русский"
   },
   "Texts": {
     "Name": {
+      "#KEYWORDS": "Ключевые слова",
+      "#TITLE": "Название",
+      "#AUTHOR": "Автор",
+      "#CATEGORY": "Категория",
+      "#MIRROR": "Зеркальный уровень",
+      "#JUDGMENT_STRICT": "Строгая оценка",
+      "#JUDGMENT_LOOSE": "Мягкая оценка",
+      "#EFFECT_AUTO": "Автоматические  \nЭффекты",
+      "#STAGE": "Уровень",
+      "#STAGE_SIZE": "Размер уровня",
+      "#STAGE_ALPHA": "Прозрачность уровня",
+      "#STAGE_TILT": "Наклон уровня"
     },
     "Value": {
+      "#CLOCKWISE": "По часовой стрелке",
+      "#COUNTERCLOCKWISE": "Против часовой стрелки",
+      "#FORWARD": "Вперёд",
+      "#BACKWARD": "Назад"
     },
     "Placeholder": {
     },
     "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} с.",
+      "#MILLISECOND": "{0} мс."
     }
   },
   "Common": {
+    "Loading": "Загрузка...",
+    "On": "ВКЛ",
+    "Off": "ВЫКЛ",
+    "Select": "Выбрать",
+    "Edit": "Изменить",
+    "View": "Просмотреть",
+    "Cancel": "Отмена",
+    "Confirm": "Подтвердить",
+    "Retry": "Повтор",
     "Error": {
+      "Title": "Ошибка"
     },
     "Confirmation": {
+      "Title": "Подтверждение"
     },
+    "Search": "Поиск",
+    "Judgment": "Оценивание",
+    "Combo": "Комбо",
+    "Miss": "Мимо",
     "ColorField": {
+      "R": "Красный",
+      "G": "Зелёный",
+      "B": "Синий",
+      "H": "Оттенок",
+      "S": "Насыщенность",
+      "V": "Значение",
+      "A": "Прозрачность"
     },
     "DeviceOffsetField": {
+      "Calibrate": "Калибровка"
     },
     "PullToLoad": {
     },
@@ -27,14 +70,37 @@
       "Metric": {
       },
       "JudgmentErrorStyle": {
+        "Plus": "+ / -",
+        "Minus": "- / +",
+        "ArrowUp": "↑ / ↓",
+        "ArrowDown": "↓ / ↑",
+        "ArrowLeft": "← / →",
+        "ArrowRight": "→ / ←",
+        "TriangleUp": "▲ / ▼",
+        "TriangleDown": "▼ / ▲",
+        "TriangleLeft": "◄ / ►",
+        "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
       },
       "Ease": {
+        "Linear": "Линейная",
+        "InSine": "Sine (In)",
+        "OutSine": "Sine (Out)",
+        "InOutSine": "Sine (In Out)",
+        "OutInSine": "Sine (Out In)",
+        "InQuad": "Quad (In)",
+        "OutQuad": "Quad (Out)",
+        "InOutQuad": "Quad (In Out)",
+        "OutInQuad": "Quad (Out In)",
+        "InCubic": "Cubic (In)",
+        "OutCubic": "Cubic (Out)"
       }
     }
   },
   "Themes": {
+    "Dark": "Тёмная",
+    "Light": "Светлая"
   },
   "Clients": {
     "Master": {
@@ -509,6 +575,7 @@
     },
     "Account": {
       "MyAccount": {
+        "Title": "Мой аккаунт",
         "Login": {
         }
       }
@@ -727,6 +794,10 @@
         }
       },
       "UI": {
+        "Title": "Интерфейс",
+        "Localization": "Язык",
+        "Theme": "Тема",
+        "Scale": "Масштаб интерфейса"
       },
       "Offsets": {
         "Device": {
@@ -743,6 +814,7 @@
       "Repository": {
       },
       "DeleteRepository": {
+        "Delete": "Удалить",
         "DeleteConfirmation": {
         },
         "Success": {
@@ -751,6 +823,7 @@
     },
     "ManageCache": {
       "Cache": {
+        "Title": "Кэш"
       },
       "ExpireCache": {
         "ExpireConfirmation": {
@@ -759,15 +832,21 @@
         }
       },
       "DeleteCache": {
+        "Title": "Удалить кэш",
+        "Description": "Удаление кэша заставит Sonolus перекачать все необходимые данные. Не рекомендовано.",
+        "Delete": "Удалить",
         "DeleteConfirmation": {
+          "Description": "Вы уверены, что хотите удалить весь кэш?"
         },
         "Success": {
+          "Title": "Кэш удалён"
         }
       }
     }
   },
   "Scp": {
     "PermissionError": {
+      "Open": "Открыть"
     }
   },
   "Runtimes": {
@@ -775,20 +854,27 @@
       "Play": {
         "Routes": {
           "Pause": {
+            "Title": "Пауза",
             "Control": {
+              "Exit": "Выход",
+              "Restart": "Рестарт"
             },
             "Snapshot": {
             },
             "Debug": {
+              "Title": "Дебаг"
             }
           },
           "Result": {
             "Options": {
+              "HasUsedPause": "Пауза"
             },
             "Graphs": {
               "Judgment": {
               },
               "Accuracy": {
+                "Min": "Мин.",
+                "Max": "Макс."
               },
               "Bucket": {
               }
@@ -801,6 +887,7 @@
       "Preview": {
         "Routes": {
           "Preview": {
+            "Play": "Играть"
           }
         }
       }
