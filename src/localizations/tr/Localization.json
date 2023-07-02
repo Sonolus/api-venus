@@ -1,1713 +1,1931 @@
 {
-    "Meta": {
-        "Name": "tr",
-        "Title": "Türkçe (Turkish)"
+  "Meta": {
+    "Name": "tr",
+    "Title": "Türkçe (Turkish)"
+  },
+  "Texts": {
+    "Name": {
+      "#KEYWORDS": "Anahtar Kelimeler",
+      "#NAME": "İsim",
+      "#RATING": "Derece",
+      "#RATING_MINIMUM": "Minimum Derece",
+      "#RATING_MAXIMUM": "Maksimum Derece",
+      "#TITLE": "Başlık",
+      "#SUBTITLE": "Altyazı",
+      "#ARTISTS": "Sanatçılar",
+      "#AUTHOR": "Yaratıcı",
+      "#GENRE": "Tür",
+      "#CATEGORY": "Kategori",
+      "#LANGUAGE": "Dil",
+      "#DIFFICULTY": "Zorluk",
+      "#LENGTH": "Uzunluk",
+      "#LENGTH_MINIMUM": "Minimum Uzunluk",
+      "#LENGTH_MAXIMUM": "Maksimum Uzunluk",
+      "#SPEED": "Seviye Hızı",
+      "#AUTO": "Otomatik Yürütme",
+      "#MIRROR": "Seviyeyi Ters Yansıt ",
+      "#RANDOM": "Rastgele",
+      "#HIDDEN": "Gizli",
+      "#JUDGMENT_STRICT": "Katı Yargı",
+      "#JUDGMENT_LOOSE": "Yumuşak Yargı",
+      "#EFFECT": "Ses Efekti",
+      "#EFFECT_AUTO": "Otomatik Ses Efekti",
+      "#STAGE": "Sahne",
+      "#STAGE_POSITION": "Sahne Pozisyonu",
+      "#STAGE_SIZE": "Sahne Boyutu",
+      "#STAGE_ROTATION": "Sahne Döndürmesi",
+      "#STAGE_ALPHA": "Sahne Saydamlığı",
+      "#STAGE_ANIMATION": "Sahne Animasyonu",
+      "#STAGE_TILT": "Sahne Eğilimi",
+      "#STAGE_COVER_VERTICAL": "Dikey Sahne Örtüsü",
+      "#STAGE_COVER_HORIZONTAL": "Yatay Sahne Örtüsü",
+      "#STAGE_COVER_ALPHA": "Sahne Örtüsü Saydamlığı",
+      "#STAGE_ASPECTRATIO_LOCK": "Sahne Görünüş Oranını Kilitle",
+      "#STAGE_EFFECT": "Sahne Efekti",
+      "#STAGE_EFFECT_POSITION": "Sahne Efekti Posizyonu",
+      "#STAGE_EFFECT_SIZE": "Sahne Efekt Boyutu",
+      "#STAGE_EFFECT_ROTATION": "Sahne Efekt Döndürmesi",
+      "#STAGE_EFFECT_ALPHA": "Sahne Efekt Saydamlığı",
+      "#LANE": "Kulvar",
+      "#LANE_POSITION": "Kulvar Posizyonu",
+      "#LANE_SIZE": "Kulvar Boyutu",
+      "#LANE_ROTATION": "Kulvar Döndürmesi",
+      "#LANE_ALPHA": "Kulvar Saydamlığı",
+      "#LANE_ANIMATION": "Kulvar Animasyonu",
+      "#LANE_EFFECT": "Kulvar Efekti",
+      "#LANE_EFFECT_POSITION": "Kulvar Efekti Posizyonu",
+      "#LANE_EFFECT_SIZE": "Kulvar Efekt Boyutu",
+      "#LANE_EFFECT_ROTATION": "Kulvar Efekt Döndürmesi",
+      "#LANE_EFFECT_ALPHA": "Kulvar Efekt Saydamlığı",
+      "#JUDGELINE": "Yargı Çizgisi",
+      "#JUDGELINE_POSITION": "Yargı Çizgisi Posizyonu",
+      "#JUDGELINE_SIZE": "Yargı Çizgi Büyüklüğü",
+      "#JUDGELINE_ROTATION": "Yargı Çizgi Döndürmesi",
+      "#JUDGELINE_ALPHA": "Yargı Çizgi Saydamlığı",
+      "#JUDGELINE_ANIMATION": "Yargı Çizgi Animasyonu",
+      "#JUDGELINE_EFFECT": "Yargı Çizgi Efekti",
+      "#JUDGELINE_EFFECT_POSITION": "Yargı Çizgi Efekti Posizyonu",
+      "#JUDGELINE_EFFECT_SIZE": "Yargı Çizgi Efekt Boyutu",
+      "#JUDGELINE_EFFECT_ROTATION": "Yargı Çizgi Efekt Döndürmesi",
+      "#JUDGELINE_EFFECT_ALPHA": "Yargı Çizgi Efekt Saydamlığı",
+      "#SLOT": "Yuva",
+      "#SLOT_POSITION": "Yuva Pozisyonu",
+      "#SLOT_SIZE": "Yuva Büyüklüğü",
+      "#SLOT_ROTATION": "Yuva Döndürmesi",
+      "#SLOT_ALPHA": "Yuva Saydamlığı",
+      "#SLOT_ANIMATION": "Yuva Animasyonu",
+      "#SLOT_EFFECT": "Yuva Efekti",
+      "#SLOT_EFFECT_POSITION": "Yuva Efekti Pozisyonu",
+      "#SLOT_EFFECT_SIZE": "Yuva Efekt Büyüklüğü",
+      "#SLOT_EFFECT_ROTATION": "Yuva Efekt Döndürmesi",
+      "#SLOT_EFFECT_ALPHA": "Yuva Efekt Saydamlığı",
+      "#NOTE": "Nota",
+      "#NOTE_SPEED": "Nota Hızı",
+      "#NOTE_SPEED_RANDOM": "Rastgele Nota Hızı",
+      "#NOTE_POSITION": "Nota Pozisyonu",
+      "#NOTE_SIZE": "Nota Büyüklüğü",
+      "#NOTE_ROTATION": "Nota Döndürmesi",
+      "#NOTE_ALPHA": "Nota Saydamlığı",
+      "#NOTE_ANIMATION": "Nota Animasyonu",
+      "#NOTE_EFFECT": "Nota Efekti",
+      "#NOTE_EFFECT_POSITION": "Nota Efekti Pozisyonu",
+      "#NOTE_EFFECT_SIZE": "Nota Efekt Büyüklüğü",
+      "#NOTE_EFFECT_ROTATION": "Nota Efekt Döndürmesi",
+      "#NOTE_EFFECT_ALPHA": "Note Efekt Saydamlığı",
+      "#MARKER": "İmleç",
+      "#MARKER_POSITION": "İmleç Pozisyonu",
+      "#MARKER_SIZE": "İmleç Boyutu",
+      "#MARKER_ROTATION": "İmleç Döndürmesi",
+      "#MARKER_ALPHA": "İmleç Saydamlığı",
+      "#MARKER_ANIMATION": "İmleç Animasyonu",
+      "#CONNECTOR": "Bağlayıcı",
+      "#CONNECTOR_POSITION": "Bağlayıcı Pozisyonu",
+      "#CONNECTOR_SIZE": "Bağlayıcı Boyutu",
+      "#CONNECTOR_ROTATION": "Bağlayıcı Döndürmesi",
+      "#CONNECTOR_ALPHA": "Bağlayıcı Saydamlığı",
+      "#CONNECTOR_ANIMATION": "Bağlayıcı Animasyonu",
+      "#SIMLINE": "Eş Zamanlı Çizgi",
+      "#SIMLINE_POSITION": "Eş Zamanlı Çizgi Pozisyonu",
+      "#SIMLINE_SIZE": "Eş Zamanlı Çizgi Büyüklüğü",
+      "#SIMLINE_ROTATION": "Eş Zamanlı Çizgi Döndürmesi",
+      "#SIMLINE_ALPHA": "Eş Zamanlı Çizgi Saydamlığı",
+      "#SIMLINE_ANIMATION": "Eş Zamanlı Çizgi Animasyonu"
     },
-    "Texts": {
-        "Name": {
-            "#KEYWORDS": "Anahtar Kelimeler",
-            "#NAME": "İsim",
-            "#RATING": "Derece",
-            "#RATING_MINIMUM": "Minimum Derece",
-            "#RATING_MAXIMUM": "Maksimum Derece",
-            "#TITLE": "Başlık",
-            "#SUBTITLE": "Altyazı",
-            "#ARTISTS": "Sanatçılar",
-            "#AUTHOR": "Yaratıcı",
-            "#GENRE": "Tür",
-            "#CATEGORY": "Kategori",
-            "#LANGUAGE": "Dil",
-            "#DIFFICULTY": "Zorluk",
-            "#LENGTH": "Uzunluk",
-            "#LENGTH_MINIMUM": "Minimum Uzunluk",
-            "#LENGTH_MAXIMUM": "Maksimum Uzunluk",
-            "#SPEED": "Seviye Hızı",
-            "#AUTO": "Otomatik Yürütme",
-            "#MIRROR": "Seviyeyi Ters Yansıt ",
-            "#RANDOM": "Rastgele",
-            "#HIDDEN": "Gizli",
-            "#JUDGMENT_STRICT": "Katı Yargı",
-            "#JUDGMENT_LOOSE": "Yumuşak Yargı",
-            "#EFFECT": "Ses Efekti",
-            "#EFFECT_AUTO": "Otomatik Ses Efekti",
-            "#STAGE": "Sahne",
-            "#STAGE_SIZE": "Sahne Boyutu",
-            "#STAGE_ROTATION": "Sahne Döndürmesi",
-            "#STAGE_ALPHA": "Sahne Saydamlığı",
-            "#STAGE_ANIMATION": "Sahne Animasyonu",
-            "#STAGE_TILT": "Sahne Eğilimi",
-            "#STAGE_COVER_VERTICAL": "Dikey Sahne Örtüsü",
-            "#STAGE_COVER_HORIZONTAL": "Yatay Sahne Örtüsü",
-            "#STAGE_COVER_ALPHA": "Sahne Örtüsü Saydamlığı",
-            "#STAGE_ASPECTRATIO_LOCK": "Sahne Görünüş Oranını Kilitle",
-            "#STAGE_EFFECT": "Sahne Efekti",
-            "#STAGE_EFFECT_SIZE": "Sahne Efekt Boyutu",
-            "#STAGE_EFFECT_ROTATION": "Sahne Efekt Döndürmesi",
-            "#STAGE_EFFECT_ALPHA": "Sahne Efekt Saydamlığı",
-            "#LANE": "Kulvar",
-            "#LANE_SIZE": "Kulvar Boyutu",
-            "#LANE_ROTATION": "Kulvar Döndürmesi",
-            "#LANE_ALPHA": "Kulvar Saydamlığı",
-            "#LANE_ANIMATION": "Kulvar Animasyonu",
-            "#LANE_EFFECT": "Kulvar Efekti",
-            "#LANE_EFFECT_SIZE": "Kulvar Efekt Boyutu",
-            "#LANE_EFFECT_ROTATION": "Kulvar Efekt Döndürmesi",
-            "#LANE_EFFECT_ALPHA": "Kulvar Efekt Saydamlığı",
-            "#JUDGELINE": "Yargı Çizgisi",
-            "#JUDGELINE_SIZE": "Yargı Çizgi Büyüklüğü",
-            "#JUDGELINE_ROTATION": "Yargı Çizgi Döndürmesi",
-            "#JUDGELINE_ALPHA": "Yargı Çizgi Saydamlığı",
-            "#JUDGELINE_ANIMATION": "Yargı Çizgi Animasyonu",
-            "#JUDGELINE_EFFECT": "Yargı Çizgi Efekti",
-            "#JUDGELINE_EFFECT_SIZE": "Yargı Çizgi Efekt Boyutu",
-            "#JUDGELINE_EFFECT_ROTATION": "Yargı Çizgi Efekt Döndürmesi",
-            "#JUDGELINE_EFFECT_ALPHA": "Yargı Çizgi Efekt Saydamlığı",
-            "#SLOT": "Slot",
-            "#SLOT_SIZE": "Slot Büyüklüğü",
-            "#SLOT_ROTATION": "Slot Döndürmesi",
-            "#SLOT_ALPHA": "Slot Saydamlığı",
-            "#SLOT_ANIMATION": "Slot Animasyonu",
-            "#SLOT_EFFECT": "Slot Efekti",
-            "#SLOT_EFFECT_SIZE": "Slot Efekt Büyüklüğü",
-            "#SLOT_EFFECT_ROTATION": "Slot Efekt Döndürmesi",
-            "#SLOT_EFFECT_ALPHA": "Slot Efekt Saydamlığı",
-            "#NOTE": "Nota",
-            "#NOTE_SPEED": "Nota Hızı",
-            "#NOTE_SPEED_RANDOM": "Rastgele Nota Hızı",
-            "#NOTE_SIZE": "Nota Büyüklüğü",
-            "#NOTE_ROTATION": "Nota Döndürmesi",
-            "#NOTE_ALPHA": "Nota Saydamlığı",
-            "#NOTE_ANIMATION": "Nota Animasyonu",
-            "#NOTE_EFFECT": "Nota Efekti",
-            "#NOTE_EFFECT_SIZE": "Nota Efekt Büyüklüğü",
-            "#NOTE_EFFECT_ROTATION": "Nota Efekt Döndürmesi",
-            "#NOTE_EFFECT_ALPHA": "Note Efekt Saydamlığı",
-            "#MARKER": "İmleç",
-            "#MARKER_SIZE": "İmleç Boyutu",
-            "#MARKER_ROTATION": "İmleç Döndürmesi",
-            "#MARKER_ALPHA": "İmleç Saydamlığı",
-            "#MARKER_ANIMATION": "İmleç Animasyonu",
-            "#CONNECTOR": "Bağlayıcı",
-            "#CONNECTOR_SIZE": "Bağlayıcı Boyutu",
-            "#CONNECTOR_ROTATION": "Bağlayıcı Döndürmesi",
-            "#CONNECTOR_ALPHA": "Bağlayıcı Saydamlığı",
-            "#CONNECTOR_ANIMATION": "Bağlayıcı Animasyonu",
-            "#SIMLINE": "Eş Zamanlı Çizgi",
-            "#SIMLINE_SIZE": "Eş Zamanlı Çizgi Büyüklüğü",
-            "#SIMLINE_ROTATION": "Eş Zamanlı Çizgi Döndürmesi",
-            "#SIMLINE_ALPHA": "Eş Zamanlı Çizgi Saydamlığı",
-            "#SIMLINE_ANIMATION": "Eş Zamanlı Çizgi Animasyonu"
+    "Value": {
+      "#NONE": "Yok",
+      "#ANY": "Herhangi",
+      "#ALL": "Hepsi",
+      "#OTHERS": "Diğerleri",
+      "#SHORT": "Kısa",
+      "#LONG": "Uzun",
+      "#HIGH": "Yüksek",
+      "#MID": "Orta",
+      "#LOW": "Düşük",
+      "#SMALL": "Küçük",
+      "#MEDIUM": "Orta",
+      "#LARGE": "Büyük",
+      "#LEFT": "Sol",
+      "#RIGHT": "Sağ",
+      "#UP": "Yukarı",
+      "#DOWN": "Aşağı",
+      "#FRONT": "Ön",
+      "#BACK": "Arka",
+      "#CENTER": "Orta",
+      "#TOP": "Üst",
+      "#BOTTOM": "Alt",
+      "#TOP_LEFT": "Sol Üst",
+      "#TOP_CENTER": "Orta Üst",
+      "#TOP_RIGHT": "Sağ Üst",
+      "#CENTER_LEFT": "Sol Orta",
+      "#CENTER_RIGHT": "Sağ Orta",
+      "#BOTTOM_LEFT": "Sol Alt",
+      "#BOTTOM_CENTER": "Orta Alt",
+      "#BOTTOM_RIGHT": "Sağ Alt",
+      "#CLOCKWISE": "Saat Yönü",
+      "#COUNTERCLOCKWISE": "Saat Yönü Tersi",
+      "#FORWARD": "İleri",
+      "#BACKWARD": "Geri",
+      "#SIMPLE": "Basit",
+      "#EASY": "Kolay",
+      "#NORMAL": "Normal",
+      "#HARD": "Zor",
+      "#EXPERT": "Uzman",
+      "#MASTER": "Usta",
+      "#PRO": "Pro",
+      "#TECHNICAL": "Teknik",
+      "#SPECIAL": "Özel"
+    },
+    "Placeholder": {
+      "#KEYWORDS": "Anahtar kelimeleri girin...",
+      "#NAME": "İsim girin...",
+      "#RATING": "Derece girin...",
+      "#RATING_MINIMUM": "Minimum derece girin...",
+      "#RATING_MAXIMUM": "Maksimum derece girin...",
+      "#TITLE": "Başlık girin...",
+      "#SUBTITLE": "Altyazı girin...",
+      "#ARTISTS": "Sanatçıları girin...",
+      "#AUTHOR": "Yaratıcı girin...",
+      "#GENRE": "Tür girin...",
+      "#CATEGORY": "Kategori girin...",
+      "#LANGUAGE": "Dil girin...",
+      "#DIFFICULTY": "Zorluk girin..\n",
+      "#LENGTH": "Uzunluk girin...",
+      "#LENGTH_MINIMUM": "Minimum uzunluk girin...",
+      "#LENGTH_MAXIMUM": "Maksimum uzunluk girin..."
+    },
+    "Unit": {
+      "#PERCENTAGE": "%{0}",
+      "#SECOND": "{0} s",
+      "#MILLISECOND": "{0} ms"
+    }
+  },
+  "Common": {
+    "Loading": "Yükleniyor...",
+    "On": "AÇIK",
+    "Off": "KAPALI",
+    "Select": "Seç",
+    "Reset": "Sıfırla",
+    "Edit": "Düzenle",
+    "View": "Görüntüle",
+    "Cancel": "İptal",
+    "Confirm": "Onayla",
+    "Retry": "Yeniden Dene",
+    "Error": {
+      "Title": "Hata"
+    },
+    "Confirmation": {
+      "Title": "Doğrulama"
+    },
+    "Next": "Sıradaki",
+    "Add": "Ekle",
+    "Import": "İçe Aktar",
+    "Search": "Ara",
+    "More": "Daha Fazla",
+    "PullToRefresh": "Yeniden yüklemek için çekin",
+    "Save": "Kaydet",
+    "Share": "Paylaş",
+    "Export": "Dışa Aktar",
+    "Update": "Güncelle",
+    "Delete": "Sil",
+    "Preview": "Görüntüle",
+    "Judgment": "Yargı",
+    "Accuracy": "Kesinlik",
+    "Grade": "Rapor",
+    "ArcadeScore": "Atr. Skoru",
+    "AccuracyScore": "Ksnlk. Skoru",
+    "Combo": "Kombo",
+    "Perfect": "Perfect",
+    "Great": "Great",
+    "Good": "Good",
+    "Miss": "Miss",
+    "AdvancedOption": "Bu seçenek sadece gelişmiş oyuncular içindir.",
+    "Colors": "Renkler",
+    "ColorField": {
+      "Hex": "HEX",
+      "Rgb": "RGB",
+      "Hsv": "HSV",
+      "Components": {
+        "Hex": {
+          "Title": "Hex",
+          "Description": "Bütün bileşenleri 00 ve FF arasında sayarsak, #KKYYMM (Kırmızı, Yeşil, Mavi) ya da #KKYYMMAA olarak gösterilir.",
+          "Placeholder": "Hex kodlu bir renk girin..."
         },
-        "Value": {
-            "#NONE": "Yok",
-            "#ANY": "Herhangi",
-            "#ALL": "Hepsi",
-            "#OTHERS": "Diğerleri",
-            "#SHORT": "Kısa",
-            "#LONG": "Uzun",
-            "#HIGH": "Yüksek",
-            "#MID": "Orta",
-            "#LOW": "Düşük",
-            "#SMALL": "Küçük",
-            "#MEDIUM": "Orta",
-            "#LARGE": "Büyük",
-            "#LEFT": "Sol",
-            "#RIGHT": "Sağ",
-            "#UP": "Yukarı",
-            "#DOWN": "Aşağı",
-            "#FRONT": "Ön",
-            "#BACK": "Arka",
-            "#CENTER": "Orta",
-            "#TOP": "Üst",
-            "#BOTTOM": "Alt",
-            "#TOP_LEFT": "Sol Üst",
-            "#TOP_CENTER": "Orta Üst",
-            "#TOP_RIGHT": "Sağ Üst",
-            "#CENTER_LEFT": "Sol Orta",
-            "#CENTER_RIGHT": "Sağ Orta",
-            "#BOTTOM_LEFT": "Sol Alt",
-            "#BOTTOM_CENTER": "Orta Alt",
-            "#BOTTOM_RIGHT": "Sağ Alt",
-            "#CLOCKWISE": "Saat Yönü",
-            "#COUNTERCLOCKWISE": "Saat Yönü Tersi",
-            "#FORWARD": "İleri",
-            "#BACKWARD": "Geri",
-            "#SIMPLE": "Basit",
-            "#EASY": "Kolay",
-            "#NORMAL": "Normal",
-            "#HARD": "Zor",
-            "#EXPERT": "Uzman",
-            "#MASTER": "Usta",
-            "#PRO": "Pro",
-            "#TECHNICAL": "Teknik",
-            "#SPECIAL": "Özel"
+        "R": {
+          "Title": "Kırmızı",
+          "Description": "Kırmızı."
         },
-        "Placeholder": {
-            "#KEYWORDS": "Anahtar kelimeleri girin...",
-            "#NAME": "İsim girin...",
-            "#RATING": "Derece girin...",
-            "#RATING_MINIMUM": "Minimum derece girin...",
-            "#RATING_MAXIMUM": "Maksimum derece girin...",
-            "#TITLE": "Başlık girin...",
-            "#SUBTITLE": "Altyazı girin...",
-            "#ARTISTS": "Sanatçıları girin...",
-            "#AUTHOR": "Yaratıcı girin...",
-            "#GENRE": "Tür girin...",
-            "#CATEGORY": "Kategori girin...",
-            "#LANGUAGE": "Dil girin...",
-            "#DIFFICULTY": "Zorluk girin..\n",
-            "#LENGTH": "Uzunluk girin...",
-            "#LENGTH_MINIMUM": "Minimum uzunluk girin...",
-            "#LENGTH_MAXIMUM": "Maksimum uzunluk girin..."
+        "G": {
+          "Title": "Yeşil",
+          "Description": "Yeşil."
         },
-        "Unit": {
-            "#PERCENTAGE": "%{0}",
-            "#SECOND": "{0} s",
-            "#MILLISECOND": "{0} ms"
+        "B": {
+          "Title": "Mavi",
+          "Description": "Mavi."
+        },
+        "H": {
+          "Title": "Renk Tonu",
+          "Description": "Renk Tonu."
+        },
+        "S": {
+          "Title": "Doygunluk",
+          "Description": "Doygunluk."
+        },
+        "V": {
+          "Title": "Değer",
+          "Description": "Değer."
+        },
+        "A": {
+          "Title": "Alfa",
+          "Description": "Alfa."
         }
+      }
     },
-    "Common": {
-        "Loading": "Yükleniyor...",
-        "On": "AÇIK",
-        "Off": "KAPALI",
-        "Select": "Seç",
-        "Edit": "Düzenle",
-        "View": "Görüntüle",
-        "Cancel": "İptal",
-        "Confirm": "Onayla",
-        "Retry": "Yeniden Dene",
-        "Error": {
-            "Title": "Hata"
-        },
-        "Confirmation": {
-            "Title": "Doğrulama"
-        },
-        "Next": "Sıradaki",
-        "Add": "Ekle",
-        "Import": "İçe Aktar",
-        "Search": "Ara",
-        "More": "Daha Fazla",
-        "PullToRefresh": "Yeniden yüklemek için çekin",
-        "Save": "Kaydet",
-        "Share": "Paylaş",
-        "Update": "Güncelle",
-        "Delete": "Sil",
-        "Preview": "Görüntüle",
-        "Judgment": "Yargı",
-        "Accuracy": "Kesinlik",
-        "Grade": "Not",
-        "ArcadeScore": "Atr. Skoru",
-        "AccuracyScore": "Ksnlk. Skoru",
-        "Combo": "Kombo",
-        "Perfect": "Perfect",
-        "Great": "Great",
-        "Good": "Good",
-        "Miss": "Miss",
-        "AdvancedOption": "Bu seçenek sadece gelişmiş oyuncular içindir.",
-        "ColorField": {
-            "Hex": "HEX",
-            "Rgb": "RGB",
-            "Hsv": "HSV",
-            "HexPlaceholder": "HEX kodlu bir renk girin...",
-            "R": "Kırmızı",
-            "G": "Yeşil",
-            "B": "Mavi",
-            "H": "Renk Tonu",
-            "S": "Doygunluk",
-            "V": "Değer",
-            "A": "Alfa"
-        },
-        "DeviceOffsetField": {
-            "Calibrate": "Ayarla"
-        },
-        "PullToLoad": {
-            "None": "Yüklenecek başka bir şey yok",
-            "More": "Daha fazla yüklemek için çekin"
-        },
-        "UI": {
-            "Metric": {
-                "Arcade": "Atari Skoru",
-                "Accuracy": "Kesinlik Skoru",
-                "Life": "Can",
-                "PerfectRate": "Mükemmellik Yüzdesi",
-                "ErrorHeatmap": "Hata Isı Haritası"
-            },
-            "JudgmentErrorStyle": {
-                "None": "Hiçbiri",
-                "Plus": "+ / -",
-                "Minus": "- / +",
-                "ArrowUp": "↑ / ↓",
-                "ArrowDown": "↓ / ↑",
-                "ArrowLeft": "← / →",
-                "ArrowRight": "→ / ←",
-                "TriangleUp": "▲ / ▼",
-                "TriangleDown": "▼ / ▲",
-                "TriangleLeft": "◄ / ►",
-                "TriangleRight": "► / ◄"
-            },
-            "JudgmentErrorPlacement": {
-                "Both": "Birlikte",
-                "Left": "Sol",
-                "Right": "Sağ"
-            },
-            "Visibility": "Görünürlük",
-            "Animation": "Animasyon",
-            "Tween": "Tween",
-            "Ease": {
-                "Linear": "Linear",
-                "InSine": "Sine (In)",
-                "OutSine": "Sine (Out)",
-                "InOutSine": "Sine (In Out)",
-                "OutInSine": "Sine (Out In)",
-                "InQuad": "Quad (In)",
-                "OutQuad": "Quad (Out)",
-                "InOutQuad": "Quad (In Out)",
-                "OutInQuad": "Quad (Out In)",
-                "InCubic": "Cubic (In)",
-                "OutCubic": "Cubic (Out)",
-                "InOutCubic": "Cubic (In Out)",
-                "OutInCubic": "Cubic (Out In)",
-                "InQuart": "Quart (In)",
-                "OutQuart": "Quart (Out)",
-                "InOutQuart": "Quart (In Out)",
-                "OutInQuart": "Quart (Out In)",
-                "InQuint": "Quint (In)",
-                "OutQuint": "Quint (Out)",
-                "InOutQuint": "Quint (In Out)",
-                "OutInQuint": "Quint (Out In)",
-                "InExpo": "Expo (In)",
-                "OutExpo": "Expo (Out)",
-                "InOutExpo": "Expo (In Out)",
-                "OutInExpo": "Expo (Out In)",
-                "InCirc": "Circ (In)",
-                "OutCirc": "Circ (Out)",
-                "InOutCirc": "Circ (In Out)",
-                "OutInCirc": "Circ (Out In)",
-                "InBack": "Back (In)",
-                "OutBack": "Back (Out)",
-                "InOutBack": "Back (In Out)",
-                "OutInBack": "Back (Out In)",
-                "InElastic": "Elastic (In)",
-                "OutElastic": "Elastic (Out)",
-                "InOutElastic": "Elastic (In Out)",
-                "OutInElastic": "Elastic (Out In)",
-                "None": "Hiçbiri"
-            }
+    "DeviceOffsetField": {
+      "Calibrate": "Ayarla"
+    },
+    "PullToLoad": {
+      "None": "Yüklenecek başka bir şey yok",
+      "More": "Daha fazla yüklemek için çekin"
+    },
+    "UI": {
+      "Metric": {
+        "Arcade": "Atari Skoru",
+        "Accuracy": "Kesinlik Skoru",
+        "Life": "Can",
+        "PerfectRate": "Mükemmellik Yüzdesi",
+        "ErrorHeatmap": "Hata Isı Haritası"
+      },
+      "JudgmentErrorStyle": {
+        "None": "Hiçbiri",
+        "Plus": "+ / -",
+        "Minus": "- / +",
+        "ArrowUp": "↑ / ↓",
+        "ArrowDown": "↓ / ↑",
+        "ArrowLeft": "← / →",
+        "ArrowRight": "→ / ←",
+        "TriangleUp": "▲ / ▼",
+        "TriangleDown": "▼ / ▲",
+        "TriangleLeft": "◄ / ►",
+        "TriangleRight": "► / ◄"
+      },
+      "JudgmentErrorPlacement": {
+        "Both": "Birlikte",
+        "Left": "Sol",
+        "Right": "Sağ"
+      },
+      "Visibility": "Görünürlük",
+      "Animation": "Animasyon",
+      "Tween": "Tween",
+      "Ease": {
+        "Linear": "Linear",
+        "InSine": "Sine (In)",
+        "OutSine": "Sine (Out)",
+        "InOutSine": "Sine (In Out)",
+        "OutInSine": "Sine (Out In)",
+        "InQuad": "Quad (In)",
+        "OutQuad": "Quad (Out)",
+        "InOutQuad": "Quad (In Out)",
+        "OutInQuad": "Quad (Out In)",
+        "InCubic": "Cubic (In)",
+        "OutCubic": "Cubic (Out)",
+        "InOutCubic": "Cubic (In Out)",
+        "OutInCubic": "Cubic (Out In)",
+        "InQuart": "Quart (In)",
+        "OutQuart": "Quart (Out)",
+        "InOutQuart": "Quart (In Out)",
+        "OutInQuart": "Quart (Out In)",
+        "InQuint": "Quint (In)",
+        "OutQuint": "Quint (Out)",
+        "InOutQuint": "Quint (In Out)",
+        "OutInQuint": "Quint (Out In)",
+        "InExpo": "Expo (In)",
+        "OutExpo": "Expo (Out)",
+        "InOutExpo": "Expo (In Out)",
+        "OutInExpo": "Expo (Out In)",
+        "InCirc": "Circ (In)",
+        "OutCirc": "Circ (Out)",
+        "InOutCirc": "Circ (In Out)",
+        "OutInCirc": "Circ (Out In)",
+        "InBack": "Back (In)",
+        "OutBack": "Back (Out)",
+        "InOutBack": "Back (In Out)",
+        "OutInBack": "Back (Out In)",
+        "InElastic": "Elastic (In)",
+        "OutElastic": "Elastic (Out)",
+        "InOutElastic": "Elastic (In Out)",
+        "OutInElastic": "Elastic (Out In)",
+        "None": "Hiçbiri"
+      }
+    }
+  },
+  "Themes": {
+    "Dark": "Karanlık",
+    "Light": "Aydınlık"
+  },
+  "Clients": {
+    "Master": {
+      "Info": {
+        "Loading": "Sonolus bilgisi yükleniyor...",
+        "Error": "Sonolus bilgisi yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      },
+      "List": {
+        "Loading": "Diller yükleniyor...",
+        "Error": "Dilleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      },
+      "Localization": {
+        "Loading": "Dil yükleniyor...",
+        "Error": "\"{0}\" dili yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      }
+    },
+    "Service": {
+      "UserProfile": {
+        "Loading": "Kullanıcı profili yükleniyor...",
+        "Error": "\"{0}\" profili yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+      },
+      "Login": {
+        "Loading": "Oturum açılıyor...",
+        "Error": "Oturum açmada başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "New": {
+            "Title": "Kaydolundu"
+          },
+          "Old": {
+            "Title": "Oturum Açıldı"
+          }
         }
-    },
-    "Themes": {
-        "Dark": "Karanlık",
-        "Light": "Aydınlık"
-    },
-    "Clients": {
-        "Master": {
-            "Info": {
-                "Loading": "Sonolus bilgisi yükleniyor...",
-                "Error": "Sonolus bilgisi yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
-            },
-            "List": {
-                "Loading": "Diller yükleniyor...",
-                "Error": "Dilleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
-            },
-            "Localization": {
-                "Loading": "Dil yükleniyor...",
-                "Error": "\"{0}\" dili yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
-            }
-        },
-        "Service": {
-            "UserProfile": {
-                "Loading": "Kullanıcı profili yükleniyor...",
-                "Error": "\"{0}\" profili yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
-            },
-            "Login": {
-                "Loading": "Oturum açılıyor...",
-                "Error": "Oturum açmada başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
-                "Success": {
-                    "New": {
-                        "Title": "Kaydolundu"
-                    },
-                    "Old": {
-                        "Title": "Oturum Açıldı"
-                    }
-                }
-            },
-            "EditName": {
-                "Loading": "İsim düzenleniyor...",
-                "Error": "İsim düzenlenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
-                "Success": {
-                    "Title": "İsim Düzenlendi"
-                }
-            },
-            "EditAvatar": {
-                "Loading": "Avatar düzenleniyor...",
-                "Error": "Avatar düzenlenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
-                "Success": {
-                    "Title": "Avatar Düzenlendi"
-                }
-            },
-            "EditAboutMe": {
-                "Loading": "Hakkımda düzenleniyor...",
-                "Error": "Hakkımda bölümü düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
-                "Success": {
-                    "Title": "Hakkımda Düzenlendi"
-                }
-            },
-            "EditSocialLinks": {
-                "Loading": "Sosyal bağlantılar düzenleniyor...",
-                "Error": "Sosyal bağlantıları düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
-                "Success": {
-                    "Title": "Sosyal Bağlantılar Düzenlendi"
-                }
-            },
-            "EditFavorites": {
-                "Loading": "Favoriler düzenleniyor...",
-                "Error": "Favorileri düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
-                "Success": {
-                    "Title": "Favoriler Düzenlendi"
-                }
-            },
-            "AuthenticateServer": {
-                "Loading": "Sonolus doğrulaması isteniyor...",
-                "Error": "Sonolus'tan doğrulama isterken başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için Sonolus ile iletişime geçin."
-            },
-            "Logout": {
-                "Loading": "Oturum kapatılıyor...",
-                "Error": "Oturum kapatmada başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
-                "Success": {
-                    "Title": "Oturum Kapatıldı"
-                }
-            }
-        },
-        "CustomServer": {
-            "SonolusVersionError": "Bu sunucu sadece Sonolus' un {0} versiyonunu destekliyor.\n\nLütfen Sonolus uygulamanızı güncelleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
-            "Session": {
-                "NeedAuthentication": {
-                    "NotLoggedInError": {
-                        "Description": "Bu sunucu doğrulama gerektiriyor.\n\nLütfen oturum açın ve tekrar deneyin."
-                    },
-                    "Confirmation": {
-                        "Description": "Bu sunucu doğrulama gerektiriyor.\n\n\"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
-                    }
-                },
-                "AuthenticationExpired": {
-                    "Description": "Doğrulamanız geçerliliğini yitirdi.\n\nTekrar \"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
-                },
-                "AuthenticationRejected": {
-                    "Description": "Doğrulama talebiniz sunucu tarafından reddedildi.\n\nTekrar \"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
-                },
-                "Authenticate": {
-                    "Loading": "Sunucu doğrulaması talep ediliyor...",
-                    "Error": "\"{0}\" tarafından istenen doğrulama talebi başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "AddressMismatchError": {
-                    "Description": "Doğrulama adresi eşleşmedi.\n\nSorunu bildirmek için lütfen sunucu sahibiyle iletişime geçin."
-                }
-            },
-            "Server": {
-                "Info": {
-                    "Loading": "Sunucu bilgisi yükleniyor...",
-                    "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu.\n\nLütfen sunucu adresinin doğru olup olmadığın kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Banner": {
-                    "Loading": "Sunucu sembolü yükleniyor...",
-                    "Error": "\"{0}\" sunucusunun sembolünü yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "Seviyeler yükleniyor...",
-                    "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Details": {
-                    "Loading": "Seviye detayları yükleniyor...",
-                    "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Compatibility": {
-                    "Loading": "Seviye uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir seviyeyi kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
-                },
-                "Cover": {
-                    "Loading": "Seviye albüm kapağı yükleniyor...",
-                    "Error": "\"{0}\" seviyesinin albüm kapağını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Bgm": {
-                    "Loading": "Seviye ses efektleri yükleniyor...",
-                    "Error": "\"{0}\" seviyesinin ses efektlerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Preview": {
-                    "Loading": "Seviye önizlemesi yükleniyor...",
-                    "Error": "\"{0}\" seviyesinin önizlemesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Data": {
-                    "Loading": "Seviye bilgisi yükleniyor...",
-                    "Error": "\"{0}\" seviyesinin bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "Dokular yükleniyor...",
-                    "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Details": {
-                    "Loading": "Doku detayları yükleniyor...",
-                    "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Compatibility": {
-                    "Loading": "Doku uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir dokuyu kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
-                },
-                "Thumbnail": {
-                    "Loading": "Doku önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Data": {
-                    "Loading": "Doku bilgisi yükleniyor...",
-                    "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Texture": {
-                    "Loading": "Doku yapısı yükleniyor...",
-                    "Error": "\"{0}\" doku yapısını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "Arkaplanlar yükleniyor...",
-                    "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Details": {
-                    "Loading": "Arkaplan detayları yükleniyor...",
-                    "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Compatibility": {
-                    "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir arkaplanı kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
-                },
-                "Thumbnail": {
-                    "Loading": "Arkaplan önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Data": {
-                    "Loading": "Arkaplan bilgisi yükleniyor...",
-                    "Error": "\"{0}\" arkaplan bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Image": {
-                    "Loading": "Arkaplan görseli yükleniyor...",
-                    "Error": "\"{0}\" arkaplan görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Configuration": {
-                    "Loading": "Arkaplan yapılandırması yükleniyor...",
-                    "Error": "\"{0}\" arkaplan yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "Ses efekti yükleniyor...",
-                    "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Details": {
-                    "Loading": "Ses efekti detayları yükleniyor...",
-                    "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Compatibility": {
-                    "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir ses efekti kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
-                },
-                "Thumbnail": {
-                    "Loading": "Ses efekti önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Data": {
-                    "Loading": "Ses efekti bilgisi yükleniyor...",
-                    "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Audio": {
-                    "Loading": "Ses efekti sesi yükleniyor...",
-                    "Error": "\"{0}\" ses efekti sesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "Partiküller yükleniyor...",
-                    "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Details": {
-                    "Loading": "Partikül detayları yükleniyor...",
-                    "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Compatibility": {
-                    "Loading": "Partikül uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir partikülü kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
-                },
-                "Thumbnail": {
-                    "Loading": "Partikül önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Data": {
-                    "Loading": "Partikül bilgileri yükleniyor...",
-                    "Error": "\"{0}\" partikül bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Texture": {
-                    "Loading": "Partikül dokusu yükleniyor...",
-                    "Error": "\"{0}\" partikül dokusunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "Motorlar yükleniyor...",
-                    "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Details": {
-                    "Loading": "Motor detayları yükleniyor...",
-                    "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Compatibility": {
-                    "Loading": "Motor uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir motoru kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
-                },
-                "Thumbnail": {
-                    "Loading": "Motor önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Data": {
-                    "Loading": "Motor bilgisi yükleniyor...",
-                    "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Rom": {
-                    "Loading": "Motor ROM' u yükleniyor...",
-                    "Error": "\"{0}\" motor ROM'unu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                },
-                "Configuration": {
-                    "Loading": "Motor yapılandırması yükleniyor...",
-                    "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-                }
-            }
-        },
-        "Collection": {
-            "Server": {
-                "Info": {
-                    "Loading": "Koleksiyon bilgisi yükleniyor...",
-                    "Error": "\"{0}\" koleksiyonunun bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Banner": {
-                    "Loading": "Koleksiyon sembolü yükleniyor...",
-                    "Error": "\"{0}\" koleksiyonunun sembolünü yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "Seviyeler yükleniyor...",
-                    "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Seviye detayları yükleniyor...",
-                    "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Seviye uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
-                },
-                "Cover": {
-                    "Loading": "Seviye albüm kapağı yükleniyor...",
-                    "Error": "\"{0}\" seviye albüm kapağını yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
-                },
-                "Bgm": {
-                    "Loading": "Seviye ses efektleri yükleniyor...",
-                    "Error": "\"{0}\" seviye ses efektini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
-                },
-                "Preview": {
-                    "Loading": "Seviye önizlemesi yükleniyor...",
-                    "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
-                },
-                "Data": {
-                    "Loading": "Seviye bilgisi yükleniyor...",
-                    "Error": "\"{0}\" seviye bilgisini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "Dokular yükleniyor...",
-                    "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Doku detayları yükleniyor...",
-                    "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Doku uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
-                },
-                "Thumbnail": {
-                    "Loading": "Doku önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
-                },
-                "Data": {
-                    "Loading": "Doku bilgisi yükleniyor...",
-                    "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
-                },
-                "Texture": {
-                    "Loading": "Doku yapısı yükleniyor...",
-                    "Error": "\"{0}\" doku yapısını yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "Arkaplanlar yükleniyor...",
-                    "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Arkaplan detayları yükleniyor...",
-                    "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
-                },
-                "Thumbnail": {
-                    "Loading": "Arkaplan önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
-                },
-                "Data": {
-                    "Loading": "Arkaplan bilgisi yükleniyor...",
-                    "Error": "\"{0}\" arkaplan bilgisini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
-                },
-                "Image": {
-                    "Loading": "Arkaplan görseli yükleniyor...",
-                    "Error": "\"{0}\" arkaplan görselini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
-                },
-                "Configuration": {
-                    "Loading": "Arkaplan yapılandırması yükleniyor...",
-                    "Error": "\"{0}\" arkaplan yapılandırmasını yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "Ses efekti yükleniyor...",
-                    "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Ses efekti detayları yükleniyor...",
-                    "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
-                },
-                "Thumbnail": {
-                    "Loading": "Ses efekti önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
-                },
-                "Data": {
-                    "Loading": "Ses efekti bilgisi yükleniyor...",
-                    "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
-                },
-                "Audio": {
-                    "Loading": "Ses efekti sesi yükleniyor...",
-                    "Error": "\"{0}\" ses efekti sesini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "Partiküller yükleniyor...",
-                    "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Partikül detayları yükleniyor...",
-                    "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Partikül uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
-                },
-                "Thumbnail": {
-                    "Loading": "Partikül önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
-                },
-                "Data": {
-                    "Loading": "Partikül bilgileri yükleniyor...",
-                    "Error": "\"{0}\" partikül bilgisini yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
-                },
-                "Texture": {
-                    "Loading": "Partikül dokusu yükleniyor...",
-                    "Error": "\"{0}\" partikül dokusunu yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "Motorlar yükleniyor...",
-                    "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Motor detayları yükleniyor...",
-                    "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Motor uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
-                },
-                "Thumbnail": {
-                    "Loading": "Motor önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
-                },
-                "Data": {
-                    "Loading": "Motor bilgisi yükleniyor...",
-                    "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
-                },
-                "Rom": {
-                    "Loading": "Motor ROM' u yükleniyor...",
-                    "Error": "\"{0}\" motor ROM' unu yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
-                },
-                "Configuration": {
-                    "Loading": "Motor yapılandırması yükleniyor...",
-                    "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
-                }
-            }
-        },
-        "Scp": {
-            "Server": {
-                "Info": {
-                    "Loading": "Paket bilgisi yükleniyor...",
-                    "Error": "\"{0}\" paket bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Banner": {
-                    "Loading": "Paket sembolü yükleniyor...",
-                    "Error": "\"{0}\" paket sembolünü yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "Seviyeler yükleniyor...",
-                    "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Seviye detayları yükleniyor...",
-                    "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Seviye uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Cover": {
-                    "Loading": "Seviye albüm kapağı yükleniyor...",
-                    "Error": "\"{0}\" seviye albüm kapağını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Bgm": {
-                    "Loading": "Seviye ses efektleri yükleniyor...",
-                    "Error": "\"{0}\" seviye ses efektini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Preview": {
-                    "Loading": "Seviye önizlemesi yükleniyor...",
-                    "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Data": {
-                    "Loading": "Seviye bilgisi yükleniyor...",
-                    "Error": "\"{0}\" seviye bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "Dokular yükleniyor...",
-                    "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Doku detayları yükleniyor...",
-                    "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Doku uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Thumbnail": {
-                    "Loading": "Doku önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Data": {
-                    "Loading": "Doku bilgisi yükleniyor...",
-                    "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Texture": {
-                    "Loading": "Doku yapısı yükleniyor...",
-                    "Error": "\"{0}\" doku yapısını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "Arkaplanlar yükleniyor...",
-                    "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Arkaplan detayları yükleniyor...",
-                    "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Thumbnail": {
-                    "Loading": "Arkaplan önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Data": {
-                    "Loading": "Arkaplan bilgisi yükleniyor...",
-                    "Error": "\"{0}\" arkaplan bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Image": {
-                    "Loading": "Arkaplan görseli yükleniyor...",
-                    "Error": "\"{0}\" arkaplan görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Configuration": {
-                    "Loading": "Arkaplan yapılandırması yükleniyor...",
-                    "Error": "\"{0}\" arkaplan yapılandırmasını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "Ses efekti yükleniyor...",
-                    "Error": "{0}. sayfadaki ses efektlerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Ses efekti detayları yükleniyor...",
-                    "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Thumbnail": {
-                    "Loading": "Ses efekti önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Data": {
-                    "Loading": "Ses efekti bilgisi yükleniyor...",
-                    "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Audio": {
-                    "Loading": "Ses efekti sesi yükleniyor...",
-                    "Error": "\"{0}\" ses efekti sesini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "Partiküller yükleniyor...",
-                    "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Partikül detayları yükleniyor...",
-                    "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Partikül uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Thumbnail": {
-                    "Loading": "Partikül önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Data": {
-                    "Loading": "Partikül bilgileri yükleniyor...",
-                    "Error": "\"{0}\" partikül bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Texture": {
-                    "Loading": "Partikül dokusu yükleniyor...",
-                    "Error": "\"{0}\" partikül dokusunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "Motorlar yükleniyor...",
-                    "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Details": {
-                    "Loading": "Motor detayları yükleniyor...",
-                    "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Compatibility": {
-                    "Loading": "Motor uyumluluğu kontrol ediliyor...",
-                    "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Thumbnail": {
-                    "Loading": "Motor önizleme görseli yükleniyor...",
-                    "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Data": {
-                    "Loading": "Motor bilgisi yükleniyor...",
-                    "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Rom": {
-                    "Loading": "Motor ROM' u yükleniyor...",
-                    "Error": "\"{0}\" motor ROM' unu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                },
-                "Configuration": {
-                    "Loading": "Motor yapılandırması yükleniyor...",
-                    "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-                }
-            }
+      },
+      "EditName": {
+        "Loading": "İsim düzenleniyor...",
+        "Error": "İsim düzenlenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "İsim Düzenlendi"
         }
-    },
-    "DeepLink": {
-        "Invalid": {
-            "Description": "\"{0}\" bağlantısı geçersiz.\n\nLütfen farklı bir bağlantı kullanın."
+      },
+      "EditAvatar": {
+        "Loading": "Avatar düzenleniyor...",
+        "Error": "Avatar düzenlenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "Avatar Düzenlendi"
         }
-    },
-    "Title": {
-        "TapToStart": "Başlatmak için Dokunun"
-    },
-    "Layout": {
-        "Refresh": "Yenile",
-        "Back": "Geri"
-    },
-    "Routes": {
-        "JumpToPage": {
-            "Title": "Sayfaya Atla",
-            "Page": "Sayfa",
-            "PagePlaceholder": "Sayfa numarasını girin...",
-            "Jump": "Atla"
-        },
-        "SelectLocalization": {
-            "Title": "Dil Seçin",
-            "Description": "Tercih ettiğiniz dili seçin:",
-            "Error": "Dilleri yüklemede başarısız olundu."
-        },
-        "SelectTheme": {
-            "Title": "Tema Seç",
-            "Description": "Tema Seçin:"
-        },
-        "SelectClient": {
-            "CustomServers": {
-                "Title": "Özel Sunucular",
-                "RemoveConfirmation": {
-                    "Description": "\"{0}\" sunucusunu silmek istediğinize emin misiniz?"
-                }
-            },
-            "Collections": {
-                "Title": "Koleksiyonlar",
-                "RemoveConfirmation": {
-                    "Description": "\"{0}\" koleksiyonunu silmek istediğinize emin misiniz?"
-                }
-            }
-        },
-        "Selects": {
-            "ToPlay": {
-                "Title": "Oyna",
-                "Description": "Oynamaya başlamak için özel sunucu ya da koleksiyon seçin"
-            },
-            "ToSave": {
-                "Level": {
-                    "Title": "Seviyeyi Kaydet",
-                    "Description": "Bu seviyenin kaydedileceği bir koleksiyon seçin"
-                },
-                "Skin": {
-                    "Title": "Dokuyu Kaydet",
-                    "Description": "Bu dokunun kaydedileceği koleksiyonu seçin."
-                },
-                "Background": {
-                    "Title": "Arkaplanı Kaydet",
-                    "Description": "Bu arkaplanın kaydedileceği koleksiyonu seçin"
-                },
-                "Effect": {
-                    "Title": "Efekti Kaydet",
-                    "Description": "Bu efektin kaydedileceği koleksiyonu seçin"
-                },
-                "Particle": {
-                    "Title": "Partikülü Kaydet",
-                    "Description": "Bu partikülün kaydedileceği koleksiyonu seçin."
-                },
-                "Engine": {
-                    "Title": "Motoru Kaydet",
-                    "Description": "Bu motorun kaydedileceği koleksiyonu seçin."
-                }
-            },
-            "ToUse": {
-                "Level": {
-                    "Title": "Seviye Seçin",
-                    "Description": "Seviyesini kullanmak için özel sunucu ya da koleksiyon seçin."
-                },
-                "Skin": {
-                    "Title": "Doku Seçin",
-                    "Description": "Dokusunu kullanmak için özel sunucu ya da koleksiyon seçin."
-                },
-                "Background": {
-                    "Title": "Arkaplan Seçin",
-                    "Description": "Arkaplanını kullanmak için özel sunucu ya da koleksiyon seçin."
-                },
-                "Effect": {
-                    "Title": "Efekt Seçin",
-                    "Description": "Efektini kullanmak için özel sunucu ya da koleksiyon seçin."
-                },
-                "Particle": {
-                    "Title": "Partikül Seçin",
-                    "Description": "Partiküllerinizi kullanmak için özel sunucu ya da koleksiyon seçin."
-                },
-                "Engine": {
-                    "Title": "Motor Seçin",
-                    "Description": "Motorunu kullanmak için özel sunucu ya da koleksiyon seçin."
-                }
-            },
-            "ToAddFavorite": {
-                "Level": {
-                    "Title": "Favori bir Seviye Ekleyin",
-                    "Description": "Favori seviyelerinizi eklemek için özel sunucu ya da koleksiyon seçin."
-                },
-                "Skin": {
-                    "Title": "Favori bir Doku Ekleyin",
-                    "Description": "Favori dokularınızı eklemek için özel sunucu ya da koleksiyon seçin."
-                },
-                "Background": {
-                    "Title": "Favori bir Arkaplan Seçin",
-                    "Description": "Favori arkaplanlarınızı eklemek için özel sunucu ya da koleksiyon seçin."
-                },
-                "Effect": {
-                    "Title": "Favori bir Efekt Seçin",
-                    "Description": "Favori efektlerinizi eklemek için özel sunucu ya da koleksiyon seçin."
-                },
-                "Particle": {
-                    "Title": "Favori bir Partikül Seçin",
-                    "Description": "Favori partiküllerinizi eklemek için özel sunucu ya da koleksiyon seçin."
-                },
-                "Engine": {
-                    "Title": "Favori bir Motor Seçin",
-                    "Description": "Favori motorunuzu eklemek için özel sunucu ya da koleksiyon seçin."
-                }
-            }
-        },
-        "EditCustomServer": {
-            "Title": "Özel Sunucuyu Düzenleyin",
-            "Address": "Adres",
-            "AddressPlaceholder": "Özel sunucu adresi girin...",
-            "Name": "İsim",
-            "NamePlaceholder": "Özel sunucu ismini girin..."
-        },
-        "AddCustomServerAddress": {
-            "Title": "Özel Sunucu Ekleyin",
-            "Address": "Adres",
-            "AddressPlaceholder": "Özel sunucu adresi girin..."
-        },
-        "AddCustomServerInfo": {
-            "Title": "Özel Sunucu Ekleyin",
-            "Info": {
-                "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu.\n\nLütfen sunucu adresinin doğru girip girmediğinizi kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-            },
-            "Name": "İsim",
-            "NamePlaceholder": "Özel sunucu ismini girin..."
-        },
-        "EditCollection": {
-            "Title": "Koleksiyonu Düzenle",
-            "Name": "İsim",
-            "NamePlaceholder": "Koleksiyon ismini girin..."
-        },
-        "AddCollection": {
-            "Title": "Koleksiyon Ekle",
-            "Name": "İsim",
-            "NamePlaceholder": "Koleksiyon ismini girin..."
-        },
-        "ImportScp": {
-            "Scp": {
-                "Loading": "Paket yükleniyor...",
-                "Error": "\"{0}\" paketi yüklenmede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Success": {
-                "Title": "Paket İçe Aktarıldı"
-            }
-        },
-        "ExportScp": {
-            "Success": {
-                "Title": "Paket Dışa Aktarıldı"
-            }
-        },
-        "EditVisibility": {
-            "Scale": "Boyut",
-            "Alpha": "Alfa"
-        },
-        "EditAnimation": {
-            "Scale": "Boyut",
-            "Alpha": "Alfa"
-        },
-        "EditTween": {
-            "From": "From",
-            "To": "To",
-            "Duration": "Duration",
-            "Ease": "Ease"
-        },
-        "EditColors": {
-            "Foreground": "Önplan",
-            "Background": "Arkaplan"
-        },
-        "CalibrateAudio": {
-            "Title": "Sesi Ayarla",
-            "Description": "Sesi; görünen grafik ve ses senkronize olana kadar Cihaz Ses Dengesi ile ayarlayın.",
-            "DeviceAudioOffset": "Cihazın Ses Denge Ayarı"
-        },
-        "CalibrateInput": {
-            "Title": "Girdiyi Ayarla",
-            "Description": "Parmaklarını sese eşlik edecek şekilde dokunarak girdiyi ayarlayın. Ama ilk önce, lütfen cihaz ses dengesinin uygun bir şekilde ayarlandığından emin olun. Eğer size böyle bir seçenek vermeyen oyunlara alışkınsanız, denge ayarını 0 olarak bırakabilirsiniz.",
-            "Result": "Önerilen Denge Ayarı: {0} (±{1})",
-            "DeviceInputOffset": "Cihazın Girdi Denge Ayarı"
-        },
-        "Home": {
-            "Title": "Ana Menü",
-            "Play": "Oyna",
-            "Players": "Oyuncular",
-            "Account": "Hesap",
-            "Settings": "Ayarlar",
-            "UpdateAvailable": {
-                "Title": "Güncelleme Var",
-                "Description": "Sonolus' un {0} versiyonu çıktı!\n\nWeb sitemizi ziyaret edin:\nhttps://sonolus.com",
-                "Open": "Aç"
-            }
-        },
-        "Players": {
-            "Title": "Oyuncular",
-            "PlayerLookup": {
-                "Title": "Oyuncu Arama",
-                "Id": "Oyuncu Kimliği",
-                "IdPlaceholder": "Oyuncu kimliğini girin...",
-                "Lookup": "Ara"
-            }
-        },
-        "Account": {
-            "Title": "Hesap",
-            "MyAccount": {
-                "Title": "Hesabım",
-                "Login": {
-                    "Apple": "Apple ile giriş yap",
-                    "Google": "Google ile giriş yap",
-                    "Wechat": "WeChat ile giriş yap"
-                },
-                "Profile": "Profil",
-                "Logout": "Oturumu Kapat"
-            }
-        },
-        "UserProfile": {
-            "Home": {
-                "Main": {
-                    "EditName": "İsmini Düzenle",
-                    "EditAvatar": "Avatarını Düzenle"
-                },
-                "AboutMe": {
-                    "Title": "Hakkımda"
-                },
-                "SocialLinks": {
-                    "Title": "Sosyal Bağlantılar",
-                    "None": "Sosyal bağlantı yok.",
-                    "OpenConfirmation": {
-                        "Description": "Bu sosyal bağlantı şuraya gider:\n{0}\n\nZiyaret etmek istediğinizden emin misiniz?"
-                    }
-                },
-                "Favorites": {
-                    "Title": "Favoriler",
-                    "None": "Favoriler yok."
-                }
-            },
-            "EditName": {
-                "Title": "İsmi Düzenle",
-                "Name": "İsim",
-                "NamePlaceholder": "Oyuncu ismi girin..."
-            },
-            "EditAvatar": {
-                "Title": "Avatarı Düzenle",
-                "Foreground": "Önplan",
-                "Background": "Arkaplan"
-            },
-            "EditAboutMe": {
-                "Title": "Hakkımda' yı Düzenle",
-                "AboutMe": "Hakkımda",
-                "AboutMePlaceholder": "Bir \"Hakkımda\" bölümü ekle..."
-            },
-            "AddSocialLink": {
-                "Title": "Sosyal Bağlantı Ekle",
-                "SocialLinkTitle": "Başlık",
-                "SocialLinkTitlePlaceholder": "Sosyal bağlantı başlığı girin...",
-                "SocialLinkAddress": "Adres",
-                "SocialLinkAddressPlaceholder": "Sosyal bağlantı adresini girin..."
-            },
-            "AddFavorite": {
-                "Title": "Favori Ekle",
-                "Description": "Eklenecek favori türünü seçin:",
-                "Level": "Seviye",
-                "Skin": "Doku",
-                "Background": "Arkaplan",
-                "Effect": "Ses Efekti",
-                "Particle": "Partikül",
-                "Engine": "Motor"
-            }
-        },
-        "Server": {
-            "Home": {
-                "Levels": "Seviyeler",
-                "Skins": "Dokular",
-                "Backgrounds": "Arkaplanlar",
-                "Effects": "Ses Efektleri",
-                "Particles": "Partiküller",
-                "Engines": "Motorlar",
-                "SaveSuccess": {
-                    "Title": "Sunucu Kaydedildi"
-                },
-                "ShareSuccess": {
-                    "Title": "Sunucu Bağlantısı Kopyalandı"
-                }
-            },
-            "Search": {
-                "Title": "Ara"
-            },
-            "Lists": {
-                "DeleteConfirmation": {
-                    "Description": "\"{0}\" dosyasını silmek istediğinize emin misiniz?"
-                },
-                "Level": {
-                    "Title": "Seviyeler",
-                    "ShareSuccess": {
-                        "Title": "Seviyelerin Bağlantısı Kopyalandı"
-                    }
-                },
-                "Skin": {
-                    "Title": "Dokular",
-                    "ShareSuccess": {
-                        "Title": "Dokuların Bağlantısı Kopyalandı"
-                    }
-                },
-                "Background": {
-                    "Title": "Arkaplanlar",
-                    "ShareSuccess": {
-                        "Title": "Arkaplanların Bağlantısı Kopyalandı"
-                    }
-                },
-                "Effect": {
-                    "Title": "Ses Efektleri",
-                    "ShareSuccess": {
-                        "Title": "Ses Efektlerinin Bağlantısı Kopyalandı"
-                    }
-                },
-                "Particle": {
-                    "Title": "Partiküller",
-                    "ShareSuccess": {
-                        "Title": "Partiküllerin Bağlantısı Kopyalandı"
-                    }
-                },
-                "Engine": {
-                    "Title": "Motorlar",
-                    "ShareSuccess": {
-                        "Title": "Motorların Bağlantısı Kopyalandı"
-                    }
-                }
-            },
-            "Details": {
-                "Actions": {
-                    "Configuration": "Yapılandır"
-                },
-                "DeleteConfirmation": {
-                    "Description": "\"{0}\" dosyasını silmek istediğinizden emin misiniz?"
-                },
-                "Description": {
-                    "Title": "Açıklama"
-                },
-                "Recommended": {
-                    "Title": "Önerilenler"
-                },
-                "Level": {
-                    "Actions": {
-                        "Play": "Oyna"
-                    },
-                    "Play": {
-                        "Effect": {
-                            "Audio": {
-                                "Loading": "Ses efektinin sesi deşifre ediliyor...",
-                                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
-                            }
-                        },
-                        "Level": {
-                            "Bgm": {
-                                "Loading": "Seviye ses efekti deşifre ediliyor...",
-                                "Error": "\"{0}\" seviyesinin ses efektini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
-                            }
-                        },
-                        "Boot": {
-                            "Loading": "Seviye önyükleniyor...",
-                            "Error": "\"{0}\" seviyesini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "Seviye Bağlantısı Kopyalandı"
-                    }
-                },
-                "Skin": {
-                    "ShareSuccess": {
-                        "Title": "Doku Bağlantısı Kopyalandı"
-                    }
-                },
-                "Background": {
-                    "Preview": {
-                        "Boot": {
-                            "Loading": "Arkaplan önyükleniyor...",
-                            "Error": "\"{0}\" arkaplanını önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için arkaplan yaratıcısı ile iletişime geçin."
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "Arkaplan Bağlantısı Kopyalandı"
-                    }
-                },
-                "Effect": {
-                    "Preview": {
-                        "Audio": {
-                            "Loading": "Ses efektinin sesi deşifre ediliyor...",
-                            "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
-                        },
-                        "Boot": {
-                            "Loading": "Ses efekti önyükleniyor...",
-                            "Error": "\"{0}\" ses efektini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "Efekt Bağlantısı Kopyalandı"
-                    }
-                },
-                "Particle": {
-                    "ShareSuccess": {
-                        "Title": "Partikül Bağlantısı Kopyalandı"
-                    }
-                },
-                "Engine": {
-                    "ShareSuccess": {
-                        "Title": "Motor Bağlantısı Kopyalandı"
-                    }
-                }
-            },
-            "Configurations": {
-                "Level": {
-                    "Title": "Seviye Yapılandırması",
-                    "Skin": {
-                        "Title": "Doku"
-                    },
-                    "Background": {
-                        "Title": "Arkaplan"
-                    },
-                    "Effect": {
-                        "Title": "Ses Efekti"
-                    },
-                    "Particle": {
-                        "Title": "Partikül"
-                    },
-                    "Options": {
-                        "Title": "Seçenekler"
-                    },
-                    "Audio": {
-                        "Title": "Ses",
-                        "BgmVolume": "Arkaplan Müziği",
-                        "SfxVolume": "Ses Efektleri"
-                    },
-                    "UI": {
-                        "Title": "Kullanıcı Arayüzü",
-                        "PrimaryMetric": "Ana Ölçek",
-                        "SecondaryMetric": "İkinci Ölçek",
-                        "JudgmentErrorStyle": "Yargı Hata Biçimi",
-                        "JudgmentErrorPlacement": "Yargı Hata Yerleşimi",
-                        "JudgmentErrorMin": "Minimum Yargı Hatası",
-                        "MenuStyle": "Menü Biçimi",
-                        "JudgmentStyle": "Yargı Biçimi",
-                        "ComboStyle": "Kombo Biçimi",
-                        "PrimaryMetricStyle": "Ana Ölçek Biçimi",
-                        "SecondaryMetricStyle": "İkinci Ölçek Biçimi"
-                    },
-                    "Offsets": {
-                        "Title": "Denge Ayarları",
-                        "LevelAudioOffset": "Seviyenin Ses Denge Ayarı",
-                        "ServerAudioOffset": "Sunucunun Ses Denge Ayarı",
-                        "DeviceAudioOffset": "Cihazın Ses Denge Ayarı",
-                        "EngineInputOffset": "Motorun Girdi Denge Ayarı",
-                        "DeviceInputOffset": "Cihazın Girdi Denge Ayarı"
-                    }
-                },
-                "Skin": {
-                    "Title": "Doku Yapılandırması"
-                },
-                "Background": {
-                    "Title": "Arkaplan Yapılandırması",
-                    "Image": {
-                        "Title": "Resim",
-                        "Blur": "Bulanıklık",
-                        "Mask": "Maskeleme"
-                    }
-                },
-                "Effect": {
-                    "Title": "Efekt Yapılandırması"
-                },
-                "Particle": {
-                    "Title": "Partikül Yapılandırması"
-                },
-                "Engine": {
-                    "Title": "Motor Yapılandırması",
-                    "Skin": {
-                        "Title": "Doku"
-                    },
-                    "Background": {
-                        "Title": "Arkaplan"
-                    },
-                    "Effect": {
-                        "Title": "Ses Efekti"
-                    },
-                    "Particle": {
-                        "Title": "Partikül"
-                    },
-                    "Options": {
-                        "Title": "Seçenekler"
-                    },
-                    "UI": {
-                        "Title": "Kullanıcı Arayüzü",
-                        "PrimaryMetric": "Ana Ölçek",
-                        "SecondaryMetric": "İkinci Ölçek",
-                        "JudgmentErrorStyle": "Yargı Hata Biçimi",
-                        "JudgmentErrorPlacement": "Yargı Hata Yerleşimi",
-                        "JudgmentErrorMin": "Minimum Yargı Hatası",
-                        "MenuStyle": "Menü Biçimi",
-                        "JudgmentStyle": "Yargı Biçimi",
-                        "ComboStyle": "Kombo Biçimi",
-                        "PrimaryMetricStyle": "Ana Ölçek Biçimi",
-                        "SecondaryMetricStyle": "İkinci Ölçek Biçimi"
-                    },
-                    "Offsets": {
-                        "Title": "Denge Ayarları",
-                        "EngineInputOffset": "Motorun Girdi Denge Ayarı"
-                    }
-                }
-            },
-            "Savers": {
-                "Level": {
-                    "Success": {
-                        "Title": "Seviye Kaydedildi"
-                    }
-                },
-                "Skin": {
-                    "Success": {
-                        "Title": "Doku Kaydedildi"
-                    }
-                },
-                "Background": {
-                    "Success": {
-                        "Title": "Arkaplan Kaydedildi"
-                    }
-                },
-                "Effect": {
-                    "Success": {
-                        "Title": "Efekt Kaydedildi"
-                    }
-                },
-                "Particle": {
-                    "Success": {
-                        "Title": "Partikül Kaydedildi"
-                    }
-                },
-                "Engine": {
-                    "Success": {
-                        "Title": "Motor Kaydedildi"
-                    }
-                }
-            }
-        },
-        "Settings": {
-            "Title": "Ayarlar",
-            "Graphics": {
-                "Title": "Grafikler",
-                "TargetFps": "Hedef FPS",
-                "RenderScale": "Görselleştirme Büyüklüğü",
-                "AntiAliasing": {
-                    "Title": "Kenar Yumuşatma",
-                    "Options": {
-                        "Off": "Kapalı",
-                        "TwoX": "2x",
-                        "FourX": "4x",
-                        "EightX": "8x"
-                    }
-                },
-                "GpuParticleSystem": "İşlemci Partikül Sistemi",
-                "IgnoreNotch": "Kenar Çentiğini Yoksay"
-            },
-            "Audio": {
-                "Title": "Ses",
-                "BgmVolume": "Arkaplan Ses Düzeyi",
-                "SfxVolume": "Ses Efekti Ses Düzeyi",
-                "AlwaysDecodeLevelBgm": "Her Zaman Seviye Ses Efektini Deşifre Et",
-                "PreviewBgm": {
-                    "Title": "Arkaplan Müziği Önizlemesi",
-                    "Options": {
-                        "Off": "Kapalı",
-                        "DetailsOnly": "Sadece Detaylarda",
-                        "ListAndDetails": "Liste ve Detaylarda"
-                    }
-                },
-                "LevelBgmQuality": {
-                    "Title": "Seviye Arkaplan Müziği Kalitesi",
-                    "Options": {
-                        "Low": "Az",
-                        "Mid": "Orta",
-                        "High": "Yüksek"
-                    }
-                },
-                "PreviewBgmQuality": {
-                    "Title": "Arkaplan Müziği Önizlemesi Kalitesi",
-                    "Options": {
-                        "Low": "Az",
-                        "Mid": "Orta",
-                        "High": "Yüksek"
-                    }
-                }
-            },
-            "UI": {
-                "Title": "Kullanıcı Arayüzü",
-                "Localization": "Dil",
-                "Theme": "Tema",
-                "Scale": "Arayüz Büyüklüğü",
-                "UnpauseDelay": "Durdurma Gecikmesi",
-                "PerfectJudgmentColors": "Perfect Yargı Renkleri",
-                "GreatJudgmentColors": "Great Yargı Renkleri",
-                "GoodJudgmentColors": "Good Yargı Renkleri",
-                "MissJudgmentColors": "Miss Yargı Renkleri",
-                "PositiveJudgmentErrorColors": "Pozitif Yargı Hata Renkleri",
-                "NegativeJudgmentErrorColors": "Negatif Yargı Hata Renkleri",
-                "AllPerfectComboColors": "All Perfect Kombo Renkleri",
-                "FullComboComboColors": "Full Combo Kombo Renkleri",
-                "PassComboColors": "Pass Kombo Renkleri",
-                "FailComboColors": "Fail Kombo Renkleri",
-                "BoldComboNumber": "Kalın Kombo Numarası",
-                "ShowZeroCombo": "Kombo Sıfır İken Göster"
-            },
-            "Offsets": {
-                "Title": "Denge Ayarları",
-                "Device": {
-                    "Title": "Cihaz",
-                    "Option": "{0}. Cihaz"
-                },
-                "DeviceAudioOffset": "Cihazın Ses Denge Ayarı",
-                "DeviceInputOffset": "Cihazın Girdi Denge Ayarı"
-            },
-            "Repository": {
-                "Title": "Depo",
-                "Manage": "Ayarla"
-            },
-            "Cache": {
-                "Title": "Önbellek",
-                "AlwaysRevalidate": "Her Zaman Yeniden Onayla",
-                "Manage": "Ayarla"
-            },
-            "Developer": {
-                "Title": "Yapımcı",
-                "ShowFps": "FPS' i Göster",
-                "FpsStyle": "FPS Biçimi",
-                "ShowTouches": "Dokunmaları Göster",
-                "TouchStyle": "Dokunma İmleci Biçimi",
-                "DebugMode": "Hata Ayıklama Modu",
-                "DebugLogStyle": "Hata Ayıklama Kayıt Biçimi"
-            }
-        },
-        "ManageRepository": {
-            "Title": "Depoyu Ayarla",
-            "Repository": {
-                "Title": "Depo",
-                "Description": "Depo, bu cihazda yerel olarak bulunan tüm kaynakları hafızasına alır.",
-                "Size": "Büyüklük: {0}"
-            },
-            "DeleteRepository": {
-                "Title": "Depoyu Silme",
-                "Description": "İstendiğinde Sonolus'un yeniden indirmesine neden olan tüm depo kaynaklarını silin.",
-                "Delete": "Sil",
-                "DeleteConfirmation": {
-                    "Description": "Tüm depo kaynaklarını silmek istediğinizden emin misiniz?",
-                    "Loading": "Depo siliniyor..."
-                },
-                "Success": {
-                    "Title": "Depo Silindi"
-                }
-            }
-        },
-        "ManageCache": {
-            "Title": "Önbelleği Ayarla",
-            "Cache": {
-                "Title": "Önbelllek",
-                "Description": "Önbellek, ağ URL' lerini ve depo kaynaklarını hafızasına alarak ağ isteklerini yüklemeyi hızlandırmasına ve bant genişliği kullanımını azaltmasına olanak tanır.\nÖnbellek çok az bir yer kaplar, ve silinmemesi önerilir.",
-                "Count": "Önbellek: {0} girdi"
-            },
-            "ExpireCache": {
-                "Title": "Önbelleği Sona Erdir",
-                "Description": "Ağ URL'lerinin ilişkilendirildiği yerel depo kaynaklarını kullanmadan önce Sonolus'un yeniden onaylamasına neden olan tüm önbelleği sona erdirin.",
-                "Expire": "Sona Erdir",
-                "ExpireConfirmation": {
-                    "Description": "Tüm önbelleği sona erdirmek istediğinizden emin misiniz?"
-                },
-                "Success": {
-                    "Title": "Önbellek Sona Erdirildi"
-                }
-            },
-            "DeleteCache": {
-                "Title": "Önbelleği Sil",
-                "Description": "Sonolus' un tüm ağ isteklerini yeniden indirmesine neden olacak tüm önbelleği silin. Önerilmez.",
-                "Delete": "Sil",
-                "DeleteConfirmation": {
-                    "Description": "Tüm önbelleği silmek istediğinizden emin misiniz?"
-                },
-                "Success": {
-                    "Title": "Önbellek Silindi"
-                }
-            }
+      },
+      "EditAboutMe": {
+        "Loading": "Hakkımda düzenleniyor...",
+        "Error": "Hakkımda bölümü düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "Hakkımda Düzenlendi"
         }
+      },
+      "EditSocialLinks": {
+        "Loading": "Sosyal bağlantılar düzenleniyor...",
+        "Error": "Sosyal bağlantıları düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "Sosyal Bağlantılar Düzenlendi"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "Favoriler düzenleniyor...",
+        "Error": "Favorileri düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "Favoriler Düzenlendi"
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "Sonolus doğrulaması isteniyor...",
+        "Error": "Sonolus'tan doğrulama isterken başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için Sonolus ile iletişime geçin."
+      },
+      "Logout": {
+        "Loading": "Oturum kapatılıyor...",
+        "Error": "Oturum kapatmada başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Success": {
+          "Title": "Oturum Kapatıldı"
+        }
+      }
+    },
+    "CustomServer": {
+      "SonolusVersionError": "Bu sunucu sadece Sonolus' un {0} versiyonunu destekliyor.\n\nLütfen Sonolus uygulamanızı güncelleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+      "SonolusVersionTooOld": "Bu sunucu Sonolus' un eski bir versiyonunu destekliyor ({0}).\n\nLütfen sunucunun güncellenmesini bekleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "Bu sunucu doğrulama gerektiriyor.\n\nLütfen oturum açın ve tekrar deneyin."
+          },
+          "Confirmation": {
+            "Description": "Bu sunucu doğrulama gerektiriyor.\n\n\"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "Doğrulamanız geçerliliğini yitirdi.\n\nTekrar \"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
+        },
+        "AuthenticationRejected": {
+          "Description": "Doğrulama talebiniz sunucu tarafından reddedildi.\n\nTekrar \"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
+        },
+        "Authenticate": {
+          "Loading": "Sunucu doğrulaması talep ediliyor...",
+          "Error": "\"{0}\" tarafından istenen doğrulama talebi başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "AddressMismatchError": {
+          "Description": "Doğrulama adresi eşleşmedi.\n\nSorunu bildirmek için lütfen sunucu sahibiyle iletişime geçin."
+        }
+      },
+      "Server": {
+        "Info": {
+          "Loading": "Sunucu bilgisi yükleniyor...",
+          "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu.\n\nLütfen sunucu adresinin doğru olup olmadığın kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Banner": {
+          "Loading": "Sunucu sembolü yükleniyor...",
+          "Error": "\"{0}\" sunucusunun sembolünü yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      },
+      "Level": {
+        "List": {
+          "Loading": "Seviyeler yükleniyor...",
+          "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Seviye detayları yükleniyor...",
+          "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Compatibility": {
+          "Loading": "Seviye uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir seviyeyi kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+        },
+        "Cover": {
+          "Loading": "Seviye albüm kapağı yükleniyor...",
+          "Error": "\"{0}\" seviyesinin albüm kapağını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Bgm": {
+          "Loading": "Seviye ses efektleri yükleniyor...",
+          "Error": "\"{0}\" seviyesinin ses efektlerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Preview": {
+          "Loading": "Seviye önizlemesi yükleniyor...",
+          "Error": "\"{0}\" seviyesinin önizlemesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Data": {
+          "Loading": "Seviye bilgisi yükleniyor...",
+          "Error": "\"{0}\" seviyesinin bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "Dokular yükleniyor...",
+          "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Doku detayları yükleniyor...",
+          "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Compatibility": {
+          "Loading": "Doku uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir dokuyu kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+        },
+        "Thumbnail": {
+          "Loading": "Doku önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Data": {
+          "Loading": "Doku bilgisi yükleniyor...",
+          "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Texture": {
+          "Loading": "Doku yapısı yükleniyor...",
+          "Error": "\"{0}\" doku yapısını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "Arkaplanlar yükleniyor...",
+          "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Arkaplan detayları yükleniyor...",
+          "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Compatibility": {
+          "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir arkaplanı kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+        },
+        "Thumbnail": {
+          "Loading": "Arkaplan önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Data": {
+          "Loading": "Arkaplan bilgisi yükleniyor...",
+          "Error": "\"{0}\" arkaplan bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Image": {
+          "Loading": "Arkaplan görseli yükleniyor...",
+          "Error": "\"{0}\" arkaplan görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Configuration": {
+          "Loading": "Arkaplan yapılandırması yükleniyor...",
+          "Error": "\"{0}\" arkaplan yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Ses efekti yükleniyor...",
+          "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Ses efekti detayları yükleniyor...",
+          "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Compatibility": {
+          "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir ses efekti kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+        },
+        "Thumbnail": {
+          "Loading": "Ses efekti önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Data": {
+          "Loading": "Ses efekti bilgisi yükleniyor...",
+          "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Audio": {
+          "Loading": "Ses efekti sesi yükleniyor...",
+          "Error": "\"{0}\" ses efekti sesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "Partiküller yükleniyor...",
+          "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Partikül detayları yükleniyor...",
+          "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Compatibility": {
+          "Loading": "Partikül uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir partikülü kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+        },
+        "Thumbnail": {
+          "Loading": "Partikül önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Data": {
+          "Loading": "Partikül bilgileri yükleniyor...",
+          "Error": "\"{0}\" partikül bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Texture": {
+          "Loading": "Partikül dokusu yükleniyor...",
+          "Error": "\"{0}\" partikül dokusunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Motorlar yükleniyor...",
+          "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Motor detayları yükleniyor...",
+          "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Compatibility": {
+          "Loading": "Motor uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir motoru kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+        },
+        "Thumbnail": {
+          "Loading": "Motor önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Data": {
+          "Loading": "Motor bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Rom": {
+          "Loading": "Motor ROM' u yükleniyor...",
+          "Error": "\"{0}\" motor ROM'unu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Configuration": {
+          "Loading": "Motor yapılandırması yükleniyor...",
+          "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      }
+    },
+    "Collection": {
+      "Server": {
+        "Info": {
+          "Loading": "Koleksiyon bilgisi yükleniyor...",
+          "Error": "\"{0}\" koleksiyonunun bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Banner": {
+          "Loading": "Koleksiyon sembolü yükleniyor...",
+          "Error": "\"{0}\" koleksiyonunun sembolünü yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        }
+      },
+      "Level": {
+        "List": {
+          "Loading": "Seviyeler yükleniyor...",
+          "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Seviye detayları yükleniyor...",
+          "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Seviye uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
+        },
+        "Cover": {
+          "Loading": "Seviye albüm kapağı yükleniyor...",
+          "Error": "\"{0}\" seviye albüm kapağını yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
+        },
+        "Bgm": {
+          "Loading": "Seviye ses efektleri yükleniyor...",
+          "Error": "\"{0}\" seviye ses efektini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
+        },
+        "Preview": {
+          "Loading": "Seviye önizlemesi yükleniyor...",
+          "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
+        },
+        "Data": {
+          "Loading": "Seviye bilgisi yükleniyor...",
+          "Error": "\"{0}\" seviye bilgisini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "Dokular yükleniyor...",
+          "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Doku detayları yükleniyor...",
+          "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Doku uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
+        },
+        "Thumbnail": {
+          "Loading": "Doku önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
+        },
+        "Data": {
+          "Loading": "Doku bilgisi yükleniyor...",
+          "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
+        },
+        "Texture": {
+          "Loading": "Doku yapısı yükleniyor...",
+          "Error": "\"{0}\" doku yapısını yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "Arkaplanlar yükleniyor...",
+          "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Arkaplan detayları yükleniyor...",
+          "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
+        },
+        "Thumbnail": {
+          "Loading": "Arkaplan önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
+        },
+        "Data": {
+          "Loading": "Arkaplan bilgisi yükleniyor...",
+          "Error": "\"{0}\" arkaplan bilgisini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
+        },
+        "Image": {
+          "Loading": "Arkaplan görseli yükleniyor...",
+          "Error": "\"{0}\" arkaplan görselini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
+        },
+        "Configuration": {
+          "Loading": "Arkaplan yapılandırması yükleniyor...",
+          "Error": "\"{0}\" arkaplan yapılandırmasını yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Ses efekti yükleniyor...",
+          "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Ses efekti detayları yükleniyor...",
+          "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
+        },
+        "Thumbnail": {
+          "Loading": "Ses efekti önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
+        },
+        "Data": {
+          "Loading": "Ses efekti bilgisi yükleniyor...",
+          "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
+        },
+        "Audio": {
+          "Loading": "Ses efekti sesi yükleniyor...",
+          "Error": "\"{0}\" ses efekti sesini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "Partiküller yükleniyor...",
+          "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Partikül detayları yükleniyor...",
+          "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Partikül uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
+        },
+        "Thumbnail": {
+          "Loading": "Partikül önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
+        },
+        "Data": {
+          "Loading": "Partikül bilgileri yükleniyor...",
+          "Error": "\"{0}\" partikül bilgisini yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
+        },
+        "Texture": {
+          "Loading": "Partikül dokusu yükleniyor...",
+          "Error": "\"{0}\" partikül dokusunu yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Motorlar yükleniyor...",
+          "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Motor detayları yükleniyor...",
+          "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Motor uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        },
+        "Thumbnail": {
+          "Loading": "Motor önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        },
+        "Data": {
+          "Loading": "Motor bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        },
+        "Rom": {
+          "Loading": "Motor ROM' u yükleniyor...",
+          "Error": "\"{0}\" motor ROM' unu yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        },
+        "Configuration": {
+          "Loading": "Motor yapılandırması yükleniyor...",
+          "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        }
+      }
     },
     "Scp": {
-        "PermissionError": {
-            "Description": "Sonolus bu eylemi yapabilmek için gerekli izinleri alamıyor.\n\nLütfen Ayarları açın ve Sonolus' a yetki verin.",
-            "Open": "Aç"
+      "Server": {
+        "Info": {
+          "Loading": "Paket bilgisi yükleniyor...",
+          "Error": "\"{0}\" paket bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Banner": {
+          "Loading": "Paket sembolü yükleniyor...",
+          "Error": "\"{0}\" paket sembolünü yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         }
+      },
+      "Level": {
+        "List": {
+          "Loading": "Seviyeler yükleniyor...",
+          "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Seviye detayları yükleniyor...",
+          "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Seviye uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Cover": {
+          "Loading": "Seviye albüm kapağı yükleniyor...",
+          "Error": "\"{0}\" seviye albüm kapağını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Bgm": {
+          "Loading": "Seviye ses efektleri yükleniyor...",
+          "Error": "\"{0}\" seviye ses efektini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Preview": {
+          "Loading": "Seviye önizlemesi yükleniyor...",
+          "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Data": {
+          "Loading": "Seviye bilgisi yükleniyor...",
+          "Error": "\"{0}\" seviye bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "Dokular yükleniyor...",
+          "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Doku detayları yükleniyor...",
+          "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Doku uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Thumbnail": {
+          "Loading": "Doku önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Data": {
+          "Loading": "Doku bilgisi yükleniyor...",
+          "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Texture": {
+          "Loading": "Doku yapısı yükleniyor...",
+          "Error": "\"{0}\" doku yapısını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "Arkaplanlar yükleniyor...",
+          "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Arkaplan detayları yükleniyor...",
+          "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Thumbnail": {
+          "Loading": "Arkaplan önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Data": {
+          "Loading": "Arkaplan bilgisi yükleniyor...",
+          "Error": "\"{0}\" arkaplan bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Image": {
+          "Loading": "Arkaplan görseli yükleniyor...",
+          "Error": "\"{0}\" arkaplan görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Configuration": {
+          "Loading": "Arkaplan yapılandırması yükleniyor...",
+          "Error": "\"{0}\" arkaplan yapılandırmasını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Ses efekti yükleniyor...",
+          "Error": "{0}. sayfadaki ses efektlerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Ses efekti detayları yükleniyor...",
+          "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Thumbnail": {
+          "Loading": "Ses efekti önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Data": {
+          "Loading": "Ses efekti bilgisi yükleniyor...",
+          "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Audio": {
+          "Loading": "Ses efekti sesi yükleniyor...",
+          "Error": "\"{0}\" ses efekti sesini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "Partiküller yükleniyor...",
+          "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Partikül detayları yükleniyor...",
+          "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Partikül uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Thumbnail": {
+          "Loading": "Partikül önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Data": {
+          "Loading": "Partikül bilgileri yükleniyor...",
+          "Error": "\"{0}\" partikül bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Texture": {
+          "Loading": "Partikül dokusu yükleniyor...",
+          "Error": "\"{0}\" partikül dokusunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Motorlar yükleniyor...",
+          "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Motor detayları yükleniyor...",
+          "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Compatibility": {
+          "Loading": "Motor uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Thumbnail": {
+          "Loading": "Motor önizleme görseli yükleniyor...",
+          "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Data": {
+          "Loading": "Motor bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Rom": {
+          "Loading": "Motor ROM' u yükleniyor...",
+          "Error": "\"{0}\" motor ROM' unu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Configuration": {
+          "Loading": "Motor yapılandırması yükleniyor...",
+          "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      }
+    }
+  },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "\"{0}\" bağlantısı geçersiz.\n\nLütfen farklı bir bağlantı kullanın."
+    }
+  },
+  "Title": {
+    "TapToStart": "Başlatmak için Dokunun"
+  },
+  "Layout": {
+    "Refresh": "Yenile",
+    "Back": "Geri"
+  },
+  "Routes": {
+    "JumpToPage": {
+      "Title": "Sayfaya Atla",
+      "Page": {
+        "Title": "Sayfa",
+        "Description": "Sayfa sayısı.",
+        "Placeholder": "Sayfa sayısını girin..."
+      },
+      "Jump": "Atla"
     },
-    "Runtimes": {
+    "SelectLocalization": {
+      "Title": "Dil Seçin",
+      "Description": "Tercih ettiğiniz dili seçin:",
+      "Error": "Dilleri yüklemede başarısız olundu."
+    },
+    "SelectTheme": {
+      "Title": "Tema Seç",
+      "Description": "Tema Seçin:"
+    },
+    "SelectClient": {
+      "CustomServers": {
+        "Title": "Özel Sunucular",
+        "RemoveConfirmation": {
+          "Description": "\"{0}\" sunucusunu silmek istediğinize emin misiniz?"
+        }
+      },
+      "Collections": {
+        "Title": "Koleksiyonlar",
+        "RemoveConfirmation": {
+          "Description": "\"{0}\" koleksiyonunu silmek istediğinize emin misiniz?"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "Oyna",
+        "Description": "Oynamaya başlamak için özel sunucu ya da koleksiyon seçin"
+      },
+      "ToSave": {
         "Level": {
-            "Play": {
-                "Routes": {
-                    "Pause": {
-                        "Title": "Durduruldu",
-                        "Control": {
-                            "Title": "Kontrol",
-                            "Exit": "Çık",
-                            "Restart": "Tekrar Başlat"
-                        },
-                        "Snapshot": {
-                            "Title": "Şipşak",
-                            "Mark": "İşaretle",
-                            "Jump": "Atla"
-                        },
-                        "Debug": {
-                            "Title": "Hata Ayıklama"
-                        }
-                    },
-                    "Result": {
-                        "Title": "Sonuç",
-                        "Options": {
-                            "HasUsedPause": "Durdur",
-                            "HasUsedSnapshot": "Şipşak"
-                        },
-                        "Graphs": {
-                            "Title": "Grafikler",
-                            "Judgment": {
-                                "Title": "Yargı Grafiği"
-                            },
-                            "Accuracy": {
-                                "Title": "Kesinlik Grafiği",
-                                "AbsValue": "Abs Value",
-                                "Mean": "Mean",
-                                "StDev": "St Dev",
-                                "Min": "Min",
-                                "Max": "Maks"
-                            },
-                            "Bucket": {
-                                "Title": "Bucket Grafiği"
-                            }
-                        }
-                    }
-                }
-            }
+          "Title": "Seviyeyi Kaydet",
+          "Description": "Bu seviyenin kaydedileceği bir koleksiyon seçin"
+        },
+        "Skin": {
+          "Title": "Dokuyu Kaydet",
+          "Description": "Bu dokunun kaydedileceği koleksiyonu seçin."
+        },
+        "Background": {
+          "Title": "Arkaplanı Kaydet",
+          "Description": "Bu arkaplanın kaydedileceği koleksiyonu seçin"
         },
         "Effect": {
-            "Preview": {
-                "Routes": {
-                    "Preview": {
-                        "Play": "Oynat"
-                    }
-                }
-            }
+          "Title": "Efekti Kaydet",
+          "Description": "Bu efektin kaydedileceği koleksiyonu seçin"
+        },
+        "Particle": {
+          "Title": "Partikülü Kaydet",
+          "Description": "Bu partikülün kaydedileceği koleksiyonu seçin."
+        },
+        "Engine": {
+          "Title": "Motoru Kaydet",
+          "Description": "Bu motorun kaydedileceği koleksiyonu seçin."
         }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "Seviye Seçin",
+          "Description": "Seviyesini kullanmak için özel sunucu ya da koleksiyon seçin."
+        },
+        "Skin": {
+          "Title": "Doku Seçin",
+          "Description": "Dokusunu kullanmak için özel sunucu ya da koleksiyon seçin."
+        },
+        "Background": {
+          "Title": "Arkaplan Seçin",
+          "Description": "Arkaplanını kullanmak için özel sunucu ya da koleksiyon seçin."
+        },
+        "Effect": {
+          "Title": "Efekt Seçin",
+          "Description": "Efektini kullanmak için özel sunucu ya da koleksiyon seçin."
+        },
+        "Particle": {
+          "Title": "Partikül Seçin",
+          "Description": "Partiküllerinizi kullanmak için özel sunucu ya da koleksiyon seçin."
+        },
+        "Engine": {
+          "Title": "Motor Seçin",
+          "Description": "Motorunu kullanmak için özel sunucu ya da koleksiyon seçin."
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "Favori bir Seviye Ekleyin",
+          "Description": "Favori seviyelerinizi eklemek için özel sunucu ya da koleksiyon seçin."
+        },
+        "Skin": {
+          "Title": "Favori bir Doku Ekleyin",
+          "Description": "Favori dokularınızı eklemek için özel sunucu ya da koleksiyon seçin."
+        },
+        "Background": {
+          "Title": "Favori bir Arkaplan Seçin",
+          "Description": "Favori arkaplanlarınızı eklemek için özel sunucu ya da koleksiyon seçin."
+        },
+        "Effect": {
+          "Title": "Favori bir Efekt Seçin",
+          "Description": "Favori efektlerinizi eklemek için özel sunucu ya da koleksiyon seçin."
+        },
+        "Particle": {
+          "Title": "Favori bir Partikül Seçin",
+          "Description": "Favori partiküllerinizi eklemek için özel sunucu ya da koleksiyon seçin."
+        },
+        "Engine": {
+          "Title": "Favori bir Motor Seçin",
+          "Description": "Favori motorunuzu eklemek için özel sunucu ya da koleksiyon seçin."
+        }
+      }
+    },
+    "EditCustomServer": {
+      "Title": "Özel Sunucuyu Düzenleyin"
+    },
+    "AddCustomServerAddress": {
+      "Title": "Özel Sunucu Ekleyin",
+      "Address": {
+        "Title": "Adres",
+        "Description": "Özel sunucu adresi normal bir web URL' sidir (\"https://...\") ve genellikle özel sunucunun web sayfasında bulunabilir. ",
+        "Placeholder": "Özel sunucu adresi girin..."
+      }
+    },
+    "AddCustomServerInfo": {
+      "Title": "Özel Sunucu Ekleyin",
+      "Info": {
+        "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu.\n\nLütfen sunucu adresinin doğru girip girmediğinizi kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+      },
+      "Name": {
+        "Title": "İsim",
+        "Description": "İsmini istediğiniz gibi koyabilirsiniz.",
+        "Placeholder": "Özel sunucu ismini girin..."
+      }
+    },
+    "EditCollection": {
+      "Title": "Koleksiyonu Düzenle"
+    },
+    "AddCollection": {
+      "Title": "Koleksiyon Ekle",
+      "Name": {
+        "Title": "İsim",
+        "Description": "İsmini istediğiniz gibi koyabilirsiniz.",
+        "Placeholder": "Koleksiyon ismini girin..."
+      }
+    },
+    "ImportScp": {
+      "Scp": {
+        "Loading": "Paket yükleniyor...",
+        "Error": "\"{0}\" paketi yüklenmede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+      },
+      "Success": {
+        "Title": "Paket İçe Aktarıldı"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "Paket Dışa Aktarıldı"
+      }
+    },
+    "EditVisibility": {
+      "Scale": {
+        "Title": "Boyut",
+        "Description": "Boyut."
+      },
+      "Alpha": {
+        "Title": "Alfa",
+        "Description": "Alfa."
+      }
+    },
+    "EditAnimation": {
+      "Scale": {
+        "Title": "Boyut",
+        "Description": "Boyut."
+      },
+      "Alpha": {
+        "Title": "Alfa",
+        "Description": "Alfa."
+      }
+    },
+    "EditTween": {
+      "From": {
+        "Title": "From",
+        "Description": "From."
+      },
+      "To": {
+        "Title": "To",
+        "Description": "To."
+      },
+      "Duration": {
+        "Title": "Duration",
+        "Description": "Duration."
+      },
+      "Ease": {
+        "Title": "Ease",
+        "Description": "Ease."
+      }
+    },
+    "EditColors": {
+      "Foreground": {
+        "Title": "Önplan",
+        "Description": "Önplan rengi."
+      },
+      "Background": {
+        "Title": "Arkaplan",
+        "Description": "Arkaplan rengi."
+      }
+    },
+    "CalibrateAudio": {
+      "Title": "Sesi Ayarla",
+      "Description": "Sesi; görünen grafik ve ses senkronize olana kadar Cihaz Ses Dengesi ile ayarlayın."
+    },
+    "CalibrateInput": {
+      "Title": "Girdiyi Ayarla",
+      "Description": "Parmaklarını sese eşlik edecek şekilde dokunarak girdiyi ayarlayın. Ama ilk önce, lütfen cihaz ses dengesinin uygun bir şekilde ayarlandığından emin olun. Eğer size böyle bir seçenek vermeyen oyunlara alışkınsanız, denge ayarını 0 olarak bırakabilirsiniz.",
+      "Result": "Önerilen Denge Ayarı: {0} (±{1})"
+    },
+    "Home": {
+      "Title": "Ana Menü",
+      "Play": "Oyna",
+      "Players": "Oyuncular",
+      "Account": "Hesap",
+      "Settings": "Ayarlar",
+      "UpdateAvailable": {
+        "Title": "Güncelleme Var",
+        "Description": "Sonolus' un {0} versiyonu çıktı!\n\nWeb sitemizi ziyaret edin:\nhttps://sonolus.com",
+        "Open": "Aç"
+      }
+    },
+    "Players": {
+      "Title": "Oyuncular",
+      "PlayerLookup": {
+        "Title": "Oyuncu Arama",
+        "Id": {
+          "Title": "Oyuncu Kimliği",
+          "Description": "Oyuncu Kimliği.",
+          "Placeholder": "Oyuncu kimliğini girin..."
+        },
+        "Lookup": "Ara"
+      }
+    },
+    "Account": {
+      "Title": "Hesap",
+      "MyAccount": {
+        "Title": "Hesabım",
+        "Login": {
+          "Apple": "Apple ile giriş yap",
+          "Google": "Google ile giriş yap",
+          "Wechat": "WeChat ile giriş yap"
+        },
+        "Profile": "Profil",
+        "Logout": "Oturumu Kapat"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "İsmini Düzenle",
+          "EditAvatar": "Avatarını Düzenle"
+        },
+        "AboutMe": {
+          "Title": "Hakkımda"
+        },
+        "SocialLinks": {
+          "Title": "Sosyal Bağlantılar",
+          "None": "Sosyal bağlantı yok.",
+          "OpenConfirmation": {
+            "Description": "Bu sosyal bağlantı şuraya gider:\n{0}\n\nZiyaret etmek istediğinizden emin misiniz?"
+          }
+        },
+        "Favorites": {
+          "Title": "Favoriler",
+          "None": "Favoriler yok."
+        }
+      },
+      "EditName": {
+        "Title": "İsmi Düzenle",
+        "Name": {
+          "Title": "İsim",
+          "Description": "Oyuncu ismi.",
+          "Placeholder": "Oyuncu ismi girin..."
+        }
+      },
+      "EditAvatar": {
+        "Title": "Avatarı Düzenle",
+        "Foreground": {
+          "Title": "Önplan",
+          "Description": "Avatar önplanı."
+        },
+        "Background": {
+          "Title": "Arkaplan",
+          "Description": "Avatar arkaplanı."
+        }
+      },
+      "EditAboutMe": {
+        "Title": "Hakkımda' yı Düzenle",
+        "AboutMe": {
+          "Title": "Hakkımda",
+          "Description": "Kendiniz hakkında kısa bir açıklama.",
+          "Placeholder": "Bir \"Hakkımda\" bölümü ekle..."
+        }
+      },
+      "AddSocialLink": {
+        "Title": "Sosyal Bağlantı Ekle",
+        "SocialLinkTitle": {
+          "Title": "Başlık",
+          "Description": "Başlık.",
+          "Placeholder": "Sosyal bağlantı başlığı girin..."
+        },
+        "SocialLinkAddress": {
+          "Title": "Adres",
+          "Description": "Bağlantı kurulacak bir web URL'si (\"https://...\").",
+          "Placeholder": "Sosyal bağlantı adresini girin..."
+        }
+      },
+      "AddFavorite": {
+        "Title": "Favori Ekle",
+        "Description": "Eklenecek favori türünü seçin:",
+        "Level": "Seviye",
+        "Skin": "Doku",
+        "Background": "Arkaplan",
+        "Effect": "Ses Efekti",
+        "Particle": "Partikül",
+        "Engine": "Motor"
+      }
+    },
+    "Server": {
+      "Home": {
+        "Levels": "Seviyeler",
+        "Skins": "Dokular",
+        "Backgrounds": "Arkaplanlar",
+        "Effects": "Ses Efektleri",
+        "Particles": "Partiküller",
+        "Engines": "Motorlar",
+        "SaveSuccess": {
+          "Title": "Sunucu Kaydedildi"
+        },
+        "ShareSuccess": {
+          "Title": "Sunucu Bağlantısı Kopyalandı"
+        }
+      },
+      "Search": {
+        "Title": "Ara"
+      },
+      "Lists": {
+        "DeleteConfirmation": {
+          "Description": "\"{0}\" dosyasını silmek istediğinize emin misiniz?"
+        },
+        "Level": {
+          "Title": "Seviyeler",
+          "ShareSuccess": {
+            "Title": "Seviyelerin Bağlantısı Kopyalandı"
+          }
+        },
+        "Skin": {
+          "Title": "Dokular",
+          "ShareSuccess": {
+            "Title": "Dokuların Bağlantısı Kopyalandı"
+          }
+        },
+        "Background": {
+          "Title": "Arkaplanlar",
+          "ShareSuccess": {
+            "Title": "Arkaplanların Bağlantısı Kopyalandı"
+          }
+        },
+        "Effect": {
+          "Title": "Ses Efektleri",
+          "ShareSuccess": {
+            "Title": "Ses Efektlerinin Bağlantısı Kopyalandı"
+          }
+        },
+        "Particle": {
+          "Title": "Partiküller",
+          "ShareSuccess": {
+            "Title": "Partiküllerin Bağlantısı Kopyalandı"
+          }
+        },
+        "Engine": {
+          "Title": "Motorlar",
+          "ShareSuccess": {
+            "Title": "Motorların Bağlantısı Kopyalandı"
+          }
+        }
+      },
+      "Details": {
+        "Actions": {
+          "Configuration": "Yapılandır"
+        },
+        "DeleteConfirmation": {
+          "Description": "\"{0}\" dosyasını silmek istediğinizden emin misiniz?"
+        },
+        "Description": {
+          "Title": "Açıklama"
+        },
+        "Recommended": {
+          "Title": "Önerilenler"
+        },
+        "Level": {
+          "Actions": {
+            "Play": "Oyna"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Ses efektinin sesi deşifre ediliyor...",
+                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Seviye ses efekti deşifre ediliyor...",
+                "Error": "\"{0}\" seviyesinin ses efektini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+              }
+            },
+            "Boot": {
+              "Loading": "Seviye önyükleniyor...",
+              "Error": "\"{0}\" seviyesini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Seviye Bağlantısı Kopyalandı"
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+            "Title": "Doku Bağlantısı Kopyalandı"
+          }
+        },
+        "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "Arkaplan önyükleniyor...",
+              "Error": "\"{0}\" arkaplanını önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için arkaplan yaratıcısı ile iletişime geçin."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Arkaplan Bağlantısı Kopyalandı"
+          }
+        },
+        "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "Ses efektinin sesi deşifre ediliyor...",
+              "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+            },
+            "Boot": {
+              "Loading": "Ses efekti önyükleniyor...",
+              "Error": "\"{0}\" ses efektini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Efekt Bağlantısı Kopyalandı"
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+            "Title": "Partikül Bağlantısı Kopyalandı"
+          }
+        },
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "Motor Bağlantısı Kopyalandı"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "Seviye Yapılandırması",
+          "Offsets": {
+            "LevelAudioOffset": {
+              "Title": "Seviyenin Ses Denge Ayarı",
+              "Description": "Bu seviyenin ek ses denge ayarı, yalnızca bu seviye senkronizasyon dışı olduğunda kullanılmalıdır. Sesiniz çok geç geliyorsa artırın, aksi takdirde azaltın."
+            },
+            "ServerAudioOffset": {
+              "Title": "Sunucunun Ses Denge Ayarı",
+              "Description": "Bu sunucunun ek ses denge ayarı, yalnızca bu sunucunun bütün seviyeleri senkronizasyon dışı olduğunda kullanılmalıdır. Sesiniz çok geç geliyorsa artırın, aksi takdirde azaltın."
+            }
+          }
+        },
+        "Skin": {
+          "Title": "Doku Yapılandırması"
+        },
+        "Background": {
+          "Title": "Arkaplan Yapılandırması",
+          "Image": {
+            "Title": "Resim",
+            "Blur": {
+              "Title": "Bulanıklık",
+              "Description": "Dikkat dağınıklığını azaltmak için arkaplan görüntüsünü bulanıklaştırın."
+            },
+            "Mask": {
+              "Title": "Maskeleme",
+              "Description": "Maskeleme, arkaplan görüntüsünü karartmak veya renklendirmek için kullanılabilir."
+            }
+          }
+        },
+        "Effect": {
+          "Title": "Efekt Yapılandırması"
+        },
+        "Particle": {
+          "Title": "Partikül Yapılandırması"
+        },
+        "Engine": {
+          "Title": "Motor Yapılandırması",
+          "Skin": {
+            "Title": "Doku"
+          },
+          "Background": {
+            "Title": "Arkaplan"
+          },
+          "Effect": {
+            "Title": "Ses Efekti"
+          },
+          "Particle": {
+            "Title": "Partikül"
+          },
+          "Options": {
+            "Title": "Seçenekler"
+          },
+          "UI": {
+            "PrimaryMetric": {
+              "Title": "Ana Ölçek",
+              "Description": "Gösterilecek ana ölçek birimi."
+            },
+            "SecondaryMetric": {
+              "Title": "İkinci Ölçek",
+              "Description": "Gösterilecek ikinci ölçek birimi."
+            },
+            "JudgmentErrorStyle": {
+              "Title": "Yargı Hata Biçimi",
+              "Description": "Yargı hatası stili. Pozitif yargı hatası solda, negatif yargı hatası da sağda gözükür."
+            },
+            "JudgmentErrorPlacement": {
+              "Title": "Yargı Hata Yerleşimi",
+              "Description": "Yargı hata yerleşimi ayarı."
+            },
+            "JudgmentErrorMin": {
+              "Title": "Minimum Yargı Hatası",
+              "Description": "Minimum yargı hatası ayarı. Yalnızca bundan daha büyük yargı hataları gösterilecektir."
+            },
+            "MenuStyle": {
+              "Title": "Menü Biçimi",
+              "Description": "Menü biçimi ayarı."
+            },
+            "JudgmentStyle": {
+              "Title": "Yargı Biçimi",
+              "Description": "Yargı biçimi ayarları."
+            },
+            "ComboStyle": {
+              "Title": "Kombo Biçimi",
+              "Description": "Kombonun biçim ayarları."
+            },
+            "PrimaryMetricStyle": {
+              "Title": "Ana Ölçek Biçimi",
+              "Description": "Ana ölçek biçimi ayarı."
+            },
+            "SecondaryMetricStyle": {
+              "Title": "İkinci Ölçek Biçimi",
+              "Description": "İkinci ölçek biçimi ayarı."
+            }
+          },
+          "Offsets": {
+            "EngineInputOffset": {
+              "Title": "Motorun Girdi Denge Ayarı",
+              "Description": "0' da kullanılması önerilir.\n\nBu motora artıdan girdi ayarı ayarlamak, yalnızca özellikle bu motoru çalıştırırken sorun yaşadığınızda kullanılmalıdır. Girişleriniz çok geç olarak kaydedilirse artırın, aksi takdirde de azaltın."
+            }
+          }
+        }
+      },
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "Seviye Kaydedildi"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Doku Kaydedildi"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Arkaplan Kaydedildi"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Efekt Kaydedildi"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Partikül Kaydedildi"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Motor Kaydedildi"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "Title": "Ayarlar",
+      "Graphics": {
+        "Title": "Grafikler",
+        "TargetFps": {
+          "Title": "Hedef FPS",
+          "Description": "Cihazınızın ekran yenileme hızının kullanılması önerilir.\n\nSonolus, bu FPS'de çalışmayı hedefler, ancak cihazın bunu yapabilip yapamayacağı garanti edilmez."
+        },
+        "RenderMode": {
+          "Title": "Görselleştirme (Render) Modu",
+          "Description": "Standart görselleştirme modunun kullanılması önerilir.\n\nStandart görselleştirme modu isabetli grafikler sağlarken, hafif işleme modu hafiften (lol) hatalı grafikler sağlar ancak büyük ölçüde geliştirilmiş performans sağlar.",
+          "Options": {
+            "Standard": "Standart",
+            "Lightweight": "Hafif (Lightweight)"
+          }
+        },
+        "RenderScale": {
+          "Title": "Görselleştirme (Render) Büyüklüğü",
+          "Description": "%100' de kullanılması önerilir.\n\nSonolus bu ölçekte görselleştirir ve ölçeği ekran boyutuna büyültür veya küçültür. %100' den yüksek görselleştirme ölçeği, daha kötü performans pahasına grafikleri iyileştirebilirken, %100' den düşük görselleştirme ölçeği, daha kötü grafikler pahasına performansı artırır."
+        },
+        "AntiAliasing": {
+          "Title": "Kenar Yumuşatma (Anti-Aliasing)",
+          "Description": "Kapalı kullanılması önerilir.\n\nKenar yumuşatma, daha kötü performans pahasına, özellikle hareketli grafik kenarlarındaki yapıları en aza indirerek grafikleri iyileştirir.",
+          "Options": {
+            "Off": "Kapalı",
+            "TwoX": "2x",
+            "FourX": "4x",
+            "EightX": "8x"
+          }
+        },
+        "GpuParticleSystem": {
+          "Title": "İşlemci Partikül Sistemi",
+          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak CPU parçacık sistemini kullanır. Bu ayar açıldığında, CPU yerine GPU partikül sistemi kullanılacaktır. Çoğu mobil cihaz için GPU, CPU'dan daha zayıftır ve bu nedenle bu önerilmez."
+        },
+        "IgnoreNotch": {
+          "Title": "Kenar Çentiğini Yoksay",
+          "Description": "Sonolus, varsayılan olarak grafiklerin her zaman görünür olmasını sağlamak için cihazın kenar çentiklerini dikkate alır. Bu ayar açıldığında, Sonolus bunun yerine çentikleri yok sayar ve tam ekran olarak görselleştirir, bu da grafiklerin kısmen karışmasına neden olabilir."
+        }
+      },
+      "Audio": {
+        "Title": "Ses",
+        "BgmVolume": {
+          "Title": "Arkaplan Müziği (BGM) Ses Düzeyi",
+          "Description": "Arkaplan müziğinin ses düzeyi."
+        },
+        "SfxVolume": {
+          "Title": "Ses Efekti (SFX) Ses Düzeyi",
+          "Description": "Ses efektinin ses düzeyi."
+        },
+        "UIVolume": {
+          "Title": "Arayüz Ses Düzeyi",
+          "Description": "Arayüz ses efektlerinin ses düzeyi."
+        },
+        "AlwaysDecodeLevelBgm": {
+          "Title": "Her Zaman Seviye Ses Efektini Deşifre Et",
+          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa seviye arkaplan müziğinin kodunu çözer. Açıldığı zaman Sonolus her zaman seviye ses efektini deşifre eder."
+        },
+        "PreviewBgm": {
+          "Title": "Arkaplan Müziği Önizlemesi",
+          "Description": "Arkaplan müziğinin önizlemesi.",
+          "Options": {
+            "Off": "Kapalı",
+            "DetailsOnly": "Sadece Detaylarda",
+            "ListAndDetails": "Liste ve Detaylarda"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "Seviye Arkaplan Müziği Kalitesi",
+          "Description": "Yüksek ayarda kullanılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa seviye arkaplan müziğinin kodunu çözer. Seviye arkaplan müziği bu kalitede çözülecektir.",
+          "Options": {
+            "Low": "Az",
+            "Mid": "Orta",
+            "High": "Yüksek"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "Arkaplan Müziği Önizlemesi Kalitesi",
+          "Description": "Orta ayarda kullanılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa önizleme arkaplan müziğinin kodunu çözer. Önizleme arkaplan müziği bu kalitede çözülecektir.",
+          "Options": {
+            "Low": "Az",
+            "Mid": "Orta",
+            "High": "Yüksek"
+          }
+        }
+      },
+      "UI": {
+        "Title": "Kullanıcı Arayüzü (UI)",
+        "Localization": {
+          "Title": "Dil",
+          "Description": "Kullanılacak dil."
+        },
+        "Theme": {
+          "Title": "Tema",
+          "Description": "Kullanılacak renk teması."
+        },
+        "Scale": {
+          "Title": "Arayüz (UI) Büyüklüğü",
+          "Description": "Kullanılacak arayüz ölçeği. Okumada güçlük çekiyorsanız artırın, ekranda daha fazla içerik göstermesi için azaltın."
+        },
+        "UnpauseDelay": {
+          "Title": "Durdurma Gecikmesi",
+          "Description": "Duraklatmayı kaldırırken gecikme geri sayımı."
+        },
+        "PerfectJudgmentColors": {
+          "Title": "Perfect Yargı Renkleri",
+          "Description": "Perfect' in yargı renkleri."
+        },
+        "GreatJudgmentColors": {
+          "Title": "Great Yargı Renkleri",
+          "Description": "Great' in yargı renkleri."
+        },
+        "GoodJudgmentColors": {
+          "Title": "Good Yargı Renkleri",
+          "Description": "Good' un yargı renkleri."
+        },
+        "MissJudgmentColors": {
+          "Title": "Miss Yargı Renkleri",
+          "Description": "Miss' in yargı renkleri."
+        },
+        "PositiveJudgmentErrorColors": {
+          "Title": "Pozitif Yargı Hata Renkleri",
+          "Description": "Pozitif yargılar için yargı hata renkleri."
+        },
+        "NegativeJudgmentErrorColors": {
+          "Title": "Negatif Yargı Hata Renkleri",
+          "Description": "Negatif yargılar için yargı hata renkleri."
+        },
+        "AllPerfectComboColors": {
+          "Title": "All Perfect Kombo Renkleri",
+          "Description": "Rapor \"All Perfect\" olduğu zaman kullanılacak kombo renkleri."
+        },
+        "FullComboComboColors": {
+          "Title": "Full Combo Kombo Renkleri",
+          "Description": "Rapor \"Full Combo\" olduğu zaman kullanılacak kombo renkleri."
+        },
+        "PassComboColors": {
+          "Title": "Pass Kombo Renkleri",
+          "Description": "Rapor \"Pass\" olduğu zaman kullanılacak kombo renkleri."
+        },
+        "FailComboColors": {
+          "Title": "Fail Kombo Renkleri",
+          "Description": "Rapor \"Fail\" olduğu zaman kullanılacak kombo renkleri."
+        },
+        "BoldComboNumber": {
+          "Title": "Kalın Kombo Sayısı",
+          "Description": "Kombo sayısı için kalın yazı tipini kullanın."
+        },
+        "ShowZeroCombo": {
+          "Title": "Kombo Sıfır İken Göster",
+          "Description": "Kombo sıfır olduğunda göster."
+        }
+      },
+      "Offsets": {
+        "Title": "Denge Ayarları",
+        "Device": {
+          "Title": "Cihaz",
+          "Description": "Hoparlör, kulaklık, bluetooth vb. gibi farklı cihaz senaryoları ile oynarken denge ayarlarını kaydetmek için bunu kullanın.",
+          "Option": "{0}. Cihaz"
+        },
+        "DeviceAudioOffset": {
+          "Title": "Cihazın Ses Denge Ayarı",
+          "Description": "0' da kullanılması önerilir.\n\nCihaz senaryonuzun ses denge ayarı. Hoparlör kullanan çoğu cihaz için 0 doğru denge ayarıdır. Girişleriniz çok geç kaydedilirse artırın, aksi takdirde azaltın."
+        },
+        "DeviceInputOffset": {
+          "Title": "Cihazın Girdi Denge Ayarı",
+          "Description": "0' da kullanılması önerilir.\n\nCihaz senaryonuzun girdi denge ayarı. Eğer böyle bir seçenek sunmayan oyunlara alışkınsanız 0'da bırakabilirsiniz. Girişleriniz çok geç kaydedilirse artırın, aksi takdirde azaltın."
+        }
+      },
+      "Repository": {
+        "Title": "Depo",
+        "Manage": "Ayarla"
+      },
+      "Cache": {
+        "Title": "Önbellek",
+        "AlwaysRevalidate": {
+          "Title": "Her Zaman Yeniden Doğrula",
+          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak  çevrimiçi kaynakları yalnızca eskidikten sonra yeniden doğrular. Bu ayar açıldığında, çevrimiçi kaynaklar kullanılmadan önce her zaman yeniden doğrulanır."
+        },
+        "Manage": "Ayarla"
+      },
+      "Developer": {
+        "Title": "Yapımcı",
+        "ShowFps": {
+          "Title": "FPS' i Göster",
+          "Description": "Ekranın sol alt kısmında FPS sayacını göster."
+        },
+        "FpsStyle": {
+          "Title": "FPS Biçimi",
+          "Description": "FPS sayacının stili."
+        },
+        "ShowTouches": {
+          "Title": "Dokunmaları Göster",
+          "Description": "Dokunma göstergelerini gösterir. Dokunma göstergeleri de, video kayıtlarında girişleri göstermek için kullanışlıdır."
+        },
+        "TouchStyle": {
+          "Title": "Dokunma İmleci Biçimi",
+          "Description": "Dokunma imlecinin biçimi ayarı."
+        },
+        "DebugMode": {
+          "Title": "Hata Ayıklama (Debug) Modu",
+          "Description": "Hata ayıklama modu, hata ayıklamaya özel kodun çalışmasını sağlar ve ekranın sağ alt kısmında hata ayıklama kaydını gösterir."
+        },
+        "DebugLogStyle": {
+          "Title": "Hata Ayıklama Kayıt Biçimi",
+          "Description": "Hata ayıklama kayıt biçimi ayarı."
+        }
+      }
+    },
+    "ManageRepository": {
+      "Title": "Depoyu Ayarla",
+      "Repository": {
+        "Title": "Depo",
+        "Description": "Depo, bu cihazda yerel olarak bulunan tüm kaynakları hafızasına alır.",
+        "Size": "Büyüklük: {0}"
+      },
+      "DeleteRepository": {
+        "Title": "Depoyu Silme",
+        "Description": "İstendiğinde Sonolus'un yeniden indirmesine neden olan tüm depo kaynaklarını silin.",
+        "Delete": "Sil",
+        "DeleteConfirmation": {
+          "Description": "Tüm depo kaynaklarını silmek istediğinizden emin misiniz?",
+          "Loading": "Depo siliniyor..."
+        },
+        "Success": {
+          "Title": "Depo Silindi"
+        }
+      }
+    },
+    "ManageCache": {
+      "Title": "Önbelleği Ayarla",
+      "Cache": {
+        "Title": "Önbelllek",
+        "Description": "Önbellek, ağ URL' lerini ve depo kaynaklarını hafızasına alarak ağ isteklerini yüklemeyi hızlandırmasına ve bant genişliği kullanımını azaltmasına olanak tanır.\nÖnbellek çok az bir yer kaplar, ve silinmemesi önerilir.",
+        "Count": "Önbellek: {0} girdi"
+      },
+      "ExpireCache": {
+        "Title": "Önbelleği Sona Erdir",
+        "Description": "Ağ URL'lerinin ilişkilendirildiği yerel depo kaynaklarını kullanmadan önce Sonolus'un yeniden onaylamasına neden olan tüm önbelleği sona erdirin.",
+        "Expire": "Sona Erdir",
+        "ExpireConfirmation": {
+          "Description": "Tüm önbelleği sona erdirmek istediğinizden emin misiniz?"
+        },
+        "Success": {
+          "Title": "Önbellek Sona Erdirildi"
+        }
+      },
+      "DeleteCache": {
+        "Title": "Önbelleği Sil",
+        "Description": "Sonolus' un tüm ağ isteklerini yeniden indirmesine neden olacak tüm önbelleği silin. Önerilmez.",
+        "Delete": "Sil",
+        "DeleteConfirmation": {
+          "Description": "Tüm önbelleği silmek istediğinizden emin misiniz?"
+        },
+        "Success": {
+          "Title": "Önbellek Silindi"
+        }
+      }
     }
+  },
+  "Scp": {
+    "PermissionError": {
+      "Description": "Sonolus bu eylemi yapabilmek için gerekli izinleri alamıyor.\n\nLütfen Ayarları açın ve Sonolus' a yetki verin.",
+      "Open": "Aç"
+    }
+  },
+  "Runtimes": {
+    "Level": {
+      "Play": {
+        "Routes": {
+          "Pause": {
+            "Title": "Durduruldu",
+            "Control": {
+              "Title": "Kontrol",
+              "Exit": "Çık",
+              "Restart": "Tekrar Başlat"
+            },
+            "Snapshot": {
+              "Title": "Şipşak",
+              "Mark": "İşaretle",
+              "Jump": "Atla"
+            },
+            "Debug": {
+              "Title": "Hata Ayıklama"
+            }
+          },
+          "Result": {
+            "Title": "Sonuç",
+            "Options": {
+              "HasUsedPause": "Durdur",
+              "HasUsedSnapshot": "Şipşak"
+            },
+            "Graphs": {
+              "Title": "Grafikler",
+              "Judgment": {
+                "Title": "Yargı Grafiği"
+              },
+              "Accuracy": {
+                "Title": "Kesinlik Grafiği",
+                "AbsValue": "Abs Value",
+                "Mean": "Mean",
+                "StDev": "St Dev",
+                "Min": "Min",
+                "Max": "Maks"
+              },
+              "Bucket": {
+                "Title": "Bucket Grafiği"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "Oynat"
+          }
+        }
+      }
+    }
+  }
 }
