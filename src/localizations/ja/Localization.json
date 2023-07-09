@@ -1,1931 +1,1931 @@
 {
-    "Meta": {
-        "Name": "ja",
-        "Title": "日本語 (Japanese)"
+  "Meta": {
+    "Name": "ja",
+    "Title": "日本語 (Japanese)"
+  },
+  "Texts": {
+    "Name": {
+      "#KEYWORDS": "キーワード",
+      "#NAME": "名称(ID)",
+      "#RATING": "難易度",
+      "#RATING_MINIMUM": "最低難易度",
+      "#RATING_MAXIMUM": "最高難易度",
+      "#TITLE": "タイトル",
+      "#SUBTITLE": "サブタイトル",
+      "#ARTISTS": "アーティスト",
+      "#AUTHOR": "作者",
+      "#GENRE": "ジャンル",
+      "#CATEGORY": "カテゴリ",
+      "#LANGUAGE": "言語",
+      "#DIFFICULTY": "難易度",
+      "#LENGTH": "曲の長さ",
+      "#LENGTH_MINIMUM": "最短曲長",
+      "#LENGTH_MAXIMUM": "最長曲長",
+      "#SPEED": "レベル再生速度",
+      "#AUTO": "オートプレイ",
+      "#MIRROR": "レベルを反転",
+      "#RANDOM": "ランダム",
+      "#HIDDEN": "ノーツを非表示",
+      "#JUDGMENT_STRICT": "判定ハードモード",
+      "#JUDGMENT_LOOSE": "判定イージーモード",
+      "#EFFECT": "SEの再生",
+      "#EFFECT_AUTO": "自動SE",
+      "#STAGE": "ステージの表示",
+      "#STAGE_POSITION": "ステージの位置",
+      "#STAGE_SIZE": "ステージの大きさ",
+      "#STAGE_ROTATION": "ステージの回転",
+      "#STAGE_ALPHA": "ステージの不透明度",
+      "#STAGE_ANIMATION": "ステージのアニメーション",
+      "#STAGE_TILT": "ステージの傾き",
+      "#STAGE_COVER_VERTICAL": "レーンカバー(縦方向)",
+      "#STAGE_COVER_HORIZONTAL": "レーンカバー(横方向)",
+      "#STAGE_COVER_ALPHA": "ステージのカバーの不透明度",
+      "#STAGE_ASPECTRATIO_LOCK": "ステージのアスペクト比を維持",
+      "#STAGE_EFFECT": "ステージエフェクト",
+      "#STAGE_EFFECT_POSITION": "ステージエフェクトの位置",
+      "#STAGE_EFFECT_SIZE": "ステージエフェクトの大きさ",
+      "#STAGE_EFFECT_ROTATION": "ステージエフェクトの回転",
+      "#STAGE_EFFECT_ALPHA": "ステージエフェクトの不透明度",
+      "#LANE": "レーンの表示",
+      "#LANE_POSITION": "レーンの位置",
+      "#LANE_SIZE": "レーンの大きさ",
+      "#LANE_ROTATION": "レーンの回転",
+      "#LANE_ALPHA": "レーンの不透明度",
+      "#LANE_ANIMATION": "レーンのアニメーション",
+      "#LANE_EFFECT": "レーンエフェクト",
+      "#LANE_EFFECT_POSITION": "レーンエフェクトの位置",
+      "#LANE_EFFECT_SIZE": "レーンエフェクトの大きさ",
+      "#LANE_EFFECT_ROTATION": "レーンエフェクトの回転",
+      "#LANE_EFFECT_ALPHA": "レーンエフェクトの不透明度",
+      "#JUDGELINE": "判定ラインの表示",
+      "#JUDGELINE_POSITION": "判定ラインの位置",
+      "#JUDGELINE_SIZE": "判定ラインの大きさ",
+      "#JUDGELINE_ROTATION": "判定ラインの回転",
+      "#JUDGELINE_ALPHA": "判定ラインの不透明度",
+      "#JUDGELINE_ANIMATION": "判定ラインのアニメーション",
+      "#JUDGELINE_EFFECT": "判定ラインのエフェクト",
+      "#JUDGELINE_EFFECT_POSITION": "判定ラインのエフェクトの位置",
+      "#JUDGELINE_EFFECT_SIZE": "判定ラインのエフェクトの大きさ",
+      "#JUDGELINE_EFFECT_ROTATION": "判定ラインのエフェクトの回転",
+      "#JUDGELINE_EFFECT_ALPHA": "判定ラインのエフェクトの不透明度",
+      "#SLOT": "スロットの表示",
+      "#SLOT_POSITION": "スロットの位置",
+      "#SLOT_SIZE": "スロットの大きさ",
+      "#SLOT_ROTATION": "スロットの回転",
+      "#SLOT_ALPHA": "スロットの不透明度",
+      "#SLOT_ANIMATION": "スロットのアニメーション",
+      "#SLOT_EFFECT": "スロットエフェクト",
+      "#SLOT_EFFECT_POSITION": "スロットエフェクトの位置",
+      "#SLOT_EFFECT_SIZE": "スロットエフェクトの大きさ",
+      "#SLOT_EFFECT_ROTATION": "スロットエフェクトの回転",
+      "#SLOT_EFFECT_ALPHA": "スロットエフェクトの不透明度",
+      "#NOTE": "ノーツの表示",
+      "#NOTE_SPEED": "ノーツ速度",
+      "#NOTE_SPEED_RANDOM": "ランダム(ノーツ速度)",
+      "#NOTE_POSITION": "ノーツの位置",
+      "#NOTE_SIZE": "ノーツの大きさ",
+      "#NOTE_ROTATION": "ノーツの回転",
+      "#NOTE_ALPHA": "ノーツの不透明度",
+      "#NOTE_ANIMATION": "ノーツのアニメーション",
+      "#NOTE_EFFECT": "ノーツエフェクト",
+      "#NOTE_EFFECT_POSITION": "ノーツエフェクトの位置",
+      "#NOTE_EFFECT_SIZE": "ノーツエフェクトの大きさ",
+      "#NOTE_EFFECT_ROTATION": "ノーツエフェクトの回転",
+      "#NOTE_EFFECT_ALPHA": "ノーツエフェクトの不透明度",
+      "#MARKER": "マーカーの表示",
+      "#MARKER_POSITION": "マーカーの位置",
+      "#MARKER_SIZE": "マーカーの大きさ",
+      "#MARKER_ROTATION": "マーカーの回転",
+      "#MARKER_ALPHA": "マーカーの不透明度",
+      "#MARKER_ANIMATION": "マーカーのアニメーション",
+      "#CONNECTOR": "コネクターの表示",
+      "#CONNECTOR_POSITION": "コネクターの位置",
+      "#CONNECTOR_SIZE": "コネクターの大きさ",
+      "#CONNECTOR_ROTATION": "コネクターの回転",
+      "#CONNECTOR_ALPHA": "コネクターの不透明度",
+      "#CONNECTOR_ANIMATION": "コネクターのアニメーション",
+      "#SIMLINE": "同時ノーツ線の表示",
+      "#SIMLINE_POSITION": "同時ノーツ線の位置",
+      "#SIMLINE_SIZE": "同時ノーツ線の大きさ",
+      "#SIMLINE_ROTATION": "同時ノーツ線の回転",
+      "#SIMLINE_ALPHA": "同時ノーツ線の不透明度",
+      "#SIMLINE_ANIMATION": "同時ノーツ線のアニメーション"
     },
-    "Texts": {
-        "Name": {
-            "#KEYWORDS": "キーワード",
-            "#NAME": "名称(ID)",
-            "#RATING": "難易度",
-            "#RATING_MINIMUM": "最低難易度",
-            "#RATING_MAXIMUM": "最高難易度",
-            "#TITLE": "タイトル",
-            "#SUBTITLE": "サブタイトル",
-            "#ARTISTS": "アーティスト",
-            "#AUTHOR": "作者",
-            "#GENRE": "ジャンル",
-            "#CATEGORY": "カテゴリ",
-            "#LANGUAGE": "言語",
-            "#DIFFICULTY": "難易度",
-            "#LENGTH": "曲の長さ",
-            "#LENGTH_MINIMUM": "最短曲長",
-            "#LENGTH_MAXIMUM": "最長曲長",
-            "#SPEED": "レベル再生速度",
-            "#AUTO": "オートプレイ",
-            "#MIRROR": "レベルを反転",
-            "#RANDOM": "ランダム",
-            "#HIDDEN": "ノーツを非表示",
-            "#JUDGMENT_STRICT": "判定ハードモード",
-            "#JUDGMENT_LOOSE": "判定イージーモード",
-            "#EFFECT": "SEの再生",
-            "#EFFECT_AUTO": "自動SE",
-            "#STAGE": "ステージの表示",
-            "#STAGE_POSITION": "ステージの位置",
-            "#STAGE_SIZE": "ステージの大きさ",
-            "#STAGE_ROTATION": "ステージの回転",
-            "#STAGE_ALPHA": "ステージの不透明度",
-            "#STAGE_ANIMATION": "ステージのアニメーション",
-            "#STAGE_TILT": "ステージの傾き",
-            "#STAGE_COVER_VERTICAL": "レーンカバー(縦方向)",
-            "#STAGE_COVER_HORIZONTAL": "レーンカバー(横方向)",
-            "#STAGE_COVER_ALPHA": "ステージのカバーの不透明度",
-            "#STAGE_ASPECTRATIO_LOCK": "ステージのアスペクト比を維持",
-            "#STAGE_EFFECT": "ステージエフェクト",
-            "#STAGE_EFFECT_POSITION": "ステージエフェクトの位置",
-            "#STAGE_EFFECT_SIZE": "ステージエフェクトの大きさ",
-            "#STAGE_EFFECT_ROTATION": "ステージエフェクトの回転",
-            "#STAGE_EFFECT_ALPHA": "ステージエフェクトの不透明度",
-            "#LANE": "レーンの表示",
-            "#LANE_POSITION": "レーンの位置",
-            "#LANE_SIZE": "レーンの大きさ",
-            "#LANE_ROTATION": "レーンの回転",
-            "#LANE_ALPHA": "レーンの不透明度",
-            "#LANE_ANIMATION": "レーンのアニメーション",
-            "#LANE_EFFECT": "レーンエフェクト",
-            "#LANE_EFFECT_POSITION": "レーンエフェクトの位置",
-            "#LANE_EFFECT_SIZE": "レーンエフェクトの大きさ",
-            "#LANE_EFFECT_ROTATION": "レーンエフェクトの回転",
-            "#LANE_EFFECT_ALPHA": "レーンエフェクトの不透明度",
-            "#JUDGELINE": "判定ラインの表示",
-            "#JUDGELINE_POSITION": "判定ラインの位置",
-            "#JUDGELINE_SIZE": "判定ラインの大きさ",
-            "#JUDGELINE_ROTATION": "判定ラインの回転",
-            "#JUDGELINE_ALPHA": "判定ラインの不透明度",
-            "#JUDGELINE_ANIMATION": "判定ラインのアニメーション",
-            "#JUDGELINE_EFFECT": "判定ラインのエフェクト",
-            "#JUDGELINE_EFFECT_POSITION": "判定ラインのエフェクトの位置",
-            "#JUDGELINE_EFFECT_SIZE": "判定ラインのエフェクトの大きさ",
-            "#JUDGELINE_EFFECT_ROTATION": "判定ラインのエフェクトの回転",
-            "#JUDGELINE_EFFECT_ALPHA": "判定ラインのエフェクトの不透明度",
-            "#SLOT": "スロットの表示",
-            "#SLOT_POSITION": "スロットの位置",
-            "#SLOT_SIZE": "スロットの大きさ",
-            "#SLOT_ROTATION": "スロットの回転",
-            "#SLOT_ALPHA": "スロットの不透明度",
-            "#SLOT_ANIMATION": "スロットのアニメーション",
-            "#SLOT_EFFECT": "スロットエフェクト",
-            "#SLOT_EFFECT_POSITION": "スロットエフェクトの位置",
-            "#SLOT_EFFECT_SIZE": "スロットエフェクトの大きさ",
-            "#SLOT_EFFECT_ROTATION": "スロットエフェクトの回転",
-            "#SLOT_EFFECT_ALPHA": "スロットエフェクトの不透明度",
-            "#NOTE": "ノーツの表示",
-            "#NOTE_SPEED": "ノーツ速度",
-            "#NOTE_SPEED_RANDOM": "ランダム(ノーツ速度)",
-            "#NOTE_POSITION": "ノーツの位置",
-            "#NOTE_SIZE": "ノーツの大きさ",
-            "#NOTE_ROTATION": "ノーツの回転",
-            "#NOTE_ALPHA": "ノーツの不透明度",
-            "#NOTE_ANIMATION": "ノーツのアニメーション",
-            "#NOTE_EFFECT": "ノーツエフェクト",
-            "#NOTE_EFFECT_POSITION": "ノーツエフェクトの位置",
-            "#NOTE_EFFECT_SIZE": "ノーツエフェクトの大きさ",
-            "#NOTE_EFFECT_ROTATION": "ノーツエフェクトの回転",
-            "#NOTE_EFFECT_ALPHA": "ノーツエフェクトの不透明度",
-            "#MARKER": "マーカーの表示",
-            "#MARKER_POSITION": "マーカーの位置",
-            "#MARKER_SIZE": "マーカーの大きさ",
-            "#MARKER_ROTATION": "マーカーの回転",
-            "#MARKER_ALPHA": "マーカーの不透明度",
-            "#MARKER_ANIMATION": "マーカーのアニメーション",
-            "#CONNECTOR": "コネクターの表示",
-            "#CONNECTOR_POSITION": "コネクターの位置",
-            "#CONNECTOR_SIZE": "コネクターの大きさ",
-            "#CONNECTOR_ROTATION": "コネクターの回転",
-            "#CONNECTOR_ALPHA": "コネクターの不透明度",
-            "#CONNECTOR_ANIMATION": "コネクターのアニメーション",
-            "#SIMLINE": "同時ノーツ線の表示",
-            "#SIMLINE_POSITION": "同時ノーツ線の位置",
-            "#SIMLINE_SIZE": "同時ノーツ線の大きさ",
-            "#SIMLINE_ROTATION": "同時ノーツ線の回転",
-            "#SIMLINE_ALPHA": "同時ノーツ線の不透明度",
-            "#SIMLINE_ANIMATION": "同時ノーツ線のアニメーション"
+    "Value": {
+      "#NONE": "無し",
+      "#ANY": "未指定",
+      "#ALL": "全て",
+      "#OTHERS": "その他",
+      "#SHORT": "短い",
+      "#LONG": "長い",
+      "#HIGH": "高",
+      "#MID": "中",
+      "#LOW": "低",
+      "#SMALL": "小",
+      "#MEDIUM": "中",
+      "#LARGE": "大",
+      "#LEFT": "左",
+      "#RIGHT": "右",
+      "#UP": "上",
+      "#DOWN": "下",
+      "#FRONT": "前面",
+      "#BACK": "後面",
+      "#CENTER": "中央",
+      "#TOP": "上",
+      "#BOTTOM": "下",
+      "#TOP_LEFT": "上左",
+      "#TOP_CENTER": "上中",
+      "#TOP_RIGHT": "上右",
+      "#CENTER_LEFT": "中左",
+      "#CENTER_RIGHT": "中右",
+      "#BOTTOM_LEFT": "下左",
+      "#BOTTOM_CENTER": "下中",
+      "#BOTTOM_RIGHT": "下右",
+      "#CLOCKWISE": "時計回り",
+      "#COUNTERCLOCKWISE": "反時計回り",
+      "#FORWARD": "前方向",
+      "#BACKWARD": "後方向",
+      "#SIMPLE": "Simple",
+      "#EASY": "Easy",
+      "#NORMAL": "Normal",
+      "#HARD": "Hard",
+      "#EXPERT": "Expert",
+      "#MASTER": "Master",
+      "#PRO": "Pro",
+      "#TECHNICAL": "Technical",
+      "#SPECIAL": "Special"
+    },
+    "Placeholder": {
+      "#KEYWORDS": "キーワードを入力してください...",
+      "#NAME": "名称を入力してください...",
+      "#RATING": "難易度を入力してください...",
+      "#RATING_MINIMUM": "最低難易度を入力してください...",
+      "#RATING_MAXIMUM": "最高難易度を入力してください...",
+      "#TITLE": "タイトルを入力してください...",
+      "#SUBTITLE": "サブタイトルを入力してください...",
+      "#ARTISTS": "アーティスト名を入力してください...",
+      "#AUTHOR": "作者名を入力してください...",
+      "#GENRE": "ジャンル名を入力してください...",
+      "#CATEGORY": "カテゴリ名を入力してください...",
+      "#LANGUAGE": "言語を入力してください...",
+      "#DIFFICULTY": "難易度を入力してください...",
+      "#LENGTH": "曲の長さを入力してください...",
+      "#LENGTH_MINIMUM": "最短曲長を入力してください...",
+      "#LENGTH_MAXIMUM": "最長曲長を入力してください..."
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0} %",
+      "#SECOND": "{0} 秒",
+      "#MILLISECOND": "{0} ms"
+    }
+  },
+  "Common": {
+    "Loading": "ロード中...",
+    "On": "オン",
+    "Off": "オフ",
+    "Select": "選択",
+    "Reset": "Reset",
+    "Edit": "編集",
+    "View": "見る",
+    "Cancel": "キャンセル",
+    "Confirm": "確認",
+    "Retry": "リトライ",
+    "Error": {
+      "Title": "エラー"
+    },
+    "Confirmation": {
+      "Title": "確認"
+    },
+    "Next": "次",
+    "Add": "追加",
+    "Import": "インポート",
+    "Search": "検索",
+    "More": "もっと",
+    "PullToRefresh": "離すと更新",
+    "Save": "保存",
+    "Share": "共有",
+    "Export": "Export",
+    "Update": "更新",
+    "Delete": "消去",
+    "Preview": "プレビュー",
+    "Judgment": "判定",
+    "Accuracy": "精度スコア",
+    "Grade": "結果",
+    "ArcadeScore": "スコア",
+    "AccuracyScore": "精度スコア",
+    "Combo": "コンボ",
+    "Perfect": "Perfect",
+    "Great": "Great",
+    "Good": "Good",
+    "Miss": "Miss",
+    "AdvancedOption": "このオプションは上級者向けです。",
+    "Colors": "Colors",
+    "ColorField": {
+      "Hex": "HEX",
+      "Rgb": "RGB",
+      "Hsv": "HSV",
+      "Components": {
+        "Hex": {
+          "Title": "Hex",
+          "Description": "#RRGGBB、または #RRGGBBAA の形式で入力してください。",
+          "Placeholder": "例：#48b0d5"
         },
-        "Value": {
-            "#NONE": "無し",
-            "#ANY": "未指定",
-            "#ALL": "全て",
-            "#OTHERS": "その他",
-            "#SHORT": "短い",
-            "#LONG": "長い",
-            "#HIGH": "高",
-            "#MID": "中",
-            "#LOW": "低",
-            "#SMALL": "小",
-            "#MEDIUM": "中",
-            "#LARGE": "大",
-            "#LEFT": "左",
-            "#RIGHT": "右",
-            "#UP": "上",
-            "#DOWN": "下",
-            "#FRONT": "前面",
-            "#BACK": "後面",
-            "#CENTER": "中央",
-            "#TOP": "上",
-            "#BOTTOM": "下",
-            "#TOP_LEFT": "上左",
-            "#TOP_CENTER": "上中",
-            "#TOP_RIGHT": "上右",
-            "#CENTER_LEFT": "中左",
-            "#CENTER_RIGHT": "中右",
-            "#BOTTOM_LEFT": "下左",
-            "#BOTTOM_CENTER": "下中",
-            "#BOTTOM_RIGHT": "下右",
-            "#CLOCKWISE": "時計回り",
-            "#COUNTERCLOCKWISE": "反時計回り",
-            "#FORWARD": "前方向",
-            "#BACKWARD": "後方向",
-            "#SIMPLE": "Simple",
-            "#EASY": "Easy",
-            "#NORMAL": "Normal",
-            "#HARD": "Hard",
-            "#EXPERT": "Expert",
-            "#MASTER": "Master",
-            "#PRO": "Pro",
-            "#TECHNICAL": "Technical",
-            "#SPECIAL": "Special"
+        "R": {
+          "Title": "赤（R）",
+          "Description": "赤。0から255まで。"
         },
-        "Placeholder": {
-            "#KEYWORDS": "キーワードを入力してください...",
-            "#NAME": "名称を入力してください...",
-            "#RATING": "難易度を入力してください...",
-            "#RATING_MINIMUM": "最低難易度を入力してください...",
-            "#RATING_MAXIMUM": "最高難易度を入力してください...",
-            "#TITLE": "タイトルを入力してください...",
-            "#SUBTITLE": "サブタイトルを入力してください...",
-            "#ARTISTS": "アーティスト名を入力してください...",
-            "#AUTHOR": "作者名を入力してください...",
-            "#GENRE": "ジャンル名を入力してください...",
-            "#CATEGORY": "カテゴリ名を入力してください...",
-            "#LANGUAGE": "言語を入力してください...",
-            "#DIFFICULTY": "難易度を入力してください...",
-            "#LENGTH": "曲の長さを入力してください...",
-            "#LENGTH_MINIMUM": "最短曲長を入力してください...",
-            "#LENGTH_MAXIMUM": "最長曲長を入力してください..."
+        "G": {
+          "Title": "緑（G）",
+          "Description": "緑。0から255まで。"
         },
-        "Unit": {
-            "#PERCENTAGE": "{0} %",
-            "#SECOND": "{0} 秒",
-            "#MILLISECOND": "{0} ms"
+        "B": {
+          "Title": "青（B）",
+          "Description": "青。0から255まで。"
+        },
+        "H": {
+          "Title": "色相（H）",
+          "Description": "色相。0度から360度まで。"
+        },
+        "S": {
+          "Title": "彩度（S）",
+          "Description": "彩度。0%から100%まで。"
+        },
+        "V": {
+          "Title": "明度（V）",
+          "Description": "明度。0%から100%まで。"
+        },
+        "A": {
+          "Title": "不透明度（V）",
+          "Description": "不透明度。0から255まで。"
         }
+      }
     },
-    "Common": {
-        "Loading": "ロード中...",
-        "On": "オン",
-        "Off": "オフ",
-        "Select": "選択",
-        "Reset": "Reset",
-        "Edit": "編集",
-        "View": "見る",
-        "Cancel": "キャンセル",
-        "Confirm": "確認",
-        "Retry": "リトライ",
-        "Error": {
-            "Title": "エラー"
-        },
-        "Confirmation": {
-            "Title": "確認"
-        },
-        "Next": "次",
-        "Add": "追加",
-        "Import": "インポート",
-        "Search": "検索",
-        "More": "もっと",
-        "PullToRefresh": "離すと更新",
-        "Save": "保存",
-        "Share": "共有",
-        "Export": "Export",
-        "Update": "更新",
-        "Delete": "消去",
-        "Preview": "プレビュー",
-        "Judgment": "判定",
+    "DeviceOffsetField": {
+      "Calibrate": "補正"
+    },
+    "PullToLoad": {
+      "None": "この先には何もありません",
+      "More": "もっと読み込む"
+    },
+    "UI": {
+      "Metric": {
+        "Arcade": "スコア",
         "Accuracy": "精度スコア",
-        "Grade": "結果",
-        "ArcadeScore": "スコア",
-        "AccuracyScore": "精度スコア",
-        "Combo": "コンボ",
-        "Perfect": "Perfect",
-        "Great": "Great",
-        "Good": "Good",
-        "Miss": "Miss",
-        "AdvancedOption": "このオプションは上級者向けです。",
-        "Colors": "Colors",
-        "ColorField": {
-            "Hex": "HEX",
-            "Rgb": "RGB",
-            "Hsv": "HSV",
-            "Components": {
-                "Hex": {
-                    "Title": "Hex",
-                    "Description": "#RRGGBB、または #RRGGBBAA の形式で入力してください。",
-                    "Placeholder": "例：#48b0d5"
-                },
-                "R": {
-                    "Title": "赤（R）",
-                    "Description": null
-                },
-                "G": {
-                    "Title": "緑（G）",
-                    "Description": null
-                },
-                "B": {
-                    "Title": "青（B）",
-                    "Description": null
-                },
-                "H": {
-                    "Title": "色相（H）",
-                    "Description": null
-                },
-                "S": {
-                    "Title": "彩度（S）",
-                    "Description": null
-                },
-                "V": {
-                    "Title": "明度（V）",
-                    "Description": null
-                },
-                "A": {
-                    "Title": "不透明度（V）",
-                    "Description": null
-                }
-            }
-        },
-        "DeviceOffsetField": {
-            "Calibrate": "補正"
-        },
-        "PullToLoad": {
-            "None": "この先には何もありません",
-            "More": "もっと読み込む"
-        },
-        "UI": {
-            "Metric": {
-                "Arcade": "スコア",
-                "Accuracy": "精度スコア",
-                "Life": "ライフ",
-                "PerfectRate": "Perfect率",
-                "ErrorHeatmap": "ミスヒートマップ"
-            },
-            "JudgmentErrorStyle": {
-                "None": "無し",
-                "Plus": "+ / -",
-                "Minus": "- / +",
-                "ArrowUp": "↑ / ↓",
-                "ArrowDown": "↓ / ↑",
-                "ArrowLeft": "← / →",
-                "ArrowRight": "→ / ←",
-                "TriangleUp": "▲ / ▼",
-                "TriangleDown": "▼ / ▲",
-                "TriangleLeft": "◄ / ►",
-                "TriangleRight": "► / ◄"
-            },
-            "JudgmentErrorPlacement": {
-                "Both": "左右",
-                "Left": "左",
-                "Right": "右"
-            },
-            "Visibility": "見た目",
-            "Animation": "アニメーション",
-            "Tween": "トゥイーン",
-            "Ease": {
-                "Linear": "Linear",
-                "InSine": "Sine (In)",
-                "OutSine": "Sine (Out)",
-                "InOutSine": "Sine (In Out)",
-                "OutInSine": "Sine (Out In)",
-                "InQuad": "Quad (In)",
-                "OutQuad": "Quad (Out)",
-                "InOutQuad": "Quad (In Out)",
-                "OutInQuad": "Quad (Out In)",
-                "InCubic": "Cubic (In)",
-                "OutCubic": "Cubic (Out)",
-                "InOutCubic": "Cubic (In Out)",
-                "OutInCubic": "Cubic (Out In)",
-                "InQuart": "Quart (In)",
-                "OutQuart": "Quart (Out)",
-                "InOutQuart": "Quart (In Out)",
-                "OutInQuart": "Quart (Out In)",
-                "InQuint": "Quint (In)",
-                "OutQuint": "Quint (Out)",
-                "InOutQuint": "Quint (In Out)",
-                "OutInQuint": "Quint (Out In)",
-                "InExpo": "Expo (In)",
-                "OutExpo": "Expo (Out)",
-                "InOutExpo": "Expo (In Out)",
-                "OutInExpo": "Expo (Out In)",
-                "InCirc": "Circ (In)",
-                "OutCirc": "Circ (Out)",
-                "InOutCirc": "Circ (In Out)",
-                "OutInCirc": "Circ (Out In)",
-                "InBack": "Back (In)",
-                "OutBack": "Back (Out)",
-                "InOutBack": "Back (In Out)",
-                "OutInBack": "Back (Out In)",
-                "InElastic": "Elastic (In)",
-                "OutElastic": "Elastic (Out)",
-                "InOutElastic": "Elastic (In Out)",
-                "OutInElastic": "Elastic (Out In)",
-                "None": "なし"
-            }
+        "Life": "ライフ",
+        "PerfectRate": "Perfect率",
+        "ErrorHeatmap": "ミスヒートマップ"
+      },
+      "JudgmentErrorStyle": {
+        "None": "無し",
+        "Plus": "+ / -",
+        "Minus": "- / +",
+        "ArrowUp": "↑ / ↓",
+        "ArrowDown": "↓ / ↑",
+        "ArrowLeft": "← / →",
+        "ArrowRight": "→ / ←",
+        "TriangleUp": "▲ / ▼",
+        "TriangleDown": "▼ / ▲",
+        "TriangleLeft": "◄ / ►",
+        "TriangleRight": "► / ◄"
+      },
+      "JudgmentErrorPlacement": {
+        "Both": "左右",
+        "Left": "左",
+        "Right": "右"
+      },
+      "Visibility": "見た目",
+      "Animation": "アニメーション",
+      "Tween": "トゥイーン",
+      "Ease": {
+        "Linear": "Linear",
+        "InSine": "Sine (In)",
+        "OutSine": "Sine (Out)",
+        "InOutSine": "Sine (In Out)",
+        "OutInSine": "Sine (Out In)",
+        "InQuad": "Quad (In)",
+        "OutQuad": "Quad (Out)",
+        "InOutQuad": "Quad (In Out)",
+        "OutInQuad": "Quad (Out In)",
+        "InCubic": "Cubic (In)",
+        "OutCubic": "Cubic (Out)",
+        "InOutCubic": "Cubic (In Out)",
+        "OutInCubic": "Cubic (Out In)",
+        "InQuart": "Quart (In)",
+        "OutQuart": "Quart (Out)",
+        "InOutQuart": "Quart (In Out)",
+        "OutInQuart": "Quart (Out In)",
+        "InQuint": "Quint (In)",
+        "OutQuint": "Quint (Out)",
+        "InOutQuint": "Quint (In Out)",
+        "OutInQuint": "Quint (Out In)",
+        "InExpo": "Expo (In)",
+        "OutExpo": "Expo (Out)",
+        "InOutExpo": "Expo (In Out)",
+        "OutInExpo": "Expo (Out In)",
+        "InCirc": "Circ (In)",
+        "OutCirc": "Circ (Out)",
+        "InOutCirc": "Circ (In Out)",
+        "OutInCirc": "Circ (Out In)",
+        "InBack": "Back (In)",
+        "OutBack": "Back (Out)",
+        "InOutBack": "Back (In Out)",
+        "OutInBack": "Back (Out In)",
+        "InElastic": "Elastic (In)",
+        "OutElastic": "Elastic (Out)",
+        "InOutElastic": "Elastic (In Out)",
+        "OutInElastic": "Elastic (Out In)",
+        "None": "なし"
+      }
+    }
+  },
+  "Themes": {
+    "Dark": "ダーク",
+    "Light": "ライト"
+  },
+  "Clients": {
+    "Master": {
+      "Info": {
+        "Loading": "Sonolusの最新情報を読み込み中...",
+        "Error": "Sonolusの最新情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
+      },
+      "List": {
+        "Loading": "言語一覧を読み込み中...",
+        "Error": "言語一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
+      },
+      "Localization": {
+        "Loading": "言語情報を読み込み中...",
+        "Error": "言語\"{0}\"の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
+      }
+    },
+    "Service": {
+      "UserProfile": {
+        "Loading": "ユーザープロフィールを読み込み中...",
+        "Error": "\"{0}\" のユーザー プロファイルを読み込めませんでした。\n\nユーザー ID が正しいか、およびインターネット接続を確認してもう一度お試しください。"
+      },
+      "Login": {
+        "Loading": "サインイン中...",
+        "Error": "サインインできませんでした。\n\nインターネット接続を確認して、もう一度お試しください。",
+        "Success": {
+          "New": {
+            "Title": "サインインしました"
+          },
+          "Old": {
+            "Title": "サインインしました"
+          }
         }
-    },
-    "Themes": {
-        "Dark": "ダーク",
-        "Light": "ライト"
-    },
-    "Clients": {
-        "Master": {
-            "Info": {
-                "Loading": "Sonolusの最新情報を読み込み中...",
-                "Error": "Sonolusの最新情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
-            },
-            "List": {
-                "Loading": "言語一覧を読み込み中...",
-                "Error": "言語一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
-            },
-            "Localization": {
-                "Loading": "言語情報を読み込み中...",
-                "Error": "言語\"{0}\"の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
-            }
-        },
-        "Service": {
-            "UserProfile": {
-                "Loading": "ユーザープロフィールを読み込み中...",
-                "Error": "\"{0}\" のユーザー プロファイルを読み込めませんでした。\n\nユーザー ID が正しいか、およびインターネット接続を確認してもう一度お試しください。"
-            },
-            "Login": {
-                "Loading": "サインイン中...",
-                "Error": "サインインできませんでした。\n\nインターネット接続を確認して、もう一度お試しください。",
-                "Success": {
-                    "New": {
-                        "Title": "サインインしました"
-                    },
-                    "Old": {
-                        "Title": "サインインしました"
-                    }
-                }
-            },
-            "EditName": {
-                "Loading": "名前を変更中...",
-                "Error": "名前の変更に失敗しました。\n\n別の名前を使うか、インターネット接続を確認してもう一度お試しください。",
-                "Success": {
-                    "Title": "名前を変更しました"
-                }
-            },
-            "EditAvatar": {
-                "Loading": "アバターを変更中...",
-                "Error": "アバターの変更に失敗しました。\n\n別のアバターを使うか、インターネット接続を確認してもう一度お試しください。",
-                "Success": {
-                    "Title": "アバターを変更しました"
-                }
-            },
-            "EditAboutMe": {
-                "Loading": "プロフィールを変更しています...",
-                "Error": "プロフィールの変更に失敗しました。\n\n他のプロフィールを指定するか、インターネット接続を確認してからもう一度お試しください。",
-                "Success": {
-                    "Title": "プロフィールを変更しました"
-                }
-            },
-            "EditSocialLinks": {
-                "Loading": "SNSリンクを変更中...",
-                "Error": "SNSリンクの編集に失敗しました。\n\nリンクの長さとインターネット接続を確認してください。",
-                "Success": {
-                    "Title": "ソーシャルリンクを変更しました"
-                }
-            },
-            "EditFavorites": {
-                "Loading": "お気に入りを変更中...",
-                "Error": "お気に入りの変更に失敗しました。\n\nお気に入り登録内容、お気に入り数、インターネット接続を確認してもう一度お試しください。",
-                "Success": {
-                    "Title": "完了"
-                }
-            },
-            "AuthenticateServer": {
-                "Loading": "Sonolus認証をリクエスト中...",
-                "Error": "Sonolus認証のリクエストに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。改善しない場合、Sonolusに問題をご報告ください。"
-            },
-            "Logout": {
-                "Loading": "サインアウト中...",
-                "Error": "サインアウトに失敗しました。\n\nインターネット接続を確認して、もう一度お試しください。",
-                "Success": {
-                    "Title": "サインアウトしました"
-                }
-            }
-        },
-        "CustomServer": {
-            "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
-            "SonolusVersionTooOld": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nサーバーの管理者にお問い合わせ下さい。",
-            "Session": {
-                "NeedAuthentication": {
-                    "NotLoggedInError": {
-                        "Description": "このサーバーを利用するには認証が必要です。\n\nまずサインインを行い、その後再度お試しください。"
-                    },
-                    "Confirmation": {
-                        "Description": "このサーバーを利用するには認証が必要です。\n\n「{0}」として認証して続行しますか?"
-                    }
-                },
-                "AuthenticationExpired": {
-                    "Description": "認証の有効期限が切れています。\n\n「{0}」として再度認証して続行しますか?"
-                },
-                "AuthenticationRejected": {
-                    "Description": "認証がサーバーによって拒否されました。\n\n「{0}」として再度認証して続行しますか?"
-                },
-                "Authenticate": {
-                    "Loading": "サーバー認証を要求しています...",
-                    "Error": "\"{0}\" からの認証を要求できませんでした。\n\nインターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。"
-                },
-                "AddressMismatchError": {
-                    "Description": "認証先アドレスが一致しません。\n\nサーバー所有者に連絡して問題を報告してください。"
-                }
-            },
-            "Server": {
-                "Info": {
-                    "Loading": "サーバー情報を読み込み中...",
-                    "Error": "\"{0}\" のサーバー情報の読み込みに失敗しました。\n\n入力したサーバーアドレスが正しいか、インターネット接続に問題ないかを確認し、改善しない場合、サーバーの所有者にご連絡ください。"
-                },
-                "Banner": {
-                    "Loading": "サーバーバナーを読み込み中...",
-                    "Error": "\"{0}\" のサーバー バナーを読み込めませんでした。\n\nインターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。"
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "レベル一覧を読み込み中...",
-                    "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Details": {
-                    "Loading": "レベル情報を読み込み中...",
-                    "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Compatibility": {
-                    "Loading": "レベルの互換性を確認中...",
-                    "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のレベルを選択するか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Cover": {
-                    "Loading": "レベルカバーを読み込み中...",
-                    "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Bgm": {
-                    "Loading": "レベルBGMを読み込み中...",
-                    "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Preview": {
-                    "Loading": "レベルプレビューを読み込み中...",
-                    "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Data": {
-                    "Loading": "レベルデータを読み込み中...",
-                    "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "スキン一覧を読み込み中...",
-                    "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Details": {
-                    "Loading": "スキン情報を読み込み中...",
-                    "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Compatibility": {
-                    "Loading": "スキンの互換性を確認中...",
-                    "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のスキンを使用するか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Thumbnail": {
-                    "Loading": "スキンサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Data": {
-                    "Loading": "スキンデータを読み込み中...",
-                    "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Texture": {
-                    "Loading": "スキンテクスチャを読み込み中...",
-                    "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "背景一覧を読み込み中...",
-                    "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Details": {
-                    "Loading": "背景情報を読み込み中...",
-                    "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Compatibility": {
-                    "Loading": "背景の互換性を確認中...",
-                    "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別の背景を使用するか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Thumbnail": {
-                    "Loading": "背景サムネイルを読み込み中...",
-                    "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Data": {
-                    "Loading": "背景データを読み込み中...",
-                    "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Image": {
-                    "Loading": "背景画像を読み込み中...",
-                    "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Configuration": {
-                    "Loading": "背景設定を読み込み中...",
-                    "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "SE一覧を読み込み中...",
-                    "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Details": {
-                    "Loading": "SE情報を読み込み中...",
-                    "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Compatibility": {
-                    "Loading": "SEの互換性を確認中...",
-                    "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のSEを使用するか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Thumbnail": {
-                    "Loading": "SEサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Data": {
-                    "Loading": "SEデータを読み込み中...",
-                    "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Audio": {
-                    "Loading": "SE音源ファイルを読み込み中...",
-                    "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "パーティクル一覧を読み込み中...",
-                    "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Details": {
-                    "Loading": "パーティクル情報を読み込み中...",
-                    "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Compatibility": {
-                    "Loading": "パーティクルの互換性を確認中...",
-                    "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のパーティクルを使用するか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Thumbnail": {
-                    "Loading": "パーティクルサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Data": {
-                    "Loading": "パーティクルデータを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Texture": {
-                    "Loading": "パーティクルテクスチャを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "エンジン一覧を読み込み中...",
-                    "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Details": {
-                    "Loading": "エンジン情報を読み込み中...",
-                    "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Compatibility": {
-                    "Loading": "エンジンの互換性を確認中...",
-                    "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のエンジンを使用するか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Thumbnail": {
-                    "Loading": "エンジンサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Data": {
-                    "Loading": "エンジンデータを読み込み中...",
-                    "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Rom": {
-                    "Loading": "エンジンROMを読み込み中...",
-                    "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                },
-                "Configuration": {
-                    "Loading": "エンジン設定を読み込み中...",
-                    "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
-                }
-            }
-        },
-        "Collection": {
-            "Server": {
-                "Info": {
-                    "Loading": "コレクションを読み込み中...",
-                    "Error": "\"{0}\" のコレクション情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Banner": {
-                    "Loading": "コレクションバナーを読み込み中...",
-                    "Error": "「{0}」のコレクション バナーを読み込めませんでした。\n\nコレクションが破損している可能性があります。"
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "レベル一覧を読み込み中...",
-                    "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Details": {
-                    "Loading": "レベル情報を読み込み中...",
-                    "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Compatibility": {
-                    "Loading": "レベルの互換性を確認中...",
-                    "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
-                },
-                "Cover": {
-                    "Loading": "レベルカバーを読み込み中...",
-                    "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
-                },
-                "Bgm": {
-                    "Loading": "レベルBGMを読み込み中...",
-                    "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
-                },
-                "Preview": {
-                    "Loading": "レベルプレビューを読み込み中...",
-                    "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
-                },
-                "Data": {
-                    "Loading": "レベルデータを読み込み中...",
-                    "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "スキン一覧を読み込み中...",
-                    "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Details": {
-                    "Loading": "スキン情報を読み込み中...",
-                    "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Compatibility": {
-                    "Loading": "スキンの互換性を確認中...",
-                    "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
-                },
-                "Thumbnail": {
-                    "Loading": "スキンサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
-                },
-                "Data": {
-                    "Loading": "スキンデータを読み込み中...",
-                    "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
-                },
-                "Texture": {
-                    "Loading": "スキンテクスチャを読み込み中...",
-                    "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "背景一覧を読み込み中...",
-                    "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Details": {
-                    "Loading": "背景情報を読み込み中...",
-                    "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Compatibility": {
-                    "Loading": "背景の互換性を確認中...",
-                    "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
-                },
-                "Thumbnail": {
-                    "Loading": "背景サムネイルを読み込み中...",
-                    "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
-                },
-                "Data": {
-                    "Loading": "背景データを読み込み中...",
-                    "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
-                },
-                "Image": {
-                    "Loading": "背景画像を読み込み中...",
-                    "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
-                },
-                "Configuration": {
-                    "Loading": "背景設定を読み込み中...",
-                    "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "SE一覧を読み込み中...",
-                    "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Details": {
-                    "Loading": "SE情報を読み込み中...",
-                    "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Compatibility": {
-                    "Loading": "SEの互換性を確認中...",
-                    "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
-                },
-                "Thumbnail": {
-                    "Loading": "SEサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
-                },
-                "Data": {
-                    "Loading": "SEデータを読み込み中...",
-                    "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
-                },
-                "Audio": {
-                    "Loading": "SE音源ファイルを読み込み中...",
-                    "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "パーティクル一覧を読み込み中...",
-                    "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Details": {
-                    "Loading": "パーティクル情報を読み込み中...",
-                    "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Compatibility": {
-                    "Loading": "パーティクルの互換性を確認中...",
-                    "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
-                },
-                "Thumbnail": {
-                    "Loading": "パーティクルサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
-                },
-                "Data": {
-                    "Loading": "パーティクルデータを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
-                },
-                "Texture": {
-                    "Loading": "パーティクルテクスチャを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "エンジン一覧を読み込み中...",
-                    "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Details": {
-                    "Loading": "エンジン情報を読み込み中...",
-                    "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
-                },
-                "Compatibility": {
-                    "Loading": "エンジンの互換性を確認中...",
-                    "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
-                },
-                "Thumbnail": {
-                    "Loading": "エンジンサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
-                },
-                "Data": {
-                    "Loading": "エンジンデータを読み込み中...",
-                    "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
-                },
-                "Rom": {
-                    "Loading": "エンジンROMを読み込み中...",
-                    "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
-                },
-                "Configuration": {
-                    "Loading": "エンジン設定を読み込み中...",
-                    "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
-                }
-            }
-        },
-        "Scp": {
-            "Server": {
-                "Info": {
-                    "Loading": "パッケージ情報を読み込み中...",
-                    "Error": "「{0}」のパッケージ情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Banner": {
-                    "Loading": "パッケージ バナーを読み込み中...",
-                    "Error": "「{0}」のパッケージ バナーを読み込めませんでした。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "レベル一覧を読み込み中...",
-                    "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Details": {
-                    "Loading": "レベル情報を読み込み中...",
-                    "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Compatibility": {
-                    "Loading": "レベルの互換性を確認中...",
-                    "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Cover": {
-                    "Loading": "レベルカバーを読み込み中...",
-                    "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Bgm": {
-                    "Loading": "レベルBGMを読み込み中...",
-                    "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Preview": {
-                    "Loading": "レベルプレビューを読み込み中...",
-                    "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Data": {
-                    "Loading": "レベルデータを読み込み中...",
-                    "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "スキン一覧を読み込み中...",
-                    "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Details": {
-                    "Loading": "スキン情報を読み込み中...",
-                    "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Compatibility": {
-                    "Loading": "スキンの互換性を確認中...",
-                    "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Thumbnail": {
-                    "Loading": "スキンサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Data": {
-                    "Loading": "スキンデータを読み込み中...",
-                    "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Texture": {
-                    "Loading": "スキンテクスチャを読み込み中...",
-                    "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "背景一覧を読み込み中...",
-                    "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Details": {
-                    "Loading": "背景情報を読み込み中...",
-                    "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Compatibility": {
-                    "Loading": "背景の互換性を確認中...",
-                    "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Thumbnail": {
-                    "Loading": "背景サムネイルを読み込み中...",
-                    "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Data": {
-                    "Loading": "背景データを読み込み中...",
-                    "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Image": {
-                    "Loading": "背景画像を読み込み中...",
-                    "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Configuration": {
-                    "Loading": "背景設定を読み込み中...",
-                    "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "SE一覧を読み込み中...",
-                    "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Details": {
-                    "Loading": "SE情報を読み込み中...",
-                    "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Compatibility": {
-                    "Loading": "SEの互換性を確認中...",
-                    "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Thumbnail": {
-                    "Loading": "SEサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Data": {
-                    "Loading": "SEデータを読み込み中...",
-                    "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Audio": {
-                    "Loading": "SE音源ファイルを読み込み中...",
-                    "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "パーティクル一覧を読み込み中...",
-                    "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Details": {
-                    "Loading": "パーティクル情報を読み込み中...",
-                    "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Compatibility": {
-                    "Loading": "パーティクルの互換性を確認中...",
-                    "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Thumbnail": {
-                    "Loading": "パーティクルサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Data": {
-                    "Loading": "パーティクルデータを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Texture": {
-                    "Loading": "パーティクルテクスチャを読み込み中...",
-                    "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "エンジン一覧を読み込み中...",
-                    "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Details": {
-                    "Loading": "エンジン情報を読み込み中...",
-                    "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Compatibility": {
-                    "Loading": "エンジンの互換性を確認中...",
-                    "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Thumbnail": {
-                    "Loading": "エンジンサムネイルを読み込み中...",
-                    "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Data": {
-                    "Loading": "エンジンデータを読み込み中...",
-                    "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Rom": {
-                    "Loading": "エンジンROMを読み込み中...",
-                    "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                },
-                "Configuration": {
-                    "Loading": "エンジン設定を読み込み中...",
-                    "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-                }
-            }
+      },
+      "EditName": {
+        "Loading": "名前を変更中...",
+        "Error": "名前の変更に失敗しました。\n\n別の名前を使うか、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+          "Title": "名前を変更しました"
         }
-    },
-    "DeepLink": {
-        "Invalid": {
-            "Description": "リンク \"{0}\" は無効です。\n\nリンクに打ち間違えがないかご確認ください。"
+      },
+      "EditAvatar": {
+        "Loading": "アバターを変更中...",
+        "Error": "アバターの変更に失敗しました。\n\n別のアバターを使うか、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+          "Title": "アバターを変更しました"
         }
-    },
-    "Title": {
-        "TapToStart": "タップしてスタート"
-    },
-    "Layout": {
-        "Refresh": "更新",
-        "Back": "戻る"
-    },
-    "Routes": {
-        "JumpToPage": {
-            "Title": "ページを指定して移動",
-            "Page": {
-                "Title": "Page",
-                "Description": "Page number.",
-                "Placeholder": "Enter page number..."
-            },
-            "Jump": "移動する"
-        },
-        "SelectLocalization": {
-            "Title": "言語選択",
-            "Description": "利用する言語を選択してください:",
-            "Error": "言語を読み込めませんでした。"
-        },
-        "SelectTheme": {
-            "Title": "テーマ選択",
-            "Description": "好きなテーマを選んでください:"
-        },
-        "SelectClient": {
-            "CustomServers": {
-                "Title": "カスタムサーバー",
-                "RemoveConfirmation": {
-                    "Description": "\"{0}\"を削除しますか?\n\n削除後、再びこのサーバーを使う場合は再追加が必要になります。"
-                }
-            },
-            "Collections": {
-                "Title": "コレクション",
-                "RemoveConfirmation": {
-                    "Description": "本当に\"{0}\"を削除しますか?\n\nこの操作は取り消せません。\n\n削除後、コレクション内の内容は全て失われます。"
-                }
-            }
-        },
-        "Selects": {
-            "ToPlay": {
-                "Title": "遊ぶ",
-                "Description": "カスタム サーバーまたはコレクションを選択して開始します。"
-            },
-            "ToSave": {
-                "Level": {
-                    "Title": "レベルの保存",
-                    "Description": "このレベルの保存先コレクションを選択してください。"
-                },
-                "Skin": {
-                    "Title": "スキンの保存",
-                    "Description": "このスキンの保存先コレクションを選択してください。"
-                },
-                "Background": {
-                    "Title": "背景の保存",
-                    "Description": "この背景の保存先コレクションを選択してください。"
-                },
-                "Effect": {
-                    "Title": "効果音の保存",
-                    "Description": "この効果音の保存先コレクションを選択してください。"
-                },
-                "Particle": {
-                    "Title": "パーティクルの保存",
-                    "Description": "このパーティクルの保存先コレクションを選択してください。"
-                },
-                "Engine": {
-                    "Title": "エンジンの保存",
-                    "Description": "このエンジンの保存先コレクションを選択してください。"
-                }
-            },
-            "ToUse": {
-                "Level": {
-                    "Title": "レベルの選択",
-                    "Description": "使用したいレベルのある、カスタムサーバーまたはコレクションを選択してください。"
-                },
-                "Skin": {
-                    "Title": "スキンの選択",
-                    "Description": "使いたいスキンのあるカスタム サーバーまたはコレクションを選択してください。"
-                },
-                "Background": {
-                    "Title": "背景の選択",
-                    "Description": "使いたい背景のあるカスタム サーバーまたはコレクションを選択してください。"
-                },
-                "Effect": {
-                    "Title": "効果音の選択",
-                    "Description": "使用したい効果音のある、カスタムサーバーまたはコレクションを選択してください。"
-                },
-                "Particle": {
-                    "Title": "パーティクルの選択",
-                    "Description": "使用したいパーティクルのある、カスタムサーバーまたはコレクションを選択してください。"
-                },
-                "Engine": {
-                    "Title": "エンジンの選択",
-                    "Description": "使用したいエンジンのある、カスタムサーバーまたはコレクションを選択してください。"
-                }
-            },
-            "ToAddFavorite": {
-                "Level": {
-                    "Title": "お気に入りレベルの追加",
-                    "Description": "お気に入りに追加したいレベルがある、カスタムサーバーを選択してください。"
-                },
-                "Skin": {
-                    "Title": "お気に入りスキンの追加",
-                    "Description": "お気に入りに追加したいスキンがある、カスタムサーバーを選択してください。"
-                },
-                "Background": {
-                    "Title": "お気に入り背景の追加",
-                    "Description": "お気に入りに追加したい背景がある、カスタムサーバーを選択してください。"
-                },
-                "Effect": {
-                    "Title": "お気に入り効果音の追加",
-                    "Description": "お気に入りに追加したい効果音がある、カスタムサーバーを選択してください。"
-                },
-                "Particle": {
-                    "Title": "お気に入りパーティクルの追加",
-                    "Description": "お気に入りに追加したいパーティクルがある、カスタムサーバーを選択してください。"
-                },
-                "Engine": {
-                    "Title": "お気に入りエンジンの追加",
-                    "Description": "お気に入りに追加したいエンジンがある、カスタムサーバーを選択してください。"
-                }
-            }
-        },
-        "EditCustomServer": {
-            "Title": "カスタムサーバーの編集"
-        },
-        "AddCustomServerAddress": {
-            "Title": "カスタムサーバーの追加",
-            "Address": {
-                "Title": "サーバーアドレス",
-                "Description": "カスタムサーバーのアドレスは通常のURL（`https://...`）であり、ほとんどの場合サーバーのホームページに書いてあります。",
-                "Placeholder": "例：https://example.com"
-            }
-        },
-        "AddCustomServerInfo": {
-            "Title": "カスタムサーバーの追加",
-            "Info": {
-                "Error": "\"{0}\" のサーバー情報の読み込みに失敗しました。\n\n入力したサーバーアドレスが正しいか、インターネット接続に問題ないかを確認し、改善しない場合サーバーの所有者に問題を報告してください。"
-            },
-            "Name": {
-                "Title": "名前",
-                "Description": "名前は自由につけることが出来ます。",
-                "Placeholder": "例：サーバーA"
-            }
-        },
-        "EditCollection": {
-            "Title": "コレクションの編集"
-        },
-        "AddCollection": {
-            "Title": "コレクションの追加",
-            "Name": {
-                "Title": "名前",
-                "Description": "名前は自由につけることが出来ます。",
-                "Placeholder": "例：お気に入り"
-            }
-        },
-        "ImportScp": {
-            "Scp": {
-                "Loading": "パッケージを読み込み中...",
-                "Error": "パッケージ\"{0}\"の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
-            },
-            "Success": {
-                "Title": "パッケージを読み込みました。"
-            }
-        },
-        "ExportScp": {
-            "Success": {
-                "Title": "パッケージを書き出しました。"
-            }
-        },
-        "EditVisibility": {
-            "Scale": {
-                "Title": "大きさ",
-                "Description": null
-            },
-            "Alpha": {
-                "Title": "不透明度",
-                "Description": null
-            }
-        },
-        "EditAnimation": {
-            "Scale": {
-                "Title": "大きさ",
-                "Description": null
-            },
-            "Alpha": {
-                "Title": "不透明度",
-                "Description": null
-            }
-        },
-        "EditTween": {
-            "From": {
-                "Title": "始点",
-                "Description": null
-            },
-            "To": {
-                "Title": "終点",
-                "Description": null
-            },
-            "Duration": {
-                "Title": "時間",
-                "Description": null
-            },
-            "Ease": {
-                "Title": "イージング",
-                "Description": null
-            }
-        },
-        "EditColors": {
-            "Foreground": {
-                "Title": "色",
-                "Description": null
-            },
-            "Background": {
-                "Title": "背景色",
-                "Description": null
-            }
-        },
-        "CalibrateAudio": {
-            "Title": "音声の調整",
-            "Description": "音と画面が合うまでデバイス音オフセットを調整してください。"
-        },
-        "CalibrateInput": {
-            "Title": "入力の調整",
-            "Description": "指でタップして入力を調整します。調整前に、オーディオオフセットが正しく調整されていることを確認してください。\nこのようなオプションがあるゲームに慣れていない場合は、0 のままにしておくのをお勧めします。",
-            "Result": "おすすめオフセット：{0}（±{1}）"
-        },
-        "Home": {
-            "Title": "ホーム",
-            "Play": "プレイ",
-            "Players": "プレイヤー",
-            "Account": "アカウント",
-            "Settings": "全体設定",
-            "UpdateAvailable": {
-                "Title": "アップデート通知",
-                "Description": "Sonolus バージョン {0}が公開されました！\n\nhttps://sonolus.com から最新版をダウンロードできます。",
-                "Open": "サイトを開く"
-            }
-        },
-        "Players": {
-            "Title": "プレイヤー一覧",
-            "PlayerLookup": {
-                "Title": "プレイヤーを調べる",
-                "Id": {
-                    "Title": "プレイヤーID",
-                    "Description": "#の後がプレイヤーIDです。",
-                    "Placeholder": "例：1073"
-                },
-                "Lookup": "調べる"
-            }
-        },
-        "Account": {
-            "Title": "アカウント",
-            "MyAccount": {
-                "Title": "マイアカウント",
-                "Login": {
-                    "Apple": "Apple でサインイン",
-                    "Google": "Google でサインイン",
-                    "Wechat": "WeChat でサインイン"
-                },
-                "Profile": "プロフィール",
-                "Logout": "サインアウト"
-            }
-        },
-        "UserProfile": {
-            "Home": {
-                "Main": {
-                    "EditName": "名前の変更",
-                    "EditAvatar": "アバターの変更"
-                },
-                "AboutMe": {
-                    "Title": "自己紹介"
-                },
-                "SocialLinks": {
-                    "Title": "ソーシャルリンク",
-                    "None": "ソーシャルリンクはありません。",
-                    "OpenConfirmation": {
-                        "Description": "このリンクを開きますか？\n{0}"
-                    }
-                },
-                "Favorites": {
-                    "Title": "お気に入り",
-                    "None": "お気に入りはありません。"
-                }
-            },
-            "EditName": {
-                "Title": "名前の変更",
-                "Name": {
-                    "Title": "名前",
-                    "Description": "プレイヤー名",
-                    "Placeholder": "例：New Player"
-                }
-            },
-            "EditAvatar": {
-                "Title": "アバターの変更",
-                "Foreground": {
-                    "Title": "色",
-                    "Description": "アバターのメイン色。"
-                },
-                "Background": {
-                    "Title": "背景",
-                    "Description": "アバターの背景色。"
-                }
-            },
-            "EditAboutMe": {
-                "Title": "自己紹介の変更",
-                "AboutMe": {
-                    "Title": "自己紹介",
-                    "Description": null,
-                    "Placeholder": "..."
-                }
-            },
-            "AddSocialLink": {
-                "Title": "ソーシャルリンクの追加",
-                "SocialLinkTitle": {
-                    "Title": "ラベル",
-                    "Description": null,
-                    "Placeholder": "例：Twitter"
-                },
-                "SocialLinkAddress": {
-                    "Title": "URL",
-                    "Description": "https:// から始まるURL。",
-                    "Placeholder": "例：https://twitter.com/sevenc_nanashi"
-                }
-            },
-            "AddFavorite": {
-                "Title": "お気に入りの追加",
-                "Description": "お気に入りに追加する要素の種類を選択してください。",
-                "Level": "レベル",
-                "Skin": "スキン",
-                "Background": "背景",
-                "Effect": "効果音",
-                "Particle": "パーティクル",
-                "Engine": "エンジン"
-            }
-        },
-        "Server": {
-            "Home": {
-                "Levels": "レベル一覧",
-                "Skins": "スキン一覧",
-                "Backgrounds": "背景一覧",
-                "Effects": "効果音一覧",
-                "Particles": "パーティクル一覧",
-                "Engines": "エンジン一覧",
-                "SaveSuccess": {
-                    "Title": "サーバーを保存しました"
-                },
-                "ShareSuccess": {
-                    "Title": "サーバーのリンクをコピーしました。"
-                }
-            },
-            "Search": {
-                "Title": "検索"
-            },
-            "Lists": {
-                "DeleteConfirmation": {
-                    "Description": "「{0}」を削除してもよろしいですか?"
-                },
-                "Level": {
-                    "Title": "レベル一覧",
-                    "ShareSuccess": {
-                        "Title": "レベル一覧のリンクをコピーしました。"
-                    }
-                },
-                "Skin": {
-                    "Title": "スキン一覧",
-                    "ShareSuccess": {
-                        "Title": "スキン一覧のリンクをコピーしました"
-                    }
-                },
-                "Background": {
-                    "Title": "背景一覧",
-                    "ShareSuccess": {
-                        "Title": "背景一覧のリンクをコピーしました"
-                    }
-                },
-                "Effect": {
-                    "Title": "効果音一覧",
-                    "ShareSuccess": {
-                        "Title": "効果音一覧のリンクをコピーしました"
-                    }
-                },
-                "Particle": {
-                    "Title": "パーティクル一覧",
-                    "ShareSuccess": {
-                        "Title": "パーティクル一覧のリンクをコピーしました"
-                    }
-                },
-                "Engine": {
-                    "Title": "エンジン一覧",
-                    "ShareSuccess": {
-                        "Title": "エンジン一覧のリンクをコピーしました"
-                    }
-                }
-            },
-            "Details": {
-                "Actions": {
-                    "Configuration": "設定"
-                },
-                "DeleteConfirmation": {
-                    "Description": "「{0}」を削除してもよろしいですか?"
-                },
-                "Description": {
-                    "Title": "説明文"
-                },
-                "Recommended": {
-                    "Title": "おすすめ"
-                },
-                "Level": {
-                    "Actions": {
-                        "Play": "プレイ"
-                    },
-                    "Play": {
-                        "Effect": {
-                            "Audio": {
-                                "Loading": "効果音をデコード中...",
-                                "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡下さい。"
-                            }
-                        },
-                        "Level": {
-                            "Bgm": {
-                                "Loading": "レベルBGMをデコード中...",
-                                "Error": "レベルBGM \"{0}\"のデコードに失敗しました。\n\nレベルの作者にご連絡ください。"
-                            }
-                        },
-                        "Boot": {
-                            "Loading": "レベルを開始中...",
-                            "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "レベルのリンクをコピーしました"
-                    }
-                },
-                "Skin": {
-                    "ShareSuccess": {
-                        "Title": "スキンのリンクをコピーしました"
-                    }
-                },
-                "Background": {
-                    "Preview": {
-                        "Boot": {
-                            "Loading": "背景をセットアップ中...",
-                            "Error": "背景 \"{0}\"の開始に失敗しました。\n\n背景の作者にご連絡ください。"
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "背景のリンクをコピーしました"
-                    }
-                },
-                "Effect": {
-                    "Preview": {
-                        "Audio": {
-                            "Loading": "効果音をデコード中...",
-                            "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡ください。"
-                        },
-                        "Boot": {
-                            "Loading": "効果音をセットアップ中...",
-                            "Error": "効果音 \"{0}\"のセットアップに失敗しました。\n\n効果音の作者にご連絡ください。"
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "効果音のリンクをコピーしました"
-                    }
-                },
-                "Particle": {
-                    "ShareSuccess": {
-                        "Title": "パーティクルのリンクをコピーしました"
-                    }
-                },
-                "Engine": {
-                    "ShareSuccess": {
-                        "Title": "エンジンのリンクをコピーしました"
-                    }
-                }
-            },
-            "Configurations": {
-                "Level": {
-                    "Title": "レベル設定",
-                    "Offsets": {
-                        "LevelAudioOffset": {
-                            "Title": "レベル音オフセット",
-                            "Description": "このレベルでのみ適用されるオフセット。\nこのレベルだけ音ズレしている時に使います。\n音が遅ければプラス、早ければマイナスに調整して下さい。\n"
-                        },
-                        "ServerAudioOffset": {
-                            "Title": "Server Audio Offset",
-                            "Description": "このサーバー全体で適用されるオフセット。 このサーバー全体のレベルが音ズレしている時に使います。 音が遅ければプラス、早ければマイナスに調整して下さい。"
-                        }
-                    }
-                },
-                "Skin": {
-                    "Title": "スキン設定"
-                },
-                "Background": {
-                    "Title": "背景設定",
-                    "Image": {
-                        "Title": "画像",
-                        "Blur": {
-                            "Title": "ぼかし",
-                            "Description": "画像をぼかすことで情報量を減らすことが出来ます。"
-                        },
-                        "Mask": {
-                            "Title": "オーバーレイ",
-                            "Description": "画像の明るさを下げたり、色を変えることが出来ます。"
-                        }
-                    }
-                },
-                "Effect": {
-                    "Title": "効果音設定"
-                },
-                "Particle": {
-                    "Title": "パーティクル設定"
-                },
-                "Engine": {
-                    "Title": "エンジン設定",
-                    "Skin": {
-                        "Title": "使用スキン"
-                    },
-                    "Background": {
-                        "Title": "使用背景"
-                    },
-                    "Effect": {
-                        "Title": "使用効果音"
-                    },
-                    "Particle": {
-                        "Title": "使用パーティクル"
-                    },
-                    "Options": {
-                        "Title": "オプション"
-                    },
-                    "UI": {
-                        "PrimaryMetric": {
-                            "Title": "メインステータス",
-                            "Description": "表示するステータス。"
-                        },
-                        "SecondaryMetric": {
-                            "Title": "サブステータス",
-                            "Description": "表示するステータス。"
-                        },
-                        "JudgmentErrorStyle": {
-                            "Title": "Early/Late表示の表記",
-                            "Description": "Early/Lateの表記。 Earlyが右側、Lateが左側に表記されています。"
-                        },
-                        "JudgmentErrorPlacement": {
-                            "Title": "Early/Late表示の位置",
-                            "Description": "Early/Late表示の位置。"
-                        },
-                        "JudgmentErrorMin": {
-                            "Title": "Early/Late表示の最小誤差",
-                            "Description": "この値より小さい誤差はEarly/Late表示されません。"
-                        },
-                        "MenuStyle": {
-                            "Title": "メニューボタンのスタイル",
-                            "Description": "メニューボタンのスタイル。"
-                        },
-                        "JudgmentStyle": {
-                            "Title": "判定表示のスタイル",
-                            "Description": "判定表示のスタイル。"
-                        },
-                        "ComboStyle": {
-                            "Title": "コンボ表示のスタイル",
-                            "Description": "コンボ表示のスタイル。"
-                        },
-                        "PrimaryMetricStyle": {
-                            "Title": "メインステータスのスタイル",
-                            "Description": "メインステータスのスタイル。"
-                        },
-                        "SecondaryMetricStyle": {
-                            "Title": "サブステータスのスタイル",
-                            "Description": "サブステータスのスタイル。"
-                        }
-                    },
-                    "Offsets": {
-                        "EngineInputOffset": {
-                            "Title": "Engine Input Offset",
-                            "Description": "Recommend to use 0.\n\nAdditional input offset of this engine, should only be used when you have trouble playing this engine in particular. Increase if your inputs are registered as too late, and decrease otherwise."
-                        }
-                    }
-                }
-            },
-            "Savers": {
-                "Level": {
-                    "Success": {
-                        "Title": "レベルを保存しました"
-                    }
-                },
-                "Skin": {
-                    "Success": {
-                        "Title": "スキンを保存しました"
-                    }
-                },
-                "Background": {
-                    "Success": {
-                        "Title": "背景を保存しました"
-                    }
-                },
-                "Effect": {
-                    "Success": {
-                        "Title": "効果音を保存しました"
-                    }
-                },
-                "Particle": {
-                    "Success": {
-                        "Title": "パーティクルを保存しました"
-                    }
-                },
-                "Engine": {
-                    "Success": {
-                        "Title": "エンジンを保存しました"
-                    }
-                }
-            }
-        },
-        "Settings": {
-            "Title": "設定",
-            "Graphics": {
-                "Title": "グラフィック",
-                "TargetFps": {
-                    "Title": "FPS",
-                    "Description": "推奨：デバイスのFPS\n\nSonolusはこのFPSを対象に動作しますが、デバイスが対応していない場合はこのFPSより低い値になります。"
-                },
-                "RenderMode": {
-                    "Title": "描画モード。",
-                    "Description": "推奨：標準\n\n軽量モードではグラフィックが若干劣化しますが、パフォーマンスが向上します。",
-                    "Options": {
-                        "Standard": "標準",
-                        "Lightweight": "軽量"
-                    }
-                },
-                "RenderScale": {
-                    "Title": "描画スケール",
-                    "Description": "推奨：100%\n\nSonolusはこのスケールで描画し、スクリーンサイズに拡大または縮小します。100%より高い描画スケールはパフォーマンスが低下しますが、グラフィックが向上します。100%より低い描画スケールはパフォーマンスが向上しますが、グラフィックが低下します。"
-                },
-                "AntiAliasing": {
-                    "Title": "アンチエイリアス",
-                    "Description": "推奨：オフ\n\nアンチエイリアスでスプライトの端のノイズを減らすことが出来ますが、パフォーマンスが低下します。",
-                    "Options": {
-                        "Off": "オフ",
-                        "TwoX": "2倍",
-                        "FourX": "4倍",
-                        "EightX": "8倍"
-                    }
-                },
-                "GpuParticleSystem": {
-                    "Title": "GPUパーティクル",
-                    "Description": "推奨：オフ\n\nSonolusは標準でCPUを使ってパーティクルを描画します。GPUを使うとパーティクルの描画が高速化されますが、多くのデバイスではCPUよりもGPUの方が性能が低いため、推奨されません。"
-                },
-                "IgnoreNotch": {
-                    "Title": "ノッチを無視",
-                    "Description": "Sonolusはデバイスのノッチを考慮してグラフィックが常に見えるようにします。ノッチを無視すると、グラフィックが一部隠れる可能性があります。"
-                }
-            },
-            "Audio": {
-                "Title": "オーディオ",
-                "BgmVolume": {
-                    "Title": "BGM音量",
-                    "Description": null
-                },
-                "SfxVolume": {
-                    "Title": "SE音量",
-                    "Description": null
-                },
-                "UIVolume": {
-                    "Title": "UI音量",
-                    "Description": null
-                },
-                "AlwaysDecodeLevelBgm": {
-                    "Title": "レベルのBGMを常にデコード",
-                    "Description": "推奨：オフ\n\nSonolusはデフォルトでOSの提供している音声再生機能を使い、OSの音声再生機能が対応していない場合のみBGMをデコードします。この設定をオンにすると、常にBGMをデコードします。"
-                },
-                "PreviewBgm": {
-                    "Title": "プレビューBGM",
-                    "Description": "プレビューBGMをいつ再生するか。",
-                    "Options": {
-                        "Off": "オフ",
-                        "DetailsOnly": "詳細画面のみ",
-                        "ListAndDetails": "一覧画面と詳細画面"
-                    }
-                },
-                "LevelBgmQuality": {
-                    "Title": "レベルBGMの品質",
-                    "Description": "推奨：高\n\nBGMをデコードするときの品質を設定します。",
-                    "Options": {
-                        "Low": "低",
-                        "Mid": "中",
-                        "High": "高"
-                    }
-                },
-                "PreviewBgmQuality": {
-                    "Title": "BGMプレビューの音質",
-                    "Description": "推奨：中\n\nBGMプレビューを再生するときの音質を設定します。",
-                    "Options": {
-                        "Low": "低音質",
-                        "Mid": "中音質",
-                        "High": "高音質"
-                    }
-                }
-            },
-            "UI": {
-                "Title": "UI",
-                "Localization": {
-                    "Title": "言語",
-                    "Description": "UIの言語を設定します。"
-                },
-                "Theme": {
-                    "Title": "テーマ",
-                    "Description": "UIのテーマを設定します。"
-                },
-                "Scale": {
-                    "Title": "UIスケール",
-                    "Description": "UIのスケールを設定します。 文字が読みにくい場合は大きく、多くの情報を表示したい場合は小さくします。"
-                },
-                "UnpauseDelay": {
-                    "Title": "ポーズ解除の猶予",
-                    "Description": "ポーズ解除時の猶予時間を設定します。"
-                },
-                "PerfectJudgmentColors": {
-                    "Title": "Perfect判定の色",
-                    "Description": "Perfect判定の色を設定します。"
-                },
-                "GreatJudgmentColors": {
-                    "Title": "Great判定の色",
-                    "Description": "Great判定の色を設定します。"
-                },
-                "GoodJudgmentColors": {
-                    "Title": "Good判定の色",
-                    "Description": "Good判定の色を設定します。"
-                },
-                "MissJudgmentColors": {
-                    "Title": "Miss判定の色",
-                    "Description": "Miss判定の色を設定します。"
-                },
-                "PositiveJudgmentErrorColors": {
-                    "Title": "Late判定の色",
-                    "Description": "Late判定の色を設定します。"
-                },
-                "NegativeJudgmentErrorColors": {
-                    "Title": "Early判定の色",
-                    "Description": "Early判定の色を設定します。"
-                },
-                "AllPerfectComboColors": {
-                    "Title": "All Perfect時の色",
-                    "Description": "All Perfect時のコンボ表記の色を設定します。"
-                },
-                "FullComboComboColors": {
-                    "Title": "Full Combo時の色",
-                    "Description": "Full Combo時のコンボ表記の色を設定します。"
-                },
-                "PassComboColors": {
-                    "Title": "Pass時の色",
-                    "Description": "Pass時のコンボ表記の色を設定します。"
-                },
-                "FailComboColors": {
-                    "Title": "Fail時の色",
-                    "Description": "Fail時のコンボ表記の色を設定します。"
-                },
-                "BoldComboNumber": {
-                    "Title": "コンボ表記を太字にする",
-                    "Description": "コンボ表記を太字にします。"
-                },
-                "ShowZeroCombo": {
-                    "Title": "0コンボを表示する",
-                    "Description": "0コンボを表示します。"
-                }
-            },
-            "Offsets": {
-                "Title": "オフセット",
-                "Device": {
-                    "Title": "デバイス別オフセット",
-                    "Description": "この設定を使うことで、Bluetoothイヤホン時や有線イヤホン時のように複数の設定を保存できます。",
-                    "Option": "デバイス {0}"
-                },
-                "DeviceAudioOffset": {
-                    "Title": "デバイス音オフセット",
-                    "Description": "推奨：0\n\nほとんどの場合は0が正しいオフセットです。Bluetoothは推奨されません。音が遅れている場合はプラス、早い場合はマイナスを設定します。"
-                },
-                "DeviceInputOffset": {
-                    "Title": "デバイス入力オフセット",
-                    "Description": "推奨：0\n\n入力オフセット（通称：B判定）を提供していないゲームに慣れている場合は0のままで構いません。入力が遅れている場合はプラス、早い場合はマイナスを設定します。"
-                }
-            },
-            "Repository": {
-                "Title": "リポジトリ",
-                "Manage": "管理"
-            },
-            "Cache": {
-                "Title": "キャッシュ",
-                "AlwaysRevalidate": {
-                    "Title": "常に再検証",
-                    "Description": "推奨：オフ\n\nデフォルトでは、サーバーのリソースは古くなったときにのみ再検証されます。オンにすると、サーバーのリソースは使用する前に常に再検証されます。"
-                },
-                "Manage": "管理"
-            },
-            "Developer": {
-                "Title": "開発者設定",
-                "ShowFps": {
-                    "Title": "FPS表示",
-                    "Description": "FPSを左下に表示します。"
-                },
-                "FpsStyle": {
-                    "Title": "FPS表示のスタイル",
-                    "Description": "FPS表示のスタイルを設定します。"
-                },
-                "ShowTouches": {
-                    "Title": "タッチ表示",
-                    "Description": "タッチした場所にタッチ表示を表示します。 画面録画をするときに有用です。"
-                },
-                "TouchStyle": {
-                    "Title": "タッチ表示のスタイル",
-                    "Description": "タッチ表示のスタイルを設定します。"
-                },
-                "DebugMode": {
-                    "Title": "デバッグモード",
-                    "Description": "デバッグモードを有効にすると、デバッグ用のコードが実行され、画面右下にデバッグログが表示されます。"
-                },
-                "DebugLogStyle": {
-                    "Title": "デバッグログのスタイル",
-                    "Description": "デバッグログのスタイルを設定します。"
-                }
-            }
-        },
-        "ManageRepository": {
-            "Title": "リポジトリ管理",
-            "Repository": {
-                "Title": "リポジトリ",
-                "Description": "リポジトリには、オフラインで利用可能なすべてのリソースが保存されます。",
-                "Size": "全体サイズ：{0}"
-            },
-            "DeleteRepository": {
-                "Title": "リポジトリの削除",
-                "Description": "リポジトリのリソースをすべて削除すると、必要になった際、再度ダウンロードが必要になります。",
-                "Delete": "削除する",
-                "DeleteConfirmation": {
-                    "Description": "本当にリポジトリの全てのリソースを削除してよろしいですか?",
-                    "Loading": "リポジトリを削除しています..."
-                },
-                "Success": {
-                    "Title": "リポジトリを削除しました"
-                }
-            }
-        },
-        "ManageCache": {
-            "Title": "キャッシュ管理",
-            "Cache": {
-                "Title": "キャッシュ",
-                "Description": "キャッシュはリソースとそれに関連するURLを一時的に記憶しておく機能です。この機能によりSonolusは、ネットワーク経由の読み込みを高速化し、データ転送量を削減します。キャッシュはごく少量のストレージしか使用しないため、削除しないことをお勧めします。",
-                "Count": "キャッシュ：{0}件"
-            },
-            "ExpireCache": {
-                "Title": "キャッシュの失効",
-                "Description": "失効させると、次回キャッシュ読み込み時にネットワーク経由でリソースの更新を検証します。更新がある場合ダウンロードが発生します。",
-                "Expire": "失効させる",
-                "ExpireConfirmation": {
-                    "Description": "すべてのキャッシュを失効させますか?"
-                },
-                "Success": {
-                    "Title": "キャッシュを失効させました"
-                }
-            },
-            "DeleteCache": {
-                "Title": "キャッシュの削除",
-                "Description": "削除すると、次回キャッシュ読み込み時、すべてのリソースの再ダウンロードが発生します。（非推奨）",
-                "Delete": "削除する",
-                "DeleteConfirmation": {
-                    "Description": "本当にキャッシュをすべて削除しますか?"
-                },
-                "Success": {
-                    "Title": "キャッシュを削除しました"
-                }
-            }
+      },
+      "EditAboutMe": {
+        "Loading": "プロフィールを変更しています...",
+        "Error": "プロフィールの変更に失敗しました。\n\n他のプロフィールを指定するか、インターネット接続を確認してからもう一度お試しください。",
+        "Success": {
+          "Title": "プロフィールを変更しました"
         }
+      },
+      "EditSocialLinks": {
+        "Loading": "SNSリンクを変更中...",
+        "Error": "SNSリンクの編集に失敗しました。\n\nリンクの長さとインターネット接続を確認してください。",
+        "Success": {
+          "Title": "ソーシャルリンクを変更しました"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "お気に入りを変更中...",
+        "Error": "お気に入りの変更に失敗しました。\n\nお気に入り登録内容、お気に入り数、インターネット接続を確認してもう一度お試しください。",
+        "Success": {
+          "Title": "完了"
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "Sonolus認証をリクエスト中...",
+        "Error": "Sonolus認証のリクエストに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。改善しない場合、Sonolusに問題をご報告ください。"
+      },
+      "Logout": {
+        "Loading": "サインアウト中...",
+        "Error": "サインアウトに失敗しました。\n\nインターネット接続を確認して、もう一度お試しください。",
+        "Success": {
+          "Title": "サインアウトしました"
+        }
+      }
+    },
+    "CustomServer": {
+      "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
+      "SonolusVersionTooOld": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nサーバーの管理者にお問い合わせ下さい。",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "このサーバーを利用するには認証が必要です。\n\nまずサインインを行い、その後再度お試しください。"
+          },
+          "Confirmation": {
+            "Description": "このサーバーを利用するには認証が必要です。\n\n「{0}」として認証して続行しますか?"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "認証の有効期限が切れています。\n\n「{0}」として再度認証して続行しますか?"
+        },
+        "AuthenticationRejected": {
+          "Description": "認証がサーバーによって拒否されました。\n\n「{0}」として再度認証して続行しますか?"
+        },
+        "Authenticate": {
+          "Loading": "サーバー認証を要求しています...",
+          "Error": "\"{0}\" からの認証を要求できませんでした。\n\nインターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。"
+        },
+        "AddressMismatchError": {
+          "Description": "認証先アドレスが一致しません。\n\nサーバー所有者に連絡して問題を報告してください。"
+        }
+      },
+      "Server": {
+        "Info": {
+          "Loading": "サーバー情報を読み込み中...",
+          "Error": "\"{0}\" のサーバー情報の読み込みに失敗しました。\n\n入力したサーバーアドレスが正しいか、インターネット接続に問題ないかを確認し、改善しない場合、サーバーの所有者にご連絡ください。"
+        },
+        "Banner": {
+          "Loading": "サーバーバナーを読み込み中...",
+          "Error": "\"{0}\" のサーバー バナーを読み込めませんでした。\n\nインターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。"
+        }
+      },
+      "Level": {
+        "List": {
+          "Loading": "レベル一覧を読み込み中...",
+          "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "レベル情報を読み込み中...",
+          "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "レベルの互換性を確認中...",
+          "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のレベルを選択するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Cover": {
+          "Loading": "レベルカバーを読み込み中...",
+          "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Bgm": {
+          "Loading": "レベルBGMを読み込み中...",
+          "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Preview": {
+          "Loading": "レベルプレビューを読み込み中...",
+          "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Data": {
+          "Loading": "レベルデータを読み込み中...",
+          "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "スキン一覧を読み込み中...",
+          "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "スキン情報を読み込み中...",
+          "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "スキンの互換性を確認中...",
+          "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のスキンを使用するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Thumbnail": {
+          "Loading": "スキンサムネイルを読み込み中...",
+          "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Data": {
+          "Loading": "スキンデータを読み込み中...",
+          "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Texture": {
+          "Loading": "スキンテクスチャを読み込み中...",
+          "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "背景一覧を読み込み中...",
+          "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "背景情報を読み込み中...",
+          "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "背景の互換性を確認中...",
+          "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別の背景を使用するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Thumbnail": {
+          "Loading": "背景サムネイルを読み込み中...",
+          "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Data": {
+          "Loading": "背景データを読み込み中...",
+          "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Image": {
+          "Loading": "背景画像を読み込み中...",
+          "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Configuration": {
+          "Loading": "背景設定を読み込み中...",
+          "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "SE一覧を読み込み中...",
+          "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "SE情報を読み込み中...",
+          "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "SEの互換性を確認中...",
+          "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のSEを使用するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Thumbnail": {
+          "Loading": "SEサムネイルを読み込み中...",
+          "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Data": {
+          "Loading": "SEデータを読み込み中...",
+          "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Audio": {
+          "Loading": "SE音源ファイルを読み込み中...",
+          "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "パーティクル一覧を読み込み中...",
+          "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "パーティクル情報を読み込み中...",
+          "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "パーティクルの互換性を確認中...",
+          "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のパーティクルを使用するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Thumbnail": {
+          "Loading": "パーティクルサムネイルを読み込み中...",
+          "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Data": {
+          "Loading": "パーティクルデータを読み込み中...",
+          "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Texture": {
+          "Loading": "パーティクルテクスチャを読み込み中...",
+          "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "エンジン一覧を読み込み中...",
+          "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "エンジン情報を読み込み中...",
+          "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "エンジンの互換性を確認中...",
+          "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のエンジンを使用するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Thumbnail": {
+          "Loading": "エンジンサムネイルを読み込み中...",
+          "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Data": {
+          "Loading": "エンジンデータを読み込み中...",
+          "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Rom": {
+          "Loading": "エンジンROMを読み込み中...",
+          "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Configuration": {
+          "Loading": "エンジン設定を読み込み中...",
+          "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      }
+    },
+    "Collection": {
+      "Server": {
+        "Info": {
+          "Loading": "コレクションを読み込み中...",
+          "Error": "\"{0}\" のコレクション情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Banner": {
+          "Loading": "コレクションバナーを読み込み中...",
+          "Error": "「{0}」のコレクション バナーを読み込めませんでした。\n\nコレクションが破損している可能性があります。"
+        }
+      },
+      "Level": {
+        "List": {
+          "Loading": "レベル一覧を読み込み中...",
+          "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "レベル情報を読み込み中...",
+          "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "レベルの互換性を確認中...",
+          "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
+        },
+        "Cover": {
+          "Loading": "レベルカバーを読み込み中...",
+          "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
+        },
+        "Bgm": {
+          "Loading": "レベルBGMを読み込み中...",
+          "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
+        },
+        "Preview": {
+          "Loading": "レベルプレビューを読み込み中...",
+          "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
+        },
+        "Data": {
+          "Loading": "レベルデータを読み込み中...",
+          "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "スキン一覧を読み込み中...",
+          "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "スキン情報を読み込み中...",
+          "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "スキンの互換性を確認中...",
+          "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
+        },
+        "Thumbnail": {
+          "Loading": "スキンサムネイルを読み込み中...",
+          "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
+        },
+        "Data": {
+          "Loading": "スキンデータを読み込み中...",
+          "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
+        },
+        "Texture": {
+          "Loading": "スキンテクスチャを読み込み中...",
+          "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のスキンをご利用ください。"
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "背景一覧を読み込み中...",
+          "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "背景情報を読み込み中...",
+          "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "背景の互換性を確認中...",
+          "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
+        },
+        "Thumbnail": {
+          "Loading": "背景サムネイルを読み込み中...",
+          "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
+        },
+        "Data": {
+          "Loading": "背景データを読み込み中...",
+          "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
+        },
+        "Image": {
+          "Loading": "背景画像を読み込み中...",
+          "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
+        },
+        "Configuration": {
+          "Loading": "背景設定を読み込み中...",
+          "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別の背景をご利用ください。"
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "SE一覧を読み込み中...",
+          "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "SE情報を読み込み中...",
+          "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "SEの互換性を確認中...",
+          "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
+        },
+        "Thumbnail": {
+          "Loading": "SEサムネイルを読み込み中...",
+          "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
+        },
+        "Data": {
+          "Loading": "SEデータを読み込み中...",
+          "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
+        },
+        "Audio": {
+          "Loading": "SE音源ファイルを読み込み中...",
+          "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のSEをご利用ください。"
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "パーティクル一覧を読み込み中...",
+          "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "パーティクル情報を読み込み中...",
+          "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "パーティクルの互換性を確認中...",
+          "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
+        },
+        "Thumbnail": {
+          "Loading": "パーティクルサムネイルを読み込み中...",
+          "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
+        },
+        "Data": {
+          "Loading": "パーティクルデータを読み込み中...",
+          "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
+        },
+        "Texture": {
+          "Loading": "パーティクルテクスチャを読み込み中...",
+          "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。"
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "エンジン一覧を読み込み中...",
+          "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "エンジン情報を読み込み中...",
+          "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "エンジンの互換性を確認中...",
+          "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
+        },
+        "Thumbnail": {
+          "Loading": "エンジンサムネイルを読み込み中...",
+          "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
+        },
+        "Data": {
+          "Loading": "エンジンデータを読み込み中...",
+          "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
+        },
+        "Rom": {
+          "Loading": "エンジンROMを読み込み中...",
+          "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
+        },
+        "Configuration": {
+          "Loading": "エンジン設定を読み込み中...",
+          "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
+        }
+      }
     },
     "Scp": {
-        "PermissionError": {
-            "Description": "指定された動作に必要な権限が不足しているため実行できません。\n\n端末の設定画面からSonolusに権限を付与してください。",
-            "Open": "設定画面を開く"
+      "Server": {
+        "Info": {
+          "Loading": "パッケージ情報を読み込み中...",
+          "Error": "「{0}」のパッケージ情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Banner": {
+          "Loading": "パッケージ バナーを読み込み中...",
+          "Error": "「{0}」のパッケージ バナーを読み込めませんでした。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         }
+      },
+      "Level": {
+        "List": {
+          "Loading": "レベル一覧を読み込み中...",
+          "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "レベル情報を読み込み中...",
+          "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "レベルの互換性を確認中...",
+          "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Cover": {
+          "Loading": "レベルカバーを読み込み中...",
+          "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Bgm": {
+          "Loading": "レベルBGMを読み込み中...",
+          "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Preview": {
+          "Loading": "レベルプレビューを読み込み中...",
+          "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Data": {
+          "Loading": "レベルデータを読み込み中...",
+          "Error": "\"{0}\"のレベルデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "スキン一覧を読み込み中...",
+          "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "スキン情報を読み込み中...",
+          "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "スキンの互換性を確認中...",
+          "Error": "スキン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Thumbnail": {
+          "Loading": "スキンサムネイルを読み込み中...",
+          "Error": "\"{0}\"のスキンサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Data": {
+          "Loading": "スキンデータを読み込み中...",
+          "Error": "\"{0}\"のスキンデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Texture": {
+          "Loading": "スキンテクスチャを読み込み中...",
+          "Error": "\"{0}\"のスキンテクスチャの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "背景一覧を読み込み中...",
+          "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "背景情報を読み込み中...",
+          "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "背景の互換性を確認中...",
+          "Error": "背景 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Thumbnail": {
+          "Loading": "背景サムネイルを読み込み中...",
+          "Error": "\"{0}\"の背景サムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Data": {
+          "Loading": "背景データを読み込み中...",
+          "Error": "\"{0}\"の背景データの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Image": {
+          "Loading": "背景画像を読み込み中...",
+          "Error": "\"{0}\"の背景画像の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Configuration": {
+          "Loading": "背景設定を読み込み中...",
+          "Error": "\"{0}\"の背景設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "SE一覧を読み込み中...",
+          "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "SE情報を読み込み中...",
+          "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "SEの互換性を確認中...",
+          "Error": "SE \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Thumbnail": {
+          "Loading": "SEサムネイルを読み込み中...",
+          "Error": "\"{0}\"のSEサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Data": {
+          "Loading": "SEデータを読み込み中...",
+          "Error": "\"{0}\"のSEデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Audio": {
+          "Loading": "SE音源ファイルを読み込み中...",
+          "Error": "\"{0}\"のSE音源ファイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "パーティクル一覧を読み込み中...",
+          "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "パーティクル情報を読み込み中...",
+          "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "パーティクルの互換性を確認中...",
+          "Error": "パーティクル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Thumbnail": {
+          "Loading": "パーティクルサムネイルを読み込み中...",
+          "Error": "\"{0}\"のパーティクルサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Data": {
+          "Loading": "パーティクルデータを読み込み中...",
+          "Error": "\"{0}\"のパーティクルデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Texture": {
+          "Loading": "パーティクルテクスチャを読み込み中...",
+          "Error": "\"{0}\"のパーティクルテクスチャの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "エンジン一覧を読み込み中...",
+          "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "エンジン情報を読み込み中...",
+          "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "エンジンの互換性を確認中...",
+          "Error": "エンジン \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Thumbnail": {
+          "Loading": "エンジンサムネイルを読み込み中...",
+          "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Data": {
+          "Loading": "エンジンデータを読み込み中...",
+          "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Rom": {
+          "Loading": "エンジンROMを読み込み中...",
+          "Error": "\"{0}\"のエンジンROMの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Configuration": {
+          "Loading": "エンジン設定を読み込み中...",
+          "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      }
+    }
+  },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "リンク \"{0}\" は無効です。\n\nリンクに打ち間違えがないかご確認ください。"
+    }
+  },
+  "Title": {
+    "TapToStart": "タップしてスタート"
+  },
+  "Layout": {
+    "Refresh": "更新",
+    "Back": "戻る"
+  },
+  "Routes": {
+    "JumpToPage": {
+      "Title": "ページを指定して移動",
+      "Page": {
+        "Title": "Page",
+        "Description": "Page number.",
+        "Placeholder": "Enter page number..."
+      },
+      "Jump": "移動する"
     },
-    "Runtimes": {
+    "SelectLocalization": {
+      "Title": "言語選択",
+      "Description": "利用する言語を選択してください:",
+      "Error": "言語を読み込めませんでした。"
+    },
+    "SelectTheme": {
+      "Title": "テーマ選択",
+      "Description": "好きなテーマを選んでください:"
+    },
+    "SelectClient": {
+      "CustomServers": {
+        "Title": "カスタムサーバー",
+        "RemoveConfirmation": {
+          "Description": "\"{0}\"を削除しますか?\n\n削除後、再びこのサーバーを使う場合は再追加が必要になります。"
+        }
+      },
+      "Collections": {
+        "Title": "コレクション",
+        "RemoveConfirmation": {
+          "Description": "本当に\"{0}\"を削除しますか?\n\nこの操作は取り消せません。\n\n削除後、コレクション内の内容は全て失われます。"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "遊ぶ",
+        "Description": "カスタム サーバーまたはコレクションを選択して開始します。"
+      },
+      "ToSave": {
         "Level": {
-            "Play": {
-                "Routes": {
-                    "Pause": {
-                        "Title": "一時停止",
-                        "Control": {
-                            "Title": "操作",
-                            "Exit": "終了",
-                            "Restart": "リスタート"
-                        },
-                        "Snapshot": {
-                            "Title": "区間練習",
-                            "Mark": "マーク",
-                            "Jump": "ジャンプ"
-                        },
-                        "Debug": {
-                            "Title": "デバッグ"
-                        }
-                    },
-                    "Result": {
-                        "Title": "リザルト",
-                        "Options": {
-                            "HasUsedPause": "一時停止使用",
-                            "HasUsedSnapshot": "区間練習使用"
-                        },
-                        "Graphs": {
-                            "Title": "グラフ",
-                            "Judgment": {
-                                "Title": "判定グラフ"
-                            },
-                            "Accuracy": {
-                                "Title": "精度グラフ",
-                                "AbsValue": "絶対値",
-                                "Mean": "平均値",
-                                "StDev": "標準偏差",
-                                "Min": "最小値",
-                                "Max": "最大値"
-                            },
-                            "Bucket": {
-                                "Title": "バケットグラフ"
-                            }
-                        }
-                    }
-                }
-            }
+          "Title": "レベルの保存",
+          "Description": "このレベルの保存先コレクションを選択してください。"
+        },
+        "Skin": {
+          "Title": "スキンの保存",
+          "Description": "このスキンの保存先コレクションを選択してください。"
+        },
+        "Background": {
+          "Title": "背景の保存",
+          "Description": "この背景の保存先コレクションを選択してください。"
         },
         "Effect": {
-            "Preview": {
-                "Routes": {
-                    "Preview": {
-                        "Play": "再生"
-                    }
-                }
-            }
+          "Title": "効果音の保存",
+          "Description": "この効果音の保存先コレクションを選択してください。"
+        },
+        "Particle": {
+          "Title": "パーティクルの保存",
+          "Description": "このパーティクルの保存先コレクションを選択してください。"
+        },
+        "Engine": {
+          "Title": "エンジンの保存",
+          "Description": "このエンジンの保存先コレクションを選択してください。"
         }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "レベルの選択",
+          "Description": "使用したいレベルのある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Skin": {
+          "Title": "スキンの選択",
+          "Description": "使いたいスキンのあるカスタム サーバーまたはコレクションを選択してください。"
+        },
+        "Background": {
+          "Title": "背景の選択",
+          "Description": "使いたい背景のあるカスタム サーバーまたはコレクションを選択してください。"
+        },
+        "Effect": {
+          "Title": "効果音の選択",
+          "Description": "使用したい効果音のある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Particle": {
+          "Title": "パーティクルの選択",
+          "Description": "使用したいパーティクルのある、カスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Engine": {
+          "Title": "エンジンの選択",
+          "Description": "使用したいエンジンのある、カスタムサーバーまたはコレクションを選択してください。"
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "お気に入りレベルの追加",
+          "Description": "お気に入りに追加したいレベルがある、カスタムサーバーを選択してください。"
+        },
+        "Skin": {
+          "Title": "お気に入りスキンの追加",
+          "Description": "お気に入りに追加したいスキンがある、カスタムサーバーを選択してください。"
+        },
+        "Background": {
+          "Title": "お気に入り背景の追加",
+          "Description": "お気に入りに追加したい背景がある、カスタムサーバーを選択してください。"
+        },
+        "Effect": {
+          "Title": "お気に入り効果音の追加",
+          "Description": "お気に入りに追加したい効果音がある、カスタムサーバーを選択してください。"
+        },
+        "Particle": {
+          "Title": "お気に入りパーティクルの追加",
+          "Description": "お気に入りに追加したいパーティクルがある、カスタムサーバーを選択してください。"
+        },
+        "Engine": {
+          "Title": "お気に入りエンジンの追加",
+          "Description": "お気に入りに追加したいエンジンがある、カスタムサーバーを選択してください。"
+        }
+      }
+    },
+    "EditCustomServer": {
+      "Title": "カスタムサーバーの編集"
+    },
+    "AddCustomServerAddress": {
+      "Title": "カスタムサーバーの追加",
+      "Address": {
+        "Title": "サーバーアドレス",
+        "Description": "カスタムサーバーのアドレスは通常のURL（`https://...`）であり、ほとんどの場合サーバーのホームページに書いてあります。",
+        "Placeholder": "例：https://example.com"
+      }
+    },
+    "AddCustomServerInfo": {
+      "Title": "カスタムサーバーの追加",
+      "Info": {
+        "Error": "\"{0}\" のサーバー情報の読み込みに失敗しました。\n\n入力したサーバーアドレスが正しいか、インターネット接続に問題ないかを確認し、改善しない場合サーバーの所有者に問題を報告してください。"
+      },
+      "Name": {
+        "Title": "名前",
+        "Description": "名前は自由につけることが出来ます。",
+        "Placeholder": "例：サーバーA"
+      }
+    },
+    "EditCollection": {
+      "Title": "コレクションの編集"
+    },
+    "AddCollection": {
+      "Title": "コレクションの追加",
+      "Name": {
+        "Title": "名前",
+        "Description": "名前は自由につけることが出来ます。",
+        "Placeholder": "例：お気に入り"
+      }
+    },
+    "ImportScp": {
+      "Scp": {
+        "Loading": "パッケージを読み込み中...",
+        "Error": "パッケージ\"{0}\"の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+      },
+      "Success": {
+        "Title": "パッケージを読み込みました。"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "パッケージを書き出しました。"
+      }
+    },
+    "EditVisibility": {
+      "Scale": {
+        "Title": "大きさ",
+        "Description": "大きさ。"
+      },
+      "Alpha": {
+        "Title": "不透明度",
+        "Description": "不透明度。"
+      }
+    },
+    "EditAnimation": {
+      "Scale": {
+        "Title": "大きさ",
+        "Description": "大きさ。"
+      },
+      "Alpha": {
+        "Title": "不透明度",
+        "Description": "不透明度。"
+      }
+    },
+    "EditTween": {
+      "From": {
+        "Title": "始点",
+        "Description": "イージングの始点。"
+      },
+      "To": {
+        "Title": "終点",
+        "Description": "イージングの終点。"
+      },
+      "Duration": {
+        "Title": "時間",
+        "Description": "イージングの時間。"
+      },
+      "Ease": {
+        "Title": "イージング",
+        "Description": "イージングの種類。"
+      }
+    },
+    "EditColors": {
+      "Foreground": {
+        "Title": "色",
+        "Description": "文字・記号の色。"
+      },
+      "Background": {
+        "Title": "背景色",
+        "Description": "縁の色。"
+      }
+    },
+    "CalibrateAudio": {
+      "Title": "音声の調整",
+      "Description": "音と画面が合うまでデバイス音オフセットを調整してください。"
+    },
+    "CalibrateInput": {
+      "Title": "入力の調整",
+      "Description": "指でタップして入力を調整します。調整前に、オーディオオフセットが正しく調整されていることを確認してください。\nこのようなオプションがあるゲームに慣れていない場合は、0 のままにしておくのをお勧めします。",
+      "Result": "おすすめオフセット：{0}（±{1}）"
+    },
+    "Home": {
+      "Title": "ホーム",
+      "Play": "プレイ",
+      "Players": "プレイヤー",
+      "Account": "アカウント",
+      "Settings": "全体設定",
+      "UpdateAvailable": {
+        "Title": "アップデート通知",
+        "Description": "Sonolus バージョン {0}が公開されました！\n\nhttps://sonolus.com から最新版をダウンロードできます。",
+        "Open": "サイトを開く"
+      }
+    },
+    "Players": {
+      "Title": "プレイヤー一覧",
+      "PlayerLookup": {
+        "Title": "プレイヤーを調べる",
+        "Id": {
+          "Title": "プレイヤーID",
+          "Description": "#の後がプレイヤーIDです。",
+          "Placeholder": "例：1073"
+        },
+        "Lookup": "調べる"
+      }
+    },
+    "Account": {
+      "Title": "アカウント",
+      "MyAccount": {
+        "Title": "マイアカウント",
+        "Login": {
+          "Apple": "Apple でサインイン",
+          "Google": "Google でサインイン",
+          "Wechat": "WeChat でサインイン"
+        },
+        "Profile": "プロフィール",
+        "Logout": "サインアウト"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "名前の変更",
+          "EditAvatar": "アバターの変更"
+        },
+        "AboutMe": {
+          "Title": "自己紹介"
+        },
+        "SocialLinks": {
+          "Title": "ソーシャルリンク",
+          "None": "ソーシャルリンクはありません。",
+          "OpenConfirmation": {
+            "Description": "このリンクを開きますか？\n{0}"
+          }
+        },
+        "Favorites": {
+          "Title": "お気に入り",
+          "None": "お気に入りはありません。"
+        }
+      },
+      "EditName": {
+        "Title": "名前の変更",
+        "Name": {
+          "Title": "名前",
+          "Description": "プレイヤー名",
+          "Placeholder": "例：New Player"
+        }
+      },
+      "EditAvatar": {
+        "Title": "アバターの変更",
+        "Foreground": {
+          "Title": "色",
+          "Description": "アバターのメイン色。"
+        },
+        "Background": {
+          "Title": "背景",
+          "Description": "アバターの背景色。"
+        }
+      },
+      "EditAboutMe": {
+        "Title": "自己紹介の変更",
+        "AboutMe": {
+          "Title": "自己紹介",
+          "Description": "簡単な自己紹介。",
+          "Placeholder": "..."
+        }
+      },
+      "AddSocialLink": {
+        "Title": "ソーシャルリンクの追加",
+        "SocialLinkTitle": {
+          "Title": "ラベル",
+          "Description": "タイトル。",
+          "Placeholder": "例：Twitter"
+        },
+        "SocialLinkAddress": {
+          "Title": "URL",
+          "Description": "https:// から始まるURL。",
+          "Placeholder": "例：https://twitter.com/sevenc_nanashi"
+        }
+      },
+      "AddFavorite": {
+        "Title": "お気に入りの追加",
+        "Description": "お気に入りに追加する要素の種類を選択してください。",
+        "Level": "レベル",
+        "Skin": "スキン",
+        "Background": "背景",
+        "Effect": "効果音",
+        "Particle": "パーティクル",
+        "Engine": "エンジン"
+      }
+    },
+    "Server": {
+      "Home": {
+        "Levels": "レベル一覧",
+        "Skins": "スキン一覧",
+        "Backgrounds": "背景一覧",
+        "Effects": "効果音一覧",
+        "Particles": "パーティクル一覧",
+        "Engines": "エンジン一覧",
+        "SaveSuccess": {
+          "Title": "サーバーを保存しました"
+        },
+        "ShareSuccess": {
+          "Title": "サーバーのリンクをコピーしました。"
+        }
+      },
+      "Search": {
+        "Title": "検索"
+      },
+      "Lists": {
+        "DeleteConfirmation": {
+          "Description": "「{0}」を削除してもよろしいですか?"
+        },
+        "Level": {
+          "Title": "レベル一覧",
+          "ShareSuccess": {
+            "Title": "レベル一覧のリンクをコピーしました。"
+          }
+        },
+        "Skin": {
+          "Title": "スキン一覧",
+          "ShareSuccess": {
+            "Title": "スキン一覧のリンクをコピーしました"
+          }
+        },
+        "Background": {
+          "Title": "背景一覧",
+          "ShareSuccess": {
+            "Title": "背景一覧のリンクをコピーしました"
+          }
+        },
+        "Effect": {
+          "Title": "効果音一覧",
+          "ShareSuccess": {
+            "Title": "効果音一覧のリンクをコピーしました"
+          }
+        },
+        "Particle": {
+          "Title": "パーティクル一覧",
+          "ShareSuccess": {
+            "Title": "パーティクル一覧のリンクをコピーしました"
+          }
+        },
+        "Engine": {
+          "Title": "エンジン一覧",
+          "ShareSuccess": {
+            "Title": "エンジン一覧のリンクをコピーしました"
+          }
+        }
+      },
+      "Details": {
+        "Actions": {
+          "Configuration": "設定"
+        },
+        "DeleteConfirmation": {
+          "Description": "「{0}」を削除してもよろしいですか?"
+        },
+        "Description": {
+          "Title": "説明文"
+        },
+        "Recommended": {
+          "Title": "おすすめ"
+        },
+        "Level": {
+          "Actions": {
+            "Play": "プレイ"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "効果音をデコード中...",
+                "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡下さい。"
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "レベルBGMをデコード中...",
+                "Error": "レベルBGM \"{0}\"のデコードに失敗しました。\n\nレベルの作者にご連絡ください。"
+              }
+            },
+            "Boot": {
+              "Loading": "レベルを開始中...",
+              "Error": "レベル \"{0}\"の開始に失敗しました。\n\nレベルの作者にご連絡ください。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "レベルのリンクをコピーしました"
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+            "Title": "スキンのリンクをコピーしました"
+          }
+        },
+        "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "背景をセットアップ中...",
+              "Error": "背景 \"{0}\"の開始に失敗しました。\n\n背景の作者にご連絡ください。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "背景のリンクをコピーしました"
+          }
+        },
+        "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "効果音をデコード中...",
+              "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡ください。"
+            },
+            "Boot": {
+              "Loading": "効果音をセットアップ中...",
+              "Error": "効果音 \"{0}\"のセットアップに失敗しました。\n\n効果音の作者にご連絡ください。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "効果音のリンクをコピーしました"
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+            "Title": "パーティクルのリンクをコピーしました"
+          }
+        },
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "エンジンのリンクをコピーしました"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "レベル設定",
+          "Offsets": {
+            "LevelAudioOffset": {
+              "Title": "レベル音オフセット",
+              "Description": "このレベルでのみ適用されるオフセット。\nこのレベルだけ音ズレしている時に使います。\n音が遅ければプラス、早ければマイナスに調整して下さい。\n"
+            },
+            "ServerAudioOffset": {
+              "Title": "Server Audio Offset",
+              "Description": "このサーバー全体で適用されるオフセット。 このサーバー全体のレベルが音ズレしている時に使います。 音が遅ければプラス、早ければマイナスに調整して下さい。"
+            }
+          }
+        },
+        "Skin": {
+          "Title": "スキン設定"
+        },
+        "Background": {
+          "Title": "背景設定",
+          "Image": {
+            "Title": "画像",
+            "Blur": {
+              "Title": "ぼかし",
+              "Description": "画像をぼかすことで情報量を減らすことが出来ます。"
+            },
+            "Mask": {
+              "Title": "オーバーレイ",
+              "Description": "画像の明るさを下げたり、色を変えることが出来ます。"
+            }
+          }
+        },
+        "Effect": {
+          "Title": "効果音設定"
+        },
+        "Particle": {
+          "Title": "パーティクル設定"
+        },
+        "Engine": {
+          "Title": "エンジン設定",
+          "Skin": {
+            "Title": "使用スキン"
+          },
+          "Background": {
+            "Title": "使用背景"
+          },
+          "Effect": {
+            "Title": "使用効果音"
+          },
+          "Particle": {
+            "Title": "使用パーティクル"
+          },
+          "Options": {
+            "Title": "オプション"
+          },
+          "UI": {
+            "PrimaryMetric": {
+              "Title": "メインステータス",
+              "Description": "表示するステータス。"
+            },
+            "SecondaryMetric": {
+              "Title": "サブステータス",
+              "Description": "表示するステータス。"
+            },
+            "JudgmentErrorStyle": {
+              "Title": "Early/Late表示の表記",
+              "Description": "Early/Lateの表記。 Earlyが右側、Lateが左側に表記されています。"
+            },
+            "JudgmentErrorPlacement": {
+              "Title": "Early/Late表示の位置",
+              "Description": "Early/Late表示の位置。"
+            },
+            "JudgmentErrorMin": {
+              "Title": "Early/Late表示の最小誤差",
+              "Description": "この値より小さい誤差はEarly/Late表示されません。"
+            },
+            "MenuStyle": {
+              "Title": "メニューボタンのスタイル",
+              "Description": "メニューボタンのスタイル。"
+            },
+            "JudgmentStyle": {
+              "Title": "判定表示のスタイル",
+              "Description": "判定表示のスタイル。"
+            },
+            "ComboStyle": {
+              "Title": "コンボ表示のスタイル",
+              "Description": "コンボ表示のスタイル。"
+            },
+            "PrimaryMetricStyle": {
+              "Title": "メインステータスのスタイル",
+              "Description": "メインステータスのスタイル。"
+            },
+            "SecondaryMetricStyle": {
+              "Title": "サブステータスのスタイル",
+              "Description": "サブステータスのスタイル。"
+            }
+          },
+          "Offsets": {
+            "EngineInputOffset": {
+              "Title": "Engine Input Offset",
+              "Description": "Recommend to use 0.\n\nAdditional input offset of this engine, should only be used when you have trouble playing this engine in particular. Increase if your inputs are registered as too late, and decrease otherwise."
+            }
+          }
+        }
+      },
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "レベルを保存しました"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "スキンを保存しました"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景を保存しました"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "効果音を保存しました"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "パーティクルを保存しました"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "エンジンを保存しました"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "Title": "設定",
+      "Graphics": {
+        "Title": "グラフィック",
+        "TargetFps": {
+          "Title": "FPS",
+          "Description": "推奨：デバイスのFPS\n\nSonolusはこのFPSを対象に動作しますが、デバイスが対応していない場合はこのFPSより低い値になります。"
+        },
+        "RenderMode": {
+          "Title": "描画モード。",
+          "Description": "推奨：標準\n\n軽量モードではグラフィックが若干劣化しますが、パフォーマンスが向上します。",
+          "Options": {
+            "Standard": "標準",
+            "Lightweight": "軽量"
+          }
+        },
+        "RenderScale": {
+          "Title": "描画スケール",
+          "Description": "推奨：100%\n\nSonolusはこのスケールで描画し、スクリーンサイズに拡大または縮小します。100%より高い描画スケールはパフォーマンスが低下しますが、グラフィックが向上します。100%より低い描画スケールはパフォーマンスが向上しますが、グラフィックが低下します。"
+        },
+        "AntiAliasing": {
+          "Title": "アンチエイリアス",
+          "Description": "推奨：オフ\n\nアンチエイリアスでスプライトの端のノイズを減らすことが出来ますが、パフォーマンスが低下します。",
+          "Options": {
+            "Off": "オフ",
+            "TwoX": "2倍",
+            "FourX": "4倍",
+            "EightX": "8倍"
+          }
+        },
+        "GpuParticleSystem": {
+          "Title": "GPUパーティクル",
+          "Description": "推奨：オフ\n\nSonolusは標準でCPUを使ってパーティクルを描画します。GPUを使うとパーティクルの描画が高速化されますが、多くのデバイスではCPUよりもGPUの方が性能が低いため、推奨されません。"
+        },
+        "IgnoreNotch": {
+          "Title": "ノッチを無視",
+          "Description": "Sonolusはデバイスのノッチを考慮してグラフィックが常に見えるようにします。ノッチを無視すると、グラフィックが一部隠れる可能性があります。"
+        }
+      },
+      "Audio": {
+        "Title": "オーディオ",
+        "BgmVolume": {
+          "Title": "BGM音量",
+          "Description": "BGMの音量。"
+        },
+        "SfxVolume": {
+          "Title": "SE音量",
+          "Description": "SEの音量。"
+        },
+        "UIVolume": {
+          "Title": "UI音量",
+          "Description": "UI（ボタンを押したとき等）の音量。"
+        },
+        "AlwaysDecodeLevelBgm": {
+          "Title": "レベルのBGMを常にデコード",
+          "Description": "推奨：オフ\n\nSonolusはデフォルトでOSの提供している音声再生機能を使い、OSの音声再生機能が対応していない場合のみBGMをデコードします。この設定をオンにすると、常にBGMをデコードします。"
+        },
+        "PreviewBgm": {
+          "Title": "プレビューBGM",
+          "Description": "プレビューBGMをいつ再生するか。",
+          "Options": {
+            "Off": "オフ",
+            "DetailsOnly": "詳細画面のみ",
+            "ListAndDetails": "一覧画面と詳細画面"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "レベルBGMの品質",
+          "Description": "推奨：高\n\nBGMをデコードするときの品質を設定します。",
+          "Options": {
+            "Low": "低",
+            "Mid": "中",
+            "High": "高"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "BGMプレビューの音質",
+          "Description": "推奨：中\n\nBGMプレビューを再生するときの音質を設定します。",
+          "Options": {
+            "Low": "低音質",
+            "Mid": "中音質",
+            "High": "高音質"
+          }
+        }
+      },
+      "UI": {
+        "Title": "UI",
+        "Localization": {
+          "Title": "言語",
+          "Description": "UIの言語を設定します。"
+        },
+        "Theme": {
+          "Title": "テーマ",
+          "Description": "UIのテーマを設定します。"
+        },
+        "Scale": {
+          "Title": "UIスケール",
+          "Description": "UIのスケールを設定します。 文字が読みにくい場合は大きく、多くの情報を表示したい場合は小さくします。"
+        },
+        "UnpauseDelay": {
+          "Title": "ポーズ解除の猶予",
+          "Description": "ポーズ解除時の猶予時間を設定します。"
+        },
+        "PerfectJudgmentColors": {
+          "Title": "Perfect判定の色",
+          "Description": "Perfect判定の色を設定します。"
+        },
+        "GreatJudgmentColors": {
+          "Title": "Great判定の色",
+          "Description": "Great判定の色を設定します。"
+        },
+        "GoodJudgmentColors": {
+          "Title": "Good判定の色",
+          "Description": "Good判定の色を設定します。"
+        },
+        "MissJudgmentColors": {
+          "Title": "Miss判定の色",
+          "Description": "Miss判定の色を設定します。"
+        },
+        "PositiveJudgmentErrorColors": {
+          "Title": "Late判定の色",
+          "Description": "Late判定の色を設定します。"
+        },
+        "NegativeJudgmentErrorColors": {
+          "Title": "Early判定の色",
+          "Description": "Early判定の色を設定します。"
+        },
+        "AllPerfectComboColors": {
+          "Title": "All Perfect時の色",
+          "Description": "All Perfect時のコンボ表記の色を設定します。"
+        },
+        "FullComboComboColors": {
+          "Title": "Full Combo時の色",
+          "Description": "Full Combo時のコンボ表記の色を設定します。"
+        },
+        "PassComboColors": {
+          "Title": "Pass時の色",
+          "Description": "Pass時のコンボ表記の色を設定します。"
+        },
+        "FailComboColors": {
+          "Title": "Fail時の色",
+          "Description": "Fail時のコンボ表記の色を設定します。"
+        },
+        "BoldComboNumber": {
+          "Title": "コンボ表記を太字にする",
+          "Description": "コンボ表記を太字にします。"
+        },
+        "ShowZeroCombo": {
+          "Title": "0コンボを表示する",
+          "Description": "0コンボを表示します。"
+        }
+      },
+      "Offsets": {
+        "Title": "オフセット",
+        "Device": {
+          "Title": "デバイス別オフセット",
+          "Description": "この設定を使うことで、Bluetoothイヤホン時や有線イヤホン時のように複数の設定を保存できます。",
+          "Option": "デバイス {0}"
+        },
+        "DeviceAudioOffset": {
+          "Title": "デバイス音オフセット",
+          "Description": "推奨：0\n\nほとんどの場合は0が正しいオフセットです。Bluetoothは推奨されません。音が遅れている場合はプラス、早い場合はマイナスを設定します。"
+        },
+        "DeviceInputOffset": {
+          "Title": "デバイス入力オフセット",
+          "Description": "推奨：0\n\n入力オフセット（通称：B判定）を提供していないゲームに慣れている場合は0のままで構いません。入力が遅れている場合はプラス、早い場合はマイナスを設定します。"
+        }
+      },
+      "Repository": {
+        "Title": "リポジトリ",
+        "Manage": "管理"
+      },
+      "Cache": {
+        "Title": "キャッシュ",
+        "AlwaysRevalidate": {
+          "Title": "常に再検証",
+          "Description": "推奨：オフ\n\nデフォルトでは、サーバーのリソースは古くなったときにのみ再検証されます。オンにすると、サーバーのリソースは使用する前に常に再検証されます。"
+        },
+        "Manage": "管理"
+      },
+      "Developer": {
+        "Title": "開発者設定",
+        "ShowFps": {
+          "Title": "FPS表示",
+          "Description": "FPSを左下に表示します。"
+        },
+        "FpsStyle": {
+          "Title": "FPS表示のスタイル",
+          "Description": "FPS表示のスタイルを設定します。"
+        },
+        "ShowTouches": {
+          "Title": "タッチ表示",
+          "Description": "タッチした場所にタッチ表示を表示します。 画面録画をするときに有用です。"
+        },
+        "TouchStyle": {
+          "Title": "タッチ表示のスタイル",
+          "Description": "タッチ表示のスタイルを設定します。"
+        },
+        "DebugMode": {
+          "Title": "デバッグモード",
+          "Description": "デバッグモードを有効にすると、デバッグ用のコードが実行され、画面右下にデバッグログが表示されます。"
+        },
+        "DebugLogStyle": {
+          "Title": "デバッグログのスタイル",
+          "Description": "デバッグログのスタイルを設定します。"
+        }
+      }
+    },
+    "ManageRepository": {
+      "Title": "リポジトリ管理",
+      "Repository": {
+        "Title": "リポジトリ",
+        "Description": "リポジトリには、オフラインで利用可能なすべてのリソースが保存されます。",
+        "Size": "全体サイズ：{0}"
+      },
+      "DeleteRepository": {
+        "Title": "リポジトリの削除",
+        "Description": "リポジトリのリソースをすべて削除すると、必要になった際、再度ダウンロードが必要になります。",
+        "Delete": "削除する",
+        "DeleteConfirmation": {
+          "Description": "本当にリポジトリの全てのリソースを削除してよろしいですか?",
+          "Loading": "リポジトリを削除しています..."
+        },
+        "Success": {
+          "Title": "リポジトリを削除しました"
+        }
+      }
+    },
+    "ManageCache": {
+      "Title": "キャッシュ管理",
+      "Cache": {
+        "Title": "キャッシュ",
+        "Description": "キャッシュはリソースとそれに関連するURLを一時的に記憶しておく機能です。この機能によりSonolusは、ネットワーク経由の読み込みを高速化し、データ転送量を削減します。キャッシュはごく少量のストレージしか使用しないため、削除しないことをお勧めします。",
+        "Count": "キャッシュ：{0}件"
+      },
+      "ExpireCache": {
+        "Title": "キャッシュの失効",
+        "Description": "失効させると、次回キャッシュ読み込み時にネットワーク経由でリソースの更新を検証します。更新がある場合ダウンロードが発生します。",
+        "Expire": "失効させる",
+        "ExpireConfirmation": {
+          "Description": "すべてのキャッシュを失効させますか?"
+        },
+        "Success": {
+          "Title": "キャッシュを失効させました"
+        }
+      },
+      "DeleteCache": {
+        "Title": "キャッシュの削除",
+        "Description": "削除すると、次回キャッシュ読み込み時、すべてのリソースの再ダウンロードが発生します。（非推奨）",
+        "Delete": "削除する",
+        "DeleteConfirmation": {
+          "Description": "本当にキャッシュをすべて削除しますか?"
+        },
+        "Success": {
+          "Title": "キャッシュを削除しました"
+        }
+      }
     }
+  },
+  "Scp": {
+    "PermissionError": {
+      "Description": "指定された動作に必要な権限が不足しているため実行できません。\n\n端末の設定画面からSonolusに権限を付与してください。",
+      "Open": "設定画面を開く"
+    }
+  },
+  "Runtimes": {
+    "Level": {
+      "Play": {
+        "Routes": {
+          "Pause": {
+            "Title": "一時停止",
+            "Control": {
+              "Title": "操作",
+              "Exit": "終了",
+              "Restart": "リスタート"
+            },
+            "Snapshot": {
+              "Title": "区間練習",
+              "Mark": "マーク",
+              "Jump": "ジャンプ"
+            },
+            "Debug": {
+              "Title": "デバッグ"
+            }
+          },
+          "Result": {
+            "Title": "リザルト",
+            "Options": {
+              "HasUsedPause": "一時停止使用",
+              "HasUsedSnapshot": "区間練習使用"
+            },
+            "Graphs": {
+              "Title": "グラフ",
+              "Judgment": {
+                "Title": "判定グラフ"
+              },
+              "Accuracy": {
+                "Title": "精度グラフ",
+                "AbsValue": "絶対値",
+                "Mean": "平均値",
+                "StDev": "標準偏差",
+                "Min": "最小値",
+                "Max": "最大値"
+              },
+              "Bucket": {
+                "Title": "バケットグラフ"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "再生"
+          }
+        }
+      }
+    }
+  }
 }
