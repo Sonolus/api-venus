@@ -1,1713 +1,1931 @@
 {
-    "Meta": {
-        "Name": "zhs",
-        "Title": "简体中文 (Simplified Chinese)"
+  "Meta": {
+    "Name": "zhs",
+    "Title": "简体中文 (Simplified Chinese)"
+  },
+  "Texts": {
+    "Name": {
+      "#KEYWORDS": "关键词",
+      "#NAME": "名字",
+      "#RATING": "等级",
+      "#RATING_MINIMUM": "最低等级",
+      "#RATING_MAXIMUM": "最高等级",
+      "#TITLE": "标题",
+      "#SUBTITLE": "副标题",
+      "#ARTISTS": "艺术家",
+      "#AUTHOR": "作者",
+      "#GENRE": "曲风",
+      "#CATEGORY": "类别",
+      "#LANGUAGE": "语言",
+      "#DIFFICULTY": "难度",
+      "#LENGTH": "长度",
+      "#LENGTH_MINIMUM": "最短长度",
+      "#LENGTH_MAXIMUM": "最长长度",
+      "#SPEED": "关卡速度",
+      "#AUTO": "自动模式",
+      "#MIRROR": "镜像关卡",
+      "#RANDOM": "随机",
+      "#HIDDEN": "隐藏模式",
+      "#JUDGMENT_STRICT": "严格判定",
+      "#JUDGMENT_LOOSE": "宽松判定",
+      "#EFFECT": "音效",
+      "#EFFECT_AUTO": "自动音效",
+      "#STAGE": "舞台",
+      "#STAGE_POSITION": "舞台位置",
+      "#STAGE_SIZE": "舞台大小",
+      "#STAGE_ROTATION": "舞台旋转",
+      "#STAGE_ALPHA": "舞台透明度",
+      "#STAGE_ANIMATION": "舞台动画",
+      "#STAGE_TILT": "舞台倾斜",
+      "#STAGE_COVER_VERTICAL": "纵向舞台遮挡",
+      "#STAGE_COVER_HORIZONTAL": "横向舞台遮挡",
+      "#STAGE_COVER_ALPHA": "舞台遮挡透明度",
+      "#STAGE_ASPECTRATIO_LOCK": "锁定舞台长宽比",
+      "#STAGE_EFFECT": "舞台效果",
+      "#STAGE_EFFECT_POSITION": "舞台效果位置",
+      "#STAGE_EFFECT_SIZE": "舞台效果大小",
+      "#STAGE_EFFECT_ROTATION": "舞台效果旋转",
+      "#STAGE_EFFECT_ALPHA": "舞台效果透明度",
+      "#LANE": "轨道",
+      "#LANE_POSITION": "轨道位置",
+      "#LANE_SIZE": "轨道大小",
+      "#LANE_ROTATION": "轨道旋转",
+      "#LANE_ALPHA": "轨道透明度",
+      "#LANE_ANIMATION": "轨道动画",
+      "#LANE_EFFECT": "轨道效果",
+      "#LANE_EFFECT_POSITION": "轨道效果位置",
+      "#LANE_EFFECT_SIZE": "轨道效果大小",
+      "#LANE_EFFECT_ROTATION": "轨道效果旋转",
+      "#LANE_EFFECT_ALPHA": "轨道效果透明度",
+      "#JUDGELINE": "判定线",
+      "#JUDGELINE_POSITION": "判定线位置",
+      "#JUDGELINE_SIZE": "判定线大小",
+      "#JUDGELINE_ROTATION": "判定线旋转",
+      "#JUDGELINE_ALPHA": "判定线透明度",
+      "#JUDGELINE_ANIMATION": "判定线动画",
+      "#JUDGELINE_EFFECT": "判定线效果",
+      "#JUDGELINE_EFFECT_POSITION": "判定线效果位置",
+      "#JUDGELINE_EFFECT_SIZE": "判定线效果大小",
+      "#JUDGELINE_EFFECT_ROTATION": "判定线效果旋转",
+      "#JUDGELINE_EFFECT_ALPHA": "判定线效果透明度",
+      "#SLOT": "键位",
+      "#SLOT_POSITION": "键位位置",
+      "#SLOT_SIZE": "键位大小",
+      "#SLOT_ROTATION": "键位旋转",
+      "#SLOT_ALPHA": "键位透明度",
+      "#SLOT_ANIMATION": "键位动画",
+      "#SLOT_EFFECT": "键位效果",
+      "#SLOT_EFFECT_POSITION": "键位效果位置",
+      "#SLOT_EFFECT_SIZE": "键位效果大小",
+      "#SLOT_EFFECT_ROTATION": "键位效果旋转",
+      "#SLOT_EFFECT_ALPHA": "键位效果透明度",
+      "#NOTE": "音符",
+      "#NOTE_SPEED": "音符速度",
+      "#NOTE_SPEED_RANDOM": "随机音符速度",
+      "#NOTE_POSITION": "音符位置",
+      "#NOTE_SIZE": "音符大小",
+      "#NOTE_ROTATION": "音符旋转",
+      "#NOTE_ALPHA": "音符透明度",
+      "#NOTE_ANIMATION": "音符动画",
+      "#NOTE_EFFECT": "音符效果",
+      "#NOTE_EFFECT_POSITION": "音符效果位置",
+      "#NOTE_EFFECT_SIZE": "音符效果大小",
+      "#NOTE_EFFECT_ROTATION": "音符效果旋转",
+      "#NOTE_EFFECT_ALPHA": "音符效果透明度",
+      "#MARKER": "标记",
+      "#MARKER_POSITION": "标记位置",
+      "#MARKER_SIZE": "标记大小",
+      "#MARKER_ROTATION": "标记旋转",
+      "#MARKER_ALPHA": "标记透明度",
+      "#MARKER_ANIMATION": "标记动画",
+      "#CONNECTOR": "音符连接",
+      "#CONNECTOR_POSITION": "音符连接位置",
+      "#CONNECTOR_SIZE": "音符连接大小",
+      "#CONNECTOR_ROTATION": "音符连接旋转",
+      "#CONNECTOR_ALPHA": "音符连接透明度",
+      "#CONNECTOR_ANIMATION": "音符连接动画",
+      "#SIMLINE": "同步线",
+      "#SIMLINE_POSITION": "同步线位置",
+      "#SIMLINE_SIZE": "同步线大小",
+      "#SIMLINE_ROTATION": "同步线旋转",
+      "#SIMLINE_ALPHA": "同步线透明度",
+      "#SIMLINE_ANIMATION": "同步线动画"
     },
-    "Texts": {
-        "Name": {
-            "#KEYWORDS": "关键词",
-            "#NAME": "名字",
-            "#RATING": "等级",
-            "#RATING_MINIMUM": "最低等级",
-            "#RATING_MAXIMUM": "最高等级",
-            "#TITLE": "标题",
-            "#SUBTITLE": "副标题",
-            "#ARTISTS": "艺术家",
-            "#AUTHOR": "作者",
-            "#GENRE": "曲风",
-            "#CATEGORY": "类别",
-            "#LANGUAGE": "语言",
-            "#DIFFICULTY": "难度",
-            "#LENGTH": "长度",
-            "#LENGTH_MINIMUM": "最短长度",
-            "#LENGTH_MAXIMUM": "最长长度",
-            "#SPEED": "关卡速度",
-            "#AUTO": "自动模式",
-            "#MIRROR": "镜像关卡",
-            "#RANDOM": "随机",
-            "#HIDDEN": "隐藏模式",
-            "#JUDGMENT_STRICT": "严格判定",
-            "#JUDGMENT_LOOSE": "宽松判定",
-            "#EFFECT": "音效",
-            "#EFFECT_AUTO": "自动音效",
-            "#STAGE": "舞台",
-            "#STAGE_SIZE": "舞台大小",
-            "#STAGE_ROTATION": "舞台旋转",
-            "#STAGE_ALPHA": "舞台透明度",
-            "#STAGE_ANIMATION": "舞台动画",
-            "#STAGE_TILT": "舞台倾斜",
-            "#STAGE_COVER_VERTICAL": "纵向舞台遮挡",
-            "#STAGE_COVER_HORIZONTAL": "横向舞台遮挡",
-            "#STAGE_COVER_ALPHA": "舞台遮挡透明度",
-            "#STAGE_ASPECTRATIO_LOCK": "锁定舞台长宽比",
-            "#STAGE_EFFECT": "舞台效果",
-            "#STAGE_EFFECT_SIZE": "舞台效果大小",
-            "#STAGE_EFFECT_ROTATION": "舞台效果旋转",
-            "#STAGE_EFFECT_ALPHA": "舞台效果透明度",
-            "#LANE": "轨道",
-            "#LANE_SIZE": "轨道大小",
-            "#LANE_ROTATION": "轨道旋转",
-            "#LANE_ALPHA": "轨道透明度",
-            "#LANE_ANIMATION": "轨道动画",
-            "#LANE_EFFECT": "轨道效果",
-            "#LANE_EFFECT_SIZE": "轨道效果大小",
-            "#LANE_EFFECT_ROTATION": "轨道效果旋转",
-            "#LANE_EFFECT_ALPHA": "轨道效果透明度",
-            "#JUDGELINE": "判定线",
-            "#JUDGELINE_SIZE": "判定线大小",
-            "#JUDGELINE_ROTATION": "判定线旋转",
-            "#JUDGELINE_ALPHA": "判定线透明度",
-            "#JUDGELINE_ANIMATION": "判定线动画",
-            "#JUDGELINE_EFFECT": "判定线效果",
-            "#JUDGELINE_EFFECT_SIZE": "判定线效果大小",
-            "#JUDGELINE_EFFECT_ROTATION": "判定线效果旋转",
-            "#JUDGELINE_EFFECT_ALPHA": "判定线效果透明度",
-            "#SLOT": "键位",
-            "#SLOT_SIZE": "键位大小",
-            "#SLOT_ROTATION": "键位旋转",
-            "#SLOT_ALPHA": "键位透明度",
-            "#SLOT_ANIMATION": "键位动画",
-            "#SLOT_EFFECT": "键位效果",
-            "#SLOT_EFFECT_SIZE": "键位效果大小",
-            "#SLOT_EFFECT_ROTATION": "键位效果旋转",
-            "#SLOT_EFFECT_ALPHA": "键位效果透明度",
-            "#NOTE": "音符",
-            "#NOTE_SPEED": "音符速度",
-            "#NOTE_SPEED_RANDOM": "随机音符速度",
-            "#NOTE_SIZE": "音符大小",
-            "#NOTE_ROTATION": "音符旋转",
-            "#NOTE_ALPHA": "音符透明度",
-            "#NOTE_ANIMATION": "音符动画",
-            "#NOTE_EFFECT": "音符效果",
-            "#NOTE_EFFECT_SIZE": "音符效果大小",
-            "#NOTE_EFFECT_ROTATION": "音符效果旋转",
-            "#NOTE_EFFECT_ALPHA": "音符效果透明度",
-            "#MARKER": "标记",
-            "#MARKER_SIZE": "标记大小",
-            "#MARKER_ROTATION": "标记旋转",
-            "#MARKER_ALPHA": "标记透明度",
-            "#MARKER_ANIMATION": "标记动画",
-            "#CONNECTOR": "音符连接",
-            "#CONNECTOR_SIZE": "音符连接大小",
-            "#CONNECTOR_ROTATION": "音符连接旋转",
-            "#CONNECTOR_ALPHA": "音符连接透明度",
-            "#CONNECTOR_ANIMATION": "音符连接动画",
-            "#SIMLINE": "同步线",
-            "#SIMLINE_SIZE": "同步线大小",
-            "#SIMLINE_ROTATION": "同步线旋转",
-            "#SIMLINE_ALPHA": "同步线透明度",
-            "#SIMLINE_ANIMATION": "同步线动画"
+    "Value": {
+      "#NONE": "无",
+      "#ANY": "任意",
+      "#ALL": "全部",
+      "#OTHERS": "其他",
+      "#SHORT": "短",
+      "#LONG": "长",
+      "#HIGH": "高",
+      "#MID": "中",
+      "#LOW": "低",
+      "#SMALL": "小",
+      "#MEDIUM": "中",
+      "#LARGE": "大",
+      "#LEFT": "左",
+      "#RIGHT": "右",
+      "#UP": "上",
+      "#DOWN": "下",
+      "#FRONT": "前",
+      "#BACK": "后",
+      "#CENTER": "中",
+      "#TOP": "上",
+      "#BOTTOM": "下",
+      "#TOP_LEFT": "左上",
+      "#TOP_CENTER": "中上",
+      "#TOP_RIGHT": "右上",
+      "#CENTER_LEFT": "左中",
+      "#CENTER_RIGHT": "右中",
+      "#BOTTOM_LEFT": "左下",
+      "#BOTTOM_CENTER": "中下",
+      "#BOTTOM_RIGHT": "右下",
+      "#CLOCKWISE": "顺时针",
+      "#COUNTERCLOCKWISE": "逆时针",
+      "#FORWARD": "前",
+      "#BACKWARD": "后",
+      "#SIMPLE": "简易",
+      "#EASY": "简单",
+      "#NORMAL": "普通",
+      "#HARD": "困难",
+      "#EXPERT": "专家",
+      "#MASTER": "大师",
+      "#PRO": "职业",
+      "#TECHNICAL": "技术",
+      "#SPECIAL": "特殊"
+    },
+    "Placeholder": {
+      "#KEYWORDS": "输入关键词…",
+      "#NAME": "输入名字…",
+      "#RATING": "输入等级…",
+      "#RATING_MINIMUM": "输入最低等级…",
+      "#RATING_MAXIMUM": "输入最高等级…",
+      "#TITLE": "输入标题…",
+      "#SUBTITLE": "输入副标题…",
+      "#ARTISTS": "输入艺术家…",
+      "#AUTHOR": "输入作者…",
+      "#GENRE": "输入曲风…",
+      "#CATEGORY": "输入类别…",
+      "#LANGUAGE": "输入语言…",
+      "#DIFFICULTY": "输入难度…",
+      "#LENGTH": "输入长度…",
+      "#LENGTH_MINIMUM": "输入最短长度…",
+      "#LENGTH_MAXIMUM": "输入最长长度…"
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} 秒",
+      "#MILLISECOND": "{0} 毫秒"
+    }
+  },
+  "Common": {
+    "Loading": "正在加载…",
+    "On": "开",
+    "Off": "关",
+    "Select": "选择",
+    "Reset": "重置",
+    "Edit": "编辑",
+    "View": "查看",
+    "Cancel": "取消",
+    "Confirm": "确认",
+    "Retry": "重试",
+    "Error": {
+      "Title": "错误"
+    },
+    "Confirmation": {
+      "Title": "确认"
+    },
+    "Next": "下一步",
+    "Add": "添加",
+    "Import": "导入",
+    "Search": "搜索",
+    "More": "更多",
+    "PullToRefresh": "拉动刷新",
+    "Save": "保存",
+    "Share": "分享",
+    "Export": "导出",
+    "Update": "更新",
+    "Delete": "删除",
+    "Preview": "预览",
+    "Judgment": "判定",
+    "Accuracy": "准度",
+    "Grade": "评级",
+    "ArcadeScore": "经典得分",
+    "AccuracyScore": "准度得分",
+    "Combo": "连击",
+    "Perfect": "Perfect",
+    "Great": "Great",
+    "Good": "Good",
+    "Miss": "Miss",
+    "AdvancedOption": "此选项适用于高级玩家。",
+    "Colors": "颜色",
+    "ColorField": {
+      "Hex": "HEX",
+      "Rgb": "RGB",
+      "Hsv": "HSV",
+      "Components": {
+        "Hex": {
+          "Title": "HEX",
+          "Description": "#RRGGBB 或 #RRGGBBAA，其中每个分量的范围是 00 到 FF。",
+          "Placeholder": "输入颜色 HEX…"
         },
-        "Value": {
-            "#NONE": "无",
-            "#ANY": "任意",
-            "#ALL": "全部",
-            "#OTHERS": "其他",
-            "#SHORT": "短",
-            "#LONG": "长",
-            "#HIGH": "高",
-            "#MID": "中",
-            "#LOW": "低",
-            "#SMALL": "小",
-            "#MEDIUM": "中",
-            "#LARGE": "大",
-            "#LEFT": "左",
-            "#RIGHT": "右",
-            "#UP": "上",
-            "#DOWN": "下",
-            "#FRONT": "前",
-            "#BACK": "后",
-            "#CENTER": "中",
-            "#TOP": "上",
-            "#BOTTOM": "下",
-            "#TOP_LEFT": "左上",
-            "#TOP_CENTER": "中上",
-            "#TOP_RIGHT": "右上",
-            "#CENTER_LEFT": "左中",
-            "#CENTER_RIGHT": "右中",
-            "#BOTTOM_LEFT": "左下",
-            "#BOTTOM_CENTER": "中下",
-            "#BOTTOM_RIGHT": "右下",
-            "#CLOCKWISE": "顺时针",
-            "#COUNTERCLOCKWISE": "逆时针",
-            "#FORWARD": "前",
-            "#BACKWARD": "后",
-            "#SIMPLE": "简易",
-            "#EASY": "简单",
-            "#NORMAL": "普通",
-            "#HARD": "困难",
-            "#EXPERT": "专家",
-            "#MASTER": "大师",
-            "#PRO": "职业",
-            "#TECHNICAL": "技术",
-            "#SPECIAL": "特殊"
+        "R": {
+          "Title": "红（R）",
+          "Description": "红色。"
         },
-        "Placeholder": {
-            "#KEYWORDS": "输入关键词…",
-            "#NAME": "输入名字…",
-            "#RATING": "输入等级…",
-            "#RATING_MINIMUM": "输入最低等级…",
-            "#RATING_MAXIMUM": "输入最高等级…",
-            "#TITLE": "输入标题…",
-            "#SUBTITLE": "输入副标题…",
-            "#ARTISTS": "输入艺术家…",
-            "#AUTHOR": "输入作者…",
-            "#GENRE": "输入曲风…",
-            "#CATEGORY": "输入类别…",
-            "#LANGUAGE": "输入语言…",
-            "#DIFFICULTY": "输入难度…",
-            "#LENGTH": "输入长度…",
-            "#LENGTH_MINIMUM": "输入最短长度…",
-            "#LENGTH_MAXIMUM": "输入最长长度…"
+        "G": {
+          "Title": "绿（G）",
+          "Description": "绿色。"
         },
-        "Unit": {
-            "#PERCENTAGE": "{0}%",
-            "#SECOND": "{0} 秒",
-            "#MILLISECOND": "{0} 毫秒"
+        "B": {
+          "Title": "蓝（B）",
+          "Description": "蓝色。"
+        },
+        "H": {
+          "Title": "色调（H）",
+          "Description": "色相。"
+        },
+        "S": {
+          "Title": "饱和（S）",
+          "Description": "饱和度。"
+        },
+        "V": {
+          "Title": "值（V）",
+          "Description": "亮度。"
+        },
+        "A": {
+          "Title": "透明度（A）",
+          "Description": "透明度。"
         }
+      }
     },
-    "Common": {
-        "Loading": "正在加载…",
-        "On": "开",
-        "Off": "关",
-        "Select": "选择",
-        "Edit": "编辑",
-        "View": "查看",
-        "Cancel": "取消",
-        "Confirm": "确认",
-        "Retry": "重试",
-        "Error": {
-            "Title": "错误"
-        },
-        "Confirmation": {
-            "Title": "确认"
-        },
-        "Next": "下一步",
-        "Add": "添加",
-        "Import": "导入",
-        "Search": "搜索",
-        "More": "更多",
-        "PullToRefresh": "拉动刷新",
-        "Save": "保存",
-        "Share": "分享",
-        "Update": "更新",
-        "Delete": "删除",
-        "Preview": "预览",
-        "Judgment": "判定",
-        "Accuracy": "准度",
-        "Grade": "评级",
-        "ArcadeScore": "经典得分",
-        "AccuracyScore": "准度得分",
-        "Combo": "连击",
-        "Perfect": "Perfect",
-        "Great": "Great",
-        "Good": "Good",
-        "Miss": "Miss",
-        "AdvancedOption": "此选项适用于高级玩家。",
-        "ColorField": {
-            "Hex": "HEX",
-            "Rgb": "RGB",
-            "Hsv": "HSV",
-            "HexPlaceholder": "输入颜色 HEX…",
-            "R": "红（R）",
-            "G": "绿（G）",
-            "B": "蓝（B）",
-            "H": "色调（H）",
-            "S": "饱和（S）",
-            "V": "值（V）",
-            "A": "透明度（A）"
-        },
-        "DeviceOffsetField": {
-            "Calibrate": "校准"
-        },
-        "PullToLoad": {
-            "None": "无更多内容",
-            "More": "拉动加载更多"
-        },
-        "UI": {
-            "Metric": {
-                "Arcade": "经典得分",
-                "Accuracy": "准度得分",
-                "Life": "生命值",
-                "PerfectRate": "Perfect率",
-                "ErrorHeatmap": "偏差热图"
-            },
-            "JudgmentErrorStyle": {
-                "None": "无",
-                "Plus": "+ / -",
-                "Minus": "- / +",
-                "ArrowUp": "↑ / ↓",
-                "ArrowDown": "↓ / ↑",
-                "ArrowLeft": "← / →",
-                "ArrowRight": "→ / ←",
-                "TriangleUp": "▲ / ▼",
-                "TriangleDown": "▼ / ▲",
-                "TriangleLeft": "◄ / ►",
-                "TriangleRight": "► / ◄"
-            },
-            "JudgmentErrorPlacement": {
-                "Both": "两侧",
-                "Left": "左侧",
-                "Right": "右侧"
-            },
-            "Visibility": "可见",
-            "Animation": "动画",
-            "Tween": "渐变",
-            "Ease": {
-                "Linear": "线性",
-                "InSine": "正弦（入）",
-                "OutSine": "正弦（出）",
-                "InOutSine": "正弦（入出）",
-                "OutInSine": "正弦（出入）",
-                "InQuad": "二次（入）",
-                "OutQuad": "二次（出）",
-                "InOutQuad": "二次（入出）",
-                "OutInQuad": "二次（出入）",
-                "InCubic": "三次（入）",
-                "OutCubic": "三次（出）",
-                "InOutCubic": "三次（入出）",
-                "OutInCubic": "三次（出入）",
-                "InQuart": "四次（入）",
-                "OutQuart": "四次（出）",
-                "InOutQuart": "四次（入出）",
-                "OutInQuart": "四次（出入）",
-                "InQuint": "五次（入）",
-                "OutQuint": "五次（出）",
-                "InOutQuint": "五次（入出）",
-                "OutInQuint": "五次（出入）",
-                "InExpo": "指数（入）",
-                "OutExpo": "指数（出）",
-                "InOutExpo": "指数（入出）",
-                "OutInExpo": "指数（出入）",
-                "InCirc": "半圆（入）",
-                "OutCirc": "半圆（出）",
-                "InOutCirc": "半圆（入出）",
-                "OutInCirc": "半圆（出入）",
-                "InBack": "回弹（入）",
-                "OutBack": "回弹（出）",
-                "InOutBack": "回弹（入出）",
-                "OutInBack": "回弹（出入）",
-                "InElastic": "弹性（入）",
-                "OutElastic": "弹性（出）",
-                "InOutElastic": "弹性（入出）",
-                "OutInElastic": "弹性（出入）",
-                "None": "无"
-            }
+    "DeviceOffsetField": {
+      "Calibrate": "校准"
+    },
+    "PullToLoad": {
+      "None": "无更多内容",
+      "More": "拉动加载更多"
+    },
+    "UI": {
+      "Metric": {
+        "Arcade": "经典得分",
+        "Accuracy": "准度得分",
+        "Life": "生命值",
+        "PerfectRate": "Perfect率",
+        "ErrorHeatmap": "偏差热图"
+      },
+      "JudgmentErrorStyle": {
+        "None": "无",
+        "Plus": "+ / -",
+        "Minus": "- / +",
+        "ArrowUp": "↑ / ↓",
+        "ArrowDown": "↓ / ↑",
+        "ArrowLeft": "← / →",
+        "ArrowRight": "→ / ←",
+        "TriangleUp": "▲ / ▼",
+        "TriangleDown": "▼ / ▲",
+        "TriangleLeft": "◄ / ►",
+        "TriangleRight": "► / ◄"
+      },
+      "JudgmentErrorPlacement": {
+        "Both": "两侧",
+        "Left": "左侧",
+        "Right": "右侧"
+      },
+      "Visibility": "可见",
+      "Animation": "动画",
+      "Tween": "渐变",
+      "Ease": {
+        "Linear": "线性",
+        "InSine": "正弦（入）",
+        "OutSine": "正弦（出）",
+        "InOutSine": "正弦（入出）",
+        "OutInSine": "正弦（出入）",
+        "InQuad": "二次（入）",
+        "OutQuad": "二次（出）",
+        "InOutQuad": "二次（入出）",
+        "OutInQuad": "二次（出入）",
+        "InCubic": "三次（入）",
+        "OutCubic": "三次（出）",
+        "InOutCubic": "三次（入出）",
+        "OutInCubic": "三次（出入）",
+        "InQuart": "四次（入）",
+        "OutQuart": "四次（出）",
+        "InOutQuart": "四次（入出）",
+        "OutInQuart": "四次（出入）",
+        "InQuint": "五次（入）",
+        "OutQuint": "五次（出）",
+        "InOutQuint": "五次（入出）",
+        "OutInQuint": "五次（出入）",
+        "InExpo": "指数（入）",
+        "OutExpo": "指数（出）",
+        "InOutExpo": "指数（入出）",
+        "OutInExpo": "指数（出入）",
+        "InCirc": "半圆（入）",
+        "OutCirc": "半圆（出）",
+        "InOutCirc": "半圆（入出）",
+        "OutInCirc": "半圆（出入）",
+        "InBack": "回弹（入）",
+        "OutBack": "回弹（出）",
+        "InOutBack": "回弹（入出）",
+        "OutInBack": "回弹（出入）",
+        "InElastic": "弹性（入）",
+        "OutElastic": "弹性（出）",
+        "InOutElastic": "弹性（入出）",
+        "OutInElastic": "弹性（出入）",
+        "None": "无"
+      }
+    }
+  },
+  "Themes": {
+    "Dark": "暗色",
+    "Light": "亮色"
+  },
+  "Clients": {
+    "Master": {
+      "Info": {
+        "Loading": "正在加载 Sonolus 信息…",
+        "Error": "加载 Sonolus 信息失败。\n\n请检查您的网络连接并重试。"
+      },
+      "List": {
+        "Loading": "正在加载语言…",
+        "Error": "加载语言失败。\n\n请检查您的网络连接并重试。"
+      },
+      "Localization": {
+        "Loading": "正在加载语言…",
+        "Error": "加载语言“{0}”失败。\n\n请检查您的网络连接并重试。"
+      }
+    },
+    "Service": {
+      "UserProfile": {
+        "Loading": "正在加载用户资料…",
+        "Error": "加载“{0}”的用户资料失败。\n\n请检查用户 ID 是否正确，或检查您的网络连接并重试。"
+      },
+      "Login": {
+        "Loading": "正在登录中…",
+        "Error": "登录失败。\n\n请检查您的网络连接并重试。",
+        "Success": {
+          "New": {
+            "Title": "已注册"
+          },
+          "Old": {
+            "Title": "已登录"
+          }
         }
-    },
-    "Themes": {
-        "Dark": "暗色",
-        "Light": "亮色"
-    },
-    "Clients": {
-        "Master": {
-            "Info": {
-                "Loading": "正在加载 Sonolus 信息…",
-                "Error": "加载 Sonolus 信息失败。\n\n请检查您的网络连接并重试。"
-            },
-            "List": {
-                "Loading": "正在加载语言…",
-                "Error": "加载语言失败。\n\n请检查您的网络连接并重试。"
-            },
-            "Localization": {
-                "Loading": "正在加载语言…",
-                "Error": "加载语言“{0}”失败。\n\n请检查您的网络连接并重试。"
-            }
-        },
-        "Service": {
-            "UserProfile": {
-                "Loading": "正在加载用户资料…",
-                "Error": "加载“{0}”的用户资料失败。\n\n请检查用户 ID 是否正确，或检查您的网络连接并重试。"
-            },
-            "Login": {
-                "Loading": "正在登录中…",
-                "Error": "登录失败。\n\n请检查您的网络连接并重试。",
-                "Success": {
-                    "New": {
-                        "Title": "已注册"
-                    },
-                    "Old": {
-                        "Title": "已登录"
-                    }
-                }
-            },
-            "EditName": {
-                "Loading": "正在编辑名字…",
-                "Error": "编辑名字失败。\n\n请检查您的名字是否合法并在长度范围内，或检查您的网络连接并重试。",
-                "Success": {
-                    "Title": "名称已编辑"
-                }
-            },
-            "EditAvatar": {
-                "Loading": "正在编辑头像…",
-                "Error": "编辑头像失败。\n\n请检查您的头像是否合法，或检查您的网络连接并重试。",
-                "Success": {
-                    "Title": "头像已编辑"
-                }
-            },
-            "EditAboutMe": {
-                "Loading": "正在编辑关于我…",
-                "Error": "编辑关于我失败。\n\n请检查您的关于我是否合法并在长度范围内，或检查您的网络连接并重试。",
-                "Success": {
-                    "Title": "关于我已编辑"
-                }
-            },
-            "EditSocialLinks": {
-                "Loading": "正在编辑社交链接…",
-                "Error": "编辑社交链接失败。\n\n请检查您的社交链接是否合法且在长度范围内，或检查您的网络连接并重试。",
-                "Success": {
-                    "Title": "社交链接已编辑"
-                }
-            },
-            "EditFavorites": {
-                "Loading": "正在编辑最爱…",
-                "Error": "编辑最爱失败。\n\n请检查您的最爱是否合法并在长度范围内，或检查您的网络连接并重试。",
-                "Success": {
-                    "Title": "最爱已编辑"
-                }
-            },
-            "AuthenticateServer": {
-                "Loading": "请求 Sonolus 身份验证…",
-                "Error": "从 Sonolus 请求身份验证失败。\n\n请检查您的网络连接并重试，或联系 Sonolus 并汇报这个问题。"
-            },
-            "Logout": {
-                "Loading": "正在登出…",
-                "Error": "登出失败。\n\n请检查您的网络连接并重试。",
-                "Success": {
-                    "Title": "已登出"
-                }
-            }
-        },
-        "CustomServer": {
-            "SonolusVersionError": "此服务器只支持 Sonolus 版本 {0}。\n\n请更新您的 Sonolus，或联系服务器运营并汇报这个问题。",
-            "Session": {
-                "NeedAuthentication": {
-                    "NotLoggedInError": {
-                        "Description": "此服务器需要身份验证。\n\n请先登录并重试。"
-                    },
-                    "Confirmation": {
-                        "Description": "此服务器需要身份验证。\n\n验证为“{0}”并继续？"
-                    }
-                },
-                "AuthenticationExpired": {
-                    "Description": "您的身份验证已过期。\n\n再次验证为“{0}”并继续？"
-                },
-                "AuthenticationRejected": {
-                    "Description": "服务器拒绝了您的身份验证。\n\n再次验证为“{0}”并继续？"
-                },
-                "Authenticate": {
-                    "Loading": "正在请求服务器身份验证…",
-                    "Error": "从“{0}”请求身份验证失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "AddressMismatchError": {
-                    "Description": "身份验证地址不匹配。\n\n请联系服务器运营并汇报问题。"
-                }
-            },
-            "Server": {
-                "Info": {
-                    "Loading": "正在加载服务器信息…",
-                    "Error": "加载服务器“{0}”信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Banner": {
-                    "Loading": "正在加载服务器横幅…",
-                    "Error": "加载服务器“{0}”横幅失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "正在加载关卡…",
-                    "Error": "加载关卡第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Details": {
-                    "Loading": "正在加载关卡详情…",
-                    "Error": "加载关卡“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查关卡兼容性…",
-                    "Error": "关卡“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个关卡，或联系服务器运营并汇报这个问题。"
-                },
-                "Cover": {
-                    "Loading": "正在加载关卡封面…",
-                    "Error": "加载关卡“{0}”封面失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Bgm": {
-                    "Loading": "正在加载关卡音乐…",
-                    "Error": "加载关卡“{0}”音乐失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Preview": {
-                    "Loading": "正在加载关卡预览…",
-                    "Error": "加载关卡“{0}”预览失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Data": {
-                    "Loading": "正在加载关卡数据…",
-                    "Error": "加载关卡“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "正在加载皮肤…",
-                    "Error": "加载皮肤第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Details": {
-                    "Loading": "正在加载皮肤详情…",
-                    "Error": "加载皮肤“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查皮肤兼容性…",
-                    "Error": "皮肤“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个皮肤，或联系服务器运营并汇报这个问题。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载皮肤缩图…",
-                    "Error": "加载皮肤“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Data": {
-                    "Loading": "正在加载皮肤数据…",
-                    "Error": "加载皮肤“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Texture": {
-                    "Loading": "正在加载皮肤材质…",
-                    "Error": "加载皮肤“{0}”材质失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "正在加载背景…",
-                    "Error": "加载背景第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Details": {
-                    "Loading": "正在加载背景详情…",
-                    "Error": "加载背景“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查背景兼容性…",
-                    "Error": "背景“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个背景，或联系服务器运营并汇报这个问题。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载背景缩图…",
-                    "Error": "加载背景“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Data": {
-                    "Loading": "正在加载背景数据…",
-                    "Error": "加载背景“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Image": {
-                    "Loading": "正在加载背景图像…",
-                    "Error": "加载背景“{0}”图像失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Configuration": {
-                    "Loading": "正在加载背景配置…",
-                    "Error": "加载背景“{0}”配置失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "正在加载音效…",
-                    "Error": "加载音效第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Details": {
-                    "Loading": "正在加载音效详情…",
-                    "Error": "加载音效“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查音效兼容性…",
-                    "Error": "音效“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个音效，或联系服务器运营并汇报这个问题。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载音效缩图…",
-                    "Error": "加载音效“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Data": {
-                    "Loading": "正在加载音效数据…",
-                    "Error": "加载音效“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Audio": {
-                    "Loading": "正在加载音效音频…",
-                    "Error": "加载音效“{0}”音频失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "正在加载粒子效果…",
-                    "Error": "加载粒子效果第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Details": {
-                    "Loading": "正在加载粒子效果详情…",
-                    "Error": "加载粒子效果“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查粒子效果兼容性…",
-                    "Error": "粒子效果“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个粒子效果，或联系服务器运营并汇报这个问题。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载粒子效果缩图…",
-                    "Error": "加载粒子效果“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Data": {
-                    "Loading": "正在加载粒子效果数据…",
-                    "Error": "加载粒子效果“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Texture": {
-                    "Loading": "正在加载粒子效果材质…",
-                    "Error": "加载粒子效果“{0}”材质失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "正在加载引擎…",
-                    "Error": "加载引擎第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Details": {
-                    "Loading": "正在加载引擎详情…",
-                    "Error": "加载引擎“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查引擎兼容性…",
-                    "Error": "引擎“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个引擎，或联系服务器运营并汇报这个问题。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载引擎缩图…",
-                    "Error": "加载引擎“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Data": {
-                    "Loading": "正在加载引擎数据…",
-                    "Error": "加载引擎“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Rom": {
-                    "Loading": "正在加载引擎ROM…",
-                    "Error": "加载引擎“{0}”ROM失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                },
-                "Configuration": {
-                    "Loading": "正在加载引擎配置…",
-                    "Error": "加载引擎“{0}”配置失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-                }
-            }
-        },
-        "Collection": {
-            "Server": {
-                "Info": {
-                    "Loading": "正在加载收藏信息…",
-                    "Error": "加载收藏“{0}”信息失败。\n\n您的收藏可能已损坏。"
-                },
-                "Banner": {
-                    "Loading": "正在加载收藏横幅…",
-                    "Error": "加载收藏“{0}”横幅失败。\n\n您的收藏可能已损坏。"
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "正在加载关卡…",
-                    "Error": "加载关卡第 {0} 页失败。\n\n您的收藏可能已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载关卡详情…",
-                    "Error": "加载关卡“{0}”详情失败。\n\n您的收藏可能已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查关卡兼容性…",
-                    "Error": "关卡“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个关卡，或使用另一个关卡。"
-                },
-                "Cover": {
-                    "Loading": "正在加载关卡封面…",
-                    "Error": "加载关卡“{0}”封面失败。\n\n请更新这个关卡，或使用另一个关卡。"
-                },
-                "Bgm": {
-                    "Loading": "正在加载关卡音乐…",
-                    "Error": "加载关卡“{0}”音乐失败。\n\n请更新这个关卡，或使用另一个关卡。"
-                },
-                "Preview": {
-                    "Loading": "正在加载关卡预览…",
-                    "Error": "加载关卡“{0}”预览失败。\n\n请更新这个关卡，或使用另一个关卡。"
-                },
-                "Data": {
-                    "Loading": "正在加载关卡数据…",
-                    "Error": "加载关卡“{0}”数据失败。\n\n请更新这个关卡，或使用另一个关卡。"
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "正在加载皮肤…",
-                    "Error": "加载皮肤第 {0} 页失败。\n\n您的收藏可能已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载皮肤详情…",
-                    "Error": "加载皮肤“{0}”详情失败。\n\n您的收藏可能已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查皮肤兼容性…",
-                    "Error": "皮肤“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个皮肤，或使用另一个皮肤。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载皮肤缩图…",
-                    "Error": "加载皮肤“{0}”缩图失败。\n\n请更新这个皮肤，或使用另一个皮肤。"
-                },
-                "Data": {
-                    "Loading": "正在加载皮肤数据…",
-                    "Error": "加载皮肤“{0}”数据失败。\n\n请更新这个皮肤，或使用另一个皮肤。"
-                },
-                "Texture": {
-                    "Loading": "正在加载皮肤材质…",
-                    "Error": "加载皮肤“{0}”材质失败。\n\n请更新这个皮肤，或使用另一个皮肤。"
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "正在加载背景…",
-                    "Error": "加载背景第 {0} 页失败。\n\n您的收藏可能已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载背景详情…",
-                    "Error": "加载背景“{0}”详情失败。\n\n您的收藏可能已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查背景兼容性…",
-                    "Error": "背景“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个背景，或使用另一个背景。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载背景缩图…",
-                    "Error": "加载背景“{0}”缩图失败。\n\n请更新这个背景，或使用另一个背景。"
-                },
-                "Data": {
-                    "Loading": "正在加载背景数据…",
-                    "Error": "加载背景“{0}”数据失败。\n\n请更新这个背景，或使用另一个背景。"
-                },
-                "Image": {
-                    "Loading": "正在加载背景图像…",
-                    "Error": "加载背景“{0}”图像失败。\n\n请更新这个背景，或使用另一个背景。"
-                },
-                "Configuration": {
-                    "Loading": "正在加载背景配置…",
-                    "Error": "加载背景“{0}”配置失败。\n\n请更新这个背景，或使用另一个背景。"
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "正在加载音效…",
-                    "Error": "加载音效第 {0} 页失败。\n\n您的收藏可能已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载音效详情…",
-                    "Error": "加载音效“{0}”详情失败。\n\n您的收藏可能已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查音效兼容性…",
-                    "Error": "音效“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个音效，或使用另一个音效。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载音效缩图…",
-                    "Error": "加载音效“{0}”缩图失败。\n\n请更新这个音效，或使用另一个音效。"
-                },
-                "Data": {
-                    "Loading": "正在加载音效数据…",
-                    "Error": "加载音效“{0}”数据失败。\n\n请更新这个音效，或使用另一个音效。"
-                },
-                "Audio": {
-                    "Loading": "正在加载音效音频…",
-                    "Error": "加载音效“{0}”音频失败。\n\n请更新这个音效，或使用另一个音效。"
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "正在加载粒子效果…",
-                    "Error": "加载粒子效果第 {0} 页失败。\n\n您的收藏可能已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载粒子效果详情…",
-                    "Error": "加载粒子效果“{0}”详情失败。\n\n您的收藏可能已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查粒子效果兼容性…",
-                    "Error": "粒子效果“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个粒子效果，或使用另一个粒子效果。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载粒子效果缩图…",
-                    "Error": "加载粒子效果“{0}”缩图失败。\n\n请更新这个粒子效果，或使用另一个粒子效果。"
-                },
-                "Data": {
-                    "Loading": "正在加载粒子效果数据…",
-                    "Error": "加载粒子效果“{0}”数据失败。\n\n请更新这个粒子效果，或使用另一个粒子效果。"
-                },
-                "Texture": {
-                    "Loading": "正在加载粒子效果材质…",
-                    "Error": "加载粒子效果“{0}”材质失败。\n\n请更新这个粒子效果，或使用另一个粒子效果。"
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "正在加载引擎…",
-                    "Error": "加载引擎第 {0} 页失败。\n\n您的收藏可能已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载引擎详情…",
-                    "Error": "加载引擎“{0}”详情失败。\n\n您的收藏可能已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查引擎兼容性…",
-                    "Error": "引擎“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个引擎，或使用另一个引擎。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载引擎缩图…",
-                    "Error": "加载引擎“{0}”缩图失败。\n\n请更新这个引擎，或使用另一个引擎。"
-                },
-                "Data": {
-                    "Loading": "正在加载引擎数据…",
-                    "Error": "加载引擎“{0}”数据失败。\n\n请更新这个引擎，或使用另一个引擎。"
-                },
-                "Rom": {
-                    "Loading": "正在加载引擎ROM…",
-                    "Error": "加载引擎“{0}”ROM失败。\n\n请更新这个引擎，或使用另一个引擎。"
-                },
-                "Configuration": {
-                    "Loading": "正在加载引擎配置…",
-                    "Error": "加载引擎“{0}”配置失败。\n\n请更新这个引擎，或使用另一个引擎。"
-                }
-            }
-        },
-        "Scp": {
-            "Server": {
-                "Info": {
-                    "Loading": "正在加载收藏包信息…",
-                    "Error": "加载收藏包“{0}”信息失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Banner": {
-                    "Loading": "正在加载收藏包横幅…",
-                    "Error": "加载收藏包“{0}”横幅失败。\n\n您的收藏包可能不受支持或已损坏。"
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "正在加载关卡…",
-                    "Error": "加载关卡第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载关卡详情…",
-                    "Error": "加载关卡“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查关卡兼容性…",
-                    "Error": "关卡“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Cover": {
-                    "Loading": "正在加载关卡封面…",
-                    "Error": "加载关卡“{0}”封面失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Bgm": {
-                    "Loading": "正在加载关卡音乐…",
-                    "Error": "加载关卡“{0}”音乐失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Preview": {
-                    "Loading": "正在加载关卡预览…",
-                    "Error": "加载关卡“{0}”预览失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Data": {
-                    "Loading": "正在加载关卡数据…",
-                    "Error": "加载关卡“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "正在加载皮肤…",
-                    "Error": "加载皮肤第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载皮肤详情…",
-                    "Error": "加载皮肤“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查皮肤兼容性…",
-                    "Error": "皮肤“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载皮肤缩图…",
-                    "Error": "加载皮肤“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Data": {
-                    "Loading": "正在加载皮肤数据…",
-                    "Error": "加载皮肤“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Texture": {
-                    "Loading": "正在加载皮肤材质…",
-                    "Error": "加载皮肤“{0}”材质失败。\n\n您的收藏包可能不受支持或已损坏。"
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "正在加载背景…",
-                    "Error": "加载背景第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载背景详情…",
-                    "Error": "加载背景“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查背景兼容性…",
-                    "Error": "背景“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载背景缩图…",
-                    "Error": "加载背景“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Data": {
-                    "Loading": "正在加载背景数据…",
-                    "Error": "加载背景“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Image": {
-                    "Loading": "正在加载背景图像…",
-                    "Error": "加载背景“{0}”图像失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Configuration": {
-                    "Loading": "正在加载背景配置…",
-                    "Error": "加载背景“{0}”配置失败。\n\n您的收藏包可能不受支持或已损坏。"
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "正在加载音效…",
-                    "Error": "加载音效第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载音效详情…",
-                    "Error": "加载音效“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查音效兼容性…",
-                    "Error": "音效“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载音效缩图…",
-                    "Error": "加载音效“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Data": {
-                    "Loading": "正在加载音效数据…",
-                    "Error": "加载音效“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Audio": {
-                    "Loading": "正在加载音效音频…",
-                    "Error": "加载音效“{0}”音频失败。\n\n您的收藏包可能不受支持或已损坏。"
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "正在加载粒子效果…",
-                    "Error": "加载粒子效果第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载粒子效果详情…",
-                    "Error": "加载粒子效果“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查粒子效果兼容性…",
-                    "Error": "粒子效果“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载粒子效果缩图…",
-                    "Error": "加载粒子效果“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Data": {
-                    "Loading": "正在加载粒子效果数据…",
-                    "Error": "加载粒子效果“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Texture": {
-                    "Loading": "正在加载粒子效果材质…",
-                    "Error": "加载粒子效果“{0}”材质失败。\n\n您的收藏包可能不受支持或已损坏。"
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "正在加载引擎…",
-                    "Error": "加载引擎第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Details": {
-                    "Loading": "正在加载引擎详情…",
-                    "Error": "加载引擎“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Compatibility": {
-                    "Loading": "正在检查引擎兼容性…",
-                    "Error": "引擎“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Thumbnail": {
-                    "Loading": "正在加载引擎缩图…",
-                    "Error": "加载引擎“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Data": {
-                    "Loading": "正在加载引擎数据…",
-                    "Error": "加载引擎“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Rom": {
-                    "Loading": "正在加载引擎ROM…",
-                    "Error": "加载引擎“{0}”ROM失败。\n\n您的收藏包可能不受支持或已损坏。"
-                },
-                "Configuration": {
-                    "Loading": "正在加载引擎配置…",
-                    "Error": "加载引擎“{0}”配置失败。\n\n您的收藏包可能不受支持或已损坏。"
-                }
-            }
+      },
+      "EditName": {
+        "Loading": "正在编辑名字…",
+        "Error": "编辑名字失败。\n\n请检查您的名字是否合法并在长度范围内，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "名称已编辑"
         }
-    },
-    "DeepLink": {
-        "Invalid": {
-            "Description": "链接“{0}”无效。\n\n请使用其他链接。"
+      },
+      "EditAvatar": {
+        "Loading": "正在编辑头像…",
+        "Error": "编辑头像失败。\n\n请检查您的头像是否合法，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "头像已编辑"
         }
-    },
-    "Title": {
-        "TapToStart": "点击开始"
-    },
-    "Layout": {
-        "Refresh": "刷新",
-        "Back": "后退"
-    },
-    "Routes": {
-        "JumpToPage": {
-            "Title": "跳至页码",
-            "Page": "页码",
-            "PagePlaceholder": "输入页码…",
-            "Jump": "跳至"
-        },
-        "SelectLocalization": {
-            "Title": "选择语言",
-            "Description": "选择一个首选语言：",
-            "Error": "加载语言失败。"
-        },
-        "SelectTheme": {
-            "Title": "选择主题",
-            "Description": "选择一个主题："
-        },
-        "SelectClient": {
-            "CustomServers": {
-                "Title": "自定义服务器",
-                "RemoveConfirmation": {
-                    "Description": "您确定要删除“{0}”吗？"
-                }
-            },
-            "Collections": {
-                "Title": "收藏",
-                "RemoveConfirmation": {
-                    "Description": "您确定要删除“{0}”吗？"
-                }
-            }
-        },
-        "Selects": {
-            "ToPlay": {
-                "Title": "开始",
-                "Description": "选择一个自定义服务器或收藏来开始游玩。"
-            },
-            "ToSave": {
-                "Level": {
-                    "Title": "保存关卡",
-                    "Description": "选择一个收藏来保存这个关卡。"
-                },
-                "Skin": {
-                    "Title": "选择皮肤",
-                    "Description": "选择一个收藏来保存这个皮肤。"
-                },
-                "Background": {
-                    "Title": "保存背景",
-                    "Description": "选择一个收藏来保存这个背景。"
-                },
-                "Effect": {
-                    "Title": "保存音效",
-                    "Description": "选择一个收藏来保存这个音效。"
-                },
-                "Particle": {
-                    "Title": "保存粒子效果",
-                    "Description": "选择一个收藏来保存这个粒子效果。"
-                },
-                "Engine": {
-                    "Title": "保存引擎",
-                    "Description": "选择一个收藏来保存这个引擎。"
-                }
-            },
-            "ToUse": {
-                "Level": {
-                    "Title": "选择关卡",
-                    "Description": "选择一个自定义服务器或收藏来使用其中的关卡。"
-                },
-                "Skin": {
-                    "Title": "选择皮肤",
-                    "Description": "选择一个自定义服务器或收藏来使用其中的皮肤。"
-                },
-                "Background": {
-                    "Title": "选择背景",
-                    "Description": "选择一个自定义服务器或收藏来使用其中的背景。"
-                },
-                "Effect": {
-                    "Title": "选择音效",
-                    "Description": "选择一个自定义服务器或收藏来使用其中的音效。"
-                },
-                "Particle": {
-                    "Title": "选择粒子效果",
-                    "Description": "选择一个自定义服务器或收藏来使用其中的粒子效果。"
-                },
-                "Engine": {
-                    "Title": "选择引擎",
-                    "Description": "选择一个自定义服务器或收藏来使用其中的引擎。"
-                }
-            },
-            "ToAddFavorite": {
-                "Level": {
-                    "Title": "添加最爱关卡",
-                    "Description": "选择一个自定义服务器来添加其中的关卡到最爱。"
-                },
-                "Skin": {
-                    "Title": "添加最爱皮肤",
-                    "Description": "选择一个自定义服务器来添加其中的皮肤到最爱。"
-                },
-                "Background": {
-                    "Title": "添加最爱背景",
-                    "Description": "选择一个自定义服务器来添加其中的背景到最爱。"
-                },
-                "Effect": {
-                    "Title": "添加最爱音效",
-                    "Description": "选择一个自定义服务器来添加其中的音效到最爱。"
-                },
-                "Particle": {
-                    "Title": "添加最爱粒子效果",
-                    "Description": "选择一个自定义服务器来添加其中的粒子效果到最爱。"
-                },
-                "Engine": {
-                    "Title": "添加最爱引擎",
-                    "Description": "选择一个自定义服务器来添加其中的引擎到最爱。"
-                }
-            }
-        },
-        "EditCustomServer": {
-            "Title": "编辑自定义服务器",
-            "Address": "地址",
-            "AddressPlaceholder": "输入自定义服务器地址…",
-            "Name": "名称",
-            "NamePlaceholder": "输入自定义服务器名称…"
-        },
-        "AddCustomServerAddress": {
-            "Title": "添加自定义服务器",
-            "Address": "地址",
-            "AddressPlaceholder": "输入自定义服务器地址…"
-        },
-        "AddCustomServerInfo": {
-            "Title": "添加自定义服务器",
-            "Info": {
-                "Error": "加载服务器“{0}”信息失败。\n\n请检查您是否输入了正确的服务器地址，检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-            },
-            "Name": "名称",
-            "NamePlaceholder": "输入自定义服务器名称…"
-        },
-        "EditCollection": {
-            "Title": "编辑收藏",
-            "Name": "名称",
-            "NamePlaceholder": "输入收藏名称…"
-        },
-        "AddCollection": {
-            "Title": "添加收藏",
-            "Name": "名称",
-            "NamePlaceholder": "输入收藏名称…"
-        },
-        "ImportScp": {
-            "Scp": {
-                "Loading": "正在加载收藏包…",
-                "Error": "加载收藏包“{0}”失败。\n\n您的收藏包可能不受支持或已损坏。"
-            },
-            "Success": {
-                "Title": "收藏包已导入"
-            }
-        },
-        "ExportScp": {
-            "Success": {
-                "Title": "收藏包已导出"
-            }
-        },
-        "EditVisibility": {
-            "Scale": "缩放",
-            "Alpha": "透明度"
-        },
-        "EditAnimation": {
-            "Scale": "缩放",
-            "Alpha": "透明度"
-        },
-        "EditTween": {
-            "From": "从",
-            "To": "至",
-            "Duration": "时长",
-            "Ease": "缓动"
-        },
-        "EditColors": {
-            "Foreground": "前景",
-            "Background": "背景"
-        },
-        "CalibrateAudio": {
-            "Title": "校准音频",
-            "Description": "通过调整设备音频偏移来校准音频，让音频和图形同步。",
-            "DeviceAudioOffset": "设备音频偏移"
-        },
-        "CalibrateInput": {
-            "Title": "校准输入",
-            "Description": "通过用手指敲击来校准输入。请首先确保您的音频偏移已正确校准。\n如果您习惯玩不带此选项的游戏，可以保留为0。",
-            "Result": "推荐偏移：{0} (±{1})",
-            "DeviceInputOffset": "设备输入偏移"
-        },
-        "Home": {
-            "Title": "主页",
-            "Play": "开始",
-            "Players": "玩家",
-            "Account": "账号",
-            "Settings": "设置",
-            "UpdateAvailable": {
-                "Title": "更新可用",
-                "Description": "Sonolus 版本 {0} 更新！\n\n访问我们的网站：\nhttps://sonolus.com",
-                "Open": "打开"
-            }
-        },
-        "Players": {
-            "Title": "玩家",
-            "PlayerLookup": {
-                "Title": "玩家查询",
-                "Id": "玩家 ID",
-                "IdPlaceholder": "输入玩家 ID…",
-                "Lookup": "查询"
-            }
-        },
-        "Account": {
-            "Title": "账号",
-            "MyAccount": {
-                "Title": "我的账号",
-                "Login": {
-                    "Apple": "苹果登录",
-                    "Google": "谷歌登录",
-                    "Wechat": "微信登录"
-                },
-                "Profile": "资料",
-                "Logout": "登出"
-            }
-        },
-        "UserProfile": {
-            "Home": {
-                "Main": {
-                    "EditName": "编辑名字",
-                    "EditAvatar": "编辑头像"
-                },
-                "AboutMe": {
-                    "Title": "关于我"
-                },
-                "SocialLinks": {
-                    "Title": "社交链接",
-                    "None": "没有社交链接。",
-                    "OpenConfirmation": {
-                        "Description": "此社交链接指向：\n{0}\n\n你确定要打开吗？"
-                    }
-                },
-                "Favorites": {
-                    "Title": "最爱",
-                    "None": "没有最爱。"
-                }
-            },
-            "EditName": {
-                "Title": "编辑名字",
-                "Name": "名字",
-                "NamePlaceholder": "输入玩家名字…"
-            },
-            "EditAvatar": {
-                "Title": "编辑头像",
-                "Foreground": "前景",
-                "Background": "背景"
-            },
-            "EditAboutMe": {
-                "Title": "编辑关于我",
-                "AboutMe": "关于我",
-                "AboutMePlaceholder": "输入关于我…"
-            },
-            "AddSocialLink": {
-                "Title": "添加社交链接",
-                "SocialLinkTitle": "标题",
-                "SocialLinkTitlePlaceholder": "输入社交链接标题…",
-                "SocialLinkAddress": "地址",
-                "SocialLinkAddressPlaceholder": "输入社交链接地址…"
-            },
-            "AddFavorite": {
-                "Title": "添加最爱",
-                "Description": "选择要添加的最爱类型：",
-                "Level": "关卡",
-                "Skin": "皮肤",
-                "Background": "背景",
-                "Effect": "音效",
-                "Particle": "粒子效果",
-                "Engine": "引擎"
-            }
-        },
-        "Server": {
-            "Home": {
-                "Levels": "关卡",
-                "Skins": "皮肤",
-                "Backgrounds": "背景",
-                "Effects": "音效",
-                "Particles": "粒子效果",
-                "Engines": "引擎",
-                "SaveSuccess": {
-                    "Title": "服务器已保存"
-                },
-                "ShareSuccess": {
-                    "Title": "服务器链接已复制"
-                }
-            },
-            "Search": {
-                "Title": "搜索"
-            },
-            "Lists": {
-                "DeleteConfirmation": {
-                    "Description": "您确定要删除“{0}”吗？"
-                },
-                "Level": {
-                    "Title": "关卡",
-                    "ShareSuccess": {
-                        "Title": "关卡链接已复制"
-                    }
-                },
-                "Skin": {
-                    "Title": "皮肤",
-                    "ShareSuccess": {
-                        "Title": "皮肤链接已复制"
-                    }
-                },
-                "Background": {
-                    "Title": "背景",
-                    "ShareSuccess": {
-                        "Title": "背景链接已复制"
-                    }
-                },
-                "Effect": {
-                    "Title": "音效",
-                    "ShareSuccess": {
-                        "Title": "音效链接已复制"
-                    }
-                },
-                "Particle": {
-                    "Title": "粒子效果",
-                    "ShareSuccess": {
-                        "Title": "粒子效果链接已复制"
-                    }
-                },
-                "Engine": {
-                    "Title": "引擎",
-                    "ShareSuccess": {
-                        "Title": "引擎链接已复制"
-                    }
-                }
-            },
-            "Details": {
-                "Actions": {
-                    "Configuration": "配置"
-                },
-                "DeleteConfirmation": {
-                    "Description": "您确定要删除“{0}”吗？"
-                },
-                "Description": {
-                    "Title": "描述"
-                },
-                "Recommended": {
-                    "Title": "推荐"
-                },
-                "Level": {
-                    "Actions": {
-                        "Play": "开始"
-                    },
-                    "Play": {
-                        "Effect": {
-                            "Audio": {
-                                "Loading": "正在解码音效音频…",
-                                "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
-                            }
-                        },
-                        "Level": {
-                            "Bgm": {
-                                "Loading": "正在解码关卡音乐…",
-                                "Error": "解码关卡“{0}”音乐失败。\n\n请联系关卡作者并汇报这个问题。"
-                            }
-                        },
-                        "Boot": {
-                            "Loading": "正在启动关卡…",
-                            "Error": "启动关卡“{0}”失败。\n\n请联系关卡作者并汇报这个问题。"
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "关卡链接已复制"
-                    }
-                },
-                "Skin": {
-                    "ShareSuccess": {
-                        "Title": "皮肤链接已复制"
-                    }
-                },
-                "Background": {
-                    "Preview": {
-                        "Boot": {
-                            "Loading": "正在启动背景…",
-                            "Error": "启动背景“{0}”失败。\n\n请联系背景作者并汇报这个问题。"
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "背景链接已复制"
-                    }
-                },
-                "Effect": {
-                    "Preview": {
-                        "Audio": {
-                            "Loading": "正在解码音效音频…",
-                            "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
-                        },
-                        "Boot": {
-                            "Loading": "正在启动音效…",
-                            "Error": "启动音效“{0}”失败。\n\n请联系音效作者并汇报这个问题。"
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "音效链接已复制"
-                    }
-                },
-                "Particle": {
-                    "ShareSuccess": {
-                        "Title": "粒子效果链接已复制"
-                    }
-                },
-                "Engine": {
-                    "ShareSuccess": {
-                        "Title": "引擎链接已复制"
-                    }
-                }
-            },
-            "Configurations": {
-                "Level": {
-                    "Title": "关卡配置",
-                    "Skin": {
-                        "Title": "皮肤"
-                    },
-                    "Background": {
-                        "Title": "背景"
-                    },
-                    "Effect": {
-                        "Title": "音效"
-                    },
-                    "Particle": {
-                        "Title": "粒子效果"
-                    },
-                    "Options": {
-                        "Title": "选项"
-                    },
-                    "Audio": {
-                        "Title": "音频",
-                        "BgmVolume": "音乐音量",
-                        "SfxVolume": "音效音量"
-                    },
-                    "UI": {
-                        "Title": "用户界面",
-                        "PrimaryMetric": "主要指标",
-                        "SecondaryMetric": "次要指标",
-                        "JudgmentErrorStyle": "判定误差样式",
-                        "JudgmentErrorPlacement": "判定误差位置",
-                        "JudgmentErrorMin": "最小判定误差",
-                        "MenuStyle": "菜单样式",
-                        "JudgmentStyle": "判定样式",
-                        "ComboStyle": "连击样式",
-                        "PrimaryMetricStyle": "主要指标样式",
-                        "SecondaryMetricStyle": "次要指标样式"
-                    },
-                    "Offsets": {
-                        "Title": "偏移",
-                        "LevelAudioOffset": "关卡音频偏移",
-                        "ServerAudioOffset": "服务器音频偏移",
-                        "DeviceAudioOffset": "设备音频偏移",
-                        "EngineInputOffset": "引擎输入偏移",
-                        "DeviceInputOffset": "设备输入偏移"
-                    }
-                },
-                "Skin": {
-                    "Title": "皮肤配置"
-                },
-                "Background": {
-                    "Title": "背景配置",
-                    "Image": {
-                        "Title": "图像",
-                        "Blur": "模糊",
-                        "Mask": "遮罩"
-                    }
-                },
-                "Effect": {
-                    "Title": "音效配置"
-                },
-                "Particle": {
-                    "Title": "粒子效果配置"
-                },
-                "Engine": {
-                    "Title": "引擎配置",
-                    "Skin": {
-                        "Title": "皮肤"
-                    },
-                    "Background": {
-                        "Title": "背景"
-                    },
-                    "Effect": {
-                        "Title": "音效"
-                    },
-                    "Particle": {
-                        "Title": "粒子效果"
-                    },
-                    "Options": {
-                        "Title": "选项"
-                    },
-                    "UI": {
-                        "Title": "用户界面",
-                        "PrimaryMetric": "主要指标",
-                        "SecondaryMetric": "次要指标",
-                        "JudgmentErrorStyle": "判定误差样式",
-                        "JudgmentErrorPlacement": "判定误差位置",
-                        "JudgmentErrorMin": "最小判定误差",
-                        "MenuStyle": "菜单样式",
-                        "JudgmentStyle": "判定样式",
-                        "ComboStyle": "连击样式",
-                        "PrimaryMetricStyle": "主要指标样式",
-                        "SecondaryMetricStyle": "次要指标样式"
-                    },
-                    "Offsets": {
-                        "Title": "偏移",
-                        "EngineInputOffset": "引擎输入偏移"
-                    }
-                }
-            },
-            "Savers": {
-                "Level": {
-                    "Success": {
-                        "Title": "关卡已保存"
-                    }
-                },
-                "Skin": {
-                    "Success": {
-                        "Title": "皮肤已保存"
-                    }
-                },
-                "Background": {
-                    "Success": {
-                        "Title": "背景已保存"
-                    }
-                },
-                "Effect": {
-                    "Success": {
-                        "Title": "音效已保存"
-                    }
-                },
-                "Particle": {
-                    "Success": {
-                        "Title": "粒子效果已保存"
-                    }
-                },
-                "Engine": {
-                    "Success": {
-                        "Title": "引擎已保存"
-                    }
-                }
-            }
-        },
-        "Settings": {
-            "Title": "设置",
-            "Graphics": {
-                "Title": "图像",
-                "TargetFps": "目标 FPS",
-                "RenderScale": "渲染比例",
-                "AntiAliasing": {
-                    "Title": "抗锯齿",
-                    "Options": {
-                        "Off": "关",
-                        "TwoX": "2x",
-                        "FourX": "4x",
-                        "EightX": "8x"
-                    }
-                },
-                "GpuParticleSystem": "GPU 粒子系统",
-                "IgnoreNotch": "忽略屏幕缺口"
-            },
-            "Audio": {
-                "Title": "音频",
-                "BgmVolume": "音乐音量",
-                "SfxVolume": "音效音量",
-                "AlwaysDecodeLevelBgm": "总是解码关卡音乐",
-                "PreviewBgm": {
-                    "Title": "预览音乐",
-                    "Options": {
-                        "Off": "关",
-                        "DetailsOnly": "仅在详情",
-                        "ListAndDetails": "列表与详情"
-                    }
-                },
-                "LevelBgmQuality": {
-                    "Title": "关卡音乐质量",
-                    "Options": {
-                        "Low": "低",
-                        "Mid": "中",
-                        "High": "高"
-                    }
-                },
-                "PreviewBgmQuality": {
-                    "Title": "预览音乐质量",
-                    "Options": {
-                        "Low": "低",
-                        "Mid": "中",
-                        "High": "高"
-                    }
-                }
-            },
-            "UI": {
-                "Title": "用户界面",
-                "Localization": "语言",
-                "Theme": "主题",
-                "Scale": "用户界面比例",
-                "UnpauseDelay": "暂停恢复延迟",
-                "PerfectJudgmentColors": "Perfect 判定颜色",
-                "GreatJudgmentColors": "Great 判定颜色",
-                "GoodJudgmentColors": "Good 判定颜色",
-                "MissJudgmentColors": "Miss 判定颜色",
-                "PositiveJudgmentErrorColors": "正判定误差颜色",
-                "NegativeJudgmentErrorColors": "负判定误差颜色",
-                "AllPerfectComboColors": "All Perfect 连击颜色",
-                "FullComboComboColors": "Full Combo 连击颜色",
-                "PassComboColors": "Pass 连击颜色",
-                "FailComboColors": "Fail 连击颜色",
-                "BoldComboNumber": "加粗连击数字",
-                "ShowZeroCombo": "显示零连击"
-            },
-            "Offsets": {
-                "Title": "偏移",
-                "Device": {
-                    "Title": "设备",
-                    "Option": "设备 {0}"
-                },
-                "DeviceAudioOffset": "设备音频偏移",
-                "DeviceInputOffset": "设备输入偏移"
-            },
-            "Repository": {
-                "Title": "资料库",
-                "Manage": "管理"
-            },
-            "Cache": {
-                "Title": "缓存",
-                "AlwaysRevalidate": "总是验证",
-                "Manage": "管理"
-            },
-            "Developer": {
-                "Title": "开发者",
-                "ShowFps": "显示帧率",
-                "FpsStyle": "帧率样式",
-                "ShowTouches": "显示触摸",
-                "TouchStyle": "触摸样式",
-                "DebugMode": "调试模式",
-                "DebugLogStyle": "调试日志样式"
-            }
-        },
-        "ManageRepository": {
-            "Title": "管理资料库",
-            "Repository": {
-                "Title": "资料库",
-                "Description": "资料库保存在本设备上可用的全部资源。",
-                "Size": "大小：{0}"
-            },
-            "DeleteRepository": {
-                "Title": "删除资料库",
-                "Description": "删除全部资料库资源会使得 Sonolus 请求资源时重新下载。",
-                "Delete": "删除",
-                "DeleteConfirmation": {
-                    "Description": "您确定要删除全部资料库资源吗？",
-                    "Loading": "正在删除资料库…"
-                },
-                "Success": {
-                    "Title": "资料库已删除"
-                }
-            }
-        },
-        "ManageCache": {
-            "Title": "管理缓存",
-            "Cache": {
-                "Title": "缓存",
-                "Description": "缓存通过记忆网络链接与关联的本地资料库资源，来提高 Sonolus 加载网络请求的速度并降低带宽使用量。\n缓存占用很少的储存大小，推荐不删除。",
-                "Count": "缓存：{0} 条"
-            },
-            "ExpireCache": {
-                "Title": "过期缓存",
-                "Description": "将全部缓存过期会使得 Sonolus 验证网络请求后再使用对应的本地资料库的资源。",
-                "Expire": "过期",
-                "ExpireConfirmation": {
-                    "Description": "您确定要将全部缓存过期吗？"
-                },
-                "Success": {
-                    "Title": "缓存已过期"
-                }
-            },
-            "DeleteCache": {
-                "Title": "删除缓存",
-                "Description": "删除全部缓存会使得Sonolus重新下载全部网络请求。不推荐。",
-                "Delete": "删除",
-                "DeleteConfirmation": {
-                    "Description": "您确定要删除全部缓存吗？"
-                },
-                "Success": {
-                    "Title": "缓存已删除"
-                }
-            }
+      },
+      "EditAboutMe": {
+        "Loading": "正在编辑关于我…",
+        "Error": "编辑关于我失败。\n\n请检查您的关于我是否合法并在长度范围内，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "关于我已编辑"
         }
+      },
+      "EditSocialLinks": {
+        "Loading": "正在编辑社交链接…",
+        "Error": "编辑社交链接失败。\n\n请检查您的社交链接是否合法且在长度范围内，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "社交链接已编辑"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "正在编辑最爱…",
+        "Error": "编辑最爱失败。\n\n请检查您的最爱是否合法并在长度范围内，或检查您的网络连接并重试。",
+        "Success": {
+          "Title": "最爱已编辑"
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "请求 Sonolus 身份验证…",
+        "Error": "从 Sonolus 请求身份验证失败。\n\n请检查您的网络连接并重试，或联系 Sonolus 并汇报这个问题。"
+      },
+      "Logout": {
+        "Loading": "正在登出…",
+        "Error": "登出失败。\n\n请检查您的网络连接并重试。",
+        "Success": {
+          "Title": "已登出"
+        }
+      }
+    },
+    "CustomServer": {
+      "SonolusVersionError": "此服务器只支持 Sonolus 版本 {0}。\n\n请更新您的 Sonolus，或联系服务器运营并汇报这个问题。",
+      "SonolusVersionTooOld": "此服务器仅支持版本为 ({0}) 的旧版本 Sonolus。\n\n请等待服务器完成升级，或联系服务器所有者报告此问题。",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "此服务器需要身份验证。\n\n请先登录并重试。"
+          },
+          "Confirmation": {
+            "Description": "此服务器需要身份验证。\n\n验证为“{0}”并继续？"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "您的身份验证已过期。\n\n再次验证为“{0}”并继续？"
+        },
+        "AuthenticationRejected": {
+          "Description": "服务器拒绝了您的身份验证。\n\n再次验证为“{0}”并继续？"
+        },
+        "Authenticate": {
+          "Loading": "正在请求服务器身份验证…",
+          "Error": "从“{0}”请求身份验证失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "AddressMismatchError": {
+          "Description": "身份验证地址不匹配。\n\n请联系服务器运营并汇报问题。"
+        }
+      },
+      "Server": {
+        "Info": {
+          "Loading": "正在加载服务器信息…",
+          "Error": "加载服务器“{0}”信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Banner": {
+          "Loading": "正在加载服务器横幅…",
+          "Error": "加载服务器“{0}”横幅失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
+      "Level": {
+        "List": {
+          "Loading": "正在加载关卡…",
+          "Error": "加载关卡第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载关卡详情…",
+          "Error": "加载关卡“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查关卡兼容性…",
+          "Error": "关卡“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个关卡，或联系服务器运营并汇报这个问题。"
+        },
+        "Cover": {
+          "Loading": "正在加载关卡封面…",
+          "Error": "加载关卡“{0}”封面失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Bgm": {
+          "Loading": "正在加载关卡音乐…",
+          "Error": "加载关卡“{0}”音乐失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Preview": {
+          "Loading": "正在加载关卡预览…",
+          "Error": "加载关卡“{0}”预览失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Data": {
+          "Loading": "正在加载关卡数据…",
+          "Error": "加载关卡“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "正在加载皮肤…",
+          "Error": "加载皮肤第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载皮肤详情…",
+          "Error": "加载皮肤“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查皮肤兼容性…",
+          "Error": "皮肤“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个皮肤，或联系服务器运营并汇报这个问题。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载皮肤缩图…",
+          "Error": "加载皮肤“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Data": {
+          "Loading": "正在加载皮肤数据…",
+          "Error": "加载皮肤“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Texture": {
+          "Loading": "正在加载皮肤材质…",
+          "Error": "加载皮肤“{0}”材质失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "正在加载背景…",
+          "Error": "加载背景第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载背景详情…",
+          "Error": "加载背景“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查背景兼容性…",
+          "Error": "背景“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个背景，或联系服务器运营并汇报这个问题。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载背景缩图…",
+          "Error": "加载背景“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Data": {
+          "Loading": "正在加载背景数据…",
+          "Error": "加载背景“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Image": {
+          "Loading": "正在加载背景图像…",
+          "Error": "加载背景“{0}”图像失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Configuration": {
+          "Loading": "正在加载背景配置…",
+          "Error": "加载背景“{0}”配置失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "正在加载音效…",
+          "Error": "加载音效第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载音效详情…",
+          "Error": "加载音效“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查音效兼容性…",
+          "Error": "音效“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个音效，或联系服务器运营并汇报这个问题。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载音效缩图…",
+          "Error": "加载音效“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Data": {
+          "Loading": "正在加载音效数据…",
+          "Error": "加载音效“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Audio": {
+          "Loading": "正在加载音效音频…",
+          "Error": "加载音效“{0}”音频失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "正在加载粒子效果…",
+          "Error": "加载粒子效果第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载粒子效果详情…",
+          "Error": "加载粒子效果“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查粒子效果兼容性…",
+          "Error": "粒子效果“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个粒子效果，或联系服务器运营并汇报这个问题。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载粒子效果缩图…",
+          "Error": "加载粒子效果“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Data": {
+          "Loading": "正在加载粒子效果数据…",
+          "Error": "加载粒子效果“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Texture": {
+          "Loading": "正在加载粒子效果材质…",
+          "Error": "加载粒子效果“{0}”材质失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "正在加载引擎…",
+          "Error": "加载引擎第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载引擎详情…",
+          "Error": "加载引擎“{0}”详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查引擎兼容性…",
+          "Error": "引擎“{0}”与当前 Sonolus 版本不兼容。\n\n请使用另一个引擎，或联系服务器运营并汇报这个问题。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载引擎缩图…",
+          "Error": "加载引擎“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Data": {
+          "Loading": "正在加载引擎数据…",
+          "Error": "加载引擎“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Rom": {
+          "Loading": "正在加载引擎ROM…",
+          "Error": "加载引擎“{0}”ROM失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Configuration": {
+          "Loading": "正在加载引擎配置…",
+          "Error": "加载引擎“{0}”配置失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      }
+    },
+    "Collection": {
+      "Server": {
+        "Info": {
+          "Loading": "正在加载收藏信息…",
+          "Error": "加载收藏“{0}”信息失败。\n\n您的收藏可能已损坏。"
+        },
+        "Banner": {
+          "Loading": "正在加载收藏横幅…",
+          "Error": "加载收藏“{0}”横幅失败。\n\n您的收藏可能已损坏。"
+        }
+      },
+      "Level": {
+        "List": {
+          "Loading": "正在加载关卡…",
+          "Error": "加载关卡第 {0} 页失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载关卡详情…",
+          "Error": "加载关卡“{0}”详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查关卡兼容性…",
+          "Error": "关卡“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个关卡，或使用另一个关卡。"
+        },
+        "Cover": {
+          "Loading": "正在加载关卡封面…",
+          "Error": "加载关卡“{0}”封面失败。\n\n请更新这个关卡，或使用另一个关卡。"
+        },
+        "Bgm": {
+          "Loading": "正在加载关卡音乐…",
+          "Error": "加载关卡“{0}”音乐失败。\n\n请更新这个关卡，或使用另一个关卡。"
+        },
+        "Preview": {
+          "Loading": "正在加载关卡预览…",
+          "Error": "加载关卡“{0}”预览失败。\n\n请更新这个关卡，或使用另一个关卡。"
+        },
+        "Data": {
+          "Loading": "正在加载关卡数据…",
+          "Error": "加载关卡“{0}”数据失败。\n\n请更新这个关卡，或使用另一个关卡。"
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "正在加载皮肤…",
+          "Error": "加载皮肤第 {0} 页失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载皮肤详情…",
+          "Error": "加载皮肤“{0}”详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查皮肤兼容性…",
+          "Error": "皮肤“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个皮肤，或使用另一个皮肤。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载皮肤缩图…",
+          "Error": "加载皮肤“{0}”缩图失败。\n\n请更新这个皮肤，或使用另一个皮肤。"
+        },
+        "Data": {
+          "Loading": "正在加载皮肤数据…",
+          "Error": "加载皮肤“{0}”数据失败。\n\n请更新这个皮肤，或使用另一个皮肤。"
+        },
+        "Texture": {
+          "Loading": "正在加载皮肤材质…",
+          "Error": "加载皮肤“{0}”材质失败。\n\n请更新这个皮肤，或使用另一个皮肤。"
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "正在加载背景…",
+          "Error": "加载背景第 {0} 页失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载背景详情…",
+          "Error": "加载背景“{0}”详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查背景兼容性…",
+          "Error": "背景“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个背景，或使用另一个背景。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载背景缩图…",
+          "Error": "加载背景“{0}”缩图失败。\n\n请更新这个背景，或使用另一个背景。"
+        },
+        "Data": {
+          "Loading": "正在加载背景数据…",
+          "Error": "加载背景“{0}”数据失败。\n\n请更新这个背景，或使用另一个背景。"
+        },
+        "Image": {
+          "Loading": "正在加载背景图像…",
+          "Error": "加载背景“{0}”图像失败。\n\n请更新这个背景，或使用另一个背景。"
+        },
+        "Configuration": {
+          "Loading": "正在加载背景配置…",
+          "Error": "加载背景“{0}”配置失败。\n\n请更新这个背景，或使用另一个背景。"
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "正在加载音效…",
+          "Error": "加载音效第 {0} 页失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载音效详情…",
+          "Error": "加载音效“{0}”详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查音效兼容性…",
+          "Error": "音效“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个音效，或使用另一个音效。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载音效缩图…",
+          "Error": "加载音效“{0}”缩图失败。\n\n请更新这个音效，或使用另一个音效。"
+        },
+        "Data": {
+          "Loading": "正在加载音效数据…",
+          "Error": "加载音效“{0}”数据失败。\n\n请更新这个音效，或使用另一个音效。"
+        },
+        "Audio": {
+          "Loading": "正在加载音效音频…",
+          "Error": "加载音效“{0}”音频失败。\n\n请更新这个音效，或使用另一个音效。"
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "正在加载粒子效果…",
+          "Error": "加载粒子效果第 {0} 页失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载粒子效果详情…",
+          "Error": "加载粒子效果“{0}”详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查粒子效果兼容性…",
+          "Error": "粒子效果“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个粒子效果，或使用另一个粒子效果。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载粒子效果缩图…",
+          "Error": "加载粒子效果“{0}”缩图失败。\n\n请更新这个粒子效果，或使用另一个粒子效果。"
+        },
+        "Data": {
+          "Loading": "正在加载粒子效果数据…",
+          "Error": "加载粒子效果“{0}”数据失败。\n\n请更新这个粒子效果，或使用另一个粒子效果。"
+        },
+        "Texture": {
+          "Loading": "正在加载粒子效果材质…",
+          "Error": "加载粒子效果“{0}”材质失败。\n\n请更新这个粒子效果，或使用另一个粒子效果。"
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "正在加载引擎…",
+          "Error": "加载引擎第 {0} 页失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载引擎详情…",
+          "Error": "加载引擎“{0}”详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查引擎兼容性…",
+          "Error": "引擎“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个引擎，或使用另一个引擎。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载引擎缩图…",
+          "Error": "加载引擎“{0}”缩图失败。\n\n请更新这个引擎，或使用另一个引擎。"
+        },
+        "Data": {
+          "Loading": "正在加载引擎数据…",
+          "Error": "加载引擎“{0}”数据失败。\n\n请更新这个引擎，或使用另一个引擎。"
+        },
+        "Rom": {
+          "Loading": "正在加载引擎ROM…",
+          "Error": "加载引擎“{0}”ROM失败。\n\n请更新这个引擎，或使用另一个引擎。"
+        },
+        "Configuration": {
+          "Loading": "正在加载引擎配置…",
+          "Error": "加载引擎“{0}”配置失败。\n\n请更新这个引擎，或使用另一个引擎。"
+        }
+      }
     },
     "Scp": {
-        "PermissionError": {
-            "Description": "Sonolus 无法获取执行此操作所需的权限。\n\n打开设置并授权 Sonolus 相应的权限。",
-            "Open": "打开"
+      "Server": {
+        "Info": {
+          "Loading": "正在加载收藏包信息…",
+          "Error": "加载收藏包“{0}”信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Banner": {
+          "Loading": "正在加载收藏包横幅…",
+          "Error": "加载收藏包“{0}”横幅失败。\n\n您的收藏包可能不受支持或已损坏。"
         }
+      },
+      "Level": {
+        "List": {
+          "Loading": "正在加载关卡…",
+          "Error": "加载关卡第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载关卡详情…",
+          "Error": "加载关卡“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查关卡兼容性…",
+          "Error": "关卡“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Cover": {
+          "Loading": "正在加载关卡封面…",
+          "Error": "加载关卡“{0}”封面失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Bgm": {
+          "Loading": "正在加载关卡音乐…",
+          "Error": "加载关卡“{0}”音乐失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Preview": {
+          "Loading": "正在加载关卡预览…",
+          "Error": "加载关卡“{0}”预览失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Data": {
+          "Loading": "正在加载关卡数据…",
+          "Error": "加载关卡“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "正在加载皮肤…",
+          "Error": "加载皮肤第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载皮肤详情…",
+          "Error": "加载皮肤“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查皮肤兼容性…",
+          "Error": "皮肤“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载皮肤缩图…",
+          "Error": "加载皮肤“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Data": {
+          "Loading": "正在加载皮肤数据…",
+          "Error": "加载皮肤“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Texture": {
+          "Loading": "正在加载皮肤材质…",
+          "Error": "加载皮肤“{0}”材质失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "正在加载背景…",
+          "Error": "加载背景第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载背景详情…",
+          "Error": "加载背景“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查背景兼容性…",
+          "Error": "背景“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载背景缩图…",
+          "Error": "加载背景“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Data": {
+          "Loading": "正在加载背景数据…",
+          "Error": "加载背景“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Image": {
+          "Loading": "正在加载背景图像…",
+          "Error": "加载背景“{0}”图像失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Configuration": {
+          "Loading": "正在加载背景配置…",
+          "Error": "加载背景“{0}”配置失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "正在加载音效…",
+          "Error": "加载音效第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载音效详情…",
+          "Error": "加载音效“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查音效兼容性…",
+          "Error": "音效“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载音效缩图…",
+          "Error": "加载音效“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Data": {
+          "Loading": "正在加载音效数据…",
+          "Error": "加载音效“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Audio": {
+          "Loading": "正在加载音效音频…",
+          "Error": "加载音效“{0}”音频失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "正在加载粒子效果…",
+          "Error": "加载粒子效果第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载粒子效果详情…",
+          "Error": "加载粒子效果“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查粒子效果兼容性…",
+          "Error": "粒子效果“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载粒子效果缩图…",
+          "Error": "加载粒子效果“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Data": {
+          "Loading": "正在加载粒子效果数据…",
+          "Error": "加载粒子效果“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Texture": {
+          "Loading": "正在加载粒子效果材质…",
+          "Error": "加载粒子效果“{0}”材质失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "正在加载引擎…",
+          "Error": "加载引擎第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载引擎详情…",
+          "Error": "加载引擎“{0}”详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查引擎兼容性…",
+          "Error": "引擎“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载引擎缩图…",
+          "Error": "加载引擎“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Data": {
+          "Loading": "正在加载引擎数据…",
+          "Error": "加载引擎“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Rom": {
+          "Loading": "正在加载引擎ROM…",
+          "Error": "加载引擎“{0}”ROM失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Configuration": {
+          "Loading": "正在加载引擎配置…",
+          "Error": "加载引擎“{0}”配置失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      }
+    }
+  },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "链接“{0}”无效。\n\n请使用其他链接。"
+    }
+  },
+  "Title": {
+    "TapToStart": "点击开始"
+  },
+  "Layout": {
+    "Refresh": "刷新",
+    "Back": "后退"
+  },
+  "Routes": {
+    "JumpToPage": {
+      "Title": "跳至页码",
+      "Page": {
+        "Title": "页码",
+        "Description": "页码。",
+        "Placeholder": "输入页码…"
+      },
+      "Jump": "跳至"
     },
-    "Runtimes": {
+    "SelectLocalization": {
+      "Title": "选择语言",
+      "Description": "选择一个首选语言：",
+      "Error": "加载语言失败。"
+    },
+    "SelectTheme": {
+      "Title": "选择主题",
+      "Description": "选择一个主题："
+    },
+    "SelectClient": {
+      "CustomServers": {
+        "Title": "自定义服务器",
+        "RemoveConfirmation": {
+          "Description": "您确定要删除“{0}”吗？"
+        }
+      },
+      "Collections": {
+        "Title": "收藏",
+        "RemoveConfirmation": {
+          "Description": "您确定要删除“{0}”吗？"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "开始",
+        "Description": "选择一个自定义服务器或收藏来开始游玩。"
+      },
+      "ToSave": {
         "Level": {
-            "Play": {
-                "Routes": {
-                    "Pause": {
-                        "Title": "暂停",
-                        "Control": {
-                            "Title": "控制",
-                            "Exit": "退出",
-                            "Restart": "重新开始"
-                        },
-                        "Snapshot": {
-                            "Title": "快照",
-                            "Mark": "标记",
-                            "Jump": "跳至"
-                        },
-                        "Debug": {
-                            "Title": "调试"
-                        }
-                    },
-                    "Result": {
-                        "Title": "结果",
-                        "Options": {
-                            "HasUsedPause": "暂停",
-                            "HasUsedSnapshot": "快照"
-                        },
-                        "Graphs": {
-                            "Title": "图表",
-                            "Judgment": {
-                                "Title": "判定图"
-                            },
-                            "Accuracy": {
-                                "Title": "准度图",
-                                "AbsValue": "绝对值",
-                                "Mean": "平均值",
-                                "StDev": "标准差",
-                                "Min": "最小值",
-                                "Max": "最大值"
-                            },
-                            "Bucket": {
-                                "Title": "分类图"
-                            }
-                        }
-                    }
-                }
-            }
+          "Title": "保存关卡",
+          "Description": "选择一个收藏来保存这个关卡。"
+        },
+        "Skin": {
+          "Title": "选择皮肤",
+          "Description": "选择一个收藏来保存这个皮肤。"
+        },
+        "Background": {
+          "Title": "保存背景",
+          "Description": "选择一个收藏来保存这个背景。"
         },
         "Effect": {
-            "Preview": {
-                "Routes": {
-                    "Preview": {
-                        "Play": "播放"
-                    }
-                }
-            }
+          "Title": "保存音效",
+          "Description": "选择一个收藏来保存这个音效。"
+        },
+        "Particle": {
+          "Title": "保存粒子效果",
+          "Description": "选择一个收藏来保存这个粒子效果。"
+        },
+        "Engine": {
+          "Title": "保存引擎",
+          "Description": "选择一个收藏来保存这个引擎。"
         }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "选择关卡",
+          "Description": "选择一个自定义服务器或收藏来使用其中的关卡。"
+        },
+        "Skin": {
+          "Title": "选择皮肤",
+          "Description": "选择一个自定义服务器或收藏来使用其中的皮肤。"
+        },
+        "Background": {
+          "Title": "选择背景",
+          "Description": "选择一个自定义服务器或收藏来使用其中的背景。"
+        },
+        "Effect": {
+          "Title": "选择音效",
+          "Description": "选择一个自定义服务器或收藏来使用其中的音效。"
+        },
+        "Particle": {
+          "Title": "选择粒子效果",
+          "Description": "选择一个自定义服务器或收藏来使用其中的粒子效果。"
+        },
+        "Engine": {
+          "Title": "选择引擎",
+          "Description": "选择一个自定义服务器或收藏来使用其中的引擎。"
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "添加最爱关卡",
+          "Description": "选择一个自定义服务器来添加其中的关卡到最爱。"
+        },
+        "Skin": {
+          "Title": "添加最爱皮肤",
+          "Description": "选择一个自定义服务器来添加其中的皮肤到最爱。"
+        },
+        "Background": {
+          "Title": "添加最爱背景",
+          "Description": "选择一个自定义服务器来添加其中的背景到最爱。"
+        },
+        "Effect": {
+          "Title": "添加最爱音效",
+          "Description": "选择一个自定义服务器来添加其中的音效到最爱。"
+        },
+        "Particle": {
+          "Title": "添加最爱粒子效果",
+          "Description": "选择一个自定义服务器来添加其中的粒子效果到最爱。"
+        },
+        "Engine": {
+          "Title": "添加最爱引擎",
+          "Description": "选择一个自定义服务器来添加其中的引擎到最爱。"
+        }
+      }
+    },
+    "EditCustomServer": {
+      "Title": "编辑自定义服务器"
+    },
+    "AddCustomServerAddress": {
+      "Title": "添加自定义服务器",
+      "Address": {
+        "Title": "地址",
+        "Description": "Custom server address is a normal web URL (\"https://...\"), and can usually be found on custom server's webpage.\n自定义服务器的地址是一个普通的Web URL（https:// 开头），且通常可以在自定义服务器的网站上找到。",
+        "Placeholder": "输入自定义服务器地址…"
+      }
+    },
+    "AddCustomServerInfo": {
+      "Title": "添加自定义服务器",
+      "Info": {
+        "Error": "加载服务器“{0}”信息失败。\n\n请检查您是否输入了正确的服务器地址，检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+      },
+      "Name": {
+        "Title": "名称",
+        "Description": "你可以给它取任何你喜欢的名字。",
+        "Placeholder": "输入自定义服务器名称…"
+      }
+    },
+    "EditCollection": {
+      "Title": "编辑收藏"
+    },
+    "AddCollection": {
+      "Title": "添加收藏",
+      "Name": {
+        "Title": "名称",
+        "Description": "你可以随意为其取名。",
+        "Placeholder": "输入收藏名称…"
+      }
+    },
+    "ImportScp": {
+      "Scp": {
+        "Loading": "正在加载收藏包…",
+        "Error": "加载收藏包“{0}”失败。\n\n您的收藏包可能不受支持或已损坏。"
+      },
+      "Success": {
+        "Title": "收藏包已导入"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "收藏包已导出"
+      }
+    },
+    "EditVisibility": {
+      "Scale": {
+        "Title": "缩放",
+        "Description": "缩放。"
+      },
+      "Alpha": {
+        "Title": "透明度",
+        "Description": "透明度。"
+      }
+    },
+    "EditAnimation": {
+      "Scale": {
+        "Title": "缩放",
+        "Description": "缩放。"
+      },
+      "Alpha": {
+        "Title": "透明度",
+        "Description": "透明度。"
+      }
+    },
+    "EditTween": {
+      "From": {
+        "Title": "从",
+        "Description": "从。"
+      },
+      "To": {
+        "Title": "至",
+        "Description": "到。"
+      },
+      "Duration": {
+        "Title": "时长",
+        "Description": "区间。"
+      },
+      "Ease": {
+        "Title": "缓动",
+        "Description": "缓动。"
+      }
+    },
+    "EditColors": {
+      "Foreground": {
+        "Title": "前景",
+        "Description": "前景色。"
+      },
+      "Background": {
+        "Title": "背景",
+        "Description": "背景色。"
+      }
+    },
+    "CalibrateAudio": {
+      "Title": "校准音频",
+      "Description": "通过调整设备音频偏移来校准音频，让音频和图形同步。"
+    },
+    "CalibrateInput": {
+      "Title": "校准输入",
+      "Description": "通过用手指敲击来校准输入。请首先确保您的音频偏移已正确校准。\n如果您习惯玩不带此选项的游戏，可以保留为0。",
+      "Result": "推荐偏移：{0} (±{1})"
+    },
+    "Home": {
+      "Title": "主页",
+      "Play": "开始",
+      "Players": "玩家",
+      "Account": "账号",
+      "Settings": "设置",
+      "UpdateAvailable": {
+        "Title": "更新可用",
+        "Description": "Sonolus 版本 {0} 更新！\n\n访问我们的网站：\nhttps://sonolus.com",
+        "Open": "打开"
+      }
+    },
+    "Players": {
+      "Title": "玩家",
+      "PlayerLookup": {
+        "Title": "玩家查询",
+        "Id": {
+          "Title": "玩家 ID",
+          "Description": "玩家ID。",
+          "Placeholder": "输入玩家 ID…"
+        },
+        "Lookup": "查询"
+      }
+    },
+    "Account": {
+      "Title": "账号",
+      "MyAccount": {
+        "Title": "我的账号",
+        "Login": {
+          "Apple": "苹果登录",
+          "Google": "谷歌登录",
+          "Wechat": "微信登录"
+        },
+        "Profile": "资料",
+        "Logout": "登出"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "编辑名字",
+          "EditAvatar": "编辑头像"
+        },
+        "AboutMe": {
+          "Title": "关于我"
+        },
+        "SocialLinks": {
+          "Title": "社交链接",
+          "None": "没有社交链接。",
+          "OpenConfirmation": {
+            "Description": "此社交链接指向：\n{0}\n\n你确定要打开吗？"
+          }
+        },
+        "Favorites": {
+          "Title": "最爱",
+          "None": "没有最爱。"
+        }
+      },
+      "EditName": {
+        "Title": "编辑名字",
+        "Name": {
+          "Title": "名字",
+          "Description": "玩家名。",
+          "Placeholder": "输入玩家名字…"
+        }
+      },
+      "EditAvatar": {
+        "Title": "编辑头像",
+        "Foreground": {
+          "Title": "前景",
+          "Description": "头像前景。"
+        },
+        "Background": {
+          "Title": "背景",
+          "Description": "头像背景。"
+        }
+      },
+      "EditAboutMe": {
+        "Title": "编辑关于我",
+        "AboutMe": {
+          "Title": "关于我",
+          "Description": "关于你自己的一段简短介绍。",
+          "Placeholder": "输入关于我…"
+        }
+      },
+      "AddSocialLink": {
+        "Title": "添加社交链接",
+        "SocialLinkTitle": {
+          "Title": "标题",
+          "Description": "标题。",
+          "Placeholder": "输入社交链接标题…"
+        },
+        "SocialLinkAddress": {
+          "Title": "地址",
+          "Description": "一个指向目标的 Web URL（https:// 开头）。",
+          "Placeholder": "输入社交链接地址…"
+        }
+      },
+      "AddFavorite": {
+        "Title": "添加最爱",
+        "Description": "选择要添加的最爱类型：",
+        "Level": "关卡",
+        "Skin": "皮肤",
+        "Background": "背景",
+        "Effect": "音效",
+        "Particle": "粒子效果",
+        "Engine": "引擎"
+      }
+    },
+    "Server": {
+      "Home": {
+        "Levels": "关卡",
+        "Skins": "皮肤",
+        "Backgrounds": "背景",
+        "Effects": "音效",
+        "Particles": "粒子效果",
+        "Engines": "引擎",
+        "SaveSuccess": {
+          "Title": "服务器已保存"
+        },
+        "ShareSuccess": {
+          "Title": "服务器链接已复制"
+        }
+      },
+      "Search": {
+        "Title": "搜索"
+      },
+      "Lists": {
+        "DeleteConfirmation": {
+          "Description": "您确定要删除“{0}”吗？"
+        },
+        "Level": {
+          "Title": "关卡",
+          "ShareSuccess": {
+            "Title": "关卡链接已复制"
+          }
+        },
+        "Skin": {
+          "Title": "皮肤",
+          "ShareSuccess": {
+            "Title": "皮肤链接已复制"
+          }
+        },
+        "Background": {
+          "Title": "背景",
+          "ShareSuccess": {
+            "Title": "背景链接已复制"
+          }
+        },
+        "Effect": {
+          "Title": "音效",
+          "ShareSuccess": {
+            "Title": "音效链接已复制"
+          }
+        },
+        "Particle": {
+          "Title": "粒子效果",
+          "ShareSuccess": {
+            "Title": "粒子效果链接已复制"
+          }
+        },
+        "Engine": {
+          "Title": "引擎",
+          "ShareSuccess": {
+            "Title": "引擎链接已复制"
+          }
+        }
+      },
+      "Details": {
+        "Actions": {
+          "Configuration": "配置"
+        },
+        "DeleteConfirmation": {
+          "Description": "您确定要删除“{0}”吗？"
+        },
+        "Description": {
+          "Title": "描述"
+        },
+        "Recommended": {
+          "Title": "推荐"
+        },
+        "Level": {
+          "Actions": {
+            "Play": "开始"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "正在解码音效音频…",
+                "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "正在解码关卡音乐…",
+                "Error": "解码关卡“{0}”音乐失败。\n\n请联系关卡作者并汇报这个问题。"
+              }
+            },
+            "Boot": {
+              "Loading": "正在启动关卡…",
+              "Error": "启动关卡“{0}”失败。\n\n请联系关卡作者并汇报这个问题。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "关卡链接已复制"
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+            "Title": "皮肤链接已复制"
+          }
+        },
+        "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "正在启动背景…",
+              "Error": "启动背景“{0}”失败。\n\n请联系背景作者并汇报这个问题。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "背景链接已复制"
+          }
+        },
+        "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "正在解码音效音频…",
+              "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
+            },
+            "Boot": {
+              "Loading": "正在启动音效…",
+              "Error": "启动音效“{0}”失败。\n\n请联系音效作者并汇报这个问题。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "音效链接已复制"
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+            "Title": "粒子效果链接已复制"
+          }
+        },
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "引擎链接已复制"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "关卡配置",
+          "Offsets": {
+            "LevelAudioOffset": {
+              "Title": "关卡音频偏移",
+              "Description": "针对此关卡单独设置的音频偏移，应当在此关卡的音频特别不同步的时候使用。如果音频延后了就调大，否则就调小。"
+            },
+            "ServerAudioOffset": {
+              "Title": "服务器音频偏移",
+              "Description": "针对此服务器设置的音频偏移，应当在此服务器所有关卡的音频不同步的时候使用。如果音频延后了就调大，否则就调小。"
+            }
+          }
+        },
+        "Skin": {
+          "Title": "皮肤配置"
+        },
+        "Background": {
+          "Title": "背景配置",
+          "Image": {
+            "Title": "图像",
+            "Blur": {
+              "Title": "模糊",
+              "Description": "模糊背景图像以减少干扰。"
+            },
+            "Mask": {
+              "Title": "遮罩",
+              "Description": "蒙版可使背景图像变暗或着色。"
+            }
+          }
+        },
+        "Effect": {
+          "Title": "音效配置"
+        },
+        "Particle": {
+          "Title": "粒子效果配置"
+        },
+        "Engine": {
+          "Title": "引擎配置",
+          "Skin": {
+            "Title": "皮肤"
+          },
+          "Background": {
+            "Title": "背景"
+          },
+          "Effect": {
+            "Title": "音效"
+          },
+          "Particle": {
+            "Title": "粒子效果"
+          },
+          "Options": {
+            "Title": "选项"
+          },
+          "UI": {
+            "PrimaryMetric": {
+              "Title": "主要指标",
+              "Description": "要显示的主要指标。"
+            },
+            "SecondaryMetric": {
+              "Title": "次要指标",
+              "Description": "要显示的辅助指标。"
+            },
+            "JudgmentErrorStyle": {
+              "Title": "判定误差样式",
+              "Description": "判定误差的风格。左侧是正的判定误差，右侧是负的判定误差。"
+            },
+            "JudgmentErrorPlacement": {
+              "Title": "判定误差位置",
+              "Description": "判定误差的位置。"
+            },
+            "JudgmentErrorMin": {
+              "Title": "最小判定误差",
+              "Description": "最小判定误差。只有大于此的判定误差才会显示。"
+            },
+            "MenuStyle": {
+              "Title": "菜单样式",
+              "Description": "菜单样式。"
+            },
+            "JudgmentStyle": {
+              "Title": "判定样式",
+              "Description": "判定样式。"
+            },
+            "ComboStyle": {
+              "Title": "连击样式",
+              "Description": "连击样式。"
+            },
+            "PrimaryMetricStyle": {
+              "Title": "主要指标样式",
+              "Description": "主要指标样式。"
+            },
+            "SecondaryMetricStyle": {
+              "Title": "次要指标样式",
+              "Description": "次要指标样式。"
+            }
+          },
+          "Offsets": {
+            "EngineInputOffset": {
+              "Title": "引擎输入偏移",
+              "Description": "推荐设置为 0。\n\n针对此引擎的输入偏移量，只有在您游玩该引擎时遇到困难时才应使用。如果您的输入判定得太晚就调大，否则就调小。"
+            }
+          }
+        }
+      },
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "关卡已保存"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "皮肤已保存"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景已保存"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "音效已保存"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "粒子效果已保存"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "引擎已保存"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "Title": "设置",
+      "Graphics": {
+        "Title": "图像",
+        "TargetFps": {
+          "Title": "目标 FPS",
+          "Description": "建议设置为您设备的屏幕刷新率。\n\nSonolus 的目标是在此 FPS 下运行，但如果设备性能无法满足要求，则无法保证。"
+        },
+        "RenderMode": {
+          "Title": "渲染模式",
+          "Description": "推荐使用标准渲染模式。\n\n标准渲染模式提供准确的图形；轻量级渲染模式则提供稍微不准确的图形，但大大提高了性能。",
+          "Options": {
+            "Standard": "标准",
+            "Lightweight": "轻量级"
+          }
+        },
+        "RenderScale": {
+          "Title": "渲染比例",
+          "Description": "建议设置为 100%。\n\nSonolus 以此比例进行渲染，并放大或缩小到屏幕尺寸。渲染比例高于 100% 可能会提高图形质量，但代价是性能较差；而渲染比例低于 100% 可能会提高性能，但代价是图形质量较差。"
+        },
+        "AntiAliasing": {
+          "Title": "抗锯齿",
+          "Description": "建议设置为关闭。\n\n抗锯齿通过最大限度地减少锯齿（尤其是精灵边缘周围的锯齿）来改善图形，但代价是性能变差。",
+          "Options": {
+            "Off": "关",
+            "TwoX": "2x",
+            "FourX": "4x",
+            "EightX": "8x"
+          }
+        },
+        "GpuParticleSystem": {
+          "Title": "GPU 粒子系统",
+          "Description": "建议设置为关闭。\n\nSonolus 默认使用 CPU 粒子系统。开启后，将使用 GPU 粒子系统。对于大多数移动设备，GPU 比 CPU 弱，因此不建议这样做。"
+        },
+        "IgnoreNotch": {
+          "Title": "忽略屏幕缺口",
+          "Description": "Sonolus 默认情况下会考虑设备的刘海，以确保图形始终可见。开启后，Sonolus 会忽略刘海并全屏渲染，这可能会导致有部分图形被遮挡。"
+        }
+      },
+      "Audio": {
+        "Title": "音频",
+        "BgmVolume": {
+          "Title": "音乐音量",
+          "Description": "BGM 音量。"
+        },
+        "SfxVolume": {
+          "Title": "音效音量",
+          "Description": "音效音量。"
+        },
+        "UIVolume": {
+          "Title": "用户界面音量",
+          "Description": "UI 音量。"
+        },
+        "AlwaysDecodeLevelBgm": {
+          "Title": "总是解码关卡音乐",
+          "Description": "建议设置为关闭。\n\nSonolus 默认情况下使用操作系统底层的音频功能以获得最佳性能，并且仅在本机不支持该格式时才解码关卡 BGM。打开时，Sonolus 始终解码 BGM。"
+        },
+        "PreviewBgm": {
+          "Title": "预览音乐",
+          "Description": "播放预览 BGM 的地方。",
+          "Options": {
+            "Off": "关",
+            "DetailsOnly": "仅在详情",
+            "ListAndDetails": "列表与详情"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "关卡音乐质量",
+          "Description": "建议设置为高。\n\nSonolus 默认情况下使用操作系统底层的音频功能以获得最佳性能，并且仅在本机不支持该格式时才解码关卡 BGM。关卡 BGM 将以该质量进行解码。",
+          "Options": {
+            "Low": "低",
+            "Mid": "中",
+            "High": "高"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "预览音乐质量",
+          "Description": "推荐设置为中。\n\nSonolus 默认情况下使用操作系统底层的音频功能以获得最佳性能，并且仅在本机不支持该格式时才解码预览 BGM。预览 BGM 将以该质量进行解码。",
+          "Options": {
+            "Low": "低",
+            "Mid": "中",
+            "High": "高"
+          }
+        }
+      },
+      "UI": {
+        "Title": "用户界面",
+        "Localization": {
+          "Title": "语言",
+          "Description": "使用的语言。"
+        },
+        "Theme": {
+          "Title": "主题",
+          "Description": "使用的颜色主题。"
+        },
+        "Scale": {
+          "Title": "用户界面比例",
+          "Description": "使用的 UI 比例。如果您阅读时有困难，则增加；如果您想要在屏幕上一次性显示更多内容，则减少。"
+        },
+        "UnpauseDelay": {
+          "Title": "暂停恢复延迟",
+          "Description": "取消暂停时的倒计时。"
+        },
+        "PerfectJudgmentColors": {
+          "Title": "Perfect 判定颜色",
+          "Description": "Perfect 判定颜色。"
+        },
+        "GreatJudgmentColors": {
+          "Title": "Great 判定颜色",
+          "Description": "Great 判定颜色。"
+        },
+        "GoodJudgmentColors": {
+          "Title": "Good 判定颜色",
+          "Description": "Good 判定颜色。"
+        },
+        "MissJudgmentColors": {
+          "Title": "Miss 判定颜色",
+          "Description": "Miss 判定颜色。"
+        },
+        "PositiveJudgmentErrorColors": {
+          "Title": "正判定误差颜色",
+          "Description": "正判定误差颜色。"
+        },
+        "NegativeJudgmentErrorColors": {
+          "Title": "负判定误差颜色",
+          "Description": "负判定误差颜色。"
+        },
+        "AllPerfectComboColors": {
+          "Title": "All Perfect 连击颜色",
+          "Description": "目前是 All Perfect 时的连击数字颜色。"
+        },
+        "FullComboComboColors": {
+          "Title": "Full Combo 连击颜色",
+          "Description": "目前是 Full Combo 时的连击数字颜色。"
+        },
+        "PassComboColors": {
+          "Title": "Pass 连击颜色",
+          "Description": "目前是 Pass 时的连击数字颜色。"
+        },
+        "FailComboColors": {
+          "Title": "Fail 连击颜色",
+          "Description": "目前是 Fail 时的连击数字颜色。"
+        },
+        "BoldComboNumber": {
+          "Title": "加粗连击数字",
+          "Description": "为连击数字使用粗体。"
+        },
+        "ShowZeroCombo": {
+          "Title": "显示零连击",
+          "Description": "当连击为 0 时显示连击数字。"
+        }
+      },
+      "Offsets": {
+        "Title": "偏移",
+        "Device": {
+          "Title": "设备",
+          "Description": "使用此功能来保存使用不同设备时的偏移量，例如使用扬声器、耳机、蓝牙等播放时。",
+          "Option": "设备 {0}"
+        },
+        "DeviceAudioOffset": {
+          "Title": "设备音频偏移",
+          "Description": "建议设置为 0。\n\n您使用的设备的音频偏移。对于大多数使用扬声器的设备，0 是正确的偏移量。不建议使用蓝牙。如果您的音频延后了就调大，否则就调小。"
+        },
+        "DeviceInputOffset": {
+          "Title": "设备输入偏移",
+          "Description": "建议设置为 0。\n\n您使用的设备的输入偏移。如果您习惯不提供此类选项的游戏，则可以将其保留为 0。如果您的输入判定得太晚就调大，否则就调小。"
+        }
+      },
+      "Repository": {
+        "Title": "资料库",
+        "Manage": "管理"
+      },
+      "Cache": {
+        "Title": "缓存",
+        "AlwaysRevalidate": {
+          "Title": "总是验证",
+          "Description": "建议设置为关闭。\n\n默认情况下，Sonolus 仅在资源过期后才会重新验证线上的资源。打开后，线上的资源在使用前始终会重新进行验证。"
+        },
+        "Manage": "管理"
+      },
+      "Developer": {
+        "Title": "开发者",
+        "ShowFps": {
+          "Title": "显示帧率",
+          "Description": "在屏幕左下角显示 FPS 计数器。"
+        },
+        "FpsStyle": {
+          "Title": "帧率样式",
+          "Description": "FPS 计数器的样式。"
+        },
+        "ShowTouches": {
+          "Title": "显示触摸",
+          "Description": "显示触摸指示器。触摸指示器对于视频录制时显示输入触点非常有用。"
+        },
+        "TouchStyle": {
+          "Title": "触摸样式",
+          "Description": "触摸指示器的样式。"
+        },
+        "DebugMode": {
+          "Title": "调试模式",
+          "Description": "调试模式允许调试特定代码运行，并在屏幕右下角显示调试日志。"
+        },
+        "DebugLogStyle": {
+          "Title": "调试日志样式",
+          "Description": "调试日志的样式。"
+        }
+      }
+    },
+    "ManageRepository": {
+      "Title": "管理资料库",
+      "Repository": {
+        "Title": "资料库",
+        "Description": "资料库保存在本设备上可用的全部资源。",
+        "Size": "大小：{0}"
+      },
+      "DeleteRepository": {
+        "Title": "删除资料库",
+        "Description": "删除全部资料库资源会使得 Sonolus 请求资源时重新下载。",
+        "Delete": "删除",
+        "DeleteConfirmation": {
+          "Description": "您确定要删除全部资料库资源吗？",
+          "Loading": "正在删除资料库…"
+        },
+        "Success": {
+          "Title": "资料库已删除"
+        }
+      }
+    },
+    "ManageCache": {
+      "Title": "管理缓存",
+      "Cache": {
+        "Title": "缓存",
+        "Description": "缓存通过记忆网络链接与关联的本地资料库资源，来提高 Sonolus 加载网络请求的速度并降低带宽使用量。\n缓存占用很少的储存大小，推荐不删除。",
+        "Count": "缓存：{0} 条"
+      },
+      "ExpireCache": {
+        "Title": "过期缓存",
+        "Description": "将全部缓存过期会使得 Sonolus 验证网络请求后再使用对应的本地资料库的资源。",
+        "Expire": "过期",
+        "ExpireConfirmation": {
+          "Description": "您确定要将全部缓存过期吗？"
+        },
+        "Success": {
+          "Title": "缓存已过期"
+        }
+      },
+      "DeleteCache": {
+        "Title": "删除缓存",
+        "Description": "删除全部缓存会使得Sonolus重新下载全部网络请求。不推荐。",
+        "Delete": "删除",
+        "DeleteConfirmation": {
+          "Description": "您确定要删除全部缓存吗？"
+        },
+        "Success": {
+          "Title": "缓存已删除"
+        }
+      }
     }
+  },
+  "Scp": {
+    "PermissionError": {
+      "Description": "Sonolus 无法获取执行此操作所需的权限。\n\n打开设置并授权 Sonolus 相应的权限。",
+      "Open": "打开"
+    }
+  },
+  "Runtimes": {
+    "Level": {
+      "Play": {
+        "Routes": {
+          "Pause": {
+            "Title": "暂停",
+            "Control": {
+              "Title": "控制",
+              "Exit": "退出",
+              "Restart": "重新开始"
+            },
+            "Snapshot": {
+              "Title": "快照",
+              "Mark": "标记",
+              "Jump": "跳至"
+            },
+            "Debug": {
+              "Title": "调试"
+            }
+          },
+          "Result": {
+            "Title": "结果",
+            "Options": {
+              "HasUsedPause": "暂停",
+              "HasUsedSnapshot": "快照"
+            },
+            "Graphs": {
+              "Title": "图表",
+              "Judgment": {
+                "Title": "判定图"
+              },
+              "Accuracy": {
+                "Title": "准度图",
+                "AbsValue": "绝对值",
+                "Mean": "平均值",
+                "StDev": "标准差",
+                "Min": "最小值",
+                "Max": "最大值"
+              },
+              "Bucket": {
+                "Title": "分类图"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "播放"
+          }
+        }
+      }
+    }
+  }
 }
