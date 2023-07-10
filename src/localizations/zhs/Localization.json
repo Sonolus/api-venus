@@ -227,28 +227,36 @@
       "Components": {
         "Hex": {
           "Title": "HEX",
+          "Description": "#RRGGBB 或 #RRGGBBAA，其中每个分量的范围是 00 到 FF。",
           "Placeholder": "输入颜色 HEX…"
         },
         "R": {
-          "Title": "红（R）"
+          "Title": "红（R）",
+          "Description": "红色。"
         },
         "G": {
-          "Title": "绿（G）"
+          "Title": "绿（G）",
+          "Description": "绿色。"
         },
         "B": {
-          "Title": "蓝（B）"
+          "Title": "蓝（B）",
+          "Description": "蓝色。"
         },
         "H": {
-          "Title": "色调（H）"
+          "Title": "色调（H）",
+          "Description": "色相。"
         },
         "S": {
-          "Title": "饱和（S）"
+          "Title": "饱和（S）",
+          "Description": "饱和度。"
         },
         "V": {
-          "Title": "值（V）"
+          "Title": "值（V）",
+          "Description": "亮度。"
         },
         "A": {
-          "Title": "透明度（A）"
+          "Title": "透明度（A）",
+          "Description": "透明度。"
         }
       }
     },
@@ -415,6 +423,7 @@
     },
     "CustomServer": {
       "SonolusVersionError": "此服务器只支持 Sonolus 版本 {0}。\n\n请更新您的 Sonolus，或联系服务器运营并汇报这个问题。",
+      "SonolusVersionTooOld": "此服务器仅支持版本为 ({0}) 的旧版本 Sonolus。\n\n请等待服务器完成升级，或联系服务器所有者报告此问题。",
       "Session": {
         "NeedAuthentication": {
           "NotLoggedInError": {
@@ -995,6 +1004,7 @@
       "Title": "跳至页码",
       "Page": {
         "Title": "页码",
+        "Description": "页码。",
         "Placeholder": "输入页码…"
       },
       "Jump": "跳至"
@@ -1113,6 +1123,7 @@
       "Title": "添加自定义服务器",
       "Address": {
         "Title": "地址",
+        "Description": "Custom server address is a normal web URL (\"https://...\"), and can usually be found on custom server's webpage.\n自定义服务器的地址是一个普通的Web URL（https:// 开头），且通常可以在自定义服务器的网站上找到。",
         "Placeholder": "输入自定义服务器地址…"
       }
     },
@@ -1123,6 +1134,7 @@
       },
       "Name": {
         "Title": "名称",
+        "Description": "你可以给它取任何你喜欢的名字。",
         "Placeholder": "输入自定义服务器名称…"
       }
     },
@@ -1133,6 +1145,7 @@
       "Title": "添加收藏",
       "Name": {
         "Title": "名称",
+        "Description": "你可以随意为其取名。",
         "Placeholder": "输入收藏名称…"
       }
     },
@@ -1152,40 +1165,50 @@
     },
     "EditVisibility": {
       "Scale": {
-        "Title": "缩放"
+        "Title": "缩放",
+        "Description": "缩放。"
       },
       "Alpha": {
-        "Title": "透明度"
+        "Title": "透明度",
+        "Description": "透明度。"
       }
     },
     "EditAnimation": {
       "Scale": {
-        "Title": "缩放"
+        "Title": "缩放",
+        "Description": "缩放。"
       },
       "Alpha": {
-        "Title": "透明度"
+        "Title": "透明度",
+        "Description": "透明度。"
       }
     },
     "EditTween": {
       "From": {
-        "Title": "从"
+        "Title": "从",
+        "Description": "从。"
       },
       "To": {
-        "Title": "至"
+        "Title": "至",
+        "Description": "到。"
       },
       "Duration": {
-        "Title": "时长"
+        "Title": "时长",
+        "Description": "区间。"
       },
       "Ease": {
-        "Title": "缓动"
+        "Title": "缓动",
+        "Description": "缓动。"
       }
     },
     "EditColors": {
       "Foreground": {
-        "Title": "前景"
+        "Title": "前景",
+        "Description": "前景色。"
       },
       "Background": {
-        "Title": "背景"
+        "Title": "背景",
+        "Description": "背景色。"
       }
     },
     "CalibrateAudio": {
@@ -1215,6 +1238,7 @@
         "Title": "玩家查询",
         "Id": {
           "Title": "玩家 ID",
+          "Description": "玩家ID。",
           "Placeholder": "输入玩家 ID…"
         },
         "Lookup": "查询"
@@ -1258,22 +1282,26 @@
         "Title": "编辑名字",
         "Name": {
           "Title": "名字",
+          "Description": "玩家名。",
           "Placeholder": "输入玩家名字…"
         }
       },
       "EditAvatar": {
         "Title": "编辑头像",
         "Foreground": {
-          "Title": "前景"
+          "Title": "前景",
+          "Description": "头像前景。"
         },
         "Background": {
-          "Title": "背景"
+          "Title": "背景",
+          "Description": "头像背景。"
         }
       },
       "EditAboutMe": {
         "Title": "编辑关于我",
         "AboutMe": {
           "Title": "关于我",
+          "Description": "关于你自己的一段简短介绍。",
           "Placeholder": "输入关于我…"
         }
       },
@@ -1281,10 +1309,12 @@
         "Title": "添加社交链接",
         "SocialLinkTitle": {
           "Title": "标题",
+          "Description": "标题。",
           "Placeholder": "输入社交链接标题…"
         },
         "SocialLinkAddress": {
           "Title": "地址",
+          "Description": "一个指向目标的 Web URL（https:// 开头）。",
           "Placeholder": "输入社交链接地址…"
         }
       },
@@ -1444,10 +1474,12 @@
           "Title": "关卡配置",
           "Offsets": {
             "LevelAudioOffset": {
-              "Title": "关卡音频偏移"
+              "Title": "关卡音频偏移",
+              "Description": "针对此关卡单独设置的音频偏移，应当在此关卡的音频特别不同步的时候使用。如果音频延后了就调大，否则就调小。"
             },
             "ServerAudioOffset": {
-              "Title": "服务器音频偏移"
+              "Title": "服务器音频偏移",
+              "Description": "针对此服务器设置的音频偏移，应当在此服务器所有关卡的音频不同步的时候使用。如果音频延后了就调大，否则就调小。"
             }
           }
         },
@@ -1459,10 +1491,12 @@
           "Image": {
             "Title": "图像",
             "Blur": {
-              "Title": "模糊"
+              "Title": "模糊",
+              "Description": "模糊背景图像以减少干扰。"
             },
             "Mask": {
-              "Title": "遮罩"
+              "Title": "遮罩",
+              "Description": "蒙版可使背景图像变暗或着色。"
             }
           }
         },
@@ -1491,39 +1525,50 @@
           },
           "UI": {
             "PrimaryMetric": {
-              "Title": "主要指标"
+              "Title": "主要指标",
+              "Description": "要显示的主要指标。"
             },
             "SecondaryMetric": {
-              "Title": "次要指标"
+              "Title": "次要指标",
+              "Description": "要显示的辅助指标。"
             },
             "JudgmentErrorStyle": {
-              "Title": "判定误差样式"
+              "Title": "判定误差样式",
+              "Description": "判定误差的风格。左侧是正的判定误差，右侧是负的判定误差。"
             },
             "JudgmentErrorPlacement": {
-              "Title": "判定误差位置"
+              "Title": "判定误差位置",
+              "Description": "判定误差的位置。"
             },
             "JudgmentErrorMin": {
-              "Title": "最小判定误差"
+              "Title": "最小判定误差",
+              "Description": "最小判定误差。只有大于此的判定误差才会显示。"
             },
             "MenuStyle": {
-              "Title": "菜单样式"
+              "Title": "菜单样式",
+              "Description": "菜单样式。"
             },
             "JudgmentStyle": {
-              "Title": "判定样式"
+              "Title": "判定样式",
+              "Description": "判定样式。"
             },
             "ComboStyle": {
-              "Title": "连击样式"
+              "Title": "连击样式",
+              "Description": "连击样式。"
             },
             "PrimaryMetricStyle": {
-              "Title": "主要指标样式"
+              "Title": "主要指标样式",
+              "Description": "主要指标样式。"
             },
             "SecondaryMetricStyle": {
-              "Title": "次要指标样式"
+              "Title": "次要指标样式",
+              "Description": "次要指标样式。"
             }
           },
           "Offsets": {
             "EngineInputOffset": {
-              "Title": "引擎输入偏移"
+              "Title": "引擎输入偏移",
+              "Description": "推荐设置为 0。\n\n针对此引擎的输入偏移量，只有在您游玩该引擎时遇到困难时才应使用。如果您的输入判定得太晚就调大，否则就调小。"
             }
           }
         }
@@ -1566,17 +1611,24 @@
       "Graphics": {
         "Title": "图像",
         "TargetFps": {
-          "Title": "目标 FPS"
+          "Title": "目标 FPS",
+          "Description": "建议设置为您设备的屏幕刷新率。\n\nSonolus 的目标是在此 FPS 下运行，但如果设备性能无法满足要求，则无法保证。"
         },
         "RenderMode": {
+          "Title": "渲染模式",
+          "Description": "推荐使用标准渲染模式。\n\n标准渲染模式提供准确的图形；轻量级渲染模式则提供稍微不准确的图形，但大大提高了性能。",
           "Options": {
+            "Standard": "标准",
+            "Lightweight": "轻量级"
           }
         },
         "RenderScale": {
-          "Title": "渲染比例"
+          "Title": "渲染比例",
+          "Description": "建议设置为 100%。\n\nSonolus 以此比例进行渲染，并放大或缩小到屏幕尺寸。渲染比例高于 100% 可能会提高图形质量，但代价是性能较差；而渲染比例低于 100% 可能会提高性能，但代价是图形质量较差。"
         },
         "AntiAliasing": {
           "Title": "抗锯齿",
+          "Description": "建议设置为关闭。\n\n抗锯齿通过最大限度地减少锯齿（尤其是精灵边缘周围的锯齿）来改善图形，但代价是性能变差。",
           "Options": {
             "Off": "关",
             "TwoX": "2x",
@@ -1585,28 +1637,35 @@
           }
         },
         "GpuParticleSystem": {
-          "Title": "GPU 粒子系统"
+          "Title": "GPU 粒子系统",
+          "Description": "建议设置为关闭。\n\nSonolus 默认使用 CPU 粒子系统。开启后，将使用 GPU 粒子系统。对于大多数移动设备，GPU 比 CPU 弱，因此不建议这样做。"
         },
         "IgnoreNotch": {
-          "Title": "忽略屏幕缺口"
+          "Title": "忽略屏幕缺口",
+          "Description": "Sonolus 默认情况下会考虑设备的刘海，以确保图形始终可见。开启后，Sonolus 会忽略刘海并全屏渲染，这可能会导致有部分图形被遮挡。"
         }
       },
       "Audio": {
         "Title": "音频",
         "BgmVolume": {
-          "Title": "音乐音量"
+          "Title": "音乐音量",
+          "Description": "BGM 音量。"
         },
         "SfxVolume": {
-          "Title": "音效音量"
+          "Title": "音效音量",
+          "Description": "音效音量。"
         },
         "UIVolume": {
-          "Title": "用户界面音量"
+          "Title": "用户界面音量",
+          "Description": "UI 音量。"
         },
         "AlwaysDecodeLevelBgm": {
-          "Title": "总是解码关卡音乐"
+          "Title": "总是解码关卡音乐",
+          "Description": "建议设置为关闭。\n\nSonolus 默认情况下使用操作系统底层的音频功能以获得最佳性能，并且仅在本机不支持该格式时才解码关卡 BGM。打开时，Sonolus 始终解码 BGM。"
         },
         "PreviewBgm": {
           "Title": "预览音乐",
+          "Description": "播放预览 BGM 的地方。",
           "Options": {
             "Off": "关",
             "DetailsOnly": "仅在详情",
@@ -1615,6 +1674,7 @@
         },
         "LevelBgmQuality": {
           "Title": "关卡音乐质量",
+          "Description": "建议设置为高。\n\nSonolus 默认情况下使用操作系统底层的音频功能以获得最佳性能，并且仅在本机不支持该格式时才解码关卡 BGM。关卡 BGM 将以该质量进行解码。",
           "Options": {
             "Low": "低",
             "Mid": "中",
@@ -1623,6 +1683,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "预览音乐质量",
+          "Description": "推荐设置为中。\n\nSonolus 默认情况下使用操作系统底层的音频功能以获得最佳性能，并且仅在本机不支持该格式时才解码预览 BGM。预览 BGM 将以该质量进行解码。",
           "Options": {
             "Low": "低",
             "Mid": "中",
@@ -1633,65 +1694,84 @@
       "UI": {
         "Title": "用户界面",
         "Localization": {
-          "Title": "语言"
+          "Title": "语言",
+          "Description": "使用的语言。"
         },
         "Theme": {
-          "Title": "主题"
+          "Title": "主题",
+          "Description": "使用的颜色主题。"
         },
         "Scale": {
-          "Title": "用户界面比例"
+          "Title": "用户界面比例",
+          "Description": "使用的 UI 比例。如果您阅读时有困难，则增加；如果您想要在屏幕上一次性显示更多内容，则减少。"
         },
         "UnpauseDelay": {
-          "Title": "暂停恢复延迟"
+          "Title": "暂停恢复延迟",
+          "Description": "取消暂停时的倒计时。"
         },
         "PerfectJudgmentColors": {
-          "Title": "Perfect 判定颜色"
+          "Title": "Perfect 判定颜色",
+          "Description": "Perfect 判定颜色。"
         },
         "GreatJudgmentColors": {
-          "Title": "Great 判定颜色"
+          "Title": "Great 判定颜色",
+          "Description": "Great 判定颜色。"
         },
         "GoodJudgmentColors": {
-          "Title": "Good 判定颜色"
+          "Title": "Good 判定颜色",
+          "Description": "Good 判定颜色。"
         },
         "MissJudgmentColors": {
-          "Title": "Miss 判定颜色"
+          "Title": "Miss 判定颜色",
+          "Description": "Miss 判定颜色。"
         },
         "PositiveJudgmentErrorColors": {
-          "Title": "正判定误差颜色"
+          "Title": "正判定误差颜色",
+          "Description": "正判定误差颜色。"
         },
         "NegativeJudgmentErrorColors": {
-          "Title": "负判定误差颜色"
+          "Title": "负判定误差颜色",
+          "Description": "负判定误差颜色。"
         },
         "AllPerfectComboColors": {
-          "Title": "All Perfect 连击颜色"
+          "Title": "All Perfect 连击颜色",
+          "Description": "目前是 All Perfect 时的连击数字颜色。"
         },
         "FullComboComboColors": {
-          "Title": "Full Combo 连击颜色"
+          "Title": "Full Combo 连击颜色",
+          "Description": "目前是 Full Combo 时的连击数字颜色。"
         },
         "PassComboColors": {
-          "Title": "Pass 连击颜色"
+          "Title": "Pass 连击颜色",
+          "Description": "目前是 Pass 时的连击数字颜色。"
         },
         "FailComboColors": {
-          "Title": "Fail 连击颜色"
+          "Title": "Fail 连击颜色",
+          "Description": "目前是 Fail 时的连击数字颜色。"
         },
         "BoldComboNumber": {
-          "Title": "加粗连击数字"
+          "Title": "加粗连击数字",
+          "Description": "为连击数字使用粗体。"
         },
         "ShowZeroCombo": {
-          "Title": "显示零连击"
+          "Title": "显示零连击",
+          "Description": "当连击为 0 时显示连击数字。"
         }
       },
       "Offsets": {
         "Title": "偏移",
         "Device": {
           "Title": "设备",
+          "Description": "使用此功能来保存使用不同设备时的偏移量，例如使用扬声器、耳机、蓝牙等播放时。",
           "Option": "设备 {0}"
         },
         "DeviceAudioOffset": {
-          "Title": "设备音频偏移"
+          "Title": "设备音频偏移",
+          "Description": "建议设置为 0。\n\n您使用的设备的音频偏移。对于大多数使用扬声器的设备，0 是正确的偏移量。不建议使用蓝牙。如果您的音频延后了就调大，否则就调小。"
         },
         "DeviceInputOffset": {
-          "Title": "设备输入偏移"
+          "Title": "设备输入偏移",
+          "Description": "建议设置为 0。\n\n您使用的设备的输入偏移。如果您习惯不提供此类选项的游戏，则可以将其保留为 0。如果您的输入判定得太晚就调大，否则就调小。"
         }
       },
       "Repository": {
@@ -1701,29 +1781,36 @@
       "Cache": {
         "Title": "缓存",
         "AlwaysRevalidate": {
-          "Title": "总是验证"
+          "Title": "总是验证",
+          "Description": "建议设置为关闭。\n\n默认情况下，Sonolus 仅在资源过期后才会重新验证线上的资源。打开后，线上的资源在使用前始终会重新进行验证。"
         },
         "Manage": "管理"
       },
       "Developer": {
         "Title": "开发者",
         "ShowFps": {
-          "Title": "显示帧率"
+          "Title": "显示帧率",
+          "Description": "在屏幕左下角显示 FPS 计数器。"
         },
         "FpsStyle": {
-          "Title": "帧率样式"
+          "Title": "帧率样式",
+          "Description": "FPS 计数器的样式。"
         },
         "ShowTouches": {
-          "Title": "显示触摸"
+          "Title": "显示触摸",
+          "Description": "显示触摸指示器。触摸指示器对于视频录制时显示输入触点非常有用。"
         },
         "TouchStyle": {
-          "Title": "触摸样式"
+          "Title": "触摸样式",
+          "Description": "触摸指示器的样式。"
         },
         "DebugMode": {
-          "Title": "调试模式"
+          "Title": "调试模式",
+          "Description": "调试模式允许调试特定代码运行，并在屏幕右下角显示调试日志。"
         },
         "DebugLogStyle": {
-          "Title": "调试日志样式"
+          "Title": "调试日志样式",
+          "Description": "调试日志的样式。"
         }
       }
     },
