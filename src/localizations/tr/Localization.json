@@ -1637,8 +1637,8 @@
           }
         },
         "GpuParticleSystem": {
-          "Title": "İşlemci Partikül Sistemi",
-          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak CPU parçacık sistemini kullanır. Bu ayar açıldığında, CPU yerine GPU partikül sistemi kullanılacaktır. Çoğu mobil cihaz için GPU, CPU'dan daha zayıftır ve bu nedenle bu önerilmez."
+          "Title": "Grafik İşlemci Partikül Sistemi",
+          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak Merkezî İşlem Birimi (CPU) parçacık sistemini kullanır. Bu ayar açıldığında, CPU yerine Grafik İşlem Birimi (GPU) partikül sistemi kullanılacaktır. Çoğu mobil cihaz için GPU, CPU'dan daha zayıftır ve bu nedenle bu önerilmez."
         },
         "IgnoreNotch": {
           "Title": "Kenar Çentiğini Yoksay",
