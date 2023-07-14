@@ -30,69 +30,82 @@
       "#JUDGMENT_LOOSE": "느슨한 판정",
       "#EFFECT": "SE",
       "#EFFECT_AUTO": "자동 SE",
-      "#STAGE": "무대",
-      "#STAGE_SIZE": "무대 크기",
-      "#STAGE_ROTATION": "무대 회전",
-      "#STAGE_ALPHA": "무대 투명도",
+      "#STAGE": "스테이지",
+      "#STAGE_POSITION": "스테이지 위치",
+      "#STAGE_SIZE": "스테이지 크기",
+      "#STAGE_ROTATION": "스테이지 회전",
+      "#STAGE_ALPHA": "스테이지 투명도",
       "#STAGE_ANIMATION": "스테이지 애니메이션",
-      "#STAGE_TILT": "무대 기울기",
+      "#STAGE_TILT": "스테이지 기울기",
       "#STAGE_COVER_VERTICAL": "수직 가리개",
       "#STAGE_COVER_HORIZONTAL": "수평 가리개",
       "#STAGE_COVER_ALPHA": "가리개 투명도",
       "#STAGE_ASPECTRATIO_LOCK": "화면비 잠금",
-      "#STAGE_EFFECT": "무대 효과",
-      "#STAGE_EFFECT_SIZE": "무대 효과 크기",
-      "#STAGE_EFFECT_ROTATION": "무대 효과 회전",
-      "#STAGE_EFFECT_ALPHA": "무대 효과 투명도",
+      "#STAGE_EFFECT": "스테이지 효과",
+      "#STAGE_EFFECT_POSITION": "스테이지 효과 위치 ",
+      "#STAGE_EFFECT_SIZE": "스테이지 효과 크기",
+      "#STAGE_EFFECT_ROTATION": "스테이지 효과 회전",
+      "#STAGE_EFFECT_ALPHA": "스테이지 효과 투명도",
       "#LANE": "레인",
+      "#LANE_POSITION": "레인 위치",
       "#LANE_SIZE": "레인 크기",
       "#LANE_ROTATION": "레인 회전",
       "#LANE_ALPHA": "레인 투명도",
       "#LANE_ANIMATION": "레인 애니메이션",
       "#LANE_EFFECT": "레인 효과",
+      "#LANE_EFFECT_POSITION": "레인 효과 위치",
       "#LANE_EFFECT_SIZE": "레인 효과 크기",
       "#LANE_EFFECT_ROTATION": "레인 효과 회전",
       "#LANE_EFFECT_ALPHA": "레인 효과 투명도",
       "#JUDGELINE": "판정선",
+      "#JUDGELINE_POSITION": "판정선 위치",
       "#JUDGELINE_SIZE": "판정선 크기",
       "#JUDGELINE_ROTATION": "판정선 회전",
       "#JUDGELINE_ALPHA": "판정선 투명도",
       "#JUDGELINE_ANIMATION": "판정선 애니메이션",
       "#JUDGELINE_EFFECT": "판정선 효과",
+      "#JUDGELINE_EFFECT_POSITION": "판정선 효과 위치 ",
       "#JUDGELINE_EFFECT_SIZE": "판정선 효과 크기",
       "#JUDGELINE_EFFECT_ROTATION": "판정선 효과 회전",
       "#JUDGELINE_EFFECT_ALPHA": "판정선 효과 투명도",
       "#SLOT": "슬롯",
+      "#SLOT_POSITION": "슬롯 위치",
       "#SLOT_SIZE": "슬롯 크기",
       "#SLOT_ROTATION": "슬롯 회전",
       "#SLOT_ALPHA": "슬롯 투명도",
       "#SLOT_ANIMATION": "슬롯 애니메이션",
       "#SLOT_EFFECT": "슬롯 효과",
+      "#SLOT_EFFECT_POSITION": "슬롯 효과 위치",
       "#SLOT_EFFECT_SIZE": "슬롯 효과 크기",
       "#SLOT_EFFECT_ROTATION": "슬롯 효과 회전",
       "#SLOT_EFFECT_ALPHA": "슬롯 효과 투명도",
       "#NOTE": "노트",
       "#NOTE_SPEED": "노트 속도",
       "#NOTE_SPEED_RANDOM": "랜덤 노트 속도",
+      "#NOTE_POSITION": "노트 위치",
       "#NOTE_SIZE": "노트 크기",
       "#NOTE_ROTATION": "노트 회전",
       "#NOTE_ALPHA": "노트 투명도",
       "#NOTE_ANIMATION": "노트 애니메이션",
       "#NOTE_EFFECT": "노트 효과",
+      "#NOTE_EFFECT_POSITION": "노트 효과 위치",
       "#NOTE_EFFECT_SIZE": "노트 효과 크기",
       "#NOTE_EFFECT_ROTATION": "노트 효과 회전",
       "#NOTE_EFFECT_ALPHA": "노트 효과 투명도",
       "#MARKER": "마커",
+      "#MARKER_POSITION": "마커 위치",
       "#MARKER_SIZE": "마커 크기",
       "#MARKER_ROTATION": "마커 회전",
       "#MARKER_ALPHA": "마커 투명도",
       "#MARKER_ANIMATION": "마커 애니메이션",
       "#CONNECTOR": "연결선",
+      "#CONNECTOR_POSITION": "연결선 위치",
       "#CONNECTOR_SIZE": "연결선 크기",
       "#CONNECTOR_ROTATION": "연결선 회전",
       "#CONNECTOR_ALPHA": "연결선 투명도",
       "#CONNECTOR_ANIMATION": "연결선 애니메이션",
       "#SIMLINE": "동시입력선",
+      "#SIMLINE_POSITION": "동시입력선 위치",
       "#SIMLINE_SIZE": "동시입력선 크기",
       "#SIMLINE_ROTATION": "동시입력선 회전",
       "#SIMLINE_ALPHA": "동시입력선 투명도",
@@ -104,7 +117,7 @@
       "#ALL": "전체",
       "#OTHERS": "기타",
       "#SHORT": "짧음",
-      "#LONG": "길음",
+      "#LONG": "김",
       "#HIGH": "높음",
       "#MID": "중간",
       "#LOW": "낮음",
@@ -162,15 +175,16 @@
     },
     "Unit": {
       "#PERCENTAGE": "{0}%",
-      "#SECOND": "{0} 초",
-      "#MILLISECOND": "{0} ms"
+      "#SECOND": "{0}초",
+      "#MILLISECOND": "{0}ms"
     }
   },
   "Common": {
-    "Loading": "로딩 중...",
+    "Loading": "로드 중...",
     "On": "켜짐",
     "Off": "꺼짐",
     "Select": "선택",
+    "Reset": "초기화",
     "Edit": "수정",
     "View": "보기",
     "Cancel": "취소",
@@ -190,6 +204,7 @@
     "PullToRefresh": "당겨서 새로고침하기",
     "Save": "저장",
     "Share": "공유",
+    "Export": "내보내기",
     "Update": "업데이트",
     "Delete": "삭제",
     "Preview": "미리보기",
@@ -204,18 +219,46 @@
     "Good": "Good",
     "Miss": "Miss",
     "AdvancedOption": "전문적인 플레이어를 위한 옵션입니다.",
+    "Colors": "색",
     "ColorField": {
       "Hex": "HEX",
       "Rgb": "RGB",
       "Hsv": "HSV",
-      "HexPlaceholder": "색상 Hex값을 입력하세요...",
-      "R": "R",
-      "G": "G",
-      "B": "B",
-      "H": "H",
-      "S": "S",
-      "V": "V",
-      "A": "투명도"
+      "Components": {
+        "Hex": {
+          "Title": "Hex",
+          "Description": "#RRGGBB 또는 #RRGGBBAA 형식이며, 각 값은 00에서 FF까지입니다.",
+          "Placeholder": "색 Hex값 입력..."
+        },
+        "R": {
+          "Title": "빨강",
+          "Description": "빨강."
+        },
+        "G": {
+          "Title": "초록",
+          "Description": "초록."
+        },
+        "B": {
+          "Title": "파랑",
+          "Description": "파랑."
+        },
+        "H": {
+          "Title": "색조",
+          "Description": "색조."
+        },
+        "S": {
+          "Title": "채도",
+          "Description": "채도."
+        },
+        "V": {
+          "Title": "값",
+          "Description": "값."
+        },
+        "A": {
+          "Title": "투명도",
+          "Description": "투명도."
+        }
+      }
     },
     "DeviceOffsetField": {
       "Calibrate": "판정 조절"
@@ -226,7 +269,7 @@
     },
     "UI": {
       "Metric": {
-        "Arcade": "점수",
+        "Arcade": "아케이드 점수",
         "Accuracy": "정확도 점수",
         "Life": "라이프",
         "PerfectRate": "Perfect 레이트",
@@ -303,7 +346,7 @@
     "Master": {
       "Info": {
         "Loading": "Sonolus 정보를 불러오는 중...",
-        "Error": "Sonolus 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요."
+        "Error": "Sonolus 정보를 불러올 수 없습니다.\n\n인터넷 연결 상태를 확인한 후 다시 시도하세요."
       },
       "List": {
         "Loading": "언어 목록을 불러오는 중...",
@@ -342,28 +385,28 @@
         "Loading": "프로필 사진을 수정하는 중...",
         "Error": "프로필 사진을 수정하지 못했어요.\n\n프로필 사진이 잘못되었는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
         "Success": {
-          "Title": "프로필 사진을 수정했어요"
+          "Title": "프로필 사진 수정됨"
         }
       },
       "EditAboutMe": {
-        "Loading": "자기소개를 수정하는 중...",
-        "Error": "자기소개를 수정하지 못했어요.\n\n자기소개가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+        "Loading": "내 소개를 수정하는 중...",
+        "Error": "내 소개를 수정할 수 없습니다.\n\n내 소개가 규정 및 길이 제한을 준수하는지 확인하거나, 인터넷 연결 상태를 확인한 후 다시 시도하세요.",
         "Success": {
-          "Title": "자기소개를 수정했어요"
+          "Title": "내 소개 수정됨"
         }
       },
       "EditSocialLinks": {
         "Loading": "SNS 링크를 수정하는 중...",
-        "Error": "SNS 링크를 수정하지 못했어요.\n\nSNS 링크가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+        "Error": "SNS 링크를 수정할 수 없습니다.\n\nSNS 링크가 규정 및 길이 제한을 준수하는지 확인하거나, 인터넷 연결 상태를 확인한 후 다시 시도하세요.",
         "Success": {
-          "Title": "SNS 링크를 수정했어요"
+          "Title": "SNS 링크 수정됨"
         }
       },
       "EditFavorites": {
         "Loading": "즐겨찾기를 수정하는 중...",
-        "Error": "즐겨찾기를 수정하지 못했어요.\n\n즐겨찾기가 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+        "Error": "즐겨찾기를 수정할 수 없습니다.\n\n즐겨찾기가 규정 및 길이 제한을 준수하는지 확인하거나, 인터넷 연결 상태를 확인한 후 다시 시도하세요.",
         "Success": {
-          "Title": "즐겨찾기를 수정했어요"
+          "Title": "즐겨찾기 수정됨"
         }
       },
       "AuthenticateServer": {
@@ -379,21 +422,22 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "이 서버는 Sonolus {0} 버전만 지원해요.\n\nSonolus를 업데이트하거나, 서버 주인에게 문의해주세요.",
+      "SonolusVersionError": "Sonolus {0} 버전만 지원하는 서버입니다.\n\nSonolus 앱을 업데이트하거나, 서버 주인에게 문의하여 문제를 보고하세요.",
+      "SonolusVersionTooOld": "이전 버전의 Sonolus만 지원하는 서버입니다 ({0}).\n\n서버가 업데이트 될 때까지 기다리거나, 서버 주인에게 문의하여 문제를 보고하세요.",
       "Session": {
         "NeedAuthentication": {
           "NotLoggedInError": {
-            "Description": "이 서버는 인증이 필요해요.\n\n먼저 로그인을 한 후 다시 시도해주세요."
+            "Description": "인증이 필요한 서버입니다.\n\n먼저 로그인 한 후 다시 시도하세요."
           },
           "Confirmation": {
-            "Description": "이 서버는 인증이 필요해요.\n\n\"{0}\" (으)로 인증하고 계속할까요?"
+            "Description": "인증이 필요한 서버입니다.\n\n\"{0}\"(으)로 인증하고 계속할까요?"
           }
         },
         "AuthenticationExpired": {
-          "Description": "인증이 만료되었어요.\n\n\"{0}\" (으)로 다시 인증하고 계속할까요?"
+          "Description": "인증이 만료되었습니다.\n\n\"{0}\"(으)로 다시 인증하고 계속할까요?"
         },
         "AuthenticationRejected": {
-          "Description": "인증이 거부되었어요.\n\n\"{0}\" (으)로 인증하고 계속할까요?"
+          "Description": "서버에서 인증을 거부했습니다.\n\n\"{0}\"(으)로 다시 인증하고 계속할까요?"
         },
         "Authenticate": {
           "Loading": "서버 인증 요청 중...",
@@ -958,8 +1002,11 @@
   "Routes": {
     "JumpToPage": {
       "Title": "페이지로 이동",
-      "Page": "페이지",
-      "PagePlaceholder": "페이지 번호 입력...",
+      "Page": {
+        "Title": "페이지",
+        "Description": "페이지 숫자.",
+        "Placeholder": "페이지 숫자 입력..."
+      },
       "Jump": "점프"
     },
     "SelectLocalization": {
@@ -1070,34 +1117,37 @@
       }
     },
     "EditCustomServer": {
-      "Title": "커스텀 서버 수정",
-      "Address": "주소",
-      "AddressPlaceholder": "커스텀 서버 주소 입력...",
-      "Name": "이름",
-      "NamePlaceholder": "커스텀 서버 이름 입력..."
+      "Title": "커스텀 서버 수정"
     },
     "AddCustomServerAddress": {
       "Title": "커스텀 서버 추가",
-      "Address": "주소",
-      "AddressPlaceholder": "커스텀 서버 주소 입력..."
+      "Address": {
+        "Title": "주소",
+        "Description": "커스텀 서버 주소는 일반 웹 URL(\"https://...\")이며, 보통은 커스텀 서버의 웹페이지에서 찾을 수 있어요.",
+        "Placeholder": "커스텀 서버 주소 입력..."
+      }
     },
     "AddCustomServerInfo": {
       "Title": "커스텀 서버 추가",
       "Info": {
         "Error": "\"{0}\" 서버의 정보를 불러오지 못했어요.\n\n서버 주소를 다시 입력해보거나, 인터넷 연결을 확인하고 다시 시도해주세요. 그래도 안된다면 서버 주인에게 문의하세요."
       },
-      "Name": "이름",
-      "NamePlaceholder": "커스텀 서버 이름 입력..."
+      "Name": {
+        "Title": "이름",
+        "Description": "마음대로 이름을 지정할 수 있어요.",
+        "Placeholder": "커스텀 서버 이름 입력..."
+      }
     },
     "EditCollection": {
-      "Title": "컬렉션 수정",
-      "Name": "이름",
-      "NamePlaceholder": "컬렉션 이름 입력..."
+      "Title": "컬렉션 수정"
     },
     "AddCollection": {
       "Title": "컬렉션 추가",
-      "Name": "이름",
-      "NamePlaceholder": "컬렉션 이름 입력..."
+      "Name": {
+        "Title": "이름",
+        "Description": "마음대로 이름을 지정할 수 있어요.",
+        "Placeholder": "컬렉션 이름 입력..."
+      }
     },
     "ImportScp": {
       "Scp": {
@@ -1114,33 +1164,61 @@
       }
     },
     "EditVisibility": {
-      "Scale": "스케일",
-      "Alpha": "투명도"
+      "Scale": {
+        "Title": "스케일",
+        "Description": "스케일."
+      },
+      "Alpha": {
+        "Title": "투명도",
+        "Description": "투명도."
+      }
     },
     "EditAnimation": {
-      "Scale": "스케일",
-      "Alpha": "투명도"
+      "Scale": {
+        "Title": "스케일",
+        "Description": "스케일."
+      },
+      "Alpha": {
+        "Title": "투명도",
+        "Description": "투명도."
+      }
     },
     "EditTween": {
-      "From": "시작",
-      "To": "끝",
-      "Duration": "길이",
-      "Ease": "함수"
+      "From": {
+        "Title": "시작",
+        "Description": "시작."
+      },
+      "To": {
+        "Title": "끝",
+        "Description": "끝."
+      },
+      "Duration": {
+        "Title": "길이",
+        "Description": "길이."
+      },
+      "Ease": {
+        "Title": "함수",
+        "Description": "함수."
+      }
     },
     "EditColors": {
-      "Foreground": "전경",
-      "Background": "배경"
+      "Foreground": {
+        "Title": "전경",
+        "Description": "전경 색."
+      },
+      "Background": {
+        "Title": "배경",
+        "Description": "배경 색."
+      }
     },
     "CalibrateAudio": {
       "Title": "오디오 보정",
-      "Description": "오디오와 그래픽이 일치할 때 까지 기기 오디오 오프셋을 조정해 오디오를 보정하세요.",
-      "DeviceAudioOffset": "기기 오디오 오프셋"
+      "Description": "오디오와 그래픽이 일치할 때 까지 기기 오디오 오프셋을 조정해 오디오를 보정하세요."
     },
     "CalibrateInput": {
       "Title": "입력 보정",
       "Description": "먼저 오디오 오프셋이 보정되었는지 확인한 후, 손가락으로 탭하며 입력을 보정하세요.\n이런 설정이 없는 게임에 익숙하시다면, 0에 놔두세요.",
-      "Result": "추천 오프셋: {0} (±{1})",
-      "DeviceInputOffset": "기기 입력 오프셋"
+      "Result": "추천 오프셋: {0} (±{1})"
     },
     "Home": {
       "Title": "홈",
@@ -1158,8 +1236,11 @@
       "Title": "플레이어",
       "PlayerLookup": {
         "Title": "플레이어 검색",
-        "Id": "플레이어 ID",
-        "IdPlaceholder": "플레이어 ID 입력...",
+        "Id": {
+          "Title": "플레이어 ID",
+          "Description": "플레이어 ID.",
+          "Placeholder": "플레이어 ID 입력..."
+        },
         "Lookup": "검색"
       }
     },
@@ -1199,25 +1280,43 @@
       },
       "EditName": {
         "Title": "이름 수정",
-        "Name": "이름",
-        "NamePlaceholder": "플레이어 이름 입력..."
+        "Name": {
+          "Title": "이름",
+          "Description": "플레이어 이름.",
+          "Placeholder": "플레이어 이름 입력..."
+        }
       },
       "EditAvatar": {
         "Title": "프로필 사진 수정",
-        "Foreground": "전경",
-        "Background": "배경"
+        "Foreground": {
+          "Title": "전경",
+          "Description": "아바타 전경."
+        },
+        "Background": {
+          "Title": "배경",
+          "Description": "아바타 배경."
+        }
       },
       "EditAboutMe": {
         "Title": "자기소개 수정",
-        "AboutMe": "자기소개",
-        "AboutMePlaceholder": "자기소개 입력..."
+        "AboutMe": {
+          "Title": "내 소개",
+          "Description": "자신에 대한 간단한 설명이에요.",
+          "Placeholder": "내 소개 입력..."
+        }
       },
       "AddSocialLink": {
         "Title": "SNS 링크 추가",
-        "SocialLinkTitle": "이름",
-        "SocialLinkTitlePlaceholder": "소셜 링크 제목 입력…",
-        "SocialLinkAddress": "링크",
-        "SocialLinkAddressPlaceholder": "SNS 링크 입력..."
+        "SocialLinkTitle": {
+          "Title": "이름",
+          "Description": "이름.",
+          "Placeholder": "SNS 링크 이름 입력..."
+        },
+        "SocialLinkAddress": {
+          "Title": "주소",
+          "Description": "링크할 웹 URL (\"https://...\").",
+          "Placeholder": "SNS 링크 주소 입력..."
+        }
       },
       "AddFavorite": {
         "Title": "즐겨찾기 추가",
@@ -1373,46 +1472,15 @@
       "Configurations": {
         "Level": {
           "Title": "레벨 설정",
-          "Skin": {
-            "Title": "스킨"
-          },
-          "Background": {
-            "Title": "배경"
-          },
-          "Effect": {
-            "Title": "SE"
-          },
-          "Particle": {
-            "Title": "탭 이펙트"
-          },
-          "Options": {
-            "Title": "옵션"
-          },
-          "Audio": {
-            "Title": "오디오",
-            "BgmVolume": "BGM 볼륨",
-            "SfxVolume": "SE 볼륨"
-          },
-          "UI": {
-            "Title": "UI",
-            "PrimaryMetric": "기본 메트릭",
-            "SecondaryMetric": "보조 메트릭",
-            "JudgmentErrorStyle": "특수 판정 스타일",
-            "JudgmentErrorPlacement": "특수 판정 위치",
-            "JudgmentErrorMin": "특수 판정 최소값",
-            "MenuStyle": "메뉴 스타일",
-            "JudgmentStyle": "판정 스타일",
-            "ComboStyle": "콤보 스타일",
-            "PrimaryMetricStyle": "기본 메트릭 스타일",
-            "SecondaryMetricStyle": "보조 메트릭 스타일"
-          },
           "Offsets": {
-            "Title": "오프셋",
-            "LevelAudioOffset": "레벨 오디오 오프셋",
-            "ServerAudioOffset": "서버 오디오 오프셋",
-            "DeviceAudioOffset": "기기 오디오 오프셋",
-            "EngineInputOffset": "엔진 입력 오프셋",
-            "DeviceInputOffset": "기기 입력 오프셋"
+            "LevelAudioOffset": {
+              "Title": "레벨 오디오 오프셋",
+              "Description": "이 레벨에 대한 추가 오디오 오프셋입니다. 이 레벨만 특히 싱크가 맞지 않을때만 사용해야 해요. 오디오가 늦다면 늘리고, 빠르다면 줄이세요."
+            },
+            "ServerAudioOffset": {
+              "Title": "서버 오디오 오프셋",
+              "Description": "이 서버에 대한 추가 오디오 오프셋입니다. 이 서버의 레벨들이 싱크가 맞지 않을때만 사용해야 해요. 오디오가 늦다면 늘리고, 빠르다면 줄이세요."
+            }
           }
         },
         "Skin": {
@@ -1422,8 +1490,14 @@
           "Title": "배경 설정",
           "Image": {
             "Title": "이미지",
-            "Blur": "블러",
-            "Mask": "마스크"
+            "Blur": {
+              "Title": "블러",
+              "Description": "배경 이미지를 블러 처리합니다."
+            },
+            "Mask": {
+              "Title": "마스크",
+              "Description": "마스크는 배경 이미지를 어둡게 하거나 색상을 조정하는 데 사용할 수 있습니다."
+            }
           }
         },
         "Effect": {
@@ -1450,21 +1524,52 @@
             "Title": "옵션"
           },
           "UI": {
-            "Title": "UI",
-            "PrimaryMetric": "기본 메트릭",
-            "SecondaryMetric": "보조 메트릭",
-            "JudgmentErrorStyle": "특수 판정 스타일",
-            "JudgmentErrorPlacement": "특수 판정 위치",
-            "JudgmentErrorMin": "특수 판정 최소값",
-            "MenuStyle": "메뉴 스타일",
-            "JudgmentStyle": "판정 스타일",
-            "ComboStyle": "콤보 스타일",
-            "PrimaryMetricStyle": "기본 메트릭 스타일",
-            "SecondaryMetricStyle": "보조 메트릭 스타일"
+            "PrimaryMetric": {
+              "Title": "기본 메트릭",
+              "Description": "표시할 기본 메트릭."
+            },
+            "SecondaryMetric": {
+              "Title": "보조 메트릭",
+              "Description": "표시할 보조 메트릭."
+            },
+            "JudgmentErrorStyle": {
+              "Title": "특수 판정 스타일",
+              "Description": "특수 판정의 스타일입니다. 긍정적 특수 판정은 왼쪽에 표시되고, 부정적 특수 판정은 오른쪽에 표시됩니다."
+            },
+            "JudgmentErrorPlacement": {
+              "Title": "특수 판정 위치",
+              "Description": "특수 판정의 위치."
+            },
+            "JudgmentErrorMin": {
+              "Title": "특수 판정 최소값",
+              "Description": "특수 판정의 최소값입니다. 이 값보다 크게 나온 특수 판정만 표시됩니다."
+            },
+            "MenuStyle": {
+              "Title": "메뉴 스타일",
+              "Description": "메뉴의 스타일."
+            },
+            "JudgmentStyle": {
+              "Title": "판정 스타일",
+              "Description": "판정의 스타일."
+            },
+            "ComboStyle": {
+              "Title": "콤보 스타일",
+              "Description": "콤보의 스타일."
+            },
+            "PrimaryMetricStyle": {
+              "Title": "기본 메트릭 스타일",
+              "Description": "기본 메트릭의 스타일."
+            },
+            "SecondaryMetricStyle": {
+              "Title": "보조 메트릭 스타일",
+              "Description": "보조 메트릭의 스타일."
+            }
           },
           "Offsets": {
-            "Title": "오프셋",
-            "EngineInputOffset": "엔진 입력 오프셋"
+            "EngineInputOffset": {
+              "Title": "엔진 입력 오프셋",
+              "Description": "0으로 사용하는 걸 추천해요.\n\n이 엔진에 대한 추가 입력 오프셋입니다. 이 엔진을 플레이하며 문제가 있을 때만 변경하세요. 입력이 늦다고 느껴지면 늘리고, 빠르다면 줄이세요."
+            }
           }
         }
       },
@@ -1505,10 +1610,25 @@
       "Title": "설정",
       "Graphics": {
         "Title": "그래픽",
-        "TargetFps": "목표 FPS",
-        "RenderScale": "렌더 스케일",
+        "TargetFps": {
+          "Title": "목표 FPS",
+          "Description": "기기 주사율과 동일하게 설정할 것을 권장합니다.\n\nSonolus는 해당 FPS에서 실행되도록 되어있지만, 기기가 이를 수행할 능력이 충분하다는 보장은 없습니다."
+        },
+        "RenderMode": {
+          "Title": "렌더 모드",
+          "Description": "표준 렌더 모드 사용을 권장합니다.\n\n표준 렌더 모드는 정확한 그래픽을 제공하며, 경량 렌더 모드는 다소 부정확한 그래픽을 제공하지만 성능이 대폭 상향됩니다.",
+          "Options": {
+            "Standard": "표준",
+            "Lightweight": "경량"
+          }
+        },
+        "RenderScale": {
+          "Title": "렌더 스케일",
+          "Description": "100% 사용을 권장합니다.\n\nSonolus는 이 스케일에서 렌더링하며 화면 크기에 맞게 크기를 늘리거나 줄입니다. 렌더 스케일이 100%보다 높은 경우 그래픽이 향상되는 대신 성능이 저하되며, 반대로 100%보다 낮은 경우 성능이 향상되는 대신 그래픽이 저하됩니다."
+        },
         "AntiAliasing": {
           "Title": "안티 앨리어싱",
+          "Description": "끄는 것을 권장합니다.\n\n안티 엘리어싱은 물체의 가장자리 주변의 각진 부분을 최소화하여 그래픽을 향상시키는 대신 성능이 저하됩니다.",
           "Options": {
             "Off": "끄기",
             "TwoX": "2x",
@@ -1516,16 +1636,36 @@
             "EightX": "8x"
           }
         },
-        "GpuParticleSystem": "GPU 입자 시스템",
-        "IgnoreNotch": "노치 무시"
+        "GpuParticleSystem": {
+          "Title": "GPU 파티클 시스템",
+          "Description": "꺼두는 것을 추천해요.\n\nSonolus는 기본적으로 CPU 파티클 시스템을 사용합니다. 켜면 GPU 파티클 시스템이 대신 사용됩니다. 대부분의 모바일 장치에서 GPU는 CPU보다 성능이 좋지 않으므로 권장되지 않습니다."
+        },
+        "IgnoreNotch": {
+          "Title": "노치 무시",
+          "Description": "Sonolus는 기본적으로 기기의 노치를 고려하여 화면이 잘 표시되도록 합니다. 이 기능을 켜면 Sonolus는 노치를 무시하고 전체 화면으로 렌더링하므로 그래픽이 부분적으로 가려질 수 있습니다."
+        }
       },
       "Audio": {
         "Title": "오디오",
-        "BgmVolume": "BGM 볼륨",
-        "SfxVolume": "SE 볼륨",
-        "AlwaysDecodeLevelBgm": "레벨 BGM 항상 디코딩하기",
+        "BgmVolume": {
+          "Title": "BGM 음량",
+          "Description": "BGM의 음량."
+        },
+        "SfxVolume": {
+          "Title": "SE 음량",
+          "Description": "SE의 음량."
+        },
+        "UIVolume": {
+          "Title": "UI 음량",
+          "Description": "UI의 음량."
+        },
+        "AlwaysDecodeLevelBgm": {
+          "Title": "레벨 음악 항상 디코딩하기",
+          "Description": "꺼두는 것을 추천해요.\n\nSonolus는 기본적으로 최상의 성능을 위해 운영 체제의 기본 오디오 기능을 사용하며, 해당 형식이 기본적으로 지원되지 않는 경우에만 레벨 음악을 디코딩합니다. 이 기능을 켜면 Sonolus는 항상 음악을 디코딩합니다."
+        },
         "PreviewBgm": {
-          "Title": "BGM 미리보기",
+          "Title": "음악 미리듣기",
+          "Description": "음악 미리듣기을 어디서 재생할지.",
           "Options": {
             "Off": "끄기",
             "DetailsOnly": "자세한 정보만",
@@ -1534,6 +1674,7 @@
         },
         "LevelBgmQuality": {
           "Title": "레벨 BGM 품질",
+          "Description": "높음으로 두는 것을 추천해요.\n\nSonolus는 기본적으로 최상의 성능을 위해 운영 체제의 기본 오디오 기능을 사용하며, 해당 형식이 기본적으로 지원되지 않는 경우에만 레벨 음악을 디코딩합니다. 레벨 음악은 이 품질로 디코딩됩니다.",
           "Options": {
             "Low": "낮음",
             "Mid": "중간",
@@ -1541,7 +1682,8 @@
           }
         },
         "PreviewBgmQuality": {
-          "Title": "BGM 미리보기 품질",
+          "Title": "음악 미리듣기 품질",
+          "Description": "중간으로 두는 것을 추천해요.\n\nSonolus는 기본적으로 최상의 성능을 위해 운영 체제의 기본 오디오 기능을 사용하며, 해당 형식이 기본적으로 지원되지 않는 경우에만 음악 미리듣기를 디코딩합니다. 음악 미리듣기는 이 품질로 디코딩됩니다.",
           "Options": {
             "Low": "낮음",
             "Mid": "중간",
@@ -1551,31 +1693,86 @@
       },
       "UI": {
         "Title": "UI",
-        "Localization": "언어",
-        "Theme": "테마",
-        "Scale": "UI 크기",
-        "UnpauseDelay": "일시정지 해제 딜레이",
-        "PerfectJudgmentColors": "Perfect 판정 색",
-        "GreatJudgmentColors": "Great 판정 색",
-        "GoodJudgmentColors": "Good 판정 색",
-        "MissJudgmentColors": "Miss 판정 색",
-        "PositiveJudgmentErrorColors": "긍정적 특수 판정 색",
-        "NegativeJudgmentErrorColors": "부정적 특수 판정 색",
-        "AllPerfectComboColors": "AP 콤보 색",
-        "FullComboComboColors": "FC 콤보 색",
-        "PassComboColors": "Pass 콤보 색",
-        "FailComboColors": "Fail 콤보 색",
-        "BoldComboNumber": "콤보 볼드체 적용",
-        "ShowZeroCombo": "0 콤보 보이기"
+        "Localization": {
+          "Title": "언어",
+          "Description": "사용할 언어."
+        },
+        "Theme": {
+          "Title": "테마",
+          "Description": "사용할 테마."
+        },
+        "Scale": {
+          "Title": "UI 스케일",
+          "Description": "사용할 UI 스케일입니다. 글씨가 작아서 보이지 않는다면 늘리고, 화면에 더 많은 콘텐츠를 표시하려면 줄이세요."
+        },
+        "UnpauseDelay": {
+          "Title": "일시정지 해제 딜레이",
+          "Description": "일시정지를 해제할 때의 딜레이."
+        },
+        "PerfectJudgmentColors": {
+          "Title": "Perfect 판정 색",
+          "Description": "Perfect 판정 색상입니다."
+        },
+        "GreatJudgmentColors": {
+          "Title": "Great 판정 색",
+          "Description": "Great 판정 색상입니다."
+        },
+        "GoodJudgmentColors": {
+          "Title": "Good 판정 색",
+          "Description": "Good 판정 색상입니다."
+        },
+        "MissJudgmentColors": {
+          "Title": "Miss 판정 색",
+          "Description": "Miss 판정 색상입니다."
+        },
+        "PositiveJudgmentErrorColors": {
+          "Title": "긍정적 특수 판정 색",
+          "Description": "긍정적 특수 판정의 색."
+        },
+        "NegativeJudgmentErrorColors": {
+          "Title": "부정적 특수 판정 색",
+          "Description": "부정적 특수 판정의 색."
+        },
+        "AllPerfectComboColors": {
+          "Title": "AP 콤보 색",
+          "Description": "AP 등급일 때의 콤보 색입니다."
+        },
+        "FullComboComboColors": {
+          "Title": "FC 콤보 색",
+          "Description": "FC 등급일 때의 콤보 색입니다."
+        },
+        "PassComboColors": {
+          "Title": "Pass 콤보 색",
+          "Description": "Pass 등급일 때의 콤보 색입니다."
+        },
+        "FailComboColors": {
+          "Title": "Fail 콤보 색",
+          "Description": "실패 등급일 때의 콤보 색상입니다."
+        },
+        "BoldComboNumber": {
+          "Title": "굵은 콤보 숫자",
+          "Description": "콤보 숫자에 굵은 글씨체를 사용합니다."
+        },
+        "ShowZeroCombo": {
+          "Title": "0콤보 표시",
+          "Description": "콤보가 0일 때 콤보를 표시합니다."
+        }
       },
       "Offsets": {
         "Title": "오프셋",
         "Device": {
           "Title": "기기",
+          "Description": "각각 다른 기기 환경, 예를 들어 스피커, 헤드셋, 블루투스 등을 통한 플레이 시 이를 위한 오프셋 저장 용도로 사용하세요.",
           "Option": "기기 {0}"
         },
-        "DeviceAudioOffset": "기기 오디오 오프셋",
-        "DeviceInputOffset": "기기 입력 오프셋"
+        "DeviceAudioOffset": {
+          "Title": "기기 오디오 오프셋",
+          "Description": "0으로 사용하는 걸 추천해요.\n\n기기의 오디오 오프셋입니다. 스피커를 사용하는 대부분의 기기에서는 0을 사용하면 됩니다. 블루투스는 권장되지 않아요. 오디오가 늦다고 느껴지면 늘리고, 빠르다면 줄이세요."
+        },
+        "DeviceInputOffset": {
+          "Title": "기기 입력 오프셋",
+          "Description": "0으로 사용하는 걸 추천해요.\n\n기기의 입력 오프셋입니다. 이런 설정을 제공하지 않는 게임에 익숙하다면 0으로 두어도 됩니다. 입력이 늦다고 느껴지면 늘리고, 빠르다면 줄이세요.\n"
+        }
       },
       "Repository": {
         "Title": "저장소",
@@ -1583,17 +1780,38 @@
       },
       "Cache": {
         "Title": "캐시",
-        "AlwaysRevalidate": "항상 재검증",
+        "AlwaysRevalidate": {
+          "Title": "항상 재검증",
+          "Description": "꺼두는 걸 추천해요.\n\nSonolus는 기본적으로 리소스가 오래된 후에만 재검증을 합니다. 이 기능을 켜면 리소스를 사용하기 전에 항상 재검증하게 됩니다."
+        },
         "Manage": "관리"
       },
       "Developer": {
         "Title": "개발자",
-        "ShowFps": "FPS 보이기",
-        "FpsStyle": "FPS 스타일",
-        "ShowTouches": "터치 보이기",
-        "TouchStyle": "터치 스타일",
-        "DebugMode": "디버그 모드",
-        "DebugLogStyle": "디버그 로그 스타일"
+        "ShowFps": {
+          "Title": "FPS 보이기",
+          "Description": "화면 왼쪽 아래에 FPS 카운터를 표시합니다."
+        },
+        "FpsStyle": {
+          "Title": "FPS 스타일",
+          "Description": "FPS 카운터의 스타일"
+        },
+        "ShowTouches": {
+          "Title": "터치 표시",
+          "Description": "터치 표시를 보여줍니다. 영상을 녹화할 때 어디를 터치하는지 보여주기 위해 사용할 수 있어요."
+        },
+        "TouchStyle": {
+          "Title": "터치 스타일",
+          "Description": "터치 표시의 스타일."
+        },
+        "DebugMode": {
+          "Title": "디버그 모드",
+          "Description": "디버그 모드를 사용하면 실행할 특정 코드를 디버그하고 화면 좌측 하단에 디버그 로그를 표시할 수 있습니다."
+        },
+        "DebugLogStyle": {
+          "Title": "디버그 로그 스타일",
+          "Description": "디버그 로그의 스타일."
+        }
       }
     },
     "ManageRepository": {

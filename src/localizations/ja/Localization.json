@@ -31,6 +31,7 @@
       "#EFFECT": "SEの再生",
       "#EFFECT_AUTO": "自動SE",
       "#STAGE": "ステージの表示",
+      "#STAGE_POSITION": "ステージの位置",
       "#STAGE_SIZE": "ステージの大きさ",
       "#STAGE_ROTATION": "ステージの回転",
       "#STAGE_ALPHA": "ステージの不透明度",
@@ -41,58 +42,70 @@
       "#STAGE_COVER_ALPHA": "ステージのカバーの不透明度",
       "#STAGE_ASPECTRATIO_LOCK": "ステージのアスペクト比を維持",
       "#STAGE_EFFECT": "ステージエフェクト",
+      "#STAGE_EFFECT_POSITION": "ステージエフェクトの位置",
       "#STAGE_EFFECT_SIZE": "ステージエフェクトの大きさ",
       "#STAGE_EFFECT_ROTATION": "ステージエフェクトの回転",
       "#STAGE_EFFECT_ALPHA": "ステージエフェクトの不透明度",
       "#LANE": "レーンの表示",
+      "#LANE_POSITION": "レーンの位置",
       "#LANE_SIZE": "レーンの大きさ",
       "#LANE_ROTATION": "レーンの回転",
       "#LANE_ALPHA": "レーンの不透明度",
       "#LANE_ANIMATION": "レーンのアニメーション",
       "#LANE_EFFECT": "レーンエフェクト",
+      "#LANE_EFFECT_POSITION": "レーンエフェクトの位置",
       "#LANE_EFFECT_SIZE": "レーンエフェクトの大きさ",
       "#LANE_EFFECT_ROTATION": "レーンエフェクトの回転",
       "#LANE_EFFECT_ALPHA": "レーンエフェクトの不透明度",
       "#JUDGELINE": "判定ラインの表示",
+      "#JUDGELINE_POSITION": "判定ラインの位置",
       "#JUDGELINE_SIZE": "判定ラインの大きさ",
       "#JUDGELINE_ROTATION": "判定ラインの回転",
       "#JUDGELINE_ALPHA": "判定ラインの不透明度",
       "#JUDGELINE_ANIMATION": "判定ラインのアニメーション",
       "#JUDGELINE_EFFECT": "判定ラインのエフェクト",
+      "#JUDGELINE_EFFECT_POSITION": "判定ラインのエフェクトの位置",
       "#JUDGELINE_EFFECT_SIZE": "判定ラインのエフェクトの大きさ",
       "#JUDGELINE_EFFECT_ROTATION": "判定ラインのエフェクトの回転",
       "#JUDGELINE_EFFECT_ALPHA": "判定ラインのエフェクトの不透明度",
       "#SLOT": "スロットの表示",
+      "#SLOT_POSITION": "スロットの位置",
       "#SLOT_SIZE": "スロットの大きさ",
       "#SLOT_ROTATION": "スロットの回転",
       "#SLOT_ALPHA": "スロットの不透明度",
       "#SLOT_ANIMATION": "スロットのアニメーション",
       "#SLOT_EFFECT": "スロットエフェクト",
+      "#SLOT_EFFECT_POSITION": "スロットエフェクトの位置",
       "#SLOT_EFFECT_SIZE": "スロットエフェクトの大きさ",
       "#SLOT_EFFECT_ROTATION": "スロットエフェクトの回転",
       "#SLOT_EFFECT_ALPHA": "スロットエフェクトの不透明度",
       "#NOTE": "ノーツの表示",
       "#NOTE_SPEED": "ノーツ速度",
       "#NOTE_SPEED_RANDOM": "ランダム(ノーツ速度)",
+      "#NOTE_POSITION": "ノーツの位置",
       "#NOTE_SIZE": "ノーツの大きさ",
       "#NOTE_ROTATION": "ノーツの回転",
       "#NOTE_ALPHA": "ノーツの不透明度",
       "#NOTE_ANIMATION": "ノーツのアニメーション",
       "#NOTE_EFFECT": "ノーツエフェクト",
+      "#NOTE_EFFECT_POSITION": "ノーツエフェクトの位置",
       "#NOTE_EFFECT_SIZE": "ノーツエフェクトの大きさ",
       "#NOTE_EFFECT_ROTATION": "ノーツエフェクトの回転",
       "#NOTE_EFFECT_ALPHA": "ノーツエフェクトの不透明度",
       "#MARKER": "マーカーの表示",
+      "#MARKER_POSITION": "マーカーの位置",
       "#MARKER_SIZE": "マーカーの大きさ",
       "#MARKER_ROTATION": "マーカーの回転",
       "#MARKER_ALPHA": "マーカーの不透明度",
       "#MARKER_ANIMATION": "マーカーのアニメーション",
       "#CONNECTOR": "コネクターの表示",
+      "#CONNECTOR_POSITION": "コネクターの位置",
       "#CONNECTOR_SIZE": "コネクターの大きさ",
       "#CONNECTOR_ROTATION": "コネクターの回転",
       "#CONNECTOR_ALPHA": "コネクターの不透明度",
       "#CONNECTOR_ANIMATION": "コネクターのアニメーション",
       "#SIMLINE": "同時ノーツ線の表示",
+      "#SIMLINE_POSITION": "同時ノーツ線の位置",
       "#SIMLINE_SIZE": "同時ノーツ線の大きさ",
       "#SIMLINE_ROTATION": "同時ノーツ線の回転",
       "#SIMLINE_ALPHA": "同時ノーツ線の不透明度",
@@ -171,6 +184,7 @@
     "On": "オン",
     "Off": "オフ",
     "Select": "選択",
+    "Reset": "Reset",
     "Edit": "編集",
     "View": "見る",
     "Cancel": "キャンセル",
@@ -190,6 +204,7 @@
     "PullToRefresh": "離すと更新",
     "Save": "保存",
     "Share": "共有",
+    "Export": "Export",
     "Update": "更新",
     "Delete": "消去",
     "Preview": "プレビュー",
@@ -204,24 +219,52 @@
     "Good": "Good",
     "Miss": "Miss",
     "AdvancedOption": "このオプションは上級者向けです。",
+    "Colors": "Colors",
     "ColorField": {
       "Hex": "HEX",
       "Rgb": "RGB",
       "Hsv": "HSV",
-      "HexPlaceholder": "色(HEX値)を入力してください...",
-      "R": "赤 (R)",
-      "G": "緑 (G)",
-      "B": "青 (B)",
-      "H": "色相 (H)",
-      "S": "彩度 (S)",
-      "V": "明度 (V)",
-      "A": "透明度 (A)"
+      "Components": {
+        "Hex": {
+          "Title": "Hex",
+          "Description": "#RRGGBB、または #RRGGBBAA の形式で入力してください。",
+          "Placeholder": "例：#48b0d5"
+        },
+        "R": {
+          "Title": "赤（R）",
+          "Description": "赤。0から255まで。"
+        },
+        "G": {
+          "Title": "緑（G）",
+          "Description": "緑。0から255まで。"
+        },
+        "B": {
+          "Title": "青（B）",
+          "Description": "青。0から255まで。"
+        },
+        "H": {
+          "Title": "色相（H）",
+          "Description": "色相。0度から360度まで。"
+        },
+        "S": {
+          "Title": "彩度（S）",
+          "Description": "彩度。0%から100%まで。"
+        },
+        "V": {
+          "Title": "明度（V）",
+          "Description": "明度。0%から100%まで。"
+        },
+        "A": {
+          "Title": "不透明度（V）",
+          "Description": "不透明度。0から255まで。"
+        }
+      }
     },
     "DeviceOffsetField": {
       "Calibrate": "補正"
     },
     "PullToLoad": {
-      "None": "最終ページです",
+      "None": "この先には何もありません",
       "More": "もっと読み込む"
     },
     "UI": {
@@ -380,6 +423,7 @@
     },
     "CustomServer": {
       "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
+      "SonolusVersionTooOld": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nサーバーの管理者にお問い合わせ下さい。",
       "Session": {
         "NeedAuthentication": {
           "NotLoggedInError": {
@@ -958,8 +1002,11 @@
   "Routes": {
     "JumpToPage": {
       "Title": "ページを指定して移動",
-      "Page": "ページ番号",
-      "PagePlaceholder": "例 1",
+      "Page": {
+        "Title": "Page",
+        "Description": "Page number.",
+        "Placeholder": "Enter page number..."
+      },
       "Jump": "移動する"
     },
     "SelectLocalization": {
@@ -1070,34 +1117,37 @@
       }
     },
     "EditCustomServer": {
-      "Title": "カスタムサーバーの編集",
-      "Address": "サーバーアドレス",
-      "AddressPlaceholder": "例 https://servers.sonolus.com/test-prototype",
-      "Name": "サーバー名",
-      "NamePlaceholder": "例 Test Prototype"
+      "Title": "カスタムサーバーの編集"
     },
     "AddCustomServerAddress": {
       "Title": "カスタムサーバーの追加",
-      "Address": "サーバーアドレスを入力してください",
-      "AddressPlaceholder": "例 https://servers.sonolus.com/test-prototype"
+      "Address": {
+        "Title": "サーバーアドレス",
+        "Description": "カスタムサーバーのアドレスは通常のURL（`https://...`）であり、ほとんどの場合サーバーのホームページに書いてあります。",
+        "Placeholder": "例：https://example.com"
+      }
     },
     "AddCustomServerInfo": {
       "Title": "カスタムサーバーの追加",
       "Info": {
         "Error": "\"{0}\" のサーバー情報の読み込みに失敗しました。\n\n入力したサーバーアドレスが正しいか、インターネット接続に問題ないかを確認し、改善しない場合サーバーの所有者に問題を報告してください。"
       },
-      "Name": "サーバー名を入力してください(任意)",
-      "NamePlaceholder": "例 Test Prototype"
+      "Name": {
+        "Title": "名前",
+        "Description": "名前は自由につけることが出来ます。",
+        "Placeholder": "例：サーバーA"
+      }
     },
     "EditCollection": {
-      "Title": "コレクションの編集",
-      "Name": "コレクション名",
-      "NamePlaceholder": "例 お気に入り"
+      "Title": "コレクションの編集"
     },
     "AddCollection": {
       "Title": "コレクションの追加",
-      "Name": "コレクション名",
-      "NamePlaceholder": "例 お気に入り"
+      "Name": {
+        "Title": "名前",
+        "Description": "名前は自由につけることが出来ます。",
+        "Placeholder": "例：お気に入り"
+      }
     },
     "ImportScp": {
       "Scp": {
@@ -1114,33 +1164,61 @@
       }
     },
     "EditVisibility": {
-      "Scale": "大きさ",
-      "Alpha": "不透明度"
+      "Scale": {
+        "Title": "大きさ",
+        "Description": "大きさ。"
+      },
+      "Alpha": {
+        "Title": "不透明度",
+        "Description": "不透明度。"
+      }
     },
     "EditAnimation": {
-      "Scale": "大きさ",
-      "Alpha": "不透明度"
+      "Scale": {
+        "Title": "大きさ",
+        "Description": "大きさ。"
+      },
+      "Alpha": {
+        "Title": "不透明度",
+        "Description": "不透明度。"
+      }
     },
     "EditTween": {
-      "From": "開始値",
-      "To": "終了値",
-      "Duration": "所要時間",
-      "Ease": "イージング関数"
+      "From": {
+        "Title": "始点",
+        "Description": "イージングの始点。"
+      },
+      "To": {
+        "Title": "終点",
+        "Description": "イージングの終点。"
+      },
+      "Duration": {
+        "Title": "時間",
+        "Description": "イージングの時間。"
+      },
+      "Ease": {
+        "Title": "イージング",
+        "Description": "イージングの種類。"
+      }
     },
     "EditColors": {
-      "Foreground": "文字色",
-      "Background": "縁色"
+      "Foreground": {
+        "Title": "色",
+        "Description": "文字・記号の色。"
+      },
+      "Background": {
+        "Title": "背景色",
+        "Description": "縁の色。"
+      }
     },
     "CalibrateAudio": {
       "Title": "音声の調整",
-      "Description": "音と画面が合うまでデバイス音オフセットを調整してください。",
-      "DeviceAudioOffset": "デバイス音オフセット"
+      "Description": "音と画面が合うまでデバイス音オフセットを調整してください。"
     },
     "CalibrateInput": {
       "Title": "入力の調整",
       "Description": "指でタップして入力を調整します。調整前に、オーディオオフセットが正しく調整されていることを確認してください。\nこのようなオプションがあるゲームに慣れていない場合は、0 のままにしておくのをお勧めします。",
-      "Result": "おすすめオフセット: {0} (±{1})",
-      "DeviceInputOffset": "デバイス入力オフセット"
+      "Result": "おすすめオフセット：{0}（±{1}）"
     },
     "Home": {
       "Title": "ホーム",
@@ -1150,7 +1228,7 @@
       "Settings": "全体設定",
       "UpdateAvailable": {
         "Title": "アップデート通知",
-        "Description": "Sonolus バージョン {0}が公開されました!\n\nサイト:\nhttps://sonolus.com から最新版をダウンロードしてください!",
+        "Description": "Sonolus バージョン {0}が公開されました！\n\nhttps://sonolus.com から最新版をダウンロードできます。",
         "Open": "サイトを開く"
       }
     },
@@ -1158,8 +1236,11 @@
       "Title": "プレイヤー一覧",
       "PlayerLookup": {
         "Title": "プレイヤーを調べる",
-        "Id": "プレイヤーID",
-        "IdPlaceholder": "例: 1005",
+        "Id": {
+          "Title": "プレイヤーID",
+          "Description": "#の後がプレイヤーIDです。",
+          "Placeholder": "例：1073"
+        },
         "Lookup": "調べる"
       }
     },
@@ -1199,25 +1280,43 @@
       },
       "EditName": {
         "Title": "名前の変更",
-        "Name": "名前",
-        "NamePlaceholder": "プレイヤー名を入力..."
+        "Name": {
+          "Title": "名前",
+          "Description": "プレイヤー名",
+          "Placeholder": "例：New Player"
+        }
       },
       "EditAvatar": {
         "Title": "アバターの変更",
-        "Foreground": "前面",
-        "Background": "後面"
+        "Foreground": {
+          "Title": "色",
+          "Description": "アバターのメイン色。"
+        },
+        "Background": {
+          "Title": "背景",
+          "Description": "アバターの背景色。"
+        }
       },
       "EditAboutMe": {
         "Title": "自己紹介の変更",
-        "AboutMe": "自己紹介",
-        "AboutMePlaceholder": "自己紹介の入力..."
+        "AboutMe": {
+          "Title": "自己紹介",
+          "Description": "簡単な自己紹介。",
+          "Placeholder": "..."
+        }
       },
       "AddSocialLink": {
         "Title": "ソーシャルリンクの追加",
-        "SocialLinkTitle": "タイトル",
-        "SocialLinkTitlePlaceholder": "例: Twitter",
-        "SocialLinkAddress": "アドレス",
-        "SocialLinkAddressPlaceholder": "例: https://twitter.com/usagi_anime"
+        "SocialLinkTitle": {
+          "Title": "ラベル",
+          "Description": "タイトル。",
+          "Placeholder": "例：Twitter"
+        },
+        "SocialLinkAddress": {
+          "Title": "URL",
+          "Description": "https:// から始まるURL。",
+          "Placeholder": "例：https://twitter.com/sevenc_nanashi"
+        }
       },
       "AddFavorite": {
         "Title": "お気に入りの追加",
@@ -1373,46 +1472,15 @@
       "Configurations": {
         "Level": {
           "Title": "レベル設定",
-          "Skin": {
-            "Title": "使用スキン"
-          },
-          "Background": {
-            "Title": "使用背景"
-          },
-          "Effect": {
-            "Title": "使用効果音"
-          },
-          "Particle": {
-            "Title": "使用パーティクル"
-          },
-          "Options": {
-            "Title": "オプション"
-          },
-          "Audio": {
-            "Title": "オーディオ",
-            "BgmVolume": "BGMの音量",
-            "SfxVolume": "効果音の音量"
-          },
-          "UI": {
-            "Title": "UI",
-            "PrimaryMetric": "メイン指標",
-            "SecondaryMetric": "サブ指標",
-            "JudgmentErrorStyle": "判定スタイル",
-            "JudgmentErrorPlacement": "判定表示位置",
-            "JudgmentErrorMin": "判定最小誤差",
-            "MenuStyle": "メニュースタイル",
-            "JudgmentStyle": "判定スタイル",
-            "ComboStyle": "コンボスタイル",
-            "PrimaryMetricStyle": "メイン指標スタイル",
-            "SecondaryMetricStyle": "サブ指標スタイル"
-          },
           "Offsets": {
-            "Title": "オフセット",
-            "LevelAudioOffset": "レベル音オフセット",
-            "ServerAudioOffset": "サーバー音オフセット",
-            "DeviceAudioOffset": "デバイス音オフセット",
-            "EngineInputOffset": "エンジン入力オフセット",
-            "DeviceInputOffset": "デバイス入力オフセット"
+            "LevelAudioOffset": {
+              "Title": "レベル音オフセット",
+              "Description": "このレベルでのみ適用されるオフセット。\nこのレベルだけ音ズレしている時に使います。\n音が遅ければプラス、早ければマイナスに調整して下さい。\n"
+            },
+            "ServerAudioOffset": {
+              "Title": "Server Audio Offset",
+              "Description": "このサーバー全体で適用されるオフセット。 このサーバー全体のレベルが音ズレしている時に使います。 音が遅ければプラス、早ければマイナスに調整して下さい。"
+            }
           }
         },
         "Skin": {
@@ -1422,8 +1490,14 @@
           "Title": "背景設定",
           "Image": {
             "Title": "画像",
-            "Blur": "ぼかし",
-            "Mask": "マスク色"
+            "Blur": {
+              "Title": "ぼかし",
+              "Description": "画像をぼかすことで情報量を減らすことが出来ます。"
+            },
+            "Mask": {
+              "Title": "オーバーレイ",
+              "Description": "画像の明るさを下げたり、色を変えることが出来ます。"
+            }
           }
         },
         "Effect": {
@@ -1450,28 +1524,59 @@
             "Title": "オプション"
           },
           "UI": {
-            "Title": "UI",
-            "PrimaryMetric": "メイン指標",
-            "SecondaryMetric": "サブ指標",
-            "JudgmentErrorStyle": "判定スタイル",
-            "JudgmentErrorPlacement": "判定表示位置",
-            "JudgmentErrorMin": "判定最小誤差",
-            "MenuStyle": "メニュースタイル",
-            "JudgmentStyle": "判定スタイル",
-            "ComboStyle": "コンボスタイル",
-            "PrimaryMetricStyle": "メイン指標スタイル",
-            "SecondaryMetricStyle": "サブ指標スタイル"
+            "PrimaryMetric": {
+              "Title": "メインステータス",
+              "Description": "表示するステータス。"
+            },
+            "SecondaryMetric": {
+              "Title": "サブステータス",
+              "Description": "表示するステータス。"
+            },
+            "JudgmentErrorStyle": {
+              "Title": "Early/Late表示の表記",
+              "Description": "Early/Lateの表記。 Earlyが右側、Lateが左側に表記されています。"
+            },
+            "JudgmentErrorPlacement": {
+              "Title": "Early/Late表示の位置",
+              "Description": "Early/Late表示の位置。"
+            },
+            "JudgmentErrorMin": {
+              "Title": "Early/Late表示の最小誤差",
+              "Description": "この値より小さい誤差はEarly/Late表示されません。"
+            },
+            "MenuStyle": {
+              "Title": "メニューボタンのスタイル",
+              "Description": "メニューボタンのスタイル。"
+            },
+            "JudgmentStyle": {
+              "Title": "判定表示のスタイル",
+              "Description": "判定表示のスタイル。"
+            },
+            "ComboStyle": {
+              "Title": "コンボ表示のスタイル",
+              "Description": "コンボ表示のスタイル。"
+            },
+            "PrimaryMetricStyle": {
+              "Title": "メインステータスのスタイル",
+              "Description": "メインステータスのスタイル。"
+            },
+            "SecondaryMetricStyle": {
+              "Title": "サブステータスのスタイル",
+              "Description": "サブステータスのスタイル。"
+            }
           },
           "Offsets": {
-            "Title": "オフセット",
-            "EngineInputOffset": "エンジン入力オフセット"
+            "EngineInputOffset": {
+              "Title": "Engine Input Offset",
+              "Description": "Recommend to use 0.\n\nAdditional input offset of this engine, should only be used when you have trouble playing this engine in particular. Increase if your inputs are registered as too late, and decrease otherwise."
+            }
           }
         }
       },
       "Savers": {
         "Level": {
           "Success": {
-            "Title": "レベルのリンクをコピーしました"
+            "Title": "レベルを保存しました"
           }
         },
         "Skin": {
@@ -1505,10 +1610,25 @@
       "Title": "設定",
       "Graphics": {
         "Title": "グラフィック",
-        "TargetFps": "目標FPS",
-        "RenderScale": "レンダリング解像度",
+        "TargetFps": {
+          "Title": "FPS",
+          "Description": "推奨：デバイスのFPS\n\nSonolusはこのFPSを対象に動作しますが、デバイスが対応していない場合はこのFPSより低い値になります。"
+        },
+        "RenderMode": {
+          "Title": "描画モード。",
+          "Description": "推奨：標準\n\n軽量モードではグラフィックが若干劣化しますが、パフォーマンスが向上します。",
+          "Options": {
+            "Standard": "標準",
+            "Lightweight": "軽量"
+          }
+        },
+        "RenderScale": {
+          "Title": "描画スケール",
+          "Description": "推奨：100%\n\nSonolusはこのスケールで描画し、スクリーンサイズに拡大または縮小します。100%より高い描画スケールはパフォーマンスが低下しますが、グラフィックが向上します。100%より低い描画スケールはパフォーマンスが向上しますが、グラフィックが低下します。"
+        },
         "AntiAliasing": {
           "Title": "アンチエイリアス",
+          "Description": "推奨：オフ\n\nアンチエイリアスでスプライトの端のノイズを減らすことが出来ますが、パフォーマンスが低下します。",
           "Options": {
             "Off": "オフ",
             "TwoX": "2倍",
@@ -1516,16 +1636,36 @@
             "EightX": "8倍"
           }
         },
-        "GpuParticleSystem": "GPUパーティクルシステム",
-        "IgnoreNotch": "ノッチを無視"
+        "GpuParticleSystem": {
+          "Title": "GPUパーティクル",
+          "Description": "推奨：オフ\n\nSonolusは標準でCPUを使ってパーティクルを描画します。GPUを使うとパーティクルの描画が高速化されますが、多くのデバイスではCPUよりもGPUの方が性能が低いため、推奨されません。"
+        },
+        "IgnoreNotch": {
+          "Title": "ノッチを無視",
+          "Description": "Sonolusはデバイスのノッチを考慮してグラフィックが常に見えるようにします。ノッチを無視すると、グラフィックが一部隠れる可能性があります。"
+        }
       },
       "Audio": {
         "Title": "オーディオ",
-        "BgmVolume": "BGM音量",
-        "SfxVolume": "SE音量",
-        "AlwaysDecodeLevelBgm": "常にレベルBGMをデコードする",
+        "BgmVolume": {
+          "Title": "BGM音量",
+          "Description": "BGMの音量。"
+        },
+        "SfxVolume": {
+          "Title": "SE音量",
+          "Description": "SEの音量。"
+        },
+        "UIVolume": {
+          "Title": "UI音量",
+          "Description": "UI（ボタンを押したとき等）の音量。"
+        },
+        "AlwaysDecodeLevelBgm": {
+          "Title": "レベルのBGMを常にデコード",
+          "Description": "推奨：オフ\n\nSonolusはデフォルトでOSの提供している音声再生機能を使い、OSの音声再生機能が対応していない場合のみBGMをデコードします。この設定をオンにすると、常にBGMをデコードします。"
+        },
         "PreviewBgm": {
           "Title": "プレビューBGM",
+          "Description": "プレビューBGMをいつ再生するか。",
           "Options": {
             "Off": "オフ",
             "DetailsOnly": "詳細画面のみ",
@@ -1534,6 +1674,7 @@
         },
         "LevelBgmQuality": {
           "Title": "レベルBGMの品質",
+          "Description": "推奨：高\n\nBGMをデコードするときの品質を設定します。",
           "Options": {
             "Low": "低",
             "Mid": "中",
@@ -1542,6 +1683,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "BGMプレビューの音質",
+          "Description": "推奨：中\n\nBGMプレビューを再生するときの音質を設定します。",
           "Options": {
             "Low": "低音質",
             "Mid": "中音質",
@@ -1551,31 +1693,86 @@
       },
       "UI": {
         "Title": "UI",
-        "Localization": "言語",
-        "Theme": "テーマ",
-        "Scale": "UIスケール",
-        "UnpauseDelay": "ポーズ解除時の待機時間",
-        "PerfectJudgmentColors": "Perfect判定色",
-        "GreatJudgmentColors": "Great判定色",
-        "GoodJudgmentColors": "Good判定色",
-        "MissJudgmentColors": "Miss判定色",
-        "PositiveJudgmentErrorColors": "ポジティブ判定の色",
-        "NegativeJudgmentErrorColors": "ネガティブ判定の色",
-        "AllPerfectComboColors": "All Perfect時のコンボ色",
-        "FullComboComboColors": "Full Combo時のコンボ色",
-        "PassComboColors": "Pass時のコンボ色",
-        "FailComboColors": "Fail時のコンボ色",
-        "BoldComboNumber": "太字コンボ表示",
-        "ShowZeroCombo": "ゼロコンボ表示"
+        "Localization": {
+          "Title": "言語",
+          "Description": "UIの言語を設定します。"
+        },
+        "Theme": {
+          "Title": "テーマ",
+          "Description": "UIのテーマを設定します。"
+        },
+        "Scale": {
+          "Title": "UIスケール",
+          "Description": "UIのスケールを設定します。 文字が読みにくい場合は大きく、多くの情報を表示したい場合は小さくします。"
+        },
+        "UnpauseDelay": {
+          "Title": "ポーズ解除の猶予",
+          "Description": "ポーズ解除時の猶予時間を設定します。"
+        },
+        "PerfectJudgmentColors": {
+          "Title": "Perfect判定の色",
+          "Description": "Perfect判定の色を設定します。"
+        },
+        "GreatJudgmentColors": {
+          "Title": "Great判定の色",
+          "Description": "Great判定の色を設定します。"
+        },
+        "GoodJudgmentColors": {
+          "Title": "Good判定の色",
+          "Description": "Good判定の色を設定します。"
+        },
+        "MissJudgmentColors": {
+          "Title": "Miss判定の色",
+          "Description": "Miss判定の色を設定します。"
+        },
+        "PositiveJudgmentErrorColors": {
+          "Title": "Late判定の色",
+          "Description": "Late判定の色を設定します。"
+        },
+        "NegativeJudgmentErrorColors": {
+          "Title": "Early判定の色",
+          "Description": "Early判定の色を設定します。"
+        },
+        "AllPerfectComboColors": {
+          "Title": "All Perfect時の色",
+          "Description": "All Perfect時のコンボ表記の色を設定します。"
+        },
+        "FullComboComboColors": {
+          "Title": "Full Combo時の色",
+          "Description": "Full Combo時のコンボ表記の色を設定します。"
+        },
+        "PassComboColors": {
+          "Title": "Pass時の色",
+          "Description": "Pass時のコンボ表記の色を設定します。"
+        },
+        "FailComboColors": {
+          "Title": "Fail時の色",
+          "Description": "Fail時のコンボ表記の色を設定します。"
+        },
+        "BoldComboNumber": {
+          "Title": "コンボ表記を太字にする",
+          "Description": "コンボ表記を太字にします。"
+        },
+        "ShowZeroCombo": {
+          "Title": "0コンボを表示する",
+          "Description": "0コンボを表示します。"
+        }
       },
       "Offsets": {
         "Title": "オフセット",
         "Device": {
           "Title": "デバイス別オフセット",
+          "Description": "この設定を使うことで、Bluetoothイヤホン時や有線イヤホン時のように複数の設定を保存できます。",
           "Option": "デバイス {0}"
         },
-        "DeviceAudioOffset": "デバイスの音オフセット",
-        "DeviceInputOffset": "デバイスの入力オフセット"
+        "DeviceAudioOffset": {
+          "Title": "デバイス音オフセット",
+          "Description": "推奨：0\n\nほとんどの場合は0が正しいオフセットです。Bluetoothは推奨されません。音が遅れている場合はプラス、早い場合はマイナスを設定します。"
+        },
+        "DeviceInputOffset": {
+          "Title": "デバイス入力オフセット",
+          "Description": "推奨：0\n\n入力オフセット（通称：B判定）を提供していないゲームに慣れている場合は0のままで構いません。入力が遅れている場合はプラス、早い場合はマイナスを設定します。"
+        }
       },
       "Repository": {
         "Title": "リポジトリ",
@@ -1583,17 +1780,38 @@
       },
       "Cache": {
         "Title": "キャッシュ",
-        "AlwaysRevalidate": "常に再検証",
+        "AlwaysRevalidate": {
+          "Title": "常に再検証",
+          "Description": "推奨：オフ\n\nデフォルトでは、サーバーのリソースは古くなったときにのみ再検証されます。オンにすると、サーバーのリソースは使用する前に常に再検証されます。"
+        },
         "Manage": "管理"
       },
       "Developer": {
         "Title": "開発者設定",
-        "ShowFps": "FPS表示",
-        "FpsStyle": "FPSの見た目",
-        "ShowTouches": "タッチ表示",
-        "TouchStyle": "タッチ時のスタイル",
-        "DebugMode": "デバッグモード",
-        "DebugLogStyle": "デバッグログのスタイル"
+        "ShowFps": {
+          "Title": "FPS表示",
+          "Description": "FPSを左下に表示します。"
+        },
+        "FpsStyle": {
+          "Title": "FPS表示のスタイル",
+          "Description": "FPS表示のスタイルを設定します。"
+        },
+        "ShowTouches": {
+          "Title": "タッチ表示",
+          "Description": "タッチした場所にタッチ表示を表示します。 画面録画をするときに有用です。"
+        },
+        "TouchStyle": {
+          "Title": "タッチ表示のスタイル",
+          "Description": "タッチ表示のスタイルを設定します。"
+        },
+        "DebugMode": {
+          "Title": "デバッグモード",
+          "Description": "デバッグモードを有効にすると、デバッグ用のコードが実行され、画面右下にデバッグログが表示されます。"
+        },
+        "DebugLogStyle": {
+          "Title": "デバッグログのスタイル",
+          "Description": "デバッグログのスタイルを設定します。"
+        }
       }
     },
     "ManageRepository": {
@@ -1631,12 +1849,12 @@
           "Description": "すべてのキャッシュを失効させますか?"
         },
         "Success": {
-          "Title": "キャッシュを有効期限切れにしました"
+          "Title": "キャッシュを失効させました"
         }
       },
       "DeleteCache": {
         "Title": "キャッシュの削除",
-        "Description": "削除すると、次回キャッシュ読み込み時、すべてのリソースの再ダウンロードが発生します。(おすすめしません)",
+        "Description": "削除すると、次回キャッシュ読み込み時、すべてのリソースの再ダウンロードが発生します。（非推奨）",
         "Delete": "削除する",
         "DeleteConfirmation": {
           "Description": "本当にキャッシュをすべて削除しますか?"

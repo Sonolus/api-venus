@@ -31,6 +31,7 @@
       "#EFFECT": "Ses Efekti",
       "#EFFECT_AUTO": "Otomatik Ses Efekti",
       "#STAGE": "Sahne",
+      "#STAGE_POSITION": "Sahne Pozisyonu",
       "#STAGE_SIZE": "Sahne Boyutu",
       "#STAGE_ROTATION": "Sahne Döndürmesi",
       "#STAGE_ALPHA": "Sahne Saydamlığı",
@@ -41,58 +42,70 @@
       "#STAGE_COVER_ALPHA": "Sahne Örtüsü Saydamlığı",
       "#STAGE_ASPECTRATIO_LOCK": "Sahne Görünüş Oranını Kilitle",
       "#STAGE_EFFECT": "Sahne Efekti",
+      "#STAGE_EFFECT_POSITION": "Sahne Efekti Posizyonu",
       "#STAGE_EFFECT_SIZE": "Sahne Efekt Boyutu",
       "#STAGE_EFFECT_ROTATION": "Sahne Efekt Döndürmesi",
       "#STAGE_EFFECT_ALPHA": "Sahne Efekt Saydamlığı",
       "#LANE": "Kulvar",
+      "#LANE_POSITION": "Kulvar Posizyonu",
       "#LANE_SIZE": "Kulvar Boyutu",
       "#LANE_ROTATION": "Kulvar Döndürmesi",
       "#LANE_ALPHA": "Kulvar Saydamlığı",
       "#LANE_ANIMATION": "Kulvar Animasyonu",
       "#LANE_EFFECT": "Kulvar Efekti",
+      "#LANE_EFFECT_POSITION": "Kulvar Efekti Posizyonu",
       "#LANE_EFFECT_SIZE": "Kulvar Efekt Boyutu",
       "#LANE_EFFECT_ROTATION": "Kulvar Efekt Döndürmesi",
       "#LANE_EFFECT_ALPHA": "Kulvar Efekt Saydamlığı",
       "#JUDGELINE": "Yargı Çizgisi",
+      "#JUDGELINE_POSITION": "Yargı Çizgisi Posizyonu",
       "#JUDGELINE_SIZE": "Yargı Çizgi Büyüklüğü",
       "#JUDGELINE_ROTATION": "Yargı Çizgi Döndürmesi",
       "#JUDGELINE_ALPHA": "Yargı Çizgi Saydamlığı",
       "#JUDGELINE_ANIMATION": "Yargı Çizgi Animasyonu",
       "#JUDGELINE_EFFECT": "Yargı Çizgi Efekti",
+      "#JUDGELINE_EFFECT_POSITION": "Yargı Çizgi Efekti Posizyonu",
       "#JUDGELINE_EFFECT_SIZE": "Yargı Çizgi Efekt Boyutu",
       "#JUDGELINE_EFFECT_ROTATION": "Yargı Çizgi Efekt Döndürmesi",
       "#JUDGELINE_EFFECT_ALPHA": "Yargı Çizgi Efekt Saydamlığı",
-      "#SLOT": "Slot",
-      "#SLOT_SIZE": "Slot Büyüklüğü",
-      "#SLOT_ROTATION": "Slot Döndürmesi",
-      "#SLOT_ALPHA": "Slot Saydamlığı",
-      "#SLOT_ANIMATION": "Slot Animasyonu",
-      "#SLOT_EFFECT": "Slot Efekti",
-      "#SLOT_EFFECT_SIZE": "Slot Efekt Büyüklüğü",
-      "#SLOT_EFFECT_ROTATION": "Slot Efekt Döndürmesi",
-      "#SLOT_EFFECT_ALPHA": "Slot Efekt Saydamlığı",
+      "#SLOT": "Yuva",
+      "#SLOT_POSITION": "Yuva Pozisyonu",
+      "#SLOT_SIZE": "Yuva Büyüklüğü",
+      "#SLOT_ROTATION": "Yuva Döndürmesi",
+      "#SLOT_ALPHA": "Yuva Saydamlığı",
+      "#SLOT_ANIMATION": "Yuva Animasyonu",
+      "#SLOT_EFFECT": "Yuva Efekti",
+      "#SLOT_EFFECT_POSITION": "Yuva Efekti Pozisyonu",
+      "#SLOT_EFFECT_SIZE": "Yuva Efekt Büyüklüğü",
+      "#SLOT_EFFECT_ROTATION": "Yuva Efekt Döndürmesi",
+      "#SLOT_EFFECT_ALPHA": "Yuva Efekt Saydamlığı",
       "#NOTE": "Nota",
       "#NOTE_SPEED": "Nota Hızı",
       "#NOTE_SPEED_RANDOM": "Rastgele Nota Hızı",
+      "#NOTE_POSITION": "Nota Pozisyonu",
       "#NOTE_SIZE": "Nota Büyüklüğü",
       "#NOTE_ROTATION": "Nota Döndürmesi",
       "#NOTE_ALPHA": "Nota Saydamlığı",
       "#NOTE_ANIMATION": "Nota Animasyonu",
       "#NOTE_EFFECT": "Nota Efekti",
+      "#NOTE_EFFECT_POSITION": "Nota Efekti Pozisyonu",
       "#NOTE_EFFECT_SIZE": "Nota Efekt Büyüklüğü",
       "#NOTE_EFFECT_ROTATION": "Nota Efekt Döndürmesi",
       "#NOTE_EFFECT_ALPHA": "Note Efekt Saydamlığı",
       "#MARKER": "İmleç",
+      "#MARKER_POSITION": "İmleç Pozisyonu",
       "#MARKER_SIZE": "İmleç Boyutu",
       "#MARKER_ROTATION": "İmleç Döndürmesi",
       "#MARKER_ALPHA": "İmleç Saydamlığı",
       "#MARKER_ANIMATION": "İmleç Animasyonu",
       "#CONNECTOR": "Bağlayıcı",
+      "#CONNECTOR_POSITION": "Bağlayıcı Pozisyonu",
       "#CONNECTOR_SIZE": "Bağlayıcı Boyutu",
       "#CONNECTOR_ROTATION": "Bağlayıcı Döndürmesi",
       "#CONNECTOR_ALPHA": "Bağlayıcı Saydamlığı",
       "#CONNECTOR_ANIMATION": "Bağlayıcı Animasyonu",
       "#SIMLINE": "Eş Zamanlı Çizgi",
+      "#SIMLINE_POSITION": "Eş Zamanlı Çizgi Pozisyonu",
       "#SIMLINE_SIZE": "Eş Zamanlı Çizgi Büyüklüğü",
       "#SIMLINE_ROTATION": "Eş Zamanlı Çizgi Döndürmesi",
       "#SIMLINE_ALPHA": "Eş Zamanlı Çizgi Saydamlığı",
@@ -171,6 +184,7 @@
     "On": "AÇIK",
     "Off": "KAPALI",
     "Select": "Seç",
+    "Reset": "Sıfırla",
     "Edit": "Düzenle",
     "View": "Görüntüle",
     "Cancel": "İptal",
@@ -190,12 +204,13 @@
     "PullToRefresh": "Yeniden yüklemek için çekin",
     "Save": "Kaydet",
     "Share": "Paylaş",
+    "Export": "Dışa Aktar",
     "Update": "Güncelle",
     "Delete": "Sil",
     "Preview": "Görüntüle",
     "Judgment": "Yargı",
     "Accuracy": "Kesinlik",
-    "Grade": "Not",
+    "Grade": "Rapor",
     "ArcadeScore": "Atr. Skoru",
     "AccuracyScore": "Ksnlk. Skoru",
     "Combo": "Kombo",
@@ -204,18 +219,46 @@
     "Good": "Good",
     "Miss": "Miss",
     "AdvancedOption": "Bu seçenek sadece gelişmiş oyuncular içindir.",
+    "Colors": "Renkler",
     "ColorField": {
       "Hex": "HEX",
       "Rgb": "RGB",
       "Hsv": "HSV",
-      "HexPlaceholder": "HEX kodlu bir renk girin...",
-      "R": "Kırmızı",
-      "G": "Yeşil",
-      "B": "Mavi",
-      "H": "Renk Tonu",
-      "S": "Doygunluk",
-      "V": "Değer",
-      "A": "Alfa"
+      "Components": {
+        "Hex": {
+          "Title": "Hex",
+          "Description": "Bütün bileşenleri 00 ve FF arasında sayarsak, #KKYYMM (Kırmızı, Yeşil, Mavi) ya da #KKYYMMAA olarak gösterilir.",
+          "Placeholder": "Hex kodlu bir renk girin..."
+        },
+        "R": {
+          "Title": "Kırmızı",
+          "Description": "Kırmızı."
+        },
+        "G": {
+          "Title": "Yeşil",
+          "Description": "Yeşil."
+        },
+        "B": {
+          "Title": "Mavi",
+          "Description": "Mavi."
+        },
+        "H": {
+          "Title": "Renk Tonu",
+          "Description": "Renk Tonu."
+        },
+        "S": {
+          "Title": "Doygunluk",
+          "Description": "Doygunluk."
+        },
+        "V": {
+          "Title": "Değer",
+          "Description": "Değer."
+        },
+        "A": {
+          "Title": "Alfa",
+          "Description": "Alfa."
+        }
+      }
     },
     "DeviceOffsetField": {
       "Calibrate": "Ayarla"
@@ -380,6 +423,7 @@
     },
     "CustomServer": {
       "SonolusVersionError": "Bu sunucu sadece Sonolus' un {0} versiyonunu destekliyor.\n\nLütfen Sonolus uygulamanızı güncelleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+      "SonolusVersionTooOld": "Bu sunucu Sonolus' un eski bir versiyonunu destekliyor ({0}).\n\nLütfen sunucunun güncellenmesini bekleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
       "Session": {
         "NeedAuthentication": {
           "NotLoggedInError": {
@@ -958,8 +1002,11 @@
   "Routes": {
     "JumpToPage": {
       "Title": "Sayfaya Atla",
-      "Page": "Sayfa",
-      "PagePlaceholder": "Sayfa numarasını girin...",
+      "Page": {
+        "Title": "Sayfa",
+        "Description": "Sayfa sayısı.",
+        "Placeholder": "Sayfa sayısını girin..."
+      },
       "Jump": "Atla"
     },
     "SelectLocalization": {
@@ -1070,34 +1117,37 @@
       }
     },
     "EditCustomServer": {
-      "Title": "Özel Sunucuyu Düzenleyin",
-      "Address": "Adres",
-      "AddressPlaceholder": "Özel sunucu adresi girin...",
-      "Name": "İsim",
-      "NamePlaceholder": "Özel sunucu ismini girin..."
+      "Title": "Özel Sunucuyu Düzenleyin"
     },
     "AddCustomServerAddress": {
       "Title": "Özel Sunucu Ekleyin",
-      "Address": "Adres",
-      "AddressPlaceholder": "Özel sunucu adresi girin..."
+      "Address": {
+        "Title": "Adres",
+        "Description": "Özel sunucu adresi normal bir web URL' sidir (\"https://...\") ve genellikle özel sunucunun web sayfasında bulunabilir. ",
+        "Placeholder": "Özel sunucu adresi girin..."
+      }
     },
     "AddCustomServerInfo": {
       "Title": "Özel Sunucu Ekleyin",
       "Info": {
         "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu.\n\nLütfen sunucu adresinin doğru girip girmediğinizi kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
       },
-      "Name": "İsim",
-      "NamePlaceholder": "Özel sunucu ismini girin..."
+      "Name": {
+        "Title": "İsim",
+        "Description": "İsmini istediğiniz gibi koyabilirsiniz.",
+        "Placeholder": "Özel sunucu ismini girin..."
+      }
     },
     "EditCollection": {
-      "Title": "Koleksiyonu Düzenle",
-      "Name": "İsim",
-      "NamePlaceholder": "Koleksiyon ismini girin..."
+      "Title": "Koleksiyonu Düzenle"
     },
     "AddCollection": {
       "Title": "Koleksiyon Ekle",
-      "Name": "İsim",
-      "NamePlaceholder": "Koleksiyon ismini girin..."
+      "Name": {
+        "Title": "İsim",
+        "Description": "İsmini istediğiniz gibi koyabilirsiniz.",
+        "Placeholder": "Koleksiyon ismini girin..."
+      }
     },
     "ImportScp": {
       "Scp": {
@@ -1114,33 +1164,61 @@
       }
     },
     "EditVisibility": {
-      "Scale": "Boyut",
-      "Alpha": "Alfa"
+      "Scale": {
+        "Title": "Boyut",
+        "Description": "Boyut."
+      },
+      "Alpha": {
+        "Title": "Alfa",
+        "Description": "Alfa."
+      }
     },
     "EditAnimation": {
-      "Scale": "Boyut",
-      "Alpha": "Alfa"
+      "Scale": {
+        "Title": "Boyut",
+        "Description": "Boyut."
+      },
+      "Alpha": {
+        "Title": "Alfa",
+        "Description": "Alfa."
+      }
     },
     "EditTween": {
-      "From": "From",
-      "To": "To",
-      "Duration": "Duration",
-      "Ease": "Ease"
+      "From": {
+        "Title": "From",
+        "Description": "From."
+      },
+      "To": {
+        "Title": "To",
+        "Description": "To."
+      },
+      "Duration": {
+        "Title": "Duration",
+        "Description": "Duration."
+      },
+      "Ease": {
+        "Title": "Ease",
+        "Description": "Ease."
+      }
     },
     "EditColors": {
-      "Foreground": "Önplan",
-      "Background": "Arkaplan"
+      "Foreground": {
+        "Title": "Önplan",
+        "Description": "Önplan rengi."
+      },
+      "Background": {
+        "Title": "Arkaplan",
+        "Description": "Arkaplan rengi."
+      }
     },
     "CalibrateAudio": {
       "Title": "Sesi Ayarla",
-      "Description": "Sesi; görünen grafik ve ses senkronize olana kadar Cihaz Ses Dengesi ile ayarlayın.",
-      "DeviceAudioOffset": "Cihazın Ses Denge Ayarı"
+      "Description": "Sesi; görünen grafik ve ses senkronize olana kadar Cihaz Ses Dengesi ile ayarlayın."
     },
     "CalibrateInput": {
       "Title": "Girdiyi Ayarla",
       "Description": "Parmaklarını sese eşlik edecek şekilde dokunarak girdiyi ayarlayın. Ama ilk önce, lütfen cihaz ses dengesinin uygun bir şekilde ayarlandığından emin olun. Eğer size böyle bir seçenek vermeyen oyunlara alışkınsanız, denge ayarını 0 olarak bırakabilirsiniz.",
-      "Result": "Önerilen Denge Ayarı: {0} (±{1})",
-      "DeviceInputOffset": "Cihazın Girdi Denge Ayarı"
+      "Result": "Önerilen Denge Ayarı: {0} (±{1})"
     },
     "Home": {
       "Title": "Ana Menü",
@@ -1158,8 +1236,11 @@
       "Title": "Oyuncular",
       "PlayerLookup": {
         "Title": "Oyuncu Arama",
-        "Id": "Oyuncu Kimliği",
-        "IdPlaceholder": "Oyuncu kimliğini girin...",
+        "Id": {
+          "Title": "Oyuncu Kimliği",
+          "Description": "Oyuncu Kimliği.",
+          "Placeholder": "Oyuncu kimliğini girin..."
+        },
         "Lookup": "Ara"
       }
     },
@@ -1199,25 +1280,43 @@
       },
       "EditName": {
         "Title": "İsmi Düzenle",
-        "Name": "İsim",
-        "NamePlaceholder": "Oyuncu ismi girin..."
+        "Name": {
+          "Title": "İsim",
+          "Description": "Oyuncu ismi.",
+          "Placeholder": "Oyuncu ismi girin..."
+        }
       },
       "EditAvatar": {
         "Title": "Avatarı Düzenle",
-        "Foreground": "Önplan",
-        "Background": "Arkaplan"
+        "Foreground": {
+          "Title": "Önplan",
+          "Description": "Avatar önplanı."
+        },
+        "Background": {
+          "Title": "Arkaplan",
+          "Description": "Avatar arkaplanı."
+        }
       },
       "EditAboutMe": {
         "Title": "Hakkımda' yı Düzenle",
-        "AboutMe": "Hakkımda",
-        "AboutMePlaceholder": "Bir \"Hakkımda\" bölümü ekle..."
+        "AboutMe": {
+          "Title": "Hakkımda",
+          "Description": "Kendiniz hakkında kısa bir açıklama.",
+          "Placeholder": "Bir \"Hakkımda\" bölümü ekle..."
+        }
       },
       "AddSocialLink": {
         "Title": "Sosyal Bağlantı Ekle",
-        "SocialLinkTitle": "Başlık",
-        "SocialLinkTitlePlaceholder": "Sosyal bağlantı başlığı girin...",
-        "SocialLinkAddress": "Adres",
-        "SocialLinkAddressPlaceholder": "Sosyal bağlantı adresini girin..."
+        "SocialLinkTitle": {
+          "Title": "Başlık",
+          "Description": "Başlık.",
+          "Placeholder": "Sosyal bağlantı başlığı girin..."
+        },
+        "SocialLinkAddress": {
+          "Title": "Adres",
+          "Description": "Bağlantı kurulacak bir web URL'si (\"https://...\").",
+          "Placeholder": "Sosyal bağlantı adresini girin..."
+        }
       },
       "AddFavorite": {
         "Title": "Favori Ekle",
@@ -1373,46 +1472,15 @@
       "Configurations": {
         "Level": {
           "Title": "Seviye Yapılandırması",
-          "Skin": {
-            "Title": "Doku"
-          },
-          "Background": {
-            "Title": "Arkaplan"
-          },
-          "Effect": {
-            "Title": "Ses Efekti"
-          },
-          "Particle": {
-            "Title": "Partikül"
-          },
-          "Options": {
-            "Title": "Seçenekler"
-          },
-          "Audio": {
-            "Title": "Ses",
-            "BgmVolume": "Arkaplan Müziği",
-            "SfxVolume": "Ses Efektleri"
-          },
-          "UI": {
-            "Title": "Kullanıcı Arayüzü",
-            "PrimaryMetric": "Ana Ölçek",
-            "SecondaryMetric": "İkinci Ölçek",
-            "JudgmentErrorStyle": "Yargı Hata Biçimi",
-            "JudgmentErrorPlacement": "Yargı Hata Yerleşimi",
-            "JudgmentErrorMin": "Minimum Yargı Hatası",
-            "MenuStyle": "Menü Biçimi",
-            "JudgmentStyle": "Yargı Biçimi",
-            "ComboStyle": "Kombo Biçimi",
-            "PrimaryMetricStyle": "Ana Ölçek Biçimi",
-            "SecondaryMetricStyle": "İkinci Ölçek Biçimi"
-          },
           "Offsets": {
-            "Title": "Denge Ayarları",
-            "LevelAudioOffset": "Seviyenin Ses Denge Ayarı",
-            "ServerAudioOffset": "Sunucunun Ses Denge Ayarı",
-            "DeviceAudioOffset": "Cihazın Ses Denge Ayarı",
-            "EngineInputOffset": "Motorun Girdi Denge Ayarı",
-            "DeviceInputOffset": "Cihazın Girdi Denge Ayarı"
+            "LevelAudioOffset": {
+              "Title": "Seviyenin Ses Denge Ayarı",
+              "Description": "Bu seviyenin ek ses denge ayarı, yalnızca bu seviye senkronizasyon dışı olduğunda kullanılmalıdır. Sesiniz çok geç geliyorsa artırın, aksi takdirde azaltın."
+            },
+            "ServerAudioOffset": {
+              "Title": "Sunucunun Ses Denge Ayarı",
+              "Description": "Bu sunucunun ek ses denge ayarı, yalnızca bu sunucunun bütün seviyeleri senkronizasyon dışı olduğunda kullanılmalıdır. Sesiniz çok geç geliyorsa artırın, aksi takdirde azaltın."
+            }
           }
         },
         "Skin": {
@@ -1422,8 +1490,14 @@
           "Title": "Arkaplan Yapılandırması",
           "Image": {
             "Title": "Resim",
-            "Blur": "Bulanıklık",
-            "Mask": "Maskeleme"
+            "Blur": {
+              "Title": "Bulanıklık",
+              "Description": "Dikkat dağınıklığını azaltmak için arkaplan görüntüsünü bulanıklaştırın."
+            },
+            "Mask": {
+              "Title": "Maskeleme",
+              "Description": "Maskeleme, arkaplan görüntüsünü karartmak veya renklendirmek için kullanılabilir."
+            }
           }
         },
         "Effect": {
@@ -1450,21 +1524,52 @@
             "Title": "Seçenekler"
           },
           "UI": {
-            "Title": "Kullanıcı Arayüzü",
-            "PrimaryMetric": "Ana Ölçek",
-            "SecondaryMetric": "İkinci Ölçek",
-            "JudgmentErrorStyle": "Yargı Hata Biçimi",
-            "JudgmentErrorPlacement": "Yargı Hata Yerleşimi",
-            "JudgmentErrorMin": "Minimum Yargı Hatası",
-            "MenuStyle": "Menü Biçimi",
-            "JudgmentStyle": "Yargı Biçimi",
-            "ComboStyle": "Kombo Biçimi",
-            "PrimaryMetricStyle": "Ana Ölçek Biçimi",
-            "SecondaryMetricStyle": "İkinci Ölçek Biçimi"
+            "PrimaryMetric": {
+              "Title": "Ana Ölçek",
+              "Description": "Gösterilecek ana ölçek birimi."
+            },
+            "SecondaryMetric": {
+              "Title": "İkinci Ölçek",
+              "Description": "Gösterilecek ikinci ölçek birimi."
+            },
+            "JudgmentErrorStyle": {
+              "Title": "Yargı Hata Biçimi",
+              "Description": "Yargı hatası stili. Pozitif yargı hatası solda, negatif yargı hatası da sağda gözükür."
+            },
+            "JudgmentErrorPlacement": {
+              "Title": "Yargı Hata Yerleşimi",
+              "Description": "Yargı hata yerleşimi ayarı."
+            },
+            "JudgmentErrorMin": {
+              "Title": "Minimum Yargı Hatası",
+              "Description": "Minimum yargı hatası ayarı. Yalnızca bundan daha büyük yargı hataları gösterilecektir."
+            },
+            "MenuStyle": {
+              "Title": "Menü Biçimi",
+              "Description": "Menü biçimi ayarı."
+            },
+            "JudgmentStyle": {
+              "Title": "Yargı Biçimi",
+              "Description": "Yargı biçimi ayarları."
+            },
+            "ComboStyle": {
+              "Title": "Kombo Biçimi",
+              "Description": "Kombonun biçim ayarları."
+            },
+            "PrimaryMetricStyle": {
+              "Title": "Ana Ölçek Biçimi",
+              "Description": "Ana ölçek biçimi ayarı."
+            },
+            "SecondaryMetricStyle": {
+              "Title": "İkinci Ölçek Biçimi",
+              "Description": "İkinci ölçek biçimi ayarı."
+            }
           },
           "Offsets": {
-            "Title": "Denge Ayarları",
-            "EngineInputOffset": "Motorun Girdi Denge Ayarı"
+            "EngineInputOffset": {
+              "Title": "Motorun Girdi Denge Ayarı",
+              "Description": "0' da kullanılması önerilir.\n\nBu motora artıdan girdi ayarı ayarlamak, yalnızca özellikle bu motoru çalıştırırken sorun yaşadığınızda kullanılmalıdır. Girişleriniz çok geç olarak kaydedilirse artırın, aksi takdirde de azaltın."
+            }
           }
         }
       },
@@ -1505,10 +1610,25 @@
       "Title": "Ayarlar",
       "Graphics": {
         "Title": "Grafikler",
-        "TargetFps": "Hedef FPS",
-        "RenderScale": "Görselleştirme Büyüklüğü",
+        "TargetFps": {
+          "Title": "Hedef FPS",
+          "Description": "Cihazınızın ekran yenileme hızının kullanılması önerilir.\n\nSonolus, bu FPS'de çalışmayı hedefler, ancak cihazın bunu yapabilip yapamayacağı garanti edilmez."
+        },
+        "RenderMode": {
+          "Title": "Görselleştirme (Render) Modu",
+          "Description": "Standart görselleştirme modunun kullanılması önerilir.\n\nStandart görselleştirme modu isabetli grafikler sağlarken, hafif işleme modu hafiften (lol) hatalı grafikler sağlar ancak büyük ölçüde geliştirilmiş performans sağlar.",
+          "Options": {
+            "Standard": "Standart",
+            "Lightweight": "Hafif (Lightweight)"
+          }
+        },
+        "RenderScale": {
+          "Title": "Görselleştirme (Render) Büyüklüğü",
+          "Description": "%100' de kullanılması önerilir.\n\nSonolus bu ölçekte görselleştirir ve ölçeği ekran boyutuna büyültür veya küçültür. %100' den yüksek görselleştirme ölçeği, daha kötü performans pahasına grafikleri iyileştirebilirken, %100' den düşük görselleştirme ölçeği, daha kötü grafikler pahasına performansı artırır."
+        },
         "AntiAliasing": {
-          "Title": "Kenar Yumuşatma",
+          "Title": "Kenar Yumuşatma (Anti-Aliasing)",
+          "Description": "Kapalı kullanılması önerilir.\n\nKenar yumuşatma, daha kötü performans pahasına, özellikle hareketli grafik kenarlarındaki yapıları en aza indirerek grafikleri iyileştirir.",
           "Options": {
             "Off": "Kapalı",
             "TwoX": "2x",
@@ -1516,16 +1636,36 @@
             "EightX": "8x"
           }
         },
-        "GpuParticleSystem": "İşlemci Partikül Sistemi",
-        "IgnoreNotch": "Kenar Çentiğini Yoksay"
+        "GpuParticleSystem": {
+          "Title": "Grafik İşlemci Partikül Sistemi",
+          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak Merkezî İşlem Birimi (CPU) parçacık sistemini kullanır. Bu ayar açıldığında, CPU yerine Grafik İşlem Birimi (GPU) partikül sistemi kullanılacaktır. Çoğu mobil cihaz için GPU, CPU'dan daha zayıftır ve bu nedenle bu önerilmez."
+        },
+        "IgnoreNotch": {
+          "Title": "Kenar Çentiğini Yoksay",
+          "Description": "Sonolus, varsayılan olarak grafiklerin her zaman görünür olmasını sağlamak için cihazın kenar çentiklerini dikkate alır. Bu ayar açıldığında, Sonolus bunun yerine çentikleri yok sayar ve tam ekran olarak görselleştirir, bu da grafiklerin kısmen karışmasına neden olabilir."
+        }
       },
       "Audio": {
         "Title": "Ses",
-        "BgmVolume": "Arkaplan Ses Düzeyi",
-        "SfxVolume": "Ses Efekti Ses Düzeyi",
-        "AlwaysDecodeLevelBgm": "Her Zaman Seviye Ses Efektini Deşifre Et",
+        "BgmVolume": {
+          "Title": "Arkaplan Müziği (BGM) Ses Düzeyi",
+          "Description": "Arkaplan müziğinin ses düzeyi."
+        },
+        "SfxVolume": {
+          "Title": "Ses Efekti (SFX) Ses Düzeyi",
+          "Description": "Ses efektinin ses düzeyi."
+        },
+        "UIVolume": {
+          "Title": "Arayüz Ses Düzeyi",
+          "Description": "Arayüz ses efektlerinin ses düzeyi."
+        },
+        "AlwaysDecodeLevelBgm": {
+          "Title": "Her Zaman Seviye Ses Efektini Deşifre Et",
+          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa seviye arkaplan müziğinin kodunu çözer. Açıldığı zaman Sonolus her zaman seviye ses efektini deşifre eder."
+        },
         "PreviewBgm": {
           "Title": "Arkaplan Müziği Önizlemesi",
+          "Description": "Arkaplan müziğinin önizlemesi.",
           "Options": {
             "Off": "Kapalı",
             "DetailsOnly": "Sadece Detaylarda",
@@ -1534,6 +1674,7 @@
         },
         "LevelBgmQuality": {
           "Title": "Seviye Arkaplan Müziği Kalitesi",
+          "Description": "Yüksek ayarda kullanılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa seviye arkaplan müziğinin kodunu çözer. Seviye arkaplan müziği bu kalitede çözülecektir.",
           "Options": {
             "Low": "Az",
             "Mid": "Orta",
@@ -1542,6 +1683,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Arkaplan Müziği Önizlemesi Kalitesi",
+          "Description": "Orta ayarda kullanılması önerilir.\n\nSonolus, varsayılan olarak en iyi performans için işletim sisteminin yerel ses özelliklerini kullanır ve yalnızca format yerel olarak desteklenmiyorsa önizleme arkaplan müziğinin kodunu çözer. Önizleme arkaplan müziği bu kalitede çözülecektir.",
           "Options": {
             "Low": "Az",
             "Mid": "Orta",
@@ -1550,32 +1692,87 @@
         }
       },
       "UI": {
-        "Title": "Kullanıcı Arayüzü",
-        "Localization": "Dil",
-        "Theme": "Tema",
-        "Scale": "Arayüz Büyüklüğü",
-        "UnpauseDelay": "Durdurma Gecikmesi",
-        "PerfectJudgmentColors": "Perfect Yargı Renkleri",
-        "GreatJudgmentColors": "Great Yargı Renkleri",
-        "GoodJudgmentColors": "Good Yargı Renkleri",
-        "MissJudgmentColors": "Miss Yargı Renkleri",
-        "PositiveJudgmentErrorColors": "Pozitif Yargı Hata Renkleri",
-        "NegativeJudgmentErrorColors": "Negatif Yargı Hata Renkleri",
-        "AllPerfectComboColors": "All Perfect Kombo Renkleri",
-        "FullComboComboColors": "Full Combo Kombo Renkleri",
-        "PassComboColors": "Pass Kombo Renkleri",
-        "FailComboColors": "Fail Kombo Renkleri",
-        "BoldComboNumber": "Kalın Kombo Numarası",
-        "ShowZeroCombo": "Kombo Sıfır İken Göster"
+        "Title": "Kullanıcı Arayüzü (UI)",
+        "Localization": {
+          "Title": "Dil",
+          "Description": "Kullanılacak dil."
+        },
+        "Theme": {
+          "Title": "Tema",
+          "Description": "Kullanılacak renk teması."
+        },
+        "Scale": {
+          "Title": "Arayüz (UI) Büyüklüğü",
+          "Description": "Kullanılacak arayüz ölçeği. Okumada güçlük çekiyorsanız artırın, ekranda daha fazla içerik göstermesi için azaltın."
+        },
+        "UnpauseDelay": {
+          "Title": "Durdurma Gecikmesi",
+          "Description": "Duraklatmayı kaldırırken gecikme geri sayımı."
+        },
+        "PerfectJudgmentColors": {
+          "Title": "Perfect Yargı Renkleri",
+          "Description": "Perfect' in yargı renkleri."
+        },
+        "GreatJudgmentColors": {
+          "Title": "Great Yargı Renkleri",
+          "Description": "Great' in yargı renkleri."
+        },
+        "GoodJudgmentColors": {
+          "Title": "Good Yargı Renkleri",
+          "Description": "Good' un yargı renkleri."
+        },
+        "MissJudgmentColors": {
+          "Title": "Miss Yargı Renkleri",
+          "Description": "Miss' in yargı renkleri."
+        },
+        "PositiveJudgmentErrorColors": {
+          "Title": "Pozitif Yargı Hata Renkleri",
+          "Description": "Pozitif yargılar için yargı hata renkleri."
+        },
+        "NegativeJudgmentErrorColors": {
+          "Title": "Negatif Yargı Hata Renkleri",
+          "Description": "Negatif yargılar için yargı hata renkleri."
+        },
+        "AllPerfectComboColors": {
+          "Title": "All Perfect Kombo Renkleri",
+          "Description": "Rapor \"All Perfect\" olduğu zaman kullanılacak kombo renkleri."
+        },
+        "FullComboComboColors": {
+          "Title": "Full Combo Kombo Renkleri",
+          "Description": "Rapor \"Full Combo\" olduğu zaman kullanılacak kombo renkleri."
+        },
+        "PassComboColors": {
+          "Title": "Pass Kombo Renkleri",
+          "Description": "Rapor \"Pass\" olduğu zaman kullanılacak kombo renkleri."
+        },
+        "FailComboColors": {
+          "Title": "Fail Kombo Renkleri",
+          "Description": "Rapor \"Fail\" olduğu zaman kullanılacak kombo renkleri."
+        },
+        "BoldComboNumber": {
+          "Title": "Kalın Kombo Sayısı",
+          "Description": "Kombo sayısı için kalın yazı tipini kullanın."
+        },
+        "ShowZeroCombo": {
+          "Title": "Kombo Sıfır İken Göster",
+          "Description": "Kombo sıfır olduğunda göster."
+        }
       },
       "Offsets": {
         "Title": "Denge Ayarları",
         "Device": {
           "Title": "Cihaz",
+          "Description": "Hoparlör, kulaklık, bluetooth vb. gibi farklı cihaz senaryoları ile oynarken denge ayarlarını kaydetmek için bunu kullanın.",
           "Option": "{0}. Cihaz"
         },
-        "DeviceAudioOffset": "Cihazın Ses Denge Ayarı",
-        "DeviceInputOffset": "Cihazın Girdi Denge Ayarı"
+        "DeviceAudioOffset": {
+          "Title": "Cihazın Ses Denge Ayarı",
+          "Description": "0' da kullanılması önerilir.\n\nCihaz senaryonuzun ses denge ayarı. Hoparlör kullanan çoğu cihaz için 0 doğru denge ayarıdır. Girişleriniz çok geç kaydedilirse artırın, aksi takdirde azaltın."
+        },
+        "DeviceInputOffset": {
+          "Title": "Cihazın Girdi Denge Ayarı",
+          "Description": "0' da kullanılması önerilir.\n\nCihaz senaryonuzun girdi denge ayarı. Eğer böyle bir seçenek sunmayan oyunlara alışkınsanız 0'da bırakabilirsiniz. Girişleriniz çok geç kaydedilirse artırın, aksi takdirde azaltın."
+        }
       },
       "Repository": {
         "Title": "Depo",
@@ -1583,17 +1780,38 @@
       },
       "Cache": {
         "Title": "Önbellek",
-        "AlwaysRevalidate": "Her Zaman Yeniden Onayla",
+        "AlwaysRevalidate": {
+          "Title": "Her Zaman Yeniden Doğrula",
+          "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak  çevrimiçi kaynakları yalnızca eskidikten sonra yeniden doğrular. Bu ayar açıldığında, çevrimiçi kaynaklar kullanılmadan önce her zaman yeniden doğrulanır."
+        },
         "Manage": "Ayarla"
       },
       "Developer": {
         "Title": "Yapımcı",
-        "ShowFps": "FPS' i Göster",
-        "FpsStyle": "FPS Biçimi",
-        "ShowTouches": "Dokunmaları Göster",
-        "TouchStyle": "Dokunma İmleci Biçimi",
-        "DebugMode": "Hata Ayıklama Modu",
-        "DebugLogStyle": "Hata Ayıklama Kayıt Biçimi"
+        "ShowFps": {
+          "Title": "FPS' i Göster",
+          "Description": "Ekranın sol alt kısmında FPS sayacını göster."
+        },
+        "FpsStyle": {
+          "Title": "FPS Biçimi",
+          "Description": "FPS sayacının stili."
+        },
+        "ShowTouches": {
+          "Title": "Dokunmaları Göster",
+          "Description": "Dokunma göstergelerini gösterir. Dokunma göstergeleri de, video kayıtlarında girişleri göstermek için kullanışlıdır."
+        },
+        "TouchStyle": {
+          "Title": "Dokunma İmleci Biçimi",
+          "Description": "Dokunma imlecinin biçimi ayarı."
+        },
+        "DebugMode": {
+          "Title": "Hata Ayıklama (Debug) Modu",
+          "Description": "Hata ayıklama modu, hata ayıklamaya özel kodun çalışmasını sağlar ve ekranın sağ alt kısmında hata ayıklama kaydını gösterir."
+        },
+        "DebugLogStyle": {
+          "Title": "Hata Ayıklama Kayıt Biçimi",
+          "Description": "Hata ayıklama kayıt biçimi ayarı."
+        }
       }
     },
     "ManageRepository": {

@@ -31,6 +31,7 @@
       "#EFFECT": "SFX",
       "#EFFECT_AUTO": "SFX Auto ",
       "#STAGE": "Stage",
+      "#STAGE_POSITION": "Posisi Stage",
       "#STAGE_SIZE": "Ukuran Stage",
       "#STAGE_ROTATION": "Rotasi Stage",
       "#STAGE_ALPHA": "Transparansi Stage",
@@ -41,58 +42,70 @@
       "#STAGE_COVER_ALPHA": "Stage Cover Transparansi",
       "#STAGE_ASPECTRATIO_LOCK": "Kunci Ratio Aspek Stage",
       "#STAGE_EFFECT": "Efek Stage",
+      "#STAGE_EFFECT_POSITION": "Posisi Efek Stage",
       "#STAGE_EFFECT_SIZE": "Ukuran Efek Stage",
       "#STAGE_EFFECT_ROTATION": "Rotasi Efek Stage",
       "#STAGE_EFFECT_ALPHA": "Transparansi Efek Stage",
       "#LANE": "Lane",
+      "#LANE_POSITION": "Posisi Lane",
       "#LANE_SIZE": "Ukuran Lane",
       "#LANE_ROTATION": "Rotasi Lane",
       "#LANE_ALPHA": "Transparansi Lane",
       "#LANE_ANIMATION": "Animasi Lane",
       "#LANE_EFFECT": "Efek Lane ",
+      "#LANE_EFFECT_POSITION": "Posisi Efek Lane",
       "#LANE_EFFECT_SIZE": "Ukuran Efek Lane",
       "#LANE_EFFECT_ROTATION": "Rotasi Efek Lane",
       "#LANE_EFFECT_ALPHA": "Transparansi Efek Lane",
       "#JUDGELINE": "Penilaian Line",
+      "#JUDGELINE_POSITION": "Posisi Penilaian Line",
       "#JUDGELINE_SIZE": "Ukuran Penilaian Line",
       "#JUDGELINE_ROTATION": "Rotasi Penilaian Line",
       "#JUDGELINE_ALPHA": "Transparansi Penilaian Line",
       "#JUDGELINE_ANIMATION": "Animasi Penilaian Line",
       "#JUDGELINE_EFFECT": "Efek Penilaian Line",
+      "#JUDGELINE_EFFECT_POSITION": "Posisi Efek Penilaian Line",
       "#JUDGELINE_EFFECT_SIZE": "Penilaian Ukuran Efek Line",
       "#JUDGELINE_EFFECT_ROTATION": "Rotasi Efek Penilaian Line",
       "#JUDGELINE_EFFECT_ALPHA": "Transparansi Efek Penilaian Line",
       "#SLOT": "Slot",
+      "#SLOT_POSITION": "Posisi Slot",
       "#SLOT_SIZE": "Ukuran Slot",
       "#SLOT_ROTATION": "Rotasi Slot",
       "#SLOT_ALPHA": "Transparansi Slot",
       "#SLOT_ANIMATION": "Animasi Slot",
       "#SLOT_EFFECT": "Efek Slot",
+      "#SLOT_EFFECT_POSITION": "Posisi Efek Slot",
       "#SLOT_EFFECT_SIZE": "Ukuran Efek Slot",
       "#SLOT_EFFECT_ROTATION": "Rotasi Efek Slot",
       "#SLOT_EFFECT_ALPHA": "Transparansi Efek Slot",
       "#NOTE": "Note",
       "#NOTE_SPEED": "Kecepatan Note",
       "#NOTE_SPEED_RANDOM": "Acak Kecepatan Note",
+      "#NOTE_POSITION": "Posisi Note",
       "#NOTE_SIZE": "Ukuran Note",
       "#NOTE_ROTATION": "Rotasi Note",
       "#NOTE_ALPHA": "Transparansi Note",
       "#NOTE_ANIMATION": "Animasi Note",
       "#NOTE_EFFECT": "Efek Note",
+      "#NOTE_EFFECT_POSITION": "Posisi Efek Note",
       "#NOTE_EFFECT_SIZE": "Ukuran Efek Note",
       "#NOTE_EFFECT_ROTATION": "Rotasi Efek Note",
       "#NOTE_EFFECT_ALPHA": "Transparansi Efek Note",
       "#MARKER": "Marker",
+      "#MARKER_POSITION": "Posisi Marker",
       "#MARKER_SIZE": "Ukuran Marker",
       "#MARKER_ROTATION": "Rotasi Marker",
       "#MARKER_ALPHA": "Transparansi Marker",
       "#MARKER_ANIMATION": "Animasi Marker",
       "#CONNECTOR": "Konektor",
+      "#CONNECTOR_POSITION": "Posisi Konektor",
       "#CONNECTOR_SIZE": "Ukuran Konektor",
       "#CONNECTOR_ROTATION": "Rotasi Konektor",
       "#CONNECTOR_ALPHA": "Transparansi Konektor",
       "#CONNECTOR_ANIMATION": "Animasi Konektor",
       "#SIMLINE": "Line Simultan",
+      "#SIMLINE_POSITION": "Posisi Line Simultan",
       "#SIMLINE_SIZE": "Ukuran Line Simultan",
       "#SIMLINE_ROTATION": "Rotasi Line Simultan",
       "#SIMLINE_ALPHA": "Transparansi Line Simultan",
@@ -171,6 +184,7 @@
     "On": "ON",
     "Off": "OFF",
     "Select": "Pilih",
+    "Reset": "Reset",
     "Edit": "Edit",
     "View": "Tampilan",
     "Cancel": "Batal",
@@ -190,6 +204,7 @@
     "PullToRefresh": "Tarik untuk menyegarkan",
     "Save": "Simpan",
     "Share": "Bagikan",
+    "Export": "Ekspor",
     "Update": "Perbarui",
     "Delete": "Hapus",
     "Preview": "Pratinjau",
@@ -204,18 +219,46 @@
     "Good": "Good",
     "Miss": "Miss",
     "AdvancedOption": "Opsi ini untuk pemain tingkat lanjut.",
+    "Colors": "Warna",
     "ColorField": {
       "Hex": "HEX",
       "Rgb": "RGB",
       "Hsv": "HSV",
-      "HexPlaceholder": "Masukkan warna hex...",
-      "R": "Merah",
-      "G": "Hijau",
-      "B": "Biru",
-      "H": "Hue",
-      "S": "Saturasi",
-      "V": "Value",
-      "A": "Alpha"
+      "Components": {
+        "Hex": {
+          "Title": "Hex",
+          "Description": "#RRGGBB, atau #RRGGBBAA, dimana setiap komponen adalah 00 hingga FF.",
+          "Placeholder": "Masukkan warna hex..."
+        },
+        "R": {
+          "Title": "Merah",
+          "Description": "Merah."
+        },
+        "G": {
+          "Title": "Hijau",
+          "Description": "Hijau."
+        },
+        "B": {
+          "Title": "Biru",
+          "Description": "Biru."
+        },
+        "H": {
+          "Title": "Hue",
+          "Description": "Hue."
+        },
+        "S": {
+          "Title": "Saturasi",
+          "Description": "Saturasi"
+        },
+        "V": {
+          "Title": "Value",
+          "Description": "Value."
+        },
+        "A": {
+          "Title": "Alpha",
+          "Description": "Alpha."
+        }
+      }
     },
     "DeviceOffsetField": {
       "Calibrate": "Kalibrasi"
@@ -353,10 +396,10 @@
         }
       },
       "EditSocialLinks": {
-        "Loading": "Mengedit link sosial...",
-        "Error": "Gagal mengedit tautan sosial.\n\nSilakan periksa apakah link sosial Anda legal dan dalam batas panjang, atau periksa koneksi internet Anda dan coba lagi.",
+        "Loading": "Mengedit media sosial...",
+        "Error": "Gagal mengedit media sosial.\n\nSilakan periksa apakah media sosial Anda legal dan dalam batas panjang, atau periksa koneksi internet Anda dan coba lagi.",
         "Success": {
-          "Title": "Link Sosial Diedit"
+          "Title": "Media Sosial Diedit"
         }
       },
       "EditFavorites": {
@@ -380,6 +423,7 @@
     },
     "CustomServer": {
       "SonolusVersionError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilakan perbarui Sonolus Anda, atau hubungi pembuat server untuk melaporkan masalahnya.",
+      "SonolusVersionTooOld": "Server ini hanya mendukung Sonolus versi lama ({0}).\n\nHarap tunggu hingga server diperbarui, atau hubungi pemilik server untuk melaporkan masalah tersebut.",
       "Session": {
         "NeedAuthentication": {
           "NotLoggedInError": {
@@ -958,8 +1002,11 @@
   "Routes": {
     "JumpToPage": {
       "Title": "Lompat ke Halaman",
-      "Page": "Halaman",
-      "PagePlaceholder": "Masukkan nomor halaman...",
+      "Page": {
+        "Title": "Halaman",
+        "Description": "Nomor halaman.",
+        "Placeholder": "Masukkan nomor halaman..."
+      },
       "Jump": "Lompat"
     },
     "SelectLocalization": {
@@ -1070,34 +1117,37 @@
       }
     },
     "EditCustomServer": {
-      "Title": "Edit Kustom Server",
-      "Address": "Alamat Server",
-      "AddressPlaceholder": "Masukkan alamat kustom server...",
-      "Name": "Nama Kustom Server",
-      "NamePlaceholder": "Masukkan nama kustom server..."
+      "Title": "Edit Kustom Server"
     },
     "AddCustomServerAddress": {
       "Title": "Tambah Kustom Server",
-      "Address": "Alamat Server",
-      "AddressPlaceholder": "Masukkan alamat kustom server..."
+      "Address": {
+        "Title": "Alamat Server",
+        "Description": "Alamat kustom server adalah URL web biasa (\"https://...\"), dan biasanya dapat ditemukan di halaman web kustom server.",
+        "Placeholder": "Masukkan alamat kustom server..."
+      }
     },
     "AddCustomServerInfo": {
       "Title": "Tambah Kustom Server",
       "Info": {
         "Error": "Gagal memuat informasi server \"{0}\".\n\nSilakan periksa jika Anda memasukkan alamat server yang benar, periksa koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
       },
-      "Name": "Nama Kustom Server",
-      "NamePlaceholder": "Masukkan nama kustom server..."
+      "Name": {
+        "Title": "Nama Kustom Server",
+        "Description": "Anda dapat menamainya sesuka Anda.",
+        "Placeholder": "Masukkan nama kustom server..."
+      }
     },
     "EditCollection": {
-      "Title": "Edit Koleksi",
-      "Name": "Nama Koleksi",
-      "NamePlaceholder": "Masukkan nama koleksi..."
+      "Title": "Edit Koleksi"
     },
     "AddCollection": {
       "Title": "Tambah Koleksi",
-      "Name": "Nama Koleksi",
-      "NamePlaceholder": "Masukkan nama koleksi..."
+      "Name": {
+        "Title": "Nama Koleksi",
+        "Description": "Anda dapat menamainya sesuka Anda.",
+        "Placeholder": "Masukkan nama koleksi..."
+      }
     },
     "ImportScp": {
       "Scp": {
@@ -1114,33 +1164,61 @@
       }
     },
     "EditVisibility": {
-      "Scale": "Skala",
-      "Alpha": "Alpha"
+      "Scale": {
+        "Title": "Skala",
+        "Description": "Skala."
+      },
+      "Alpha": {
+        "Title": "Alpha",
+        "Description": "Alpha."
+      }
     },
     "EditAnimation": {
-      "Scale": "Skala",
-      "Alpha": "Alpha"
+      "Scale": {
+        "Title": "Skala",
+        "Description": "Skala."
+      },
+      "Alpha": {
+        "Title": "Alpha",
+        "Description": "Alpha."
+      }
     },
     "EditTween": {
-      "From": "Dari",
-      "To": "Ke",
-      "Duration": "Durasi",
-      "Ease": "Ease"
+      "From": {
+        "Title": "Dari",
+        "Description": "Dari."
+      },
+      "To": {
+        "Title": "Ke",
+        "Description": "Ke."
+      },
+      "Duration": {
+        "Title": "Durasi",
+        "Description": "Durasi."
+      },
+      "Ease": {
+        "Title": "Ease",
+        "Description": "Ease."
+      }
     },
     "EditColors": {
-      "Foreground": "Foreground",
-      "Background": "Background"
+      "Foreground": {
+        "Title": "Foreground",
+        "Description": "Warna foreground."
+      },
+      "Background": {
+        "Title": "Background",
+        "Description": "Warna background."
+      }
     },
     "CalibrateAudio": {
       "Title": "Kalibrasi Audio",
-      "Description": "Kalibrasi audio dengan menyesuaikan Offset Audio Perangkat sampai audio dan grafik sinkron.",
-      "DeviceAudioOffset": "Offset Audio Perangkat"
+      "Description": "Kalibrasi audio dengan menyesuaikan Offset Audio Perangkat sampai audio dan grafik sinkron."
     },
     "CalibrateInput": {
       "Title": "Kalibrasi Input",
       "Description": "Kalibrasi input dengan mengetuk dengan jari Anda. Pastikan offset audio Anda dikalibrasi dengan benar terlebih dulu.\nJika Anda terbiasa dengan game yang tidak menawarkan opsi seperti itu, Anda bisa membiarkannya pada 0.\n",
-      "Result": "Rekomendasi Offset: {0} (±{1})",
-      "DeviceInputOffset": "Offset Input Perangkat"
+      "Result": "Rekomendasi Offset: {0} (±{1})"
     },
     "Home": {
       "Title": "Home",
@@ -1158,8 +1236,11 @@
       "Title": "Pemain",
       "PlayerLookup": {
         "Title": "Pencarian Pemain",
-        "Id": "ID Pemain",
-        "IdPlaceholder": "Masukkan ID pemain...",
+        "Id": {
+          "Title": "ID Pemain",
+          "Description": "ID Pemain.",
+          "Placeholder": "Masukkan ID pemain..."
+        },
         "Lookup": "Cari"
       }
     },
@@ -1186,10 +1267,10 @@
           "Title": "Tentang Saya"
         },
         "SocialLinks": {
-          "Title": "Link Sosial",
-          "None": "Tidak ada link sosial.",
+          "Title": "Media Sosial",
+          "None": "Tidak ada media sosial.",
           "OpenConfirmation": {
-            "Description": "Link sosial ini menuju ke:\n{0}\n\nApakah Anda yakin untuk melihat?"
+            "Description": "Media sosial ini menuju ke:\n{0}\n\nApakah Anda yakin untuk melihat?"
           }
         },
         "Favorites": {
@@ -1199,25 +1280,43 @@
       },
       "EditName": {
         "Title": "Edit Nama",
-        "Name": "Nama",
-        "NamePlaceholder": "Masukkan nama pemain..."
+        "Name": {
+          "Title": "Nama",
+          "Description": "Nama pemain.",
+          "Placeholder": "Masukkan nama pemain..."
+        }
       },
       "EditAvatar": {
         "Title": "Edit Avatar",
-        "Foreground": "Foreground",
-        "Background": "Background"
+        "Foreground": {
+          "Title": "Foreground",
+          "Description": "Avatar foreground."
+        },
+        "Background": {
+          "Title": "Background",
+          "Description": "Avatar background."
+        }
       },
       "EditAboutMe": {
         "Title": "Edit Tentang Saya",
-        "AboutMe": "Tentang Saya",
-        "AboutMePlaceholder": "Masukkan tentang saya..."
+        "AboutMe": {
+          "Title": "Tentang Saya",
+          "Description": "Deskripsi singkat tentang diri Anda.",
+          "Placeholder": "Masukkan tentang saya..."
+        }
       },
       "AddSocialLink": {
-        "Title": "Tambah Link Sosial",
-        "SocialLinkTitle": "Judul",
-        "SocialLinkTitlePlaceholder": "Masukkan judul link sosial...",
-        "SocialLinkAddress": "Alamat",
-        "SocialLinkAddressPlaceholder": "Masukkan alamat link sosial..."
+        "Title": "Tambah Media Sosial",
+        "SocialLinkTitle": {
+          "Title": "Judul",
+          "Description": "Judul.",
+          "Placeholder": "Masukkan judul media sosial..."
+        },
+        "SocialLinkAddress": {
+          "Title": "Link Media Sosial",
+          "Description": "URL web (\"https://...\") untuk ditautkan.",
+          "Placeholder": "Masukkan link media sosial..."
+        }
       },
       "AddFavorite": {
         "Title": "Tambah Favorit",
@@ -1373,46 +1472,15 @@
       "Configurations": {
         "Level": {
           "Title": "Konfigurasi Level",
-          "Skin": {
-            "Title": "Skin"
-          },
-          "Background": {
-            "Title": "Latar"
-          },
-          "Effect": {
-            "Title": "SFX"
-          },
-          "Particle": {
-            "Title": "Partikel"
-          },
-          "Options": {
-            "Title": "Opsi"
-          },
-          "Audio": {
-            "Title": "Audio",
-            "BgmVolume": "Volume BGM",
-            "SfxVolume": "Volume SFX"
-          },
-          "UI": {
-            "Title": "UI",
-            "PrimaryMetric": "Metrik Utama",
-            "SecondaryMetric": "Metrik Sekunder",
-            "JudgmentErrorStyle": "Style Penilaian Error",
-            "JudgmentErrorPlacement": "Penempatan Penilaian Error",
-            "JudgmentErrorMin": "Penilaian Error Minimum",
-            "MenuStyle": "Style Menu",
-            "JudgmentStyle": "Style Penilaian",
-            "ComboStyle": "Style Kombo",
-            "PrimaryMetricStyle": "Style Metrik Utama",
-            "SecondaryMetricStyle": "Style Metrik Sekunder"
-          },
           "Offsets": {
-            "Title": "Offset",
-            "LevelAudioOffset": "Offset Audio Level",
-            "ServerAudioOffset": "Offset Audio Server",
-            "DeviceAudioOffset": "Offset Audio Perangkat",
-            "EngineInputOffset": "Offset Input Mesin",
-            "DeviceInputOffset": "Offset Input Perangkat"
+            "LevelAudioOffset": {
+              "Title": "Offset Audio Level",
+              "Description": "Offset audio tambahan dari level ini, sebaiknya hanya digunakan saat khusus pada level ini yang tidak sinkron. Tingkatkan jika audio Anda terlambat, dan kurangi sebaliknya."
+            },
+            "ServerAudioOffset": {
+              "Title": "Offset Audio Server",
+              "Description": "Offset audio tambahan dari server ini, sebaiknya hanya digunakan saat semua level server ini tidak sinkron. Tingkatkan jika audio Anda terlambat, dan kurangi sebaliknya."
+            }
           }
         },
         "Skin": {
@@ -1422,8 +1490,14 @@
           "Title": "Konfigurasi Latar",
           "Image": {
             "Title": "Gambar",
-            "Blur": "Blur",
-            "Mask": "Mask"
+            "Blur": {
+              "Title": "Blur",
+              "Description": "Blur latar belakang untuk mengurangsi gangguan."
+            },
+            "Mask": {
+              "Title": "Mask",
+              "Description": "Mask dapat digunakan untuk meredupkan atau mewarnai gambar latar belakang."
+            }
           }
         },
         "Effect": {
@@ -1450,21 +1524,52 @@
             "Title": "Opsi"
           },
           "UI": {
-            "Title": "UI",
-            "PrimaryMetric": "Metrik Utama",
-            "SecondaryMetric": "Metrik Sekunder",
-            "JudgmentErrorStyle": "Style Penilaian Error",
-            "JudgmentErrorPlacement": "Penempatan Penilaian Error",
-            "JudgmentErrorMin": "Penilaian Error Minimum",
-            "MenuStyle": "Style Menu",
-            "JudgmentStyle": "Style Penilaian",
-            "ComboStyle": "Style Kombo",
-            "PrimaryMetricStyle": "Style Metrik Utama",
-            "SecondaryMetricStyle": "Style Metrik Sekunder"
+            "PrimaryMetric": {
+              "Title": "Metrik Utama",
+              "Description": "Untuk menampilkan metrik utama."
+            },
+            "SecondaryMetric": {
+              "Title": "Metrik Sekunder",
+              "Description": "Untuk menampilkan metrik sekunder."
+            },
+            "JudgmentErrorStyle": {
+              "Title": "Style Penilaian Error",
+              "Description": "Style dari penilaian error. Positif penilaian error di sebelah kiri, sedangkan negatif penilaian error di sebelah kanan."
+            },
+            "JudgmentErrorPlacement": {
+              "Title": "Penempatan Penilaian Error",
+              "Description": "Penempatan dari penilaian error."
+            },
+            "JudgmentErrorMin": {
+              "Title": "Penilaian Error Minimum",
+              "Description": "Penilaian Error Minimum. Hanya penilaian error yang lebih besar dari ini yang akan ditampilkan."
+            },
+            "MenuStyle": {
+              "Title": "Style Menu",
+              "Description": "Style dari menu."
+            },
+            "JudgmentStyle": {
+              "Title": "Style Penilaian",
+              "Description": "Style dari penilaian."
+            },
+            "ComboStyle": {
+              "Title": "Style Kombo",
+              "Description": "Style dari kombo."
+            },
+            "PrimaryMetricStyle": {
+              "Title": "Style Metrik Utama",
+              "Description": "Style dari metrik utama."
+            },
+            "SecondaryMetricStyle": {
+              "Title": "Style Metrik Sekunder",
+              "Description": "Style dari metrik sekunder."
+            }
           },
           "Offsets": {
-            "Title": "Offset",
-            "EngineInputOffset": "Offset Input Mesin"
+            "EngineInputOffset": {
+              "Title": "Offset Input Mesin",
+              "Description": "Direkomendasikan untuk menggunakan 0.\n\nTambahan input offset untuk mesin ini, sebaiknya hanya digunakan saat Anda kesulitan memainkan khusus di mesin ini. Tingkatkan jika input Anda terasa terlambat, dan kurangi jika sebaliknya."
+            }
           }
         }
       },
@@ -1505,10 +1610,25 @@
       "Title": "Pengaturan",
       "Graphics": {
         "Title": "Grafik",
-        "TargetFps": "Target FPS",
-        "RenderScale": "Skala Render",
+        "TargetFps": {
+          "Title": "Target FPS",
+          "Description": "Direkomendasikan untuk menggunakan refresh rate layar perangkat Anda.\n\nSonolus menargetkan untuk menjalankan FPS ini, namun tidak dijamin jika perangkat tidak mampu melakukannya."
+        },
+        "RenderMode": {
+          "Title": "Mode Render",
+          "Description": "Direkomendasikan untuk menggunakan mode render standar.\n\nMode render standar memberikan grafik yang akurat, sedangkan mode render ringan memberikan grafik yang sedikit tidak akurat tetapi kinerjanya jauh lebih baik.",
+          "Options": {
+            "Standard": "Standar",
+            "Lightweight": "Ringan"
+          }
+        },
+        "RenderScale": {
+          "Title": "Skala Render",
+          "Description": "Direkomendasikan untuk menggunakan 100%.\n\nSonolus merender pada skala ini dan skala atas atau bawah ke ukuran layar. Skala render yang lebih tinggi dari 100% dapat meningkatkan grafis dengan mengorbankan performa yang lebih buruk, sedangkan skala render yang lebih rendah dari 100% meningkatkan performa dengan mengorbankan grafis yang lebih buruk."
+        },
         "AntiAliasing": {
           "Title": "Anti-Aliasing",
+          "Description": "Direkomendasikan untuk dimatikan.\n\nAnti-aliasing meningkatkan grafik dengan meminimalkan artefak khususnya di sekitar tepi sprite, dengan mengorbankan kinerja yang lebih buruk.",
           "Options": {
             "Off": "Off",
             "TwoX": "2x",
@@ -1516,16 +1636,36 @@
             "EightX": "8x"
           }
         },
-        "GpuParticleSystem": "Sistem Partikel GPU",
-        "IgnoreNotch": "Abaikan Notch"
+        "GpuParticleSystem": {
+          "Title": "Sistem Partikel GPU",
+          "Description": "Direkomendasikan untuk tetap off.\n\nSonolus secara default menggunakan sistem partikel CPU. Saat diaktifkan, sistem partikel GPU akan digunakan sebagai gantinya. Untuk sebagian besar perangkat seluler, GPU lebih lemah dari CPU sehingga hal ini tidak disarankan."
+        },
+        "IgnoreNotch": {
+          "Title": "Abaikan Notch",
+          "Description": "Sonolus secara default memperhitungkan notch perangkat untuk memastikan grafik selalu terlihat. Saat dinyalakan, Sonolus akan mengabaikan notch dan merender layar penuh, yang dapat mengakibatkan sebagian grafik terhalangi."
+        }
       },
       "Audio": {
         "Title": "Audio",
-        "BgmVolume": "Volume BGM",
-        "SfxVolume": "Volume SFX",
-        "AlwaysDecodeLevelBgm": "Selalu Decode BGM Level",
+        "BgmVolume": {
+          "Title": "Volume BGM",
+          "Description": "Volume dari BGM."
+        },
+        "SfxVolume": {
+          "Title": "Volume SFX",
+          "Description": "Volume dari SFX."
+        },
+        "UIVolume": {
+          "Title": "Volume UI",
+          "Description": "Volume dari UI."
+        },
+        "AlwaysDecodeLevelBgm": {
+          "Title": "Selalu Decode BGM Level",
+          "Description": "Direkomendasikan untuk dimatikan.\n\nSonolus secara default menggunakan kemampuan audio asli sistem operasi untuk performa terbaik, dan mendecode BGM level hanya jika formatnya tidak didukung secara asli. Saat dinyalakan, Sonolus selalu mendecode BGM."
+        },
         "PreviewBgm": {
           "Title": "Pratinjau BGM",
+          "Description": "Tempat memainkan pratinjau BGM.",
           "Options": {
             "Off": "Off",
             "DetailsOnly": "Detail",
@@ -1534,6 +1674,7 @@
         },
         "LevelBgmQuality": {
           "Title": "Kualitas BGM Level",
+          "Description": "Direkomendasikan untuk menggunakan bagus.\n\nSonolus secara default menggunakan kemampuan audio asli sistem operasi untuk performa terbaik, dan mendecode BGM level hanya jika formatnya tidak didukung secara asli. Level BGM akan mendecode pada kualitas ini.",
           "Options": {
             "Low": "Buruk",
             "Mid": "Biasa",
@@ -1542,6 +1683,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Kualitas Pratinjau BGM",
+          "Description": "Merekomendasikan untuk menggunakan biasa.\n\nSonolus secara default menggunakan kemampuan audio asli sistem operasi untuk performa terbaik, dan mendecode pratinjau BGM hanya jika formatnya tidak didukung secara asli. Pratinjau BGM akan mendecode pada kualitas ini.",
           "Options": {
             "Low": "Buruk",
             "Mid": "Biasa",
@@ -1551,31 +1693,86 @@
       },
       "UI": {
         "Title": "UI",
-        "Localization": "Bahasa",
-        "Theme": "Tema",
-        "Scale": "Skala UI",
-        "UnpauseDelay": "Delay Setelah Jeda",
-        "PerfectJudgmentColors": "Warna Penilaian Perfect",
-        "GreatJudgmentColors": "Warna Penilaian Great",
-        "GoodJudgmentColors": "Warna Penilaian Good",
-        "MissJudgmentColors": "Warna Penilaian Miss",
-        "PositiveJudgmentErrorColors": "Warna Penilaian Error Positif",
-        "NegativeJudgmentErrorColors": "Warna Penilaian Error Negatif",
-        "AllPerfectComboColors": "Warna All Perfect",
-        "FullComboComboColors": "Warna Full Combo",
-        "PassComboColors": "Warna Pass",
-        "FailComboColors": "Warna Fail",
-        "BoldComboNumber": "Tebalkan Angka Kombo",
-        "ShowZeroCombo": "Tampilkan Kombo Nol (0)"
+        "Localization": {
+          "Title": "Bahasa",
+          "Description": "Bahasa yang digunakan."
+        },
+        "Theme": {
+          "Title": "Tema",
+          "Description": "Warna tema yang digunakan."
+        },
+        "Scale": {
+          "Title": "Skala UI",
+          "Description": "Skala UI untuk digunakan. Tingkatkan jika Anda kesulitan membaca, dan kurangi untuk menampilkan lebih banyak konten di layar sekaligus."
+        },
+        "UnpauseDelay": {
+          "Title": "Delay Setelah Jeda",
+          "Description": "Hitung mundur delay ketika setelah jeda."
+        },
+        "PerfectJudgmentColors": {
+          "Title": "Warna Penilaian Perfect",
+          "Description": "Warna penilaian untuk perfect."
+        },
+        "GreatJudgmentColors": {
+          "Title": "Warna Penilaian Great",
+          "Description": "Warna penilaian untuk great."
+        },
+        "GoodJudgmentColors": {
+          "Title": "Warna Penilaian Good",
+          "Description": "Warna penilaian untuk good."
+        },
+        "MissJudgmentColors": {
+          "Title": "Warna Penilaian Miss",
+          "Description": "Warna penilaian untuk miss."
+        },
+        "PositiveJudgmentErrorColors": {
+          "Title": "Warna Penilaian Error Positif",
+          "Description": "Warna penilaian error untuk error positif."
+        },
+        "NegativeJudgmentErrorColors": {
+          "Title": "Warna Penilaian Error Negatif",
+          "Description": "Warna penilaian error untuk error negatif."
+        },
+        "AllPerfectComboColors": {
+          "Title": "Warna All Perfect",
+          "Description": "Warna kombo ketika All Perfect."
+        },
+        "FullComboComboColors": {
+          "Title": "Warna Full Combo",
+          "Description": "Warna kombo ketika Full Combo."
+        },
+        "PassComboColors": {
+          "Title": "Warna Pass",
+          "Description": "Warna kombo ketika Pass."
+        },
+        "FailComboColors": {
+          "Title": "Warna Fail",
+          "Description": "Warna kombo ketika Fail."
+        },
+        "BoldComboNumber": {
+          "Title": "Tebalkan Angka Kombo",
+          "Description": "Gunakan huruf tebal untuk angka kombo."
+        },
+        "ShowZeroCombo": {
+          "Title": "Tampilkan Kombo Nol (0)",
+          "Description": "Tampilkan kombo ketika kombo adalah 0."
+        }
       },
       "Offsets": {
         "Title": "Offset",
         "Device": {
           "Title": "Perangkat",
+          "Description": "Gunakan ini untuk menyimpan offset pada berbagai skenario perangkat, seperti saat bermain dengan speaker, headphone, bluetooth, dll.",
           "Option": "Perangkat {0}"
         },
-        "DeviceAudioOffset": "Offset Audio Perangkat",
-        "DeviceInputOffset": "Offset Input Perangkat"
+        "DeviceAudioOffset": {
+          "Title": "Offset Audio Perangkat",
+          "Description": "Direkomendasikan untuk menggunakan 0.\n\nOffset audio dari skenario perangkat Anda. Untuk sebagian besar perangkat yang menggunakan speaker, 0 adalah offset yang benar. Bluetooth tidak disarankan. Tingkatkan jika audio Anda terasa terlambat, dan kurangi jika sebaliknya."
+        },
+        "DeviceInputOffset": {
+          "Title": "Offset Input Perangkat",
+          "Description": "Direkomendasikan untuk menggunakan 0.\n\nInput offset dari skenario perangkat Anda. Jika Anda terbiasa dengan game yang tidak menawarkan opsi seperti itu, Anda dapat membiarkannya di 0. Naikkan jika input Anda terasa terlambat, dan turunkan jika sebaliknya."
+        }
       },
       "Repository": {
         "Title": "Repositori",
@@ -1583,17 +1780,38 @@
       },
       "Cache": {
         "Title": "Cache",
-        "AlwaysRevalidate": "Selalu Validasi",
+        "AlwaysRevalidate": {
+          "Title": "Selalu Validasi",
+          "Description": "Direkomendasikan untuk dimatikan.\n\nSonolus secara default hanya memvalidasi ulang sumber daya online setelah kadaluarsa. Saat diaktifkan, sumber daya online selalu divalidasi ulang sebelum digunakan."
+        },
         "Manage": "Atur"
       },
       "Developer": {
         "Title": "Pengembang",
-        "ShowFps": "Tampilkan FPS",
-        "FpsStyle": "Style FPS",
-        "ShowTouches": "Tampilkan Sentuhan",
-        "TouchStyle": "Style Sentuhan",
-        "DebugMode": "Mode Debug",
-        "DebugLogStyle": "Style Debug Log"
+        "ShowFps": {
+          "Title": "Tampilkan FPS",
+          "Description": "Menampilkan FPS di bawah kiri layar."
+        },
+        "FpsStyle": {
+          "Title": "Style FPS",
+          "Description": "Style dari FPS."
+        },
+        "ShowTouches": {
+          "Title": "Tampilkan Sentuhan",
+          "Description": "Menampilkan indikator sentuhan. Indikator sentuhan akan berguna untuk menunjukkan input ketika merekam video."
+        },
+        "TouchStyle": {
+          "Title": "Style Sentuhan",
+          "Description": "Style dari indikator sentuhan."
+        },
+        "DebugMode": {
+          "Title": "Mode Debug",
+          "Description": "Mode debug mengaktifkan kode khusus debug untuk dijalankan, dan menampilkan log debug di kanan bawah layar."
+        },
+        "DebugLogStyle": {
+          "Title": "Style Debug Log",
+          "Description": "Style dari debug log."
+        }
       }
     },
     "ManageRepository": {

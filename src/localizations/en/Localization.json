@@ -31,6 +31,7 @@
             "#EFFECT": "SFX",
             "#EFFECT_AUTO": "Auto SFX",
             "#STAGE": "Stage",
+            "#STAGE_POSITION": "Stage Position",
             "#STAGE_SIZE": "Stage Size",
             "#STAGE_ROTATION": "Stage Rotation",
             "#STAGE_ALPHA": "Stage Transparency",
@@ -41,58 +42,70 @@
             "#STAGE_COVER_ALPHA": "Stage Cover Transparency",
             "#STAGE_ASPECTRATIO_LOCK": "Lock Stage Aspect Ratio",
             "#STAGE_EFFECT": "Stage Effect",
+            "#STAGE_EFFECT_POSITION": "Stage Effect Position",
             "#STAGE_EFFECT_SIZE": "Stage Effect Size",
             "#STAGE_EFFECT_ROTATION": "Stage Effect Rotation",
             "#STAGE_EFFECT_ALPHA": "Stage Effect Transparency",
             "#LANE": "Lane",
+            "#LANE_POSITION": "Lane Position",
             "#LANE_SIZE": "Lane Size",
             "#LANE_ROTATION": "Lane Rotation",
             "#LANE_ALPHA": "Lane Transparency",
             "#LANE_ANIMATION": "Lane Animation",
             "#LANE_EFFECT": "Lane Effect",
+            "#LANE_EFFECT_POSITION": "Lane Effect Position",
             "#LANE_EFFECT_SIZE": "Lane Effect Size",
             "#LANE_EFFECT_ROTATION": "Lane Effect Rotation",
             "#LANE_EFFECT_ALPHA": "Lane Effect Transparency",
             "#JUDGELINE": "Judgment Line",
+            "#JUDGELINE_POSITION": "Judgment Line Position",
             "#JUDGELINE_SIZE": "Judgment Line Size",
             "#JUDGELINE_ROTATION": "Judgment Line Rotation",
             "#JUDGELINE_ALPHA": "Judgment Line Transparency",
             "#JUDGELINE_ANIMATION": "Judgment Line Animation",
             "#JUDGELINE_EFFECT": "Judgment Line Effect",
+            "#JUDGELINE_EFFECT_POSITION": "Judgment Line Effect Position",
             "#JUDGELINE_EFFECT_SIZE": "Judgment Line Effect Size",
             "#JUDGELINE_EFFECT_ROTATION": "Judgment Line Effect Rotation",
             "#JUDGELINE_EFFECT_ALPHA": "Judgment Line Effect Transparency",
             "#SLOT": "Slot",
+            "#SLOT_POSITION": "Slot Position",
             "#SLOT_SIZE": "Slot Size",
             "#SLOT_ROTATION": "Slot Rotation",
             "#SLOT_ALPHA": "Slot Transparency",
             "#SLOT_ANIMATION": "Slot Animation",
             "#SLOT_EFFECT": "Slot Effect",
+            "#SLOT_EFFECT_POSITION": "Slot Effect Position",
             "#SLOT_EFFECT_SIZE": "Slot Effect Size",
             "#SLOT_EFFECT_ROTATION": "Slot Effect Rotation",
             "#SLOT_EFFECT_ALPHA": "Slot Effect Transparency",
             "#NOTE": "Note",
             "#NOTE_SPEED": "Note Speed",
             "#NOTE_SPEED_RANDOM": "Random Note Speed",
+            "#NOTE_POSITION": "Note Position",
             "#NOTE_SIZE": "Note Size",
             "#NOTE_ROTATION": "Note Rotation",
             "#NOTE_ALPHA": "Note Transparency",
             "#NOTE_ANIMATION": "Note Animation",
             "#NOTE_EFFECT": "Note Effect",
+            "#NOTE_EFFECT_POSITION": "Note Effect Position",
             "#NOTE_EFFECT_SIZE": "Note Effect Size",
             "#NOTE_EFFECT_ROTATION": "Note Effect Rotation",
             "#NOTE_EFFECT_ALPHA": "Note Effect Transparency",
             "#MARKER": "Marker",
+            "#MARKER_POSITION": "Marker Position",
             "#MARKER_SIZE": "Marker Size",
             "#MARKER_ROTATION": "Marker Rotation",
             "#MARKER_ALPHA": "Marker Transparency",
             "#MARKER_ANIMATION": "Marker Animation",
             "#CONNECTOR": "Connector",
+            "#CONNECTOR_POSITION": "Connector Position",
             "#CONNECTOR_SIZE": "Connector Size",
             "#CONNECTOR_ROTATION": "Connector Rotation",
             "#CONNECTOR_ALPHA": "Connector Transparency",
             "#CONNECTOR_ANIMATION": "Connector Animation",
             "#SIMLINE": "Simultaneous Line",
+            "#SIMLINE_POSITION": "Simultaneous Line Position",
             "#SIMLINE_SIZE": "Simultaneous Line Size",
             "#SIMLINE_ROTATION": "Simultaneous Line Rotation",
             "#SIMLINE_ALPHA": "Simultaneous Line Transparency",
@@ -171,6 +184,7 @@
         "On": "ON",
         "Off": "OFF",
         "Select": "Select",
+        "Reset": "Reset",
         "Edit": "Edit",
         "View": "View",
         "Cancel": "Cancel",
@@ -190,6 +204,7 @@
         "PullToRefresh": "Pull to refresh",
         "Save": "Save",
         "Share": "Share",
+        "Export": "Export",
         "Update": "Update",
         "Delete": "Delete",
         "Preview": "Preview",
@@ -204,18 +219,46 @@
         "Good": "Good",
         "Miss": "Miss",
         "AdvancedOption": "This option is for advanced players.",
+        "Colors": "Colors",
         "ColorField": {
             "Hex": "HEX",
             "Rgb": "RGB",
             "Hsv": "HSV",
-            "HexPlaceholder": "Enter color hex...",
-            "R": "Red",
-            "G": "Green",
-            "B": "Blue",
-            "H": "Hue",
-            "S": "Saturation",
-            "V": "Value",
-            "A": "Alpha"
+            "Components": {
+                "Hex": {
+                    "Title": "Hex",
+                    "Description": "#RRGGBB, or #RRGGBBAA, where each component is 00 to FF.",
+                    "Placeholder": "Enter color hex..."
+                },
+                "R": {
+                    "Title": "Red",
+                    "Description": "Red."
+                },
+                "G": {
+                    "Title": "Green",
+                    "Description": "Green."
+                },
+                "B": {
+                    "Title": "Blue",
+                    "Description": "Blue."
+                },
+                "H": {
+                    "Title": "Hue",
+                    "Description": "Hue."
+                },
+                "S": {
+                    "Title": "Saturation",
+                    "Description": "Saturation."
+                },
+                "V": {
+                    "Title": "Value",
+                    "Description": "Value."
+                },
+                "A": {
+                    "Title": "Alpha",
+                    "Description": "Alpha."
+                }
+            }
         },
         "DeviceOffsetField": {
             "Calibrate": "Calibrate"
@@ -380,6 +423,7 @@
         },
         "CustomServer": {
             "SonolusVersionError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem.",
+            "SonolusVersionTooOld": "This server only supports an old version of Sonolus ({0}).\n\nPlease wait for the server to be updated, or contact server owner to report the problem.",
             "Session": {
                 "NeedAuthentication": {
                     "NotLoggedInError": {
@@ -958,8 +1002,11 @@
     "Routes": {
         "JumpToPage": {
             "Title": "Jump to Page",
-            "Page": "Page",
-            "PagePlaceholder": "Enter page number...",
+            "Page": {
+                "Title": "Page",
+                "Description": "Page number.",
+                "Placeholder": "Enter page number..."
+            },
             "Jump": "Jump"
         },
         "SelectLocalization": {
@@ -1070,34 +1117,37 @@
             }
         },
         "EditCustomServer": {
-            "Title": "Edit Custom Server",
-            "Address": "Address",
-            "AddressPlaceholder": "Enter custom server address...",
-            "Name": "Name",
-            "NamePlaceholder": "Enter custom server name..."
+            "Title": "Edit Custom Server"
         },
         "AddCustomServerAddress": {
             "Title": "Add Custom Server",
-            "Address": "Address",
-            "AddressPlaceholder": "Enter custom server address..."
+            "Address": {
+                "Title": "Address",
+                "Description": "Custom server address is a normal web URL (\"https://...\"), and can usually be found on custom server's webpage.",
+                "Placeholder": "Enter custom server address..."
+            }
         },
         "AddCustomServerInfo": {
             "Title": "Add Custom Server",
             "Info": {
                 "Error": "Failed to load server information of \"{0}\".\n\nPlease check if you have entered the correct server address, check your internet connection and try again, or contact server owner to report the problem."
             },
-            "Name": "Name",
-            "NamePlaceholder": "Enter custom server name..."
+            "Name": {
+                "Title": "Name",
+                "Description": "You can name it however you like.",
+                "Placeholder": "Enter custom server name..."
+            }
         },
         "EditCollection": {
-            "Title": "Edit Collection",
-            "Name": "Name",
-            "NamePlaceholder": "Enter collection name..."
+            "Title": "Edit Collection"
         },
         "AddCollection": {
             "Title": "Add Collection",
-            "Name": "Name",
-            "NamePlaceholder": "Enter collection name..."
+            "Name": {
+                "Title": "Name",
+                "Description": "You can name it however you like.",
+                "Placeholder": "Enter collection name..."
+            }
         },
         "ImportScp": {
             "Scp": {
@@ -1114,33 +1164,61 @@
             }
         },
         "EditVisibility": {
-            "Scale": "Scale",
-            "Alpha": "Alpha"
+            "Scale": {
+                "Title": "Scale",
+                "Description": "Scale."
+            },
+            "Alpha": {
+                "Title": "Alpha",
+                "Description": "Alpha."
+            }
         },
         "EditAnimation": {
-            "Scale": "Scale",
-            "Alpha": "Alpha"
+            "Scale": {
+                "Title": "Scale",
+                "Description": "Scale."
+            },
+            "Alpha": {
+                "Title": "Alpha",
+                "Description": "Alpha."
+            }
         },
         "EditTween": {
-            "From": "From",
-            "To": "To",
-            "Duration": "Duration",
-            "Ease": "Ease"
+            "From": {
+                "Title": "From",
+                "Description": "From."
+            },
+            "To": {
+                "Title": "To",
+                "Description": "To."
+            },
+            "Duration": {
+                "Title": "Duration",
+                "Description": "Duration."
+            },
+            "Ease": {
+                "Title": "Ease",
+                "Description": "Ease."
+            }
         },
         "EditColors": {
-            "Foreground": "Foreground",
-            "Background": "Background"
+            "Foreground": {
+                "Title": "Foreground",
+                "Description": "Foreground color."
+            },
+            "Background": {
+                "Title": "Background",
+                "Description": "Background color."
+            }
         },
         "CalibrateAudio": {
             "Title": "Calibrate Audio",
-            "Description": "Calibrate audio by adjusting Device Audio Offset until audio and graphics sync up.",
-            "DeviceAudioOffset": "Device Audio Offset"
+            "Description": "Calibrate audio by adjusting Device Audio Offset until audio and graphics sync up."
         },
         "CalibrateInput": {
             "Title": "Calibrate Input",
             "Description": "Calibrate input by tapping along with your finger. Please make sure your audio offset is correctly calibrated first.\nIf you are accustomed to games that do not offer such option, you can leave it at 0.",
-            "Result": "Recommended Offset: {0} (±{1})",
-            "DeviceInputOffset": "Device Input Offset"
+            "Result": "Recommended Offset: {0} (±{1})"
         },
         "Home": {
             "Title": "Home",
@@ -1158,8 +1236,11 @@
             "Title": "Players",
             "PlayerLookup": {
                 "Title": "Player Lookup",
-                "Id": "Player ID",
-                "IdPlaceholder": "Enter player ID...",
+                "Id": {
+                    "Title": "Player ID",
+                    "Description": "Player ID.",
+                    "Placeholder": "Enter player ID..."
+                },
                 "Lookup": "Lookup"
             }
         },
@@ -1199,25 +1280,43 @@
             },
             "EditName": {
                 "Title": "Edit Name",
-                "Name": "Name",
-                "NamePlaceholder": "Enter player name..."
+                "Name": {
+                    "Title": "Name",
+                    "Description": "Player name.",
+                    "Placeholder": "Enter player name..."
+                }
             },
             "EditAvatar": {
                 "Title": "Edit Avatar",
-                "Foreground": "Foreground",
-                "Background": "Background"
+                "Foreground": {
+                    "Title": "Foreground",
+                    "Description": "Avatar foreground."
+                },
+                "Background": {
+                    "Title": "Background",
+                    "Description": "Avatar background."
+                }
             },
             "EditAboutMe": {
                 "Title": "Edit About Me",
-                "AboutMe": "About Me",
-                "AboutMePlaceholder": "Enter about me..."
+                "AboutMe": {
+                    "Title": "About Me",
+                    "Description": "A short description about yourself.",
+                    "Placeholder": "Enter about me..."
+                }
             },
             "AddSocialLink": {
                 "Title": "Add Social Link",
-                "SocialLinkTitle": "Title",
-                "SocialLinkTitlePlaceholder": "Enter social link title...",
-                "SocialLinkAddress": "Address",
-                "SocialLinkAddressPlaceholder": "Enter social link address..."
+                "SocialLinkTitle": {
+                    "Title": "Title",
+                    "Description": "Title.",
+                    "Placeholder": "Enter social link title..."
+                },
+                "SocialLinkAddress": {
+                    "Title": "Address",
+                    "Description": "A web URL (\"https://...\") to link to.",
+                    "Placeholder": "Enter social link address..."
+                }
             },
             "AddFavorite": {
                 "Title": "Add Favorite",
@@ -1373,46 +1472,15 @@
             "Configurations": {
                 "Level": {
                     "Title": "Level Configuration",
-                    "Skin": {
-                        "Title": "Skin"
-                    },
-                    "Background": {
-                        "Title": "Background"
-                    },
-                    "Effect": {
-                        "Title": "SFX"
-                    },
-                    "Particle": {
-                        "Title": "Particle"
-                    },
-                    "Options": {
-                        "Title": "Options"
-                    },
-                    "Audio": {
-                        "Title": "Audio",
-                        "BgmVolume": "BGM Volume",
-                        "SfxVolume": "SFX Volume"
-                    },
-                    "UI": {
-                        "Title": "UI",
-                        "PrimaryMetric": "Primary Metric",
-                        "SecondaryMetric": "Secondary Metric",
-                        "JudgmentErrorStyle": "Judgment Error Style",
-                        "JudgmentErrorPlacement": "Judgment Error Placement",
-                        "JudgmentErrorMin": "Minimum Judgment Error",
-                        "MenuStyle": "Menu Style",
-                        "JudgmentStyle": "Judgment Style",
-                        "ComboStyle": "Combo Style",
-                        "PrimaryMetricStyle": "Primary Metric Style",
-                        "SecondaryMetricStyle": "Secondary Metric Style"
-                    },
                     "Offsets": {
-                        "Title": "Offsets",
-                        "LevelAudioOffset": "Level Audio Offset",
-                        "ServerAudioOffset": "Server Audio Offset",
-                        "DeviceAudioOffset": "Device Audio Offset",
-                        "EngineInputOffset": "Engine Input Offset",
-                        "DeviceInputOffset": "Device Input Offset"
+                        "LevelAudioOffset": {
+                            "Title": "Level Audio Offset",
+                            "Description": "Additional audio offset of this level, should only be used when this level in particular is off sync. Increase if your audio is too late, and decrease otherwise."
+                        },
+                        "ServerAudioOffset": {
+                            "Title": "Server Audio Offset",
+                            "Description": "Additional audio offset of this server, should only be used when all levels of this server is off sync. Increase if your audio is too late, and decrease otherwise."
+                        }
                     }
                 },
                 "Skin": {
@@ -1422,8 +1490,14 @@
                     "Title": "Background Configuration",
                     "Image": {
                         "Title": "Image",
-                        "Blur": "Blur",
-                        "Mask": "Mask"
+                        "Blur": {
+                            "Title": "Blur",
+                            "Description": "Blur background image to reduce distraction."
+                        },
+                        "Mask": {
+                            "Title": "Mask",
+                            "Description": "Mask can be used to dim or colorize background image."
+                        }
                     }
                 },
                 "Effect": {
@@ -1450,21 +1524,52 @@
                         "Title": "Options"
                     },
                     "UI": {
-                        "Title": "UI",
-                        "PrimaryMetric": "Primary Metric",
-                        "SecondaryMetric": "Secondary Metric",
-                        "JudgmentErrorStyle": "Judgment Error Style",
-                        "JudgmentErrorPlacement": "Judgment Error Placement",
-                        "JudgmentErrorMin": "Minimum Judgment Error",
-                        "MenuStyle": "Menu Style",
-                        "JudgmentStyle": "Judgment Style",
-                        "ComboStyle": "Combo Style",
-                        "PrimaryMetricStyle": "Primary Metric Style",
-                        "SecondaryMetricStyle": "Secondary Metric Style"
+                        "PrimaryMetric": {
+                            "Title": "Primary Metric",
+                            "Description": "Primary metric to show."
+                        },
+                        "SecondaryMetric": {
+                            "Title": "Secondary Metric",
+                            "Description": "Secondary metric to show."
+                        },
+                        "JudgmentErrorStyle": {
+                            "Title": "Judgment Error Style",
+                            "Description": "Style of judgment error. Positive judgment error on the left, while negative judgment error on the right."
+                        },
+                        "JudgmentErrorPlacement": {
+                            "Title": "Judgment Error Placement",
+                            "Description": "Placement of judgment error."
+                        },
+                        "JudgmentErrorMin": {
+                            "Title": "Minimum Judgment Error",
+                            "Description": "Minimum judgment error. Only judgment errors larger than this will be shown."
+                        },
+                        "MenuStyle": {
+                            "Title": "Menu Style",
+                            "Description": "Style of menu."
+                        },
+                        "JudgmentStyle": {
+                            "Title": "Judgment Style",
+                            "Description": "Style of judgment."
+                        },
+                        "ComboStyle": {
+                            "Title": "Combo Style",
+                            "Description": "Style of combo."
+                        },
+                        "PrimaryMetricStyle": {
+                            "Title": "Primary Metric Style",
+                            "Description": "Style of primary metric."
+                        },
+                        "SecondaryMetricStyle": {
+                            "Title": "Secondary Metric Style",
+                            "Description": "Style of secondary metric."
+                        }
                     },
                     "Offsets": {
-                        "Title": "Offsets",
-                        "EngineInputOffset": "Engine Input Offset"
+                        "EngineInputOffset": {
+                            "Title": "Engine Input Offset",
+                            "Description": "Recommend to use 0.\n\nAdditional input offset of this engine, should only be used when you have trouble playing this engine in particular. Increase if your inputs are registered as too late, and decrease otherwise."
+                        }
                     }
                 }
             },
@@ -1505,10 +1610,25 @@
             "Title": "Settings",
             "Graphics": {
                 "Title": "Graphics",
-                "TargetFps": "Target FPS",
-                "RenderScale": "Render Scale",
+                "TargetFps": {
+                    "Title": "Target FPS",
+                    "Description": "Recommend to use your device's screen refresh rate.\n\nSonolus targets to run at this FPS, however it is not guaranteed if device is incapable of doing so."
+                },
+                "RenderMode": {
+                    "Title": "Render Mode",
+                    "Description": "Recommend to use standard render mode.\n\nStandard render mode provides accurate graphics, while lightweight render mode provides slightly inaccurate graphics but vastly improved performance.",
+                    "Options": {
+                        "Standard": "Standard",
+                        "Lightweight": "Lightweight"
+                    }
+                },
+                "RenderScale": {
+                    "Title": "Render Scale",
+                    "Description": "Recommend to use 100%.\n\nSonolus renders at this scale and upscale or downscale to screen size. Render scale higher than 100% may improve graphics at the cost of worse performance, while render scale lower than 100% improves performance at the cost of worse graphics."
+                },
                 "AntiAliasing": {
                     "Title": "Anti-Aliasing",
+                    "Description": "Recommend to use off.\n\nAnti-aliasing improves graphics by minimizing artifacts in particular around sprite edges, at the cost of worse performance.",
                     "Options": {
                         "Off": "Off",
                         "TwoX": "2x",
@@ -1516,16 +1636,36 @@
                         "EightX": "8x"
                     }
                 },
-                "GpuParticleSystem": "GPU Particle System",
-                "IgnoreNotch": "Ignore Notch"
+                "GpuParticleSystem": {
+                    "Title": "GPU Particle System",
+                    "Description": "Recommend to turn off.\n\nSonolus by default uses CPU particle system. When turned on, GPU particle system will be used instead. For most mobile devices, GPU is weaker than CPU and thus this is not recommended."
+                },
+                "IgnoreNotch": {
+                    "Title": "Ignore Notch",
+                    "Description": "Sonolus by default takes into account device's notches to ensure graphics are always visible. When turned on, Sonolus instead ignores notches and renders fullscreen, which may result in graphics being partially obscured."
+                }
             },
             "Audio": {
                 "Title": "Audio",
-                "BgmVolume": "BGM Volume",
-                "SfxVolume": "SFX Volume",
-                "AlwaysDecodeLevelBgm": "Always Decode Level BGM",
+                "BgmVolume": {
+                    "Title": "BGM Volume",
+                    "Description": "Volume of BGM."
+                },
+                "SfxVolume": {
+                    "Title": "SFX Volume",
+                    "Description": "Volume of SFX."
+                },
+                "UIVolume": {
+                    "Title": "UI Volume",
+                    "Description": "Volume of UI."
+                },
+                "AlwaysDecodeLevelBgm": {
+                    "Title": "Always Decode Level BGM",
+                    "Description": "Recommend to turn off.\n\nSonolus by default uses operating system's native audio capabilities for best performance, and decodes level BGM only if the format is not supported natively. When turned on, Sonolus always decodes BGM."
+                },
                 "PreviewBgm": {
                     "Title": "Preview BGM",
+                    "Description": "Where to play preview BGM.",
                     "Options": {
                         "Off": "Off",
                         "DetailsOnly": "Details Only",
@@ -1534,6 +1674,7 @@
                 },
                 "LevelBgmQuality": {
                     "Title": "Level BGM Quality",
+                    "Description": "Recommend to use high.\n\nSonolus by default uses operating system's native audio capabilities for best performance, and decodes level BGM only if the format is not supported natively. Level BGM will be decoded at this quality.",
                     "Options": {
                         "Low": "Low",
                         "Mid": "Mid",
@@ -1542,6 +1683,7 @@
                 },
                 "PreviewBgmQuality": {
                     "Title": "Preview BGM Quality",
+                    "Description": "Recommend to use mid.\n\nSonolus by default uses operating system's native audio capabilities for best performance, and decodes preview BGM only if the format is not supported natively. Preview BGM will be decoded at this quality.",
                     "Options": {
                         "Low": "Low",
                         "Mid": "Mid",
@@ -1551,31 +1693,86 @@
             },
             "UI": {
                 "Title": "UI",
-                "Localization": "Language",
-                "Theme": "Theme",
-                "Scale": "UI Scale",
-                "UnpauseDelay": "Unpause Delay",
-                "PerfectJudgmentColors": "Perfect Judgment Colors",
-                "GreatJudgmentColors": "Great Judgment Colors",
-                "GoodJudgmentColors": "Good Judgment Colors",
-                "MissJudgmentColors": "Miss Judgment Colors",
-                "PositiveJudgmentErrorColors": "Positive Judgment Error Colors",
-                "NegativeJudgmentErrorColors": "Negative Judgment Error Colors",
-                "AllPerfectComboColors": "All Perfect Combo Colors",
-                "FullComboComboColors": "Full Combo Combo Colors",
-                "PassComboColors": "Pass Combo Colors",
-                "FailComboColors": "Fail Combo Colors",
-                "BoldComboNumber": "Bold Combo Number",
-                "ShowZeroCombo": "Show Zero Combo"
+                "Localization": {
+                    "Title": "Language",
+                    "Description": "Language to use."
+                },
+                "Theme": {
+                    "Title": "Theme",
+                    "Description": "Color theme to use."
+                },
+                "Scale": {
+                    "Title": "UI Scale",
+                    "Description": "UI scale to use. Increase if you have difficulty reading, and decrease to show more content on screen at once."
+                },
+                "UnpauseDelay": {
+                    "Title": "Unpause Delay",
+                    "Description": "Countdown delay when unpausing."
+                },
+                "PerfectJudgmentColors": {
+                    "Title": "Perfect Judgment Colors",
+                    "Description": "Judgment colors for Perfect."
+                },
+                "GreatJudgmentColors": {
+                    "Title": "Great Judgment Colors",
+                    "Description": "Judgment colors for Great."
+                },
+                "GoodJudgmentColors": {
+                    "Title": "Good Judgment Colors",
+                    "Description": "Judgment colors for Good."
+                },
+                "MissJudgmentColors": {
+                    "Title": "Miss Judgment Colors",
+                    "Description": "Judgment colors for Miss."
+                },
+                "PositiveJudgmentErrorColors": {
+                    "Title": "Positive Judgment Error Colors",
+                    "Description": "Judgment error colors for positive errors."
+                },
+                "NegativeJudgmentErrorColors": {
+                    "Title": "Negative Judgment Error Colors",
+                    "Description": "Judgment error colors for negative errors."
+                },
+                "AllPerfectComboColors": {
+                    "Title": "All Perfect Combo Colors",
+                    "Description": "Combo colors when grade is All Perfect."
+                },
+                "FullComboComboColors": {
+                    "Title": "Full Combo Combo Colors",
+                    "Description": "Combo colors when grade is Full Combo."
+                },
+                "PassComboColors": {
+                    "Title": "Pass Combo Colors",
+                    "Description": "Combo colors when grade is Pass."
+                },
+                "FailComboColors": {
+                    "Title": "Fail Combo Colors",
+                    "Description": "Combo colors when grade is Fail."
+                },
+                "BoldComboNumber": {
+                    "Title": "Bold Combo Number",
+                    "Description": "Use bold font for combo number."
+                },
+                "ShowZeroCombo": {
+                    "Title": "Show Zero Combo",
+                    "Description": "Show combo when combo is zero."
+                }
             },
             "Offsets": {
                 "Title": "Offsets",
                 "Device": {
                     "Title": "Device",
+                    "Description": "Use this to save offsets for different device scenarios, such as when playing with speaker, headphones, bluetooth, etc.",
                     "Option": "Device {0}"
                 },
-                "DeviceAudioOffset": "Device Audio Offset",
-                "DeviceInputOffset": "Device Input Offset"
+                "DeviceAudioOffset": {
+                    "Title": "Device Audio Offset",
+                    "Description": "Recommend to use 0.\n\nAudio offset of your device scenario. For most devices using speaker, 0 is the correct offset. Bluetooth is not recommended. Increase if your audio is too late, and decrease otherwise."
+                },
+                "DeviceInputOffset": {
+                    "Title": "Device Input Offset",
+                    "Description": "Recommend to use 0.\n\nInput offset of your device scenario. If you are accustomed to games that do not offer such option, you can leave it at 0. Increase if your inputs are registered as too late, and decrease otherwise."
+                }
             },
             "Repository": {
                 "Title": "Repository",
@@ -1583,17 +1780,38 @@
             },
             "Cache": {
                 "Title": "Cache",
-                "AlwaysRevalidate": "Always Revalidate",
+                "AlwaysRevalidate": {
+                    "Title": "Always Revalidate",
+                    "Description": "Recommend to turn off.\n\nSonolus by default only revalidate online resources after stale. When turned on, online resources are always revalidated before using."
+                },
                 "Manage": "Manage"
             },
             "Developer": {
                 "Title": "Developer",
-                "ShowFps": "Show FPS",
-                "FpsStyle": "FPS Style",
-                "ShowTouches": "Show Touches",
-                "TouchStyle": "Touch Style",
-                "DebugMode": "Debug Mode",
-                "DebugLogStyle": "Debug Log Style"
+                "ShowFps": {
+                    "Title": "Show FPS",
+                    "Description": "Show FPS counter on bottom left of screen."
+                },
+                "FpsStyle": {
+                    "Title": "FPS Style",
+                    "Description": "Style of FPS counter."
+                },
+                "ShowTouches": {
+                    "Title": "Show Touches",
+                    "Description": "Show touch indicators. Touch indicators are useful for showing inputs in video recordings."
+                },
+                "TouchStyle": {
+                    "Title": "Touch Style",
+                    "Description": "Style of touch indicators."
+                },
+                "DebugMode": {
+                    "Title": "Debug Mode",
+                    "Description": "Debug mode enables debug specific code to run, and shows debug log on bottom right of screen."
+                },
+                "DebugLogStyle": {
+                    "Title": "Debug Log Style",
+                    "Description": "Style of debug log."
+                }
             }
         },
         "ManageRepository": {
