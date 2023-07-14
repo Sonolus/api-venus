@@ -1281,26 +1281,41 @@
       "EditName": {
         "Title": "Modifier le nom",
         "Name": {
-          "Title": "Nom"
+          "Title": "Nom",
+          "Description": "Nom de joueur.",
+          "Placeholder": "Entrez le nom du joueur..."
         }
       },
       "EditAvatar": {
         "Title": "Modifier l'Avatar",
         "Foreground": {
+          "Title": "Premier plan",
+          "Description": "Avatar au premier plan."
         },
         "Background": {
+          "Title": "Arrière-plan",
+          "Description": "Fond d'avatar."
         }
       },
       "EditAboutMe": {
         "Title": "Modifier À propos de moi",
         "AboutMe": {
+          "Title": "Sur moi",
+          "Description": "Une courte description de vous-même.",
+          "Placeholder": "Entrez à propos de moi..."
         }
       },
       "AddSocialLink": {
         "Title": "Ajouter un lien social",
         "SocialLinkTitle": {
+          "Title": "Titre",
+          "Description": "Titre.",
+          "Placeholder": "Saisissez le titre du lien social..."
         },
         "SocialLinkAddress": {
+          "Title": "Adresse",
+          "Description": "Une URL Web (\"https://...\") vers laquelle établir un lien.",
+          "Placeholder": "Entrez l'adresse du lien social..."
         }
       },
       "AddFavorite": {
@@ -1459,8 +1474,12 @@
           "Title": "Configuration du niveau",
           "Offsets": {
             "LevelAudioOffset": {
+              "Title": "Décalage audio de niveau",
+              "Description": "Un décalage audio supplémentaire de ce niveau ne doit être utilisé que lorsque ce niveau en particulier est désynchronisé. Augmentez si votre audio arrive trop tard, et diminuez sinon."
             },
             "ServerAudioOffset": {
+              "Title": "Décalage audio du serveur",
+              "Description": "Le décalage audio supplémentaire de ce serveur ne doit être utilisé que lorsque tous les niveaux de ce serveur sont désynchronisés. Augmentez si votre audio arrive trop tard, et diminuez sinon."
             }
           }
         },
@@ -1472,8 +1491,12 @@
           "Image": {
             "Title": "Image",
             "Blur": {
+              "Title": "Se brouiller",
+              "Description": "Flou de l'image d'arrière-plan pour réduire la distraction."
             },
             "Mask": {
+              "Title": "Masque",
+              "Description": "Le masque peut être utilisé pour assombrir ou coloriser l'image d'arrière-plan."
             }
           }
         },
@@ -1502,28 +1525,50 @@
           },
           "UI": {
             "PrimaryMetric": {
+              "Title": "Métrique principale",
+              "Description": "Statistique principale à afficher."
             },
             "SecondaryMetric": {
+              "Title": "Métrique secondaire",
+              "Description": "Métrique secondaire à afficher."
             },
             "JudgmentErrorStyle": {
+              "Title": "Style d'erreur de jugement",
+              "Description": "Style d'erreur de jugement. Erreur de jugement positif à gauche, tandis qu'erreur de jugement négatif à droite."
             },
             "JudgmentErrorPlacement": {
+              "Title": "Placement d'erreur de jugement",
+              "Description": "Placement de l'erreur de jugement."
             },
             "JudgmentErrorMin": {
+              "Title": "Erreur de jugement minimale",
+              "Description": "Erreur de jugement minimale. Seules les erreurs de jugement plus importantes seront affichées."
             },
             "MenuStyle": {
+              "Title": "Style de menus",
+              "Description": "Style de menus."
             },
             "JudgmentStyle": {
+              "Title": "Style de jugement",
+              "Description": "Style de jugement."
             },
             "ComboStyle": {
+              "Title": "Style combiné",
+              "Description": "Style de combo."
             },
             "PrimaryMetricStyle": {
+              "Title": "Style de métrique principal",
+              "Description": "Style de la métrique principale."
             },
             "SecondaryMetricStyle": {
+              "Title": "Style de métrique secondaire",
+              "Description": "Style de métrique secondaire."
             }
           },
           "Offsets": {
             "EngineInputOffset": {
+              "Title": "Décalage d'entrée du moteur",
+              "Description": "Recommander d'utiliser 0.\n\nLe décalage d'entrée supplémentaire de ce moteur ne doit être utilisé que lorsque vous avez du mal à jouer avec ce moteur en particulier. Augmentez si vos entrées sont enregistrées trop tard, et diminuez sinon."
             }
           }
         }
@@ -1566,15 +1611,24 @@
       "Graphics": {
         "Title": "Graphics",
         "TargetFps": {
+          "Title": "FPS cible",
+          "Description": "Nous vous recommandons d'utiliser le taux de rafraîchissement de l'écran de votre appareil.\n\nSonolus vise à fonctionner à ce FPS, mais il n'est pas garanti si l'appareil est incapable de le faire."
         },
         "RenderMode": {
+          "Title": "Mode de rendu",
+          "Description": "Recommander d'utiliser le mode de rendu standard.\n\nLe mode de rendu standard fournit des graphiques précis, tandis que le mode de rendu léger fournit des graphiques légèrement imprécis mais des performances considérablement améliorées.",
           "Options": {
+            "Standard": "Standard",
+            "Lightweight": "Poids léger"
           }
         },
         "RenderScale": {
+          "Title": "Échelle de rendu",
+          "Description": "Recommander d'utiliser 100 %.\n\nSonolus rend à cette échelle et augmente ou réduit la taille de l'écran. Une échelle de rendu supérieure à 100 % peut améliorer les graphismes au prix de moins bonnes performances, tandis qu'une échelle de rendu inférieure à 100 % améliore les performances au prix de moins bons graphismes."
         },
         "AntiAliasing": {
           "Title": "Anti-Aliasing",
+          "Description": "Recommander d'utiliser off.\n\nL'anticrénelage améliore les graphismes en minimisant les artefacts, en particulier autour des bords des sprites, au prix de moins bonnes performances.",
           "Options": {
             "Off": "Off",
             "TwoX": "2x",
@@ -1583,22 +1637,35 @@
           }
         },
         "GpuParticleSystem": {
+          "Title": "Système de particules GPU",
+          "Description": "Recommander d'éteindre.\n\nSonolus utilise par défaut le système de particules CPU. Lorsqu'il est activé, le système de particules GPU sera utilisé à la place. Pour la plupart des appareils mobiles, le GPU est plus faible que le CPU et ce n'est donc pas recommandé."
         },
         "IgnoreNotch": {
+          "Title": "Ignorer l'encoche",
+          "Description": "Par défaut, Sonolus prend en compte les encoches de l'appareil pour s'assurer que les graphiques sont toujours visibles. Lorsqu'il est activé, Sonolus ignore les encoches et s'affiche en plein écran, ce qui peut entraîner l'obscurcissement partiel des graphiques."
         }
       },
       "Audio": {
         "Title": "Audio",
         "BgmVolume": {
+          "Title": "Volume de la musique de fond",
+          "Description": "Volume de musique de fond."
         },
         "SfxVolume": {
+          "Title": "Volume SFX",
+          "Description": "Volume de SFX."
         },
         "UIVolume": {
+          "Title": "Volume de l'interface utilisateur",
+          "Description": "Volume de l'interface utilisateur."
         },
         "AlwaysDecodeLevelBgm": {
+          "Title": "Toujours décoder le niveau BGM",
+          "Description": "Recommander d'éteindre.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode le niveau BGM uniquement si le format n'est pas pris en charge de manière native. Lorsqu'il est allumé, Sonolus décode toujours BGM."
         },
         "PreviewBgm": {
           "Title": "Preview BGM",
+          "Description": "Où jouer aperçu BGM.",
           "Options": {
             "Off": "Off",
             "DetailsOnly": "Détails uniquement",
@@ -1607,6 +1674,7 @@
         },
         "LevelBgmQuality": {
           "Title": "Niveau de qualité BGM",
+          "Description": "Recommander d'utiliser haut.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode le niveau BGM uniquement si le format n'est pas pris en charge de manière native. Le niveau BGM sera décodé à cette qualité.",
           "Options": {
             "Low": "Low",
             "Mid": "Mid",
@@ -1615,6 +1683,7 @@
         },
         "PreviewBgmQuality": {
           "Title": "Preview de la qualité BGM",
+          "Description": "Recommander d'utiliser le milieu.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode l'aperçu BGM uniquement si le format n'est pas pris en charge de manière native. L'aperçu BGM sera décodé avec cette qualité.",
           "Options": {
             "Low": "Low",
             "Mid": "Mid",
@@ -1625,47 +1694,84 @@
       "UI": {
         "Title": "UI",
         "Localization": {
+          "Title": "Langue",
+          "Description": "Langue à utiliser."
         },
         "Theme": {
+          "Title": "Thème",
+          "Description": "Thème de couleur à utiliser."
         },
         "Scale": {
+          "Title": "Échelle de l'interface utilisateur",
+          "Description": "Échelle de l'interface utilisateur à utiliser. Augmentez si vous avez des difficultés à lire et diminuez pour afficher plus de contenu à la fois."
         },
         "UnpauseDelay": {
+          "Title": "Reprendre le délai",
+          "Description": "Délai de compte à rebours lors de la reprise."
         },
         "PerfectJudgmentColors": {
+          "Title": "Couleurs du jugement parfait",
+          "Description": "Couleurs de jugement pour Perfect."
         },
         "GreatJudgmentColors": {
+          "Title": "Grandes couleurs de jugement",
+          "Description": "Couleurs du jugement pour Great."
         },
         "GoodJudgmentColors": {
+          "Title": "Couleurs du bon jugement",
+          "Description": "Couleurs du jugement pour le bien."
         },
         "MissJudgmentColors": {
+          "Title": "Miss Jugement Couleurs",
+          "Description": "Couleurs du jugement pour Miss."
         },
         "PositiveJudgmentErrorColors": {
+          "Title": "Couleurs d'erreur de jugement positif",
+          "Description": "Couleurs d'erreur de jugement pour les erreurs positives."
         },
         "NegativeJudgmentErrorColors": {
+          "Title": "Couleurs d'erreur de jugement négatif",
+          "Description": "Couleurs d'erreur de jugement pour les erreurs négatives."
         },
         "AllPerfectComboColors": {
+          "Title": "Toutes les couleurs combinées parfaites",
+          "Description": "Couleurs combinées lorsque le grade est Tout parfait."
         },
         "FullComboComboColors": {
+          "Title": "Combo complet Combo Couleurs",
+          "Description": "Couleurs combinées lorsque le grade est Full Combo."
         },
         "PassComboColors": {
+          "Title": "Pass Combo Couleurs",
+          "Description": "Couleurs combinées lorsque la note est Réussite."
         },
         "FailComboColors": {
+          "Title": "Échec des couleurs combinées",
+          "Description": "Couleurs combinées lorsque la note est Échec."
         },
         "BoldComboNumber": {
+          "Title": "Numéro combiné en gras",
+          "Description": "Utilisez une police en gras pour le numéro de combo."
         },
         "ShowZeroCombo": {
+          "Title": "Afficher le combo zéro",
+          "Description": "Afficher le combo lorsque le combo est égal à zéro."
         }
       },
       "Offsets": {
         "Title": "Offsets",
         "Device": {
           "Title": "Device",
+          "Description": "Utilisez-le pour enregistrer les décalages pour différents scénarios d'appareils, par exemple lorsque vous jouez avec un haut-parleur, un casque, Bluetooth, etc.",
           "Option": "Device {0}"
         },
         "DeviceAudioOffset": {
+          "Title": "Décalage audio du périphérique",
+          "Description": "Recommander d'utiliser 0.\n\nDécalage audio du scénario de votre appareil. Pour la plupart des appareils utilisant un haut-parleur, 0 est le décalage correct. Le Bluetooth n'est pas recommandé. Augmentez si votre audio arrive trop tard, et diminuez sinon."
         },
         "DeviceInputOffset": {
+          "Title": "Décalage d'entrée de périphérique",
+          "Description": "Recommander d'utiliser 0.\n\nDécalage d'entrée de votre scénario d'appareil. Si vous êtes habitué aux jeux qui n'offrent pas cette option, vous pouvez le laisser à 0. Augmentez si vos entrées sont enregistrées trop tard, et diminuez sinon."
         }
       },
       "Repository": {
@@ -1675,22 +1781,36 @@
       "Cache": {
         "Title": "Cache",
         "AlwaysRevalidate": {
+          "Title": "Toujours revalider",
+          "Description": "Recommander d'éteindre.\n\nPar défaut, Sonolus ne revalide que les ressources en ligne après l'expiration. Lorsqu'elles sont activées, les ressources en ligne sont toujours revalidées avant utilisation."
         },
         "Manage": "Manage"
       },
       "Developer": {
         "Title": "Développeur",
         "ShowFps": {
+          "Title": "Afficher fps",
+          "Description": "Afficher le compteur FPS en bas à gauche de l'écran."
         },
         "FpsStyle": {
+          "Title": "Style FPS",
+          "Description": "Style de compteur FPS."
         },
         "ShowTouches": {
+          "Title": "Afficher les touches",
+          "Description": "Afficher les indicateurs tactiles. Les indicateurs tactiles sont utiles pour afficher les entrées dans les enregistrements vidéo."
         },
         "TouchStyle": {
+          "Title": "Style tactile",
+          "Description": "Style des indicateurs tactiles."
         },
         "DebugMode": {
+          "Title": "Mode débogage",
+          "Description": "Le mode débogage permet d'exécuter un code spécifique au débogage et affiche le journal de débogage en bas à droite de l'écran."
         },
         "DebugLogStyle": {
+          "Title": "Style du journal de débogage",
+          "Description": "Style du journal de débogage."
         }
       }
     },
