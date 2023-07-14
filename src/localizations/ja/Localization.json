@@ -1615,7 +1615,7 @@
           "Description": "推奨：デバイスのFPS\n\nSonolusはこのFPSを対象に動作しますが、デバイスが対応していない場合はこのFPSより低い値になります。"
         },
         "RenderMode": {
-          "Title": "描画モード。",
+          "Title": "描画モード",
           "Description": "推奨：標準\n\n軽量モードではグラフィックが若干劣化しますが、パフォーマンスが向上します。",
           "Options": {
             "Standard": "標準",
