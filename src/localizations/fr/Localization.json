@@ -1,1713 +1,1931 @@
 {
-    "Meta": {
-        "Name": "fr",
-        "Title": "Français (French)"
+  "Meta": {
+    "Name": "fr",
+    "Title": "Français (French)"
+  },
+  "Texts": {
+    "Name": {
+      "#KEYWORDS": "Keywords",
+      "#NAME": "Nom",
+      "#RATING": "Note",
+      "#RATING_MINIMUM": "Note minimum",
+      "#RATING_MAXIMUM": "Note maximum ",
+      "#TITLE": "Titre",
+      "#SUBTITLE": "Sous-titre",
+      "#ARTISTS": "Artistes",
+      "#AUTHOR": "Auteurs",
+      "#GENRE": "Genre",
+      "#CATEGORY": "Catégorie",
+      "#LANGUAGE": "Language",
+      "#DIFFICULTY": "Difficulté",
+      "#LENGTH": "Longueur",
+      "#LENGTH_MINIMUM": "Longueur minimum",
+      "#LENGTH_MAXIMUM": "Longueur maximale",
+      "#SPEED": "Level Speed",
+      "#AUTO": "Auto Play",
+      "#MIRROR": "Niveau Mirroir",
+      "#RANDOM": "Aléatoire",
+      "#HIDDEN": "Caché",
+      "#JUDGMENT_STRICT": "Jugement strict",
+      "#JUDGMENT_LOOSE": "Jugement lâche",
+      "#EFFECT": "SFX",
+      "#EFFECT_AUTO": "Auto SFX",
+      "#STAGE": "Visibilité de la scène",
+      "#STAGE_POSITION": "Position de scène",
+      "#STAGE_SIZE": "Taille de la scène",
+      "#STAGE_ROTATION": "Rotation de la scène",
+      "#STAGE_ALPHA": "Transparence des scènes",
+      "#STAGE_ANIMATION": "Animations scéniques",
+      "#STAGE_TILT": "Inclinaison de la scène",
+      "#STAGE_COVER_VERTICAL": "Couverture de scène verticale",
+      "#STAGE_COVER_HORIZONTAL": "Couverture horizontale du scène",
+      "#STAGE_COVER_ALPHA": "Transparence de couverture de scène",
+      "#STAGE_ASPECTRATIO_LOCK": "Verrouiller le format d'image de la scène",
+      "#STAGE_EFFECT": "Effet de la scène",
+      "#STAGE_EFFECT_POSITION": "Position de l'effet de scène",
+      "#STAGE_EFFECT_SIZE": "Taille de l'effet de la scène",
+      "#STAGE_EFFECT_ROTATION": "Rotation des effets de scène",
+      "#STAGE_EFFECT_ALPHA": "Transarence de l'effet de la scène",
+      "#LANE": "Visibilité de la voie",
+      "#LANE_POSITION": "Position de voie",
+      "#LANE_SIZE": "Taille de la voie",
+      "#LANE_ROTATION": "Rotation de la voie",
+      "#LANE_ALPHA": "Transparence des voies",
+      "#LANE_ANIMATION": "Animation de voie",
+      "#LANE_EFFECT": "Effet de voie",
+      "#LANE_EFFECT_POSITION": "Position de l'effet de voie",
+      "#LANE_EFFECT_SIZE": "Taille de l'effet de voie",
+      "#LANE_EFFECT_ROTATION": "Rotation de l'effet de voie",
+      "#LANE_EFFECT_ALPHA": "Transparence de l'effet de voie",
+      "#JUDGELINE": "Visibilité de la ligne de jugement",
+      "#JUDGELINE_POSITION": "Position de la ligne de jugement",
+      "#JUDGELINE_SIZE": "Taille de la ligne de jugement",
+      "#JUDGELINE_ROTATION": "Rotation de la ligne de jugement",
+      "#JUDGELINE_ALPHA": "Transparence de la ligne de jugement",
+      "#JUDGELINE_ANIMATION": "Animation de la ligne de jugement",
+      "#JUDGELINE_EFFECT": "Effet de ligne de jugement",
+      "#JUDGELINE_EFFECT_POSITION": "Position d'effet de la ligne de jugement",
+      "#JUDGELINE_EFFECT_SIZE": "Taille de l'effet de la ligne de jugement",
+      "#JUDGELINE_EFFECT_ROTATION": "Rotation de l'effet de la ligne de jugement",
+      "#JUDGELINE_EFFECT_ALPHA": "Transparence de l'effet de la ligne de jugement",
+      "#SLOT": "Visibilité de case",
+      "#SLOT_POSITION": "Position de la fente",
+      "#SLOT_SIZE": "Taille de case",
+      "#SLOT_ROTATION": "Rotation de case",
+      "#SLOT_ALPHA": "Transparence des cases",
+      "#SLOT_ANIMATION": "Animation de case",
+      "#SLOT_EFFECT": "Effet de case",
+      "#SLOT_EFFECT_POSITION": "Position de l'effet de fente",
+      "#SLOT_EFFECT_SIZE": "Taille de l'effet de case",
+      "#SLOT_EFFECT_ROTATION": "Rotation de l'effet de case",
+      "#SLOT_EFFECT_ALPHA": "Transparence de l'effet de case",
+      "#NOTE": "Visibilié des notes",
+      "#NOTE_SPEED": "Rapidité de la note",
+      "#NOTE_SPEED_RANDOM": "Rapidité aléatoire de la note",
+      "#NOTE_POSITION": "Position de la note",
+      "#NOTE_SIZE": "Taille de la note",
+      "#NOTE_ROTATION": "Rotation des notes",
+      "#NOTE_ALPHA": "Transparence de la note",
+      "#NOTE_ANIMATION": "Animation de note",
+      "#NOTE_EFFECT": "l'Effet de la note",
+      "#NOTE_EFFECT_POSITION": "Position de l'effet de la note",
+      "#NOTE_EFFECT_SIZE": "Taille effet de la note",
+      "#NOTE_EFFECT_ROTATION": "Rotation effet de la note",
+      "#NOTE_EFFECT_ALPHA": "Transparence effet de la note",
+      "#MARKER": "Visibilité du marqueur",
+      "#MARKER_POSITION": "Position du marqueur",
+      "#MARKER_SIZE": "Taille du marqueur",
+      "#MARKER_ROTATION": "Rotation du marqueur",
+      "#MARKER_ALPHA": "Transparence des marqueurs",
+      "#MARKER_ANIMATION": "Animation de marqueur",
+      "#CONNECTOR": "Visibilité du connecteur",
+      "#CONNECTOR_POSITION": "Position du connecteur",
+      "#CONNECTOR_SIZE": "Taille du connecteur",
+      "#CONNECTOR_ROTATION": "Rotation du connecteur",
+      "#CONNECTOR_ALPHA": "Transparence du connecteur",
+      "#CONNECTOR_ANIMATION": "Animation du connecteur",
+      "#SIMLINE": "Visibilité de ligne simultanée",
+      "#SIMLINE_POSITION": "Position de ligne simultanée",
+      "#SIMLINE_SIZE": "Taille de ligne simultanée",
+      "#SIMLINE_ROTATION": "Rotation de ligne simultanée",
+      "#SIMLINE_ALPHA": "Transparence de ligne simultanée",
+      "#SIMLINE_ANIMATION": "Animation de ligne simultanée"
     },
-    "Texts": {
-        "Name": {
-            "#KEYWORDS": "Keywords",
-            "#NAME": "Nom",
-            "#RATING": "Note",
-            "#RATING_MINIMUM": "Note minimum",
-            "#RATING_MAXIMUM": "Note maximum ",
-            "#TITLE": "Titre",
-            "#SUBTITLE": "Sous-titre",
-            "#ARTISTS": "Artistes",
-            "#AUTHOR": "Auteurs",
-            "#GENRE": "Genre",
-            "#CATEGORY": "Catégorie",
-            "#LANGUAGE": "Language",
-            "#DIFFICULTY": "Difficulté",
-            "#LENGTH": "Longueur",
-            "#LENGTH_MINIMUM": "Longueur minimum",
-            "#LENGTH_MAXIMUM": "Longueur maximale",
-            "#SPEED": "Level Speed",
-            "#AUTO": "Auto Play",
-            "#MIRROR": "Niveau Mirroir",
-            "#RANDOM": "Aléatoire",
-            "#HIDDEN": "Caché",
-            "#JUDGMENT_STRICT": "Jugement strict",
-            "#JUDGMENT_LOOSE": "Jugement lâche",
-            "#EFFECT": "SFX",
-            "#EFFECT_AUTO": "Auto SFX",
-            "#STAGE": "Visibilité de la scène",
-            "#STAGE_SIZE": "Taille de la scène",
-            "#STAGE_ROTATION": "Rotation de la scène",
-            "#STAGE_ALPHA": "Transparence des scènes",
-            "#STAGE_ANIMATION": "Animations scéniques",
-            "#STAGE_TILT": "Inclinaison de la scène",
-            "#STAGE_COVER_VERTICAL": "Couverture de scène verticale",
-            "#STAGE_COVER_HORIZONTAL": "Couverture horizontale du scène",
-            "#STAGE_COVER_ALPHA": "Transparence de couverture de scène",
-            "#STAGE_ASPECTRATIO_LOCK": "Verrouiller le format d'image de la scène",
-            "#STAGE_EFFECT": "Effet de la scène",
-            "#STAGE_EFFECT_SIZE": "Taille de l'effet de la scène",
-            "#STAGE_EFFECT_ROTATION": "Rotation des effets de scène",
-            "#STAGE_EFFECT_ALPHA": "Transarence de l'effet de la scène",
-            "#LANE": "Visibilité de la voie",
-            "#LANE_SIZE": "Taille de la voie",
-            "#LANE_ROTATION": "Rotation de la voie",
-            "#LANE_ALPHA": "Transparence des voies",
-            "#LANE_ANIMATION": "Animation de voie",
-            "#LANE_EFFECT": "Effet de voie",
-            "#LANE_EFFECT_SIZE": "Taille de l'effet de voie",
-            "#LANE_EFFECT_ROTATION": "Rotation de l'effet de voie",
-            "#LANE_EFFECT_ALPHA": "Transparence de l'effet de voie",
-            "#JUDGELINE": "Visibilité de la ligne de jugement",
-            "#JUDGELINE_SIZE": "Taille de la ligne de jugement",
-            "#JUDGELINE_ROTATION": "Rotation de la ligne de jugement",
-            "#JUDGELINE_ALPHA": "Transparence de la ligne de jugement",
-            "#JUDGELINE_ANIMATION": "Animation de la ligne de jugement",
-            "#JUDGELINE_EFFECT": "Effet de ligne de jugement",
-            "#JUDGELINE_EFFECT_SIZE": "Taille de l'effet de la ligne de jugement",
-            "#JUDGELINE_EFFECT_ROTATION": "Rotation de l'effet de la ligne de jugement",
-            "#JUDGELINE_EFFECT_ALPHA": "Transparence de l'effet de la ligne de jugement",
-            "#SLOT": "Visibilité de case",
-            "#SLOT_SIZE": "Taille de case",
-            "#SLOT_ROTATION": "Rotation de case",
-            "#SLOT_ALPHA": "Transparence des cases",
-            "#SLOT_ANIMATION": "Animation de case",
-            "#SLOT_EFFECT": "Effet de case",
-            "#SLOT_EFFECT_SIZE": "Taille de l'effet de case",
-            "#SLOT_EFFECT_ROTATION": "Rotation de l'effet de case",
-            "#SLOT_EFFECT_ALPHA": "Transparence de l'effet de case",
-            "#NOTE": "Visibilié des notes",
-            "#NOTE_SPEED": "Rapidité de la note",
-            "#NOTE_SPEED_RANDOM": "Rapidité aléatoire de la note",
-            "#NOTE_SIZE": "Taille de la note",
-            "#NOTE_ROTATION": "Rotation des notes",
-            "#NOTE_ALPHA": "Transparence de la note",
-            "#NOTE_ANIMATION": "Animation de note",
-            "#NOTE_EFFECT": "l'Effet de la note",
-            "#NOTE_EFFECT_SIZE": "Taille effet de la note",
-            "#NOTE_EFFECT_ROTATION": "Rotation effet de la note",
-            "#NOTE_EFFECT_ALPHA": "Transparence effet de la note",
-            "#MARKER": "Visibilité du marqueur",
-            "#MARKER_SIZE": "Taille du marqueur",
-            "#MARKER_ROTATION": "Rotation du marqueur",
-            "#MARKER_ALPHA": "Transparence des marqueurs",
-            "#MARKER_ANIMATION": "Animation de marqueur",
-            "#CONNECTOR": "Visibilité du connecteur",
-            "#CONNECTOR_SIZE": "Taille du connecteur",
-            "#CONNECTOR_ROTATION": "Rotation du connecteur",
-            "#CONNECTOR_ALPHA": "Transparence du connecteur",
-            "#CONNECTOR_ANIMATION": "Animation du connecteur",
-            "#SIMLINE": "Visibilité de ligne simultanée",
-            "#SIMLINE_SIZE": "Taille de ligne simultanée",
-            "#SIMLINE_ROTATION": "Rotation de ligne simultanée",
-            "#SIMLINE_ALPHA": "Transparence de ligne simultanée",
-            "#SIMLINE_ANIMATION": "Animation de ligne simultanée"
+    "Value": {
+      "#NONE": "None",
+      "#ANY": "Any",
+      "#ALL": "All",
+      "#OTHERS": "Autres",
+      "#SHORT": "Court",
+      "#LONG": "Long",
+      "#HIGH": "High",
+      "#MID": "Mid",
+      "#LOW": "Low",
+      "#SMALL": "Petit",
+      "#MEDIUM": "Medium",
+      "#LARGE": "Long",
+      "#LEFT": "Gauche",
+      "#RIGHT": "Droit",
+      "#UP": "Haut",
+      "#DOWN": "Bas",
+      "#FRONT": "De face",
+      "#BACK": "Back",
+      "#CENTER": "Centre",
+      "#TOP": "Top",
+      "#BOTTOM": "En bas",
+      "#TOP_LEFT": "Top Gauche",
+      "#TOP_CENTER": "Top Centre",
+      "#TOP_RIGHT": "Top Droit",
+      "#CENTER_LEFT": "Centre Gauche",
+      "#CENTER_RIGHT": "Centre Droit",
+      "#BOTTOM_LEFT": "En bas à gauche",
+      "#BOTTOM_CENTER": "En bas au centre",
+      "#BOTTOM_RIGHT": "En bas à droite",
+      "#CLOCKWISE": "Sens des aiguilles d'une montre",
+      "#COUNTERCLOCKWISE": "Sens antihoraire",
+      "#FORWARD": "Vers l'avant",
+      "#BACKWARD": "En arrière",
+      "#SIMPLE": "Simple",
+      "#EASY": "Facile",
+      "#NORMAL": "Normal",
+      "#HARD": "Hard",
+      "#EXPERT": "Expert",
+      "#MASTER": "Maître",
+      "#PRO": "Pro",
+      "#TECHNICAL": "Technique",
+      "#SPECIAL": "Special"
+    },
+    "Placeholder": {
+      "#KEYWORDS": "Entrer le keywords...",
+      "#NAME": "Entrer le nom...",
+      "#RATING": "Entrer la note...",
+      "#RATING_MINIMUM": "Entrer la minimum note...",
+      "#RATING_MAXIMUM": "Entrez la note maximale...",
+      "#TITLE": "Entrez le titre...",
+      "#SUBTITLE": "Entrez le sous-titre...",
+      "#ARTISTS": "Entrez les artistes...",
+      "#AUTHOR": "Entrez l'auteur...",
+      "#GENRE": "Entrez le genre...",
+      "#CATEGORY": "Entrez la catégorie...",
+      "#LANGUAGE": "Entrez la langue...",
+      "#DIFFICULTY": "Entrez la difficulté...",
+      "#LENGTH": "Entrez la longueur...",
+      "#LENGTH_MINIMUM": "Entrez la longueur minimale...",
+      "#LENGTH_MAXIMUM": "Entrez la longueur maximale..."
+    },
+    "Unit": {
+      "#PERCENTAGE": "{0}%",
+      "#SECOND": "{0} s",
+      "#MILLISECOND": "{0} ms"
+    }
+  },
+  "Common": {
+    "Loading": "Chargement...",
+    "On": "ON",
+    "Off": "OFF",
+    "Select": "Sélectionner",
+    "Reset": "Réinitialiser",
+    "Edit": "Éditer",
+    "View": "Voir",
+    "Cancel": "Annuler",
+    "Confirm": "Confirmer",
+    "Retry": "Recommencer",
+    "Error": {
+      "Title": "Erreur"
+    },
+    "Confirmation": {
+      "Title": "Confirmation"
+    },
+    "Next": "Prochain",
+    "Add": "Ajouter",
+    "Import": "Import",
+    "Search": "Chercher",
+    "More": "Suite",
+    "PullToRefresh": "Glisser pour rafraîchir",
+    "Save": "Sauvegarder",
+    "Share": "Partager",
+    "Export": "Exporter",
+    "Update": "Mise à jour",
+    "Delete": "Effacer",
+    "Preview": "Preview",
+    "Judgment": "Jugement",
+    "Accuracy": "Précision",
+    "Grade": "Grade",
+    "ArcadeScore": "Score d'arc",
+    "AccuracyScore": "Score d'acc",
+    "Combo": "Combo",
+    "Perfect": "Perfect",
+    "Great": "Great",
+    "Good": "Good",
+    "Miss": "Miss",
+    "AdvancedOption": "Cette option est réservée aux joueurs avancés.",
+    "Colors": "Couleurs",
+    "ColorField": {
+      "Hex": "HEX",
+      "Rgb": "RGB",
+      "Hsv": "HSV",
+      "Components": {
+        "Hex": {
+          "Title": "Hex",
+          "Description": "#RRGGBB ou #RRGGBBAA, où chaque composant est compris entre 00 et FF.",
+          "Placeholder": "Entrez l'hex de couleur..."
         },
-        "Value": {
-            "#NONE": "None",
-            "#ANY": "Any",
-            "#ALL": "All",
-            "#OTHERS": "Autres",
-            "#SHORT": "Court",
-            "#LONG": "Long",
-            "#HIGH": "High",
-            "#MID": "Mid",
-            "#LOW": "Low",
-            "#SMALL": "Petit",
-            "#MEDIUM": "Medium",
-            "#LARGE": "Long",
-            "#LEFT": "Gauche",
-            "#RIGHT": "Droit",
-            "#UP": "Haut",
-            "#DOWN": "Bas",
-            "#FRONT": "De face",
-            "#BACK": "Back",
-            "#CENTER": "Centre",
-            "#TOP": "Top",
-            "#BOTTOM": "En bas",
-            "#TOP_LEFT": "Top Gauche",
-            "#TOP_CENTER": "Top Centre",
-            "#TOP_RIGHT": "Top Droit",
-            "#CENTER_LEFT": "Centre Gauche",
-            "#CENTER_RIGHT": "Centre Droit",
-            "#BOTTOM_LEFT": "En bas à gauche",
-            "#BOTTOM_CENTER": "En bas au centre",
-            "#BOTTOM_RIGHT": "En bas à droite",
-            "#CLOCKWISE": "Sens des aiguilles d'une montre",
-            "#COUNTERCLOCKWISE": "Sens antihoraire",
-            "#FORWARD": "Vers l'avant",
-            "#BACKWARD": "En arrière",
-            "#SIMPLE": "Simple",
-            "#EASY": "Facile",
-            "#NORMAL": "Normal",
-            "#HARD": "Hard",
-            "#EXPERT": "Expert",
-            "#MASTER": "Maître",
-            "#PRO": "Pro",
-            "#TECHNICAL": "Technique",
-            "#SPECIAL": "Special"
+        "R": {
+          "Title": "Rouge",
+          "Description": "Rouge."
         },
-        "Placeholder": {
-            "#KEYWORDS": "Entrer le keywords...",
-            "#NAME": "Entrer le nom...",
-            "#RATING": "Entrer la note...",
-            "#RATING_MINIMUM": "Entrer la minimum note...",
-            "#RATING_MAXIMUM": "Entrez la note maximale...",
-            "#TITLE": "Entrez le titre...",
-            "#SUBTITLE": "Entrez le sous-titre...",
-            "#ARTISTS": "Entrez les artistes...",
-            "#AUTHOR": "Entrez l'auteur...",
-            "#GENRE": "Entrez le genre...",
-            "#CATEGORY": "Entrez la catégorie...",
-            "#LANGUAGE": "Entrez la langue...",
-            "#DIFFICULTY": "Entrez la difficulté...",
-            "#LENGTH": "Entrez la longueur...",
-            "#LENGTH_MINIMUM": "Entrez la longueur minimale...",
-            "#LENGTH_MAXIMUM": "Entrez la longueur maximale..."
+        "G": {
+          "Title": "Vert",
+          "Description": "Vert."
         },
-        "Unit": {
-            "#PERCENTAGE": "{0}%",
-            "#SECOND": "{0} s",
-            "#MILLISECOND": "{0} ms"
+        "B": {
+          "Title": "Bleu",
+          "Description": "Bleu."
+        },
+        "H": {
+          "Title": "Teinte",
+          "Description": "Teinte."
+        },
+        "S": {
+          "Title": "Saturation",
+          "Description": "Saturation."
+        },
+        "V": {
+          "Title": "Valeur",
+          "Description": "Valeur."
+        },
+        "A": {
+          "Title": "Alpha",
+          "Description": "Alpha."
         }
+      }
     },
-    "Common": {
-        "Loading": "Chargement...",
-        "On": "ON",
-        "Off": "OFF",
-        "Select": "Sélectionner",
-        "Edit": "Éditer",
-        "View": "Voir",
-        "Cancel": "Annuler",
-        "Confirm": "Confirmer",
-        "Retry": "Recommencer",
-        "Error": {
-            "Title": "Erreur"
-        },
-        "Confirmation": {
-            "Title": "Confirmation"
-        },
-        "Next": "Prochain",
-        "Add": "Ajouter",
-        "Import": "Import",
-        "Search": "Chercher",
-        "More": "Suite",
-        "PullToRefresh": "Glisser pour rafraîchir",
-        "Save": "Sauvegarder",
-        "Share": "Partager",
-        "Update": "Mise à jour",
-        "Delete": "Effacer",
-        "Preview": "Preview",
-        "Judgment": "Jugement",
-        "Accuracy": "Précision",
-        "Grade": "Grade",
-        "ArcadeScore": "Score d'arc",
-        "AccuracyScore": "Score d'acc",
-        "Combo": "Combo",
-        "Perfect": "Perfect",
-        "Great": "Great",
-        "Good": "Good",
-        "Miss": "Miss",
-        "AdvancedOption": "Cette option est réservée aux joueurs avancés.",
-        "ColorField": {
-            "Hex": "HEX",
-            "Rgb": "RGB",
-            "Hsv": "HSV",
-            "HexPlaceholder": "Entrer la couleur hex...",
-            "R": "Rouge",
-            "G": "Vert",
-            "B": "Bleu",
-            "H": "Hue",
-            "S": "Saturation",
-            "V": "Value",
-            "A": "Alpha"
-        },
-        "DeviceOffsetField": {
-            "Calibrate": "Calibrez l'audio en ajustant le décalage audio du périphérique jusqu'à ce que l'audio et les graphiques soient synchronisés."
-        },
-        "PullToLoad": {
-            "None": "Rien de plus à charger",
-            "More": "Tirez pour charger plus"
-        },
-        "UI": {
-            "Metric": {
-                "Arcade": "Arcade Score",
-                "Accuracy": "Score de précision",
-                "Life": "Vie",
-                "PerfectRate": "Note Parfait",
-                "ErrorHeatmap": "Erreur Heatmap"
-            },
-            "JudgmentErrorStyle": {
-                "None": "None",
-                "Plus": "+ / -",
-                "Minus": "- / +",
-                "ArrowUp": "↑ / ↓",
-                "ArrowDown": "↓ / ↑",
-                "ArrowLeft": "← / →",
-                "ArrowRight": "→ / ←",
-                "TriangleUp": "▲ / ▼",
-                "TriangleDown": "▼ / ▲",
-                "TriangleLeft": "◄ / ►",
-                "TriangleRight": "► / ◄"
-            },
-            "JudgmentErrorPlacement": {
-                "Both": "Both",
-                "Left": "Gauche",
-                "Right": "Droit"
-            },
-            "Visibility": "Visibilité",
-            "Animation": "Animation",
-            "Tween": "Tween",
-            "Ease": {
-                "Linear": "Linear",
-                "InSine": "Sine (In)",
-                "OutSine": "Sine (Out)",
-                "InOutSine": "Sine (In Out)",
-                "OutInSine": "Sine (Out In)",
-                "InQuad": "Quad (In)",
-                "OutQuad": "Quad (Out)",
-                "InOutQuad": "Quad (In Out)",
-                "OutInQuad": "Quad (Out In)",
-                "InCubic": "Cubic (In)",
-                "OutCubic": "Cubic (Out)",
-                "InOutCubic": "Cubic (In Out)",
-                "OutInCubic": "Cubic (Out In)",
-                "InQuart": "Quart (In)",
-                "OutQuart": "Quart (Out)",
-                "InOutQuart": "Quart (In Out)",
-                "OutInQuart": "Quart (Out In)",
-                "InQuint": "Quint (In)",
-                "OutQuint": "Quint (Out)",
-                "InOutQuint": "Quint (In Out)",
-                "OutInQuint": "Quint (Out In)",
-                "InExpo": "Expo (In)",
-                "OutExpo": "Expo (Out)",
-                "InOutExpo": "Expo (In Out)",
-                "OutInExpo": "Expo (Out In)",
-                "InCirc": "Circ (In)",
-                "OutCirc": "Circ (Out)",
-                "InOutCirc": "Circ (In Out)",
-                "OutInCirc": "Circ (Out In)",
-                "InBack": "Back (In)",
-                "OutBack": "Back (Out)",
-                "InOutBack": "Back (In Out)",
-                "OutInBack": "Back (Out In)",
-                "InElastic": "Elastic (In)",
-                "OutElastic": "Elastic (Out)",
-                "InOutElastic": "Elastic (In Out)",
-                "OutInElastic": "Elastic (Out In)",
-                "None": "Aucun"
-            }
+    "DeviceOffsetField": {
+      "Calibrate": "Calibrez l'audio en ajustant le décalage audio du périphérique jusqu'à ce que l'audio et les graphiques soient synchronisés."
+    },
+    "PullToLoad": {
+      "None": "Rien de plus à charger",
+      "More": "Tirez pour charger plus"
+    },
+    "UI": {
+      "Metric": {
+        "Arcade": "Arcade Score",
+        "Accuracy": "Score de précision",
+        "Life": "Vie",
+        "PerfectRate": "Note Parfait",
+        "ErrorHeatmap": "Erreur Heatmap"
+      },
+      "JudgmentErrorStyle": {
+        "None": "None",
+        "Plus": "+ / -",
+        "Minus": "- / +",
+        "ArrowUp": "↑ / ↓",
+        "ArrowDown": "↓ / ↑",
+        "ArrowLeft": "← / →",
+        "ArrowRight": "→ / ←",
+        "TriangleUp": "▲ / ▼",
+        "TriangleDown": "▼ / ▲",
+        "TriangleLeft": "◄ / ►",
+        "TriangleRight": "► / ◄"
+      },
+      "JudgmentErrorPlacement": {
+        "Both": "Both",
+        "Left": "Gauche",
+        "Right": "Droit"
+      },
+      "Visibility": "Visibilité",
+      "Animation": "Animation",
+      "Tween": "Tween",
+      "Ease": {
+        "Linear": "Linear",
+        "InSine": "Sine (In)",
+        "OutSine": "Sine (Out)",
+        "InOutSine": "Sine (In Out)",
+        "OutInSine": "Sine (Out In)",
+        "InQuad": "Quad (In)",
+        "OutQuad": "Quad (Out)",
+        "InOutQuad": "Quad (In Out)",
+        "OutInQuad": "Quad (Out In)",
+        "InCubic": "Cubic (In)",
+        "OutCubic": "Cubic (Out)",
+        "InOutCubic": "Cubic (In Out)",
+        "OutInCubic": "Cubic (Out In)",
+        "InQuart": "Quart (In)",
+        "OutQuart": "Quart (Out)",
+        "InOutQuart": "Quart (In Out)",
+        "OutInQuart": "Quart (Out In)",
+        "InQuint": "Quint (In)",
+        "OutQuint": "Quint (Out)",
+        "InOutQuint": "Quint (In Out)",
+        "OutInQuint": "Quint (Out In)",
+        "InExpo": "Expo (In)",
+        "OutExpo": "Expo (Out)",
+        "InOutExpo": "Expo (In Out)",
+        "OutInExpo": "Expo (Out In)",
+        "InCirc": "Circ (In)",
+        "OutCirc": "Circ (Out)",
+        "InOutCirc": "Circ (In Out)",
+        "OutInCirc": "Circ (Out In)",
+        "InBack": "Back (In)",
+        "OutBack": "Back (Out)",
+        "InOutBack": "Back (In Out)",
+        "OutInBack": "Back (Out In)",
+        "InElastic": "Elastic (In)",
+        "OutElastic": "Elastic (Out)",
+        "InOutElastic": "Elastic (In Out)",
+        "OutInElastic": "Elastic (Out In)",
+        "None": "Aucun"
+      }
+    }
+  },
+  "Themes": {
+    "Dark": "Dark",
+    "Light": "Light"
+  },
+  "Clients": {
+    "Master": {
+      "Info": {
+        "Loading": "Chargement des informations sur Sonolus...",
+        "Error": "Échec du chargement des informations Sonolus.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
+      },
+      "List": {
+        "Loading": "Chargement des langues...",
+        "Error": "Échec du chargement des langues.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
+      },
+      "Localization": {
+        "Loading": "Chargement de la langue...",
+        "Error": "Échec du chargement de la langue \"{0}\".\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
+      }
+    },
+    "Service": {
+      "UserProfile": {
+        "Loading": "Chargement du profil utilisateur...",
+        "Error": "Échec du chargement du profil utilisateur de \"{0}\".\n\nVeuillez vérifier si l'ID utilisateur est correct ou vérifiez votre connexion Internet et réessayez."
+      },
+      "Login": {
+        "Loading": "Connexion...",
+        "Error": "Échec de la connexion.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez.",
+        "Success": {
+          "New": {
+            "Title": "Inscrit !"
+          },
+          "Old": {
+            "Title": "Incrire"
+          }
         }
-    },
-    "Themes": {
-        "Dark": "Dark",
-        "Light": "Light"
-    },
-    "Clients": {
-        "Master": {
-            "Info": {
-                "Loading": "Chargement des informations sur Sonolus...",
-                "Error": "Échec du chargement des informations Sonolus.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
-            },
-            "List": {
-                "Loading": "Chargement des langues...",
-                "Error": "Échec du chargement des langues.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
-            },
-            "Localization": {
-                "Loading": "Chargement de la langue...",
-                "Error": "Échec du chargement de la langue \"{0}\".\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez."
-            }
-        },
-        "Service": {
-            "UserProfile": {
-                "Loading": "Chargement du profil utilisateur...",
-                "Error": "Échec du chargement du profil utilisateur de \"{0}\".\n\nVeuillez vérifier si l'ID utilisateur est correct ou vérifiez votre connexion Internet et réessayez."
-            },
-            "Login": {
-                "Loading": "Connexion...",
-                "Error": "Échec de la connexion.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez.",
-                "Success": {
-                    "New": {
-                        "Title": "Inscrit !"
-                    },
-                    "Old": {
-                        "Title": "Incrire"
-                    }
-                }
-            },
-            "EditName": {
-                "Loading": "Modification du nom...",
-                "Error": "Échec de la modification du nom.\n\nVeuillez vérifier si votre nom est légal et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
-                "Success": {
-                    "Title": "Nom modifié"
-                }
-            },
-            "EditAvatar": {
-                "Loading": "Modification de l'avatar...",
-                "Error": "Échec de la modification de l'avatar.\n\nVeuillez vérifier si votre avatar est légal ou vérifiez votre connexion Internet et réessayez.",
-                "Success": {
-                    "Title": "Avatar modifié"
-                }
-            },
-            "EditAboutMe": {
-                "Loading": "Changer à propos de moi...",
-                "Error": "Échec de la modification à propos de moi.\n\nVeuillez vérifier si votre à propos de moi est légal et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
-                "Success": {
-                    "Title": "À propos de moi modifié"
-                }
-            },
-            "EditSocialLinks": {
-                "Loading": "Modification des liens sociaux...",
-                "Error": "Échec de la modification des liens sociaux.\n\nVeuillez vérifier si vos liens sociaux sont légaux et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
-                "Success": {
-                    "Title": "Liens sociaux modifiés"
-                }
-            },
-            "EditFavorites": {
-                "Loading": "Modification des favoris...",
-                "Error": "Échec de la modification des favoris.\n\nVeuillez vérifier si vos favoris sont légaux et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
-                "Success": {
-                    "Title": "Favoris modifiés"
-                }
-            },
-            "AuthenticateServer": {
-                "Loading": "Demande d'authentification Sonolus...",
-                "Error": "Échec de la demande d'authentification auprès de Sonolus.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez Sonolus pour signaler le problème."
-            },
-            "Logout": {
-                "Loading": "Déconnection...",
-                "Error": "Échec de la déconnexion.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez.",
-                "Success": {
-                    "Title": "Déconnecter"
-                }
-            }
-        },
-        "CustomServer": {
-            "SonolusVersionError": "Ce serveur ne prend en charge que la version {0} de Sonolus.\n\nVeuillez mettre à jour votre application Sonolus ou contacter le propriétaire du serveur pour signaler le problème.",
-            "Session": {
-                "NeedAuthentication": {
-                    "NotLoggedInError": {
-                        "Description": "Ce serveur nécessite une authentification.\n\nVeuillez d'abord vous connecter et réessayer."
-                    },
-                    "Confirmation": {
-                        "Description": "Ce serveur nécessite une authentification.\n\nS'authentifier en tant que \"{0}\" et continuer ?"
-                    }
-                },
-                "AuthenticationExpired": {
-                    "Description": "Votre authentification a expiré.\n\nS'authentifier à nouveau en tant que \"{0}\" et continuer ?"
-                },
-                "AuthenticationRejected": {
-                    "Description": "Votre authentification a été rejetée par le serveur.\n\nS'authentifier à nouveau en tant que \"{0}\" et continuer ?"
-                },
-                "Authenticate": {
-                    "Loading": "Demande d'authentification du serveur...",
-                    "Error": "Échec de la demande d'authentification de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "AddressMismatchError": {
-                    "Description": "L'adresse d'authentification ne correspond pas.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
-                }
-            },
-            "Server": {
-                "Info": {
-                    "Loading": "Chargement des informations sur le serveur...",
-                    "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Banner": {
-                    "Loading": "Chargement de la bannière du serveur...",
-                    "Error": "Échec du chargement de la bannière de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "Chargement des niveaux...",
-                    "Error": "Échec du chargement des niveaux à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails du niveau...",
-                    "Error": "Échec du chargement des détails du niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité des niveaux...",
-                    "Error": "Le niveau \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
-                },
-                "Cover": {
-                    "Loading": "Cover de niveau en chargement...",
-                    "Error": "Échec du chargement du cover de niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Bgm": {
-                    "Loading": "Chargement du niveau de BGM...",
-                    "Error": "Échec du chargement du niveau BGM de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Preview": {
-                    "Loading": "Chargement de preview du niveau...",
-                    "Error": "Échec du chargement du preview du niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de niveau...",
-                    "Error": "Échec du chargement des données de niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "Chargement des skins...",
-                    "Error": "Échec du chargement des skins à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails du skin...",
-                    "Error": "Échec du chargement des détails de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité du skin...",
-                    "Error": "Skin \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette de skin...",
-                    "Error": "Échec du chargement de la vignette skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de skin...",
-                    "Error": "Échec du chargement des données de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Texture": {
-                    "Loading": "Chargement de la texture de skin...",
-                    "Error": "Échec du chargement de la texture de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "Chargement des arrière-plans...",
-                    "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails d'arrière-plan...",
-                    "Error": "Échec du chargement des détails d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité de l'arrière-plan...",
-                    "Error": "L'arrière-plan \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette d'arrière-plan...",
-                    "Error": "Échec du chargement de la vignette d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Data": {
-                    "Loading": "Chargement des données d'arrière-plan...",
-                    "Error": "Échec du chargement des données d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Image": {
-                    "Loading": "Chargement de l'image d'arrière-plan...",
-                    "Error": "Échec du chargement de l'image d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Configuration": {
-                    "Loading": "Chargement de la configuration d'arrière-plan...",
-                    "Error": "Échec du chargement de la configuration d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "Chargement des SFX...",
-                    "Error": "Échec du chargement de SFX à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails SFX...",
-                    "Error": "Échec du chargement des détails SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité SFX...",
-                    "Error": "SFX \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette SFX...",
-                    "Error": "Échec du chargement de la vignette SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Data": {
-                    "Loading": "Chargement des données SFX...",
-                    "Error": "Échec du chargement des données SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Audio": {
-                    "Loading": "Chargement de l'audio SFX...",
-                    "Error": "Échec du chargement de l'audio SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "Chargement des particules...",
-                    "Error": "Échec du chargement des particules à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails des particules...",
-                    "Error": "Échec du chargement des détails des particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité des particules...",
-                    "Error": "La particule \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette des particules...",
-                    "Error": "Échec du chargement de la vignette de particule de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de particules...",
-                    "Error": "Échec du chargement des données de particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Texture": {
-                    "Loading": "Chargement de la texture des particules...",
-                    "Error": "Échec du chargement de la texture des particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "Chargement des engines...",
-                    "Error": "Échec du chargement des engines à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails des engines...",
-                    "Error": "Échec du chargement des détails de l'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité d'engine...",
-                    "Error": "L'engine \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette d'engine...",
-                    "Error": "Échec du chargement de la vignette d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Data": {
-                    "Loading": "Chargement des données d'engine...",
-                    "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Rom": {
-                    "Loading": "Chargement de la ROM d'engine...",
-                    "Error": "Échec du chargement de la rom d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                },
-                "Configuration": {
-                    "Loading": "Chargement de la configuration d'engine...",
-                    "Error": "Échec du chargement de la configuration d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
-                }
-            }
-        },
-        "Collection": {
-            "Server": {
-                "Info": {
-                    "Loading": "Chargement des informations sur la collection...",
-                    "Error": "Échec du chargement des informations de collection de \"{0}\".\n\nVotre collection est peut-être corrompue."
-                },
-                "Banner": {
-                    "Loading": "Chargement de la bannière de collection...",
-                    "Error": "Échec du chargement de la bannière de collection de \"{0}\".\n\nVotre collection est peut-être corrompue."
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "Chargement des niveaux...",
-                    "Error": "Échec du chargement des niveaux à la page {0}.\n\nVotre collection est peut-être corrompue."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails du niveau...",
-                    "Error": "Échec du chargement des détails du niveau de \"{0}\".\n\nVotre collection est peut-être corrompue."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité des niveaux...",
-                    "Error": "Le niveau \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
-                },
-                "Cover": {
-                    "Loading": "Cover de niveau en chargement...",
-                    "Error": "Échec du chargement de cover de niveau de \"{0}\".\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
-                },
-                "Bgm": {
-                    "Loading": "Chargement du BGM de niveau...",
-                    "Error": "Échec du chargement du niveau BGM de \"{0}\".\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
-                },
-                "Preview": {
-                    "Loading": "Chargement de preview du niveau...",
-                    "Error": "Échec du chargement de preview du niveau de \"{0}\".\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de niveau...",
-                    "Error": "Échec du chargement des données de niveau de \"{0}\".\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "Chargement des skins...",
-                    "Error": "Échec du chargement des skins à la page {0}.\n\nVotre collection est peut-être corrompue."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails du skin...",
-                    "Error": "Échec du chargement des détails de skin de \"{0}\".\n\nVotre collection est peut-être corrompue."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité du skin...",
-                    "Error": "Skin \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour cet Skin ou utiliser un skin différent."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette de skin...",
-                    "Error": "Échec du chargement de la vignette skin de \"{0}\".\n\nVeuillez mettre à jour cet skin ou utiliser un skin différent."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de skin...",
-                    "Error": "Échec du chargement des données skin de \"{0}\".\n\nVeuillez mettre à jour cet skin ou utiliser un skin différent."
-                },
-                "Texture": {
-                    "Loading": "Chargement de skin texture...",
-                    "Error": "Échec du chargement de la texture de skin de \"{0}\".\n\nVeuillez mettre à jour cet habillage ou utiliser un habillage différent."
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "Chargement des arrière-plans...",
-                    "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVotre collection est peut-être corrompue."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails d'arrière-plan...",
-                    "Error": "Échec du chargement des détails d'arrière-plan de \"{0}\".\n\nVotre collection est peut-être corrompue."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité de l'arrière-plan...",
-                    "Error": "L'arrière-plan \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette d'arrière-plan...",
-                    "Error": "Échec du chargement de la vignette d'arrière-plan de \"{0}\".\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
-                },
-                "Data": {
-                    "Loading": "Chargement des données d'arrière-plan...",
-                    "Error": "Échec du chargement des données d'arrière-plan de \"{0}\".\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
-                },
-                "Image": {
-                    "Loading": "Chargement de l'image d'arrière-plan...",
-                    "Error": "Échec du chargement de l'image d'arrière-plan de \"{0}\".\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
-                },
-                "Configuration": {
-                    "Loading": "Chargement de la configuration d'arrière-plan...",
-                    "Error": "Échec du chargement de la configuration d'arrière-plan de \"{0}\".\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "Chargement des SFX...",
-                    "Error": "Échec du chargement de SFX à la page {0}.\n\nVotre collection est peut-être corrompue."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails SFX...",
-                    "Error": "Échec du chargement des détails SFX de \"{0}\".\n\nVotre collection est peut-être corrompue."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité SFX...",
-                    "Error": "SFX \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour ce SFX ou utiliser un autre SFX."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette SFX...",
-                    "Error": "Échec du chargement de la vignette SFX de \"{0}\".\n\nVeuillez mettre à jour ce SFX ou utiliser un autre SFX."
-                },
-                "Data": {
-                    "Loading": "Chargement des données SFX...",
-                    "Error": "Échec du chargement des données SFX de \"{0}\".\n\nVeuillez mettre à jour ce SFX ou utiliser un autre SFX."
-                },
-                "Audio": {
-                    "Loading": "Chargement de l'audio SFX...",
-                    "Error": "Échec du chargement de l'audio SFX de \"{0}\".\n\nVeuillez mettre à jour ce SFX ou utiliser un autre SFX."
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "Chargement des particules...",
-                    "Error": "Échec du chargement des particules à la page {0}.\n\nVotre collection est peut-être corrompue."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails des particules...",
-                    "Error": "Échec du chargement des détails des particules de \"{0}\".\n\nVotre collection est peut-être corrompue."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité des particules...",
-                    "Error": "La particule \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour cette particule ou utiliser une autre particule."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette des particules...",
-                    "Error": "Échec du chargement de la vignette de particule de \"{0}\".\n\nVeuillez mettre à jour cette particule ou utiliser une autre particule."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de particules...",
-                    "Error": "Échec du chargement des données de particules de \"{0}\".\n\nVeuillez mettre à jour cette particule ou utiliser une autre particule."
-                },
-                "Texture": {
-                    "Loading": "Chargement de la texture des particules...",
-                    "Error": "Échec du chargement de la texture des particules de \"{0}\".\n\nVeuillez mettre à jour cette particule ou utiliser une autre particule."
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "Chargement d'engines...",
-                    "Error": "Échec du chargement des engines à la page {0}.\n\nVotre collection est peut-être corrompue."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails de l'engine...",
-                    "Error": "Échec du chargement des détails de l'engine de \"{0}\".\n\nVotre collection est peut-être corrompue."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité d'engine...",
-                    "Error": "L'engine \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette d'engine...",
-                    "Error": "Échec du chargement de la vignette du engine de \"{0}\".\n\nVeuillez mettre à jour ce engine ou utiliser un autre engine."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de l'engine...",
-                    "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVeuillez mettre à jour cet engine ou utiliser un autre engine."
-                },
-                "Rom": {
-                    "Loading": "Chargement de la ROM d'engine...",
-                    "Error": "Échec du chargement de la rom d'engine de \"{0}\".\n\nVeuillez mettre à jour cet engine ou utiliser un autre engine."
-                },
-                "Configuration": {
-                    "Loading": "Chargement de la configuration d'engines...",
-                    "Error": "Échec du chargement de la configuration du engine de \"{0}\".\n\nVeuillez mettre à jour ce engine ou utiliser un autre engine."
-                }
-            }
-        },
-        "Scp": {
-            "Server": {
-                "Info": {
-                    "Loading": "Chargement des informations sur le package...",
-                    "Error": "Échec du chargement des informations sur le package de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Banner": {
-                    "Loading": "Chargement de la bannière du package...",
-                    "Error": "Échec du chargement de la bannière du package \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                }
-            },
-            "Level": {
-                "List": {
-                    "Loading": "Chargement des niveaux...",
-                    "Error": "Échec du chargement des niveaux à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Details": {
-                    "Loading": "Loading level details...",
-                    "Error": "Échec du chargement des détails du niveau de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité des niveaux...",
-                    "Error": "Le niveau \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Cover": {
-                    "Loading": "Chargement des niveaux de couverture...",
-                    "Error": "Échec du chargement de cover de niveau de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Bgm": {
-                    "Loading": "Chargement du BGM du niveau",
-                    "Error": "Échec du chargement du niveau BGM de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Preview": {
-                    "Loading": "Chargement de preview du niveau...",
-                    "Error": "Échec du chargement de preview du niveau de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de niveau...",
-                    "Error": "Échec du chargement des données de niveau de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                }
-            },
-            "Skin": {
-                "List": {
-                    "Loading": "Chargement des skins...",
-                    "Error": "Échec du chargement des skins à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails du skin...",
-                    "Error": "Échec du chargement des détails de skin de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité cutanée...",
-                    "Error": "Ce skin \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette de skin...",
-                    "Error": "Échec du chargement de la vignette skin de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de skin...",
-                    "Error": "Échec du chargement des données de skin de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Texture": {
-                    "Loading": "Chargement de la texture de skin...",
-                    "Error": "Échec du chargement de la texture de skin de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                }
-            },
-            "Background": {
-                "List": {
-                    "Loading": "Chargement des arrière-plans...",
-                    "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails d'arrière-plan...",
-                    "Error": "Échec du chargement des détails d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité de l'arrière-plan...",
-                    "Error": "L'arrière-plan \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette d'arrière-plan...",
-                    "Error": "Échec du chargement de la vignette d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Data": {
-                    "Loading": "Chargement des données d'arrière-plan...",
-                    "Error": "Échec du chargement des données d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Image": {
-                    "Loading": "Chargement de l'image d'arrière-plan...",
-                    "Error": "Échec du chargement de l'image d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Configuration": {
-                    "Loading": "Chargement de la configuration d'arrière-plan...",
-                    "Error": "Échec du chargement de la configuration d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                }
-            },
-            "Effect": {
-                "List": {
-                    "Loading": "Chargement des SFX...",
-                    "Error": "Échec du chargement de SFX à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails SFX...",
-                    "Error": "Échec du chargement des détails SFX de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité SFX...",
-                    "Error": "SFX \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette SFX...",
-                    "Error": "Échec du chargement de la vignette SFX de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Data": {
-                    "Loading": "Chargement des données SFX...",
-                    "Error": "Échec du chargement des données SFX de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Audio": {
-                    "Loading": "Chargement de l'audio SFX...",
-                    "Error": "Échec du chargement de l'audio SFX de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                }
-            },
-            "Particle": {
-                "List": {
-                    "Loading": "Chargement des particules...",
-                    "Error": "Échec du chargement des particules à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails des particules...",
-                    "Error": "Échec du chargement des détails des particules de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité des particules...",
-                    "Error": "La particule \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette des particules...",
-                    "Error": "Échec du chargement de la vignette de particule de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Data": {
-                    "Loading": "Chargement des données de particules...",
-                    "Error": "Échec du chargement des données de particules de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Texture": {
-                    "Loading": "Chargement de la texture des particules...",
-                    "Error": "Échec du chargement de la texture des particules de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                }
-            },
-            "Engine": {
-                "List": {
-                    "Loading": "Chargement des engines...",
-                    "Error": "Échec du chargement des engines à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Details": {
-                    "Loading": "Chargement des détails d'engine...",
-                    "Error": "Échec du chargement des détails de l'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Compatibility": {
-                    "Loading": "Vérification de la compatibilité de l'engine...",
-                    "Error": "L'engine \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Thumbnail": {
-                    "Loading": "Chargement de la vignette d'engine...",
-                    "Error": "Échec du chargement de la vignette d'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Data": {
-                    "Loading": "Chargement des données d'engine...",
-                    "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Rom": {
-                    "Loading": "Chargement de la ROM d'engine...",
-                    "Error": "Échec du chargement de la rom d'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                },
-                "Configuration": {
-                    "Loading": "Chargement de la configuration d'engine...",
-                    "Error": "Échec du chargement de la configuration d'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-                }
-            }
+      },
+      "EditName": {
+        "Loading": "Modification du nom...",
+        "Error": "Échec de la modification du nom.\n\nVeuillez vérifier si votre nom est légal et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "Nom modifié"
         }
-    },
-    "DeepLink": {
-        "Invalid": {
-            "Description": "Le lien \"{0}\" n'est pas valide.\n\nVeuillez utiliser un autre lien."
+      },
+      "EditAvatar": {
+        "Loading": "Modification de l'avatar...",
+        "Error": "Échec de la modification de l'avatar.\n\nVeuillez vérifier si votre avatar est légal ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "Avatar modifié"
         }
-    },
-    "Title": {
-        "TapToStart": "Appuyez pour commencer"
-    },
-    "Layout": {
-        "Refresh": "Rafraîchir",
-        "Back": "Retour"
-    },
-    "Routes": {
-        "JumpToPage": {
-            "Title": "Jump to Page",
-            "Page": "Page",
-            "PagePlaceholder": "Entrez le numéro de page...",
-            "Jump": "Jump"
-        },
-        "SelectLocalization": {
-            "Title": "Choisir la langue",
-            "Description": "Sélectionnez une langue préférée :",
-            "Error": "Échec du chargement des langues."
-        },
-        "SelectTheme": {
-            "Title": "Sélectionne un thème",
-            "Description": "Sélectionnez un thème :"
-        },
-        "SelectClient": {
-            "CustomServers": {
-                "Title": "Serveurs personnalisés",
-                "RemoveConfirmation": {
-                    "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
-                }
-            },
-            "Collections": {
-                "Title": "Collections",
-                "RemoveConfirmation": {
-                    "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
-                }
-            }
-        },
-        "Selects": {
-            "ToPlay": {
-                "Title": "Jouer",
-                "Description": "Sélectionnez un serveur personnalisé ou une collection pour commencer à jouer."
-            },
-            "ToSave": {
-                "Level": {
-                    "Title": "Enregistrer le niveau",
-                    "Description": "Sélectionnez une collection dans laquelle enregistrer ce niveau."
-                },
-                "Skin": {
-                    "Title": "Enregistrer le skin",
-                    "Description": "Sélectionnez une collection dans laquelle enregistrer ce skin."
-                },
-                "Background": {
-                    "Title": "Enregistrer l'arrière-plan",
-                    "Description": "Sélectionnez une collection dans laquelle enregistrer cet arrière-plan."
-                },
-                "Effect": {
-                    "Title": "Enregistrer l'effet",
-                    "Description": "Sélectionnez une collection dans laquelle enregistrer cet effet."
-                },
-                "Particle": {
-                    "Title": "Enregistrer la particule",
-                    "Description": "Sélectionnez une collection dans laquelle enregistrer cette particule."
-                },
-                "Engine": {
-                    "Title": "Enregistrer le moteur",
-                    "Description": "Sélectionnez une collection dans laquelle enregistrer ce moteur."
-                }
-            },
-            "ToUse": {
-                "Level": {
-                    "Title": "Choisir le niveau",
-                    "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses niveaux."
-                },
-                "Skin": {
-                    "Title": "Sélectionnez le skin",
-                    "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses skins."
-                },
-                "Background": {
-                    "Title": "Sélectionnez l'arrière-plan",
-                    "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses arrière-plans."
-                },
-                "Effect": {
-                    "Title": "Sélectionnez l'effet",
-                    "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses effets."
-                },
-                "Particle": {
-                    "Title": "Sélectionner la particule",
-                    "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses particules."
-                },
-                "Engine": {
-                    "Title": "Sélectionnez l'engine\n",
-                    "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses engines."
-                }
-            },
-            "ToAddFavorite": {
-                "Level": {
-                    "Title": "Ajouter un niveau favori",
-                    "Description": "Sélectionnez un serveur personnalisé pour ajouter ses niveaux aux favoris."
-                },
-                "Skin": {
-                    "Title": "Ajouter un skin préféré",
-                    "Description": "Sélectionnez un serveur personnalisé pour ajouter ses skins aux favoris."
-                },
-                "Background": {
-                    "Title": "Ajouter un arrière-plan favori",
-                    "Description": "Sélectionnez un serveur personnalisé pour ajouter ses arrière-plans aux favoris."
-                },
-                "Effect": {
-                    "Title": "Ajouter un effet favori",
-                    "Description": "Sélectionnez un serveur personnalisé pour ajouter ses effets aux favoris."
-                },
-                "Particle": {
-                    "Title": "Ajouter une particule préférée",
-                    "Description": "Sélectionnez un serveur personnalisé pour ajouter ses particules aux favoris."
-                },
-                "Engine": {
-                    "Title": "Ajouter un engine favori",
-                    "Description": "Sélectionnez un serveur personnalisé pour ajouter ses engines aux favoris."
-                }
-            }
-        },
-        "EditCustomServer": {
-            "Title": "Modifier le serveur personnalisé",
-            "Address": "Adresse",
-            "AddressPlaceholder": "Entrez l'adresse du serveur personnalisé...",
-            "Name": "Nom",
-            "NamePlaceholder": "Entrez le nom du serveur personnalisé..."
-        },
-        "AddCustomServerAddress": {
-            "Title": "Ajouter un serveur personnalisé",
-            "Address": "Adresse",
-            "AddressPlaceholder": "Entrez l'adresse du serveur personnalisé..."
-        },
-        "AddCustomServerInfo": {
-            "Title": "Ajouter un serveur personnalisé",
-            "Info": {
-                "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier si vous avez saisi la bonne adresse de serveur, vérifiez votre connexion Internet et réessayez, ou contactez le propriétaire du serveur pour signaler le problème."
-            },
-            "Name": "Nom",
-            "NamePlaceholder": "Entrez le nom du serveur personnalisé..."
-        },
-        "EditCollection": {
-            "Title": "Modifier la collection",
-            "Name": "Nom",
-            "NamePlaceholder": "Entrez le nom de la collection..."
-        },
-        "AddCollection": {
-            "Title": "Ajouter une collection",
-            "Name": "Nom",
-            "NamePlaceholder": "Entrez le nom de la collection..."
-        },
-        "ImportScp": {
-            "Scp": {
-                "Loading": "Chargement du package...",
-                "Error": "Échec du chargement du package \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
-            },
-            "Success": {
-                "Title": "Package importé"
-            }
-        },
-        "ExportScp": {
-            "Success": {
-                "Title": "Package exporté"
-            }
-        },
-        "EditVisibility": {
-            "Scale": "Scale",
-            "Alpha": "Alpha"
-        },
-        "EditAnimation": {
-            "Scale": "Scale",
-            "Alpha": "Alpha"
-        },
-        "EditTween": {
-            "From": "From",
-            "To": "To",
-            "Duration": "Durée",
-            "Ease": "Ease"
-        },
-        "EditColors": {
-            "Foreground": "Premier plan",
-            "Background": "Arrière plan"
-        },
-        "CalibrateAudio": {
-            "Title": "Calibrate Audio",
-            "Description": "Calibrez l'audio en ajustant le décalage audio du périphérique jusqu'à ce que l'audio et les graphiques soient synchronisés.",
-            "DeviceAudioOffset": "Device Audio Offset"
-        },
-        "CalibrateInput": {
-            "Title": "Calibrer l'entrée",
-            "Description": "Calibrez l'entrée en appuyant avec votre doigt. Veuillez d'abord vous assurer que votre décalage audio est correctement calibré.\nSi vous êtes habitué aux jeux qui n'offrent pas cette option, vous pouvez le laisser à 0.",
-            "Result": "Recommended Offset: {0} (±{1})",
-            "DeviceInputOffset": "Device Input Offset"
-        },
-        "Home": {
-            "Title": "Home",
-            "Play": "Play",
-            "Players": "Joueurs",
-            "Account": "Compte",
-            "Settings": "Réglages",
-            "UpdateAvailable": {
-                "Title": "Mise à jour disponible",
-                "Description": "La version Sonolus {0} est disponible !\n\nVisitez notre site Internet:\nhttps://sonolus.com",
-                "Open": "Open"
-            }
-        },
-        "Players": {
-            "Title": "Joueurs",
-            "PlayerLookup": {
-                "Title": "Recherche de joueur",
-                "Id": "ID du joueur",
-                "IdPlaceholder": "Entrez l'ID du joueur...",
-                "Lookup": "Chercher"
-            }
-        },
-        "Account": {
-            "Title": "Compte",
-            "MyAccount": {
-                "Title": "Mon compte",
-                "Login": {
-                    "Apple": "Connectez-vous avec Apple",
-                    "Google": "Connectez-vous avec Google",
-                    "Wechat": "Connectez-vous avec WeChat"
-                },
-                "Profile": "Profil",
-                "Logout": "Déconnexion"
-            }
-        },
-        "UserProfile": {
-            "Home": {
-                "Main": {
-                    "EditName": "Modifier le nom",
-                    "EditAvatar": "Modifier l'Avatar"
-                },
-                "AboutMe": {
-                    "Title": "À propos de moi"
-                },
-                "SocialLinks": {
-                    "Title": "Liens sociaux",
-                    "None": "Aucun lien social.",
-                    "OpenConfirmation": {
-                        "Description": "Ce lien social va à :\n{0}\n\nÊtes-vous sûr de visiter?"
-                    }
-                },
-                "Favorites": {
-                    "Title": "Favoris",
-                    "None": "Pas de favoris."
-                }
-            },
-            "EditName": {
-                "Title": "Modifier le nom",
-                "Name": "Nom",
-                "NamePlaceholder": "Entrez le nom du joueur..."
-            },
-            "EditAvatar": {
-                "Title": "Modifier l'Avatar",
-                "Foreground": "Premier plan",
-                "Background": "Arrière plan"
-            },
-            "EditAboutMe": {
-                "Title": "Modifier À propos de moi",
-                "AboutMe": "À propos de moi",
-                "AboutMePlaceholder": "Entrez à propos de moi..."
-            },
-            "AddSocialLink": {
-                "Title": "Ajouter un lien social",
-                "SocialLinkTitle": "Titre",
-                "SocialLinkTitlePlaceholder": "Saisissez le titre du lien social...",
-                "SocialLinkAddress": "Adresse",
-                "SocialLinkAddressPlaceholder": "Entrez l'adresse du lien social..."
-            },
-            "AddFavorite": {
-                "Title": "Ajouter un favori",
-                "Description": "Sélectionnez le type de favori à ajouter :",
-                "Level": "Niveau",
-                "Skin": "Skin",
-                "Background": "Arrière plan",
-                "Effect": "SFX",
-                "Particle": "Particule",
-                "Engine": "Engine"
-            }
-        },
-        "Server": {
-            "Home": {
-                "Levels": "Niveaux",
-                "Skins": "Skins",
-                "Backgrounds": "Arrière-plans",
-                "Effects": "SFX",
-                "Particles": "Particules",
-                "Engines": "Engines",
-                "SaveSuccess": {
-                    "Title": "Serveur enregistré"
-                },
-                "ShareSuccess": {
-                    "Title": "Lien serveur copié"
-                }
-            },
-            "Search": {
-                "Title": "Chercher"
-            },
-            "Lists": {
-                "DeleteConfirmation": {
-                    "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
-                },
-                "Level": {
-                    "Title": "Niveaux",
-                    "ShareSuccess": {
-                        "Title": "Lien du niveau copié"
-                    }
-                },
-                "Skin": {
-                    "Title": "Skins",
-                    "ShareSuccess": {
-                        "Title": "Lien Skins copié"
-                    }
-                },
-                "Background": {
-                    "Title": "Arrière-plan",
-                    "ShareSuccess": {
-                        "Title": "Lien d'arrière-plan copié"
-                    }
-                },
-                "Effect": {
-                    "Title": "SFX",
-                    "ShareSuccess": {
-                        "Title": "Lien SFX copié"
-                    }
-                },
-                "Particle": {
-                    "Title": "Particules",
-                    "ShareSuccess": {
-                        "Title": "Lien particules copié"
-                    }
-                },
-                "Engine": {
-                    "Title": "Engines",
-                    "ShareSuccess": {
-                        "Title": "Lien engine copié"
-                    }
-                }
-            },
-            "Details": {
-                "Actions": {
-                    "Configuration": "Configuration"
-                },
-                "DeleteConfirmation": {
-                    "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
-                },
-                "Description": {
-                    "Title": "Description"
-                },
-                "Recommended": {
-                    "Title": "Recommandé"
-                },
-                "Level": {
-                    "Actions": {
-                        "Play": "Play"
-                    },
-                    "Play": {
-                        "Effect": {
-                            "Audio": {
-                                "Loading": "Décodage audio SFX...",
-                                "Error": "Impossible de décoder l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
-                            }
-                        },
-                        "Level": {
-                            "Bgm": {
-                                "Loading": "Decodage du niveau de BGM",
-                                "Error": "Impossible de décoder le niveau BGM de \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
-                            }
-                        },
-                        "Boot": {
-                            "Loading": "Démarrage du niveau...",
-                            "Error": "Échec du niveau de démarrage \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "Lien du niveau copié"
-                    }
-                },
-                "Skin": {
-                    "ShareSuccess": {
-                        "Title": "Lien du skin copié"
-                    }
-                },
-                "Background": {
-                    "Preview": {
-                        "Boot": {
-                            "Loading": "Démarrage de l'arrière-plan...",
-                            "Error": "Échec du démarrage de l'arrière-plan \"{0}\".\n\nVeuillez contacter l'auteur de l'arrière-plan pour signaler le problème."
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "Lien d'arrière-plan copié"
-                    }
-                },
-                "Effect": {
-                    "Preview": {
-                        "Audio": {
-                            "Loading": "Décodage audio SFX...",
-                            "Error": "Impossible de décoder l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
-                        },
-                        "Boot": {
-                            "Loading": "Démarrage de SFX...",
-                            "Error": "Échec du démarrage du SFX \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
-                        }
-                    },
-                    "ShareSuccess": {
-                        "Title": "Lien d'effet copié"
-                    }
-                },
-                "Particle": {
-                    "ShareSuccess": {
-                        "Title": "Lien de particules copié"
-                    }
-                },
-                "Engine": {
-                    "ShareSuccess": {
-                        "Title": "Lien engine copié"
-                    }
-                }
-            },
-            "Configurations": {
-                "Level": {
-                    "Title": "Configuration du niveau",
-                    "Skin": {
-                        "Title": "Skin"
-                    },
-                    "Background": {
-                        "Title": "Arrière plan"
-                    },
-                    "Effect": {
-                        "Title": "SFX"
-                    },
-                    "Particle": {
-                        "Title": "Particule"
-                    },
-                    "Options": {
-                        "Title": "Options"
-                    },
-                    "Audio": {
-                        "Title": "Audio",
-                        "BgmVolume": "BGM Volume",
-                        "SfxVolume": "SFX Volume"
-                    },
-                    "UI": {
-                        "Title": "UI",
-                        "PrimaryMetric": "Métrique principale",
-                        "SecondaryMetric": "Métrique secondaire",
-                        "JudgmentErrorStyle": "Style d'erreur de jugement",
-                        "JudgmentErrorPlacement": "Placement d'erreur de jugement",
-                        "JudgmentErrorMin": "Erreur de jugement minimale",
-                        "MenuStyle": "Style de menus",
-                        "JudgmentStyle": "Style de jugement",
-                        "ComboStyle": "Style de combo",
-                        "PrimaryMetricStyle": "Style de métrique principal",
-                        "SecondaryMetricStyle": "Style de métrique secondaire"
-                    },
-                    "Offsets": {
-                        "Title": "Offsets",
-                        "LevelAudioOffset": "Level Audio Offset",
-                        "ServerAudioOffset": "Server Audio Offset",
-                        "DeviceAudioOffset": "Device Audio Offset",
-                        "EngineInputOffset": "Engine Input Offset",
-                        "DeviceInputOffset": "Device Input Offset"
-                    }
-                },
-                "Skin": {
-                    "Title": "Skin Configuration"
-                },
-                "Background": {
-                    "Title": "Configuration de l'arrière-plan",
-                    "Image": {
-                        "Title": "Image",
-                        "Blur": "Blur",
-                        "Mask": "Masque"
-                    }
-                },
-                "Effect": {
-                    "Title": "Configuration d'effet"
-                },
-                "Particle": {
-                    "Title": "Configuration des particules"
-                },
-                "Engine": {
-                    "Title": "Engine Configuration",
-                    "Skin": {
-                        "Title": "Skin"
-                    },
-                    "Background": {
-                        "Title": "Arrière plan"
-                    },
-                    "Effect": {
-                        "Title": "SFX"
-                    },
-                    "Particle": {
-                        "Title": "Particule"
-                    },
-                    "Options": {
-                        "Title": "Options"
-                    },
-                    "UI": {
-                        "Title": "UI",
-                        "PrimaryMetric": "Métrique primaire",
-                        "SecondaryMetric": "Métrique secondaire",
-                        "JudgmentErrorStyle": "Style d'erreur de jugement",
-                        "JudgmentErrorPlacement": "Placement d'erreur de jugement",
-                        "JudgmentErrorMin": "Erreur de jugement minimale",
-                        "MenuStyle": "Style de menus",
-                        "JudgmentStyle": "Style de jugement",
-                        "ComboStyle": "Style de combo",
-                        "PrimaryMetricStyle": "Style de métrique principal",
-                        "SecondaryMetricStyle": "Style de métrique secondaire"
-                    },
-                    "Offsets": {
-                        "Title": "Offsets",
-                        "EngineInputOffset": "Engine Input Offset"
-                    }
-                }
-            },
-            "Savers": {
-                "Level": {
-                    "Success": {
-                        "Title": "Niveau enregistré"
-                    }
-                },
-                "Skin": {
-                    "Success": {
-                        "Title": "Skin enregistré"
-                    }
-                },
-                "Background": {
-                    "Success": {
-                        "Title": "Arrière-plan enregistré"
-                    }
-                },
-                "Effect": {
-                    "Success": {
-                        "Title": "Effet enregistré"
-                    }
-                },
-                "Particle": {
-                    "Success": {
-                        "Title": "Particule enregistrée"
-                    }
-                },
-                "Engine": {
-                    "Success": {
-                        "Title": "Engine enregistré"
-                    }
-                }
-            }
-        },
-        "Settings": {
-            "Title": "Réglages",
-            "Graphics": {
-                "Title": "Graphics",
-                "TargetFps": "FPS cible",
-                "RenderScale": "Render Scale",
-                "AntiAliasing": {
-                    "Title": "Anti-Aliasing",
-                    "Options": {
-                        "Off": "Off",
-                        "TwoX": "2x",
-                        "FourX": "4x",
-                        "EightX": "8x"
-                    }
-                },
-                "GpuParticleSystem": "GPU Particle System",
-                "IgnoreNotch": "Ignorer Notch"
-            },
-            "Audio": {
-                "Title": "Audio",
-                "BgmVolume": "BGM Volume",
-                "SfxVolume": "SFX Volume",
-                "AlwaysDecodeLevelBgm": "Toujours décoder le niveau BGM",
-                "PreviewBgm": {
-                    "Title": "Preview BGM",
-                    "Options": {
-                        "Off": "Off",
-                        "DetailsOnly": "Détails uniquement",
-                        "ListAndDetails": "Liste et détails"
-                    }
-                },
-                "LevelBgmQuality": {
-                    "Title": "Niveau de qualité BGM",
-                    "Options": {
-                        "Low": "Low",
-                        "Mid": "Mid",
-                        "High": "High"
-                    }
-                },
-                "PreviewBgmQuality": {
-                    "Title": "Preview de la qualité BGM",
-                    "Options": {
-                        "Low": "Low",
-                        "Mid": "Mid",
-                        "High": "High"
-                    }
-                }
-            },
-            "UI": {
-                "Title": "UI",
-                "Localization": "Language",
-                "Theme": "Thème",
-                "Scale": "Taille de l'UI",
-                "UnpauseDelay": "Reprendre le délai",
-                "PerfectJudgmentColors": "Perfect couleurs de jugement",
-                "GreatJudgmentColors": "Great couleurs de jugement",
-                "GoodJudgmentColors": "Good couleurs de jugement",
-                "MissJudgmentColors": "Miss couleurs de jugement",
-                "PositiveJudgmentErrorColors": "Couleurs d'erreur de jugement positif",
-                "NegativeJudgmentErrorColors": "Couleurs d'erreur de jugement négatif",
-                "AllPerfectComboColors": "All Parfait Combo Couleurs",
-                "FullComboComboColors": "Full combo Couleurs",
-                "PassComboColors": "Pass Combo Couleurs",
-                "FailComboColors": "Échec des couleurs de combo",
-                "BoldComboNumber": "Numéro de combo en gras",
-                "ShowZeroCombo": "Afficher le combo zéro"
-            },
-            "Offsets": {
-                "Title": "Offsets",
-                "Device": {
-                    "Title": "Device",
-                    "Option": "Device {0}"
-                },
-                "DeviceAudioOffset": "Device Audio Offset",
-                "DeviceInputOffset": "Device Input Offset"
-            },
-            "Repository": {
-                "Title": "Dépôt",
-                "Manage": "Manage"
-            },
-            "Cache": {
-                "Title": "Cache",
-                "AlwaysRevalidate": "Toujours revalider",
-                "Manage": "Manage"
-            },
-            "Developer": {
-                "Title": "Développeur",
-                "ShowFps": "Afficher FPS",
-                "FpsStyle": "FPS Style",
-                "ShowTouches": "Afficher les touches",
-                "TouchStyle": "Style tactile",
-                "DebugMode": "Debug Mode",
-                "DebugLogStyle": "Debug Log Style"
-            }
-        },
-        "ManageRepository": {
-            "Title": "Gérer le référentiel",
-            "Repository": {
-                "Title": "Référentiel",
-                "Description": "Le référentiel stocke toutes les ressources disponibles localement sur cet appareil.",
-                "Size": "Taille : {0}"
-            },
-            "DeleteRepository": {
-                "Title": "Supprimer le référentiel",
-                "Description": "Supprimez toutes les ressources du référentiel qui entraînent le retéléchargement de Sonolus à la demande.",
-                "Delete": "Effacer",
-                "DeleteConfirmation": {
-                    "Description": "Êtes-vous sûr de supprimer toutes les ressources du référentiel ?",
-                    "Loading": "Suppression du référentiel..."
-                },
-                "Success": {
-                    "Title": "Dépôt supprimé"
-                }
-            }
-        },
-        "ManageCache": {
-            "Title": "Manage Cache",
-            "Cache": {
-                "Title": "Cache",
-                "Description": "Le cache permet à Sonolus d'accélérer le chargement des requêtes réseau et de réduire l'utilisation de la bande passante, en mémorisant les URL du réseau et les ressources de référentiel local auxquelles elles sont associées.\nLe cache occupe une très petite quantité de stockage et il est recommandé de ne pas le supprimer.",
-                "Count": "Cache : {0} entrées"
-            },
-            "ExpireCache": {
-                "Title": "Expire Cache",
-                "Description": "Faire expirer tout le cache, ce qui entraîne la revalidation de Sonolus avant d'utiliser les ressources du référentiel local auxquelles les URL du réseau sont associées.",
-                "Expire": "Expirer",
-                "ExpireConfirmation": {
-                    "Description": "Êtes-vous sûr de faire expirer tout le cache ?"
-                },
-                "Success": {
-                    "Title": "Cache expiré"
-                }
-            },
-            "DeleteCache": {
-                "Title": "Supprimer le cache",
-                "Description": "Supprimez tout le cache, ce qui oblige Sonolus à retélécharger toutes les requêtes réseau. Non recommandé.",
-                "Delete": "Effacer",
-                "DeleteConfirmation": {
-                    "Description": "Êtes-vous sûr de supprimer tout le cache ?"
-                },
-                "Success": {
-                    "Title": "Cache supprimé"
-                }
-            }
+      },
+      "EditAboutMe": {
+        "Loading": "Changer à propos de moi...",
+        "Error": "Échec de la modification à propos de moi.\n\nVeuillez vérifier si votre à propos de moi est légal et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "À propos de moi modifié"
         }
+      },
+      "EditSocialLinks": {
+        "Loading": "Modification des liens sociaux...",
+        "Error": "Échec de la modification des liens sociaux.\n\nVeuillez vérifier si vos liens sociaux sont légaux et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "Liens sociaux modifiés"
+        }
+      },
+      "EditFavorites": {
+        "Loading": "Modification des favoris...",
+        "Error": "Échec de la modification des favoris.\n\nVeuillez vérifier si vos favoris sont légaux et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
+        "Success": {
+          "Title": "Favoris modifiés"
+        }
+      },
+      "AuthenticateServer": {
+        "Loading": "Demande d'authentification Sonolus...",
+        "Error": "Échec de la demande d'authentification auprès de Sonolus.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez Sonolus pour signaler le problème."
+      },
+      "Logout": {
+        "Loading": "Déconnection...",
+        "Error": "Échec de la déconnexion.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez.",
+        "Success": {
+          "Title": "Déconnecter"
+        }
+      }
+    },
+    "CustomServer": {
+      "SonolusVersionError": "Ce serveur ne prend en charge que la version {0} de Sonolus.\n\nVeuillez mettre à jour votre application Sonolus ou contacter le propriétaire du serveur pour signaler le problème.",
+      "SonolusVersionTooOld": "Ce serveur ne prend en charge qu'une ancienne version de Sonolus ({0}).\n\nVeuillez attendre que le serveur soit mis à jour ou contactez le propriétaire du serveur pour signaler le problème.",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "Ce serveur nécessite une authentification.\n\nVeuillez d'abord vous connecter et réessayer."
+          },
+          "Confirmation": {
+            "Description": "Ce serveur nécessite une authentification.\n\nS'authentifier en tant que \"{0}\" et continuer ?"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "Votre authentification a expiré.\n\nS'authentifier à nouveau en tant que \"{0}\" et continuer ?"
+        },
+        "AuthenticationRejected": {
+          "Description": "Votre authentification a été rejetée par le serveur.\n\nS'authentifier à nouveau en tant que \"{0}\" et continuer ?"
+        },
+        "Authenticate": {
+          "Loading": "Demande d'authentification du serveur...",
+          "Error": "Échec de la demande d'authentification de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "AddressMismatchError": {
+          "Description": "L'adresse d'authentification ne correspond pas.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        }
+      },
+      "Server": {
+        "Info": {
+          "Loading": "Chargement des informations sur le serveur...",
+          "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Banner": {
+          "Loading": "Chargement de la bannière du serveur...",
+          "Error": "Échec du chargement de la bannière de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        }
+      },
+      "Level": {
+        "List": {
+          "Loading": "Chargement des niveaux...",
+          "Error": "Échec du chargement des niveaux à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Details": {
+          "Loading": "Chargement des détails du niveau...",
+          "Error": "Échec du chargement des détails du niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité des niveaux...",
+          "Error": "Le niveau \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Cover": {
+          "Loading": "Cover de niveau en chargement...",
+          "Error": "Échec du chargement du cover de niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Bgm": {
+          "Loading": "Chargement du niveau de BGM...",
+          "Error": "Échec du chargement du niveau BGM de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Preview": {
+          "Loading": "Chargement de preview du niveau...",
+          "Error": "Échec du chargement du preview du niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Data": {
+          "Loading": "Chargement des données de niveau...",
+          "Error": "Échec du chargement des données de niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "Chargement des skins...",
+          "Error": "Échec du chargement des skins à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Details": {
+          "Loading": "Chargement des détails du skin...",
+          "Error": "Échec du chargement des détails de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité du skin...",
+          "Error": "Skin \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de skin...",
+          "Error": "Échec du chargement de la vignette skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Data": {
+          "Loading": "Chargement des données de skin...",
+          "Error": "Échec du chargement des données de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Texture": {
+          "Loading": "Chargement de la texture de skin...",
+          "Error": "Échec du chargement de la texture de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "Chargement des arrière-plans...",
+          "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Details": {
+          "Loading": "Chargement des détails d'arrière-plan...",
+          "Error": "Échec du chargement des détails d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de l'arrière-plan...",
+          "Error": "L'arrière-plan \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette d'arrière-plan...",
+          "Error": "Échec du chargement de la vignette d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Data": {
+          "Loading": "Chargement des données d'arrière-plan...",
+          "Error": "Échec du chargement des données d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Image": {
+          "Loading": "Chargement de l'image d'arrière-plan...",
+          "Error": "Échec du chargement de l'image d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration d'arrière-plan...",
+          "Error": "Échec du chargement de la configuration d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Chargement des SFX...",
+          "Error": "Échec du chargement de SFX à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Details": {
+          "Loading": "Chargement des détails SFX...",
+          "Error": "Échec du chargement des détails SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité SFX...",
+          "Error": "SFX \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette SFX...",
+          "Error": "Échec du chargement de la vignette SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Data": {
+          "Loading": "Chargement des données SFX...",
+          "Error": "Échec du chargement des données SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Audio": {
+          "Loading": "Chargement de l'audio SFX...",
+          "Error": "Échec du chargement de l'audio SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "Chargement des particules...",
+          "Error": "Échec du chargement des particules à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Details": {
+          "Loading": "Chargement des détails des particules...",
+          "Error": "Échec du chargement des détails des particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité des particules...",
+          "Error": "La particule \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette des particules...",
+          "Error": "Échec du chargement de la vignette de particule de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Data": {
+          "Loading": "Chargement des données de particules...",
+          "Error": "Échec du chargement des données de particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Texture": {
+          "Loading": "Chargement de la texture des particules...",
+          "Error": "Échec du chargement de la texture des particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Chargement des engines...",
+          "Error": "Échec du chargement des engines à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Details": {
+          "Loading": "Chargement des détails des engines...",
+          "Error": "Échec du chargement des détails de l'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité d'engine...",
+          "Error": "L'engine \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette d'engine...",
+          "Error": "Échec du chargement de la vignette d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Data": {
+          "Loading": "Chargement des données d'engine...",
+          "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Rom": {
+          "Loading": "Chargement de la ROM d'engine...",
+          "Error": "Échec du chargement de la rom d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration d'engine...",
+          "Error": "Échec du chargement de la configuration d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        }
+      }
+    },
+    "Collection": {
+      "Server": {
+        "Info": {
+          "Loading": "Chargement des informations sur la collection...",
+          "Error": "Échec du chargement des informations de collection de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Banner": {
+          "Loading": "Chargement de la bannière de collection...",
+          "Error": "Échec du chargement de la bannière de collection de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        }
+      },
+      "Level": {
+        "List": {
+          "Loading": "Chargement des niveaux...",
+          "Error": "Échec du chargement des niveaux à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails du niveau...",
+          "Error": "Échec du chargement des détails du niveau de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité des niveaux...",
+          "Error": "Le niveau \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
+        },
+        "Cover": {
+          "Loading": "Cover de niveau en chargement...",
+          "Error": "Échec du chargement de cover de niveau de \"{0}\".\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
+        },
+        "Bgm": {
+          "Loading": "Chargement du BGM de niveau...",
+          "Error": "Échec du chargement du niveau BGM de \"{0}\".\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
+        },
+        "Preview": {
+          "Loading": "Chargement de preview du niveau...",
+          "Error": "Échec du chargement de preview du niveau de \"{0}\".\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
+        },
+        "Data": {
+          "Loading": "Chargement des données de niveau...",
+          "Error": "Échec du chargement des données de niveau de \"{0}\".\n\nVeuillez mettre à jour ce niveau ou utiliser un niveau différent."
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "Chargement des skins...",
+          "Error": "Échec du chargement des skins à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails du skin...",
+          "Error": "Échec du chargement des détails de skin de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité du skin...",
+          "Error": "Skin \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour cet Skin ou utiliser un skin différent."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de skin...",
+          "Error": "Échec du chargement de la vignette skin de \"{0}\".\n\nVeuillez mettre à jour cet skin ou utiliser un skin différent."
+        },
+        "Data": {
+          "Loading": "Chargement des données de skin...",
+          "Error": "Échec du chargement des données skin de \"{0}\".\n\nVeuillez mettre à jour cet skin ou utiliser un skin différent."
+        },
+        "Texture": {
+          "Loading": "Chargement de skin texture...",
+          "Error": "Échec du chargement de la texture de skin de \"{0}\".\n\nVeuillez mettre à jour cet habillage ou utiliser un habillage différent."
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "Chargement des arrière-plans...",
+          "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails d'arrière-plan...",
+          "Error": "Échec du chargement des détails d'arrière-plan de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de l'arrière-plan...",
+          "Error": "L'arrière-plan \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette d'arrière-plan...",
+          "Error": "Échec du chargement de la vignette d'arrière-plan de \"{0}\".\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
+        },
+        "Data": {
+          "Loading": "Chargement des données d'arrière-plan...",
+          "Error": "Échec du chargement des données d'arrière-plan de \"{0}\".\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
+        },
+        "Image": {
+          "Loading": "Chargement de l'image d'arrière-plan...",
+          "Error": "Échec du chargement de l'image d'arrière-plan de \"{0}\".\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration d'arrière-plan...",
+          "Error": "Échec du chargement de la configuration d'arrière-plan de \"{0}\".\n\nVeuillez mettre à jour cet arrière-plan ou utiliser un arrière-plan différent."
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Chargement des SFX...",
+          "Error": "Échec du chargement de SFX à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails SFX...",
+          "Error": "Échec du chargement des détails SFX de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité SFX...",
+          "Error": "SFX \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour ce SFX ou utiliser un autre SFX."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette SFX...",
+          "Error": "Échec du chargement de la vignette SFX de \"{0}\".\n\nVeuillez mettre à jour ce SFX ou utiliser un autre SFX."
+        },
+        "Data": {
+          "Loading": "Chargement des données SFX...",
+          "Error": "Échec du chargement des données SFX de \"{0}\".\n\nVeuillez mettre à jour ce SFX ou utiliser un autre SFX."
+        },
+        "Audio": {
+          "Loading": "Chargement de l'audio SFX...",
+          "Error": "Échec du chargement de l'audio SFX de \"{0}\".\n\nVeuillez mettre à jour ce SFX ou utiliser un autre SFX."
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "Chargement des particules...",
+          "Error": "Échec du chargement des particules à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails des particules...",
+          "Error": "Échec du chargement des détails des particules de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité des particules...",
+          "Error": "La particule \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour cette particule ou utiliser une autre particule."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette des particules...",
+          "Error": "Échec du chargement de la vignette de particule de \"{0}\".\n\nVeuillez mettre à jour cette particule ou utiliser une autre particule."
+        },
+        "Data": {
+          "Loading": "Chargement des données de particules...",
+          "Error": "Échec du chargement des données de particules de \"{0}\".\n\nVeuillez mettre à jour cette particule ou utiliser une autre particule."
+        },
+        "Texture": {
+          "Loading": "Chargement de la texture des particules...",
+          "Error": "Échec du chargement de la texture des particules de \"{0}\".\n\nVeuillez mettre à jour cette particule ou utiliser une autre particule."
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Chargement d'engines...",
+          "Error": "Échec du chargement des engines à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de l'engine...",
+          "Error": "Échec du chargement des détails de l'engine de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité d'engine...",
+          "Error": "L'engine \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette d'engine...",
+          "Error": "Échec du chargement de la vignette du engine de \"{0}\".\n\nVeuillez mettre à jour ce engine ou utiliser un autre engine."
+        },
+        "Data": {
+          "Loading": "Chargement des données de l'engine...",
+          "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVeuillez mettre à jour cet engine ou utiliser un autre engine."
+        },
+        "Rom": {
+          "Loading": "Chargement de la ROM d'engine...",
+          "Error": "Échec du chargement de la rom d'engine de \"{0}\".\n\nVeuillez mettre à jour cet engine ou utiliser un autre engine."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration d'engines...",
+          "Error": "Échec du chargement de la configuration du engine de \"{0}\".\n\nVeuillez mettre à jour ce engine ou utiliser un autre engine."
+        }
+      }
     },
     "Scp": {
-        "PermissionError": {
-            "Description": "Sonolus ne parvient pas à obtenir les autorisations requises pour effectuer cette action.\n\nVeuillez ouvrir Paramètres et accorder les autorisations Sonolus.",
-            "Open": "Open"
+      "Server": {
+        "Info": {
+          "Loading": "Chargement des informations sur le package...",
+          "Error": "Échec du chargement des informations sur le package de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Banner": {
+          "Loading": "Chargement de la bannière du package...",
+          "Error": "Échec du chargement de la bannière du package \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
         }
+      },
+      "Level": {
+        "List": {
+          "Loading": "Chargement des niveaux...",
+          "Error": "Échec du chargement des niveaux à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Details": {
+          "Loading": "Loading level details...",
+          "Error": "Échec du chargement des détails du niveau de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité des niveaux...",
+          "Error": "Le niveau \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Cover": {
+          "Loading": "Chargement des niveaux de couverture...",
+          "Error": "Échec du chargement de cover de niveau de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Bgm": {
+          "Loading": "Chargement du BGM du niveau",
+          "Error": "Échec du chargement du niveau BGM de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Preview": {
+          "Loading": "Chargement de preview du niveau...",
+          "Error": "Échec du chargement de preview du niveau de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Data": {
+          "Loading": "Chargement des données de niveau...",
+          "Error": "Échec du chargement des données de niveau de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        }
+      },
+      "Skin": {
+        "List": {
+          "Loading": "Chargement des skins...",
+          "Error": "Échec du chargement des skins à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails du skin...",
+          "Error": "Échec du chargement des détails de skin de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité cutanée...",
+          "Error": "Ce skin \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de skin...",
+          "Error": "Échec du chargement de la vignette skin de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Data": {
+          "Loading": "Chargement des données de skin...",
+          "Error": "Échec du chargement des données de skin de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Texture": {
+          "Loading": "Chargement de la texture de skin...",
+          "Error": "Échec du chargement de la texture de skin de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        }
+      },
+      "Background": {
+        "List": {
+          "Loading": "Chargement des arrière-plans...",
+          "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails d'arrière-plan...",
+          "Error": "Échec du chargement des détails d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de l'arrière-plan...",
+          "Error": "L'arrière-plan \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette d'arrière-plan...",
+          "Error": "Échec du chargement de la vignette d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Data": {
+          "Loading": "Chargement des données d'arrière-plan...",
+          "Error": "Échec du chargement des données d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Image": {
+          "Loading": "Chargement de l'image d'arrière-plan...",
+          "Error": "Échec du chargement de l'image d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration d'arrière-plan...",
+          "Error": "Échec du chargement de la configuration d'arrière-plan de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Chargement des SFX...",
+          "Error": "Échec du chargement de SFX à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails SFX...",
+          "Error": "Échec du chargement des détails SFX de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité SFX...",
+          "Error": "SFX \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette SFX...",
+          "Error": "Échec du chargement de la vignette SFX de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Data": {
+          "Loading": "Chargement des données SFX...",
+          "Error": "Échec du chargement des données SFX de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Audio": {
+          "Loading": "Chargement de l'audio SFX...",
+          "Error": "Échec du chargement de l'audio SFX de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        }
+      },
+      "Particle": {
+        "List": {
+          "Loading": "Chargement des particules...",
+          "Error": "Échec du chargement des particules à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails des particules...",
+          "Error": "Échec du chargement des détails des particules de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité des particules...",
+          "Error": "La particule \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette des particules...",
+          "Error": "Échec du chargement de la vignette de particule de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Data": {
+          "Loading": "Chargement des données de particules...",
+          "Error": "Échec du chargement des données de particules de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Texture": {
+          "Loading": "Chargement de la texture des particules...",
+          "Error": "Échec du chargement de la texture des particules de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Chargement des engines...",
+          "Error": "Échec du chargement des engines à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails d'engine...",
+          "Error": "Échec du chargement des détails de l'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de l'engine...",
+          "Error": "L'engine \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette d'engine...",
+          "Error": "Échec du chargement de la vignette d'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Data": {
+          "Loading": "Chargement des données d'engine...",
+          "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Rom": {
+          "Loading": "Chargement de la ROM d'engine...",
+          "Error": "Échec du chargement de la rom d'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration d'engine...",
+          "Error": "Échec du chargement de la configuration d'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        }
+      }
+    }
+  },
+  "DeepLink": {
+    "Invalid": {
+      "Description": "Le lien \"{0}\" n'est pas valide.\n\nVeuillez utiliser un autre lien."
+    }
+  },
+  "Title": {
+    "TapToStart": "Appuyez pour commencer"
+  },
+  "Layout": {
+    "Refresh": "Rafraîchir",
+    "Back": "Retour"
+  },
+  "Routes": {
+    "JumpToPage": {
+      "Title": "Jump to Page",
+      "Page": {
+        "Title": "Page",
+        "Description": "Numéro de page.",
+        "Placeholder": "Entrez le numéro de page..."
+      },
+      "Jump": "Jump"
     },
-    "Runtimes": {
+    "SelectLocalization": {
+      "Title": "Choisir la langue",
+      "Description": "Sélectionnez une langue préférée :",
+      "Error": "Échec du chargement des langues."
+    },
+    "SelectTheme": {
+      "Title": "Sélectionne un thème",
+      "Description": "Sélectionnez un thème :"
+    },
+    "SelectClient": {
+      "CustomServers": {
+        "Title": "Serveurs personnalisés",
+        "RemoveConfirmation": {
+          "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
+        }
+      },
+      "Collections": {
+        "Title": "Collections",
+        "RemoveConfirmation": {
+          "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "Jouer",
+        "Description": "Sélectionnez un serveur personnalisé ou une collection pour commencer à jouer."
+      },
+      "ToSave": {
         "Level": {
-            "Play": {
-                "Routes": {
-                    "Pause": {
-                        "Title": "Pause",
-                        "Control": {
-                            "Title": "Control",
-                            "Exit": "Sortir",
-                            "Restart": "Recommencer"
-                        },
-                        "Snapshot": {
-                            "Title": "Snapshot",
-                            "Mark": "Mark",
-                            "Jump": "Jump"
-                        },
-                        "Debug": {
-                            "Title": "Debug"
-                        }
-                    },
-                    "Result": {
-                        "Title": "Résultat",
-                        "Options": {
-                            "HasUsedPause": "Pause",
-                            "HasUsedSnapshot": "Snapshot"
-                        },
-                        "Graphs": {
-                            "Title": "Graphs",
-                            "Judgment": {
-                                "Title": "Graphique de jugement"
-                            },
-                            "Accuracy": {
-                                "Title": "Graphique de précision",
-                                "AbsValue": "Valeur absolue",
-                                "Mean": "Mean",
-                                "StDev": "St Dev",
-                                "Min": "Min",
-                                "Max": "Max"
-                            },
-                            "Bucket": {
-                                "Title": "Graphique de compartiment"
-                            }
-                        }
-                    }
-                }
-            }
+          "Title": "Enregistrer le niveau",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer ce niveau."
+        },
+        "Skin": {
+          "Title": "Enregistrer le skin",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer ce skin."
+        },
+        "Background": {
+          "Title": "Enregistrer l'arrière-plan",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cet arrière-plan."
         },
         "Effect": {
-            "Preview": {
-                "Routes": {
-                    "Preview": {
-                        "Play": "Jouer"
-                    }
-                }
-            }
+          "Title": "Enregistrer l'effet",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cet effet."
+        },
+        "Particle": {
+          "Title": "Enregistrer la particule",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cette particule."
+        },
+        "Engine": {
+          "Title": "Enregistrer le moteur",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer ce moteur."
         }
+      },
+      "ToUse": {
+        "Level": {
+          "Title": "Choisir le niveau",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses niveaux."
+        },
+        "Skin": {
+          "Title": "Sélectionnez le skin",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses skins."
+        },
+        "Background": {
+          "Title": "Sélectionnez l'arrière-plan",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses arrière-plans."
+        },
+        "Effect": {
+          "Title": "Sélectionnez l'effet",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses effets."
+        },
+        "Particle": {
+          "Title": "Sélectionner la particule",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses particules."
+        },
+        "Engine": {
+          "Title": "Sélectionnez l'engine\n",
+          "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses engines."
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+          "Title": "Ajouter un niveau favori",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses niveaux aux favoris."
+        },
+        "Skin": {
+          "Title": "Ajouter un skin préféré",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses skins aux favoris."
+        },
+        "Background": {
+          "Title": "Ajouter un arrière-plan favori",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses arrière-plans aux favoris."
+        },
+        "Effect": {
+          "Title": "Ajouter un effet favori",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses effets aux favoris."
+        },
+        "Particle": {
+          "Title": "Ajouter une particule préférée",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses particules aux favoris."
+        },
+        "Engine": {
+          "Title": "Ajouter un engine favori",
+          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses engines aux favoris."
+        }
+      }
+    },
+    "EditCustomServer": {
+      "Title": "Modifier le serveur personnalisé"
+    },
+    "AddCustomServerAddress": {
+      "Title": "Ajouter un serveur personnalisé",
+      "Address": {
+        "Title": "Adresse",
+        "Description": "L'adresse du serveur personnalisé est une URL Web normale (\"https://...\") et peut généralement être trouvée sur la page Web du serveur personnalisé.",
+        "Placeholder": "Entrez l'adresse du serveur personnalisé..."
+      }
+    },
+    "AddCustomServerInfo": {
+      "Title": "Ajouter un serveur personnalisé",
+      "Info": {
+        "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier si vous avez saisi la bonne adresse de serveur, vérifiez votre connexion Internet et réessayez, ou contactez le propriétaire du serveur pour signaler le problème."
+      },
+      "Name": {
+        "Title": "Nom",
+        "Description": "Vous pouvez le nommer comme vous voulez.",
+        "Placeholder": "Entrez le nom du serveur personnalisé..."
+      }
+    },
+    "EditCollection": {
+      "Title": "Modifier la collection"
+    },
+    "AddCollection": {
+      "Title": "Ajouter une collection",
+      "Name": {
+        "Title": "Nom",
+        "Description": "Vous pouvez le nommer comme vous voulez.",
+        "Placeholder": "Entrez le nom de la collection..."
+      }
+    },
+    "ImportScp": {
+      "Scp": {
+        "Loading": "Chargement du package...",
+        "Error": "Échec du chargement du package \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+      },
+      "Success": {
+        "Title": "Package importé"
+      }
+    },
+    "ExportScp": {
+      "Success": {
+        "Title": "Package exporté"
+      }
+    },
+    "EditVisibility": {
+      "Scale": {
+        "Title": "Taille",
+        "Description": "Taille.\n"
+      },
+      "Alpha": {
+        "Title": "Alpha",
+        "Description": "Alpha."
+      }
+    },
+    "EditAnimation": {
+      "Scale": {
+        "Title": "Taille",
+        "Description": "Taille."
+      },
+      "Alpha": {
+        "Title": "Alpha",
+        "Description": "Alpha."
+      }
+    },
+    "EditTween": {
+      "From": {
+        "Title": "Par",
+        "Description": "Par."
+      },
+      "To": {
+        "Title": "Pour",
+        "Description": "Pour."
+      },
+      "Duration": {
+        "Title": "Duration",
+        "Description": "Duration."
+      },
+      "Ease": {
+        "Title": "Ease",
+        "Description": "Ease."
+      }
+    },
+    "EditColors": {
+      "Foreground": {
+        "Title": "Premier plan",
+        "Description": "Couleur de premier plan."
+      },
+      "Background": {
+        "Title": "Arrière-plan",
+        "Description": "Couleur de l'arrière plan."
+      }
+    },
+    "CalibrateAudio": {
+      "Title": "Calibrate Audio",
+      "Description": "Calibrez l'audio en ajustant le décalage audio du périphérique jusqu'à ce que l'audio et les graphiques soient synchronisés."
+    },
+    "CalibrateInput": {
+      "Title": "Calibrer l'entrée",
+      "Description": "Calibrez l'entrée en appuyant avec votre doigt. Veuillez d'abord vous assurer que votre décalage audio est correctement calibré.\nSi vous êtes habitué aux jeux qui n'offrent pas cette option, vous pouvez le laisser à 0.",
+      "Result": "Recommended Offset: {0} (±{1})"
+    },
+    "Home": {
+      "Title": "Home",
+      "Play": "Play",
+      "Players": "Joueurs",
+      "Account": "Compte",
+      "Settings": "Réglages",
+      "UpdateAvailable": {
+        "Title": "Mise à jour disponible",
+        "Description": "La version Sonolus {0} est disponible !\n\nVisitez notre site Internet:\nhttps://sonolus.com",
+        "Open": "Open"
+      }
+    },
+    "Players": {
+      "Title": "Joueurs",
+      "PlayerLookup": {
+        "Title": "Recherche de joueur",
+        "Id": {
+          "Title": "ID du joueur",
+          "Description": "ID du joueur.",
+          "Placeholder": "Entrez l'ID du joueur..."
+        },
+        "Lookup": "Chercher"
+      }
+    },
+    "Account": {
+      "Title": "Compte",
+      "MyAccount": {
+        "Title": "Mon compte",
+        "Login": {
+          "Apple": "Connectez-vous avec Apple",
+          "Google": "Connectez-vous avec Google",
+          "Wechat": "Connectez-vous avec WeChat"
+        },
+        "Profile": "Profil",
+        "Logout": "Déconnexion"
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+          "EditName": "Modifier le nom",
+          "EditAvatar": "Modifier l'Avatar"
+        },
+        "AboutMe": {
+          "Title": "À propos de moi"
+        },
+        "SocialLinks": {
+          "Title": "Liens sociaux",
+          "None": "Aucun lien social.",
+          "OpenConfirmation": {
+            "Description": "Ce lien social va à :\n{0}\n\nÊtes-vous sûr de visiter?"
+          }
+        },
+        "Favorites": {
+          "Title": "Favoris",
+          "None": "Pas de favoris."
+        }
+      },
+      "EditName": {
+        "Title": "Modifier le nom",
+        "Name": {
+          "Title": "Nom",
+          "Description": "Nom de joueur.",
+          "Placeholder": "Entrez le nom du joueur..."
+        }
+      },
+      "EditAvatar": {
+        "Title": "Modifier l'Avatar",
+        "Foreground": {
+          "Title": "Premier plan",
+          "Description": "Avatar au premier plan."
+        },
+        "Background": {
+          "Title": "Arrière-plan",
+          "Description": "Fond d'avatar."
+        }
+      },
+      "EditAboutMe": {
+        "Title": "Modifier À propos de moi",
+        "AboutMe": {
+          "Title": "Sur moi",
+          "Description": "Une courte description de vous-même.",
+          "Placeholder": "Entrez à propos de moi..."
+        }
+      },
+      "AddSocialLink": {
+        "Title": "Ajouter un lien social",
+        "SocialLinkTitle": {
+          "Title": "Titre",
+          "Description": "Titre.",
+          "Placeholder": "Saisissez le titre du lien social..."
+        },
+        "SocialLinkAddress": {
+          "Title": "Adresse",
+          "Description": "Une URL Web (\"https://...\") vers laquelle établir un lien.",
+          "Placeholder": "Entrez l'adresse du lien social..."
+        }
+      },
+      "AddFavorite": {
+        "Title": "Ajouter un favori",
+        "Description": "Sélectionnez le type de favori à ajouter :",
+        "Level": "Niveau",
+        "Skin": "Skin",
+        "Background": "Arrière plan",
+        "Effect": "SFX",
+        "Particle": "Particule",
+        "Engine": "Engine"
+      }
+    },
+    "Server": {
+      "Home": {
+        "Levels": "Niveaux",
+        "Skins": "Skins",
+        "Backgrounds": "Arrière-plans",
+        "Effects": "SFX",
+        "Particles": "Particules",
+        "Engines": "Engines",
+        "SaveSuccess": {
+          "Title": "Serveur enregistré"
+        },
+        "ShareSuccess": {
+          "Title": "Lien serveur copié"
+        }
+      },
+      "Search": {
+        "Title": "Chercher"
+      },
+      "Lists": {
+        "DeleteConfirmation": {
+          "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
+        },
+        "Level": {
+          "Title": "Niveaux",
+          "ShareSuccess": {
+            "Title": "Lien du niveau copié"
+          }
+        },
+        "Skin": {
+          "Title": "Skins",
+          "ShareSuccess": {
+            "Title": "Lien Skins copié"
+          }
+        },
+        "Background": {
+          "Title": "Arrière-plan",
+          "ShareSuccess": {
+            "Title": "Lien d'arrière-plan copié"
+          }
+        },
+        "Effect": {
+          "Title": "SFX",
+          "ShareSuccess": {
+            "Title": "Lien SFX copié"
+          }
+        },
+        "Particle": {
+          "Title": "Particules",
+          "ShareSuccess": {
+            "Title": "Lien particules copié"
+          }
+        },
+        "Engine": {
+          "Title": "Engines",
+          "ShareSuccess": {
+            "Title": "Lien engine copié"
+          }
+        }
+      },
+      "Details": {
+        "Actions": {
+          "Configuration": "Configuration"
+        },
+        "DeleteConfirmation": {
+          "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
+        },
+        "Description": {
+          "Title": "Description"
+        },
+        "Recommended": {
+          "Title": "Recommandé"
+        },
+        "Level": {
+          "Actions": {
+            "Play": "Play"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Décodage audio SFX...",
+                "Error": "Impossible de décoder l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Decodage du niveau de BGM",
+                "Error": "Impossible de décoder le niveau BGM de \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
+              }
+            },
+            "Boot": {
+              "Loading": "Démarrage du niveau...",
+              "Error": "Échec du niveau de démarrage \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Lien du niveau copié"
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+            "Title": "Lien du skin copié"
+          }
+        },
+        "Background": {
+          "Preview": {
+            "Boot": {
+              "Loading": "Démarrage de l'arrière-plan...",
+              "Error": "Échec du démarrage de l'arrière-plan \"{0}\".\n\nVeuillez contacter l'auteur de l'arrière-plan pour signaler le problème."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Lien d'arrière-plan copié"
+          }
+        },
+        "Effect": {
+          "Preview": {
+            "Audio": {
+              "Loading": "Décodage audio SFX...",
+              "Error": "Impossible de décoder l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
+            },
+            "Boot": {
+              "Loading": "Démarrage de SFX...",
+              "Error": "Échec du démarrage du SFX \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Lien d'effet copié"
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+            "Title": "Lien de particules copié"
+          }
+        },
+        "Engine": {
+          "ShareSuccess": {
+            "Title": "Lien engine copié"
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Title": "Configuration du niveau",
+          "Offsets": {
+            "LevelAudioOffset": {
+              "Title": "Décalage audio de niveau",
+              "Description": "Un décalage audio supplémentaire de ce niveau ne doit être utilisé que lorsque ce niveau en particulier est désynchronisé. Augmentez si votre audio arrive trop tard, et diminuez sinon."
+            },
+            "ServerAudioOffset": {
+              "Title": "Décalage audio du serveur",
+              "Description": "Le décalage audio supplémentaire de ce serveur ne doit être utilisé que lorsque tous les niveaux de ce serveur sont désynchronisés. Augmentez si votre audio arrive trop tard, et diminuez sinon."
+            }
+          }
+        },
+        "Skin": {
+          "Title": "Skin Configuration"
+        },
+        "Background": {
+          "Title": "Configuration de l'arrière-plan",
+          "Image": {
+            "Title": "Image",
+            "Blur": {
+              "Title": "Se brouiller",
+              "Description": "Flou de l'image d'arrière-plan pour réduire la distraction."
+            },
+            "Mask": {
+              "Title": "Masque",
+              "Description": "Le masque peut être utilisé pour assombrir ou coloriser l'image d'arrière-plan."
+            }
+          }
+        },
+        "Effect": {
+          "Title": "Configuration d'effet"
+        },
+        "Particle": {
+          "Title": "Configuration des particules"
+        },
+        "Engine": {
+          "Title": "Engine Configuration",
+          "Skin": {
+            "Title": "Skin"
+          },
+          "Background": {
+            "Title": "Arrière plan"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Particule"
+          },
+          "Options": {
+            "Title": "Options"
+          },
+          "UI": {
+            "PrimaryMetric": {
+              "Title": "Métrique principale",
+              "Description": "Statistique principale à afficher."
+            },
+            "SecondaryMetric": {
+              "Title": "Métrique secondaire",
+              "Description": "Métrique secondaire à afficher."
+            },
+            "JudgmentErrorStyle": {
+              "Title": "Style d'erreur de jugement",
+              "Description": "Style d'erreur de jugement. Erreur de jugement positif à gauche, tandis qu'erreur de jugement négatif à droite."
+            },
+            "JudgmentErrorPlacement": {
+              "Title": "Placement d'erreur de jugement",
+              "Description": "Placement de l'erreur de jugement."
+            },
+            "JudgmentErrorMin": {
+              "Title": "Erreur de jugement minimale",
+              "Description": "Erreur de jugement minimale. Seules les erreurs de jugement plus importantes seront affichées."
+            },
+            "MenuStyle": {
+              "Title": "Style de menus",
+              "Description": "Style de menus."
+            },
+            "JudgmentStyle": {
+              "Title": "Style de jugement",
+              "Description": "Style de jugement."
+            },
+            "ComboStyle": {
+              "Title": "Style combiné",
+              "Description": "Style de combo."
+            },
+            "PrimaryMetricStyle": {
+              "Title": "Style de métrique principal",
+              "Description": "Style de la métrique principale."
+            },
+            "SecondaryMetricStyle": {
+              "Title": "Style de métrique secondaire",
+              "Description": "Style de métrique secondaire."
+            }
+          },
+          "Offsets": {
+            "EngineInputOffset": {
+              "Title": "Décalage d'entrée du moteur",
+              "Description": "Recommander d'utiliser 0.\n\nLe décalage d'entrée supplémentaire de ce moteur ne doit être utilisé que lorsque vous avez du mal à jouer avec ce moteur en particulier. Augmentez si vos entrées sont enregistrées trop tard, et diminuez sinon."
+            }
+          }
+        }
+      },
+      "Savers": {
+        "Level": {
+          "Success": {
+            "Title": "Niveau enregistré"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Skin enregistré"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Arrière-plan enregistré"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Effet enregistré"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Particule enregistrée"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Engine enregistré"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "Title": "Réglages",
+      "Graphics": {
+        "Title": "Graphics",
+        "TargetFps": {
+          "Title": "FPS cible",
+          "Description": "Nous vous recommandons d'utiliser le taux de rafraîchissement de l'écran de votre appareil.\n\nSonolus vise à fonctionner à ce FPS, mais il n'est pas garanti si l'appareil est incapable de le faire."
+        },
+        "RenderMode": {
+          "Title": "Mode de rendu",
+          "Description": "Recommander d'utiliser le mode de rendu standard.\n\nLe mode de rendu standard fournit des graphiques précis, tandis que le mode de rendu léger fournit des graphiques légèrement imprécis mais des performances considérablement améliorées.",
+          "Options": {
+            "Standard": "Standard",
+            "Lightweight": "Poids léger"
+          }
+        },
+        "RenderScale": {
+          "Title": "Échelle de rendu",
+          "Description": "Recommander d'utiliser 100 %.\n\nSonolus rend à cette échelle et augmente ou réduit la taille de l'écran. Une échelle de rendu supérieure à 100 % peut améliorer les graphismes au prix de moins bonnes performances, tandis qu'une échelle de rendu inférieure à 100 % améliore les performances au prix de moins bons graphismes."
+        },
+        "AntiAliasing": {
+          "Title": "Anti-Aliasing",
+          "Description": "Recommander d'utiliser off.\n\nL'anticrénelage améliore les graphismes en minimisant les artefacts, en particulier autour des bords des sprites, au prix de moins bonnes performances.",
+          "Options": {
+            "Off": "Off",
+            "TwoX": "2x",
+            "FourX": "4x",
+            "EightX": "8x"
+          }
+        },
+        "GpuParticleSystem": {
+          "Title": "Système de particules GPU",
+          "Description": "Recommander d'éteindre.\n\nSonolus utilise par défaut le système de particules CPU. Lorsqu'il est activé, le système de particules GPU sera utilisé à la place. Pour la plupart des appareils mobiles, le GPU est plus faible que le CPU et ce n'est donc pas recommandé."
+        },
+        "IgnoreNotch": {
+          "Title": "Ignorer l'encoche",
+          "Description": "Par défaut, Sonolus prend en compte les encoches de l'appareil pour s'assurer que les graphiques sont toujours visibles. Lorsqu'il est activé, Sonolus ignore les encoches et s'affiche en plein écran, ce qui peut entraîner l'obscurcissement partiel des graphiques."
+        }
+      },
+      "Audio": {
+        "Title": "Audio",
+        "BgmVolume": {
+          "Title": "Volume de la musique de fond",
+          "Description": "Volume de musique de fond."
+        },
+        "SfxVolume": {
+          "Title": "Volume SFX",
+          "Description": "Volume de SFX."
+        },
+        "UIVolume": {
+          "Title": "Volume de l'interface utilisateur",
+          "Description": "Volume de l'interface utilisateur."
+        },
+        "AlwaysDecodeLevelBgm": {
+          "Title": "Toujours décoder le niveau BGM",
+          "Description": "Recommander d'éteindre.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode le niveau BGM uniquement si le format n'est pas pris en charge de manière native. Lorsqu'il est allumé, Sonolus décode toujours BGM."
+        },
+        "PreviewBgm": {
+          "Title": "Preview BGM",
+          "Description": "Où jouer aperçu BGM.",
+          "Options": {
+            "Off": "Off",
+            "DetailsOnly": "Détails uniquement",
+            "ListAndDetails": "Liste et détails"
+          }
+        },
+        "LevelBgmQuality": {
+          "Title": "Niveau de qualité BGM",
+          "Description": "Recommander d'utiliser haut.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode le niveau BGM uniquement si le format n'est pas pris en charge de manière native. Le niveau BGM sera décodé à cette qualité.",
+          "Options": {
+            "Low": "Low",
+            "Mid": "Mid",
+            "High": "High"
+          }
+        },
+        "PreviewBgmQuality": {
+          "Title": "Preview de la qualité BGM",
+          "Description": "Recommander d'utiliser le milieu.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode l'aperçu BGM uniquement si le format n'est pas pris en charge de manière native. L'aperçu BGM sera décodé avec cette qualité.",
+          "Options": {
+            "Low": "Low",
+            "Mid": "Mid",
+            "High": "High"
+          }
+        }
+      },
+      "UI": {
+        "Title": "UI",
+        "Localization": {
+          "Title": "Langue",
+          "Description": "Langue à utiliser."
+        },
+        "Theme": {
+          "Title": "Thème",
+          "Description": "Thème de couleur à utiliser."
+        },
+        "Scale": {
+          "Title": "Échelle de l'interface utilisateur",
+          "Description": "Échelle de l'interface utilisateur à utiliser. Augmentez si vous avez des difficultés à lire et diminuez pour afficher plus de contenu à la fois."
+        },
+        "UnpauseDelay": {
+          "Title": "Reprendre le délai",
+          "Description": "Délai de compte à rebours lors de la reprise."
+        },
+        "PerfectJudgmentColors": {
+          "Title": "Couleurs du jugement parfait",
+          "Description": "Couleurs de jugement pour Perfect."
+        },
+        "GreatJudgmentColors": {
+          "Title": "Grandes couleurs de jugement",
+          "Description": "Couleurs du jugement pour Great."
+        },
+        "GoodJudgmentColors": {
+          "Title": "Couleurs du bon jugement",
+          "Description": "Couleurs du jugement pour le bien."
+        },
+        "MissJudgmentColors": {
+          "Title": "Miss Jugement Couleurs",
+          "Description": "Couleurs du jugement pour Miss."
+        },
+        "PositiveJudgmentErrorColors": {
+          "Title": "Couleurs d'erreur de jugement positif",
+          "Description": "Couleurs d'erreur de jugement pour les erreurs positives."
+        },
+        "NegativeJudgmentErrorColors": {
+          "Title": "Couleurs d'erreur de jugement négatif",
+          "Description": "Couleurs d'erreur de jugement pour les erreurs négatives."
+        },
+        "AllPerfectComboColors": {
+          "Title": "Toutes les couleurs combinées parfaites",
+          "Description": "Couleurs combinées lorsque le grade est Tout parfait."
+        },
+        "FullComboComboColors": {
+          "Title": "Combo complet Combo Couleurs",
+          "Description": "Couleurs combinées lorsque le grade est Full Combo."
+        },
+        "PassComboColors": {
+          "Title": "Pass Combo Couleurs",
+          "Description": "Couleurs combinées lorsque la note est Réussite."
+        },
+        "FailComboColors": {
+          "Title": "Échec des couleurs combinées",
+          "Description": "Couleurs combinées lorsque la note est Échec."
+        },
+        "BoldComboNumber": {
+          "Title": "Numéro combiné en gras",
+          "Description": "Utilisez une police en gras pour le numéro de combo."
+        },
+        "ShowZeroCombo": {
+          "Title": "Afficher le combo zéro",
+          "Description": "Afficher le combo lorsque le combo est égal à zéro."
+        }
+      },
+      "Offsets": {
+        "Title": "Offsets",
+        "Device": {
+          "Title": "Device",
+          "Description": "Utilisez-le pour enregistrer les décalages pour différents scénarios d'appareils, par exemple lorsque vous jouez avec un haut-parleur, un casque, Bluetooth, etc.",
+          "Option": "Device {0}"
+        },
+        "DeviceAudioOffset": {
+          "Title": "Décalage audio du périphérique",
+          "Description": "Recommander d'utiliser 0.\n\nDécalage audio du scénario de votre appareil. Pour la plupart des appareils utilisant un haut-parleur, 0 est le décalage correct. Le Bluetooth n'est pas recommandé. Augmentez si votre audio arrive trop tard, et diminuez sinon."
+        },
+        "DeviceInputOffset": {
+          "Title": "Décalage d'entrée de périphérique",
+          "Description": "Recommander d'utiliser 0.\n\nDécalage d'entrée de votre scénario d'appareil. Si vous êtes habitué aux jeux qui n'offrent pas cette option, vous pouvez le laisser à 0. Augmentez si vos entrées sont enregistrées trop tard, et diminuez sinon."
+        }
+      },
+      "Repository": {
+        "Title": "Dépôt",
+        "Manage": "Manage"
+      },
+      "Cache": {
+        "Title": "Cache",
+        "AlwaysRevalidate": {
+          "Title": "Toujours revalider",
+          "Description": "Recommander d'éteindre.\n\nPar défaut, Sonolus ne revalide que les ressources en ligne après l'expiration. Lorsqu'elles sont activées, les ressources en ligne sont toujours revalidées avant utilisation."
+        },
+        "Manage": "Manage"
+      },
+      "Developer": {
+        "Title": "Développeur",
+        "ShowFps": {
+          "Title": "Afficher fps",
+          "Description": "Afficher le compteur FPS en bas à gauche de l'écran."
+        },
+        "FpsStyle": {
+          "Title": "Style FPS",
+          "Description": "Style de compteur FPS."
+        },
+        "ShowTouches": {
+          "Title": "Afficher les touches",
+          "Description": "Afficher les indicateurs tactiles. Les indicateurs tactiles sont utiles pour afficher les entrées dans les enregistrements vidéo."
+        },
+        "TouchStyle": {
+          "Title": "Style tactile",
+          "Description": "Style des indicateurs tactiles."
+        },
+        "DebugMode": {
+          "Title": "Mode débogage",
+          "Description": "Le mode débogage permet d'exécuter un code spécifique au débogage et affiche le journal de débogage en bas à droite de l'écran."
+        },
+        "DebugLogStyle": {
+          "Title": "Style du journal de débogage",
+          "Description": "Style du journal de débogage."
+        }
+      }
+    },
+    "ManageRepository": {
+      "Title": "Gérer le référentiel",
+      "Repository": {
+        "Title": "Référentiel",
+        "Description": "Le référentiel stocke toutes les ressources disponibles localement sur cet appareil.",
+        "Size": "Taille : {0}"
+      },
+      "DeleteRepository": {
+        "Title": "Supprimer le référentiel",
+        "Description": "Supprimez toutes les ressources du référentiel qui entraînent le retéléchargement de Sonolus à la demande.",
+        "Delete": "Effacer",
+        "DeleteConfirmation": {
+          "Description": "Êtes-vous sûr de supprimer toutes les ressources du référentiel ?",
+          "Loading": "Suppression du référentiel..."
+        },
+        "Success": {
+          "Title": "Dépôt supprimé"
+        }
+      }
+    },
+    "ManageCache": {
+      "Title": "Manage Cache",
+      "Cache": {
+        "Title": "Cache",
+        "Description": "Le cache permet à Sonolus d'accélérer le chargement des requêtes réseau et de réduire l'utilisation de la bande passante, en mémorisant les URL du réseau et les ressources de référentiel local auxquelles elles sont associées.\nLe cache occupe une très petite quantité de stockage et il est recommandé de ne pas le supprimer.",
+        "Count": "Cache : {0} entrées"
+      },
+      "ExpireCache": {
+        "Title": "Expire Cache",
+        "Description": "Faire expirer tout le cache, ce qui entraîne la revalidation de Sonolus avant d'utiliser les ressources du référentiel local auxquelles les URL du réseau sont associées.",
+        "Expire": "Expirer",
+        "ExpireConfirmation": {
+          "Description": "Êtes-vous sûr de faire expirer tout le cache ?"
+        },
+        "Success": {
+          "Title": "Cache expiré"
+        }
+      },
+      "DeleteCache": {
+        "Title": "Supprimer le cache",
+        "Description": "Supprimez tout le cache, ce qui oblige Sonolus à retélécharger toutes les requêtes réseau. Non recommandé.",
+        "Delete": "Effacer",
+        "DeleteConfirmation": {
+          "Description": "Êtes-vous sûr de supprimer tout le cache ?"
+        },
+        "Success": {
+          "Title": "Cache supprimé"
+        }
+      }
     }
+  },
+  "Scp": {
+    "PermissionError": {
+      "Description": "Sonolus ne parvient pas à obtenir les autorisations requises pour effectuer cette action.\n\nVeuillez ouvrir Paramètres et accorder les autorisations Sonolus.",
+      "Open": "Open"
+    }
+  },
+  "Runtimes": {
+    "Level": {
+      "Play": {
+        "Routes": {
+          "Pause": {
+            "Title": "Pause",
+            "Control": {
+              "Title": "Control",
+              "Exit": "Sortir",
+              "Restart": "Recommencer"
+            },
+            "Snapshot": {
+              "Title": "Snapshot",
+              "Mark": "Mark",
+              "Jump": "Jump"
+            },
+            "Debug": {
+              "Title": "Debug"
+            }
+          },
+          "Result": {
+            "Title": "Résultat",
+            "Options": {
+              "HasUsedPause": "Pause",
+              "HasUsedSnapshot": "Snapshot"
+            },
+            "Graphs": {
+              "Title": "Graphs",
+              "Judgment": {
+                "Title": "Graphique de jugement"
+              },
+              "Accuracy": {
+                "Title": "Graphique de précision",
+                "AbsValue": "Valeur absolue",
+                "Mean": "Mean",
+                "StDev": "St Dev",
+                "Min": "Min",
+                "Max": "Max"
+              },
+              "Bucket": {
+                "Title": "Graphique de compartiment"
+              }
+            }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "Jouer"
+          }
+        }
+      }
+    }
+  }
 }
