@@ -272,7 +272,7 @@
           "Description": "明度。0%から100%まで。"
         },
         "A": {
-          "Title": "不透明度（V）",
+          "Title": "不透明度（A）",
           "Description": "不透明度。0から255まで。"
         }
       }
@@ -1032,20 +1032,20 @@
     "JumpToPage": {
       "Title": "ページを指定して移動",
       "Page": {
-        "Title": "Page",
-        "Description": "Page number.",
-        "Placeholder": "Enter page number..."
+        "Title": "ページ",
+        "Description": "ページ番号。",
+        "Placeholder": "例：1"
       },
       "Jump": "移動する"
     },
     "SelectLocalization": {
       "Title": "言語選択",
-      "Description": "利用する言語を選択してください:",
+      "Description": "利用する言語を選択してください。",
       "Error": "言語を読み込めませんでした。"
     },
     "SelectTheme": {
       "Title": "テーマ選択",
-      "Description": "好きなテーマを選んでください:"
+      "Description": "利用するテーマを選択してください。"
     },
     "SelectClient": {
       "CustomServers": {
@@ -1519,7 +1519,7 @@
               "Description": "このレベルでのみ適用されるオフセット。\nこのレベルだけ音ズレしている時に使います。\n音が遅ければプラス、早ければマイナスに調整して下さい。\n"
             },
             "ServerAudioOffset": {
-              "Title": "Server Audio Offset",
+              "Title": "サーバー音オフセット",
               "Description": "このサーバー全体で適用されるオフセット。 このサーバー全体のレベルが音ズレしている時に使います。 音が遅ければプラス、早ければマイナスに調整して下さい。"
             }
           }
@@ -1616,8 +1616,8 @@
           },
           "Offsets": {
             "EngineInputOffset": {
-              "Title": "Engine Input Offset",
-              "Description": "Recommend to use 0.\n\nAdditional input offset of this engine, should only be used when you have trouble playing this engine in particular. Increase if your inputs are registered as too late, and decrease otherwise."
+              "Title": "エンジン入力オフセット",
+              "Description": "推奨：0\n\nこのエンジンに適用される入力オフセット。\nこのエンジンだけ入力が遅れている時に使います。\n入力が遅れている時はプラス、早い時はマイナスに調整して下さい。"
             }
           }
         }
