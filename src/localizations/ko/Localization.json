@@ -1982,9 +1982,11 @@
           "Pause": {
             "Title": "일시정지",
             "Control": {
+              "Title": "제어",
               "Exit": "나가기"
             },
             "Debug": {
+              "Title": "디버그"
             }
           }
         }
