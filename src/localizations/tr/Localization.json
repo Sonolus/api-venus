@@ -177,6 +177,22 @@
       "#PERCENTAGE": "%{0}",
       "#SECOND": "{0} s",
       "#MILLISECOND": "{0} ms"
+    },
+    "Instruction": {
+      "#TAP": "Dokunun",
+      "#TAP_HOLD": "Dokunun ve Basılı Bırakın",
+      "#TAP_RELEASE": "Dokunun ve Bırakın",
+      "#TAP_FLICK": "Dokunun ve Fiske Atın",
+      "#TAP_SLIDE": "Dokunun ve Kaydırın",
+      "#HOLD": "Basılı Tutun",
+      "#HOLD_SLIDE": "Basılı Tutun ve Kaydırın",
+      "#HOLD_FOLLOW": "Basılı Tutun ve Takip Edin",
+      "#RELEASE": "Bırakın",
+      "#FLICK": "Fiske Atın",
+      "#SLIDE": "Kaydırın",
+      "#SLIDE_FLICK": "Kaydırın ve Fiske Atın",
+      "#AVOID": "Dokunmaktan Kaçının",
+      "#JIGGLE": "Sallandırın"
     }
   },
   "Common": {
@@ -218,6 +234,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "StandardOption": "Bu standart bir seçenektir.",
     "AdvancedOption": "Bu seçenek sadece gelişmiş oyuncular içindir.",
     "Colors": "Renkler",
     "ColorField": {
@@ -612,9 +629,13 @@
           "Loading": "Motor önizleme görseli yükleniyor...",
           "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
-        "Data": {
-          "Loading": "Motor bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        "PlayData": {
+          "Loading": "Motor oyun modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor oynama modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "TutorialData": {
+          "Loading": "Motor öğretici modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor öğretici modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Rom": {
           "Loading": "Motor ROM' u yükleniyor...",
@@ -792,9 +813,13 @@
           "Loading": "Motor önizleme görseli yükleniyor...",
           "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
-        "Data": {
-          "Loading": "Motor bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        "PlayData": {
+          "Loading": "Motor oyun modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor oynama modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        },
+        "TutorialData": {
+          "Loading": "Motor öğretici modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor öğretici modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
         "Rom": {
           "Loading": "Motor ROM' u yükleniyor...",
@@ -972,9 +997,13 @@
           "Loading": "Motor önizleme görseli yükleniyor...",
           "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Data": {
-          "Loading": "Motor bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        "PlayData": {
+          "Loading": "Motor oyun modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor oyun modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "TutorialData": {
+          "Loading": "Motor öğretici modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor öğretici modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Rom": {
           "Loading": "Motor ROM' u yükleniyor...",
@@ -1129,9 +1158,6 @@
     },
     "AddCustomServerInfo": {
       "Title": "Özel Sunucu Ekleyin",
-      "Info": {
-        "Error": "\"{0}\" sunucusunun bilgisini yüklemede başarısız olundu.\n\nLütfen sunucu adresinin doğru girip girmediğinizi kontrol edin, internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
-      },
       "Name": {
         "Title": "İsim",
         "Description": "İsmini istediğiniz gibi koyabilirsiniz.",
@@ -1464,6 +1490,21 @@
           }
         },
         "Engine": {
+          "Actions": {
+            "Tutorial": "Öğretici"
+          },
+          "Tutorial": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Ses efektinin sesi deşifre ediliyor...",
+                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+              }
+            },
+            "Boot": {
+              "Loading": "Öğretici önyükleniyor...",
+              "Error": "\"{0}\" öğreticisini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için öğretici yaratıcısı ile iletişime geçin."
+            }
+          },
           "ShareSuccess": {
             "Title": "Motor Bağlantısı Kopyalandı"
           }
@@ -1563,6 +1604,14 @@
             "SecondaryMetricStyle": {
               "Title": "İkinci Ölçek Biçimi",
               "Description": "İkinci ölçek biçimi ayarı."
+            },
+            "TutorialNavigationStyle": {
+              "Title": "Öğretici Gezinme Stili",
+              "Description": "Öğreticinin gezinme biçimi."
+            },
+            "TutorialInstructionStyle": {
+              "Title": "Öğretici Yönerge Stili",
+              "Description": "Öğreticinin yönerge biçimi."
             }
           },
           "Offsets": {
@@ -1616,7 +1665,7 @@
         },
         "RenderMode": {
           "Title": "Görselleştirme (Render) Modu",
-          "Description": "Standart görselleştirme modunun kullanılması önerilir.\n\nStandart görselleştirme modu isabetli grafikler sağlarken, hafif işleme modu hafiften (lol) hatalı grafikler sağlar ancak büyük ölçüde geliştirilmiş performans sağlar.",
+          "Description": "Standart görselleştirme modunun kullanılması önerilir.\n\nStandart görselleştirme modu isabetli grafikler sağlarken, hafif işleme modu hafiften (lol) hatalı grafikler ile büyük ölçüde geliştirilmiş performans sağlar.",
           "Options": {
             "Standard": "Standart",
             "Lightweight": "Hafif (Lightweight)"
@@ -1624,7 +1673,7 @@
         },
         "RenderScale": {
           "Title": "Görselleştirme (Render) Büyüklüğü",
-          "Description": "%100' de kullanılması önerilir.\n\nSonolus bu ölçekte görselleştirir ve ölçeği ekran boyutuna büyültür veya küçültür. %100' den yüksek görselleştirme ölçeği, daha kötü performans pahasına grafikleri iyileştirebilirken, %100' den düşük görselleştirme ölçeği, daha kötü grafikler pahasına performansı artırır."
+          "Description": "%100' de kullanılması önerilir.\n\nSonolus bu ölçekte görselleştirir ve ölçeği ekran boyutuna büyültür ya da küçültür. %100' den yüksek görselleştirme ölçeği, daha kötü performans pahasına grafikleri iyileştirebilirken, %100' den düşük görselleştirme ölçeği, daha kötü grafikler pahasına performansı artırır."
         },
         "AntiAliasing": {
           "Title": "Kenar Yumuşatma (Anti-Aliasing)",
@@ -1703,7 +1752,7 @@
         },
         "Scale": {
           "Title": "Arayüz (UI) Büyüklüğü",
-          "Description": "Kullanılacak arayüz ölçeği. Okumada güçlük çekiyorsanız artırın, ekranda daha fazla içerik göstermesi için azaltın."
+          "Description": "Kullanılacak arayüz ölçeği. Okumada güçlük çekiyorsanız artırın, ekranda daha fazla içerik göstermek için azaltın."
         },
         "UnpauseDelay": {
           "Title": "Durdurma Gecikmesi",
@@ -1771,7 +1820,7 @@
         },
         "DeviceInputOffset": {
           "Title": "Cihazın Girdi Denge Ayarı",
-          "Description": "0' da kullanılması önerilir.\n\nCihaz senaryonuzun girdi denge ayarı. Eğer böyle bir seçenek sunmayan oyunlara alışkınsanız 0'da bırakabilirsiniz. Girişleriniz çok geç kaydedilirse artırın, aksi takdirde azaltın."
+          "Description": "0' da kullanılması önerilir.\n\nCihaz senaryonuzun girdi denge ayarı. Eğer böyle bir seçenek sunmayan oyunlara alışkınsanız 0' da bırakabilirsiniz. Girişleriniz çok geç kaydedilirse artırın, aksi takdirde azaltın."
         }
       },
       "Repository": {
@@ -1894,7 +1943,7 @@
           "Result": {
             "Title": "Sonuç",
             "Options": {
-              "HasUsedPause": "Durdur",
+              "HasUsedPause": "Durduruldu",
               "HasUsedSnapshot": "Şipşak"
             },
             "Graphs": {
@@ -1923,6 +1972,22 @@
         "Routes": {
           "Preview": {
             "Play": "Oynat"
+          }
+        }
+      }
+    },
+    "Engine": {
+      "Tutorial": {
+        "Routes": {
+          "Pause": {
+            "Title": "Durduruldu",
+            "Control": {
+              "Title": "Kontrol",
+              "Exit": "Çık"
+            },
+            "Debug": {
+              "Title": "Hata Ayıklama"
+            }
           }
         }
       }
