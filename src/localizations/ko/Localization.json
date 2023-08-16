@@ -754,6 +754,7 @@
           "Error": "\"{0}\" SE의 상세 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
         },
         "Compatibility": {
+          "Loading": "SE 호환성을 확인하는 중...",
           "Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해 주세요."
         },
         "Thumbnail": {
@@ -937,6 +938,7 @@
           "Error": "\"{0}\" SE의 상세 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
         },
         "Compatibility": {
+          "Loading": "SE 호환성을 확인하는 중...",
           "Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
         },
         "Thumbnail": {
@@ -1470,7 +1472,8 @@
         "Effect": {
           "Preview": {
             "Audio": {
-              "Loading": "SE 오디오를 디코딩하는 중..."
+              "Loading": "SE 오디오를 디코딩하는 중...",
+              "Error": "\"{0}\" SE 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
             },
             "Boot": {
               "Loading": "SE 부팅 중...",
@@ -1603,6 +1606,8 @@
               "Description": "보조 메트릭의 스타일."
             },
             "TutorialNavigationStyle": {
+              "Title": "튜토리얼 안내 스타일",
+              "Description": "튜토리얼 안내의 스타일."
             },
             "TutorialInstructionStyle": {
               "Title": "튜토리얼 안내 스타일",
