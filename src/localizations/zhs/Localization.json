@@ -177,6 +177,22 @@
       "#PERCENTAGE": "{0}%",
       "#SECOND": "{0} 秒",
       "#MILLISECOND": "{0} 毫秒"
+    },
+    "Instruction": {
+      "#TAP": "轻触",
+      "#TAP_HOLD": "轻触并按住",
+      "#TAP_RELEASE": "轻触并松开",
+      "#TAP_FLICK": "轻触并轻划",
+      "#TAP_SLIDE": "轻触并滑动",
+      "#HOLD": "按住",
+      "#HOLD_SLIDE": "按住并滑动",
+      "#HOLD_FOLLOW": "按住并跟随",
+      "#RELEASE": "松开",
+      "#FLICK": "轻划",
+      "#SLIDE": "滑动",
+      "#SLIDE_FLICK": "滑动并轻划",
+      "#AVOID": "避免",
+      "#JIGGLE": "晃动"
     }
   },
   "Common": {
@@ -218,6 +234,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "StandardOption": "这是一个标准选项。",
     "AdvancedOption": "此选项适用于高级玩家。",
     "Colors": "颜色",
     "ColorField": {
@@ -612,9 +629,13 @@
           "Loading": "正在加载引擎缩图…",
           "Error": "加载引擎“{0}”缩图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         },
-        "Data": {
-          "Loading": "正在加载引擎数据…",
-          "Error": "加载引擎“{0}”数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        "PlayData": {
+          "Loading": "正在加载引擎游戏模式数据...",
+          "Error": "加载“{0}”的引擎播放模式数据失败。\n\n请检查您的互联网连接并重试，或联系服务器所有者报告问题。"
+        },
+        "TutorialData": {
+          "Loading": "正在加载引擎教程模式数据...",
+          "Error": "加载“{0}”的引擎教程模式数据失败。\n\n请检查您的互联网连接并重试，或联系服务器所有者报告问题。"
         },
         "Rom": {
           "Loading": "正在加载引擎ROM…",
@@ -792,9 +813,13 @@
           "Loading": "正在加载引擎缩图…",
           "Error": "加载引擎“{0}”缩图失败。\n\n请更新这个引擎，或使用另一个引擎。"
         },
-        "Data": {
-          "Loading": "正在加载引擎数据…",
-          "Error": "加载引擎“{0}”数据失败。\n\n请更新这个引擎，或使用另一个引擎。"
+        "PlayData": {
+          "Loading": "正在加载引擎播放模式数据...",
+          "Error": "加载“{0}”的引擎播放模式数据失败。\n\n请更新此引擎，或使用其他引擎。"
+        },
+        "TutorialData": {
+          "Loading": "正在加载引擎教程模式数据...",
+          "Error": "加载“{0}”的引擎教程模式数据失败。\n\n请更新此引擎，或使用其他引擎。"
         },
         "Rom": {
           "Loading": "正在加载引擎ROM…",
@@ -972,9 +997,13 @@
           "Loading": "正在加载引擎缩图…",
           "Error": "加载引擎“{0}”缩图失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
-        "Data": {
-          "Loading": "正在加载引擎数据…",
-          "Error": "加载引擎“{0}”数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        "PlayData": {
+          "Loading": "正在加载引擎播放模式数据...",
+          "Error": "加载“{0}”的引擎播放模式数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "TutorialData": {
+          "Loading": "正在加载引擎教程模式数据...",
+          "Error": "加载“{0}”的引擎教程模式数据失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
         "Rom": {
           "Loading": "正在加载引擎ROM…",
@@ -1123,15 +1152,12 @@
       "Title": "添加自定义服务器",
       "Address": {
         "Title": "地址",
-        "Description": "Custom server address is a normal web URL (\"https://...\"), and can usually be found on custom server's webpage.\n自定义服务器的地址是一个普通的Web URL（https:// 开头），且通常可以在自定义服务器的网站上找到。",
+        "Description": "自定义服务器的地址是一个普通的Web URL（https:// 开头），且通常可以在自定义服务器的网站上找到。",
         "Placeholder": "输入自定义服务器地址…"
       }
     },
     "AddCustomServerInfo": {
       "Title": "添加自定义服务器",
-      "Info": {
-        "Error": "加载服务器“{0}”信息失败。\n\n请检查您是否输入了正确的服务器地址，检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
-      },
       "Name": {
         "Title": "名称",
         "Description": "你可以给它取任何你喜欢的名字。",
@@ -1139,14 +1165,14 @@
       }
     },
     "EditCollection": {
-      "Title": "编辑收藏"
+      "Title": "编辑收藏包"
     },
     "AddCollection": {
-      "Title": "添加收藏",
+      "Title": "添加收藏包",
       "Name": {
         "Title": "名称",
         "Description": "你可以随意为其取名。",
-        "Placeholder": "输入收藏名称…"
+        "Placeholder": "输入收藏包名称…"
       }
     },
     "ImportScp": {
@@ -1189,7 +1215,7 @@
         "Description": "从。"
       },
       "To": {
-        "Title": "至",
+        "Title": "到",
         "Description": "到。"
       },
       "Duration": {
@@ -1298,11 +1324,11 @@
         }
       },
       "EditAboutMe": {
-        "Title": "编辑关于我",
+        "Title": "编辑个人资料",
         "AboutMe": {
-          "Title": "关于我",
+          "Title": "个人资料",
           "Description": "关于你自己的一段简短介绍。",
-          "Placeholder": "输入关于我…"
+          "Placeholder": "输入自我介绍…"
         }
       },
       "AddSocialLink": {
@@ -1464,6 +1490,21 @@
           }
         },
         "Engine": {
+          "Actions": {
+            "Tutorial": "教程"
+          },
+          "Tutorial": {
+            "Effect": {
+              "Audio": {
+                "Loading": "正在解码音效音频…",
+                "Error": "解码音效“{0}”音频失败。\n\n请联系音效作者并汇报这个问题。"
+              }
+            },
+            "Boot": {
+              "Loading": "正在启动教程...",
+              "Error": "启动教程“{0}”失败。\n\n请联系引擎作者报告问题。"
+            }
+          },
           "ShareSuccess": {
             "Title": "引擎链接已复制"
           }
@@ -1563,6 +1604,14 @@
             "SecondaryMetricStyle": {
               "Title": "次要指标样式",
               "Description": "次要指标样式。"
+            },
+            "TutorialNavigationStyle": {
+              "Title": "教程导航栏样式",
+              "Description": "教程导航栏的样式。"
+            },
+            "TutorialInstructionStyle": {
+              "Title": "教程说明样式",
+              "Description": "教程说明的样式。"
             }
           },
           "Offsets": {
@@ -1923,6 +1972,22 @@
         "Routes": {
           "Preview": {
             "Play": "播放"
+          }
+        }
+      }
+    },
+    "Engine": {
+      "Tutorial": {
+        "Routes": {
+          "Pause": {
+            "Title": "暂停",
+            "Control": {
+              "Title": "控制",
+              "Exit": "退出"
+            },
+            "Debug": {
+              "Title": "调试"
+            }
           }
         }
       }
