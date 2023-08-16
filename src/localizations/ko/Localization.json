@@ -1036,7 +1036,7 @@
         "Description": "페이지 숫자.",
         "Placeholder": "페이지 숫자 입력..."
       },
-      "Jump": "점프"
+      "Jump": "이동"
     },
     "SelectLocalization": {
       "Title": "언어 선택",
@@ -1933,8 +1933,8 @@
             },
             "Snapshot": {
               "Title": "스냅샷",
-              "Mark": "마크",
-              "Jump": "점프"
+              "Mark": "표시",
+              "Jump": "이동"
             },
             "Debug": {
               "Title": "디버그"
