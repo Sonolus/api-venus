@@ -28,6 +28,8 @@
       "#HIDDEN": "히든",
       "#JUDGMENT_STRICT": "엄격한 판정",
       "#JUDGMENT_LOOSE": "느슨한 판정",
+      "#EFFECT": "SE",
+      "#EFFECT_AUTO": "자동 SE",
       "#STAGE": "스테이지",
       "#STAGE_POSITION": "스테이지 위치",
       "#STAGE_SIZE": "스테이지 크기",
@@ -177,6 +179,20 @@
       "#MILLISECOND": "{0}ms"
     },
     "Instruction": {
+      "#TAP": "탭하기",
+      "#TAP_HOLD": "길게 탭하기",
+      "#TAP_RELEASE": "탭했다 놓기",
+      "#TAP_FLICK": "탭하고 플릭",
+      "#TAP_SLIDE": "탭하고 슬라이드",
+      "#HOLD": "길게 탭하기",
+      "#HOLD_SLIDE": "길게 탭했다 슬라이드",
+      "#HOLD_FOLLOW": "길게 탭하며 따라가기",
+      "#RELEASE": "놓기",
+      "#FLICK": "플릭",
+      "#SLIDE": "슬라이드",
+      "#SLIDE_FLICK": "슬라이드하고 플릭",
+      "#AVOID": "피하기",
+      "#JIGGLE": "지글"
     }
   },
   "Common": {
@@ -218,6 +234,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "StandardOption": "표준 옵션입니다.",
     "AdvancedOption": "전문적인 플레이어를 위한 옵션입니다.",
     "Colors": "색",
     "ColorField": {
@@ -264,6 +281,7 @@
       "Calibrate": "판정 조절"
     },
     "PullToLoad": {
+      "None": "더 이상 불러올 항목이 없어요",
       "More": "당겨서 더 보기"
     },
     "UI": {
@@ -544,10 +562,16 @@
       },
       "Effect": {
         "List": {
+          "Loading": "SE를 불러오는 중...",
+          "Error": "페이지 {0}의 SE를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
         },
         "Details": {
+          "Loading": "SE 상세 정보를 불러오는 중...",
+          "Error": "\"{0}\" SE의 상세 정보를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
         },
         "Compatibility": {
+          "Loading": "SE 호환성을 확인하는 중...",
+          "Error": "\"{0}\" SE가 현재 Sonolus 버전과 호환되지 않아요.\n\n다른 SE를 사용하거나, 서버 주인에게 문의해주세요."
         },
         "Thumbnail": {
           "Loading": "SE 미리보기를 불러오는 중...",
@@ -606,8 +630,11 @@
           "Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도하거나, 서버 주인에게 문의해주세요."
         },
         "PlayData": {
+          "Loading": "엔진 플레이 모드 데이터를 불러오는 중...",
+          "Error": "\"{0}\" 엔진 플레이 모드 데이터를 불러오지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해보거나, 서버 주인에게 문의해주세요."
         },
         "TutorialData": {
+          "Loading": "엔진 튜토리얼 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 튜토리얼 모드 데이터를 불러올 수 없습니다.\n\n인터넷 연결 상태를 확인하고 다시 시도하거나, 서버 주인에게 문의하여 문제를 보고하세요."
         },
         "Rom": {
@@ -719,17 +746,24 @@
       },
       "Effect": {
         "List": {
+          "Loading": "SE를 불러오는 중...",
           "Error": "페이지 {0}의 SE 목록을 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
         },
         "Details": {
+          "Loading": "SE 상세 정보를 불러오는 중...",
+          "Error": "\"{0}\" SE의 상세 정보를 불러오지 못했어요.\n\n컬렉션이 손상되었을 수 있어요."
         },
         "Compatibility": {
+          "Loading": "SE 호환성을 확인하는 중...",
+          "Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해 주세요."
         },
         "Thumbnail": {
-          "Loading": "SE 미리보기를 불러오는 중..."
+          "Loading": "SE 미리보기를 불러오는 중...",
+          "Error": "\"{0}\" SE의 미리보기를 불러오지 못했어요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해 주세요."
         },
         "Data": {
-          "Loading": "SE 데이터를 불러오는 중..."
+          "Loading": "SE 데이터를 불러오는 중...",
+          "Error": "\"{0}\" SE의 데이터를 불러오지 못했어요.\n\n이 SE를 업데이트 하거나, 다른 SE를 사용해 주세요."
         },
         "Audio": {
           "Loading": "SE 오디오를 불러오는 중...",
@@ -780,8 +814,12 @@
           "Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n이 엔진을 업데이트 하거나, 다른 엔진을 사용해주세요."
         },
         "PlayData": {
+          "Loading": "엔진 플레이 모드 데이터를 불러오는 중...",
+          "Error": "\"{0}\" 엔진 플레이 모드 데이터를 불러오지 못했어요.\n\n이 엔진을 업데이트하거나, 다른 엔진을 사용해주세요."
         },
         "TutorialData": {
+          "Loading": "엔진 튜토리얼 모드 데이터를 불러오는 중...",
+          "Error": "\"{0}\" 엔진 튜토리얼 모드 데이터를 불러오지 못했어요.\n\n이 엔진을 업데이트하거나, 다른 엔진을 사용해주세요."
         },
         "Rom": {
           "Loading": "엔진 롬을 불러오는 중...",
@@ -892,10 +930,15 @@
       },
       "Effect": {
         "List": {
+          "Loading": "SE를 불러오는 중...",
+          "Error": "페이지 {0}의 SE를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
         },
         "Details": {
+          "Loading": "SE 상세 정보를 불러오는 중...",
+          "Error": "\"{0}\" SE의 상세 정보를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
         },
         "Compatibility": {
+          "Loading": "SE 호환성을 확인하는 중...",
           "Error": "\"{0}\" SE는 현재 Sonolus 버전과 호환되지 않아요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
         },
         "Thumbnail": {
@@ -955,8 +998,12 @@
           "Error": "\"{0}\" 엔진의 미리보기를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
         },
         "PlayData": {
+          "Loading": "엔진 플레이 모드 데이터를 불러오는 중...",
+          "Error": "\"{0}\" 엔진 플레이 모드 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
         },
         "TutorialData": {
+          "Loading": "엔진 튜토리얼 모드 데이터를 불러오는 중...",
+          "Error": "\"{0}\" 엔진 튜토리얼 모드 데이터를 불러오지 못했어요.\n\n패키지가 지원되지 않거나 손상되었을 수 있어요."
         },
         "Rom": {
           "Loading": "엔진 롬을 불러오는 중...",
@@ -1313,6 +1360,7 @@
         "Levels": "레벨",
         "Skins": "스킨",
         "Backgrounds": "배경",
+        "Effects": "SE",
         "Particles": "탭 이펙트",
         "Engines": "엔진",
         "SaveSuccess": {
@@ -1350,6 +1398,7 @@
         "Effect": {
           "Title": "SE",
           "ShareSuccess": {
+            "Title": "SE 링크 복사됨"
           }
         },
         "Particle": {
@@ -1423,7 +1472,8 @@
         "Effect": {
           "Preview": {
             "Audio": {
-              "Loading": "SE 오디오를 디코딩하는 중..."
+              "Loading": "SE 오디오를 디코딩하는 중...",
+              "Error": "\"{0}\" SE 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
             },
             "Boot": {
               "Loading": "SE 부팅 중...",
@@ -1441,13 +1491,18 @@
         },
         "Engine": {
           "Actions": {
+            "Tutorial": "튜토리얼"
           },
           "Tutorial": {
             "Effect": {
               "Audio": {
+                "Loading": "SE 오디오를 디코딩 하는 중...",
+                "Error": "\"{0}\" SE의 오디오를 디코딩하지 못했어요.\n\nSE 제작자에게 문의해주세요."
               }
             },
             "Boot": {
+              "Loading": "튜토리얼 부팅 중...",
+              "Error": "\"{0}\" 튜토리얼을 부팅하지 못했어요.\n\n엔진 제작자에게 문의해주세요."
             }
           },
           "ShareSuccess": {
@@ -1551,8 +1606,12 @@
               "Description": "보조 메트릭의 스타일."
             },
             "TutorialNavigationStyle": {
+              "Title": "튜토리얼 안내 스타일",
+              "Description": "튜토리얼 안내의 스타일."
             },
             "TutorialInstructionStyle": {
+              "Title": "튜토리얼 안내 스타일",
+              "Description": "튜토리얼 안내의 스타일."
             }
           },
           "Offsets": {
@@ -1736,7 +1795,8 @@
           "Description": "Pass 등급일 때의 콤보 색입니다."
         },
         "FailComboColors": {
-          "Title": "Fail 콤보 색"
+          "Title": "Fail 콤보 색",
+          "Description": "Fail 등급일 때의 콤보 색상입니다."
         },
         "BoldComboNumber": {
           "Title": "굵은 콤보 숫자",
@@ -1920,9 +1980,13 @@
       "Tutorial": {
         "Routes": {
           "Pause": {
+            "Title": "일시정지",
             "Control": {
+              "Title": "제어",
+              "Exit": "나가기"
             },
             "Debug": {
+              "Title": "디버그"
             }
           }
         }
