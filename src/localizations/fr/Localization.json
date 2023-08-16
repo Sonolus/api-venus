@@ -177,6 +177,22 @@
       "#PERCENTAGE": "{0}%",
       "#SECOND": "{0} s",
       "#MILLISECOND": "{0} ms"
+    },
+    "Instruction": {
+      "#TAP": "Robinet",
+      "#TAP_HOLD": "Appuyez et maintenez",
+      "#TAP_RELEASE": "Appuyez et relâchez",
+      "#TAP_FLICK": "Appuyez et feuilletez",
+      "#TAP_SLIDE": "Appuyez et glissez",
+      "#HOLD": "Prise",
+      "#HOLD_SLIDE": "Tenir et glisser",
+      "#HOLD_FOLLOW": "Tenir et suivre",
+      "#RELEASE": "Libérer",
+      "#FLICK": "Feuilleter",
+      "#SLIDE": "Glisser",
+      "#SLIDE_FLICK": "Glisser et feuilleter",
+      "#AVOID": "Éviter",
+      "#JIGGLE": "Se trémousser"
     }
   },
   "Common": {
@@ -218,6 +234,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "StandardOption": "Il s'agit d'une option standard.",
     "AdvancedOption": "Cette option est réservée aux joueurs avancés.",
     "Colors": "Couleurs",
     "ColorField": {
@@ -612,9 +629,13 @@
           "Loading": "Chargement de la vignette d'engine...",
           "Error": "Échec du chargement de la vignette d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
         },
-        "Data": {
-          "Loading": "Chargement des données d'engine...",
-          "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        "PlayData": {
+          "Loading": "Chargement des données du mode de lecture du moteur...",
+          "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        },
+        "TutorialData": {
+          "Loading": "Chargement des données du mode didacticiel du moteur...",
+          "Error": "Échec du chargement des données du mode didacticiel du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
         },
         "Rom": {
           "Loading": "Chargement de la ROM d'engine...",
@@ -792,9 +813,13 @@
           "Loading": "Chargement de la vignette d'engine...",
           "Error": "Échec du chargement de la vignette du engine de \"{0}\".\n\nVeuillez mettre à jour ce engine ou utiliser un autre engine."
         },
-        "Data": {
-          "Loading": "Chargement des données de l'engine...",
-          "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVeuillez mettre à jour cet engine ou utiliser un autre engine."
+        "PlayData": {
+          "Loading": "Chargement des données du mode de lecture du moteur...",
+          "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
+        },
+        "TutorialData": {
+          "Loading": "Chargement des données du mode didacticiel du moteur...",
+          "Error": "Échec du chargement des données du mode didacticiel du moteur de \"{0}\".\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
         },
         "Rom": {
           "Loading": "Chargement de la ROM d'engine...",
@@ -972,9 +997,13 @@
           "Loading": "Chargement de la vignette d'engine...",
           "Error": "Échec du chargement de la vignette d'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
         },
-        "Data": {
-          "Loading": "Chargement des données d'engine...",
-          "Error": "Échec du chargement des données de l'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        "PlayData": {
+          "Loading": "Chargement des données du mode de lecture du moteur...",
+          "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "TutorialData": {
+          "Loading": "Chargement des données du mode didacticiel du moteur...",
+          "Error": "Échec du chargement des données du mode didacticiel du moteur de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
         },
         "Rom": {
           "Loading": "Chargement de la ROM d'engine...",
@@ -1129,9 +1158,6 @@
     },
     "AddCustomServerInfo": {
       "Title": "Ajouter un serveur personnalisé",
-      "Info": {
-        "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier si vous avez saisi la bonne adresse de serveur, vérifiez votre connexion Internet et réessayez, ou contactez le propriétaire du serveur pour signaler le problème."
-      },
       "Name": {
         "Title": "Nom",
         "Description": "Vous pouvez le nommer comme vous voulez.",
@@ -1464,6 +1490,21 @@
           }
         },
         "Engine": {
+          "Actions": {
+            "Tutorial": "Didacticiel"
+          },
+          "Tutorial": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Décodage audio SFX...",
+                "Error": "Impossible de décoder l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur SFX pour signaler le problème."
+              }
+            },
+            "Boot": {
+              "Loading": "Tutoriel de démarrage...",
+              "Error": "Échec du démarrage du didacticiel \"{0}\".\n\nVeuillez contacter l'auteur du moteur pour signaler le problème."
+            }
+          },
           "ShareSuccess": {
             "Title": "Lien engine copié"
           }
@@ -1563,6 +1604,14 @@
             "SecondaryMetricStyle": {
               "Title": "Style de métrique secondaire",
               "Description": "Style de métrique secondaire."
+            },
+            "TutorialNavigationStyle": {
+              "Title": "Style de navigation du didacticiel",
+              "Description": "Style de navigation du didacticiel."
+            },
+            "TutorialInstructionStyle": {
+              "Title": "Style d'instruction du didacticiel",
+              "Description": "Style d'instruction didactique."
             }
           },
           "Offsets": {
@@ -1923,6 +1972,22 @@
         "Routes": {
           "Preview": {
             "Play": "Jouer"
+          }
+        }
+      }
+    },
+    "Engine": {
+      "Tutorial": {
+        "Routes": {
+          "Pause": {
+            "Title": "Pause",
+            "Control": {
+              "Title": "Contrôle",
+              "Exit": "Sortie"
+            },
+            "Debug": {
+              "Title": "Déboguer"
+            }
           }
         }
       }
