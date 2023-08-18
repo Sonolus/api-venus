@@ -177,6 +177,22 @@
       "#PERCENTAGE": "{0} %",
       "#SECOND": "{0} 秒",
       "#MILLISECOND": "{0} ms"
+    },
+    "Instruction": {
+      "#TAP": "タップ",
+      "#TAP_HOLD": "タップ→長押し",
+      "#TAP_RELEASE": "タップ→離す",
+      "#TAP_FLICK": "タップ+フリック",
+      "#TAP_SLIDE": "タップ→スライド",
+      "#HOLD": "長押し",
+      "#HOLD_SLIDE": "長押し+スライド",
+      "#HOLD_FOLLOW": "長押し→移動",
+      "#RELEASE": "離す",
+      "#FLICK": "フリック",
+      "#SLIDE": "スライド",
+      "#SLIDE_FLICK": "スライド→フリック",
+      "#AVOID": "ダメージ",
+      "#JIGGLE": "擦る"
     }
   },
   "Common": {
@@ -204,7 +220,7 @@
     "PullToRefresh": "離すと更新",
     "Save": "保存",
     "Share": "共有",
-    "Export": "Export",
+    "Export": "エクスポート",
     "Update": "更新",
     "Delete": "消去",
     "Preview": "プレビュー",
@@ -218,6 +234,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "StandardOption": "このオプションはリザルト画面に表示されます。",
     "AdvancedOption": "このオプションは上級者向けです。",
     "Colors": "色",
     "ColorField": {
@@ -255,7 +272,7 @@
           "Description": "明度。0%から100%まで。"
         },
         "A": {
-          "Title": "不透明度（V）",
+          "Title": "不透明度（A）",
           "Description": "不透明度。0から255まで。"
         }
       }
@@ -612,9 +629,13 @@
           "Loading": "エンジンサムネイルを読み込み中...",
           "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         },
-        "Data": {
+        "PlayData": {
           "Loading": "エンジンデータを読み込み中...",
           "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "TutorialData": {
+          "Loading": "エンジンのチュートリアルデータを読み込み中...",
+          "Error": "\"{0}\"のチュートリアルデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         },
         "Rom": {
           "Loading": "エンジンROMを読み込み中...",
@@ -792,9 +813,13 @@
           "Loading": "エンジンサムネイルを読み込み中...",
           "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
         },
-        "Data": {
+        "PlayData": {
           "Loading": "エンジンデータを読み込み中...",
           "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
+        },
+        "TutorialData": {
+          "Loading": "エンジンのチュートリアルデータを読み込み中...",
+          "Error": "\"{0}\"のチュートリアルデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
         },
         "Rom": {
           "Loading": "エンジンROMを読み込み中...",
@@ -972,9 +997,13 @@
           "Loading": "エンジンサムネイルを読み込み中...",
           "Error": "\"{0}\"のエンジンサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
-        "Data": {
+        "PlayData": {
           "Loading": "エンジンデータを読み込み中...",
           "Error": "\"{0}\"のエンジンデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "TutorialData": {
+          "Loading": "エンジンのチュートリアルデータを読み込み中...",
+          "Error": "\"{0}\"のチュートリアルデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
         "Rom": {
           "Loading": "エンジンROMを読み込み中...",
@@ -1003,20 +1032,20 @@
     "JumpToPage": {
       "Title": "ページを指定して移動",
       "Page": {
-        "Title": "Page",
-        "Description": "Page number.",
-        "Placeholder": "Enter page number..."
+        "Title": "ページ",
+        "Description": "ページ番号。",
+        "Placeholder": "例：1"
       },
       "Jump": "移動する"
     },
     "SelectLocalization": {
       "Title": "言語選択",
-      "Description": "利用する言語を選択してください:",
+      "Description": "利用する言語を選択してください。",
       "Error": "言語を読み込めませんでした。"
     },
     "SelectTheme": {
       "Title": "テーマ選択",
-      "Description": "好きなテーマを選んでください:"
+      "Description": "利用するテーマを選択してください。"
     },
     "SelectClient": {
       "CustomServers": {
@@ -1129,9 +1158,6 @@
     },
     "AddCustomServerInfo": {
       "Title": "カスタムサーバーの追加",
-      "Info": {
-        "Error": "\"{0}\" のサーバー情報の読み込みに失敗しました。\n\n入力したサーバーアドレスが正しいか、インターネット接続に問題ないかを確認し、改善しない場合サーバーの所有者に問題を報告してください。"
-      },
       "Name": {
         "Title": "名前",
         "Description": "名前は自由につけることが出来ます。",
@@ -1464,6 +1490,21 @@
           }
         },
         "Engine": {
+          "Actions": {
+            "Tutorial": "チュートリアル"
+          },
+          "Tutorial": {
+            "Effect": {
+              "Audio": {
+                "Loading": "効果音をデコード中...",
+                "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡ください。"
+              }
+            },
+            "Boot": {
+              "Loading": "チュートリアルを準備中...",
+              "Error": "\"{0}\"の開始に失敗しました。\n\n背景の作者にご連絡ください。"
+            }
+          },
           "ShareSuccess": {
             "Title": "エンジンのリンクをコピーしました"
           }
@@ -1478,7 +1519,7 @@
               "Description": "このレベルでのみ適用されるオフセット。\nこのレベルだけ音ズレしている時に使います。\n音が遅ければプラス、早ければマイナスに調整して下さい。\n"
             },
             "ServerAudioOffset": {
-              "Title": "Server Audio Offset",
+              "Title": "サーバー音オフセット",
               "Description": "このサーバー全体で適用されるオフセット。 このサーバー全体のレベルが音ズレしている時に使います。 音が遅ければプラス、早ければマイナスに調整して下さい。"
             }
           }
@@ -1563,12 +1604,20 @@
             "SecondaryMetricStyle": {
               "Title": "サブステータスのスタイル",
               "Description": "サブステータスのスタイル。"
+            },
+            "TutorialNavigationStyle": {
+              "Title": "チュートリアルの左右選択の見た目",
+              "Description": "チュートリアルの左右選択ボタンの見た目。"
+            },
+            "TutorialInstructionStyle": {
+              "Title": "チュートリアルのガイドの見た目",
+              "Description": "チュートリアルのガイドの見た目。"
             }
           },
           "Offsets": {
             "EngineInputOffset": {
-              "Title": "Engine Input Offset",
-              "Description": "Recommend to use 0.\n\nAdditional input offset of this engine, should only be used when you have trouble playing this engine in particular. Increase if your inputs are registered as too late, and decrease otherwise."
+              "Title": "エンジン入力オフセット",
+              "Description": "推奨：0\n\nこのエンジンに適用される入力オフセット。\nこのエンジンだけ入力が遅れている時に使います。\n入力が遅れている時はプラス、早い時はマイナスに調整して下さい。"
             }
           }
         }
@@ -1923,6 +1972,22 @@
         "Routes": {
           "Preview": {
             "Play": "再生"
+          }
+        }
+      }
+    },
+    "Engine": {
+      "Tutorial": {
+        "Routes": {
+          "Pause": {
+            "Title": "ポーズ",
+            "Control": {
+              "Title": "操作",
+              "Exit": "終了"
+            },
+            "Debug": {
+              "Title": "デバッグ"
+            }
           }
         }
       }
