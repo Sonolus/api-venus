@@ -180,19 +180,19 @@
     },
     "Instruction": {
       "#TAP": "Robinet",
-      "#TAP_HOLD": "Appuyez et maintenez",
-      "#TAP_RELEASE": "Appuyez et relâchez",
-      "#TAP_FLICK": "Appuyez et feuilletez",
-      "#TAP_SLIDE": "Appuyez et glissez",
-      "#HOLD": "Prise",
+      "#TAP_HOLD": "Clique et Tenir",
+      "#TAP_RELEASE": "Clique et Relachement",
+      "#TAP_FLICK": "Clique et Flick",
+      "#TAP_SLIDE": "Clique et Slide",
+      "#HOLD": "Tenir",
       "#HOLD_SLIDE": "Tenir et glisser",
       "#HOLD_FOLLOW": "Tenir et suivre",
-      "#RELEASE": "Libérer",
-      "#FLICK": "Feuilleter",
-      "#SLIDE": "Glisser",
-      "#SLIDE_FLICK": "Glisser et feuilleter",
-      "#AVOID": "Éviter",
-      "#JIGGLE": "Se trémousser"
+      "#RELEASE": "Relachement",
+      "#FLICK": "Flick",
+      "#SLIDE": "Slide",
+      "#SLIDE_FLICK": "Slide et Flick",
+      "#AVOID": "Évitement",
+      "#JIGGLE": "Secouement"
     }
   },
   "Common": {
