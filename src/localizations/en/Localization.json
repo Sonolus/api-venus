@@ -633,6 +633,10 @@
                     "Loading": "Loading engine play mode data...",
                     "Error": "Failed to load engine play mode data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "PreviewData": {
+                    "Loading": "Loading engine preview mode data...",
+                    "Error": "Failed to load engine preview mode data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "TutorialData": {
                     "Loading": "Loading engine tutorial mode data...",
                     "Error": "Failed to load engine tutorial mode data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -817,6 +821,10 @@
                     "Loading": "Loading engine play mode data...",
                     "Error": "Failed to load engine play mode data of \"{0}\".\n\nPlease update this engine, or use a different engine."
                 },
+                "PreviewData": {
+                    "Loading": "Loading engine preview mode data...",
+                    "Error": "Failed to load engine preview mode data of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                },
                 "TutorialData": {
                     "Loading": "Loading engine tutorial mode data...",
                     "Error": "Failed to load engine tutorial mode data of \"{0}\".\n\nPlease update this engine, or use a different engine."
@@ -1000,6 +1008,10 @@
                 "PlayData": {
                     "Loading": "Loading engine play mode data...",
                     "Error": "Failed to load engine play mode data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "PreviewData": {
+                    "Loading": "Loading engine preview mode data...",
+                    "Error": "Failed to load engine preview mode data of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "TutorialData": {
                     "Loading": "Loading engine tutorial mode data...",
@@ -1429,7 +1441,8 @@
                 },
                 "Level": {
                     "Actions": {
-                        "Play": "Play"
+                        "Play": "Play",
+                        "Preview": "Preview"
                     },
                     "Play": {
                         "Effect": {
@@ -1444,6 +1457,12 @@
                                 "Error": "Failed to decode level BGM of \"{0}\".\n\nPlease contact level author to report the problem."
                             }
                         },
+                        "Boot": {
+                            "Loading": "Booting level...",
+                            "Error": "Failed to boot level \"{0}\".\n\nPlease contact level author to report the problem."
+                        }
+                    },
+                    "Preview": {
                         "Boot": {
                             "Loading": "Booting level...",
                             "Error": "Failed to boot level \"{0}\".\n\nPlease contact level author to report the problem."
@@ -1962,6 +1981,20 @@
                             "Bucket": {
                                 "Title": "Bucket Graph"
                             }
+                        }
+                    }
+                }
+            },
+            "Preview": {
+                "Routes": {
+                    "Pause": {
+                        "Title": "Pause",
+                        "Control": {
+                            "Title": "Control",
+                            "Exit": "Exit"
+                        },
+                        "Debug": {
+                            "Title": "Debug"
                         }
                     }
                 }
