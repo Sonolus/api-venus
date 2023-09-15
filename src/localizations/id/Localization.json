@@ -633,6 +633,10 @@
           "Loading": "Memuat mesin data mode play...",
           "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
         },
+        "PreviewData": {
+          "Loading": "Memuat pratinjau data mode mesin...",
+          "Error": "Gagal memuat pratinjau data mode mesin\"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+        },
         "TutorialData": {
           "Loading": "Memuat mesin data mode tutorial...",
           "Error": "Gagal memuat mesin data mode tutorial \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
@@ -817,6 +821,10 @@
           "Loading": "Memuat mesin data mode play...",
           "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nSilakan perbarui mesin ini, atau gunakan mesin yang berbeda."
         },
+        "PreviewData": {
+          "Loading": "Memuat pratinjau data mode mesin...",
+          "Error": "Gagal memuat pratinjau data mode mesin \"{0}\".\n\nSilakan perbarui mesin ini, atau gunakan mesin yang berbeda."
+        },
         "TutorialData": {
           "Loading": "Memuat mesin data mode tutorial...",
           "Error": "Gagal memuat mesin data mode tutorial \"{0}\".\n\nSilakan perbarui mesin ini, atau gunakan mesin yang berbeda."
@@ -1000,6 +1008,10 @@
         "PlayData": {
           "Loading": "Memuat mesin data mode play...",
           "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "PreviewData": {
+          "Loading": "Memuat pratinjau data mode mesin...",
+          "Error": "Memuat pratinjau data mode mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
         "TutorialData": {
           "Loading": "Memuat mesin data mode tutorial...",
@@ -1429,7 +1441,8 @@
         },
         "Level": {
           "Actions": {
-            "Play": "Main"
+            "Play": "Main",
+            "Preview": "Pratinjau"
           },
           "Play": {
             "Effect": {
@@ -1444,6 +1457,12 @@
                 "Error": "Gagal mengdecode BGM level \"{0}\".\n\nSilakan hubungi pembuat level untuk melaporkan masalahnya."
               }
             },
+            "Boot": {
+              "Loading": "Booting level...",
+              "Error": "Gagal boot level \"{0}\".\n\nSilakan hubungi pembuat level untuk melaporkan masalahnya."
+            }
+          },
+          "Preview": {
             "Boot": {
               "Loading": "Booting level...",
               "Error": "Gagal boot level \"{0}\".\n\nSilakan hubungi pembuat level untuk melaporkan masalahnya."
@@ -1962,6 +1981,20 @@
               "Bucket": {
                 "Title": "Grafik Klasifikasi"
               }
+            }
+          }
+        }
+      },
+      "Preview": {
+        "Routes": {
+          "Pause": {
+            "Title": "Jeda",
+            "Control": {
+              "Title": "Kontrol",
+              "Exit": "Keluar"
+            },
+            "Debug": {
+              "Title": "Debug"
             }
           }
         }
