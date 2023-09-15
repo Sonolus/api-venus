@@ -179,16 +179,16 @@
       "#MILLISECOND": "{0} ms"
     },
     "Instruction": {
-      "#TAP": "Robinet",
-      "#TAP_HOLD": "Clique et Tenir",
-      "#TAP_RELEASE": "Clique et Relachement",
-      "#TAP_FLICK": "Clique et Flick",
-      "#TAP_SLIDE": "Clique et Slide",
-      "#HOLD": "Tenir",
-      "#HOLD_SLIDE": "Tenir et glisser",
-      "#HOLD_FOLLOW": "Tenir et suivre",
-      "#RELEASE": "Relachement",
-      "#FLICK": "Flick",
+      "#TAP": "Clique",
+      "#TAP_HOLD": "Clique et tu maintiens",
+      "#TAP_RELEASE": "Clique et tu laches",
+      "#TAP_FLICK": "Clique et tu glisses",
+      "#TAP_SLIDE": "Clique et tu suis",
+      "#HOLD": "Tu tiens",
+      "#HOLD_SLIDE": "Tu maintiens et tu glisses",
+      "#HOLD_FOLLOW": "Tu maintiens et tu suis",
+      "#RELEASE": "Tu laches\n",
+      "#FLICK": "Glisse",
       "#SLIDE": "Slide",
       "#SLIDE_FLICK": "Slide et Flick",
       "#AVOID": "Évitement",
@@ -633,6 +633,10 @@
           "Loading": "Chargement des données du mode de lecture du moteur...",
           "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
         },
+        "PreviewData": {
+          "Loading": "Chargement des données du mode preview du moteur...",
+          "Error": "Échec du chargement des données du mode preview du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contacter le propriétaire du serveur pour signaler le problème."
+        },
         "TutorialData": {
           "Loading": "Chargement des données du mode didacticiel du moteur...",
           "Error": "Échec du chargement des données du mode didacticiel du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
@@ -817,6 +821,10 @@
           "Loading": "Chargement des données du mode de lecture du moteur...",
           "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
         },
+        "PreviewData": {
+          "Loading": "Chargement des données du mode preview du moteur...",
+          "Error": "Échec du chargement des données du mode preview du moteur de \"{0}\".\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
+        },
         "TutorialData": {
           "Loading": "Chargement des données du mode didacticiel du moteur...",
           "Error": "Échec du chargement des données du mode didacticiel du moteur de \"{0}\".\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
@@ -1000,6 +1008,10 @@
         "PlayData": {
           "Loading": "Chargement des données du mode de lecture du moteur...",
           "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "PreviewData": {
+          "Loading": "Chargement des données du mode preview du moteur...",
+          "Error": "Échec du chargement des données du mode preview du moteur de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou corrompu."
         },
         "TutorialData": {
           "Loading": "Chargement des données du mode didacticiel du moteur...",
@@ -1429,7 +1441,8 @@
         },
         "Level": {
           "Actions": {
-            "Play": "Play"
+            "Play": "Play",
+            "Preview": "Preview"
           },
           "Play": {
             "Effect": {
@@ -1447,6 +1460,12 @@
             "Boot": {
               "Loading": "Démarrage du niveau...",
               "Error": "Échec du niveau de démarrage \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
+            }
+          },
+          "Preview": {
+            "Boot": {
+              "Loading": "Démarrage du niveau...",
+              "Error": "Échec du démarrage du niveau \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
             }
           },
           "ShareSuccess": {
@@ -1962,6 +1981,20 @@
               "Bucket": {
                 "Title": "Graphique de compartiment"
               }
+            }
+          }
+        }
+      },
+      "Preview": {
+        "Routes": {
+          "Pause": {
+            "Title": "Pause",
+            "Control": {
+              "Title": "Contrôle",
+              "Exit": "Quitter"
+            },
+            "Debug": {
+              "Title": "Debug"
             }
           }
         }

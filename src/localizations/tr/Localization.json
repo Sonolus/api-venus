@@ -633,6 +633,10 @@
           "Loading": "Motor oyun modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor oynama modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "PreviewData": {
+          "Loading": "Motor önizleme modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor önizleme modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
         "TutorialData": {
           "Loading": "Motor öğretici modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor öğretici modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -817,6 +821,10 @@
           "Loading": "Motor oyun modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor oynama modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
+        "PreviewData": {
+          "Loading": "Motor önizleme modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor önizleme modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        },
         "TutorialData": {
           "Loading": "Motor öğretici modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor öğretici modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
@@ -1000,6 +1008,10 @@
         "PlayData": {
           "Loading": "Motor oyun modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor oyun modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "PreviewData": {
+          "Loading": "Motor önizleme modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor önizleme modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "TutorialData": {
           "Loading": "Motor öğretici modu bilgisi yükleniyor...",
@@ -1429,7 +1441,8 @@
         },
         "Level": {
           "Actions": {
-            "Play": "Oyna"
+            "Play": "Oyna",
+            "Preview": "Önizleme"
           },
           "Play": {
             "Effect": {
@@ -1444,6 +1457,12 @@
                 "Error": "\"{0}\" seviyesinin ses efektini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
               }
             },
+            "Boot": {
+              "Loading": "Seviye önyükleniyor...",
+              "Error": "\"{0}\" seviyesini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+            }
+          },
+          "Preview": {
             "Boot": {
               "Loading": "Seviye önyükleniyor...",
               "Error": "\"{0}\" seviyesini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
@@ -1962,6 +1981,20 @@
               "Bucket": {
                 "Title": "Bucket Grafiği"
               }
+            }
+          }
+        }
+      },
+      "Preview": {
+        "Routes": {
+          "Pause": {
+            "Title": "Durduruldu",
+            "Control": {
+              "Title": "Kontrol",
+              "Exit": "Çık"
+            },
+            "Debug": {
+              "Title": "Hata Ayıklama"
             }
           }
         }
