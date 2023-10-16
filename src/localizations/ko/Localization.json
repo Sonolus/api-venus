@@ -23,8 +23,8 @@
       "#LENGTH_MAXIMUM": "최대 길이",
       "#SPEED": "레벨 속도",
       "#AUTO": "자동 플레이",
-      "#MIRROR": "반전 레벨",
-      "#RANDOM": "랜덤",
+      "#MIRROR": "레벨 반전",
+      "#RANDOM": "무작위",
       "#HIDDEN": "히든",
       "#JUDGMENT_STRICT": "엄격한 판정",
       "#JUDGMENT_LOOSE": "느슨한 판정",
@@ -81,7 +81,7 @@
       "#SLOT_EFFECT_ALPHA": "슬롯 효과 투명도",
       "#NOTE": "노트",
       "#NOTE_SPEED": "노트 속도",
-      "#NOTE_SPEED_RANDOM": "랜덤 노트 속도",
+      "#NOTE_SPEED_RANDOM": "노트 속도 무작위",
       "#NOTE_POSITION": "노트 위치",
       "#NOTE_SIZE": "노트 크기",
       "#NOTE_ROTATION": "노트 회전",
@@ -117,12 +117,12 @@
       "#ALL": "전체",
       "#OTHERS": "기타",
       "#SHORT": "짧음",
-      "#LONG": "김",
+      "#LONG": "긺",
       "#HIGH": "높음",
-      "#MID": "중간",
+      "#MID": "보통",
       "#LOW": "낮음",
       "#SMALL": "작음",
-      "#MEDIUM": "중간",
+      "#MEDIUM": "보동",
       "#LARGE": "큼",
       "#LEFT": "왼쪽",
       "#RIGHT": "오른쪽",
@@ -130,17 +130,17 @@
       "#DOWN": "아래",
       "#FRONT": "앞",
       "#BACK": "뒤",
-      "#CENTER": "가운데",
+      "#CENTER": "중앙",
       "#TOP": "위",
       "#BOTTOM": "아래",
-      "#TOP_LEFT": "왼쪽 위",
-      "#TOP_CENTER": "가운데 위",
-      "#TOP_RIGHT": "오른쪽 위",
-      "#CENTER_LEFT": "왼쪽 가운데",
-      "#CENTER_RIGHT": "오른쪽 가운데",
-      "#BOTTOM_LEFT": "왼쪽 아래",
-      "#BOTTOM_CENTER": "가운데 아래",
-      "#BOTTOM_RIGHT": "오른쪽 아래",
+      "#TOP_LEFT": "좌측 상단",
+      "#TOP_CENTER": "중앙 상단",
+      "#TOP_RIGHT": "우측 상단",
+      "#CENTER_LEFT": "좌측 중앙",
+      "#CENTER_RIGHT": "우측 중앙",
+      "#BOTTOM_LEFT": "좌측 하단",
+      "#BOTTOM_CENTER": "중앙 하단",
+      "#BOTTOM_RIGHT": "우측 하단",
       "#CLOCKWISE": "시계방향",
       "#COUNTERCLOCKWISE": "반시계방향",
       "#FORWARD": "앞으로",
@@ -179,17 +179,17 @@
       "#MILLISECOND": "{0}ms"
     },
     "Instruction": {
-      "#TAP": "탭하기",
-      "#TAP_HOLD": "길게 탭하기",
-      "#TAP_RELEASE": "탭했다 놓기",
-      "#TAP_FLICK": "탭하고 튕기기",
-      "#TAP_SLIDE": "탭하고 슬라이드",
-      "#HOLD": "길게 탭하기",
-      "#HOLD_SLIDE": "길게 탭했다 슬라이드",
-      "#HOLD_FOLLOW": "길게 탭하며 따라가기",
-      "#RELEASE": "놓기",
+      "#TAP": "누르기",
+      "#TAP_HOLD": "누르고 있기",
+      "#TAP_RELEASE": "누르고 떼기",
+      "#TAP_FLICK": "누르고 튕기기",
+      "#TAP_SLIDE": "누르고 슬라이드하기",
+      "#HOLD": "누르고 있기",
+      "#HOLD_SLIDE": "누르며 슬라이드하기",
+      "#HOLD_FOLLOW": "누르며 따라가기",
+      "#RELEASE": "떼기",
       "#FLICK": "튕기기",
-      "#SLIDE": "슬라이드",
+      "#SLIDE": "슬라이드하기",
       "#SLIDE_FLICK": "슬라이드하고 튕기기",
       "#AVOID": "피하기",
       "#JIGGLE": "지글"
@@ -201,7 +201,7 @@
     "Off": "꺼짐",
     "Select": "선택",
     "Reset": "초기화",
-    "Edit": "수정",
+    "Edit": "편집",
     "View": "보기",
     "Cancel": "취소",
     "Confirm": "확인",
@@ -217,7 +217,7 @@
     "Import": "불러오기",
     "Search": "검색",
     "More": "더 보기",
-    "PullToRefresh": "당겨서 새로고침하기",
+    "PullToRefresh": "당겨서 새로고침",
     "Save": "저장",
     "Share": "공유",
     "Export": "내보내기",
@@ -236,7 +236,7 @@
     "Miss": "Miss",
     "StandardOption": "표준 옵션입니다.",
     "AdvancedOption": "전문적인 플레이어를 위한 옵션입니다.",
-    "Colors": "색",
+    "Colors": "색상",
     "ColorField": {
       "Hex": "HEX",
       "Rgb": "RGB",
@@ -245,7 +245,7 @@
         "Hex": {
           "Title": "Hex",
           "Description": "#RRGGBB 또는 #RRGGBBAA 형식이며, 각 값은 00에서 FF까지입니다.",
-          "Placeholder": "색 Hex값 입력..."
+          "Placeholder": "색상 Hex값 입력..."
         },
         "R": {
           "Title": "빨강",
@@ -278,10 +278,10 @@
       }
     },
     "DeviceOffsetField": {
-      "Calibrate": "판정 조절"
+      "Calibrate": "보정"
     },
     "PullToLoad": {
-      "None": "더 이상 불러올 항목이 없어요",
+      "None": "불러올 항목 없음",
       "More": "당겨서 더 보기"
     },
     "UI": {
@@ -362,26 +362,26 @@
   "Clients": {
     "Master": {
       "Info": {
-        "Loading": "Sonolus 정보를 불러오는 중...",
+        "Loading": "Sonolus 정보 로드 중...",
         "Error": "Sonolus 정보를 불러올 수 없습니다.\n\n인터넷 연결 상태를 확인한 후 다시 시도하세요."
       },
       "List": {
-        "Loading": "언어 목록을 불러오는 중...",
+        "Loading": "언어 목록 로드 중...",
         "Error": "언어 목록을 불러올 수 없습니다.\n\n인터넷 연결 상태를 확인한 후 다시 시도하세요."
       },
       "Localization": {
-        "Loading": "언어를 불러오는 중...",
-        "Error": "\"{0}\" 언어를 불러오지 못했어요.\n\n인터넷 연결 상태를 확인한 후 다시 시도하세요."
+        "Loading": "언어 로드 중...",
+        "Error": "\"{0}\" 언어를 불러올 수 없습니다.\n\n인터넷 연결 상태를 확인한 후 다시 시도하세요."
       }
     },
     "Service": {
       "UserProfile": {
-        "Loading": "사용자 프로필을 불러오는 중...",
+        "Loading": "사용자 프로필 로드 중...",
         "Error": "\"{0}\" 사용자의 프로필을 불러올 수 없습니다.\n\n사용자 ID가 맞는지 확인하거나, 인터넷 연결 상태를 확인한 후 다시 시도하세요."
       },
       "Login": {
         "Loading": "로그인 중...",
-        "Error": "로그인에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
+        "Error": "로그인에 실패했습니다.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
         "Success": {
           "New": {
             "Title": "가입 완료"
@@ -393,14 +393,14 @@
       },
       "EditName": {
         "Loading": "이름을 수정하는 중...",
-        "Error": "이름을 수정하지 못했어요.\n\n이름이 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+        "Error": "이름을 수정할 수 없습니다.\n\n이름이 잘못되었는지 또는 길이에 맞는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
         "Success": {
-          "Title": "이름을 수정했어요"
+          "Title": "이름 수정됨"
         }
       },
       "EditAvatar": {
         "Loading": "프로필 사진을 수정하는 중...",
-        "Error": "프로필 사진을 수정하지 못했어요.\n\n프로필 사진이 잘못되었는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
+        "Error": "프로필 사진을 수정할 수 없습니다.\n\n프로필 사진이 잘못되었는지 확인해보거나, 인터넷 연결을 확인하고 다시 시도해주세요.",
         "Success": {
           "Title": "프로필 사진 수정됨"
         }
@@ -428,11 +428,11 @@
       },
       "AuthenticateServer": {
         "Loading": "Sonolus 인증 요청하는 중...",
-        "Error": "Sonolus에서 인증을 요청하지 못했어요.\n\n인터넷 연결을 확인하고 다시 시도해보거나, Sonolus에 문의해주세요."
+        "Error": "Sonolus에서 인증을 요청하는 데 실패했습니다.\n\n인터넷 연결을 확인하고 다시 시도해보거나, Sonolus에 문의해주세요."
       },
       "Logout": {
         "Loading": "로그아웃 하는 중...",
-        "Error": "로그아웃에 실패했어요.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
+        "Error": "로그아웃에 실패했습니다.\n\n인터넷 연결을 확인하고 다시 시도해주세요.",
         "Success": {
           "Title": "로그아웃 완료"
         }
@@ -447,21 +447,21 @@
             "Description": "인증이 필요한 서버입니다.\n\n먼저 로그인 한 후 다시 시도하세요."
           },
           "Confirmation": {
-            "Description": "인증이 필요한 서버입니다.\n\n\"{0}\"(으)로 인증하고 계속할까요?"
+            "Description": "인증이 필요한 서버입니다.\n\n\"{0}\" 계정으로 인증하고 계속할까요?"
           }
         },
         "AuthenticationExpired": {
-          "Description": "인증이 만료되었습니다.\n\n\"{0}\"(으)로 다시 인증하고 계속할까요?"
+          "Description": "인증이 만료되었습니다.\n\n\"{0}\" 계정으로 다시 인증하고 계속할까요?"
         },
         "AuthenticationRejected": {
-          "Description": "서버에서 인증을 거부했습니다.\n\n\"{0}\"(으)로 다시 인증하고 계속할까요?"
+          "Description": "서버에서 인증을 거부했습니다.\n\n\"{0}\" 계정으로 다시 인증하고 계속할까요?"
         },
         "Authenticate": {
           "Loading": "서버 인증 요청 중...",
           "Error": "\"{0}\"에서 인증 요청에 실패했습니다.\n\n인터넷 연결 상태를 확인한 후 다시 시도하거나, 서버 주인에게 문의하여 문제를 보고하세요."
         },
         "AddressMismatchError": {
-          "Description": "인증 주소가 맞지 않아요.\n\n서버 주인에게 문의해주세요."
+          "Description": "인증 주소가 일치하지 않습니다.\n\n서버 주인에게 문의해주세요."
         }
       },
       "Server": {
@@ -1034,7 +1034,7 @@
     }
   },
   "Title": {
-    "TapToStart": "탭 해서 시작"
+    "TapToStart": "눌러서 시작"
   },
   "Layout": {
     "Refresh": "새로고침",
@@ -1045,14 +1045,14 @@
       "Title": "페이지로 이동",
       "Page": {
         "Title": "페이지",
-        "Description": "페이지 숫자.",
-        "Placeholder": "페이지 숫자 입력..."
+        "Description": "페이지 번호.",
+        "Placeholder": "페이지 번호 입력..."
       },
       "Jump": "이동"
     },
     "SelectLocalization": {
       "Title": "언어 선택",
-      "Description": "선호하는 언어를 선택하세요:",
+      "Description": "선호하는 언어 선택:",
       "Error": "언어 목록을 불러오지 못했어요."
     },
     "SelectTheme": {
@@ -1213,8 +1213,8 @@
     },
     "EditAnimation": {
       "Scale": {
-        "Title": "스케일",
-        "Description": "스케일."
+        "Title": "크기",
+        "Description": "크기."
       },
       "Alpha": {
         "Title": "투명도",
@@ -1262,7 +1262,7 @@
       "Title": "홈",
       "Play": "플레이",
       "Players": "Players",
-      "Account": "Account",
+      "Account": "계정",
       "Settings": "설정",
       "UpdateAvailable": {
         "Title": "업데이트 가능",
@@ -1898,7 +1898,7 @@
           "Loading": "저장소 삭제 중..."
         },
         "Success": {
-          "Title": "저장소를 삭제했어요"
+          "Title": "저장소 삭제됨"
         }
       }
     },
@@ -1917,7 +1917,7 @@
           "Description": "정말 모든 캐시를 만료시킬까요?"
         },
         "Success": {
-          "Title": "캐시를 만료시켰어요"
+          "Title": "캐시 만료됨"
         }
       },
       "DeleteCache": {
@@ -1972,7 +1972,7 @@
               },
               "Accuracy": {
                 "Title": "정확도 그래프",
-                "AbsValue": "절대값",
+                "AbsValue": "절댓값",
                 "Mean": "평균치",
                 "StDev": "표준편차",
                 "Min": "최솟값",
