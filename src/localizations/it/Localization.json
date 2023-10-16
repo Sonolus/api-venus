@@ -1,0 +1,1366 @@
+{
+  "Meta": {
+    "Name": "it"
+  },
+  "Texts": {
+    "Name": {
+      "#KEYWORDS": "Parole chiave",
+      "#NAME": "Nome",
+      "#RATING": "Difficoltà ",
+      "#RATING_MINIMUM": "Difficoltà minima",
+      "#RATING_MAXIMUM": "Difficoltà massima",
+      "#TITLE": "Titolo",
+      "#SUBTITLE": "Sottotitolo",
+      "#ARTISTS": "Artisti",
+      "#AUTHOR": "Autore",
+      "#GENRE": "Genere",
+      "#CATEGORY": "Categoria",
+      "#LANGUAGE": "Lingua",
+      "#DIFFICULTY": "Difficoltà",
+      "#LENGTH": "Durata",
+      "#LENGTH_MINIMUM": "Durata minima ",
+      "#LENGTH_MAXIMUM": "Durata massima ",
+      "#SPEED": "Velocità livello",
+      "#AUTO": "Auto play ",
+      "#MIRROR": "Specchio ",
+      "#RANDOM": "Random",
+      "#HIDDEN": "Nascosto ",
+      "#JUDGMENT_STRICT": "Giudizio severo",
+      "#JUDGMENT_LOOSE": "Giudizio clemente",
+      "#EFFECT": "SFX",
+      "#EFFECT_AUTO": "SFX automatici ",
+      "#STAGE": "Scenario ",
+      "#STAGE_POSITION": "Posizione scenario ",
+      "#STAGE_SIZE": "Dimensione scenario ",
+      "#STAGE_ROTATION": "Rotazione scenario ",
+      "#STAGE_ALPHA": "Trasparenza scenario",
+      "#STAGE_ANIMATION": "Animazione scenario ",
+      "#STAGE_TILT": "Inclinazione scenario",
+      "#STAGE_COVER_VERTICAL": "Copertura verticale scenario ",
+      "#STAGE_COVER_HORIZONTAL": "Copertura orizzontale scenario ",
+      "#STAGE_COVER_ALPHA": "Trasparenza scenario",
+      "#STAGE_ASPECTRATIO_LOCK": "Blocca proporzioni scenario ",
+      "#STAGE_EFFECT": "Effetti scenario ",
+      "#STAGE_EFFECT_POSITION": "Posizione effetto scenario ",
+      "#STAGE_EFFECT_SIZE": "Dimensione effetti scenario ",
+      "#STAGE_EFFECT_ROTATION": "Rotazione effetti scenario ",
+      "#STAGE_EFFECT_ALPHA": "Trasparenza effetti scenario ",
+      "#LANE": "Corsia",
+      "#LANE_POSITION": "Posizione corsia",
+      "#LANE_SIZE": "Dimensione corsia",
+      "#LANE_ROTATION": "Rotazione corsia",
+      "#LANE_ALPHA": "Trasparenza corsia",
+      "#LANE_ANIMATION": "Animazione corsia",
+      "#LANE_EFFECT": "Effetti corsia",
+      "#LANE_EFFECT_POSITION": "Posizione dell'effetto corsia",
+      "#LANE_EFFECT_SIZE": "Dimensione effetti corsia ",
+      "#LANE_EFFECT_ROTATION": "Rotazione effetti corsia ",
+      "#LANE_EFFECT_ALPHA": "Trasparenza effetti corsia ",
+      "#JUDGELINE": "Linea di giudizio",
+      "#JUDGELINE_POSITION": "Posizione della linea di giudizio",
+      "#JUDGELINE_SIZE": "Dimensione linea di giudizio ",
+      "#JUDGELINE_ROTATION": "Rotazione linea di giudizio",
+      "#JUDGELINE_ALPHA": "Trasparenza linea di giudizio",
+      "#JUDGELINE_ANIMATION": "Animazione linea di giudizio",
+      "#JUDGELINE_EFFECT": "Effetti linea di giudizio",
+      "#JUDGELINE_EFFECT_POSITION": "Posizione dell'effetto della linea di giudizio",
+      "#JUDGELINE_EFFECT_SIZE": "Dimensione effetto linea di giudizio",
+      "#JUDGELINE_EFFECT_ROTATION": "Rotazione effetti linea di giudizio",
+      "#JUDGELINE_EFFECT_ALPHA": "Trasparenza effetti linea del giudizio",
+      "#SLOT": "Bersaglio ",
+      "#SLOT_POSITION": "Posizione bersaglio ",
+      "#SLOT_SIZE": "Dimensione bersaglio ",
+      "#SLOT_ROTATION": "Rotazione bersaglio ",
+      "#SLOT_ALPHA": "Trasparenza bersaglio ",
+      "#SLOT_ANIMATION": "Animazione bersaglio ",
+      "#SLOT_EFFECT": "Effetti bersaglio ",
+      "#SLOT_EFFECT_POSITION": "Posizione effetti bersaglio ",
+      "#SLOT_EFFECT_SIZE": "Dimensione effetti bersaglio ",
+      "#SLOT_EFFECT_ROTATION": "Rotazione effetti bersaglio ",
+      "#SLOT_EFFECT_ALPHA": "Trasparenza effetti bersaglio ",
+      "#NOTE": "Nota",
+      "#NOTE_SPEED": "Velocità nota",
+      "#NOTE_SPEED_RANDOM": "Velocità nota randomizzata",
+      "#NOTE_POSITION": "Posizione nota",
+      "#NOTE_SIZE": "Dimensione nota",
+      "#NOTE_ROTATION": "Rotazione nota",
+      "#NOTE_ALPHA": "Trasparenza nota ",
+      "#NOTE_ANIMATION": "Animazione nota",
+      "#NOTE_EFFECT": "Effetti nota\n",
+      "#NOTE_EFFECT_POSITION": "Posizione effetti nota",
+      "#NOTE_EFFECT_SIZE": "Dimensione effetti nota ",
+      "#NOTE_EFFECT_ROTATION": "Rotazione effetto nota",
+      "#NOTE_EFFECT_ALPHA": "Trasparenza effetti nota",
+      "#CONNECTOR": "Connettore ",
+      "#SIMLINE": "Linea note simultanee",
+      "#SIMLINE_POSITION": "Posizione linea note simultanee ",
+      "#SIMLINE_SIZE": "Dimensione linea note simultanee",
+      "#SIMLINE_ROTATION": "Rotazione linea note simultanee ",
+      "#SIMLINE_ALPHA": "Trasparenza linea note simultanee ",
+      "#SIMLINE_ANIMATION": "Animazione linea note simultanee "
+    },
+    "Value": {
+      "#NONE": "No",
+      "#ANY": "Qualunque ",
+      "#ALL": "Tutti",
+      "#OTHERS": "Altri",
+      "#SHORT": "Corto",
+      "#LONG": "Lungo",
+      "#HIGH": "Alto",
+      "#MID": "Medio",
+      "#LOW": "Basso",
+      "#SMALL": "Piccolo ",
+      "#MEDIUM": "Medio ",
+      "#LARGE": "Grande",
+      "#LEFT": "Sinistra ",
+      "#RIGHT": "Destra ",
+      "#UP": "Su",
+      "#DOWN": "Giù ",
+      "#FRONT": "Fronte",
+      "#BACK": "Retro",
+      "#CENTER": "Centrale ",
+      "#TOP": "Alto",
+      "#BOTTOM": "Basso ",
+      "#TOP_LEFT": "Alto a sinistra ",
+      "#TOP_CENTER": "Alto centrale ",
+      "#TOP_RIGHT": "Alto a destra ",
+      "#CENTER_LEFT": "Centrale sinistra ",
+      "#CENTER_RIGHT": "Centrale destra",
+      "#BOTTOM_LEFT": "Basso a sinistra ",
+      "#BOTTOM_CENTER": "Basso centrale",
+      "#BOTTOM_RIGHT": "Basso a destra ",
+      "#CLOCKWISE": "Orario ",
+      "#COUNTERCLOCKWISE": "Antiorario",
+      "#FORWARD": "Avanti",
+      "#SIMPLE": "Semplice",
+      "#EASY": "Facile",
+      "#NORMAL": "Medio ",
+      "#HARD": "Difficile",
+      "#EXPERT": "Esperto ",
+      "#MASTER": "Maestro ",
+      "#PRO": "Pro",
+      "#TECHNICAL": "Tecnica ",
+      "#SPECIAL": "Speciale "
+    },
+    "Placeholder": {
+      "#KEYWORDS": "Inserisci parole chiave...",
+      "#NAME": "Inserisci il nome...",
+      "#RATING": "Inserisci difficoltà...",
+      "#RATING_MINIMUM": "Inserisci difficoltà minima...",
+      "#RATING_MAXIMUM": "Inserisci difficoltà massima...",
+      "#ARTISTS": "Inserisci gli artisti...",
+      "#CATEGORY": "Inserisci la categoria...",
+      "#DIFFICULTY": "Inserisci la difficoltà...",
+      "#LENGTH": "Inserisci la durata...",
+      "#LENGTH_MINIMUM": "Inserisci la durata minima...",
+      "#LENGTH_MAXIMUM": "Inserisci la durata massima..."
+    },
+    "Unit": {
+      "#SECOND": "{0} s"
+    },
+    "Instruction": {
+      "#TAP": "Tocca",
+      "#TAP_HOLD": "Toccare e tieni premuto",
+      "#TAP_RELEASE": "Tocca e rilascia",
+      "#TAP_FLICK": "Tocca e lancia ",
+      "#TAP_SLIDE": "Tocca e scorri",
+      "#HOLD": "Tieni premuto ",
+      "#HOLD_SLIDE": "Tieni premuto e scorri",
+      "#HOLD_FOLLOW": "Tieni premuto e segui",
+      "#RELEASE": "Rilascia ",
+      "#FLICK": "Lancia",
+      "#SLIDE": "Scorri ",
+      "#SLIDE_FLICK": "Scorri e lancia",
+      "#AVOID": "Evita"
+    }
+  },
+  "Common": {
+    "On": "ON",
+    "Off": "OFF",
+    "Select": "Seleziona",
+    "Reset": "Reset",
+    "Edit": "Modifica",
+    "View": "Visualizza",
+    "Cancel": "Annulla ",
+    "Confirm": "Conferma",
+    "Error": {
+    },
+    "Confirmation": {
+    },
+    "Add": "Aggiungi",
+    "Import": "Importa",
+    "More": "Altro",
+    "PullToRefresh": "Tira per ricaricare ",
+    "Share": "Condividi",
+    "Export": "Esporta",
+    "Update": "Aggiorna",
+    "Delete": "Elimina",
+    "Judgment": "Giudizio ",
+    "Accuracy": "Accuratezza ",
+    "Grade": "Punteggio ",
+    "ArcadeScore": "Punteggio Arcade ",
+    "AccuracyScore": "Punteggio Precisione ",
+    "Combo": "Combo ",
+    "Perfect": "Perfect",
+    "Great": "Great",
+    "Good": "Good",
+    "Miss": "Miss",
+    "StandardOption": "Questa è un'opzione standard.",
+    "Colors": "Colore",
+    "ColorField": {
+      "Hex": "HEX",
+      "Components": {
+        "Hex": {
+          "Title": "Hex",
+          "Description": "#RRGGBB, o #RRGGBBAA, dove ogni componente é da 00 a FF.",
+          "Placeholder": "Inserisci il colore hex..."
+        },
+        "R": {
+          "Title": "Rosso",
+          "Description": "Rosso."
+        },
+        "G": {
+          "Title": "Verde"
+        },
+        "B": {
+        },
+        "H": {
+        },
+        "S": {
+        },
+        "V": {
+          "Title": "Tono",
+          "Description": "Tono."
+        },
+        "A": {
+        }
+      }
+    },
+    "DeviceOffsetField": {
+      "Calibrate": "Calibra"
+    },
+    "PullToLoad": {
+      "More": "Tirare per caricare altro "
+    },
+    "UI": {
+      "Metric": {
+        "Arcade": "Punteggio arcade",
+        "PerfectRate": "Percentuale Perfect",
+        "ErrorHeatmap": "Heatmap dell'errore "
+      },
+      "JudgmentErrorStyle": {
+      },
+      "JudgmentErrorPlacement": {
+        "Right": "Destra "
+      },
+      "Ease": {
+        "InSine": "Sinusoidale (in)",
+        "InQuad": "Quadratica (In)",
+        "OutQuad": "Quadratica (out)",
+        "InOutQuad": "Quadratica (In Out)",
+        "OutInQuad": "Quadratica (Out In)",
+        "InCubic": "Cubico (In)",
+        "OutCubic": "Cubico (Out)",
+        "InOutCubic": "Cubico (In Out)",
+        "OutInCubic": "Cubico (Out In)",
+        "InQuart": "Quadratica (In) ",
+        "OutQuart": "Quadratica (Out)",
+        "InOutQuart": "Quadratica (In Out)",
+        "OutInQuart": "Quadratica (Out In)"
+      }
+    }
+  },
+  "Themes": {
+    "Dark": "Scuro",
+    "Light": "Chiaro "
+  },
+  "Clients": {
+    "Master": {
+      "Info": {
+      },
+      "List": {
+      },
+      "Localization": {
+      }
+    },
+    "Service": {
+      "UserProfile": {
+      },
+      "Login": {
+        "Loading": "Connessione...",
+        "Success": {
+          "New": {
+            "Title": "Connesso"
+          },
+          "Old": {
+            "Title": "Registrato "
+          }
+        }
+      },
+      "EditName": {
+        "Loading": "Modificando nome...",
+        "Success": {
+          "Title": "Nome modificato"
+        }
+      },
+      "EditAvatar": {
+        "Success": {
+        }
+      },
+      "EditAboutMe": {
+        "Loading": "Modifica della descrizione...",
+        "Error": "Impossibile modificare la descrizione.\n\nControlla se il tuo profilo su di me è legale e entro il limite di lunghezza, oppure controlla la tua connessione Internet e riprova.",
+        "Success": {
+          "Title": "Descrizione modificata"
+        }
+      },
+      "EditSocialLinks": {
+        "Success": {
+        }
+      },
+      "EditFavorites": {
+        "Success": {
+        }
+      },
+      "AuthenticateServer": {
+      },
+      "Logout": {
+        "Loading": "Uscita dall'account...",
+        "Error": "Impossibile uscire dall'account.\n\nPer favore controlla la tua connessione Internet e prova di nuovo.",
+        "Success": {
+        }
+      }
+    },
+    "CustomServer": {
+      "SonolusVersionError": "Questo server supporta solo la versione {0} di Sonolus.\n\nAggiorna Sonolus o contatta il proprietario del server per segnalare il problema.",
+      "Session": {
+        "NeedAuthentication": {
+          "NotLoggedInError": {
+            "Description": "Questo server richiede l'accesso.\n\nProva ad accedere e riprova."
+          },
+          "Confirmation": {
+            "Description": "Questo server richiede l'autenticazione.\n\nAccedi come \"{0}\" e continuare?"
+          }
+        },
+        "AuthenticationExpired": {
+          "Description": "Il tuo accesso è scaduto.\n\nEseguire nuovamente l'accesso come \"{0}\" e continuare?"
+        },
+        "AuthenticationRejected": {
+          "Description": "La tua autenticazione è stata rifiutata dal server.\n\nEseguire nuovamente l'accesso come \"{0}\" e continuare?"
+        },
+        "Authenticate": {
+          "Loading": "Richiesta di accesso dal server...",
+          "Error": "Impossibile richiedere l'autenticazione a \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "AddressMismatchError": {
+          "Description": "Indirizzo di accesso non corrispondente.\n\nContatta il proprietario del server per segnalare il problema."
+        }
+      },
+      "Server": {
+        "Info": {
+          "Loading": "Caricamento delle informazioni del server...",
+          "Error": "Impossibile caricare le informazioni del server \"{0}\".\n\nControlla se l'indirizzo del server è corretto, controlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Banner": {
+          "Error": "Impossibile caricare il banner del server \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        }
+      },
+      "Level": {
+        "List": {
+        },
+        "Details": {
+          "Loading": "Caricamento informazioni livello...",
+          "Error": "Impossibile caricare le informazioni del livello \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità del livello..."
+        },
+        "Cover": {
+          "Loading": "Caricamento copertina del livello...",
+          "Error": "Impossibile caricare la copertina del livello \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Bgm": {
+          "Loading": "Caricamento BGM del livello...",
+          "Error": "Impossibile caricare il BMG del livello\"{0}\". \n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Preview": {
+          "Error": "Impossibile caricare l'anteprima del livello \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Data": {
+          "Error": "Impossibile caricare i dati del livello \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        }
+      },
+      "Skin": {
+        "List": {
+          "Error": "Impossibile caricare le skin alla pagina {0}.\n\nControlla la tua connessione Internet e riprova oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Details": {
+          "Loading": "Caricamento dettagli della skin...",
+          "Error": "Impossibile caricare i dettagli della skin \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema. "
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità della skin..."
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+          "Loading": "Caricamento dei dati della skin...",
+          "Error": "Impossibile caricare i dati della skin \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema. "
+        },
+        "Texture": {
+          "Loading": "Caricamento texture skin...",
+          "Error": "Impossibile caricare la texture della skin \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+          "Loading": "Caricamento dettagli dello sfondo...",
+          "Error": "Impossibile caricare i dettagli dello sfondo \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Compatibility": {
+          "Loading": "Verifica compatibilità dello sfondo..."
+        },
+        "Thumbnail": {
+          "Error": "Impossibile caricare la miniatura dello sfondo di \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Data": {
+          "Loading": "Caricamento dei dati dello sfondo...",
+          "Error": "Impossibile caricare i dati dello sfondo di \n\"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Image": {
+          "Error": "Impossibile caricare l'immagine di sfondo \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema. "
+        },
+        "Configuration": {
+          "Loading": "Caricamento della configurazione dello sfondo...",
+          "Error": "Impossibile caricare la configurazione dello sfondo\"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Caricamento SFX..."
+        },
+        "Details": {
+        },
+        "Compatibility": {
+          "Error": "L'effetto SFX \"{0}\" non è compatibile con la versione corrente di Sonolus.\n\nUtilizza un SFX diverso o contatta il proprietario del server per segnalare il problema. "
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+          "Loading": "Caricamento dettagli particelle...",
+          "Error": "Impossibile caricare i dettagli delle particelle di \"{0}\".\n\nControlla la tua connessione Internet e riprova oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Compatibility": {
+          "Error": "Le particelle \"{0}\" non sono compatibili con l'attuale versione di Sonolus.\n\nUtilizza una particella diversa o contatta il proprietario del server per segnalare il problema."
+        },
+        "Thumbnail": {
+          "Loading": "Caricamento miniatura particelle...",
+          "Error": "Impossibile caricare la miniatura delle particelle di \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema. "
+        },
+        "Data": {
+        },
+        "Texture": {
+          "Loading": "Caricamento texture particelle...",
+          "Error": "Impossibile caricare la texture delle particelle di \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema. "
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Caricamento engines...",
+          "Error": "Impossibile caricare gli engines alla pagina {0}.\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Details": {
+          "Loading": "Caricamento dei dettagli dell'engine...",
+          "Error": "Impossibile caricare i dettagli dell'engine di \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema. "
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità dell'engine...",
+          "Error": "L'engine\"{0}\" non è compatibile con la versione attuale di Sonolus.\n\nUtilizza un motore diverso o contatta il proprietario del server per segnalare il problema. "
+        },
+        "Thumbnail": {
+          "Loading": "Caricamento della miniatura dell'engine...",
+          "Error": "Impossibile caricare la miniatura dell' engine di \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "PlayData": {
+          "Loading": "Caricamento dati della modalità di riproduzione dell'engine...",
+          "Error": "Impossibile caricare i dati della modalità di riproduzione dell'engine di \"{0}\".\n\nControlla la tua connessione Internet e riprova oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "PreviewData": {
+          "Loading": "Caricamento dei dati della modalità di anteprima dell'engine in corso...",
+          "Error": "Impossibile caricare i dati della modalità di anteprima dell'engine di \"{0}\".\n\nControlla la tua connessione Internet e riprova oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "TutorialData": {
+          "Loading": "Caricamento dei dati della modalità tutorial dell'engine in corso...",
+          "Error": "Impossibile caricare i dati della modalità tutorial dell' engine  di \"{0}\".\n\nControlla la tua connessione Internet e riprova oppure contatta il proprietario del server per segnalare il problema."
+        },
+        "Rom": {
+          "Loading": "Caricamento della ROM dell'engine...",
+          "Error": "Impossibile caricare la rom dell'engine di \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema. "
+        },
+        "Configuration": {
+          "Loading": "Caricamento della configurazione dell'engine...",
+          "Error": "Impossibile caricare la configurazione dell'engine \"{0}\".\n\nControlla la tua connessione Internet e riprova, oppure contatta il proprietario del server per segnalare il problema."
+        }
+      }
+    },
+    "Collection": {
+      "Server": {
+        "Info": {
+          "Loading": "Caricamento delle informazioni sulla collezione...",
+          "Error": "Impossibile caricare le informazioni sulla collezione \"{0}\".\n\nLa tua collezione potrebbe essere danneggiata."
+        },
+        "Banner": {
+          "Loading": "Caricamento del banner della collezione...",
+          "Error": "Impossibile caricare il banner della collezione \"{0}\".\n\nLa tua collezione potrebbe essere danneggiata. "
+        }
+      },
+      "Level": {
+        "List": {
+        },
+        "Details": {
+          "Loading": "Caricamento informazioni livello...",
+          "Error": "Impossibile caricare i dettagli del livello \"{0}\".\n\nLa tua raccolta potrebbe essere danneggiata."
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità del livello..."
+        },
+        "Cover": {
+          "Loading": "Caricamento copertina del livello...",
+          "Error": "Impossibile caricare la copertina del livello \"{0}\".\n\nAggiorna questo livello o utilizzane uno diverso."
+        },
+        "Bgm": {
+          "Loading": "Caricamento BGM del livello...",
+          "Error": "Impossibile caricare il BMG del livello \"{0}\".\n\nAggiorna questo livello o utilizzane uno diverso. "
+        },
+        "Preview": {
+          "Error": "Impossibile caricare l'anteprima del livello \"{0}\".\n\nAggiorna questo livello o utilizzane uno diverso."
+        },
+        "Data": {
+          "Error": "Impossibile caricare i dati del livello \"{0}\".\n\nAggiorna questo livello o utilizzane uno diverso."
+        }
+      },
+      "Skin": {
+        "List": {
+        },
+        "Details": {
+          "Loading": "Caricamento dei dettagli della skin..."
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità della skin..."
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+          "Loading": "Caricamento dei dati della skin..."
+        },
+        "Texture": {
+          "Loading": "Caricamento texture skin..."
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+          "Loading": "Caricamento dei dati dello sfondo..."
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Caricamento SFX..."
+        },
+        "Details": {
+        },
+        "Compatibility": {
+          "Error": "L'SFX \"{0}\" non è compatibile con la versione corrente di Sonolus.\n\nAggiorna questo SFX o utilizza un SFX diverso."
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+          "Loading": "Caricamento dettagli particelle...",
+          "Error": "Impossibile caricare i dettagli delle particelle di \"{0}\".\n\nLa tua raccolta potrebbe essere danneggiata."
+        },
+        "Compatibility": {
+          "Error": "Le particelle \"{0}\" non è compatibile con l'attuale versione di Sonolus.\n\nAggiorna questa particella o utilizza una particella diversa."
+        },
+        "Thumbnail": {
+          "Loading": "Caricamento miniatura particelle...",
+          "Error": "Impossibile caricare la miniatura delle particelle di \"{0}\".\n\nAggiorna queste particelle o utilizza delle particelle diverse."
+        },
+        "Data": {
+        },
+        "Texture": {
+          "Loading": "Caricamento texture particelle..."
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Caricamento engines...",
+          "Error": "Impossibile caricare gli engines alla pagina {0}.\n\nLa tua raccolta potrebbe essere danneggiata."
+        },
+        "Details": {
+          "Loading": "Caricamento dei dettagli dell'engine...",
+          "Error": "Impossibile caricare i dettagli degli engines di \"{0}\".\n\nLa tua raccolta potrebbe essere danneggiata."
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità dell'engine...",
+          "Error": "L'engine \"{0}\" non è compatibile con la versione corrente di Sonolus.\n\nAggiorna questo motore o utilizza un motore diverso."
+        },
+        "Thumbnail": {
+          "Loading": "Caricamento della miniatura dell'engine..."
+        },
+        "PlayData": {
+        },
+        "PreviewData": {
+        },
+        "TutorialData": {
+        },
+        "Rom": {
+          "Loading": "Caricamento della ROM dell'engine..."
+        },
+        "Configuration": {
+          "Loading": "Caricamento della configurazione dell'engine..."
+        }
+      }
+    },
+    "Scp": {
+      "Server": {
+        "Info": {
+        },
+        "Banner": {
+        }
+      },
+      "Level": {
+        "List": {
+        },
+        "Details": {
+          "Loading": "Caricamento informazioni livello..."
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità del livello..."
+        },
+        "Cover": {
+          "Loading": "Caricamento copertina del livello..."
+        },
+        "Bgm": {
+          "Loading": "Caricamento BGM del livello..."
+        },
+        "Preview": {
+        },
+        "Data": {
+        }
+      },
+      "Skin": {
+        "List": {
+        },
+        "Details": {
+          "Loading": "Caricamento dei dettagli della skin..."
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità della skin..."
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+          "Loading": "Caricamento dei dati della skin..."
+        },
+        "Texture": {
+          "Loading": "Caricamento texture skin..."
+        }
+      },
+      "Background": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+          "Loading": "Caricamento dei dati dello sfondo..."
+        },
+        "Image": {
+        },
+        "Configuration": {
+        }
+      },
+      "Effect": {
+        "List": {
+          "Loading": "Caricamento SFX..."
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+        },
+        "Data": {
+        },
+        "Audio": {
+        }
+      },
+      "Particle": {
+        "List": {
+        },
+        "Details": {
+        },
+        "Compatibility": {
+        },
+        "Thumbnail": {
+          "Loading": "Caricamento miniatura particelle..."
+        },
+        "Data": {
+        },
+        "Texture": {
+          "Loading": "Caricamento texture particelle..."
+        }
+      },
+      "Engine": {
+        "List": {
+          "Loading": "Caricamento engines..."
+        },
+        "Details": {
+          "Loading": "Caricamento dei dettagli dell'engine..."
+        },
+        "Compatibility": {
+          "Loading": "Controllo della compatibilità dell'engine..."
+        },
+        "Thumbnail": {
+          "Loading": "Caricamento della miniatura dell'engine..."
+        },
+        "PlayData": {
+        },
+        "PreviewData": {
+        },
+        "TutorialData": {
+        },
+        "Rom": {
+          "Loading": "Caricamento della ROM dell'engine..."
+        },
+        "Configuration": {
+          "Loading": "Caricamento della configurazione dell'engine..."
+        }
+      }
+    }
+  },
+  "DeepLink": {
+    "Invalid": {
+    }
+  },
+  "Title": {
+  },
+  "Layout": {
+  },
+  "Routes": {
+    "JumpToPage": {
+      "Page": {
+      }
+    },
+    "SelectLocalization": {
+    },
+    "SelectTheme": {
+    },
+    "SelectClient": {
+      "CustomServers": {
+        "RemoveConfirmation": {
+        }
+      },
+      "Collections": {
+        "RemoveConfirmation": {
+        }
+      }
+    },
+    "Selects": {
+      "ToPlay": {
+        "Title": "Gioca"
+      },
+      "ToSave": {
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        }
+      },
+      "ToUse": {
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        }
+      },
+      "ToAddFavorite": {
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        }
+      }
+    },
+    "EditCustomServer": {
+    },
+    "AddCustomServerAddress": {
+      "Address": {
+      }
+    },
+    "AddCustomServerInfo": {
+      "Name": {
+        "Title": "Nome"
+      }
+    },
+    "EditCollection": {
+    },
+    "AddCollection": {
+      "Name": {
+        "Title": "Nome"
+      }
+    },
+    "ImportScp": {
+      "Scp": {
+      },
+      "Success": {
+      }
+    },
+    "ExportScp": {
+      "Success": {
+      }
+    },
+    "EditVisibility": {
+      "Scale": {
+      },
+      "Alpha": {
+      }
+    },
+    "EditAnimation": {
+      "Scale": {
+      },
+      "Alpha": {
+      }
+    },
+    "EditTween": {
+      "From": {
+      },
+      "To": {
+      },
+      "Duration": {
+      },
+      "Ease": {
+      }
+    },
+    "EditColors": {
+      "Foreground": {
+      },
+      "Background": {
+      }
+    },
+    "CalibrateAudio": {
+    },
+    "CalibrateInput": {
+    },
+    "Home": {
+      "UpdateAvailable": {
+      }
+    },
+    "Players": {
+      "PlayerLookup": {
+        "Id": {
+        }
+      }
+    },
+    "Account": {
+      "MyAccount": {
+        "Login": {
+        }
+      }
+    },
+    "UserProfile": {
+      "Home": {
+        "Main": {
+        },
+        "AboutMe": {
+        },
+        "SocialLinks": {
+          "OpenConfirmation": {
+          }
+        },
+        "Favorites": {
+        }
+      },
+      "EditName": {
+        "Name": {
+          "Title": "Nome"
+        }
+      },
+      "EditAvatar": {
+        "Foreground": {
+        },
+        "Background": {
+        }
+      },
+      "EditAboutMe": {
+        "AboutMe": {
+        }
+      },
+      "AddSocialLink": {
+        "SocialLinkTitle": {
+          "Title": "Titolo"
+        },
+        "SocialLinkAddress": {
+        }
+      },
+      "AddFavorite": {
+        "Effect": "Effetti sonori"
+      }
+    },
+    "Server": {
+      "Home": {
+        "SaveSuccess": {
+        },
+        "ShareSuccess": {
+        }
+      },
+      "Search": {
+      },
+      "Lists": {
+        "DeleteConfirmation": {
+        },
+        "Level": {
+          "ShareSuccess": {
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+          }
+        },
+        "Background": {
+          "ShareSuccess": {
+          }
+        },
+        "Effect": {
+          "Title": "Effetti sonori",
+          "ShareSuccess": {
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+          }
+        },
+        "Engine": {
+          "ShareSuccess": {
+          }
+        }
+      },
+      "Details": {
+        "Actions": {
+        },
+        "DeleteConfirmation": {
+        },
+        "Description": {
+        },
+        "Recommended": {
+        },
+        "Level": {
+          "Actions": {
+            "Play": "Gioca"
+          },
+          "Play": {
+            "Effect": {
+              "Audio": {
+              }
+            },
+            "Level": {
+              "Bgm": {
+              }
+            },
+            "Boot": {
+            }
+          },
+          "Preview": {
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          }
+        },
+        "Skin": {
+          "ShareSuccess": {
+          }
+        },
+        "Background": {
+          "Preview": {
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          }
+        },
+        "Effect": {
+          "Preview": {
+            "Audio": {
+            },
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          }
+        },
+        "Particle": {
+          "ShareSuccess": {
+          }
+        },
+        "Engine": {
+          "Actions": {
+          },
+          "Tutorial": {
+            "Effect": {
+              "Audio": {
+              }
+            },
+            "Boot": {
+            }
+          },
+          "ShareSuccess": {
+          }
+        }
+      },
+      "Configurations": {
+        "Level": {
+          "Offsets": {
+            "LevelAudioOffset": {
+            },
+            "ServerAudioOffset": {
+            }
+          }
+        },
+        "Skin": {
+        },
+        "Background": {
+          "Image": {
+            "Blur": {
+            },
+            "Mask": {
+            }
+          }
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+          "Skin": {
+          },
+          "Background": {
+          },
+          "Effect": {
+            "Title": "Effetti sonori"
+          },
+          "Particle": {
+          },
+          "Options": {
+          },
+          "UI": {
+            "PrimaryMetric": {
+            },
+            "SecondaryMetric": {
+            },
+            "JudgmentErrorStyle": {
+              "Title": "Stile errore di giudizio "
+            },
+            "JudgmentErrorPlacement": {
+            },
+            "JudgmentErrorMin": {
+            },
+            "MenuStyle": {
+            },
+            "JudgmentStyle": {
+            },
+            "ComboStyle": {
+            },
+            "PrimaryMetricStyle": {
+            },
+            "SecondaryMetricStyle": {
+            },
+            "TutorialNavigationStyle": {
+            },
+            "TutorialInstructionStyle": {
+            }
+          },
+          "Offsets": {
+            "EngineInputOffset": {
+            }
+          }
+        }
+      },
+      "Savers": {
+        "Level": {
+          "Success": {
+          }
+        },
+        "Skin": {
+          "Success": {
+          }
+        },
+        "Background": {
+          "Success": {
+          }
+        },
+        "Effect": {
+          "Success": {
+          }
+        },
+        "Particle": {
+          "Success": {
+          }
+        },
+        "Engine": {
+          "Success": {
+          }
+        }
+      }
+    },
+    "Settings": {
+      "Graphics": {
+        "TargetFps": {
+        },
+        "RenderMode": {
+          "Options": {
+          }
+        },
+        "RenderScale": {
+        },
+        "AntiAliasing": {
+          "Options": {
+          }
+        },
+        "GpuParticleSystem": {
+        },
+        "IgnoreNotch": {
+        }
+      },
+      "Audio": {
+        "BgmVolume": {
+        },
+        "SfxVolume": {
+        },
+        "UIVolume": {
+        },
+        "AlwaysDecodeLevelBgm": {
+        },
+        "PreviewBgm": {
+          "Options": {
+          }
+        },
+        "LevelBgmQuality": {
+          "Options": {
+          }
+        },
+        "PreviewBgmQuality": {
+          "Options": {
+          }
+        }
+      },
+      "UI": {
+        "Localization": {
+          "Title": "Lingua"
+        },
+        "Theme": {
+        },
+        "Scale": {
+        },
+        "UnpauseDelay": {
+        },
+        "PerfectJudgmentColors": {
+        },
+        "GreatJudgmentColors": {
+        },
+        "GoodJudgmentColors": {
+        },
+        "MissJudgmentColors": {
+        },
+        "PositiveJudgmentErrorColors": {
+        },
+        "NegativeJudgmentErrorColors": {
+        },
+        "AllPerfectComboColors": {
+        },
+        "FullComboComboColors": {
+        },
+        "PassComboColors": {
+        },
+        "FailComboColors": {
+        },
+        "BoldComboNumber": {
+        },
+        "ShowZeroCombo": {
+        }
+      },
+      "Offsets": {
+        "Device": {
+        },
+        "DeviceAudioOffset": {
+        },
+        "DeviceInputOffset": {
+        }
+      },
+      "Repository": {
+      },
+      "Cache": {
+        "AlwaysRevalidate": {
+        }
+      },
+      "Developer": {
+        "ShowFps": {
+        },
+        "FpsStyle": {
+        },
+        "ShowTouches": {
+        },
+        "TouchStyle": {
+        },
+        "DebugMode": {
+        },
+        "DebugLogStyle": {
+        }
+      }
+    },
+    "ManageRepository": {
+      "Repository": {
+      },
+      "DeleteRepository": {
+        "DeleteConfirmation": {
+        },
+        "Success": {
+        }
+      }
+    },
+    "ManageCache": {
+      "Cache": {
+      },
+      "ExpireCache": {
+        "ExpireConfirmation": {
+        },
+        "Success": {
+        }
+      },
+      "DeleteCache": {
+        "DeleteConfirmation": {
+        },
+        "Success": {
+        }
+      }
+    }
+  },
+  "Scp": {
+    "PermissionError": {
+    }
+  },
+  "Runtimes": {
+    "Level": {
+      "Play": {
+        "Routes": {
+          "Pause": {
+            "Control": {
+            },
+            "Snapshot": {
+            },
+            "Debug": {
+            }
+          },
+          "Result": {
+            "Options": {
+            },
+            "Graphs": {
+              "Judgment": {
+              },
+              "Accuracy": {
+                "Min": "Minimo",
+                "Max": "Massimo "
+              },
+              "Bucket": {
+              }
+            }
+          }
+        }
+      },
+      "Preview": {
+        "Routes": {
+          "Pause": {
+            "Control": {
+            },
+            "Debug": {
+            }
+          }
+        }
+      }
+    },
+    "Effect": {
+      "Preview": {
+        "Routes": {
+          "Preview": {
+            "Play": "Gioca"
+          }
+        }
+      }
+    },
+    "Engine": {
+      "Tutorial": {
+        "Routes": {
+          "Pause": {
+            "Control": {
+            },
+            "Debug": {
+            }
+          }
+        }
+      }
+    }
+  }
+}
