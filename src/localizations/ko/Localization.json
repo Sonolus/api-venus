@@ -1849,7 +1849,8 @@
       "Cache": {
         "Title": "캐시",
         "AlwaysRevalidate": {
-          "Title": "항상 재검증"
+          "Title": "항상 재검증",
+          "Description": "끄는 것이 좋습니다.\n\nSonolus는 기본적으로 리소스가 오래된 후에만 재검증을 합니다. 이 기능을 켜면 리소스를 사용하기 전에 항상 재검증하게 됩니다."
         },
         "Manage": "관리"
       },
