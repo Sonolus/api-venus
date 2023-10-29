@@ -28,8 +28,8 @@
       "#HIDDEN": "히든",
       "#JUDGMENT_STRICT": "엄격한 판정",
       "#JUDGMENT_LOOSE": "느슨한 판정",
-      "#EFFECT": "SE",
-      "#EFFECT_AUTO": "자동 SE",
+      "#EFFECT": "SFX",
+      "#EFFECT_AUTO": "자동 SFX",
       "#STAGE": "스테이지",
       "#STAGE_POSITION": "스테이지 위치",
       "#STAGE_SIZE": "스테이지 크기",
@@ -562,28 +562,20 @@
       },
       "Effect": {
         "List": {
-          "Loading": "SE를 불러오는 중...",
-          "Error": "{0}페이지의 SE를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
         },
         "Details": {
-          "Loading": "SE 상세 정보를 불러오는 중...",
-          "Error": "\"{0}\" SE의 상세 정보를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
+          "Loading": "SFX 상세 정보를 불러오는 중..."
         },
         "Compatibility": {
-          "Loading": "SE 호환성을 확인하는 중...",
-          "Error": "\"{0}\" SE가 현재 버전의 Sonolus와 호환되지 않습니다.\n\n다른 SE를 사용하거나 서버 소유자에게 문의해 주십시오."
         },
         "Thumbnail": {
-          "Loading": "SE 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" SE의 미리보기를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
+          "Loading": "SFX 미리보기를 불러오는 중..."
         },
         "Data": {
-          "Loading": "SE 데이터를 불러오는 중...",
-          "Error": "\"{0}\" SE의 데이터를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
+          "Loading": "SFX 데이터를 불러오는 중..."
         },
         "Audio": {
-          "Loading": "SE 오디오를 불러오는 중...",
-          "Error": "\"{0}\" SE의 오디오를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
+          "Loading": "SFX 오디오를 불러오는 중..."
         }
       },
       "Particle": {
@@ -750,28 +742,21 @@
       },
       "Effect": {
         "List": {
-          "Loading": "SE를 불러오는 중...",
-          "Error": "{0}페이지의 SE 목록을 불러올 수 없습니다.\n\n컬렉션이 손상되었을 수 있습니다."
         },
         "Details": {
-          "Loading": "SE 상세 정보를 불러오는 중...",
-          "Error": "\"{0}\" SE의 상세 정보를 불러올 수 없습니다.\n\n컬렉션이 손상되었을 수 있습니다."
+          "Loading": "SFX 상세 정보를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 상세 정보를 불러올 수 없습니다.\n\n컬렉션이 손상되었을 수 있습니다."
         },
         "Compatibility": {
-          "Loading": "SE 호환성을 확인하는 중...",
-          "Error": "\"{0}\" SE는 현재 버전의 Sonolus와 호환되지 않습니다.\n\n이 SE를 업데이트 하거나 다른 SE를 사용해 주십시오."
         },
         "Thumbnail": {
-          "Loading": "SE 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" SE의 미리보기를 불러올 수 없습니다.\n\n이 SE를 업데이트 하거나 다른 SE를 사용해 주십시오."
+          "Loading": "SFX 미리보기를 불러오는 중..."
         },
         "Data": {
-          "Loading": "SE 데이터를 불러오는 중...",
-          "Error": "\"{0}\" SE의 데이터를 불러올 수 없습니다.\n\n이 SE를 업데이트 하거나 다른 SE를 사용해 주십시오."
+          "Loading": "SFX 데이터를 불러오는 중..."
         },
         "Audio": {
-          "Loading": "SE 오디오를 불러오는 중...",
-          "Error": "\"{0}\" SE의 오디오를 불러올 수 없습니다.\n\n이 SE를 업데이트 하거나 다른 SE를 사용해 주십시오."
+          "Loading": "SFX 오디오를 불러오는 중..."
         }
       },
       "Particle": {
@@ -938,28 +923,24 @@
       },
       "Effect": {
         "List": {
-          "Loading": "SE를 불러오는 중...",
-          "Error": "{0}페이지의 SE를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Details": {
-          "Loading": "SE 상세 정보를 불러오는 중...",
-          "Error": "\"{0}\" SE의 상세 정보를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
+          "Loading": "SFX 상세 정보를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 상세 정보를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Compatibility": {
-          "Loading": "SE 호환성을 확인하는 중...",
-          "Error": "\"{0}\" SE는 현재 버전의 Sonolus와 호환되지 않습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Thumbnail": {
-          "Loading": "SE 미리보기를 불러오는 중...",
-          "Error": "\"{0}\" SE의 미리보기를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
+          "Loading": "SFX 미리보기를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 미리보기를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Data": {
-          "Loading": "SE 데이터를 불러오는 중...",
-          "Error": "\"{0}\" SE의 데이터를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
+          "Loading": "SFX 데이터를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 데이터를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Audio": {
-          "Loading": "SE 오디오를 불러오는 중...",
-          "Error": "\"{0}\" SE의 오디오를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
+          "Loading": "SFX 오디오를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 오디오를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         }
       },
       "Particle": {
@@ -1092,8 +1073,6 @@
           "Description": "이 배경을 저장할 컬렉션을 선택하십시오."
         },
         "Effect": {
-          "Title": "SE 저장",
-          "Description": "이 SE를 저장할 컬렉션을 선택하십시오."
         },
         "Particle": {
           "Title": "입자 저장",
@@ -1118,8 +1097,6 @@
           "Description": "배경을 불러올 커스텀 서버나 컬렉션을 선택하십시오."
         },
         "Effect": {
-          "Title": "SE 선택",
-          "Description": "SE를 불러올 커스텀 서버나 컬렉션을 선택하십시오."
         },
         "Particle": {
           "Title": "입자 선택",
@@ -1144,8 +1121,6 @@
           "Description": "즐겨찾기에 배경을 추가할 커스텀 서버를 선택하십시오."
         },
         "Effect": {
-          "Title": "SE 즐겨찾기 추가",
-          "Description": "즐겨찾기에 SE를 추가할 커스텀 서버를 선택하십시오."
         },
         "Particle": {
           "Title": "탭 이펙트 즐겨찾기 추가",
@@ -1362,7 +1337,7 @@
         "Level": "레벨",
         "Skin": "스킨",
         "Background": "배경",
-        "Effect": "SE",
+        "Effect": "SFX",
         "Particle": "입자",
         "Engine": "엔진"
       }
@@ -1372,7 +1347,7 @@
         "Levels": "레벨",
         "Skins": "스킨",
         "Backgrounds": "배경",
-        "Effects": "SE",
+        "Effects": "SFX",
         "Particles": "입자",
         "Engines": "엔진",
         "SaveSuccess": {
@@ -1408,9 +1383,9 @@
           }
         },
         "Effect": {
-          "Title": "SE",
+          "Title": "SFX",
           "ShareSuccess": {
-            "Title": "SE 링크 복사됨"
+            "Title": "SFX 링크 복사됨"
           }
         },
         "Particle": {
@@ -1447,8 +1422,7 @@
           "Play": {
             "Effect": {
               "Audio": {
-                "Loading": "SE 오디오를 디코딩 하는 중...",
-                "Error": "\"{0}\" SE의 오디오 디코딩에 실패했습니다.\n\nSE 제작자에게 문의해 주십시오."
+                "Loading": "SFX 오디오를 디코딩 하는 중..."
               }
             },
             "Level": {
@@ -1491,12 +1465,10 @@
         "Effect": {
           "Preview": {
             "Audio": {
-              "Loading": "SE 오디오를 디코딩하는 중...",
-              "Error": "\"{0}\" SE 오디오 디코딩에 실패했습니다.\n\nSE 제작자에게 문의해 주십시오."
+              "Loading": "SE 오디오를 디코딩하는 중..."
             },
             "Boot": {
-              "Loading": "SE 부팅 중...",
-              "Error": "\"{0}\" SE 부팅에 실패했습니다.\n\nSE 제작자에게 문의해 주십시오."
+              "Loading": "SFX 부팅 중..."
             }
           },
           "ShareSuccess": {
@@ -1515,8 +1487,6 @@
           "Tutorial": {
             "Effect": {
               "Audio": {
-                "Loading": "SE 오디오를 디코딩 하는 중...",
-                "Error": "\"{0}\" SE의 오디오 디코딩에 실패했습니다.\n\nSE 제작자에게 문의해 주십시오."
               }
             },
             "Boot": {
@@ -1575,7 +1545,7 @@
             "Title": "배경"
           },
           "Effect": {
-            "Title": "SE"
+            "Title": "SFX"
           },
           "Particle": {
             "Title": "입자"
@@ -1659,7 +1629,6 @@
         },
         "Effect": {
           "Success": {
-            "Title": "SE 저장 완료"
           }
         },
         "Particle": {
@@ -1691,7 +1660,6 @@
           }
         },
         "RenderScale": {
-          "Title": "렌더 스케일",
           "Description": "100% 사용을 권장합니다.\n\nSonolus는 이 스케일에서 렌더링하며 화면 크기에 맞게 크기를 늘리거나 줄입니다. 렌더 스케일이 100%보다 높은 경우 그래픽이 향상되는 대신 성능이 저하되며, 반대로 100%보다 낮은 경우 성능이 향상되는 대신 그래픽이 저하됩니다."
         },
         "AntiAliasing": {
@@ -1720,8 +1688,8 @@
           "Description": "BGM의 음량."
         },
         "SfxVolume": {
-          "Title": "SE 음량",
-          "Description": "SE의 음량."
+          "Title": "SFX 음량",
+          "Description": "SFX의 음량."
         },
         "UIVolume": {
           "Title": "UI 음량",
@@ -1770,11 +1738,9 @@
           "Description": "사용할 테마."
         },
         "Scale": {
-          "Title": "UI 스케일",
           "Description": "사용할 UI 스케일입니다. 글씨가 작아서 보이지 않는다면 늘리고, 화면에 더 많은 콘텐츠를 표시하려면 줄이십시오."
         },
         "UnpauseDelay": {
-          "Title": "일시정지 해제 딜레이",
           "Description": "일시정지를 해제할 때의 딜레이."
         },
         "PerfectJudgmentColors": {
