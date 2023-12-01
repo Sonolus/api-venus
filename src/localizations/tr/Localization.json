@@ -632,6 +632,10 @@
           "Loading": "Motor oyun modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor oynama modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "WatchData": {
+          "Loading": "Motor izleme modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor izleme modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
         "PreviewData": {
           "Loading": "Motor önizleme modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor önizleme modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -820,6 +824,10 @@
           "Loading": "Motor oyun modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor oynama modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
+        "WatchData": {
+          "Loading": "Motor izleme modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor izleme modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+        },
         "PreviewData": {
           "Loading": "Motor önizleme modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor önizleme modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
@@ -1007,6 +1015,10 @@
         "PlayData": {
           "Loading": "Motor oyun modu bilgisi yükleniyor...",
           "Error": "\"{0}\" motor oyun modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "WatchData": {
+          "Loading": "Motor izleme modu bilgisi yükleniyor...",
+          "Error": "\"{0}\" motor izleme modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "PreviewData": {
           "Loading": "Motor önizleme modu bilgisi yükleniyor...",
@@ -1441,9 +1453,28 @@
         "Level": {
           "Actions": {
             "Play": "Oyna",
+            "Watch": "İzle",
             "Preview": "Önizleme"
           },
           "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Ses efektinin sesi deşifre ediliyor...",
+                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Seviye ses efekti deşifre ediliyor...",
+                "Error": "\"{0}\" seviyesinin ses efektini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+              }
+            },
+            "Boot": {
+              "Loading": "Seviye önyükleniyor...",
+              "Error": "\"{0}\" seviyesini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+            }
+          },
+          "Watch": {
             "Effect": {
               "Audio": {
                 "Loading": "Ses efektinin sesi deşifre ediliyor...",
@@ -1622,6 +1653,10 @@
             "SecondaryMetricStyle": {
               "Title": "İkinci Ölçek Biçimi",
               "Description": "İkinci ölçek biçimi ayarı."
+            },
+            "ProgressStyle": {
+              "Title": "İzleme Çubuğu Biçimi",
+              "Description": "İzleme Çubuğu biçimi ayarı."
             },
             "TutorialNavigationStyle": {
               "Title": "Öğretici Gezinme Stili",
@@ -1980,6 +2015,20 @@
               "Bucket": {
                 "Title": "Bucket Grafiği"
               }
+            }
+          }
+        }
+      },
+      "Watch": {
+        "Routes": {
+          "Pause": {
+            "Title": "Durduruldu",
+            "Control": {
+              "Title": "Kontrol",
+              "Exit": "Çık"
+            },
+            "Debug": {
+              "Title": "Hata Ayıklama"
             }
           }
         }
