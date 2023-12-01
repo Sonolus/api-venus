@@ -632,6 +632,10 @@
           "Loading": "Memuat mesin data mode play...",
           "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
         },
+        "WatchData": {
+          "Loading": "Memuat mesin data mode menonton...",
+          "Error": "Gagal memuat pratinjau data mode menonton \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+        },
         "PreviewData": {
           "Loading": "Memuat pratinjau data mode mesin...",
           "Error": "Gagal memuat pratinjau data mode mesin\"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
@@ -820,6 +824,10 @@
           "Loading": "Memuat mesin data mode play...",
           "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nSilakan perbarui mesin ini, atau gunakan mesin yang berbeda."
         },
+        "WatchData": {
+          "Loading": "Memuat mesin data mode menonton...",
+          "Error": "Gagal memuat pratinjau data mode menonton \"{0}\".\n\nSilakan perbarui mesin ini, atau gunakan mesin yang berbeda."
+        },
         "PreviewData": {
           "Loading": "Memuat pratinjau data mode mesin...",
           "Error": "Gagal memuat pratinjau data mode mesin \"{0}\".\n\nSilakan perbarui mesin ini, atau gunakan mesin yang berbeda."
@@ -1007,6 +1015,10 @@
         "PlayData": {
           "Loading": "Memuat mesin data mode play...",
           "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "WatchData": {
+          "Loading": "Memuat mesin data mode menonton...",
+          "Error": "Memuat pratinjau data mode menonton \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
         "PreviewData": {
           "Loading": "Memuat pratinjau data mode mesin...",
@@ -1441,9 +1453,28 @@
         "Level": {
           "Actions": {
             "Play": "Main",
+            "Watch": "Tonton",
             "Preview": "Pratinjau"
           },
           "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Decoding audio SFX...",
+                "Error": "Gagal mengdecode audio SFX \"{0}\".\n\nSilakan hubungi pembuat SFX untuk melaporkan masalahnya."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Decoding BGM level...",
+                "Error": "Gagal mengdecode BGM level \"{0}\".\n\nSilakan hubungi pembuat level untuk melaporkan masalahnya."
+              }
+            },
+            "Boot": {
+              "Loading": "Booting level...",
+              "Error": "Gagal boot level \"{0}\".\n\nSilakan hubungi pembuat level untuk melaporkan masalahnya."
+            }
+          },
+          "Watch": {
             "Effect": {
               "Audio": {
                 "Loading": "Decoding audio SFX...",
@@ -1622,6 +1653,10 @@
             "SecondaryMetricStyle": {
               "Title": "Style Metrik Sekunder",
               "Description": "Style dari metrik sekunder."
+            },
+            "ProgressStyle": {
+              "Title": "Style Progres",
+              "Description": "Style dari progres."
             },
             "TutorialNavigationStyle": {
               "Title": "Style Navigasi Tutorial",
@@ -1980,6 +2015,20 @@
               "Bucket": {
                 "Title": "Grafik Klasifikasi"
               }
+            }
+          }
+        }
+      },
+      "Watch": {
+        "Routes": {
+          "Pause": {
+            "Title": "Jeda",
+            "Control": {
+              "Title": "Kontrol",
+              "Exit": "Keluar"
+            },
+            "Debug": {
+              "Title": "Debug"
             }
           }
         }
