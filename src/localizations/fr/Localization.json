@@ -632,6 +632,10 @@
           "Loading": "Chargement des données du mode de lecture du moteur...",
           "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
         },
+        "WatchData": {
+          "Loading": "Chargement des données du mode watch de l'engine...",
+          "Error": "Échec du chargement des données du mode watch de l'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contacter le propriétaire du serveur pour signaler le problème."
+        },
         "PreviewData": {
           "Loading": "Chargement des données du mode preview du moteur...",
           "Error": "Échec du chargement des données du mode preview du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contacter le propriétaire du serveur pour signaler le problème."
@@ -820,6 +824,10 @@
           "Loading": "Chargement des données du mode de lecture du moteur...",
           "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
         },
+        "WatchData": {
+          "Loading": "Chargement des données du mode watch de l'engine...",
+          "Error": "Échec du chargement des données du mode watch de l'engine de \"{0}\".\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
+        },
         "PreviewData": {
           "Loading": "Chargement des données du mode preview du moteur...",
           "Error": "Échec du chargement des données du mode preview du moteur de \"{0}\".\n\nVeuillez mettre à jour ce moteur ou utiliser un autre moteur."
@@ -1007,6 +1015,10 @@
         "PlayData": {
           "Loading": "Chargement des données du mode de lecture du moteur...",
           "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "WatchData": {
+          "Loading": "Chargement des données du mode watch de l'engine...",
+          "Error": "Échec du chargement des données du mode watch de l'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou corrompu."
         },
         "PreviewData": {
           "Loading": "Chargement des données du mode preview du moteur...",
@@ -1441,6 +1453,7 @@
         "Level": {
           "Actions": {
             "Play": "Play",
+            "Watch": "Watch",
             "Preview": "Preview"
           },
           "Play": {
@@ -1459,6 +1472,24 @@
             "Boot": {
               "Loading": "Démarrage du niveau...",
               "Error": "Échec du niveau de démarrage \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
+            }
+          },
+          "Watch": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Décodage de l'audio SFX...",
+                "Error": "Échec du décodage de l'audio SFX de \"{0}\".\n\nVeuillez contacter l'auteur de SFX pour signaler le problème."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Décodage du BGM du niveau",
+                "Error": "Échec du décodage du niveau BGM de \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
+              }
+            },
+            "Boot": {
+              "Loading": "Démarrage du niveau...",
+              "Error": "Échec du démarrage du niveau \"{0}\".\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
             }
           },
           "Preview": {
@@ -1622,6 +1653,10 @@
             "SecondaryMetricStyle": {
               "Title": "Style de métrique secondaire",
               "Description": "Style de métrique secondaire."
+            },
+            "ProgressStyle": {
+              "Title": "Style de progression",
+              "Description": "Style de progrès."
             },
             "TutorialNavigationStyle": {
               "Title": "Style de navigation du didacticiel",
@@ -1980,6 +2015,20 @@
               "Bucket": {
                 "Title": "Graphique de compartiment"
               }
+            }
+          }
+        }
+      },
+      "Watch": {
+        "Routes": {
+          "Pause": {
+            "Title": "Pause",
+            "Control": {
+              "Title": "Control",
+              "Exit": "Quitter"
+            },
+            "Debug": {
+              "Title": "Debug"
             }
           }
         }
