@@ -22,7 +22,6 @@
       "#LENGTH_MINIMUM": "Duración mínima",
       "#LENGTH_MAXIMUM": "Duración máxima",
       "#SPEED": "Velocidad de nivel",
-      "#AUTO": "Auto Play",
       "#MIRROR": "Espejo",
       "#RANDOM": "Aleatorio",
       "#HIDDEN": "Oculto",
@@ -633,6 +632,10 @@
           "Loading": "Cargando datos del modo de juego del motor...",
           "Error": "Error al cargar los datos del modo de juego del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
         },
+        "WatchData": {
+          "Loading": "Cargando datos del modo observación del motor...",
+          "Error": "Error al cargar los datos del modo observación del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+        },
         "PreviewData": {
           "Loading": "Cargando datos del modo vista previa del motor...",
           "Error": "Error al cargar los datos del modo vista previa del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
@@ -821,6 +824,10 @@
           "Loading": "Cargando datos del modo de juego del motor...",
           "Error": "Error al cargar los datos del modo de juego del motor de \"{0}\".\n\nActualice este motor o utilice un motor diferente."
         },
+        "WatchData": {
+          "Loading": "Cargando datos del modo observación del motor...",
+          "Error": "Error al cargar los datos del modo \nobservación del motor de \"{0}\".\n\nActualice este motor o utilice un motor diferente."
+        },
         "PreviewData": {
           "Loading": "Cargando datos del modo vista previa del motor...",
           "Error": "Error al cargar los datos del modo \nvista previa del motor de \"{0}\".\n\nActualice este motor o utilice un motor diferente."
@@ -1008,6 +1015,10 @@
         "PlayData": {
           "Loading": "Cargando datos del modo de juego del motor...",
           "Error": "Error al cargar los datos del modo de juego del motor de \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
+        },
+        "WatchData": {
+          "Loading": "Cargando datos del modo observación del motor...",
+          "Error": "Error al cargar los datos del modo observación del motor de \"{0}\".\n\nEs posible que su paquete no sea compatible o esté dañado."
         },
         "PreviewData": {
           "Loading": "Cargando datos del modo de vista previa del motor...",
@@ -1442,9 +1453,28 @@
         "Level": {
           "Actions": {
             "Play": "Jugar",
+            "Watch": "Observar",
             "Preview": "Vista previa"
           },
           "Play": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Decodificando audio de efectos de sonido...",
+                "Error": "No se pudo decodificar el audio de los efectos de sonido de \"{0}\".\n\nComuníquese con el autor del efecto de sonido para informar el problema."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Decodificando la música del nivel...",
+                "Error": "No se pudo decodificar la música del nivel de \"{0}\".\n\nPóngase en contacto con el autor del nivel para informar el problema."
+              }
+            },
+            "Boot": {
+              "Loading": "Iniciando nivel...",
+              "Error": "Error al iniciar el nivel \"{0}\".\n\nPóngase en contacto con el autor del nivel para informar el problema."
+            }
+          },
+          "Watch": {
             "Effect": {
               "Audio": {
                 "Loading": "Decodificando audio de efectos de sonido...",
@@ -1623,6 +1653,10 @@
             "SecondaryMetricStyle": {
               "Title": "Estilo de métrica secundaria",
               "Description": "Estilo de la métrica secundaria."
+            },
+            "ProgressStyle": {
+              "Title": "Estilo de Progreso",
+              "Description": "Estilo de progreso."
             },
             "TutorialNavigationStyle": {
               "Title": "Estilo de navegación del tutorial",
@@ -1981,6 +2015,20 @@
               "Bucket": {
                 "Title": "Gráfica de cubo"
               }
+            }
+          }
+        }
+      },
+      "Watch": {
+        "Routes": {
+          "Pause": {
+            "Title": "Pausa",
+            "Control": {
+              "Title": "Control",
+              "Exit": "Salir"
+            },
+            "Debug": {
+              "Title": "Debug"
             }
           }
         }

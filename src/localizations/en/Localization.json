@@ -22,7 +22,6 @@
             "#LENGTH_MINIMUM": "Minimum Length",
             "#LENGTH_MAXIMUM": "Maximum Length",
             "#SPEED": "Level Speed",
-            "#AUTO": "Auto Play",
             "#MIRROR": "Mirror Level",
             "#RANDOM": "Random",
             "#HIDDEN": "Hidden",
@@ -633,6 +632,10 @@
                     "Loading": "Loading engine play mode data...",
                     "Error": "Failed to load engine play mode data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "WatchData": {
+                    "Loading": "Loading engine watch mode data...",
+                    "Error": "Failed to load engine watch mode data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "PreviewData": {
                     "Loading": "Loading engine preview mode data...",
                     "Error": "Failed to load engine preview mode data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -821,6 +824,10 @@
                     "Loading": "Loading engine play mode data...",
                     "Error": "Failed to load engine play mode data of \"{0}\".\n\nPlease update this engine, or use a different engine."
                 },
+                "WatchData": {
+                    "Loading": "Loading engine watch mode data...",
+                    "Error": "Failed to load engine watch mode data of \"{0}\".\n\nPlease update this engine, or use a different engine."
+                },
                 "PreviewData": {
                     "Loading": "Loading engine preview mode data...",
                     "Error": "Failed to load engine preview mode data of \"{0}\".\n\nPlease update this engine, or use a different engine."
@@ -1008,6 +1015,10 @@
                 "PlayData": {
                     "Loading": "Loading engine play mode data...",
                     "Error": "Failed to load engine play mode data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "WatchData": {
+                    "Loading": "Loading engine watch mode data...",
+                    "Error": "Failed to load engine watch mode data of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "PreviewData": {
                     "Loading": "Loading engine preview mode data...",
@@ -1442,9 +1453,28 @@
                 "Level": {
                     "Actions": {
                         "Play": "Play",
+                        "Watch": "Watch",
                         "Preview": "Preview"
                     },
                     "Play": {
+                        "Effect": {
+                            "Audio": {
+                                "Loading": "Decoding SFX audio...",
+                                "Error": "Failed to decode SFX audio of \"{0}\".\n\nPlease contact SFX author to report the problem."
+                            }
+                        },
+                        "Level": {
+                            "Bgm": {
+                                "Loading": "Decoding level BGM...",
+                                "Error": "Failed to decode level BGM of \"{0}\".\n\nPlease contact level author to report the problem."
+                            }
+                        },
+                        "Boot": {
+                            "Loading": "Booting level...",
+                            "Error": "Failed to boot level \"{0}\".\n\nPlease contact level author to report the problem."
+                        }
+                    },
+                    "Watch": {
                         "Effect": {
                             "Audio": {
                                 "Loading": "Decoding SFX audio...",
@@ -1623,6 +1653,10 @@
                         "SecondaryMetricStyle": {
                             "Title": "Secondary Metric Style",
                             "Description": "Style of secondary metric."
+                        },
+                        "ProgressStyle": {
+                            "Title": "Progress Style",
+                            "Description": "Style of progress."
                         },
                         "TutorialNavigationStyle": {
                             "Title": "Tutorial Navigation Style",
@@ -1981,6 +2015,20 @@
                             "Bucket": {
                                 "Title": "Bucket Graph"
                             }
+                        }
+                    }
+                }
+            },
+            "Watch": {
+                "Routes": {
+                    "Pause": {
+                        "Title": "Pause",
+                        "Control": {
+                            "Title": "Control",
+                            "Exit": "Exit"
+                        },
+                        "Debug": {
+                            "Title": "Debug"
                         }
                     }
                 }
