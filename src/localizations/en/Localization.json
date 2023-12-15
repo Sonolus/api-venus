@@ -195,6 +195,7 @@
         }
     },
     "Common": {
+        "Separator": ", ",
         "Loading": "Loading...",
         "On": "ON",
         "Off": "OFF",
@@ -222,6 +223,10 @@
         "Export": "Export",
         "Update": "Update",
         "Delete": "Delete",
+        "Copy": "Copy",
+        "CopySuccess": {
+            "Title": "Copied"
+        },
         "Preview": "Preview",
         "Judgment": "Judgment",
         "Accuracy": "Accuracy",
@@ -1397,6 +1402,7 @@
                 "Title": "Search"
             },
             "Lists": {
+                "SearchOption": "{0}: {1}",
                 "DeleteConfirmation": {
                     "Description": "Are you sure to delete \"{0}\"?"
                 },
@@ -1598,17 +1604,20 @@
                 },
                 "Engine": {
                     "Title": "Engine Configuration",
-                    "Skin": {
-                        "Title": "Skin"
-                    },
-                    "Background": {
-                        "Title": "Background"
-                    },
-                    "Effect": {
-                        "Title": "SFX"
-                    },
-                    "Particle": {
-                        "Title": "Particle"
+                    "Items": {
+                        "Title": "Engine",
+                        "Skin": {
+                            "Title": "Skin"
+                        },
+                        "Background": {
+                            "Title": "Background"
+                        },
+                        "Effect": {
+                            "Title": "SFX"
+                        },
+                        "Particle": {
+                            "Title": "Particle"
+                        }
                     },
                     "Options": {
                         "Title": "Options"
@@ -1793,11 +1802,28 @@
                     }
                 }
             },
+            "Gameplay": {
+                "Title": "Gameplay",
+                "AutoExit": {
+                    "Title": "Auto Exit",
+                    "Description": "Automatically exit gameplay on a certain grade.",
+                    "Options": {
+                        "Off": "Off",
+                        "Fail": "Fail",
+                        "Pass": "Pass",
+                        "FullCombo": "Full Combo"
+                    }
+                }
+            },
             "UI": {
                 "Title": "UI",
-                "Localization": {
-                    "Title": "Language",
-                    "Description": "Language to use."
+                "UILocalization": {
+                    "Title": "UI Language",
+                    "Description": "Language to use for UI."
+                },
+                "ContentLocalization": {
+                    "Title": "Content Language",
+                    "Description": "Language to use for content. Custom servers may provide content in this language if available."
                 },
                 "Theme": {
                     "Title": "Theme",
@@ -1913,6 +1939,10 @@
                 "DebugLogStyle": {
                     "Title": "Debug Log Style",
                     "Description": "Style of debug log."
+                },
+                "DiagnosticLogs": {
+                    "Title": "Diagnostic Logs",
+                    "Description": "Diagnostic logs to aid troubleshooting problems with Sonolus."
                 }
             }
         },
@@ -1923,14 +1953,23 @@
                 "Description": "Repository stores all resources locally available on this device.",
                 "Size": "Size: {0}"
             },
+            "RepairRepository": {
+                "Title": "Repair Repository",
+                "Description": "Check all repository resources for corrupted files and repair them.\nYou may need to update collections after repair.",
+                "Repair": "Repair",
+                "Loading": "Repairing repository ({0})...",
+                "Success": {
+                    "Title": "Repository Repair"
+                }
+            },
             "DeleteRepository": {
                 "Title": "Delete Repository",
                 "Description": "Delete all repository resources which causes Sonolus to re-download when requested.",
                 "Delete": "Delete",
-                "DeleteConfirmation": {
-                    "Description": "Are you sure to delete all repository resources?",
-                    "Loading": "Deleting repository..."
+                "Confirmation": {
+                    "Description": "Are you sure to delete all repository resources?"
                 },
+                "Loading": "Deleting repository ({0})...",
                 "Success": {
                     "Title": "Repository Deleted"
                 }
@@ -1965,6 +2004,9 @@
                     "Title": "Cache Deleted"
                 }
             }
+        },
+        "DiagnosticLogs": {
+            "Title": "Diagnostic Logs"
         }
     },
     "Scp": {
