@@ -195,6 +195,7 @@
     }
   },
   "Common": {
+    "Separator": "、",
     "Loading": "ロード中...",
     "On": "オン",
     "Off": "オフ",
@@ -222,6 +223,10 @@
     "Export": "エクスポート",
     "Update": "更新",
     "Delete": "消去",
+    "Copy": "コピー",
+    "CopySuccess": {
+      "Title": "コピー成功"
+    },
     "Preview": "プレビュー",
     "Judgment": "判定",
     "Accuracy": "精度スコア",
@@ -1397,6 +1402,7 @@
         "Title": "検索"
       },
       "Lists": {
+        "SearchOption": "{0}：{1}",
         "DeleteConfirmation": {
           "Description": "「{0}」を削除してもよろしいですか?"
         },
@@ -1598,17 +1604,20 @@
         },
         "Engine": {
           "Title": "エンジン設定",
-          "Skin": {
-            "Title": "使用スキン"
-          },
-          "Background": {
-            "Title": "使用背景"
-          },
-          "Effect": {
-            "Title": "使用効果音"
-          },
-          "Particle": {
-            "Title": "使用パーティクル"
+          "Items": {
+            "Title": "エンジン",
+            "Skin": {
+              "Title": "スキン"
+            },
+            "Background": {
+              "Title": "背景"
+            },
+            "Effect": {
+              "Title": "効果音"
+            },
+            "Particle": {
+              "Title": "パーティクル"
+            }
           },
           "Options": {
             "Title": "オプション"
@@ -1793,11 +1802,28 @@
           }
         }
       },
+      "Gameplay": {
+        "Title": "ゲームプレイ",
+        "AutoExit": {
+          "Title": "自動終了",
+          "Description": "特定のグレードに到達できなくなった時に自動的に曲を終了します。",
+          "Options": {
+            "Off": "オフ",
+            "Fail": "Pass",
+            "Pass": "Full Combo",
+            "FullCombo": "All Perfect"
+          }
+        }
+      },
       "UI": {
         "Title": "UI",
-        "Localization": {
-          "Title": "言語",
-          "Description": "UIの言語を設定します。"
+        "UILocalization": {
+          "Title": "UI言語",
+          "Description": "UIで使う言語。"
+        },
+        "ContentLocalization": {
+          "Title": "サーバー言語",
+          "Description": "サーバーに要求する言語。\nサーバーは可能な限りこの言語でコンテンツを表示します。"
         },
         "Theme": {
           "Title": "テーマ",
@@ -1913,6 +1939,10 @@
         "DebugLogStyle": {
           "Title": "デバッグログのスタイル",
           "Description": "デバッグログのスタイルを設定します。"
+        },
+        "DiagnosticLogs": {
+          "Title": "診断ログ",
+          "Description": "Sonolus自体の問題を報告する時に使うログ。"
         }
       }
     },
@@ -1923,14 +1953,23 @@
         "Description": "リポジトリには、オフラインで利用可能なすべてのリソースが保存されます。",
         "Size": "全体サイズ：{0}"
       },
+      "RepairRepository": {
+        "Title": "リポジトリの修復",
+        "Description": "リポジトリ内に破損したファイルがないかチェックします。\n修復後はコレクションを更新する必要があるかもしれません。",
+        "Repair": "修復",
+        "Loading": "リポジトリを修復中...（{0}）",
+        "Success": {
+          "Title": "リポジトリを修復しました"
+        }
+      },
       "DeleteRepository": {
         "Title": "リポジトリの削除",
         "Description": "リポジトリのリソースをすべて削除すると、必要になった際、再度ダウンロードが必要になります。",
         "Delete": "削除する",
-        "DeleteConfirmation": {
-          "Description": "本当にリポジトリの全てのリソースを削除してよろしいですか?",
-          "Loading": "リポジトリを削除しています..."
+        "Confirmation": {
+          "Description": "本当にリポジトリの全てのリソースを削除しますか？"
         },
+        "Loading": "リポジトリを削除中...（{0}）",
         "Success": {
           "Title": "リポジトリを削除しました"
         }
@@ -1965,6 +2004,9 @@
           "Title": "キャッシュを削除しました"
         }
       }
+    },
+    "DiagnosticLogs": {
+      "Title": "診断ログ"
     }
   },
   "Scp": {
