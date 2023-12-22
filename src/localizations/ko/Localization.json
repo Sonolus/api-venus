@@ -195,6 +195,7 @@
     }
   },
   "Common": {
+    "Separator": ", ",
     "Loading": "로드 중...",
     "On": "켜짐",
     "Off": "꺼짐",
@@ -222,6 +223,10 @@
     "Export": "내보내기",
     "Update": "업데이트",
     "Delete": "삭제",
+    "Copy": "복사",
+    "CopySuccess": {
+      "Title": "복사됨"
+    },
     "Preview": "미리보기",
     "Judgment": "판정",
     "Accuracy": "정확도",
@@ -1397,6 +1402,7 @@
         "Title": "검색"
       },
       "Lists": {
+        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "정말 \"{0}\" 아이템을 삭제합니까?"
         },
@@ -1598,17 +1604,20 @@
         },
         "Engine": {
           "Title": "엔진 설정",
-          "Skin": {
-            "Title": "스킨"
-          },
-          "Background": {
-            "Title": "배경"
-          },
-          "Effect": {
-            "Title": "SFX"
-          },
-          "Particle": {
-            "Title": "입자"
+          "Items": {
+            "Title": "엔진",
+            "Skin": {
+              "Title": "스킨"
+            },
+            "Background": {
+              "Title": "배경"
+            },
+            "Effect": {
+              "Title": "SFX"
+            },
+            "Particle": {
+              "Title": "입자"
+            }
           },
           "Options": {
             "Title": "옵션"
@@ -1793,11 +1802,28 @@
           }
         }
       },
+      "Gameplay": {
+        "Title": "게임플레이",
+        "AutoExit": {
+          "Title": "자동 종료",
+          "Description": "특정 등급에서 게임플레이를 자동으로 종료합니다.",
+          "Options": {
+            "Off": "꺼짐",
+            "Fail": "실패",
+            "Pass": "통과",
+            "FullCombo": "풀 콤보"
+          }
+        }
+      },
       "UI": {
         "Title": "UI",
-        "Localization": {
-          "Title": "언어",
-          "Description": "사용할 언어."
+        "UILocalization": {
+          "Title": "UI 언어",
+          "Description": "UI에서 사용할 언어입니다."
+        },
+        "ContentLocalization": {
+          "Title": "콘텐츠 언어",
+          "Description": "콘텐츠에서 사용할 언어입니다. 커스텀 서버는 가능한 경우 이 언어로 콘텐츠를 제공할 수 있습니다."
         },
         "Theme": {
           "Title": "테마",
@@ -1913,6 +1939,10 @@
         "DebugLogStyle": {
           "Title": "디버그 로그 스타일",
           "Description": "디버그 로그의 스타일."
+        },
+        "DiagnosticLogs": {
+          "Title": "진단 로그",
+          "Description": "Sonolus의 문제를 해결하는 데 도움이 되는 진단 로그입니다."
         }
       }
     },
@@ -1923,14 +1953,23 @@
         "Description": "저장소는 이 기기에서 사용할 수 있는 모든 리소스를 보관합니다.",
         "Size": "크기: {0}"
       },
+      "RepairRepository": {
+        "Title": "저장소 복구",
+        "Description": "모든 저장소 리소스의 손상된 파일을 확인하고 복구합니다.\n복구 후 컬렉션을 업데이트해야 할 수 있습니다.",
+        "Repair": "복구",
+        "Loading": "저장소 복구 중 ({0})...",
+        "Success": {
+          "Title": "저장소 복구"
+        }
+      },
       "DeleteRepository": {
         "Title": "저장소 삭제",
         "Description": "저장소 리소스를 삭제하면 Sonolus가 필요할 때 다시 다운로드하게 됩니다.",
         "Delete": "삭제",
-        "DeleteConfirmation": {
-          "Description": "정말 모든 저장소 리소스를 삭제합니까?",
-          "Loading": "저장소 삭제 중..."
+        "Confirmation": {
+          "Description": "정말 모든 저장소 리소스를 삭제합니까?"
         },
+        "Loading": "저장소 삭제 중 ({0})...",
         "Success": {
           "Title": "저장소 삭제됨"
         }
@@ -1965,6 +2004,9 @@
           "Title": "캐시 삭제됨"
         }
       }
+    },
+    "DiagnosticLogs": {
+      "Title": "진단 로그"
     }
   },
   "Scp": {
