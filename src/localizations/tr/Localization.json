@@ -195,6 +195,7 @@
     }
   },
   "Common": {
+    "Separator": ", ",
     "Loading": "Yükleniyor...",
     "On": "AÇIK",
     "Off": "KAPALI",
@@ -222,6 +223,10 @@
     "Export": "Dışa Aktar",
     "Update": "Güncelle",
     "Delete": "Sil",
+    "Copy": "Kopyala",
+    "CopySuccess": {
+      "Title": "Kopyalandı"
+    },
     "Preview": "Görüntüle",
     "Judgment": "Yargı",
     "Accuracy": "Kesinlik",
@@ -1397,6 +1402,7 @@
         "Title": "Ara"
       },
       "Lists": {
+        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "\"{0}\" dosyasını silmek istediğinize emin misiniz?"
         },
@@ -1598,17 +1604,20 @@
         },
         "Engine": {
           "Title": "Motor Yapılandırması",
-          "Skin": {
-            "Title": "Doku"
-          },
-          "Background": {
-            "Title": "Arkaplan"
-          },
-          "Effect": {
-            "Title": "Ses Efekti"
-          },
-          "Particle": {
-            "Title": "Partikül"
+          "Items": {
+            "Title": "Motor",
+            "Skin": {
+              "Title": "Doku"
+            },
+            "Background": {
+              "Title": "Arkaplan"
+            },
+            "Effect": {
+              "Title": "Ses Efekti"
+            },
+            "Particle": {
+              "Title": "Partikül"
+            }
           },
           "Options": {
             "Title": "Seçenekler"
@@ -1624,7 +1633,7 @@
             },
             "JudgmentErrorStyle": {
               "Title": "Yargı Hata Biçimi",
-              "Description": "Yargı hatası stili. Pozitif yargı hatası solda, negatif yargı hatası da sağda gözükür."
+              "Description": "Yargı hatası biçimi. Pozitif yargı hatası solda, negatif yargı hatası da sağda gözükür."
             },
             "JudgmentErrorPlacement": {
               "Title": "Yargı Hata Yerleşimi",
@@ -1659,11 +1668,11 @@
               "Description": "İzleme Çubuğu biçimi ayarı."
             },
             "TutorialNavigationStyle": {
-              "Title": "Öğretici Gezinme Stili",
+              "Title": "Öğretici Gezinme Biçimi",
               "Description": "Öğreticinin gezinme biçimi."
             },
             "TutorialInstructionStyle": {
-              "Title": "Öğretici Yönerge Stili",
+              "Title": "Öğretici Yönerge Biçimi",
               "Description": "Öğreticinin yönerge biçimi."
             }
           },
@@ -1739,7 +1748,7 @@
           }
         },
         "GpuParticleSystem": {
-          "Title": "Grafik İşlemci Partikül Sistemi",
+          "Title": "Grafik İşlemci (GPU) Partikül Sistemi",
           "Description": "Kapatılması önerilir.\n\nSonolus, varsayılan olarak Merkezî İşlem Birimi (CPU) parçacık sistemini kullanır. Bu ayar açıldığında, CPU yerine Grafik İşlem Birimi (GPU) partikül sistemi kullanılacaktır. Çoğu mobil cihaz için GPU, CPU'dan daha zayıftır ve bu nedenle bu önerilmez."
         },
         "IgnoreNotch": {
@@ -1793,18 +1802,35 @@
           }
         }
       },
+      "Gameplay": {
+        "Title": "Oynanış",
+        "AutoExit": {
+          "Title": "Otomatik Çıkış",
+          "Description": "Belirli bir aşamada oyundan otomatik olarak çıkar.",
+          "Options": {
+            "Off": "Kapalı",
+            "Fail": "Fail",
+            "Pass": "Pass",
+            "FullCombo": "Full Combo"
+          }
+        }
+      },
       "UI": {
         "Title": "Kullanıcı Arayüzü (UI)",
-        "Localization": {
-          "Title": "Dil",
-          "Description": "Kullanılacak dil."
+        "UILocalization": {
+          "Title": "Arayüz Dili",
+          "Description": "Aratyüz için kullanılacak dil."
+        },
+        "ContentLocalization": {
+          "Title": "İçerik Dili",
+          "Description": "İçerik için kullanılacak dil. Özel sunucular, varsa bu dilde içerik sağlayabilir."
         },
         "Theme": {
           "Title": "Tema",
           "Description": "Kullanılacak renk teması."
         },
         "Scale": {
-          "Title": "Arayüz (UI) Büyüklüğü",
+          "Title": "Arayüz Büyüklüğü",
           "Description": "Kullanılacak arayüz ölçeği. Okumada güçlük çekiyorsanız artırın, ekranda daha fazla içerik göstermek için azaltın."
         },
         "UnpauseDelay": {
@@ -1896,7 +1922,7 @@
         },
         "FpsStyle": {
           "Title": "FPS Biçimi",
-          "Description": "FPS sayacının stili."
+          "Description": "FPS sayacının biçimi."
         },
         "ShowTouches": {
           "Title": "Dokunmaları Göster",
@@ -1913,6 +1939,10 @@
         "DebugLogStyle": {
           "Title": "Hata Ayıklama Kayıt Biçimi",
           "Description": "Hata ayıklama kayıt biçimi ayarı."
+        },
+        "DiagnosticLogs": {
+          "Title": "Tanılama Günlükleri",
+          "Description": "Sonolus ile ilgili sorunların giderilmesine yardımcı olacak tanılama günlükleri."
         }
       }
     },
@@ -1923,14 +1953,23 @@
         "Description": "Depo, bu cihazda yerel olarak bulunan tüm kaynakları hafızasına alır.",
         "Size": "Büyüklük: {0}"
       },
+      "RepairRepository": {
+        "Title": "Depoyu Onar",
+        "Description": "Tüm depo kaynaklarında bozuk dosyalar olup olmadığını kontrol edin ve bunları onarın.\nOnarımdan sonra koleksiyonlarınızı güncellemeniz gerekebilir.",
+        "Repair": "Onar",
+        "Loading": "Depo onarılıyor ({0})...",
+        "Success": {
+          "Title": "Depo Onarıldı"
+        }
+      },
       "DeleteRepository": {
         "Title": "Depoyu Silme",
         "Description": "İstendiğinde Sonolus'un yeniden indirmesine neden olan tüm depo kaynaklarını silin.",
         "Delete": "Sil",
-        "DeleteConfirmation": {
-          "Description": "Tüm depo kaynaklarını silmek istediğinizden emin misiniz?",
-          "Loading": "Depo siliniyor..."
+        "Confirmation": {
+          "Description": "Tüm depo kaynaklarını silmek istediğinizden emin misiniz?"
         },
+        "Loading": "Depo siliniyor ({0})...",
         "Success": {
           "Title": "Depo Silindi"
         }
@@ -1965,6 +2004,9 @@
           "Title": "Önbellek Silindi"
         }
       }
+    },
+    "DiagnosticLogs": {
+      "Title": "Tanılama Günlükleri"
     }
   },
   "Scp": {
