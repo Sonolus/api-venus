@@ -195,6 +195,7 @@
     }
   },
   "Common": {
+    "Separator": ", ",
     "Loading": "載入中…",
     "On": "開",
     "Off": "關",
@@ -222,6 +223,10 @@
     "Export": "匯出",
     "Update": "更新",
     "Delete": "刪除",
+    "Copy": "複製",
+    "CopySuccess": {
+      "Title": "已複製"
+    },
     "Preview": "預覽",
     "Judgment": "判定",
     "Accuracy": "準確率",
@@ -1397,6 +1402,7 @@
         "Title": "搜尋"
       },
       "Lists": {
+        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "您確定要刪除\"{0}\"嗎？"
         },
@@ -1598,17 +1604,20 @@
         },
         "Engine": {
           "Title": "引擎設定",
-          "Skin": {
-            "Title": "佈景"
-          },
-          "Background": {
-            "Title": "背景"
-          },
-          "Effect": {
-            "Title": "SFX"
-          },
-          "Particle": {
-            "Title": "粒子效果"
+          "Items": {
+            "Title": "引擎",
+            "Skin": {
+              "Title": "外觀"
+            },
+            "Background": {
+              "Title": "背景"
+            },
+            "Effect": {
+              "Title": "SFX"
+            },
+            "Particle": {
+              "Title": "粒子效果"
+            }
           },
           "Options": {
             "Title": "選項"
@@ -1793,11 +1802,28 @@
           }
         }
       },
+      "Gameplay": {
+        "Title": "遊戲",
+        "AutoExit": {
+          "Title": "自動退出",
+          "Description": "到達指定等級後自動退出遊玩。",
+          "Options": {
+            "Off": "關",
+            "Fail": "Fail",
+            "Pass": "Pass",
+            "FullCombo": "Full Combo"
+          }
+        }
+      },
       "UI": {
         "Title": "UI",
-        "Localization": {
-          "Title": "語言",
-          "Description": "選擇使用的語言。"
+        "UILocalization": {
+          "Title": "UI語言",
+          "Description": "選擇使用的UI語言。"
+        },
+        "ContentLocalization": {
+          "Title": "內容語言",
+          "Description": "內容使用的語言。如果可用，自訂伺服器可能會提供這種語言的內容。"
         },
         "Theme": {
           "Title": "主題",
@@ -1913,6 +1939,10 @@
         "DebugLogStyle": {
           "Title": "開發日誌樣式",
           "Description": "開發日誌樣式。"
+        },
+        "DiagnosticLogs": {
+          "Title": "診斷日誌",
+          "Description": "診斷日誌可協助解決 Sonolus 問題。"
         }
       }
     },
@@ -1923,14 +1953,23 @@
         "Description": "資料庫保存在本設備上可用的全部資源。",
         "Size": "大小：{0}"
       },
+      "RepairRepository": {
+        "Title": "修復資料庫",
+        "Description": "檢查所有儲存庫資源中是否有損壞的檔案並修復它們。\n修復後可能需要更新收藏。",
+        "Repair": "修復",
+        "Loading": "正在修復資料庫 ({0})...",
+        "Success": {
+          "Title": "修復資料庫"
+        }
+      },
       "DeleteRepository": {
         "Title": "刪除資料庫",
         "Description": "刪除全部資料庫資源會令Sonolus請求資源時重新下載。",
         "Delete": "刪除",
-        "DeleteConfirmation": {
-          "Description": "你確定要刪除所有資料庫資源嗎？",
-          "Loading": "刪除資料庫"
+        "Confirmation": {
+          "Description": "您確定要刪除所有資庫資源嗎？"
         },
+        "Loading": "正在刪除資料庫 ({0})...",
         "Success": {
           "Title": "已刪除資料庫"
         }
@@ -1965,6 +2004,9 @@
           "Title": "已將快取刪除"
         }
       }
+    },
+    "DiagnosticLogs": {
+      "Title": "診斷日誌"
     }
   },
   "Scp": {
