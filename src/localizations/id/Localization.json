@@ -195,6 +195,7 @@
     }
   },
   "Common": {
+    "Separator": ", ",
     "Loading": "Memuat...",
     "On": "ON",
     "Off": "OFF",
@@ -222,6 +223,10 @@
     "Export": "Ekspor",
     "Update": "Perbarui",
     "Delete": "Hapus",
+    "Copy": "Salin",
+    "CopySuccess": {
+      "Title": "Disalin"
+    },
     "Preview": "Pratinjau",
     "Judgment": "Penilaian",
     "Accuracy": "Akurasi",
@@ -1397,6 +1402,7 @@
         "Title": "Cari"
       },
       "Lists": {
+        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "Apakah Anda yakin ingin menghapus \"{0}\"?"
         },
@@ -1598,17 +1604,20 @@
         },
         "Engine": {
           "Title": "Konfigurasi Mesin",
-          "Skin": {
-            "Title": "Skin"
-          },
-          "Background": {
-            "Title": "Latar"
-          },
-          "Effect": {
-            "Title": "SFX"
-          },
-          "Particle": {
-            "Title": "Partikel"
+          "Items": {
+            "Title": "Mesin",
+            "Skin": {
+              "Title": "Skin"
+            },
+            "Background": {
+              "Title": "Latar"
+            },
+            "Effect": {
+              "Title": "SFX"
+            },
+            "Particle": {
+              "Title": "Partikel"
+            }
           },
           "Options": {
             "Title": "Opsi"
@@ -1793,11 +1802,28 @@
           }
         }
       },
+      "Gameplay": {
+        "Title": "Gameplay",
+        "AutoExit": {
+          "Title": "Auto Keluar",
+          "Description": "Keluar dari gameplay secara otomatis pada tingkat tertentu.",
+          "Options": {
+            "Off": "Off",
+            "Fail": "Fail",
+            "Pass": "Pass",
+            "FullCombo": "Full Combo"
+          }
+        }
+      },
       "UI": {
         "Title": "UI",
-        "Localization": {
-          "Title": "Bahasa",
-          "Description": "Bahasa yang digunakan."
+        "UILocalization": {
+          "Title": "Bahasa UI",
+          "Description": "Bahasa yang digunakan untuk UI."
+        },
+        "ContentLocalization": {
+          "Title": "Konten Bahasa",
+          "Description": "Bahasa yang digunakan untuk konten. Kustom server dapat menyediakan konten dalam bahasa ini jika tersedia."
         },
         "Theme": {
           "Title": "Tema",
@@ -1913,6 +1939,10 @@
         "DebugLogStyle": {
           "Title": "Style Debug Log",
           "Description": "Style dari debug log."
+        },
+        "DiagnosticLogs": {
+          "Title": "Diagnostik Log",
+          "Description": "Diagnostik log untuk membantu pemecahan masalah dengan Sonolus."
         }
       }
     },
@@ -1923,14 +1953,23 @@
         "Description": "Repositori menyimpan semua sumber daya lokal yang tersedia pada perangkat ini.",
         "Size": "Ukuran: {0}"
       },
+      "RepairRepository": {
+        "Title": "Perbaiki Repositori",
+        "Description": "Periksa semua sumber daya repositori untuk file yang rusak dan perbaiki.\nAnda mungkin perlu memperbarui koleksi setelah perbaikan.",
+        "Repair": "Perbaiki",
+        "Loading": "Memperbaiki repositori ({0})...",
+        "Success": {
+          "Title": "Repositori Diperbaiki"
+        }
+      },
       "DeleteRepository": {
         "Title": "Hapus Repositori",
         "Description": "Hapus semua repositori menyebabkan Sonolus untuk mengunduh ulang ketika diminta.",
         "Delete": "Hapus",
-        "DeleteConfirmation": {
-          "Description": "Apakah Anda yakin untuk menghapus semua repositori?",
-          "Loading": "Menghapus repositori..."
+        "Confirmation": {
+          "Description": "Apakah Anda yakin untuk menghapus semua repositori?"
         },
+        "Loading": "Menghapus repositori ({0})...",
         "Success": {
           "Title": "Repositori Dihapus"
         }
@@ -1965,6 +2004,9 @@
           "Title": "Cache Dihapus"
         }
       }
+    },
+    "DiagnosticLogs": {
+      "Title": "Diagnostik Log"
     }
   },
   "Scp": {
