@@ -22,7 +22,7 @@
       "#LENGTH_MINIMUM": "最短长度",
       "#LENGTH_MAXIMUM": "最长长度",
       "#SPEED": "关卡速度",
-      "#MIRROR": "镜像关卡",
+      "#MIRROR": "关卡镜像",
       "#RANDOM": "随机",
       "#HIDDEN": "隐藏模式",
       "#JUDGMENT_STRICT": "严格判定",
@@ -86,9 +86,9 @@
       "#NOTE_ROTATION": "音符旋转",
       "#NOTE_ALPHA": "音符透明度",
       "#NOTE_ANIMATION": "音符动画",
-      "#NOTE_EFFECT": "音符效果",
-      "#NOTE_EFFECT_POSITION": "音符效果位置",
-      "#NOTE_EFFECT_SIZE": "音符效果大小",
+      "#NOTE_EFFECT": "音符击打效果",
+      "#NOTE_EFFECT_POSITION": "音符击打效果位置",
+      "#NOTE_EFFECT_SIZE": "音符击打效果大小",
       "#NOTE_EFFECT_ROTATION": "音符效果旋转",
       "#NOTE_EFFECT_ALPHA": "音符效果透明度",
       "#MARKER": "标记",
@@ -195,6 +195,7 @@
     }
   },
   "Common": {
+    "Separator": "、",
     "Loading": "正在加载…",
     "On": "开",
     "Off": "关",
@@ -222,6 +223,10 @@
     "Export": "导出",
     "Update": "更新",
     "Delete": "删除",
+    "Copy": "复制",
+    "CopySuccess": {
+      "Title": "已复制"
+    },
     "Preview": "预览",
     "Judgment": "判定",
     "Accuracy": "准度",
@@ -1397,6 +1402,7 @@
         "Title": "搜索"
       },
       "Lists": {
+        "SearchOption": "{0}：{1}",
         "DeleteConfirmation": {
           "Description": "您确定要删除“{0}”吗？"
         },
@@ -1598,17 +1604,20 @@
         },
         "Engine": {
           "Title": "引擎配置",
-          "Skin": {
-            "Title": "皮肤"
-          },
-          "Background": {
-            "Title": "背景"
-          },
-          "Effect": {
-            "Title": "音效"
-          },
-          "Particle": {
-            "Title": "粒子效果"
+          "Items": {
+            "Title": "引擎",
+            "Skin": {
+              "Title": "皮肤"
+            },
+            "Background": {
+              "Title": "背景"
+            },
+            "Effect": {
+              "Title": "音效"
+            },
+            "Particle": {
+              "Title": "粒子效果"
+            }
           },
           "Options": {
             "Title": "选项"
@@ -1793,11 +1802,28 @@
           }
         }
       },
+      "Gameplay": {
+        "Title": "游玩",
+        "AutoExit": {
+          "Title": "自动退出",
+          "Description": "到达一定评级后自动退出游戏。",
+          "Options": {
+            "Off": "关",
+            "Fail": "Fail",
+            "Pass": "Pass",
+            "FullCombo": "Full Combo"
+          }
+        }
+      },
       "UI": {
         "Title": "用户界面",
-        "Localization": {
-          "Title": "语言",
-          "Description": "使用的语言。"
+        "UILocalization": {
+          "Title": "UI 界面语言",
+          "Description": "UI 界面使用的语言。"
+        },
+        "ContentLocalization": {
+          "Title": "内容语言",
+          "Description": "内容使用的语言。如果启用此选项，自定义服务器可能会提供所选语言的内容。"
         },
         "Theme": {
           "Title": "主题",
@@ -1913,6 +1939,10 @@
         "DebugLogStyle": {
           "Title": "调试日志样式",
           "Description": "调试日志的样式。"
+        },
+        "DiagnosticLogs": {
+          "Title": "诊断日志",
+          "Description": "诊断日志可帮助解决 Sonolus 存在的问题。"
         }
       }
     },
@@ -1923,14 +1953,23 @@
         "Description": "资料库保存在本设备上可用的全部资源。",
         "Size": "大小：{0}"
       },
+      "RepairRepository": {
+        "Title": "修复资料库",
+        "Description": "检查资料库的所有资源是否有损坏，并修复它们。\n修复后您可能需要更新收藏包。",
+        "Repair": "修复",
+        "Loading": "正在修复资料库 ({0})...",
+        "Success": {
+          "Title": "资料库已修复"
+        }
+      },
       "DeleteRepository": {
         "Title": "删除资料库",
         "Description": "删除全部资料库资源会使得 Sonolus 请求资源时重新下载。",
         "Delete": "删除",
-        "DeleteConfirmation": {
-          "Description": "您确定要删除全部资料库资源吗？",
-          "Loading": "正在删除资料库…"
+        "Confirmation": {
+          "Description": "您确定要删除全部资料库资源吗？"
         },
+        "Loading": "正在删除资料库（{0}）…",
         "Success": {
           "Title": "资料库已删除"
         }
@@ -1965,6 +2004,9 @@
           "Title": "缓存已删除"
         }
       }
+    },
+    "DiagnosticLogs": {
+      "Title": "诊断日志"
     }
   },
   "Scp": {
