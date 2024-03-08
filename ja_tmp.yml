@@ -3,145 +3,145 @@ Meta:
   Name: ja
   Title: 日本語 (Japanese)
 Texts:
-  "#KEYWORDS": Keywords
-  "#NAME": Name
-  "#RATING": Rating
-  "#RATING_MINIMUM": Minimum Rating
-  "#RATING_MAXIMUM": Maximum Rating
-  "#TITLE": Title
-  "#SUBTITLE": Subtitle
-  "#ARTISTS": Artists
-  "#AUTHOR": Author
-  "#GENRE": Genre
-  "#CATEGORY": Category
-  "#LANGUAGE": Language
-  "#DIFFICULTY": Difficulty
+  "#KEYWORDS": キーワードを入力してください...
+  "#NAME": 名称を入力してください...
+  "#RATING": 難易度を入力してください...
+  "#RATING_MINIMUM": 最低難易度を入力してください...
+  "#RATING_MAXIMUM": 最高難易度を入力してください...
+  "#TITLE": タイトルを入力してください...
+  "#SUBTITLE": サブタイトルを入力してください...
+  "#ARTISTS": アーティスト名を入力してください...
+  "#AUTHOR": 作者名を入力してください...
+  "#GENRE": ジャンル名を入力してください...
+  "#CATEGORY": カテゴリ名を入力してください...
+  "#LANGUAGE": 言語を入力してください...
+  "#DIFFICULTY": 難易度を入力してください...
   "#VERSIONS": Version
-  "#LENGTH": Length
-  "#LENGTH_MINIMUM": Minimum Length
-  "#LENGTH_MAXIMUM": Maximum Length
+  "#LENGTH": 曲の長さを入力してください...
+  "#LENGTH_MINIMUM": 最短曲長を入力してください...
+  "#LENGTH_MAXIMUM": 最長曲長を入力してください...
   "#ADDITIONAL_INFORMATION": Additional Information
-  "#SPEED": Level Speed
-  "#MIRROR": Mirror Level
-  "#RANDOM": Random
-  "#HIDDEN": Hidden
-  "#JUDGMENT_STRICT": Strict Judgment
-  "#JUDGMENT_LOOSE": Loose Judgment
-  "#EFFECT": SFX
-  "#EFFECT_AUTO": Auto SFX
-  "#STAGE": Stage
-  "#STAGE_POSITION": Stage Position
-  "#STAGE_SIZE": Stage Size
-  "#STAGE_ROTATION": Stage Rotation
-  "#STAGE_ALPHA": Stage Transparency
-  "#STAGE_ANIMATION": Stage Animation
-  "#STAGE_TILT": Stage Tilt
-  "#STAGE_COVER_VERTICAL": Vertical Stage Cover
-  "#STAGE_COVER_HORIZONTAL": Horizontal Stage Cover
-  "#STAGE_COVER_ALPHA": Stage Cover Transparency
-  "#STAGE_ASPECTRATIO_LOCK": Lock Stage Aspect Ratio
-  "#STAGE_EFFECT": Stage Effect
-  "#STAGE_EFFECT_POSITION": Stage Effect Position
-  "#STAGE_EFFECT_SIZE": Stage Effect Size
-  "#STAGE_EFFECT_ROTATION": Stage Effect Rotation
-  "#STAGE_EFFECT_ALPHA": Stage Effect Transparency
-  "#LANE": Lane
-  "#LANE_POSITION": Lane Position
-  "#LANE_SIZE": Lane Size
-  "#LANE_ROTATION": Lane Rotation
-  "#LANE_ALPHA": Lane Transparency
-  "#LANE_ANIMATION": Lane Animation
-  "#LANE_EFFECT": Lane Effect
-  "#LANE_EFFECT_POSITION": Lane Effect Position
-  "#LANE_EFFECT_SIZE": Lane Effect Size
-  "#LANE_EFFECT_ROTATION": Lane Effect Rotation
-  "#LANE_EFFECT_ALPHA": Lane Effect Transparency
-  "#JUDGELINE": Judgment Line
-  "#JUDGELINE_POSITION": Judgment Line Position
-  "#JUDGELINE_SIZE": Judgment Line Size
-  "#JUDGELINE_ROTATION": Judgment Line Rotation
-  "#JUDGELINE_ALPHA": Judgment Line Transparency
-  "#JUDGELINE_ANIMATION": Judgment Line Animation
-  "#JUDGELINE_EFFECT": Judgment Line Effect
-  "#JUDGELINE_EFFECT_POSITION": Judgment Line Effect Position
-  "#JUDGELINE_EFFECT_SIZE": Judgment Line Effect Size
-  "#JUDGELINE_EFFECT_ROTATION": Judgment Line Effect Rotation
-  "#JUDGELINE_EFFECT_ALPHA": Judgment Line Effect Transparency
-  "#SLOT": Slot
-  "#SLOT_POSITION": Slot Position
-  "#SLOT_SIZE": Slot Size
-  "#SLOT_ROTATION": Slot Rotation
-  "#SLOT_ALPHA": Slot Transparency
-  "#SLOT_ANIMATION": Slot Animation
-  "#SLOT_EFFECT": Slot Effect
-  "#SLOT_EFFECT_POSITION": Slot Effect Position
-  "#SLOT_EFFECT_SIZE": Slot Effect Size
-  "#SLOT_EFFECT_ROTATION": Slot Effect Rotation
-  "#SLOT_EFFECT_ALPHA": Slot Effect Transparency
-  "#NOTE": Note
-  "#NOTE_SPEED": Note Speed
-  "#NOTE_SPEED_RANDOM": Random Note Speed
-  "#NOTE_POSITION": Note Position
-  "#NOTE_SIZE": Note Size
-  "#NOTE_ROTATION": Note Rotation
-  "#NOTE_ALPHA": Note Transparency
-  "#NOTE_ANIMATION": Note Animation
-  "#NOTE_EFFECT": Note Effect
-  "#NOTE_EFFECT_POSITION": Note Effect Position
-  "#NOTE_EFFECT_SIZE": Note Effect Size
-  "#NOTE_EFFECT_ROTATION": Note Effect Rotation
-  "#NOTE_EFFECT_ALPHA": Note Effect Transparency
-  "#MARKER": Marker
-  "#MARKER_POSITION": Marker Position
-  "#MARKER_SIZE": Marker Size
-  "#MARKER_ROTATION": Marker Rotation
-  "#MARKER_ALPHA": Marker Transparency
-  "#MARKER_ANIMATION": Marker Animation
-  "#CONNECTOR": Connector
-  "#CONNECTOR_POSITION": Connector Position
-  "#CONNECTOR_SIZE": Connector Size
-  "#CONNECTOR_ROTATION": Connector Rotation
-  "#CONNECTOR_ALPHA": Connector Transparency
-  "#CONNECTOR_ANIMATION": Connector Animation
-  "#SIMLINE": Simultaneous Line
-  "#SIMLINE_POSITION": Simultaneous Line Position
-  "#SIMLINE_SIZE": Simultaneous Line Size
-  "#SIMLINE_ROTATION": Simultaneous Line Rotation
-  "#SIMLINE_ALPHA": Simultaneous Line Transparency
-  "#SIMLINE_ANIMATION": Simultaneous Line Animation
-  "#NONE": None
-  "#ANY": Any
-  "#ALL": All
-  "#OTHERS": Others
-  "#SHORT": Short
-  "#LONG": Long
-  "#HIGH": High
-  "#MID": Mid
-  "#LOW": Low
-  "#SMALL": Small
-  "#MEDIUM": Medium
-  "#LARGE": Large
-  "#LEFT": Left
-  "#RIGHT": Right
-  "#UP": Up
-  "#DOWN": Down
-  "#FRONT": Front
-  "#BACK": Back
-  "#CENTER": Center
-  "#TOP": Top
-  "#BOTTOM": Bottom
-  "#TOP_LEFT": Top Left
-  "#TOP_CENTER": Top Center
-  "#TOP_RIGHT": Top Right
-  "#CENTER_LEFT": Center Left
-  "#CENTER_RIGHT": Center Right
-  "#BOTTOM_LEFT": Bottom Left
-  "#BOTTOM_CENTER": Bottom Center
-  "#BOTTOM_RIGHT": Bottom Right
-  "#CLOCKWISE": Clockwise
-  "#COUNTERCLOCKWISE": Counterclockwise
-  "#FORWARD": Forward
-  "#BACKWARD": Backward
+  "#SPEED": レベル再生速度
+  "#MIRROR": レベルを反転
+  "#RANDOM": ランダム
+  "#HIDDEN": ノーツを非表示
+  "#JUDGMENT_STRICT": 判定ハードモード
+  "#JUDGMENT_LOOSE": 判定イージーモード
+  "#EFFECT": SEの再生
+  "#EFFECT_AUTO": 自動SE
+  "#STAGE": ステージの表示
+  "#STAGE_POSITION": ステージの位置
+  "#STAGE_SIZE": ステージの大きさ
+  "#STAGE_ROTATION": ステージの回転
+  "#STAGE_ALPHA": ステージの不透明度
+  "#STAGE_ANIMATION": ステージのアニメーション
+  "#STAGE_TILT": ステージの傾き
+  "#STAGE_COVER_VERTICAL": レーンカバー(縦方向)
+  "#STAGE_COVER_HORIZONTAL": レーンカバー(横方向)
+  "#STAGE_COVER_ALPHA": ステージのカバーの不透明度
+  "#STAGE_ASPECTRATIO_LOCK": ステージのアスペクト比を維持
+  "#STAGE_EFFECT": ステージエフェクト
+  "#STAGE_EFFECT_POSITION": ステージエフェクトの位置
+  "#STAGE_EFFECT_SIZE": ステージエフェクトの大きさ
+  "#STAGE_EFFECT_ROTATION": ステージエフェクトの回転
+  "#STAGE_EFFECT_ALPHA": ステージエフェクトの不透明度
+  "#LANE": レーンの表示
+  "#LANE_POSITION": レーンの位置
+  "#LANE_SIZE": レーンの大きさ
+  "#LANE_ROTATION": レーンの回転
+  "#LANE_ALPHA": レーンの不透明度
+  "#LANE_ANIMATION": レーンのアニメーション
+  "#LANE_EFFECT": レーンエフェクト
+  "#LANE_EFFECT_POSITION": レーンエフェクトの位置
+  "#LANE_EFFECT_SIZE": レーンエフェクトの大きさ
+  "#LANE_EFFECT_ROTATION": レーンエフェクトの回転
+  "#LANE_EFFECT_ALPHA": レーンエフェクトの不透明度
+  "#JUDGELINE": 判定ラインの表示
+  "#JUDGELINE_POSITION": 判定ラインの位置
+  "#JUDGELINE_SIZE": 判定ラインの大きさ
+  "#JUDGELINE_ROTATION": 判定ラインの回転
+  "#JUDGELINE_ALPHA": 判定ラインの不透明度
+  "#JUDGELINE_ANIMATION": 判定ラインのアニメーション
+  "#JUDGELINE_EFFECT": 判定ラインのエフェクト
+  "#JUDGELINE_EFFECT_POSITION": 判定ラインのエフェクトの位置
+  "#JUDGELINE_EFFECT_SIZE": 判定ラインのエフェクトの大きさ
+  "#JUDGELINE_EFFECT_ROTATION": 判定ラインのエフェクトの回転
+  "#JUDGELINE_EFFECT_ALPHA": 判定ラインのエフェクトの不透明度
+  "#SLOT": スロットの表示
+  "#SLOT_POSITION": スロットの位置
+  "#SLOT_SIZE": スロットの大きさ
+  "#SLOT_ROTATION": スロットの回転
+  "#SLOT_ALPHA": スロットの不透明度
+  "#SLOT_ANIMATION": スロットのアニメーション
+  "#SLOT_EFFECT": スロットエフェクト
+  "#SLOT_EFFECT_POSITION": スロットエフェクトの位置
+  "#SLOT_EFFECT_SIZE": スロットエフェクトの大きさ
+  "#SLOT_EFFECT_ROTATION": スロットエフェクトの回転
+  "#SLOT_EFFECT_ALPHA": スロットエフェクトの不透明度
+  "#NOTE": ノーツの表示
+  "#NOTE_SPEED": ノーツ速度
+  "#NOTE_SPEED_RANDOM": ランダム(ノーツ速度)
+  "#NOTE_POSITION": ノーツの位置
+  "#NOTE_SIZE": ノーツの大きさ
+  "#NOTE_ROTATION": ノーツの回転
+  "#NOTE_ALPHA": ノーツの不透明度
+  "#NOTE_ANIMATION": ノーツのアニメーション
+  "#NOTE_EFFECT": ノーツエフェクト
+  "#NOTE_EFFECT_POSITION": ノーツエフェクトの位置
+  "#NOTE_EFFECT_SIZE": ノーツエフェクトの大きさ
+  "#NOTE_EFFECT_ROTATION": ノーツエフェクトの回転
+  "#NOTE_EFFECT_ALPHA": ノーツエフェクトの不透明度
+  "#MARKER": マーカーの表示
+  "#MARKER_POSITION": マーカーの位置
+  "#MARKER_SIZE": マーカーの大きさ
+  "#MARKER_ROTATION": マーカーの回転
+  "#MARKER_ALPHA": マーカーの不透明度
+  "#MARKER_ANIMATION": マーカーのアニメーション
+  "#CONNECTOR": コネクターの表示
+  "#CONNECTOR_POSITION": コネクターの位置
+  "#CONNECTOR_SIZE": コネクターの大きさ
+  "#CONNECTOR_ROTATION": コネクターの回転
+  "#CONNECTOR_ALPHA": コネクターの不透明度
+  "#CONNECTOR_ANIMATION": コネクターのアニメーション
+  "#SIMLINE": 同時ノーツ線の表示
+  "#SIMLINE_POSITION": 同時ノーツ線の位置
+  "#SIMLINE_SIZE": 同時ノーツ線の大きさ
+  "#SIMLINE_ROTATION": 同時ノーツ線の回転
+  "#SIMLINE_ALPHA": 同時ノーツ線の不透明度
+  "#SIMLINE_ANIMATION": 同時ノーツ線のアニメーション
+  "#NONE": 無し
+  "#ANY": 未指定
+  "#ALL": 全て
+  "#OTHERS": その他
+  "#SHORT": 短い
+  "#LONG": 長い
+  "#HIGH": 高
+  "#MID": 中
+  "#LOW": 低
+  "#SMALL": 小
+  "#MEDIUM": 中
+  "#LARGE": 大
+  "#LEFT": 左
+  "#RIGHT": 右
+  "#UP": 上
+  "#DOWN": 下
+  "#FRONT": 前面
+  "#BACK": 後面
+  "#CENTER": 中央
+  "#TOP": 上
+  "#BOTTOM": 下
+  "#TOP_LEFT": 上左
+  "#TOP_CENTER": 上中
+  "#TOP_RIGHT": 上右
+  "#CENTER_LEFT": 中左
+  "#CENTER_RIGHT": 中右
+  "#BOTTOM_LEFT": 下左
+  "#BOTTOM_CENTER": 下中
+  "#BOTTOM_RIGHT": 下右
+  "#CLOCKWISE": 時計回り
+  "#COUNTERCLOCKWISE": 反時計回り
+  "#FORWARD": 前方向
+  "#BACKWARD": 後方向
   "#SIMPLE": Simple
   "#EASY": Easy
   "#NORMAL": Normal
@@ -171,20 +171,20 @@ Texts:
   "#PERCENTAGE_UNIT": "{0}%"
   "#SECOND_UNIT": "{0} s"
   "#MILLISECOND_UNIT": "{0} ms"
-  "#TAP": Tap
-  "#TAP_HOLD": Tap and Hold
-  "#TAP_RELEASE": Tap and Release
-  "#TAP_FLICK": Tap and Flick
-  "#TAP_SLIDE": Tap and Slide
-  "#HOLD": Hold
-  "#HOLD_SLIDE": Hold and Slide
-  "#HOLD_FOLLOW": Hold and Follow
-  "#RELEASE": Release
-  "#FLICK": Flick
-  "#SLIDE": Slide
-  "#SLIDE_FLICK": Slide and Flick
-  "#AVOID": Avoid
-  "#JIGGLE": Jiggle
+  "#TAP": タップ
+  "#TAP_HOLD": タップ→長押し
+  "#TAP_RELEASE": タップ→離す
+  "#TAP_FLICK": タップ+フリック
+  "#TAP_SLIDE": タップ→スライド
+  "#HOLD": 長押し
+  "#HOLD_SLIDE": 長押し+スライド
+  "#HOLD_FOLLOW": 長押し→移動
+  "#RELEASE": 離す
+  "#FLICK": フリック
+  "#SLIDE": スライド
+  "#SLIDE_FLICK": スライド→フリック
+  "#AVOID": ダメージ
+  "#JIGGLE": 擦る
   "#NEWEST": Newest
   "#OLDEST": Oldest
   "#RECOMMENDED": Recommended
