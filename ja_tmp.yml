@@ -185,95 +185,95 @@ Texts:
   "#SLIDE_FLICK": スライド→フリック
   "#AVOID": ダメージ
   "#JIGGLE": 擦る
-  "#NEWEST": Newest
-  "#OLDEST": Oldest
-  "#RECOMMENDED": Recommended
-  "#POPULAR": Popular
-  "#FEATURED": Featured
-  "#COMPETITIVE": Competitive
-  "#HOLIDAY": Holiday
-  "#LIMITED": Limited
-  "#FOLLOWING": Following
-  "#ANNOUNCEMENT": Announcement
-  "#INFORMATION": Information
-  "#MAINTENANCE": Maintenance
-  "#EVENT": Event
-  "#UPDATE": Update
-  "#SEARCH": Search
-  "#ADVANCED": Advanced
-  "#RELATED": Related
-  "#SAME_AUTHOR": Same Author
-  "#SAME_ARTISTS": Same Artists
-  "#SAME_RATING": Same Rating
-  "#SAME_CATEGORY": Same Category
-  "#SAME_DIFFICULTY": Same Difficulty
-  "#SAME_GENRE": Same Genre
-  "#SAME_VERSION": Same Version
-  "#OTHER_AUTHORS": Other Authors
-  "#OTHER_ARTISTS": Other Artists
-  "#OTHER_RATINGS": Other Ratings
-  "#OTHER_CATEGORIES": Other Categories
-  "#OTHER_DIFFICULTIES": Other Difficulties
-  "#OTHER_GENRES": Same Genres
-  "#OTHER_VERSIONS": Other Versions
-  "#VERIFYING": Verifying
-  "#VERIFIED": Verified
-  "#REMOVED": Removed
-  "#PUBLIC": Public
-  "#PRIVATE": Private
-  "#POP": Pop
-  "#ROCK": Rock
-  "#HIPHOP": Hip Hop
-  "#COUNTRY": Country
-  "#ELECTRONIC": Electronic
-  "#METAL": Metal
-  "#CLASSICAL": Classical
-  "#FOLK": Folk
-  "#INDIE": Indie
-  "#ANIME": Anime
+  "#NEWEST": 新しい順
+  "#OLDEST": 古い順
+  "#RECOMMENDED": おすすめ
+  "#POPULAR": 人気
+  "#FEATURED": 特集
+  "#COMPETITIVE": 競技
+  "#HOLIDAY": ホリデー
+  "#LIMITED": 限定
+  "#FOLLOWING": フォロー中
+  "#ANNOUNCEMENT": お知らせ
+  "#INFORMATION": 情報
+  "#MAINTENANCE": メンテナンス
+  "#EVENT": イベント
+  "#UPDATE": アップデート
+  "#SEARCH": 検索
+  "#ADVANCED": 高度
+  "#RELATED": 関連
+  "#SAME_AUTHOR": 同じ作者
+  "#SAME_ARTISTS": 同じアーティスト
+  "#SAME_RATING": 同じ難易度
+  "#SAME_CATEGORY": 同じカテゴリ
+  "#SAME_DIFFICULTY": 同じ難易度
+  "#SAME_GENRE": 同じジャンル
+  "#SAME_VERSION": 同じバージョン
+  "#OTHER_AUTHORS": 他の作者
+  "#OTHER_ARTISTS": 他のアーティスト
+  "#OTHER_RATINGS": 他の難易度
+  "#OTHER_CATEGORIES": 他のカテゴリ
+  "#OTHER_DIFFICULTIES": 他の難易度
+  "#OTHER_GENRES": 他のジャンル
+  "#OTHER_VERSIONS": 他のバージョン
+  "#VERIFYING": 認証中
+  "#VERIFIED": 認証済
+  "#REMOVED": 削除済
+  "#PUBLIC": 公開
+  "#PRIVATE": 非公開
+  "#POP": ポップ
+  "#ROCK": ロック
+  "#HIPHOP": ヒップホップ
+  "#COUNTRY": カントリー
+  "#ELECTRONIC": エレクトロニック
+  "#METAL": メタル
+  "#CLASSICAL": クラシック
+  "#FOLK": フォーク
+  "#INDIE": インディー
+  "#ANIME": アニメ
   "#VOCALOID": Vocaloid
   "#REMIX": Remix
-  "#INSTRUMENTAL": Instrumental
-  "#SHORT_VERSION": Short Version
-  "#LONG_VERSION": Long Version
-  "#LIVE_VERSION": Live Version
-  "#ILLEGAL_ACTIVITIES": Illegal Activities
-  "#CHEATING": Cheating
-  "#AFK": AFK
-  "#SPAMMING": Spamming
-  "#VERBAL_ABUSE": Verbal Abuse
-  "#INAPPROPRIATE_LANGUAGE": Inappropriate Language
-  "#NEGATIVE_ATTITUDE": Negative Attitude
-  "#DNF": DNF
-  "#QUALIFIED": Qualified
-  "#DISQUALIFIED": Disqualified
-  "#SPECTATOR": Spectator
-  "#FINALIST": Finalist
-  "#FINISHED": Finished
-  "#GOLD_MEDAL": Gold Medal
-  "#SILVER_MEDAL": Silver Medal
-  "#BRONZE_MEDAL": Bronze Medal
-  "#TEAM_1": Team 1
-  "#TEAM_2": Team 2
-  "#TEAM_3": Team 3
-  "#TEAM_4": Team 4
-  "#TEAM_5": Team 5
-  "#TEAM_6": Team 6
-  "#TEAM_7": Team 7
-  "#TEAM_8": Team 8
-  "#TEAM_RED": Team Red
-  "#TEAM_GREEN": Team Green
-  "#TEAM_BLUE": Team Blue
-  "#TEAM_YELLOW": Team Yellow
-  "#TEAM_PURPLE": Team Purple
-  "#TEAM_CYAN": Team Cyan
-  "#TEAM_WHITE": Team White
-  "#TEAM_BLACK": Team Black
+  "#INSTRUMENTAL": Inst.
+  "#SHORT_VERSION": ショートバージョン
+  "#LONG_VERSION": ロングバージョン
+  "#LIVE_VERSION": ライブバージョン
+  "#ILLEGAL_ACTIVITIES": 違法行為
+  "#CHEATING": チート
+  "#AFK": 放置
+  "#SPAMMING": スパム
+  "#VERBAL_ABUSE": 言葉遣い
+  "#INAPPROPRIATE_LANGUAGE": 不適切な言葉
+  "#NEGATIVE_ATTITUDE": ネガティブ
+  "#DNF": 中断
+  "#QUALIFIED": 通過
+  "#DISQUALIFIED": 脱落
+  "#SPECTATOR": 観戦
+  "#FINALIST": 決勝
+  "#FINISHED": 終了
+  "#GOLD_MEDAL": 金メダル
+  "#SILVER_MEDAL": 銀メダル
+  "#BRONZE_MEDAL": 銅メダル
+  "#TEAM_1": チーム1
+  "#TEAM_2": チーム2
+  "#TEAM_3": チーム3
+  "#TEAM_4": チーム4
+  "#TEAM_5": チーム5
+  "#TEAM_6": チーム6
+  "#TEAM_7": チーム7
+  "#TEAM_8": チーム8
+  "#TEAM_RED": 赤チーム
+  "#TEAM_GREEN": 緑チーム
+  "#TEAM_BLUE": 青チーム
+  "#TEAM_YELLOW": 黄チーム
+  "#TEAM_PURPLE": 紫チーム
+  "#TEAM_CYAN": 水チーム
+  "#TEAM_WHITE": 白チーム
+  "#TEAM_BLACK": 黒チーム
 Common:
   Separator: "、"
   Loading: ロード中...
-  'On': オン
-  'Off': オフ
+  "On": オン
+  "Off": オフ
   Select: 選択
   Reset: リセット
   Edit: 編集
@@ -345,10 +345,10 @@ Common:
   DeviceOffsetField:
     Calibrate: 補正
   MultiField:
-    Selected: "{0} Selected"
-    AllSelected: All Selected
-    SelectAll: Select All
-    SelectNone: Select None
+    Selected: "選択中：{0}個"
+    AllSelected: "選択中：すべて"
+    SelectAll: 全選択
+    SelectNone: 全解除
   PullToLoad:
     None: この先には何もありません
     More: もっと読み込む
@@ -418,11 +418,10 @@ Common:
       OutInElastic: Elastic (Out In)
       None: なし
   AutoExit:
-    Title: Auto Exit
-    Description: Automatically exit gameplay when a certain grade can no longer be
-      achieved.
+    Title: 自動終了
+    Description: 特定のグレードに到達できなくなった時点で自動的に終了します。
     Options:
-      'Off': 'Off'
+      "Off": オフ
       Pass: Pass
       FullCombo: Full Combo
       AllPerfect: All Perfect
@@ -457,16 +456,16 @@ Clients:
 
         ユーザー ID が正しいか、およびインターネット接続を確認してもう一度お試しください。
     Login:
-      Loading: サインイン中...
+      Loading: ログイン中...
       Error: |-
-        サインインできませんでした。
+        ログインできませんでした。
 
         インターネット接続を確認して、もう一度お試しください。
       Success:
         New:
-          Title: サインインしました
+          Title: ログインしました
         Old:
-          Title: サインインしました
+          Title: ログインしました
     EditName:
       Loading: 名前を変更中...
       Error: |-
@@ -508,11 +507,11 @@ Clients:
       Success:
         Title: 完了
     Authenticate:
-      Loading: Requesting Sonolus authentication...
+      Loading: Sonolus認証をリクエスト中...
       Error: |-
-        Failed to request authentication from Sonolus.
+        Sonolus認証に失敗しました。
 
-        Please check your internet connection and try again, or contact Sonolus to report the problem.
+        インターネット接続を確認してもう一度お試しください。
     Logout:
       Loading: サインアウト中...
       Error: |-
@@ -534,48 +533,48 @@ Clients:
       Required:
         NotLoggedInError:
           Description: |-
-            This server requires sign in but you are not signed in with a Sonolus account.
+            このサーバーはログインが必要ですが、Sonolusアカウントでログインしていません。
 
-            Please sign in with your Sonolus account first and try again.
+            Sonolusアカウントでログインしてからもう一度お試しください。
         Confirmation:
           Description: |-
-            This server requires sign in.
+            このサーバーはログインが必要です。
 
-            Sign in as "{0}" and continue?
+            {0} としてログインして続行しますか？
       Expired:
         Description: |-
-          Your session has expired.
+          セッションの有効期限が切れました。
 
-          Sign in as "{0}" again and continue?
+          {0} としてログインして続行しますか？
       Rejected:
         Description: |-
-          Your session was rejected by the server.
+          サーバーはログインを拒否しました。
 
-          Sign in as "{0}" again and continue?
+          もう一度 {0} としてログインして続行しますか？
       Login:
-        Loading: Signing in...
+        Loading: ログイン中...
         Error: |-
-          Failed to sign in to "{0}".
+          {0} にログインできませんでした。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Multiplayer:
       NotLoggedInError:
         Description: |-
-          Multiplayer requires sign in but you are not signed in with a Sonolus account.
+          マルチプレイに参加するにはログインが必要ですが、Sonolusアカウントでログインしていません。
 
-          Please sign in with your Sonolus account first and try again.
+          Sonolusアカウントでログインしてからもう一度お試しください。
       CreateRoom:
-        Loading: Creating room...
+        Loading: 部屋を作成中...
         Error: |-
-          Failed to create room in "{0}".
+          {0} に部屋を作成できませんでした。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       JoinRoom:
-        Loading: Joining room...
+        Loading: 部屋に参加中...
         Error: |-
-          Failed to join room "{0}".
+          部屋 "{0}" に参加できませんでした。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Server:
       Info:
         Loading: サーバー情報を読み込み中...
@@ -588,76 +587,76 @@ Clients:
         Error: |-
           "{0}" のサーバー バナーを読み込めませんでした。
 
-          インターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Post:
       Info:
-        Loading: Loading posts info...
+        Loading: 投稿情報を読み込み中...
         Error: |-
-          Failed to load posts info of "{0}".
+          "{0}" の投稿情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
-        Loading: Loading posts...
+        Loading: 投稿一覧を読み込み中...
         Error: |-
-          Failed to load posts at page {0}.
+          {0}ページ目の投稿一覧の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Details:
-        Loading: Loading post details...
+        Loading: 投稿詳細を読み込み中...
         Error: |-
-          Failed to load post details of "{0}".
+          "{0}" の投稿詳細の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Compatibility:
-        Loading: Checking post compatibility...
+        Loading: 投稿の互換性を確認中...
         Error: |-
-          Post "{0}" is not compatible with current Sonolus version.
+          投稿 "{0}" は現在のSonolusバージョンと互換性がありません。
 
-          Please use a different post, or contact server owner to report the problem.
+          別の投稿を選択するか、サーバーの管理者にお問い合わせ下さい。
       Thumbnail:
-        Loading: Loading post thumbnail...
+        Loading: 投稿サムネイルを読み込み中...
         Error: |-
-          Failed to load post thumbnail of "{0}".
+          "{0}" の投稿サムネイルの読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Playlist:
       Info:
-        Loading: Loading playlists info...
+        Loading: プレイリスト情報を読み込み中...
         Error: |-
-          Failed to load playlists info of "{0}".
+          "{0}" のプレイリスト情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
-        Loading: Loading playlists...
+        Loading: プレイリストを読み込み中...
         Error: |-
-          Failed to load playlists at page {0}.
+          "{0}" のプレイリストの読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Details:
-        Loading: Loading playlist details...
+        Loading: プレイリストの詳細を読み込み中...
         Error: |-
-          Failed to load playlist details of "{0}".
+          "{0}" のプレイリスト詳細の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Compatibility:
-        Loading: Checking playlist compatibility...
+        Loading: プレイリストの互換性を確認中...
         Error: |-
-          Playlist "{0}" is not compatible with current Sonolus version.
+          プレイリスト "{0}" は現在のSonolusバージョンと互換性がありません。
 
-          Please use a different playlist, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Thumbnail:
-        Loading: Loading playlist thumbnail...
+        Loading: プレイリストサムネイルを読み込み中...
         Error: |-
-          Failed to load playlist thumbnail of "{0}".
+          "{0}" のプレイリストサムネイルの読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Level:
       Info:
-        Loading: Loading levels info...
+        Loading: レベル情報を読み込み中...
         Error: |-
-          Failed to load levels info of "{0}".
+          "{0}" のレベル情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
         Loading: レベル一覧を読み込み中...
         Error: |-
@@ -702,11 +701,11 @@ Clients:
           インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Skin:
       Info:
-        Loading: Loading skins info...
+        Loading: スキン情報を読み込み中...
         Error: |-
-          Failed to load skins info of "{0}".
+          "{0}"のスキン情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
         Loading: スキン一覧を読み込み中...
         Error: |-
@@ -745,11 +744,11 @@ Clients:
           インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Background:
       Info:
-        Loading: Loading backgrounds info...
+        Loading: 背景情報を読み込み中...
         Error: |-
-          Failed to load backgrounds info of "{0}".
+          "{0}"の背景情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
         Loading: 背景一覧を読み込み中...
         Error: |-
@@ -794,11 +793,11 @@ Clients:
           インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Effect:
       Info:
-        Loading: Loading SFX info...
+        Loading: SE情報を読み込み中...
         Error: |-
-          Failed to load SFX info of "{0}".
+          "{0}"のSE情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合せ下さい。
       List:
         Loading: SE一覧を読み込み中...
         Error: |-
@@ -837,11 +836,11 @@ Clients:
           インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Particle:
       Info:
-        Loading: Loading particles info...
+        Loading: パーティクル情報を読み込み中...
         Error: |-
-          Failed to load particles info of "{0}".
+          "{0}"のパーティクル情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
         Loading: パーティクル一覧を読み込み中...
         Error: |-
@@ -880,11 +879,11 @@ Clients:
           インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Engine:
       Info:
-        Loading: Loading engines info...
+        Loading: エンジン情報を読み込み中...
         Error: |-
-          Failed to load engines info of "{0}".
+          "{0}"のエンジン情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
         Loading: エンジン一覧を読み込み中...
         Error: |-
@@ -947,84 +946,84 @@ Clients:
           インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Replay:
       Info:
-        Loading: Loading replays info...
+        Loading: リプレイ情報を読み込み中...
         Error: |-
-          Failed to load replays info of "{0}".
+          "{0}"のリプレイ情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
-        Loading: Loading replays...
+        Loading: リプレイ一覧を読み込み中...
         Error: |-
-          Failed to load replays at page {0}.
+          {0}ページ目のリプレイ一覧の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Details:
-        Loading: Loading replay details...
+        Loading: リプレイ情報を読み込み中...
         Error: |-
-          Failed to load replay details of "{0}".
+          "{0}"のリプレイ情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Compatibility:
-        Loading: Checking replay compatibility...
+        Loading: リプレイの互換性を確認中...
         Error: |-
-          Replay "{0}" is not compatible with current Sonolus version.
+          リプレイ "{0}"は現在のSonolusバージョンと互換性がありません。
 
-          Please use a different replay, or contact server owner to report the problem.
+          別のリプレイを使用するか、サーバーの管理者にお問い合わせ下さい。
       Data:
-        Loading: Loading replay data...
+        Loading: リプレイデータを読み込み中...
         Error: |-
-          Failed to load replay data of "{0}".
+          "{0}"のリプレイデータの読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Configuration:
-        Loading: Loading replay configuration...
+        Loading: リプレイ設定を読み込み中...
         Error: |-
-          Failed to load replay configuration of "{0}".
+          "{0}"のリプレイ設定の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
     Room:
       Info:
-        Loading: Loading rooms info...
+        Loading: 部屋情報を読み込み中...
         Error: |-
-          Failed to load rooms info of "{0}".
+          "{0}"の部屋情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       List:
-        Loading: Loading rooms...
+        Loading: 部屋一覧を読み込み中...
         Error: |-
-          Failed to load rooms at page {0}.
+          {0}ページ目の部屋一覧の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Details:
-        Loading: Loading room details...
+        Loading: 部屋情報を読み込み中...
         Error: |-
-          Failed to load room details of "{0}".
+          "{0}"の部屋情報の読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Compatibility:
-        Loading: Checking room compatibility...
+        Loading: 部屋の互換性を確認中...
         Error: |-
-          Room "{0}" is not compatible with current Sonolus version.
+          部屋 "{0}"は現在のSonolusバージョンと互換性がありません。
 
-          Please use a different room, or contact server owner to report the problem.
+          別の部屋を使用するか、サーバーの管理者にお問い合わせ下さい。
       Cover:
-        Loading: Loading room level cover...
+        Loading: レベルカバーを読み込み中...
         Error: |-
-          Failed to load room level cover of "{0}".
+          "{0}"のレベルカバーの読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Bgm:
-        Loading: Loading room level BGM...
+        Loading: レベルBGMを読み込み中...
         Error: |-
-          Failed to load room level BGM of "{0}".
+          "{0}"のレベルBGMの読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
       Preview:
-        Loading: Loading room level preview...
+        Loading: レベルプレビューを読み込み中...
         Error: |-
-          Failed to load room level preview of "{0}".
+          "{0}"のレベルプレビューの読み込みに失敗しました。
 
-          Please check your internet connection and try again, or contact server owner to report the problem.
+          インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
   Collection:
     Server:
       Info:
@@ -1041,73 +1040,73 @@ Clients:
           コレクションが破損している可能性があります。
     Post:
       Info:
-        Loading: Loading posts info...
+        Loading: 投稿情報を読み込み中...
         Error: |-
-          Failed to load posts info of "{0}".
+          "{0}" の投稿情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
-        Loading: Loading posts...
+        Loading: 投稿一覧を読み込み中...
         Error: |-
-          Failed to load posts at page {0}.
+          {0}ページ目の投稿一覧の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       Details:
-        Loading: Loading post details...
+        Loading: 投稿詳細を読み込み中...
         Error: |-
-          Failed to load post details of "{0}".
+          "{0}" の投稿詳細の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       Compatibility:
-        Loading: Checking post compatibility...
+        Loading: 投稿の互換性を確認中...
         Error: |-
-          Post "{0}" is not compatible with current Sonolus version.
+          投稿 "{0}" は現在のSonolusバージョンと互換性がありません。
 
-          Please update this post, or use a different post.
+          この投稿を更新するか、別の投稿を使用してください。
       Thumbnail:
-        Loading: Loading post thumbnail...
+        Loading: 投稿サムネイルを読み込み中...
         Error: |-
-          Failed to load post thumbnail of "{0}".
+          "{0}" の投稿サムネイルの読み込みに失敗しました。
 
-          Please update this post, or use a different post.
+          この投稿を更新するか、別の投稿を使用してください。
     Playlist:
       Info:
-        Loading: Loading playlists info...
+        Loading: プレイリスト情報を読み込み中...
         Error: |-
-          Failed to load playlists info of "{0}".
+          "{0}" のプレイリスト情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
-        Loading: Loading playlists...
+        Loading: プレイリスト一覧を読み込み中...
         Error: |-
-          Failed to load playlists at page {0}.
+          {0}ページ目のプレイリスト一覧の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       Details:
-        Loading: Loading playlist details...
+        Loading: プレイリスト詳細を読み込み中...
         Error: |-
-          Failed to load playlist details of "{0}".
+          "{0}" のプレイリスト詳細の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       Compatibility:
-        Loading: Checking playlist compatibility...
+        Loading: プレイリストの互換性を確認中...
         Error: |-
-          Playlist "{0}" is not compatible with current Sonolus version.
+          プレイリスト "{0}" は現在のSonolusバージョンと互換性がありません。
 
-          Please update this playlist, or use a different playlist.
+          このプレイリストを更新するか、別のプレイリストを使用してください。
       Thumbnail:
-        Loading: Loading playlist thumbnail...
+        Loading: プレイリストサムネイルを読み込み中...
         Error: |-
-          Failed to load playlist thumbnail of "{0}".
+          "{0}" のプレイリストサムネイルの読み込みに失敗しました。
 
-          Please update this playlist, or use a different playlist.
+          このプレイリストを更新するか、別のプレイリストを使用してください。
     Level:
       Info:
-        Loading: Loading levels info...
+        Loading: レベル情報を読み込み中...
         Error: |-
-          Failed to load levels info of "{0}".
+          "{0}"のレベル情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
         Loading: レベル一覧を読み込み中...
         Error: |-
@@ -1152,11 +1151,11 @@ Clients:
           更新を押して最新版を取得し直すか、別のレベルをご利用ください。
     Skin:
       Info:
-        Loading: Loading skins info...
+        Loading: スキン情報を読み込み中...
         Error: |-
-          Failed to load skins info of "{0}".
+          "{0}"のスキン情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
         Loading: スキン一覧を読み込み中...
         Error: |-
@@ -1195,11 +1194,11 @@ Clients:
           更新を押して最新版を取得し直すか、別のスキンをご利用ください。
     Background:
       Info:
-        Loading: Loading backgrounds info...
+        Loading: 背景情報を読み込み中...
         Error: |-
-          Failed to load backgrounds info of "{0}".
+          "{0}"の背景情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
         Loading: 背景一覧を読み込み中...
         Error: |-
@@ -1244,11 +1243,11 @@ Clients:
           更新を押して最新版を取得し直すか、別の背景をご利用ください。
     Effect:
       Info:
-        Loading: Loading SFX info...
+        Loading: SE情報を読み込み中...
         Error: |-
-          Failed to load SFX info of "{0}".
+          "{0}"のSE情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
         Loading: SE一覧を読み込み中...
         Error: |-
@@ -1287,11 +1286,11 @@ Clients:
           更新を押して最新版を取得し直すか、別のSEをご利用ください。
     Particle:
       Info:
-        Loading: Loading particles info...
+        Loading: パーティクル情報を読み込み中...
         Error: |-
-          Failed to load particles info of "{0}".
+          "{0}"のパーティクル情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
         Loading: パーティクル一覧を読み込み中...
         Error: |-
@@ -1330,11 +1329,11 @@ Clients:
           更新を押して最新版を取得し直すか、別のパーティクルをご利用ください。
     Engine:
       Info:
-        Loading: Loading engines info...
+        Loading: エンジン情報を読み込み中...
         Error: |-
-          Failed to load engines info of "{0}".
+          "{0}"のエンジン情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
         Loading: エンジン一覧を読み込み中...
         Error: |-
@@ -1397,60 +1396,60 @@ Clients:
           更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。
     Replay:
       Info:
-        Loading: Loading replays info...
+        Loading: リプレイ情報を読み込み中...
         Error: |-
-          Failed to load replays info of "{0}".
+          "{0}"のリプレイ情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
-        Loading: Loading replays...
+        Loading: リプレイ一覧を読み込み中...
         Error: |-
-          Failed to load replays at page {0}.
+          {0}ページ目のリプレイ一覧の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       Details:
-        Loading: Loading replay details...
+        Loading: リプレイ情報を読み込み中...
         Error: |-
-          Failed to load replay details of "{0}".
+          "{0}"のリプレイ情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       Compatibility:
-        Loading: Checking replay compatibility...
+        Loading: リプレイの互換性を確認中...
         Error: |-
-          Replay "{0}" is not compatible with current Sonolus version.
+          リプレイ "{0}"は現在のSonolusバージョンと互換性がありません。
 
-          Please update this replay, or use a different replay.
+          更新を押して最新版を取得し直すか、別のリプレイをご利用ください。
       Data:
-        Loading: Loading replay data...
+        Loading: リプレイデータを読み込み中...
         Error: |-
-          Failed to load replay data of "{0}".
+          "{0}"のリプレイデータの読み込みに失敗しました。
 
-          Please update this replay, or use a different replay.
+          更新を押して最新版を取得し直すか、別のリプレイをご利用ください。
       Configuration:
-        Loading: Loading replay configuration...
+        Loading: リプレイ設定を読み込み中...
         Error: |-
-          Failed to load replay configuration of "{0}".
+          "{0}"のリプレイ設定の読み込みに失敗しました。
 
-          Please update this replay, or use a different replay.
+          更新を押して最新版を取得し直すか、別のリプレイをご利用ください。
     Room:
       Info:
-        Loading: Loading rooms info...
+        Loading: 部屋情報を読み込み中...
         Error: |-
-          Failed to load rooms info of "{0}".
+          "{0}"の部屋情報の読み込みに失敗しました。
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       List:
-        Loading: Loading rooms...
+        Loading: 部屋一覧を読み込み中...
         Error: |-
           Failed to load rooms at page {0}.
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       Details:
         Loading: Loading room details...
         Error: |-
           Failed to load room details of "{0}".
 
-          Your collection may be corrupted.
+          コレクションが破損している可能性があります。
       Compatibility:
         Loading: Checking room compatibility...
         Error: |-
@@ -2012,104 +2011,122 @@ Routes:
       Description: カスタム サーバーまたはコレクションを選択して開始します。
     ToSave:
       Post:
-        Title: Save Post
-        Description: Select a collection to save this post to.
+        Title: 投稿の保存
+        Description: この投稿を保存するコレクションを選択してください。
+
       Playlist:
-        Title: Save Playlist
-        Description: Select a collection to save this playlist to.
+        Title: プレイリストの保存
+        Description: このプレイリストを保存するコレクションを選択してください。
+
       Level:
         Title: レベルの保存
-        Description: このレベルの保存先コレクションを選択してください。
+        Description: このレベルを保存するコレクションを選択してください。
+
       Skin:
         Title: スキンの保存
-        Description: このスキンの保存先コレクションを選択してください。
+        Description: このスキンを保存するコレクションを選択してください。
+
       Background:
         Title: 背景の保存
-        Description: この背景の保存先コレクションを選択してください。
+        Description: この背景を保存するコレクションを選択してください。
+
       Effect:
         Title: 効果音の保存
-        Description: この効果音の保存先コレクションを選択してください。
+        Description: この効果音を保存するコレクションを選択してください。
+
       Particle:
         Title: パーティクルの保存
-        Description: このパーティクルの保存先コレクションを選択してください。
+        Description: このパーティクルを保存するコレクションを選択してください。
+
       Engine:
         Title: エンジンの保存
-        Description: このエンジンの保存先コレクションを選択してください。
+        Description: このエンジンを保存するコレクションを選択してください。
+
       Replay:
-        Title: Save Replay
-        Description: Select a collection to save this replay to.
+        Title: リプレイの保存
+        Description: このリプレイを保存するコレクションを選択してください。
+
       Room:
-        Title: Save Room
-        Description: Select a collection to save this room to.
+        Title: 部屋の保存
+        Description: この部屋を保存するコレクションを選択してください。
     ToCreate:
       Post:
-        Title: Create Post
-        Description: Select a collection to create this post.
+        Title: 投稿の作成
+        Description: この投稿を作成するコレクションを選択してください。
+
       Playlist:
-        Title: Create Playlist
-        Description: Select a collection to create this playlist.
+        Title: プレイリストの作成
+        Description: このプレイリストを作成するコレクションを選択してください。
+
       Level:
-        Title: Create Level
-        Description: Select a collection to create this level.
+        Title: レベルの作成
+        Description: このレベルを作成するコレクションを選択してください。
+
       Skin:
-        Title: Create Skin
-        Description: Select a collection to create this skin.
+        Title: スキンの作成
+        Description: このスキンを作成するコレクションを選択してください。
+
       Background:
-        Title: Create Background
-        Description: Select a collection to create this background.
+        Title: 背景の作成
+        Description: この背景を作成するコレクションを選択してください。
+
       Effect:
-        Title: Create Effect
-        Description: Select a collection to create this effect.
+        Title: 効果音の作成
+        Description: この効果音を作成するコレクションを選択してください。
+
       Particle:
-        Title: Create Particle
-        Description: Select a collection to create this particle.
+        Title: パーティクルの作成
+        Description: このパーティクルを作成するコレクションを選択してください。
+
       Engine:
-        Title: Create Engine
-        Description: Select a collection to create this engine.
+        Title: エンジンの作成
+        Description: このエンジンを作成するコレクションを選択してください。
+
       Replay:
-        Title: Create Replay
-        Description: Select a collection to create this replay.
+        Title: リプレイの作成
+        Description: このリプレイを作成するコレクションを選択してください。
+
       Room:
-        Title: Create Room
-        Description: Select a collection to create this room.
+        Title: 部屋の作成
+        Description: この部屋を作成するコレクションを選択してください。
     ToUse:
-      Post:
-        Title: Select Post
-        Description: Select a custom server or collection to use its posts.
-      Playlist:
-        Title: Select Playlist
-        Description: Select a custom server or collection to use its playlists.
-      Level:
-        Title: レベルの選択
-        Description: 使用したいレベルのある、カスタムサーバーまたはコレクションを選択してください。
-      Skin:
-        Title: スキンの選択
-        Description: 使いたいスキンのあるカスタム サーバーまたはコレクションを選択してください。
-      Background:
-        Title: 背景の選択
-        Description: 使いたい背景のあるカスタム サーバーまたはコレクションを選択してください。
-      Effect:
-        Title: 効果音の選択
-        Description: 使用したい効果音のある、カスタムサーバーまたはコレクションを選択してください。
-      Particle:
-        Title: パーティクルの選択
-        Description: 使用したいパーティクルのある、カスタムサーバーまたはコレクションを選択してください。
-      Engine:
-        Title: エンジンの選択
-        Description: 使用したいエンジンのある、カスタムサーバーまたはコレクションを選択してください。
-      Replay:
-        Title: Select Replay
-        Description: Select a custom server or collection to use its replays.
-      Room:
-        Title: Select Room
-        Description: Select a custom server or collection to use its rooms.
+    Post:
+      Title: 投稿の選択
+      Description: 使いたい投稿のあるカスタムサーバーまたはコレクションを選択してください。
+    Playlist:
+      Title: プレイリストの選択
+      Description: 使いたいプレイリストのあるカスタムサーバーまたはコレクションを選択してください。
+    Level:
+      Title: レベルの選択
+      Description: 使いたいレベルのあるカスタムサーバーまたはコレクションを選択してください。
+    Skin:
+      Title: スキンの選択
+      Description: 使いたいスキンのあるカスタムサーバーまたはコレクションを選択してください。
+    Background:
+      Title: 背景の選択
+      Description: 使いたい背景のあるカスタムサーバーまたはコレクションを選択してください。
+    Effect:
+      Title: 効果音の選択
+      Description: 使いたい効果音のあるカスタムサーバーまたはコレクションを選択してください。
+    Particle:
+      Title: パーティクルの選択
+      Description: 使いたいパーティクルのあるカスタムサーバーまたはコレクションを選択してください。
+    Engine:
+      Title: エンジンの選択
+      Description: 使いたいエンジンのあるカスタムサーバーまたはコレクションを選択してください。
+    Replay:
+      Title: リプレイの選択
+      Description: 使いたいリプレイのあるカスタムサーバーまたはコレクションを選択してください。
+    Room:
+      Title: 部屋の選択
+      Description: 使いたい部屋のあるカスタムサーバーまたはコレクションを選択してください。
     ToAddFavorite:
       Post:
-        Title: Add Favorite Post
-        Description: Select a custom server to add its posts to favorite.
+        Title: お気に入り投稿の追加
+        Description: お気に入りに追加したい投稿がある、カスタムサーバーを選択してください。
       Playlist:
-        Title: Add Favorite Playlist
-        Description: Select a custom server to add its playlists to favorite.
+        Title: お気に入りプレイリストの追加
+        Description: お気に入りに追加したいプレイリストがある、カスタムサーバーを選択してください。
       Level:
         Title: お気に入りレベルの追加
         Description: お気に入りに追加したいレベルがある、カスタムサーバーを選択してください。
@@ -2129,11 +2146,11 @@ Routes:
         Title: お気に入りエンジンの追加
         Description: お気に入りに追加したいエンジンがある、カスタムサーバーを選択してください。
       Replay:
-        Title: Add Favorite Replay
-        Description: Select a custom server to add its replays to favorite.
+        Title: お気に入りリプレイの追加
+        Description: お気に入りに追加したいリプレイがある、カスタムサーバーを選択してください。
       Room:
-        Title: Add Favorite Room
-        Description: Select a custom server to add its rooms to favorite.
+        Title: お気に入り部屋の追加
+        Description: お気に入りに追加したい部屋がある、カスタムサーバーを選択してください。
   EditCustomServer:
     Title: カスタムサーバーの編集
   AddCustomServerAddress:
@@ -2166,18 +2183,18 @@ Routes:
     Success:
       Title: パッケージを読み込みました。
   ExportScpConfiguration:
-    Title: Export Configuration
+    Title: パッケージ設定
     Mode:
-      Title: Mode
+      Title: モード
       Description: |-
-        Recommend to use standard mode.
+        推奨：標準
 
-        An item with source can be exported as a link to the source, greatly reducing the package size at the cost of requiring internet connection when importing.
-        Standard mode exports items with sources as links, and items without sources fully. Source only mode exports only items with sources as links. Full mode exports all items fully.
+        ソースを持つアイテムはソースのリンクとして書き出され、パッケージサイズを大幅に削減しますが、インポート時にインターネット接続が必要です。
+        標準モードはソースを持つアイテムをリンクとして書き出し、ソースのないアイテムを完全に書き出します。ソースのみモードはソースを持つアイテムのみをリンクとして書き出します。フルモードはすべてのアイテムを完全に書き出します。
       Options:
-        Standard: Standard
-        SourceOnly: Source Only
-        Full: Full
+        Standard: 標準
+        SourceOnly: ソースのみ
+        Full: フル
   ExportScp:
     Success:
       Title: パッケージを書き出しました。
@@ -2251,9 +2268,9 @@ Routes:
     MyAccount:
       Title: マイアカウント
       Login:
-        Apple: Apple でサインイン
-        Google: Google でサインイン
-        Wechat: WeChat でサインイン
+        Apple: Apple でログイン
+        Google: Google でログイン
+        Wechat: WeChat でログイン
       Profile: プロフィール
       Logout: サインアウト
   UserProfile:
@@ -2314,23 +2331,23 @@ Routes:
       Effect: 効果音
       Particle: パーティクル
       Engine: エンジン
-      Replay: Replay
-      Room: Room
+      Replay: リプレイ
+      Room: 部屋
   Server:
     Home:
-      Login: Sign In
-      Logout: Sign Out
-      Multiplayer: Multiplayer
-      Post: Posts
-      Playlist: Playlists
-      Level: Levels
-      Skin: Skins
-      Background: Backgrounds
-      Effect: SFX
-      Particle: Particles
-      Engine: Engines
-      Replay: Replays
-      Room: Rooms
+      Login: ログイン
+      Logout: ログアウト
+      Multiplayer: マルチプレイ
+      Post: 投稿
+      Playlist: プレイリスト
+      Level: レベル
+      Skin: スキン
+      Background: 背景
+      Effect: SE
+      Particle: パーティクル
+      Engine: エンジン
+      Replay: リプレイ
+      Room: 部屋
       SaveSuccess:
         Title: サーバーを保存しました
       ShareSuccess:
@@ -2338,47 +2355,46 @@ Routes:
     Search:
       Title: 検索
     Infos:
-      More: More
-      Advanced: Advanced
+      More: もっと見る
+      Advanced: 高度
       Post:
-        Title: Posts
+        Title: 投稿
       Playlist:
-        Title: Playlists
+        Title: プレイリスト
       Level:
-        Title: Levels
+        Title: レベル
       Skin:
-        Title: Skins
+        Title: スキン
       Background:
-        Title: Backgrounds
+        Title: 背景
       Effect:
-        Title: SFX
+        Title: SE
       Particle:
-        Title: Particles
+        Title: パーティクル
       Engine:
-        Title: Engines
+        Title: エンジン
       Replay:
-        Title: Replays
+        Title: リプレイ
       Room:
-        Title: Rooms
-        Create: Create
+        Title: 部屋
+        Create: 部屋を作成
         CreateRoom:
-          Title: Create Room
-          Description: Creating room "{0}", you can invite others to play together
-            by sharing the room link.
+          Title: 部屋を作成
+          Description: 部屋 "{0}" を作成しました。部屋リンクを共有して他のプレイヤーを招待できます。
           ShareSuccess:
-            Title: Room Link Copied
+            Title: 部屋リンクをコピーしました。
     Lists:
       SearchOption: "{0}：{1}"
       DeleteConfirmation:
         Description: "「{0}」を削除してもよろしいですか?"
       Post:
-        Title: Posts
+        Title: 投稿一覧
         ShareSuccess:
-          Title: Posts Link Copied
+          Title: 投稿のリンクをコピーしました。
       Playlist:
-        Title: Playlists
+        Title: プレイリスト一覧
         ShareSuccess:
-          Title: Playlists Link Copied
+          Title: プレイリストのリンクをコピーしました。
       Level:
         Title: レベル一覧
         ShareSuccess:
@@ -2404,32 +2420,32 @@ Routes:
         ShareSuccess:
           Title: エンジン一覧のリンクをコピーしました
       Replay:
-        Title: Replays
+        Title: リプレイ一覧
         ShareSuccess:
-          Title: Replays Link Copied
+          Title: リプレイ一覧のリンクをコピーしました
       Room:
-        Title: Rooms
+        Title: 部屋一覧
         ShareSuccess:
-          Title: Rooms Link Copied
+          Title: 部屋一覧のリンクをコピーしました
     Details:
       Actions:
         Configuration: 設定
       DeleteConfirmation:
         Description: "「{0}」を削除してもよろしいですか?"
       Tags:
-        Title: Tags
+        Title: タグ
       Description:
         Title: 説明文
       Post:
         ShareSuccess:
-          Title: Post Link Copied
+          Title: 投稿のリンクをコピーしました
       Playlist:
         Actions:
-          Play: Play
+          Play: プレイ
         ShareSuccess:
-          Title: Playlist Link Copied
+          Title: プレイリストのリンクをコピーしました
         Levels:
-          Title: Levels
+          Title: レベル一覧
       Level:
         Actions:
           Play: プレイ
@@ -2539,38 +2555,38 @@ Routes:
           Title: エンジンのリンクをコピーしました
       Replay:
         Actions:
-          Watch: Watch
+          Watch: 再生
         Watch:
           Effect:
             Audio:
-              Loading: Decoding SFX audio...
+              Loading: 効果音をデコード中...
               Error: |-
-                Failed to decode SFX audio of "{0}".
+                効果音 "{0}"のデコードに失敗しました。
 
-                Please contact SFX author to report the problem.
+                効果音の作者にご連絡ください。
           Level:
             Bgm:
-              Loading: Decoding level BGM...
+              Loading: レベルBGMをデコード中...
               Error: |-
-                Failed to decode level BGM of "{0}".
+                レベルBGM "{0}"のデコードに失敗しました。
 
-                Please contact level author to report the problem.
+                レベルの作者にご連絡ください。
           Boot:
-            Loading: Booting replay...
+            Loading: リプレイを開始中...
             Error: |-
-              Failed to boot replay "{0}".
+              リプレイ "{0}"の開始に失敗しました。
 
-              Please contact replay author to report the problem.
+              リプレイの作者にご連絡ください。
         ShareSuccess:
-          Title: Replay Link Copied
+          Title: リプレイのリンクをコピーしました
       Room:
         ShareSuccess:
-          Title: Room Link Copied
+          Title: 部屋のリンクをコピーしました
     Configurations:
       Post:
-        Title: Post Configuration
+        Title: 投稿設定
       Playlist:
-        Title: Playlist Configuration
+        Title: プレイリスト設定
       Level:
         Title: レベル設定
         Offsets:
@@ -2663,16 +2679,16 @@ Routes:
               このエンジンだけ入力が遅れている時に使います。
               入力が遅れている時はプラス、早い時はマイナスに調整して下さい。
       Replay:
-        Title: Replay Configuration
+        Title: リプレイ設定
       Room:
-        Title: Room Configuration
+        Title: 部屋設定
     Savers:
       Post:
         Success:
-          Title: Post Saved
+          Title: 投稿を保存しました
       Playlist:
         Success:
-          Title: Playlist Saved
+          Title: プレイリストを保存しました
       Level:
         Success:
           Title: レベルを保存しました
@@ -2693,233 +2709,235 @@ Routes:
           Title: エンジンを保存しました
       Replay:
         Success:
-          Title: Replay Saved
+          Title: リプレイを保存しました
       Room:
         Success:
-          Title: Room Saved
+          Title: 部屋を保存しました
     Updaters:
       Post:
         Success:
-          Title: Post Updated
+          Title: 投稿を更新しました
       Playlist:
         Success:
-          Title: Playlist Updated
+          Title: プレイリストを更新しました
       Level:
         Success:
-          Title: Level Updated
+          Title: レベルを更新しました
       Skin:
         Success:
-          Title: Skin Updated
+          Title: スキンを更新しました
       Background:
         Success:
-          Title: Background Updated
+          Title: 背景を更新しました
       Effect:
         Success:
-          Title: Effect Updated
+          Title: 効果音を更新しました
       Particle:
         Success:
-          Title: Particle Updated
+          Title: パーティクルを更新しました
       Engine:
         Success:
-          Title: Engine Updated
+          Title: エンジンを更新しました
       Replay:
         Success:
-          Title: Replay Updated
+          Title: リプレイを更新しました
       Room:
         Success:
-          Title: Room Updated
+          Title: 部屋を更新しました
+
     CreateInfos:
       Post:
-        Title: Post Info
+        Title: 投稿情報
       Playlist:
-        Title: Playlist Info
+        Title: プレイリスト情報
       Level:
-        Title: Level Info
+        Title: レベル情報
       Skin:
-        Title: Skin Info
+        Title: スキン情報
       Background:
-        Title: Background Info
+        Title: 背景情報
       Effect:
-        Title: Effect Info
+        Title: 効果音情報
       Particle:
-        Title: Particle Info
+        Title: パーティクル情報
       Engine:
-        Title: Engine Info
+        Title: エンジン情報
       Replay:
-        Title: Replay Info
+        Title: リプレイ情報
         Info:
           Title:
-            Title: Title
-            Description: Title of the replay
-            Placeholder: Enter replay title...
+            Title: タイトル
+            Description: リプレイのタイトル
+            Placeholder: リプレイのタイトルを入力してください...
           Subtitle:
-            Title: Subtitle
-            Description: Subtitle of the replay
-            Placeholder: Enter replay subtitle...
+            Title: サブタイトル
+            Description: リプレイのサブタイトル
+            Placeholder: リプレイのサブタイトルを入力してください...
           Description:
-            Title: Description
-            Description: Description of the replay
-            Placeholder: Enter replay description...
+            Title: 説明
+            Description: リプレイの説明
+            Placeholder: リプレイの説明を入力してください...
       Room:
-        Title: Room Info
+        Title: 部屋情報
     Creators:
       Post:
         Success:
-          Title: Post Created
+          Title: 投稿を作成しました
       Playlist:
         Success:
-          Title: Playlist Created
+          Title: プレイリストを作成しました
       Level:
         Success:
-          Title: Level Created
+          Title: レベルを作成しました
       Skin:
         Success:
-          Title: Skin Created
+          Title: スキンを作成しました
       Background:
         Success:
-          Title: Background Created
+          Title: 背景を作成しました
       Effect:
         Success:
-          Title: Effect Created
+          Title: 効果音を作成しました
       Particle:
         Success:
-          Title: Particle Created
+          Title: パーティクルを作成しました
       Engine:
         Success:
-          Title: Engine Created
+          Title: エンジンを作成しました
       Replay:
         Success:
-          Title: Replay Created
+          Title: リプレイを作成しました
       Room:
         Success:
-          Title: Room Created
+          Title: 部屋を作成しました
+
     Multiplayer:
-      Connecting: Connecting...
-      Reconnecting: Reconnecting...
+      Connecting: 接続中...
+      Reconnecting: 再接続中...
       ExitConfirmation:
-        Description: Are you sure to leave the room?
+        Description: 部屋を退出してもよろしいですか？
       Play:
-        NoLevel: No level selected
+        NoLevel: レベルが選択されていません。
         Options:
-          Title: Options
-          NoLevel: No level selected.
+          Title: 設定
+          NoLevel: レベルが選択されていません。
         Selecting:
-          Title: Selecting
+          Title: 選択中
           Description:
-            Lead: You are selecting...
-            Other: "{0} is selecting..."
-            Room: Room is selecting...
+            Lead: 選択権を持っています
+            Other: "{0} が選択中..."
+            Room: システムが選択中...
           Actions:
-            Select: Select
+            Select: 選択
             NoSource: |-
-              This level cannot be selected because it does not have a source server.
+              このレベルにはソースが設定されていないため選択できません。
 
-              Please use a different level, or contact level author to report the problem.
+              他のレベルを選択するか、レベルの作者にお問い合わせください。
             NoOtherServers: |-
-              This level cannot be selected because the room does not allow levels from other servers.
+              このサーバーは他のサーバーからのレベルを許可していないため、このレベルを選択できません。
 
-              Please use a different level.
+              他のレベルを選択してください。
         Preparing:
           Title:
-            Preparing: Preparing
-            Ready: Ready
-            Skipped: Skipped
-          Description: "{0} preparing, {1} ready, {2} skipped..."
+            Preparing: 準備中
+            Ready: 準備完了
+            Skipped: パス
+          Description: "準備中：{0} / 準備完了：{1} / パス：{2}"
           Actions:
-            Configuration: Configuration
-            Ready: Ready
-            Skip: Skip
+            Configuration: 設定
+            Ready: 準備完了
+            Skip: パス
             Start:
-              Title: Start
+              Title: 強制開始
               Confirmation:
                 Description: |-
-                  Are you sure to start?
+                  強制開始しますか？
 
-                  Players that are still preparing will be forced to skip.
+                  まだ準備中のプレイヤーはパス扱いになります。
         Playing:
-          Title: Playing
-          Description: "{0} loading, {1} playing..."
+          Title: プレイ中
+          Description: "読み込み中：{0} / プレイ中：{1}"
           Actions:
             Finish:
-              Title: Finish
+              Title: 強制終了
               Confirmation:
                 Description: |-
-                  Are you sure to finish?
+                  強制終了しますか？
 
-                  Players that are still playing will lose their results.
+                  まだプレイ中のプレイヤーのスコアは無効になります。
       Chat:
-        Title: Chat
+        Title: チャット
         Text:
-          Placeholder: Enter message...
+          Placeholder: メッセージを入力してください...
         Quick:
           Hello:
-            Title: Hello
-            Text: Hello!
+            Title: 挨拶
+            Text: こんにちは！
           Glhf:
-            Title: Glhf
-            Text: Good luck, have fun!
+            Title: 対よろ
+            Text: 対戦よろしくおねがいします！
           Gg:
-            Title: Gg
-            Text: Good game!
+            Title: 対あり
+            Text: 対戦ありがとうございました！
           Ns:
-            Title: Ns
-            Text: Nice score!
+            Title: お疲れ
+            Text: お疲れ様でした！
           Ty:
-            Title: Ty
-            Text: Thank you!
+            Title: ありがとう
+            Text: ありがとう！
         System:
-          Selecting: Selecting...
-          Preparing: Preparing...
-          Playing: Playing...
-          Master: Room master changed to {0}.
-          Lead: Room lead changed to {0}.
-          Options: Room options changed.
-          Level: Level changed to {0}.
-          LevelOptions: Level options changed.
-          AutoExit: Auto exit changed.
+          Selecting: 選択中...
+          Preparing: 準備中...
+          Playing: プレイ中...
+          Master: "{0} が部屋主になりました。"
+          Lead: "曲選択権が {0} に移動しました。"
+          Options: 部屋の設定が変更されました。
+          Level: "{0} が選択されました。"
+          LevelOptions: レベルの設定が変更されました。
+          AutoExit: 自動終了設定が変更されました。
           Connected:
-            Self: Connected.
-            Other: "{0} connected."
-          Disconnected: "{0} disconnected."
+            Self: "接続しました。"
+            Other: "{0} が参加しました。"
+          Disconnected: "{0} が退出しました。"
       Suggestions:
-        Title: Suggestions
+        Title: 提案
         Actions:
-          Lock: Lock
-          Unlock: Unlock
-          Clear: Clear
+          Lock: ロック
+          Unlock: ロック解除
+          Clear: クリア
           NoSource: |-
-            This level cannot be suggested because it does not have a source server.
+            このレベルにはソースが設定されていないため選択できません。
 
-            Please use a different level, or contact level author to report the problem.
+            他のレベルを選択するか、レベルの作者にお問い合わせください。
           NoOtherServers: |-
-            This level cannot be suggested because the room does not allow levels from other servers.
+            このサーバーは他のサーバーからのレベルを許可していないため、このレベルを選択できません。
 
-            Please use a different level.
+            他のレベルを選択してください。
       Scoreboard:
-        Title: Scoreboard
+        Title: スコア
         Actions:
           Reset:
-            Title: Reset
+            Title: リセット
             Confirmation:
-              Description: Are you sure to reset scoreboard?
+              Description: スコアをリセットしますか？
         Result:
-          Title: Result
+          Title: リザルト
       Room:
-        EditOptions: Edit Room Options
+        EditOptions: 部屋の設定
         Players:
-          Title: Players
+          Title: プレイヤー
           UpdateMasterConfirmation:
-            Description: Are you sure to change room master to {0}?
+            Description: "{0} を部屋主にしますか？"
           UpdateLeadConfirmation:
-            Description: Are you sure to change room lead to {0}?
+            Description: "{0} に曲選択権を移動しますか？"
           KickConfirmation:
-            Description: Are you sure to kick {0}?
-          AddedToBlacklistSuccess: Player Blocked
-          RemovedFromBlacklistSuccess: Player Unblocked
+            Description: "{0} をKickしますか？"
+          AddedToBlacklistSuccess: プレイヤーをブロックしました
+          RemovedFromBlacklistSuccess: プレイヤーをブロック解除しました
           Report:
-            Title: Report Player
-            Description: 'Report player {0}:'
-            Success: Player Reported
+            Title: プレイヤーを報告
+            Description: "{0}を報告："
+            Success: プレイヤーを報告しました
   Settings:
     Title: 設定
     Graphics:
@@ -2952,7 +2970,7 @@ Routes:
 
           アンチエイリアスでスプライトの端のノイズを減らすことが出来ますが、パフォーマンスが低下します。
         Options:
-          'Off': オフ
+          "Off": オフ
           TwoX: 2倍
           FourX: 4倍
           EightX: 8倍
@@ -3233,28 +3251,28 @@ Runtimes:
             HasUsedPause: 一時停止使用
             HasUsedSnapshot: 区間練習使用
           Replay:
-            Title: Replay
+            Title: リプレイ
             Description:
-              Normal: Your gameplay was recorded, click Create to create a replay
-                from it.
-              HasUsedPause: Replay cannot be created because pause was used.
-              HasUsedSnapshot: Replay cannot be created because snapshot was used.
-            Create: Create
+              Normal:
+                プレイデータを記録しました。リプレイを作成することができます。
+              HasUsedPause: 一時停止を使用したため、リプレイを作成することができません。
+              HasUsedSnapshot: 区間練習を使用したため、リプレイを作成することができません。
+            Create: 作成
     Result:
-      Title: Result
+      Title: リザルト
       Graphs:
-        Title: Graphs
+        Title: グラフ
         Judgment:
-          Title: Judgment Graph
+          Title: 判定グラフ
         Accuracy:
-          Title: Accuracy Graph
-          AbsValue: Abs Value
-          Mean: Mean
-          StDev: St Dev
-          Min: Min
-          Max: Max
+          Title: 精度グラフ
+          AbsValue: 絶対値
+          Mean: 平均
+          StDev: 標準偏差
+          Min: 最小
+          Max: 最大
         Bucket:
-          Title: Bucket Graph
+          Title: バケットグラフ
   Effect:
     Preview:
       Routes:
