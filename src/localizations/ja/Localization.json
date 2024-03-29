@@ -4,24 +4,24 @@
     "Title": "日本語 (Japanese)"
   },
   "Texts": {
-    "#KEYWORDS": "キーワードを入力してください...",
-    "#NAME": "名称を入力してください...",
-    "#RATING": "難易度を入力してください...",
-    "#RATING_MINIMUM": "最低難易度を入力してください...",
-    "#RATING_MAXIMUM": "最高難易度を入力してください...",
-    "#TITLE": "タイトルを入力してください...",
-    "#SUBTITLE": "サブタイトルを入力してください...",
-    "#ARTISTS": "アーティスト名を入力してください...",
-    "#AUTHOR": "作者名を入力してください...",
-    "#GENRE": "ジャンル名を入力してください...",
-    "#CATEGORY": "カテゴリ名を入力してください...",
-    "#LANGUAGE": "言語を入力してください...",
-    "#DIFFICULTY": "難易度を入力してください...",
-    "#VERSIONS": "Version",
-    "#LENGTH": "曲の長さを入力してください...",
-    "#LENGTH_MINIMUM": "最短曲長を入力してください...",
-    "#LENGTH_MAXIMUM": "最長曲長を入力してください...",
-    "#ADDITIONAL_INFORMATION": "Additional Information",
+    "#KEYWORDS": "キーワード",
+    "#NAME": "名称",
+    "#RATING": "難易度",
+    "#RATING_MINIMUM": "最低難易度",
+    "#RATING_MAXIMUM": "最高難易度",
+    "#TITLE": "タイトル",
+    "#SUBTITLE": "サブタイトル",
+    "#ARTISTS": "アーティスト名",
+    "#AUTHOR": "作者名",
+    "#GENRE": "ジャンル名",
+    "#CATEGORY": "カテゴリ名",
+    "#LANGUAGE": "言語",
+    "#DIFFICULTY": "難易度",
+    "#VERSIONS": "バージョン",
+    "#LENGTH": "曲の長さ",
+    "#LENGTH_MINIMUM": "最短曲長",
+    "#LENGTH_MAXIMUM": "最長曲長",
+    "#ADDITIONAL_INFORMATION": "追加情報",
     "#SPEED": "レベル再生速度",
     "#MIRROR": "レベルを反転",
     "#RANDOM": "ランダム",
@@ -152,23 +152,23 @@
     "#PRO": "Pro",
     "#TECHNICAL": "Technical",
     "#SPECIAL": "Special",
-    "#KEYWORDS_PLACEHOLDER": "Enter keywords...",
-    "#NAME_PLACEHOLDER": "Enter name...",
-    "#RATING_PLACEHOLDER": "Enter rating...",
-    "#RATING_MINIMUM_PLACEHOLDER": "Enter minimum rating...",
-    "#RATING_MAXIMUM_PLACEHOLDER": "Enter maximum rating...",
-    "#TITLE_PLACEHOLDER": "Enter title...",
-    "#SUBTITLE_PLACEHOLDER": "Enter subtitle...",
-    "#ARTISTS_PLACEHOLDER": "Enter artists...",
-    "#AUTHOR_PLACEHOLDER": "Enter author...",
-    "#GENRE_PLACEHOLDER": "Enter genre...",
-    "#CATEGORY_PLACEHOLDER": "Enter category...",
-    "#LANGUAGE_PLACEHOLDER": "Enter language...",
-    "#DIFFICULTY_PLACEHOLDER": "Enter difficulty...",
-    "#LENGTH_PLACEHOLDER": "Enter length...",
-    "#LENGTH_MINIMUM_PLACEHOLDER": "Enter minimum length...",
-    "#LENGTH_MAXIMUM_PLACEHOLDER": "Enter maximum length...",
-    "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Enter additional information...",
+    "#KEYWORDS_PLACEHOLDER": "キーワードを入力...",
+    "#NAME_PLACEHOLDER": "名称を入力...",
+    "#RATING_PLACEHOLDER": "難易度を入力...",
+    "#RATING_MINIMUM_PLACEHOLDER": "最低難易度を入力...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "最高難易度を入力...",
+    "#TITLE_PLACEHOLDER": "タイトルを入力...",
+    "#SUBTITLE_PLACEHOLDER": "サブタイトルを入力...",
+    "#ARTISTS_PLACEHOLDER": "アーティスト名を入力...",
+    "#AUTHOR_PLACEHOLDER": "作者名を入力...",
+    "#GENRE_PLACEHOLDER": "ジャンル名を入力...",
+    "#CATEGORY_PLACEHOLDER": "カテゴリ名を入力...",
+    "#LANGUAGE_PLACEHOLDER": "言語を入力...",
+    "#DIFFICULTY_PLACEHOLDER": "難易度を入力...",
+    "#LENGTH_PLACEHOLDER": "曲の長さを入力...",
+    "#LENGTH_MINIMUM_PLACEHOLDER": "最短曲長を入力...",
+    "#LENGTH_MAXIMUM_PLACEHOLDER": "最長曲長を入力...",
+    "#ADDITIONAL_INFORMATION_PLACEHOLDER": "追加情報を入力...",
     "#PERCENTAGE_UNIT": "{0}%",
     "#SECOND_UNIT": "{0} s",
     "#MILLISECOND_UNIT": "{0} ms",
@@ -2557,17 +2557,17 @@
             "Title": {
               "Title": "タイトル",
               "Description": "リプレイのタイトル",
-              "Placeholder": "リプレイのタイトルを入力してください..."
+              "Placeholder": "リプレイのタイトルを入力..."
             },
             "Subtitle": {
               "Title": "サブタイトル",
               "Description": "リプレイのサブタイトル",
-              "Placeholder": "リプレイのサブタイトルを入力してください..."
+              "Placeholder": "リプレイのサブタイトルを入力..."
             },
             "Description": {
               "Title": "説明",
               "Description": "リプレイの説明",
-              "Placeholder": "リプレイの説明を入力してください..."
+              "Placeholder": "リプレイの説明を入力..."
             }
           }
         },
@@ -2687,7 +2687,7 @@
         "Chat": {
           "Title": "チャット",
           "Text": {
-            "Placeholder": "メッセージを入力してください..."
+            "Placeholder": "メッセージを入力..."
           },
           "Quick": {
             "Hello": {
@@ -2874,17 +2874,17 @@
         "ReplayTitleTemplate": {
           "Title": "リプレイ：タイトルのテンプレート",
           "Description": "リプレイを作成する際のタイトルのテンプレート。\n\n波括弧で囲まれた区間は対応する値に置き換えられます。",
-          "Placeholder": "タイトルのテンプレートを入力してください..."
+          "Placeholder": "タイトルのテンプレートを入力..."
         },
         "ReplaySubtitleTemplate": {
           "Title": "リプレイ：サブタイトルのテンプレート",
           "Description": "リプレイを作成する際のサブタイトルのテンプレート。\n\n波括弧で囲まれた区間は対応する値に置き換えられます。",
-          "Placeholder": "サブタイトルのテンプレートを入力してください..."
+          "Placeholder": "サブタイトルのテンプレートを入力..."
         },
         "ReplayDescriptionTemplate": {
           "Title": "リプレイ：説明のテンプレート",
           "Description": "リプレイを作成する際の説明のテンプレート。\n\n波括弧で囲まれた区間は対応する値に置き換えられます。",
-          "Placeholder": "説明のテンプレートを入力してください..."
+          "Placeholder": "説明のテンプレートを入力..."
         },
         "ShowReplayTouches": {
           "Title": "リプレイ：タッチ表示",
