@@ -1441,44 +1441,44 @@ Clients:
       List:
         Loading: 部屋一覧を読み込み中...
         Error: |-
-          Failed to load rooms at page {0}.
+          {0}ページ目の部屋一覧の読み込みに失敗しました。
 
           コレクションが破損している可能性があります。
       Details:
-        Loading: Loading room details...
+        Loading: 部屋の詳細を読み込み中...
         Error: |-
-          Failed to load room details of "{0}".
+          {0} の部屋の詳細の読み込みに失敗しました。
 
           コレクションが破損している可能性があります。
       Compatibility:
-        Loading: Checking room compatibility...
+        Loading: 部屋の互換性を確認中...
         Error: |-
-          Room "{0}" is not compatible with current Sonolus version.
+          部屋 "{0}" は現在の Sonolus バージョンと互換性がありません。
 
-          Please update this room, or use a different room.
+          この部屋を更新するか、別の部屋を使用してください。oom.
       Cover:
-        Loading: Loading room level cover...
+        Loading: 部屋のジャケットを読み込み中...
         Error: |-
-          Failed to load room level cover of "{0}".
+          {0} の部屋のジャケットの読み込みに失敗しました。
 
-          Please update this room, or use a different room.
+          この部屋を更新するか、別の部屋を使用してください。oom.
       Bgm:
-        Loading: Loading room level BGM...
+        Loading: レベルのBGMを読み込み中...
         Error: |-
-          Failed to load room level BGM of "{0}".
+          {0} のレベルのBGMの読み込みに失敗しました。
 
-          Please update this room, or use a different room.
+          この部屋を更新するか、別の部屋を使用してください。oom.
       Preview:
-        Loading: Loading room level preview...
+        Loading: レベルのプレビューを読み込み中...
         Error: |-
-          Failed to load room level preview of "{0}".
+          {0} のレベルのプレビューの読み込みに失敗しました。
 
-          Please update this room, or use a different room.
+          この部屋を更新するか、別の部屋を使用してください。oom.
   Scp:
     PackageInfo:
-      Loading: Loading package information...
+      Loading: パッケージの情報を読み込み中...
       Error: |-
-        Failed to load package information of "{0}".
+        {0} のパッケージの情報の読み込みに失敗しました。
 
         Sonolusが未対応のパッケージか、パッケージが破損しています。
     Server:
@@ -1496,71 +1496,71 @@ Clients:
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Post:
       Info:
-        Loading: Loading posts info...
+        Loading: 投稿の情報を読み込み中...
         Error: |-
-          Failed to load posts info of "{0}".
+          {0} の投稿の情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
-        Loading: Loading posts...
+        Loading: 投稿を読み込み中...
         Error: |-
-          Failed to load posts at page {0}.
+          {0}ページ目の投稿一覧の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Details:
-        Loading: Loading post details...
+        Loading: 投稿の詳細を読み込み中...
         Error: |-
-          Failed to load post details of "{0}".
+          {0} の投稿の詳細の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Compatibility:
-        Loading: Checking post compatibility...
+        Loading: 投稿の互換性を確認中...
         Error: |-
-          Post "{0}" is not compatible with current Sonolus version.
+          投稿 "{0}" は現在の Sonolus バージョンと互換性がありません。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Thumbnail:
-        Loading: Loading post thumbnail...
+        Loading: 投稿のサムネイルを読み込み中...
         Error: |-
-          Failed to load post thumbnail of "{0}".
+          {0} の投稿のサムネイルの読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Playlist:
       Info:
-        Loading: Loading playlists info...
+        Loading: プレイリストの情報を読み込み中...
         Error: |-
-          Failed to load playlists info of "{0}".
+          {0} のプレイリストの情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
-        Loading: Loading playlists...
+        Loading: プレイリストを読み込み中...
         Error: |-
-          Failed to load playlists at page {0}.
+          {0}ページ目のプレイリスト一覧の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Details:
-        Loading: Loading playlist details...
+        Loading: プレイリストの詳細を読み込み中...
         Error: |-
-          Failed to load playlist details of "{0}".
+          {0} のプレイリストの詳細の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Compatibility:
-        Loading: Checking playlist compatibility...
+        Loading: プレイリストの互換性を確認中...
         Error: |-
-          Playlist "{0}" is not compatible with current Sonolus version.
+          プレイリスト "{0}" は現在の Sonolus バージョンと互換性がありません。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Thumbnail:
-        Loading: Loading playlist thumbnail...
+        Loading: プレイリストのサムネイルを読み込み中...
         Error: |-
-          Failed to load playlist thumbnail of "{0}".
+          {0} のプレイリストのサムネイルの読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Level:
       Info:
-        Loading: Loading levels info...
+        Loading: レベルの情報を読み込み中...
         Error: |-
-          Failed to load levels info of "{0}".
+          {0} のレベルの情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
@@ -1607,9 +1607,9 @@ Clients:
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Skin:
       Info:
-        Loading: Loading skins info...
+        Loading: スキンの情報を読み込み中...
         Error: |-
-          Failed to load skins info of "{0}".
+          {0} のスキンの情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
@@ -1650,9 +1650,9 @@ Clients:
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Background:
       Info:
-        Loading: Loading backgrounds info...
+        Loading: 背景の情報を読み込み中...
         Error: |-
-          Failed to load backgrounds info of "{0}".
+          {0} の背景の情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
@@ -1699,9 +1699,9 @@ Clients:
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Effect:
       Info:
-        Loading: Loading SFX info...
+        Loading: SE情報を読み込み中...
         Error: |-
-          Failed to load SFX info of "{0}".
+          {0} のSE情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
@@ -1742,9 +1742,9 @@ Clients:
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Particle:
       Info:
-        Loading: Loading particles info...
+        Loading: パーティクルの情報を読み込み中...
         Error: |-
-          Failed to load particles info of "{0}".
+          {0} のパーティクルの情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
@@ -1785,9 +1785,9 @@ Clients:
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Engine:
       Info:
-        Loading: Loading engines info...
+        Loading: エンジンの情報を読み込み中...
         Error: |-
-          Failed to load engines info of "{0}".
+          {0} のエンジンの情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
@@ -1852,96 +1852,96 @@ Clients:
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Replay:
       Info:
-        Loading: Loading replays info...
+        Loading: リプレイの情報を読み込み中...
         Error: |-
-          Failed to load replays info of "{0}".
+          {0} のリプレイの情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
-        Loading: Loading replays...
+        Loading: リプレイを読み込み中...
         Error: |-
-          Failed to load replays at page {0}.
+          {0}ページ目のリプレイ一覧の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Details:
-        Loading: Loading replay details...
+        Loading: リプレイの詳細を読み込み中...
         Error: |-
-          Failed to load replay details of "{0}".
+          {0} のリプレイの詳細の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Compatibility:
-        Loading: Checking replay compatibility...
+        Loading: リプレイの互換性を確認中...
         Error: |-
-          Replay "{0}" is not compatible with current Sonolus version.
+          リプレイ "{0}" は現在の Sonolus バージョンと互換性がありません。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Data:
-        Loading: Loading replay data...
+        Loading: リプレイデータを読み込み中...
         Error: |-
-          Failed to load replay data of "{0}".
+          {0} のリプレイデータの読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Configuration:
-        Loading: Loading replay configuration...
+        Loading: リプレイの設定を読み込み中...
         Error: |-
-          Failed to load replay configuration of "{0}".
+          {0} のリプレイの設定の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
     Room:
       Info:
-        Loading: Loading rooms info...
+        Loading: 部屋の情報を読み込み中...
         Error: |-
-          Failed to load rooms info of "{0}".
+          {0} の部屋の情報の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       List:
-        Loading: Loading rooms...
+        Loading: 部屋を読み込み中...
         Error: |-
-          Failed to load rooms at page {0}.
+          {0}ページ目の部屋一覧の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Details:
-        Loading: Loading room details...
+        Loading: 部屋の詳細を読み込み中...
         Error: |-
-          Failed to load room details of "{0}".
+          {0} の部屋の詳細の読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Compatibility:
-        Loading: Checking room compatibility...
+        Loading: 部屋の互換性を確認中...
         Error: |-
-          Room "{0}" is not compatible with current Sonolus version.
+          部屋 "{0}" は現在の Sonolus バージョンと互換性がありません。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Cover:
-        Loading: Loading room level cover...
+        Loading: 部屋のジャケットを読み込み中...
         Error: |-
-          Failed to load room level cover of "{0}".
+          {0} の部屋のジャケットの読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Bgm:
-        Loading: Loading room level BGM...
+        Loading: レベルのBGMを読み込み中...
         Error: |-
-          Failed to load room level BGM of "{0}".
+          {0} のレベルのBGMの読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
       Preview:
-        Loading: Loading room level preview...
+        Loading: レベルのプレビューを読み込み中...
         Error: |-
-          Failed to load room level preview of "{0}".
+          {0} のレベルのプレビューの読み込みに失敗しました。
 
           Sonolusが未対応のパッケージか、パッケージが破損しています。
   Multiplayer:
     Connect:
-      Loading: Connecting...
+      Loading: 接続中...
       Error: |-
-        Failed to connect to room "{0}".
+        {0} に接続できませんでした。
 
-        Please check your internet connection and try again, or contact server owner to report the problem.
-    Disconnected: You have been disconnected from the multiplayer room.
+        インターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。
+    Disconnected: サーバーから切断されました。
     Error: |-
-      A fatal error has occurred with the multiplayer room.
+      部屋で致命的なエラーが発生しました。
 
-      Please contact server owner to report the problem.
+      サーバーの管理者にお問い合わせ下さい。
 DeepLink:
   Invalid:
     Description: |-
@@ -1957,23 +1957,23 @@ Routes:
   ExternalLogin:
     NotLoggedInError:
       Description: |-
-        You are not signed in with a Sonolus account.
+        Sonolusアカウントでログインしていません。
 
-        Please sign in with your Sonolus account first and try again.
+        Sonolusアカウントでログインしてからもう一度お試しください。
     Confirmation:
       Description: |-
-        You are signing in to external service:
         {0}
+        にログインしようとしています。
 
-        Sign in as "{1}"?
+        {1} としてログインしますか?
     Login:
-      Loading: Signing in...
+      Loading: ログイン中...
       Error: |-
-        Failed to sign in to external service "{0}".
+        {0} にログインできませんでした。
 
-        Please check your internet connection and try again, or contact service owner to report the problem.
+        インターネット接続を確認してもう一度試すか、サービスの管理者にお問い合わせ下さい。
     Success:
-      Title: Signed in
+      Title: ログイン成功
   JumpToPage:
     Title: ページを指定して移動
     Page:
@@ -2323,8 +2323,8 @@ Routes:
     AddFavorite:
       Title: お気に入りの追加
       Description: お気に入りに追加する要素の種類を選択してください。
-      Post: Post
-      Playlist: Playlist
+      Post: 投稿
+      Playlist: プレイリスト
       Level: レベル
       Skin: スキン
       Background: 背景
@@ -3004,9 +3004,9 @@ Routes:
         Title: プレビューBGM
         Description: プレビューBGMをいつ再生するか。
         Options:
-          List: List
-          Details: Details
-          Multiplayer: Multiplayer
+          List: 一覧画面
+          Details: 詳細画面
+          Multiplayer: 部屋
       LevelBgmQuality:
         Title: レベルBGMの品質
         Description: |-
@@ -3030,41 +3030,41 @@ Routes:
     Gameplay:
       Title: ゲームプレイ
       UnpauseDelay:
-        Title: Unpause Delay
-        Description: Countdown delay when unpausing.
+        Title: 一時停止解除時の猶予
+        Description: 一時停止解除時の猶予時間。
       MultiplayerPreload:
-        Title: Multiplayer Preload
+        Title: マルチプレイ：事前読み込み
         Description: |-
-          Recommend to turn on.
+          推奨：オン
 
-          In multiplayer, start preloading once level has been confirmed to improve loading speed.
+          マルチプレイ時、レベルが確定した時点で読み込みを開始します。
       ReplayTitleTemplate:
-        Title: Replay Title Template
+        Title: リプレイ：タイトルのテンプレート
         Description: |-
-          Template for title when creating a replay.
+          リプレイを作成する際のタイトルのテンプレート。
 
-          Special parameters are available and will be replaced with corresponding values.
-        Placeholder: Enter title template...
+          波括弧で囲まれた区間は対応する値に置き換えられます。
+        Placeholder: タイトルのテンプレートを入力してください...
       ReplaySubtitleTemplate:
-        Title: Replay Subtitle Template
+        Title: リプレイ：サブタイトルのテンプレート
         Description: |-
-          Template for subtitle when creating a replay.
+          リプレイを作成する際のサブタイトルのテンプレート。
 
-          Special parameters are available and will be replaced with corresponding values.
-        Placeholder: Enter subtitle template...
+          波括弧で囲まれた区間は対応する値に置き換えられます。
+        Placeholder: サブタイトルのテンプレートを入力してください...
       ReplayDescriptionTemplate:
-        Title: Replay Description Template
+        Title: リプレイ：説明のテンプレート
         Description: |-
-          Template for description when creating a replay.
+          リプレイを作成する際の説明のテンプレート。
 
-          Special parameters are available and will be replaced with corresponding values.
-        Placeholder: Enter description template...
+          波括弧で囲まれた区間は対応する値に置き換えられます。
+        Placeholder: 説明のテンプレートを入力してください...
       ShowReplayTouches:
-        Title: Show Replay Touches
-        Description: Show touches when watching replay.
+        Title: リプレイ：タッチ表示
+        Description: リプレイ時にタッチを表示をするかどうか。
       OverwriteReplayOptions:
-        Title: Overwrite Replay Options
-        Description: Overwrite options with your own when watching replay.
+        Title: リプレイ：オプションを上書きする
+        Description: リプレイを再生する際にオプションを上書きします。
     UI:
       Title: UI
       UILocalization:
@@ -3118,8 +3118,8 @@ Routes:
         Title: 0コンボを表示する
         Description: 0コンボを表示します。
       TouchStyle:
-        Title: Touch Style
-        Description: Style of touch indicators.
+        Title: タッチ表示のスタイル
+        Description: タッチ表示のスタイルを設定します。
     Offsets:
       Title: オフセット
       Device:
@@ -3227,20 +3227,20 @@ Scp:
     Open: 設定画面を開く
 Runtimes:
   Pause:
-    Title: Pause
+    Title: 一時停止
     Debug:
-      Title: Debug
+      Title: デバッグ
   Control:
-    Title: Control
-    Exit: Exit
-    Restart: Restart
+    Title: 操作
+    Exit: 終了
+    Restart: 再開
   Level:
     Play:
       Routes:
         Playlist:
-          Title: Playlist
-          Previous: Previous
-          Next: Next
+          Title: プレイリスト
+          Previous: 前
+          Next: 次
         Pause:
           Snapshot:
             Title: 区間練習
