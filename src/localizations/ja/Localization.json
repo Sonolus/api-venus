@@ -4,195 +4,272 @@
     "Title": "日本語 (Japanese)"
   },
   "Texts": {
-    "Name": {
-      "#KEYWORDS": "キーワード",
-      "#NAME": "名称(ID)",
-      "#RATING": "難易度",
-      "#RATING_MINIMUM": "最低難易度",
-      "#RATING_MAXIMUM": "最高難易度",
-      "#TITLE": "タイトル",
-      "#SUBTITLE": "サブタイトル",
-      "#ARTISTS": "アーティスト",
-      "#AUTHOR": "作者",
-      "#GENRE": "ジャンル",
-      "#CATEGORY": "カテゴリ",
-      "#LANGUAGE": "言語",
-      "#DIFFICULTY": "難易度",
-      "#LENGTH": "曲の長さ",
-      "#LENGTH_MINIMUM": "最短曲長",
-      "#LENGTH_MAXIMUM": "最長曲長",
-      "#SPEED": "レベル再生速度",
-      "#MIRROR": "レベルを反転",
-      "#RANDOM": "ランダム",
-      "#HIDDEN": "ノーツを非表示",
-      "#JUDGMENT_STRICT": "判定ハードモード",
-      "#JUDGMENT_LOOSE": "判定イージーモード",
-      "#EFFECT": "SEの再生",
-      "#EFFECT_AUTO": "自動SE",
-      "#STAGE": "ステージの表示",
-      "#STAGE_POSITION": "ステージの位置",
-      "#STAGE_SIZE": "ステージの大きさ",
-      "#STAGE_ROTATION": "ステージの回転",
-      "#STAGE_ALPHA": "ステージの不透明度",
-      "#STAGE_ANIMATION": "ステージのアニメーション",
-      "#STAGE_TILT": "ステージの傾き",
-      "#STAGE_COVER_VERTICAL": "レーンカバー(縦方向)",
-      "#STAGE_COVER_HORIZONTAL": "レーンカバー(横方向)",
-      "#STAGE_COVER_ALPHA": "ステージのカバーの不透明度",
-      "#STAGE_ASPECTRATIO_LOCK": "ステージのアスペクト比を維持",
-      "#STAGE_EFFECT": "ステージエフェクト",
-      "#STAGE_EFFECT_POSITION": "ステージエフェクトの位置",
-      "#STAGE_EFFECT_SIZE": "ステージエフェクトの大きさ",
-      "#STAGE_EFFECT_ROTATION": "ステージエフェクトの回転",
-      "#STAGE_EFFECT_ALPHA": "ステージエフェクトの不透明度",
-      "#LANE": "レーンの表示",
-      "#LANE_POSITION": "レーンの位置",
-      "#LANE_SIZE": "レーンの大きさ",
-      "#LANE_ROTATION": "レーンの回転",
-      "#LANE_ALPHA": "レーンの不透明度",
-      "#LANE_ANIMATION": "レーンのアニメーション",
-      "#LANE_EFFECT": "レーンエフェクト",
-      "#LANE_EFFECT_POSITION": "レーンエフェクトの位置",
-      "#LANE_EFFECT_SIZE": "レーンエフェクトの大きさ",
-      "#LANE_EFFECT_ROTATION": "レーンエフェクトの回転",
-      "#LANE_EFFECT_ALPHA": "レーンエフェクトの不透明度",
-      "#JUDGELINE": "判定ラインの表示",
-      "#JUDGELINE_POSITION": "判定ラインの位置",
-      "#JUDGELINE_SIZE": "判定ラインの大きさ",
-      "#JUDGELINE_ROTATION": "判定ラインの回転",
-      "#JUDGELINE_ALPHA": "判定ラインの不透明度",
-      "#JUDGELINE_ANIMATION": "判定ラインのアニメーション",
-      "#JUDGELINE_EFFECT": "判定ラインのエフェクト",
-      "#JUDGELINE_EFFECT_POSITION": "判定ラインのエフェクトの位置",
-      "#JUDGELINE_EFFECT_SIZE": "判定ラインのエフェクトの大きさ",
-      "#JUDGELINE_EFFECT_ROTATION": "判定ラインのエフェクトの回転",
-      "#JUDGELINE_EFFECT_ALPHA": "判定ラインのエフェクトの不透明度",
-      "#SLOT": "スロットの表示",
-      "#SLOT_POSITION": "スロットの位置",
-      "#SLOT_SIZE": "スロットの大きさ",
-      "#SLOT_ROTATION": "スロットの回転",
-      "#SLOT_ALPHA": "スロットの不透明度",
-      "#SLOT_ANIMATION": "スロットのアニメーション",
-      "#SLOT_EFFECT": "スロットエフェクト",
-      "#SLOT_EFFECT_POSITION": "スロットエフェクトの位置",
-      "#SLOT_EFFECT_SIZE": "スロットエフェクトの大きさ",
-      "#SLOT_EFFECT_ROTATION": "スロットエフェクトの回転",
-      "#SLOT_EFFECT_ALPHA": "スロットエフェクトの不透明度",
-      "#NOTE": "ノーツの表示",
-      "#NOTE_SPEED": "ノーツ速度",
-      "#NOTE_SPEED_RANDOM": "ランダム(ノーツ速度)",
-      "#NOTE_POSITION": "ノーツの位置",
-      "#NOTE_SIZE": "ノーツの大きさ",
-      "#NOTE_ROTATION": "ノーツの回転",
-      "#NOTE_ALPHA": "ノーツの不透明度",
-      "#NOTE_ANIMATION": "ノーツのアニメーション",
-      "#NOTE_EFFECT": "ノーツエフェクト",
-      "#NOTE_EFFECT_POSITION": "ノーツエフェクトの位置",
-      "#NOTE_EFFECT_SIZE": "ノーツエフェクトの大きさ",
-      "#NOTE_EFFECT_ROTATION": "ノーツエフェクトの回転",
-      "#NOTE_EFFECT_ALPHA": "ノーツエフェクトの不透明度",
-      "#MARKER": "マーカーの表示",
-      "#MARKER_POSITION": "マーカーの位置",
-      "#MARKER_SIZE": "マーカーの大きさ",
-      "#MARKER_ROTATION": "マーカーの回転",
-      "#MARKER_ALPHA": "マーカーの不透明度",
-      "#MARKER_ANIMATION": "マーカーのアニメーション",
-      "#CONNECTOR": "コネクターの表示",
-      "#CONNECTOR_POSITION": "コネクターの位置",
-      "#CONNECTOR_SIZE": "コネクターの大きさ",
-      "#CONNECTOR_ROTATION": "コネクターの回転",
-      "#CONNECTOR_ALPHA": "コネクターの不透明度",
-      "#CONNECTOR_ANIMATION": "コネクターのアニメーション",
-      "#SIMLINE": "同時ノーツ線の表示",
-      "#SIMLINE_POSITION": "同時ノーツ線の位置",
-      "#SIMLINE_SIZE": "同時ノーツ線の大きさ",
-      "#SIMLINE_ROTATION": "同時ノーツ線の回転",
-      "#SIMLINE_ALPHA": "同時ノーツ線の不透明度",
-      "#SIMLINE_ANIMATION": "同時ノーツ線のアニメーション"
-    },
-    "Value": {
-      "#NONE": "無し",
-      "#ANY": "未指定",
-      "#ALL": "全て",
-      "#OTHERS": "その他",
-      "#SHORT": "短い",
-      "#LONG": "長い",
-      "#HIGH": "高",
-      "#MID": "中",
-      "#LOW": "低",
-      "#SMALL": "小",
-      "#MEDIUM": "中",
-      "#LARGE": "大",
-      "#LEFT": "左",
-      "#RIGHT": "右",
-      "#UP": "上",
-      "#DOWN": "下",
-      "#FRONT": "前面",
-      "#BACK": "後面",
-      "#CENTER": "中央",
-      "#TOP": "上",
-      "#BOTTOM": "下",
-      "#TOP_LEFT": "上左",
-      "#TOP_CENTER": "上中",
-      "#TOP_RIGHT": "上右",
-      "#CENTER_LEFT": "中左",
-      "#CENTER_RIGHT": "中右",
-      "#BOTTOM_LEFT": "下左",
-      "#BOTTOM_CENTER": "下中",
-      "#BOTTOM_RIGHT": "下右",
-      "#CLOCKWISE": "時計回り",
-      "#COUNTERCLOCKWISE": "反時計回り",
-      "#FORWARD": "前方向",
-      "#BACKWARD": "後方向",
-      "#SIMPLE": "Simple",
-      "#EASY": "Easy",
-      "#NORMAL": "Normal",
-      "#HARD": "Hard",
-      "#EXPERT": "Expert",
-      "#MASTER": "Master",
-      "#PRO": "Pro",
-      "#TECHNICAL": "Technical",
-      "#SPECIAL": "Special"
-    },
-    "Placeholder": {
-      "#KEYWORDS": "キーワードを入力してください...",
-      "#NAME": "名称を入力してください...",
-      "#RATING": "難易度を入力してください...",
-      "#RATING_MINIMUM": "最低難易度を入力してください...",
-      "#RATING_MAXIMUM": "最高難易度を入力してください...",
-      "#TITLE": "タイトルを入力してください...",
-      "#SUBTITLE": "サブタイトルを入力してください...",
-      "#ARTISTS": "アーティスト名を入力してください...",
-      "#AUTHOR": "作者名を入力してください...",
-      "#GENRE": "ジャンル名を入力してください...",
-      "#CATEGORY": "カテゴリ名を入力してください...",
-      "#LANGUAGE": "言語を入力してください...",
-      "#DIFFICULTY": "難易度を入力してください...",
-      "#LENGTH": "曲の長さを入力してください...",
-      "#LENGTH_MINIMUM": "最短曲長を入力してください...",
-      "#LENGTH_MAXIMUM": "最長曲長を入力してください..."
-    },
-    "Unit": {
-      "#PERCENTAGE": "{0} %",
-      "#SECOND": "{0} 秒",
-      "#MILLISECOND": "{0} ms"
-    },
-    "Instruction": {
-      "#TAP": "タップ",
-      "#TAP_HOLD": "タップ→長押し",
-      "#TAP_RELEASE": "タップ→離す",
-      "#TAP_FLICK": "タップ+フリック",
-      "#TAP_SLIDE": "タップ→スライド",
-      "#HOLD": "長押し",
-      "#HOLD_SLIDE": "長押し+スライド",
-      "#HOLD_FOLLOW": "長押し→移動",
-      "#RELEASE": "離す",
-      "#FLICK": "フリック",
-      "#SLIDE": "スライド",
-      "#SLIDE_FLICK": "スライド→フリック",
-      "#AVOID": "ダメージ",
-      "#JIGGLE": "擦る"
-    }
+    "#KEYWORDS": "キーワードを入力してください...",
+    "#NAME": "名称を入力してください...",
+    "#RATING": "難易度を入力してください...",
+    "#RATING_MINIMUM": "最低難易度を入力してください...",
+    "#RATING_MAXIMUM": "最高難易度を入力してください...",
+    "#TITLE": "タイトルを入力してください...",
+    "#SUBTITLE": "サブタイトルを入力してください...",
+    "#ARTISTS": "アーティスト名を入力してください...",
+    "#AUTHOR": "作者名を入力してください...",
+    "#GENRE": "ジャンル名を入力してください...",
+    "#CATEGORY": "カテゴリ名を入力してください...",
+    "#LANGUAGE": "言語を入力してください...",
+    "#DIFFICULTY": "難易度を入力してください...",
+    "#VERSIONS": "Version",
+    "#LENGTH": "曲の長さを入力してください...",
+    "#LENGTH_MINIMUM": "最短曲長を入力してください...",
+    "#LENGTH_MAXIMUM": "最長曲長を入力してください...",
+    "#ADDITIONAL_INFORMATION": "Additional Information",
+    "#SPEED": "レベル再生速度",
+    "#MIRROR": "レベルを反転",
+    "#RANDOM": "ランダム",
+    "#HIDDEN": "ノーツを非表示",
+    "#JUDGMENT_STRICT": "判定ハードモード",
+    "#JUDGMENT_LOOSE": "判定イージーモード",
+    "#EFFECT": "SEの再生",
+    "#EFFECT_AUTO": "自動SE",
+    "#STAGE": "ステージの表示",
+    "#STAGE_POSITION": "ステージの位置",
+    "#STAGE_SIZE": "ステージの大きさ",
+    "#STAGE_ROTATION": "ステージの回転",
+    "#STAGE_ALPHA": "ステージの不透明度",
+    "#STAGE_ANIMATION": "ステージのアニメーション",
+    "#STAGE_TILT": "ステージの傾き",
+    "#STAGE_COVER_VERTICAL": "レーンカバー(縦方向)",
+    "#STAGE_COVER_HORIZONTAL": "レーンカバー(横方向)",
+    "#STAGE_COVER_ALPHA": "ステージのカバーの不透明度",
+    "#STAGE_ASPECTRATIO_LOCK": "ステージのアスペクト比を維持",
+    "#STAGE_EFFECT": "ステージエフェクト",
+    "#STAGE_EFFECT_POSITION": "ステージエフェクトの位置",
+    "#STAGE_EFFECT_SIZE": "ステージエフェクトの大きさ",
+    "#STAGE_EFFECT_ROTATION": "ステージエフェクトの回転",
+    "#STAGE_EFFECT_ALPHA": "ステージエフェクトの不透明度",
+    "#LANE": "レーンの表示",
+    "#LANE_POSITION": "レーンの位置",
+    "#LANE_SIZE": "レーンの大きさ",
+    "#LANE_ROTATION": "レーンの回転",
+    "#LANE_ALPHA": "レーンの不透明度",
+    "#LANE_ANIMATION": "レーンのアニメーション",
+    "#LANE_EFFECT": "レーンエフェクト",
+    "#LANE_EFFECT_POSITION": "レーンエフェクトの位置",
+    "#LANE_EFFECT_SIZE": "レーンエフェクトの大きさ",
+    "#LANE_EFFECT_ROTATION": "レーンエフェクトの回転",
+    "#LANE_EFFECT_ALPHA": "レーンエフェクトの不透明度",
+    "#JUDGELINE": "判定ラインの表示",
+    "#JUDGELINE_POSITION": "判定ラインの位置",
+    "#JUDGELINE_SIZE": "判定ラインの大きさ",
+    "#JUDGELINE_ROTATION": "判定ラインの回転",
+    "#JUDGELINE_ALPHA": "判定ラインの不透明度",
+    "#JUDGELINE_ANIMATION": "判定ラインのアニメーション",
+    "#JUDGELINE_EFFECT": "判定ラインのエフェクト",
+    "#JUDGELINE_EFFECT_POSITION": "判定ラインのエフェクトの位置",
+    "#JUDGELINE_EFFECT_SIZE": "判定ラインのエフェクトの大きさ",
+    "#JUDGELINE_EFFECT_ROTATION": "判定ラインのエフェクトの回転",
+    "#JUDGELINE_EFFECT_ALPHA": "判定ラインのエフェクトの不透明度",
+    "#SLOT": "スロットの表示",
+    "#SLOT_POSITION": "スロットの位置",
+    "#SLOT_SIZE": "スロットの大きさ",
+    "#SLOT_ROTATION": "スロットの回転",
+    "#SLOT_ALPHA": "スロットの不透明度",
+    "#SLOT_ANIMATION": "スロットのアニメーション",
+    "#SLOT_EFFECT": "スロットエフェクト",
+    "#SLOT_EFFECT_POSITION": "スロットエフェクトの位置",
+    "#SLOT_EFFECT_SIZE": "スロットエフェクトの大きさ",
+    "#SLOT_EFFECT_ROTATION": "スロットエフェクトの回転",
+    "#SLOT_EFFECT_ALPHA": "スロットエフェクトの不透明度",
+    "#NOTE": "ノーツの表示",
+    "#NOTE_SPEED": "ノーツ速度",
+    "#NOTE_SPEED_RANDOM": "ランダム(ノーツ速度)",
+    "#NOTE_POSITION": "ノーツの位置",
+    "#NOTE_SIZE": "ノーツの大きさ",
+    "#NOTE_ROTATION": "ノーツの回転",
+    "#NOTE_ALPHA": "ノーツの不透明度",
+    "#NOTE_ANIMATION": "ノーツのアニメーション",
+    "#NOTE_EFFECT": "ノーツエフェクト",
+    "#NOTE_EFFECT_POSITION": "ノーツエフェクトの位置",
+    "#NOTE_EFFECT_SIZE": "ノーツエフェクトの大きさ",
+    "#NOTE_EFFECT_ROTATION": "ノーツエフェクトの回転",
+    "#NOTE_EFFECT_ALPHA": "ノーツエフェクトの不透明度",
+    "#MARKER": "マーカーの表示",
+    "#MARKER_POSITION": "マーカーの位置",
+    "#MARKER_SIZE": "マーカーの大きさ",
+    "#MARKER_ROTATION": "マーカーの回転",
+    "#MARKER_ALPHA": "マーカーの不透明度",
+    "#MARKER_ANIMATION": "マーカーのアニメーション",
+    "#CONNECTOR": "コネクターの表示",
+    "#CONNECTOR_POSITION": "コネクターの位置",
+    "#CONNECTOR_SIZE": "コネクターの大きさ",
+    "#CONNECTOR_ROTATION": "コネクターの回転",
+    "#CONNECTOR_ALPHA": "コネクターの不透明度",
+    "#CONNECTOR_ANIMATION": "コネクターのアニメーション",
+    "#SIMLINE": "同時ノーツ線の表示",
+    "#SIMLINE_POSITION": "同時ノーツ線の位置",
+    "#SIMLINE_SIZE": "同時ノーツ線の大きさ",
+    "#SIMLINE_ROTATION": "同時ノーツ線の回転",
+    "#SIMLINE_ALPHA": "同時ノーツ線の不透明度",
+    "#SIMLINE_ANIMATION": "同時ノーツ線のアニメーション",
+    "#NONE": "無し",
+    "#ANY": "未指定",
+    "#ALL": "全て",
+    "#OTHERS": "その他",
+    "#SHORT": "短い",
+    "#LONG": "長い",
+    "#HIGH": "高",
+    "#MID": "中",
+    "#LOW": "低",
+    "#SMALL": "小",
+    "#MEDIUM": "中",
+    "#LARGE": "大",
+    "#LEFT": "左",
+    "#RIGHT": "右",
+    "#UP": "上",
+    "#DOWN": "下",
+    "#FRONT": "前面",
+    "#BACK": "後面",
+    "#CENTER": "中央",
+    "#TOP": "上",
+    "#BOTTOM": "下",
+    "#TOP_LEFT": "上左",
+    "#TOP_CENTER": "上中",
+    "#TOP_RIGHT": "上右",
+    "#CENTER_LEFT": "中左",
+    "#CENTER_RIGHT": "中右",
+    "#BOTTOM_LEFT": "下左",
+    "#BOTTOM_CENTER": "下中",
+    "#BOTTOM_RIGHT": "下右",
+    "#CLOCKWISE": "時計回り",
+    "#COUNTERCLOCKWISE": "反時計回り",
+    "#FORWARD": "前方向",
+    "#BACKWARD": "後方向",
+    "#SIMPLE": "Simple",
+    "#EASY": "Easy",
+    "#NORMAL": "Normal",
+    "#HARD": "Hard",
+    "#EXPERT": "Expert",
+    "#MASTER": "Master",
+    "#PRO": "Pro",
+    "#TECHNICAL": "Technical",
+    "#SPECIAL": "Special",
+    "#KEYWORDS_PLACEHOLDER": "Enter keywords...",
+    "#NAME_PLACEHOLDER": "Enter name...",
+    "#RATING_PLACEHOLDER": "Enter rating...",
+    "#RATING_MINIMUM_PLACEHOLDER": "Enter minimum rating...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "Enter maximum rating...",
+    "#TITLE_PLACEHOLDER": "Enter title...",
+    "#SUBTITLE_PLACEHOLDER": "Enter subtitle...",
+    "#ARTISTS_PLACEHOLDER": "Enter artists...",
+    "#AUTHOR_PLACEHOLDER": "Enter author...",
+    "#GENRE_PLACEHOLDER": "Enter genre...",
+    "#CATEGORY_PLACEHOLDER": "Enter category...",
+    "#LANGUAGE_PLACEHOLDER": "Enter language...",
+    "#DIFFICULTY_PLACEHOLDER": "Enter difficulty...",
+    "#LENGTH_PLACEHOLDER": "Enter length...",
+    "#LENGTH_MINIMUM_PLACEHOLDER": "Enter minimum length...",
+    "#LENGTH_MAXIMUM_PLACEHOLDER": "Enter maximum length...",
+    "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Enter additional information...",
+    "#PERCENTAGE_UNIT": "{0}%",
+    "#SECOND_UNIT": "{0} s",
+    "#MILLISECOND_UNIT": "{0} ms",
+    "#TAP": "タップ",
+    "#TAP_HOLD": "タップ→長押し",
+    "#TAP_RELEASE": "タップ→離す",
+    "#TAP_FLICK": "タップ+フリック",
+    "#TAP_SLIDE": "タップ→スライド",
+    "#HOLD": "長押し",
+    "#HOLD_SLIDE": "長押し+スライド",
+    "#HOLD_FOLLOW": "長押し→移動",
+    "#RELEASE": "離す",
+    "#FLICK": "フリック",
+    "#SLIDE": "スライド",
+    "#SLIDE_FLICK": "スライド→フリック",
+    "#AVOID": "ダメージ",
+    "#JIGGLE": "擦る",
+    "#NEWEST": "新しい順",
+    "#OLDEST": "古い順",
+    "#RECOMMENDED": "おすすめ",
+    "#POPULAR": "人気",
+    "#FEATURED": "特集",
+    "#COMPETITIVE": "競技",
+    "#HOLIDAY": "ホリデー",
+    "#LIMITED": "限定",
+    "#FOLLOWING": "フォロー中",
+    "#ANNOUNCEMENT": "お知らせ",
+    "#INFORMATION": "情報",
+    "#MAINTENANCE": "メンテナンス",
+    "#EVENT": "イベント",
+    "#UPDATE": "アップデート",
+    "#SEARCH": "検索",
+    "#ADVANCED": "高度",
+    "#RELATED": "関連",
+    "#SAME_AUTHOR": "同じ作者",
+    "#SAME_ARTISTS": "同じアーティスト",
+    "#SAME_RATING": "同じ難易度",
+    "#SAME_CATEGORY": "同じカテゴリ",
+    "#SAME_DIFFICULTY": "同じ難易度",
+    "#SAME_GENRE": "同じジャンル",
+    "#SAME_VERSION": "同じバージョン",
+    "#OTHER_AUTHORS": "他の作者",
+    "#OTHER_ARTISTS": "他のアーティスト",
+    "#OTHER_RATINGS": "他の難易度",
+    "#OTHER_CATEGORIES": "他のカテゴリ",
+    "#OTHER_DIFFICULTIES": "他の難易度",
+    "#OTHER_GENRES": "他のジャンル",
+    "#OTHER_VERSIONS": "他のバージョン",
+    "#VERIFYING": "認証中",
+    "#VERIFIED": "認証済",
+    "#REMOVED": "削除済",
+    "#PUBLIC": "公開",
+    "#PRIVATE": "非公開",
+    "#POP": "ポップ",
+    "#ROCK": "ロック",
+    "#HIPHOP": "ヒップホップ",
+    "#COUNTRY": "カントリー",
+    "#ELECTRONIC": "エレクトロニック",
+    "#METAL": "メタル",
+    "#CLASSICAL": "クラシック",
+    "#FOLK": "フォーク",
+    "#INDIE": "インディー",
+    "#ANIME": "アニメ",
+    "#VOCALOID": "Vocaloid",
+    "#REMIX": "Remix",
+    "#INSTRUMENTAL": "Inst.",
+    "#SHORT_VERSION": "ショートバージョン",
+    "#LONG_VERSION": "ロングバージョン",
+    "#LIVE_VERSION": "ライブバージョン",
+    "#ILLEGAL_ACTIVITIES": "違法行為",
+    "#CHEATING": "チート",
+    "#AFK": "放置",
+    "#SPAMMING": "スパム",
+    "#VERBAL_ABUSE": "言葉遣い",
+    "#INAPPROPRIATE_LANGUAGE": "不適切な言葉",
+    "#NEGATIVE_ATTITUDE": "ネガティブ",
+    "#DNF": "中断",
+    "#QUALIFIED": "通過",
+    "#DISQUALIFIED": "脱落",
+    "#SPECTATOR": "観戦",
+    "#FINALIST": "決勝",
+    "#FINISHED": "終了",
+    "#GOLD_MEDAL": "金メダル",
+    "#SILVER_MEDAL": "銀メダル",
+    "#BRONZE_MEDAL": "銅メダル",
+    "#TEAM_1": "チーム1",
+    "#TEAM_2": "チーム2",
+    "#TEAM_3": "チーム3",
+    "#TEAM_4": "チーム4",
+    "#TEAM_5": "チーム5",
+    "#TEAM_6": "チーム6",
+    "#TEAM_7": "チーム7",
+    "#TEAM_8": "チーム8",
+    "#TEAM_RED": "赤チーム",
+    "#TEAM_GREEN": "緑チーム",
+    "#TEAM_BLUE": "青チーム",
+    "#TEAM_YELLOW": "黄チーム",
+    "#TEAM_PURPLE": "紫チーム",
+    "#TEAM_CYAN": "水チーム",
+    "#TEAM_WHITE": "白チーム",
+    "#TEAM_BLACK": "黒チーム"
   },
   "Common": {
     "Separator": "、",
@@ -216,7 +293,6 @@
     "Add": "追加",
     "Import": "インポート",
     "Search": "検索",
-    "More": "もっと",
     "PullToRefresh": "離すと更新",
     "Save": "保存",
     "Share": "共有",
@@ -283,6 +359,12 @@
     },
     "DeviceOffsetField": {
       "Calibrate": "補正"
+    },
+    "MultiField": {
+      "Selected": "選択中：{0}個",
+      "AllSelected": "選択中：すべて",
+      "SelectAll": "全選択",
+      "SelectNone": "全解除"
     },
     "PullToLoad": {
       "None": "この先には何もありません",
@@ -357,6 +439,16 @@
         "OutInElastic": "Elastic (Out In)",
         "None": "なし"
       }
+    },
+    "AutoExit": {
+      "Title": "自動終了",
+      "Description": "特定のグレードに到達できなくなった時点で自動的に終了します。",
+      "Options": {
+        "Off": "オフ",
+        "Pass": "Pass",
+        "FullCombo": "Full Combo",
+        "AllPerfect": "All Perfect"
+      }
     }
   },
   "Themes": {
@@ -384,14 +476,14 @@
         "Error": "\"{0}\" のユーザー プロファイルを読み込めませんでした。\n\nユーザー ID が正しいか、およびインターネット接続を確認してもう一度お試しください。"
       },
       "Login": {
-        "Loading": "サインイン中...",
-        "Error": "サインインできませんでした。\n\nインターネット接続を確認して、もう一度お試しください。",
+        "Loading": "ログイン中...",
+        "Error": "ログインできませんでした。\n\nインターネット接続を確認して、もう一度お試しください。",
         "Success": {
           "New": {
-            "Title": "サインインしました"
+            "Title": "ログインしました"
           },
           "Old": {
-            "Title": "サインインしました"
+            "Title": "ログインしました"
           }
         }
       },
@@ -430,9 +522,9 @@
           "Title": "完了"
         }
       },
-      "AuthenticateServer": {
+      "Authenticate": {
         "Loading": "Sonolus認証をリクエスト中...",
-        "Error": "Sonolus認証のリクエストに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。改善しない場合、Sonolusに問題をご報告ください。"
+        "Error": "Sonolus認証に失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
       },
       "Logout": {
         "Loading": "サインアウト中...",
@@ -445,27 +537,37 @@
     "CustomServer": {
       "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
       "SonolusVersionTooOld": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nサーバーの管理者にお問い合わせ下さい。",
-      "Session": {
-        "NeedAuthentication": {
+      "Authentication": {
+        "Required": {
           "NotLoggedInError": {
-            "Description": "このサーバーを利用するには認証が必要です。\n\nまずサインインを行い、その後再度お試しください。"
+            "Description": "このサーバーはログインが必要ですが、Sonolusアカウントでログインしていません。\n\nSonolusアカウントでログインしてからもう一度お試しください。"
           },
           "Confirmation": {
-            "Description": "このサーバーを利用するには認証が必要です。\n\n「{0}」として認証して続行しますか?"
+            "Description": "このサーバーはログインが必要です。\n\n{0} としてログインして続行しますか？"
           }
         },
-        "AuthenticationExpired": {
-          "Description": "認証の有効期限が切れています。\n\n「{0}」として再度認証して続行しますか?"
+        "Expired": {
+          "Description": "セッションの有効期限が切れました。\n\n{0} としてログインして続行しますか？"
         },
-        "AuthenticationRejected": {
-          "Description": "認証がサーバーによって拒否されました。\n\n「{0}」として再度認証して続行しますか?"
+        "Rejected": {
+          "Description": "サーバーはログインを拒否しました。\n\nもう一度 {0} としてログインして続行しますか？"
         },
-        "Authenticate": {
-          "Loading": "サーバー認証を要求しています...",
-          "Error": "\"{0}\" からの認証を要求できませんでした。\n\nインターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。"
+        "Login": {
+          "Loading": "ログイン中...",
+          "Error": "{0} にログインできませんでした。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Multiplayer": {
+        "NotLoggedInError": {
+          "Description": "マルチプレイに参加するにはログインが必要ですが、Sonolusアカウントでログインしていません。\n\nSonolusアカウントでログインしてからもう一度お試しください。"
         },
-        "AddressMismatchError": {
-          "Description": "認証先アドレスが一致しません。\n\nサーバー所有者に連絡して問題を報告してください。"
+        "CreateRoom": {
+          "Loading": "部屋を作成中...",
+          "Error": "{0} に部屋を作成できませんでした。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "JoinRoom": {
+          "Loading": "部屋に参加中...",
+          "Error": "部屋 \"{0}\" に参加できませんでした。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         }
       },
       "Server": {
@@ -475,10 +577,58 @@
         },
         "Banner": {
           "Loading": "サーバーバナーを読み込み中...",
-          "Error": "\"{0}\" のサーバー バナーを読み込めませんでした。\n\nインターネット接続を確認して再試行するか、サーバー所有者に連絡して問題を報告してください。"
+          "Error": "\"{0}\" のサーバー バナーを読み込めませんでした。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Post": {
+        "Info": {
+          "Loading": "投稿情報を読み込み中...",
+          "Error": "\"{0}\" の投稿情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "List": {
+          "Loading": "投稿一覧を読み込み中...",
+          "Error": "{0}ページ目の投稿一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "投稿詳細を読み込み中...",
+          "Error": "\"{0}\" の投稿詳細の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "投稿の互換性を確認中...",
+          "Error": "投稿 \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\n別の投稿を選択するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Thumbnail": {
+          "Loading": "投稿サムネイルを読み込み中...",
+          "Error": "\"{0}\" の投稿サムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "プレイリスト情報を読み込み中...",
+          "Error": "\"{0}\" のプレイリスト情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "List": {
+          "Loading": "プレイリストを読み込み中...",
+          "Error": "\"{0}\" のプレイリストの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "プレイリストの詳細を読み込み中...",
+          "Error": "\"{0}\" のプレイリスト詳細の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "プレイリストの互換性を確認中...",
+          "Error": "プレイリスト \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Thumbnail": {
+          "Loading": "プレイリストサムネイルを読み込み中...",
+          "Error": "\"{0}\" のプレイリストサムネイルの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         }
       },
       "Level": {
+        "Info": {
+          "Loading": "レベル情報を読み込み中...",
+          "Error": "\"{0}\" のレベル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
         "List": {
           "Loading": "レベル一覧を読み込み中...",
           "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -509,6 +659,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "スキン情報を読み込み中...",
+          "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
         "List": {
           "Loading": "スキン一覧を読み込み中...",
           "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -535,6 +689,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "背景情報を読み込み中...",
+          "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
         "List": {
           "Loading": "背景一覧を読み込み中...",
           "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -565,6 +723,10 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "SE情報を読み込み中...",
+          "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合せ下さい。"
+        },
         "List": {
           "Loading": "SE一覧を読み込み中...",
           "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -591,6 +753,10 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "パーティクル情報を読み込み中...",
+          "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
         "List": {
           "Loading": "パーティクル一覧を読み込み中...",
           "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -617,6 +783,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "エンジン情報を読み込み中...",
+          "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
         "List": {
           "Loading": "エンジン一覧を読み込み中...",
           "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -657,6 +827,62 @@
           "Loading": "エンジン設定を読み込み中...",
           "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "リプレイ情報を読み込み中...",
+          "Error": "\"{0}\"のリプレイ情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "List": {
+          "Loading": "リプレイ一覧を読み込み中...",
+          "Error": "{0}ページ目のリプレイ一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "リプレイ情報を読み込み中...",
+          "Error": "\"{0}\"のリプレイ情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "リプレイの互換性を確認中...",
+          "Error": "リプレイ \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のリプレイを使用するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Data": {
+          "Loading": "リプレイデータを読み込み中...",
+          "Error": "\"{0}\"のリプレイデータの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Configuration": {
+          "Loading": "リプレイ設定を読み込み中...",
+          "Error": "\"{0}\"のリプレイ設定の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "部屋情報を読み込み中...",
+          "Error": "\"{0}\"の部屋情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "List": {
+          "Loading": "部屋一覧を読み込み中...",
+          "Error": "{0}ページ目の部屋一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Details": {
+          "Loading": "部屋情報を読み込み中...",
+          "Error": "\"{0}\"の部屋情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Compatibility": {
+          "Loading": "部屋の互換性を確認中...",
+          "Error": "部屋 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別の部屋を使用するか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Cover": {
+          "Loading": "レベルカバーを読み込み中...",
+          "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Bgm": {
+          "Loading": "レベルBGMを読み込み中...",
+          "Error": "\"{0}\"のレベルBGMの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Preview": {
+          "Loading": "レベルプレビューを読み込み中...",
+          "Error": "\"{0}\"のレベルプレビューの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        }
       }
     },
     "Collection": {
@@ -670,7 +896,55 @@
           "Error": "「{0}」のコレクション バナーを読み込めませんでした。\n\nコレクションが破損している可能性があります。"
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "投稿情報を読み込み中...",
+          "Error": "\"{0}\" の投稿情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "List": {
+          "Loading": "投稿一覧を読み込み中...",
+          "Error": "{0}ページ目の投稿一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "投稿詳細を読み込み中...",
+          "Error": "\"{0}\" の投稿詳細の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "投稿の互換性を確認中...",
+          "Error": "投稿 \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\nこの投稿を更新するか、別の投稿を使用してください。"
+        },
+        "Thumbnail": {
+          "Loading": "投稿サムネイルを読み込み中...",
+          "Error": "\"{0}\" の投稿サムネイルの読み込みに失敗しました。\n\nこの投稿を更新するか、別の投稿を使用してください。"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "プレイリスト情報を読み込み中...",
+          "Error": "\"{0}\" のプレイリスト情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "List": {
+          "Loading": "プレイリスト一覧を読み込み中...",
+          "Error": "{0}ページ目のプレイリスト一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "プレイリスト詳細を読み込み中...",
+          "Error": "\"{0}\" のプレイリスト詳細の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "プレイリストの互換性を確認中...",
+          "Error": "プレイリスト \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\nこのプレイリストを更新するか、別のプレイリストを使用してください。"
+        },
+        "Thumbnail": {
+          "Loading": "プレイリストサムネイルを読み込み中...",
+          "Error": "\"{0}\" のプレイリストサムネイルの読み込みに失敗しました。\n\nこのプレイリストを更新するか、別のプレイリストを使用してください。"
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "レベル情報を読み込み中...",
+          "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
         "List": {
           "Loading": "レベル一覧を読み込み中...",
           "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -701,6 +975,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "スキン情報を読み込み中...",
+          "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
         "List": {
           "Loading": "スキン一覧を読み込み中...",
           "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -727,6 +1005,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "背景情報を読み込み中...",
+          "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
         "List": {
           "Loading": "背景一覧を読み込み中...",
           "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -757,6 +1039,10 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "SE情報を読み込み中...",
+          "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
         "List": {
           "Loading": "SE一覧を読み込み中...",
           "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -783,6 +1069,10 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "パーティクル情報を読み込み中...",
+          "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
         "List": {
           "Loading": "パーティクル一覧を読み込み中...",
           "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -809,6 +1099,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "エンジン情報を読み込み中...",
+          "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
         "List": {
           "Loading": "エンジン一覧を読み込み中...",
           "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -849,9 +1143,69 @@
           "Loading": "エンジン設定を読み込み中...",
           "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、エンジンの開発者にご連絡ください。"
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "リプレイ情報を読み込み中...",
+          "Error": "\"{0}\"のリプレイ情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "List": {
+          "Loading": "リプレイ一覧を読み込み中...",
+          "Error": "{0}ページ目のリプレイ一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "リプレイ情報を読み込み中...",
+          "Error": "\"{0}\"のリプレイ情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "リプレイの互換性を確認中...",
+          "Error": "リプレイ \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のリプレイをご利用ください。"
+        },
+        "Data": {
+          "Loading": "リプレイデータを読み込み中...",
+          "Error": "\"{0}\"のリプレイデータの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のリプレイをご利用ください。"
+        },
+        "Configuration": {
+          "Loading": "リプレイ設定を読み込み中...",
+          "Error": "\"{0}\"のリプレイ設定の読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のリプレイをご利用ください。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "部屋情報を読み込み中...",
+          "Error": "\"{0}\"の部屋情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "List": {
+          "Loading": "部屋一覧を読み込み中...",
+          "Error": "{0}ページ目の部屋一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Details": {
+          "Loading": "部屋の詳細を読み込み中...",
+          "Error": "{0} の部屋の詳細の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Compatibility": {
+          "Loading": "部屋の互換性を確認中...",
+          "Error": "部屋 \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nこの部屋を更新するか、別の部屋を使用してください。oom."
+        },
+        "Cover": {
+          "Loading": "部屋のジャケットを読み込み中...",
+          "Error": "{0} の部屋のジャケットの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。oom."
+        },
+        "Bgm": {
+          "Loading": "レベルのBGMを読み込み中...",
+          "Error": "{0} のレベルのBGMの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。oom."
+        },
+        "Preview": {
+          "Loading": "レベルのプレビューを読み込み中...",
+          "Error": "{0} のレベルのプレビューの読み込みに失敗しました。\n\nこの部屋を更新するか、別の部屋を使用してください。oom."
+        }
       }
     },
     "Scp": {
+      "PackageInfo": {
+        "Loading": "パッケージの情報を読み込み中...",
+        "Error": "{0} のパッケージの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+      },
       "Server": {
         "Info": {
           "Loading": "パッケージ情報を読み込み中...",
@@ -862,7 +1216,55 @@
           "Error": "「{0}」のパッケージ バナーを読み込めませんでした。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "投稿の情報を読み込み中...",
+          "Error": "{0} の投稿の情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "List": {
+          "Loading": "投稿を読み込み中...",
+          "Error": "{0}ページ目の投稿一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "投稿の詳細を読み込み中...",
+          "Error": "{0} の投稿の詳細の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "投稿の互換性を確認中...",
+          "Error": "投稿 \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Thumbnail": {
+          "Loading": "投稿のサムネイルを読み込み中...",
+          "Error": "{0} の投稿のサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "プレイリストの情報を読み込み中...",
+          "Error": "{0} のプレイリストの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "List": {
+          "Loading": "プレイリストを読み込み中...",
+          "Error": "{0}ページ目のプレイリスト一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "プレイリストの詳細を読み込み中...",
+          "Error": "{0} のプレイリストの詳細の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "プレイリストの互換性を確認中...",
+          "Error": "プレイリスト \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Thumbnail": {
+          "Loading": "プレイリストのサムネイルを読み込み中...",
+          "Error": "{0} のプレイリストのサムネイルの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "レベルの情報を読み込み中...",
+          "Error": "{0} のレベルの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
         "List": {
           "Loading": "レベル一覧を読み込み中...",
           "Error": "{0}ページ目のレベル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -893,6 +1295,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "スキンの情報を読み込み中...",
+          "Error": "{0} のスキンの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
         "List": {
           "Loading": "スキン一覧を読み込み中...",
           "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -919,6 +1325,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "背景の情報を読み込み中...",
+          "Error": "{0} の背景の情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
         "List": {
           "Loading": "背景一覧を読み込み中...",
           "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -949,6 +1359,10 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "SE情報を読み込み中...",
+          "Error": "{0} のSE情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
         "List": {
           "Loading": "SE一覧を読み込み中...",
           "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -975,6 +1389,10 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "パーティクルの情報を読み込み中...",
+          "Error": "{0} のパーティクルの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
         "List": {
           "Loading": "パーティクル一覧を読み込み中...",
           "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1001,6 +1419,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "エンジンの情報を読み込み中...",
+          "Error": "{0} のエンジンの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
         "List": {
           "Loading": "エンジン一覧を読み込み中...",
           "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1041,7 +1463,71 @@
           "Loading": "エンジン設定を読み込み中...",
           "Error": "\"{0}\"のエンジン設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "リプレイの情報を読み込み中...",
+          "Error": "{0} のリプレイの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "List": {
+          "Loading": "リプレイを読み込み中...",
+          "Error": "{0}ページ目のリプレイ一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "リプレイの詳細を読み込み中...",
+          "Error": "{0} のリプレイの詳細の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "リプレイの互換性を確認中...",
+          "Error": "リプレイ \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Data": {
+          "Loading": "リプレイデータを読み込み中...",
+          "Error": "{0} のリプレイデータの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Configuration": {
+          "Loading": "リプレイの設定を読み込み中...",
+          "Error": "{0} のリプレイの設定の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "部屋の情報を読み込み中...",
+          "Error": "{0} の部屋の情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "List": {
+          "Loading": "部屋を読み込み中...",
+          "Error": "{0}ページ目の部屋一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Details": {
+          "Loading": "部屋の詳細を読み込み中...",
+          "Error": "{0} の部屋の詳細の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Compatibility": {
+          "Loading": "部屋の互換性を確認中...",
+          "Error": "部屋 \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Cover": {
+          "Loading": "部屋のジャケットを読み込み中...",
+          "Error": "{0} の部屋のジャケットの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Bgm": {
+          "Loading": "レベルのBGMを読み込み中...",
+          "Error": "{0} のレベルのBGMの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Preview": {
+          "Loading": "レベルのプレビューを読み込み中...",
+          "Error": "{0} のレベルのプレビューの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        }
       }
+    },
+    "Multiplayer": {
+      "Connect": {
+        "Loading": "接続中...",
+        "Error": "{0} に接続できませんでした。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+      },
+      "Disconnected": "サーバーから切断されました。",
+      "Error": "部屋で致命的なエラーが発生しました。\n\nサーバーの管理者にお問い合わせ下さい。"
     }
   },
   "DeepLink": {
@@ -1057,6 +1543,21 @@
     "Back": "戻る"
   },
   "Routes": {
+    "ExternalLogin": {
+      "NotLoggedInError": {
+        "Description": "Sonolusアカウントでログインしていません。\n\nSonolusアカウントでログインしてからもう一度お試しください。"
+      },
+      "Confirmation": {
+        "Description": "{0}\nにログインしようとしています。\n\n{1} としてログインしますか?"
+      },
+      "Login": {
+        "Loading": "ログイン中...",
+        "Error": "{0} にログインできませんでした。\n\nインターネット接続を確認してもう一度試すか、サービスの管理者にお問い合わせ下さい。"
+      },
+      "Success": {
+        "Title": "ログイン成功"
+      }
+    },
     "JumpToPage": {
       "Title": "ページを指定して移動",
       "Page": {
@@ -1095,58 +1596,139 @@
         "Description": "カスタム サーバーまたはコレクションを選択して開始します。"
       },
       "ToSave": {
+        "Post": {
+          "Title": "投稿の保存",
+          "Description": "この投稿を保存するコレクションを選択してください。"
+        },
+        "Playlist": {
+          "Title": "プレイリストの保存",
+          "Description": "このプレイリストを保存するコレクションを選択してください。"
+        },
         "Level": {
           "Title": "レベルの保存",
-          "Description": "このレベルの保存先コレクションを選択してください。"
+          "Description": "このレベルを保存するコレクションを選択してください。"
         },
         "Skin": {
           "Title": "スキンの保存",
-          "Description": "このスキンの保存先コレクションを選択してください。"
+          "Description": "このスキンを保存するコレクションを選択してください。"
         },
         "Background": {
           "Title": "背景の保存",
-          "Description": "この背景の保存先コレクションを選択してください。"
+          "Description": "この背景を保存するコレクションを選択してください。"
         },
         "Effect": {
           "Title": "効果音の保存",
-          "Description": "この効果音の保存先コレクションを選択してください。"
+          "Description": "この効果音を保存するコレクションを選択してください。"
         },
         "Particle": {
           "Title": "パーティクルの保存",
-          "Description": "このパーティクルの保存先コレクションを選択してください。"
+          "Description": "このパーティクルを保存するコレクションを選択してください。"
         },
         "Engine": {
           "Title": "エンジンの保存",
-          "Description": "このエンジンの保存先コレクションを選択してください。"
+          "Description": "このエンジンを保存するコレクションを選択してください。"
+        },
+        "Replay": {
+          "Title": "リプレイの保存",
+          "Description": "このリプレイを保存するコレクションを選択してください。"
+        },
+        "Room": {
+          "Title": "部屋の保存",
+          "Description": "この部屋を保存するコレクションを選択してください。"
         }
       },
-      "ToUse": {
+      "ToCreate": {
+        "Post": {
+          "Title": "投稿の作成",
+          "Description": "この投稿を作成するコレクションを選択してください。"
+        },
+        "Playlist": {
+          "Title": "プレイリストの作成",
+          "Description": "このプレイリストを作成するコレクションを選択してください。"
+        },
         "Level": {
-          "Title": "レベルの選択",
-          "Description": "使用したいレベルのある、カスタムサーバーまたはコレクションを選択してください。"
+          "Title": "レベルの作成",
+          "Description": "このレベルを作成するコレクションを選択してください。"
         },
         "Skin": {
-          "Title": "スキンの選択",
-          "Description": "使いたいスキンのあるカスタム サーバーまたはコレクションを選択してください。"
+          "Title": "スキンの作成",
+          "Description": "このスキンを作成するコレクションを選択してください。"
         },
         "Background": {
-          "Title": "背景の選択",
-          "Description": "使いたい背景のあるカスタム サーバーまたはコレクションを選択してください。"
+          "Title": "背景の作成",
+          "Description": "この背景を作成するコレクションを選択してください。"
         },
         "Effect": {
-          "Title": "効果音の選択",
-          "Description": "使用したい効果音のある、カスタムサーバーまたはコレクションを選択してください。"
+          "Title": "効果音の作成",
+          "Description": "この効果音を作成するコレクションを選択してください。"
         },
         "Particle": {
-          "Title": "パーティクルの選択",
-          "Description": "使用したいパーティクルのある、カスタムサーバーまたはコレクションを選択してください。"
+          "Title": "パーティクルの作成",
+          "Description": "このパーティクルを作成するコレクションを選択してください。"
         },
         "Engine": {
-          "Title": "エンジンの選択",
-          "Description": "使用したいエンジンのある、カスタムサーバーまたはコレクションを選択してください。"
+          "Title": "エンジンの作成",
+          "Description": "このエンジンを作成するコレクションを選択してください。"
+        },
+        "Replay": {
+          "Title": "リプレイの作成",
+          "Description": "このリプレイを作成するコレクションを選択してください。"
+        },
+        "Room": {
+          "Title": "部屋の作成",
+          "Description": "この部屋を作成するコレクションを選択してください。"
         }
       },
+      "ToUse": null,
+      "Post": {
+        "Title": "投稿の選択",
+        "Description": "使いたい投稿のあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Playlist": {
+        "Title": "プレイリストの選択",
+        "Description": "使いたいプレイリストのあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Level": {
+        "Title": "レベルの選択",
+        "Description": "使いたいレベルのあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Skin": {
+        "Title": "スキンの選択",
+        "Description": "使いたいスキンのあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Background": {
+        "Title": "背景の選択",
+        "Description": "使いたい背景のあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Effect": {
+        "Title": "効果音の選択",
+        "Description": "使いたい効果音のあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Particle": {
+        "Title": "パーティクルの選択",
+        "Description": "使いたいパーティクルのあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Engine": {
+        "Title": "エンジンの選択",
+        "Description": "使いたいエンジンのあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Replay": {
+        "Title": "リプレイの選択",
+        "Description": "使いたいリプレイのあるカスタムサーバーまたはコレクションを選択してください。"
+      },
+      "Room": {
+        "Title": "部屋の選択",
+        "Description": "使いたい部屋のあるカスタムサーバーまたはコレクションを選択してください。"
+      },
       "ToAddFavorite": {
+        "Post": {
+          "Title": "お気に入り投稿の追加",
+          "Description": "お気に入りに追加したい投稿がある、カスタムサーバーを選択してください。"
+        },
+        "Playlist": {
+          "Title": "お気に入りプレイリストの追加",
+          "Description": "お気に入りに追加したいプレイリストがある、カスタムサーバーを選択してください。"
+        },
         "Level": {
           "Title": "お気に入りレベルの追加",
           "Description": "お気に入りに追加したいレベルがある、カスタムサーバーを選択してください。"
@@ -1170,6 +1752,14 @@
         "Engine": {
           "Title": "お気に入りエンジンの追加",
           "Description": "お気に入りに追加したいエンジンがある、カスタムサーバーを選択してください。"
+        },
+        "Replay": {
+          "Title": "お気に入りリプレイの追加",
+          "Description": "お気に入りに追加したいリプレイがある、カスタムサーバーを選択してください。"
+        },
+        "Room": {
+          "Title": "お気に入り部屋の追加",
+          "Description": "お気に入りに追加したい部屋がある、カスタムサーバーを選択してください。"
         }
       }
     },
@@ -1210,6 +1800,18 @@
       },
       "Success": {
         "Title": "パッケージを読み込みました。"
+      }
+    },
+    "ExportScpConfiguration": {
+      "Title": "パッケージ設定",
+      "Mode": {
+        "Title": "モード",
+        "Description": "推奨：標準\n\nソースを持つアイテムはソースのリンクとして書き出され、パッケージサイズを大幅に削減しますが、インポート時にインターネット接続が必要です。\n標準モードはソースを持つアイテムをリンクとして書き出し、ソースのないアイテムを完全に書き出します。ソースのみモードはソースを持つアイテムのみをリンクとして書き出します。フルモードはすべてのアイテムを完全に書き出します。",
+        "Options": {
+          "Standard": "標準",
+          "SourceOnly": "ソースのみ",
+          "Full": "フル"
+        }
       }
     },
     "ExportScp": {
@@ -1303,9 +1905,9 @@
       "MyAccount": {
         "Title": "マイアカウント",
         "Login": {
-          "Apple": "Apple でサインイン",
-          "Google": "Google でサインイン",
-          "Wechat": "WeChat でサインイン"
+          "Apple": "Apple でログイン",
+          "Google": "Google でログイン",
+          "Wechat": "WeChat でログイン"
         },
         "Profile": "プロフィール",
         "Logout": "サインアウト"
@@ -1375,22 +1977,33 @@
       "AddFavorite": {
         "Title": "お気に入りの追加",
         "Description": "お気に入りに追加する要素の種類を選択してください。",
+        "Post": "投稿",
+        "Playlist": "プレイリスト",
         "Level": "レベル",
         "Skin": "スキン",
         "Background": "背景",
         "Effect": "効果音",
         "Particle": "パーティクル",
-        "Engine": "エンジン"
+        "Engine": "エンジン",
+        "Replay": "リプレイ",
+        "Room": "部屋"
       }
     },
     "Server": {
       "Home": {
-        "Levels": "レベル一覧",
-        "Skins": "スキン一覧",
-        "Backgrounds": "背景一覧",
-        "Effects": "効果音一覧",
-        "Particles": "パーティクル一覧",
-        "Engines": "エンジン一覧",
+        "Login": "ログイン",
+        "Logout": "ログアウト",
+        "Multiplayer": "マルチプレイ",
+        "Post": "投稿",
+        "Playlist": "プレイリスト",
+        "Level": "レベル",
+        "Skin": "スキン",
+        "Background": "背景",
+        "Effect": "SE",
+        "Particle": "パーティクル",
+        "Engine": "エンジン",
+        "Replay": "リプレイ",
+        "Room": "部屋",
         "SaveSuccess": {
           "Title": "サーバーを保存しました"
         },
@@ -1401,10 +2014,64 @@
       "Search": {
         "Title": "検索"
       },
+      "Infos": {
+        "More": "もっと見る",
+        "Advanced": "高度",
+        "Post": {
+          "Title": "投稿"
+        },
+        "Playlist": {
+          "Title": "プレイリスト"
+        },
+        "Level": {
+          "Title": "レベル"
+        },
+        "Skin": {
+          "Title": "スキン"
+        },
+        "Background": {
+          "Title": "背景"
+        },
+        "Effect": {
+          "Title": "SE"
+        },
+        "Particle": {
+          "Title": "パーティクル"
+        },
+        "Engine": {
+          "Title": "エンジン"
+        },
+        "Replay": {
+          "Title": "リプレイ"
+        },
+        "Room": {
+          "Title": "部屋",
+          "Create": "部屋を作成",
+          "CreateRoom": {
+            "Title": "部屋を作成",
+            "Description": "部屋 \"{0}\" を作成しました。部屋リンクを共有して他のプレイヤーを招待できます。",
+            "ShareSuccess": {
+              "Title": "部屋リンクをコピーしました。"
+            }
+          }
+        }
+      },
       "Lists": {
         "SearchOption": "{0}：{1}",
         "DeleteConfirmation": {
           "Description": "「{0}」を削除してもよろしいですか?"
+        },
+        "Post": {
+          "Title": "投稿一覧",
+          "ShareSuccess": {
+            "Title": "投稿のリンクをコピーしました。"
+          }
+        },
+        "Playlist": {
+          "Title": "プレイリスト一覧",
+          "ShareSuccess": {
+            "Title": "プレイリストのリンクをコピーしました。"
+          }
         },
         "Level": {
           "Title": "レベル一覧",
@@ -1441,6 +2108,18 @@
           "ShareSuccess": {
             "Title": "エンジン一覧のリンクをコピーしました"
           }
+        },
+        "Replay": {
+          "Title": "リプレイ一覧",
+          "ShareSuccess": {
+            "Title": "リプレイ一覧のリンクをコピーしました"
+          }
+        },
+        "Room": {
+          "Title": "部屋一覧",
+          "ShareSuccess": {
+            "Title": "部屋一覧のリンクをコピーしました"
+          }
         }
       },
       "Details": {
@@ -1450,11 +2129,27 @@
         "DeleteConfirmation": {
           "Description": "「{0}」を削除してもよろしいですか?"
         },
+        "Tags": {
+          "Title": "タグ"
+        },
         "Description": {
           "Title": "説明文"
         },
-        "Recommended": {
-          "Title": "おすすめ"
+        "Post": {
+          "ShareSuccess": {
+            "Title": "投稿のリンクをコピーしました"
+          }
+        },
+        "Playlist": {
+          "Actions": {
+            "Play": "プレイ"
+          },
+          "ShareSuccess": {
+            "Title": "プレイリストのリンクをコピーしました"
+          },
+          "Levels": {
+            "Title": "レベル一覧"
+          }
         },
         "Level": {
           "Actions": {
@@ -1563,9 +2258,46 @@
           "ShareSuccess": {
             "Title": "エンジンのリンクをコピーしました"
           }
+        },
+        "Replay": {
+          "Actions": {
+            "Watch": "再生"
+          },
+          "Watch": {
+            "Effect": {
+              "Audio": {
+                "Loading": "効果音をデコード中...",
+                "Error": "効果音 \"{0}\"のデコードに失敗しました。\n\n効果音の作者にご連絡ください。"
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "レベルBGMをデコード中...",
+                "Error": "レベルBGM \"{0}\"のデコードに失敗しました。\n\nレベルの作者にご連絡ください。"
+              }
+            },
+            "Boot": {
+              "Loading": "リプレイを開始中...",
+              "Error": "リプレイ \"{0}\"の開始に失敗しました。\n\nリプレイの作者にご連絡ください。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "リプレイのリンクをコピーしました"
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+            "Title": "部屋のリンクをコピーしました"
+          }
         }
       },
       "Configurations": {
+        "Post": {
+          "Title": "投稿設定"
+        },
+        "Playlist": {
+          "Title": "プレイリスト設定"
+        },
         "Level": {
           "Title": "レベル設定",
           "Offsets": {
@@ -1682,9 +2414,25 @@
               "Description": "推奨：0\n\nこのエンジンに適用される入力オフセット。\nこのエンジンだけ入力が遅れている時に使います。\n入力が遅れている時はプラス、早い時はマイナスに調整して下さい。"
             }
           }
+        },
+        "Replay": {
+          "Title": "リプレイ設定"
+        },
+        "Room": {
+          "Title": "部屋設定"
         }
       },
       "Savers": {
+        "Post": {
+          "Success": {
+            "Title": "投稿を保存しました"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "プレイリストを保存しました"
+          }
+        },
         "Level": {
           "Success": {
             "Title": "レベルを保存しました"
@@ -1713,6 +2461,317 @@
         "Engine": {
           "Success": {
             "Title": "エンジンを保存しました"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "リプレイを保存しました"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "部屋を保存しました"
+          }
+        }
+      },
+      "Updaters": {
+        "Post": {
+          "Success": {
+            "Title": "投稿を更新しました"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "プレイリストを更新しました"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "レベルを更新しました"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "スキンを更新しました"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景を更新しました"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "効果音を更新しました"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "パーティクルを更新しました"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "エンジンを更新しました"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "リプレイを更新しました"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "部屋を更新しました"
+          }
+        }
+      },
+      "CreateInfos": {
+        "Post": {
+          "Title": "投稿情報"
+        },
+        "Playlist": {
+          "Title": "プレイリスト情報"
+        },
+        "Level": {
+          "Title": "レベル情報"
+        },
+        "Skin": {
+          "Title": "スキン情報"
+        },
+        "Background": {
+          "Title": "背景情報"
+        },
+        "Effect": {
+          "Title": "効果音情報"
+        },
+        "Particle": {
+          "Title": "パーティクル情報"
+        },
+        "Engine": {
+          "Title": "エンジン情報"
+        },
+        "Replay": {
+          "Title": "リプレイ情報",
+          "Info": {
+            "Title": {
+              "Title": "タイトル",
+              "Description": "リプレイのタイトル",
+              "Placeholder": "リプレイのタイトルを入力してください..."
+            },
+            "Subtitle": {
+              "Title": "サブタイトル",
+              "Description": "リプレイのサブタイトル",
+              "Placeholder": "リプレイのサブタイトルを入力してください..."
+            },
+            "Description": {
+              "Title": "説明",
+              "Description": "リプレイの説明",
+              "Placeholder": "リプレイの説明を入力してください..."
+            }
+          }
+        },
+        "Room": {
+          "Title": "部屋情報"
+        }
+      },
+      "Creators": {
+        "Post": {
+          "Success": {
+            "Title": "投稿を作成しました"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "プレイリストを作成しました"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "レベルを作成しました"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "スキンを作成しました"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景を作成しました"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "効果音を作成しました"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "パーティクルを作成しました"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "エンジンを作成しました"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "リプレイを作成しました"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "部屋を作成しました"
+          }
+        }
+      },
+      "Multiplayer": {
+        "Connecting": "接続中...",
+        "Reconnecting": "再接続中...",
+        "ExitConfirmation": {
+          "Description": "部屋を退出してもよろしいですか？"
+        },
+        "Play": {
+          "NoLevel": "レベルが選択されていません。",
+          "Options": {
+            "Title": "設定",
+            "NoLevel": "レベルが選択されていません。"
+          },
+          "Selecting": {
+            "Title": "選択中",
+            "Description": {
+              "Lead": "選択権を持っています",
+              "Other": "{0} が選択中...",
+              "Room": "システムが選択中..."
+            },
+            "Actions": {
+              "Select": "選択",
+              "NoSource": "このレベルにはソースが設定されていないため選択できません。\n\n他のレベルを選択するか、レベルの作者にお問い合わせください。",
+              "NoOtherServers": "このサーバーは他のサーバーからのレベルを許可していないため、このレベルを選択できません。\n\n他のレベルを選択してください。"
+            }
+          },
+          "Preparing": {
+            "Title": {
+              "Preparing": "準備中",
+              "Ready": "準備完了",
+              "Skipped": "パス"
+            },
+            "Description": "準備中：{0} / 準備完了：{1} / パス：{2}",
+            "Actions": {
+              "Configuration": "設定",
+              "Ready": "準備完了",
+              "Skip": "パス",
+              "Start": {
+                "Title": "強制開始",
+                "Confirmation": {
+                  "Description": "強制開始しますか？\n\nまだ準備中のプレイヤーはパス扱いになります。"
+                }
+              }
+            }
+          },
+          "Playing": {
+            "Title": "プレイ中",
+            "Description": "読み込み中：{0} / プレイ中：{1}",
+            "Actions": {
+              "Finish": {
+                "Title": "強制終了",
+                "Confirmation": {
+                  "Description": "強制終了しますか？\n\nまだプレイ中のプレイヤーのスコアは無効になります。"
+                }
+              }
+            }
+          }
+        },
+        "Chat": {
+          "Title": "チャット",
+          "Text": {
+            "Placeholder": "メッセージを入力してください..."
+          },
+          "Quick": {
+            "Hello": {
+              "Title": "挨拶",
+              "Text": "こんにちは！"
+            },
+            "Glhf": {
+              "Title": "対よろ",
+              "Text": "対戦よろしくおねがいします！"
+            },
+            "Gg": {
+              "Title": "対あり",
+              "Text": "対戦ありがとうございました！"
+            },
+            "Ns": {
+              "Title": "お疲れ",
+              "Text": "お疲れ様でした！"
+            },
+            "Ty": {
+              "Title": "ありがとう",
+              "Text": "ありがとう！"
+            }
+          },
+          "System": {
+            "Selecting": "選択中...",
+            "Preparing": "準備中...",
+            "Playing": "プレイ中...",
+            "Master": "{0} が部屋主になりました。",
+            "Lead": "曲選択権が {0} に移動しました。",
+            "Options": "部屋の設定が変更されました。",
+            "Level": "{0} が選択されました。",
+            "LevelOptions": "レベルの設定が変更されました。",
+            "AutoExit": "自動終了設定が変更されました。",
+            "Connected": {
+              "Self": "接続しました。",
+              "Other": "{0} が参加しました。"
+            },
+            "Disconnected": "{0} が退出しました。"
+          }
+        },
+        "Suggestions": {
+          "Title": "提案",
+          "Actions": {
+            "Lock": "ロック",
+            "Unlock": "ロック解除",
+            "Clear": "クリア",
+            "NoSource": "このレベルにはソースが設定されていないため選択できません。\n\n他のレベルを選択するか、レベルの作者にお問い合わせください。",
+            "NoOtherServers": "このサーバーは他のサーバーからのレベルを許可していないため、このレベルを選択できません。\n\n他のレベルを選択してください。"
+          }
+        },
+        "Scoreboard": {
+          "Title": "スコア",
+          "Actions": {
+            "Reset": {
+              "Title": "リセット",
+              "Confirmation": {
+                "Description": "スコアをリセットしますか？"
+              }
+            }
+          },
+          "Result": {
+            "Title": "リザルト"
+          }
+        },
+        "Room": {
+          "EditOptions": "部屋の設定",
+          "Players": {
+            "Title": "プレイヤー",
+            "UpdateMasterConfirmation": {
+              "Description": "{0} を部屋主にしますか？"
+            },
+            "UpdateLeadConfirmation": {
+              "Description": "{0} に曲選択権を移動しますか？"
+            },
+            "KickConfirmation": {
+              "Description": "{0} をKickしますか？"
+            },
+            "AddedToBlacklistSuccess": "プレイヤーをブロックしました",
+            "RemovedFromBlacklistSuccess": "プレイヤーをブロック解除しました",
+            "Report": {
+              "Title": "プレイヤーを報告",
+              "Description": "{0}を報告：",
+              "Success": "プレイヤーを報告しました"
+            }
           }
         }
       }
@@ -1778,9 +2837,9 @@
           "Title": "プレビューBGM",
           "Description": "プレビューBGMをいつ再生するか。",
           "Options": {
-            "Off": "オフ",
-            "DetailsOnly": "詳細画面のみ",
-            "ListAndDetails": "一覧画面と詳細画面"
+            "List": "一覧画面",
+            "Details": "詳細画面",
+            "Multiplayer": "部屋"
           }
         },
         "LevelBgmQuality": {
@@ -1804,15 +2863,36 @@
       },
       "Gameplay": {
         "Title": "ゲームプレイ",
-        "AutoExit": {
-          "Title": "自動終了",
-          "Description": "特定のグレードに到達できなくなった時に自動的に曲を終了します。",
-          "Options": {
-            "Off": "オフ",
-            "Fail": "Pass",
-            "Pass": "Full Combo",
-            "FullCombo": "All Perfect"
-          }
+        "UnpauseDelay": {
+          "Title": "一時停止解除時の猶予",
+          "Description": "一時停止解除時の猶予時間。"
+        },
+        "MultiplayerPreload": {
+          "Title": "マルチプレイ：事前読み込み",
+          "Description": "推奨：オン\n\nマルチプレイ時、レベルが確定した時点で読み込みを開始します。"
+        },
+        "ReplayTitleTemplate": {
+          "Title": "リプレイ：タイトルのテンプレート",
+          "Description": "リプレイを作成する際のタイトルのテンプレート。\n\n波括弧で囲まれた区間は対応する値に置き換えられます。",
+          "Placeholder": "タイトルのテンプレートを入力してください..."
+        },
+        "ReplaySubtitleTemplate": {
+          "Title": "リプレイ：サブタイトルのテンプレート",
+          "Description": "リプレイを作成する際のサブタイトルのテンプレート。\n\n波括弧で囲まれた区間は対応する値に置き換えられます。",
+          "Placeholder": "サブタイトルのテンプレートを入力してください..."
+        },
+        "ReplayDescriptionTemplate": {
+          "Title": "リプレイ：説明のテンプレート",
+          "Description": "リプレイを作成する際の説明のテンプレート。\n\n波括弧で囲まれた区間は対応する値に置き換えられます。",
+          "Placeholder": "説明のテンプレートを入力してください..."
+        },
+        "ShowReplayTouches": {
+          "Title": "リプレイ：タッチ表示",
+          "Description": "リプレイ時にタッチを表示をするかどうか。"
+        },
+        "OverwriteReplayOptions": {
+          "Title": "リプレイ：オプションを上書きする",
+          "Description": "リプレイを再生する際にオプションを上書きします。"
         }
       },
       "UI": {
@@ -1832,10 +2912,6 @@
         "Scale": {
           "Title": "UIスケール",
           "Description": "UIのスケールを設定します。 文字が読みにくい場合は大きく、多くの情報を表示したい場合は小さくします。"
-        },
-        "UnpauseDelay": {
-          "Title": "ポーズ解除の猶予",
-          "Description": "ポーズ解除時の猶予時間を設定します。"
         },
         "PerfectJudgmentColors": {
           "Title": "Perfect判定の色",
@@ -1884,6 +2960,10 @@
         "ShowZeroCombo": {
           "Title": "0コンボを表示する",
           "Description": "0コンボを表示します。"
+        },
+        "TouchStyle": {
+          "Title": "タッチ表示のスタイル",
+          "Description": "タッチ表示のスタイルを設定します。"
         }
       },
       "Offsets": {
@@ -1927,10 +3007,6 @@
         "ShowTouches": {
           "Title": "タッチ表示",
           "Description": "タッチした場所にタッチ表示を表示します。 画面録画をするときに有用です。"
-        },
-        "TouchStyle": {
-          "Title": "タッチ表示のスタイル",
-          "Description": "タッチ表示のスタイルを設定します。"
         },
         "DebugMode": {
           "Title": "デバッグモード",
@@ -2016,76 +3092,66 @@
     }
   },
   "Runtimes": {
+    "Pause": {
+      "Title": "一時停止",
+      "Debug": {
+        "Title": "デバッグ"
+      }
+    },
+    "Control": {
+      "Title": "操作",
+      "Exit": "終了",
+      "Restart": "再開"
+    },
     "Level": {
       "Play": {
         "Routes": {
+          "Playlist": {
+            "Title": "プレイリスト",
+            "Previous": "前",
+            "Next": "次"
+          },
           "Pause": {
-            "Title": "一時停止",
-            "Control": {
-              "Title": "操作",
-              "Exit": "終了",
-              "Restart": "リスタート"
-            },
             "Snapshot": {
               "Title": "区間練習",
               "Mark": "マーク",
               "Jump": "ジャンプ"
-            },
-            "Debug": {
-              "Title": "デバッグ"
             }
           },
           "Result": {
-            "Title": "リザルト",
             "Options": {
               "HasUsedPause": "一時停止使用",
               "HasUsedSnapshot": "区間練習使用"
             },
-            "Graphs": {
-              "Title": "グラフ",
-              "Judgment": {
-                "Title": "判定グラフ"
+            "Replay": {
+              "Title": "リプレイ",
+              "Description": {
+                "Normal": "プレイデータを記録しました。リプレイを作成することができます。",
+                "HasUsedPause": "一時停止を使用したため、リプレイを作成することができません。",
+                "HasUsedSnapshot": "区間練習を使用したため、リプレイを作成することができません。"
               },
-              "Accuracy": {
-                "Title": "精度グラフ",
-                "AbsValue": "絶対値",
-                "Mean": "平均値",
-                "StDev": "標準偏差",
-                "Min": "最小値",
-                "Max": "最大値"
-              },
-              "Bucket": {
-                "Title": "バケットグラフ"
-              }
+              "Create": "作成"
             }
           }
         }
       },
-      "Watch": {
-        "Routes": {
-          "Pause": {
-            "Title": "ポーズ",
-            "Control": {
-              "Title": "操作",
-              "Exit": "終了"
-            },
-            "Debug": {
-              "Title": "デバッグ"
-            }
-          }
-        }
-      },
-      "Preview": {
-        "Routes": {
-          "Pause": {
-            "Title": "ポーズ",
-            "Control": {
-              "Title": "操作",
-              "Exit": "終了"
-            },
-            "Debug": {
-              "Title": "デバッグ"
-            }
+      "Result": {
+        "Title": "リザルト",
+        "Graphs": {
+          "Title": "グラフ",
+          "Judgment": {
+            "Title": "判定グラフ"
+          },
+          "Accuracy": {
+            "Title": "精度グラフ",
+            "AbsValue": "絶対値",
+            "Mean": "平均",
+            "StDev": "標準偏差",
+            "Min": "最小",
+            "Max": "最大"
+          },
+          "Bucket": {
+            "Title": "バケットグラフ"
           }
         }
       }
@@ -2095,22 +3161,6 @@
         "Routes": {
           "Preview": {
             "Play": "再生"
-          }
-        }
-      }
-    },
-    "Engine": {
-      "Tutorial": {
-        "Routes": {
-          "Pause": {
-            "Title": "ポーズ",
-            "Control": {
-              "Title": "操作",
-              "Exit": "終了"
-            },
-            "Debug": {
-              "Title": "デバッグ"
-            }
           }
         }
       }
