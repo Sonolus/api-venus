@@ -4,195 +4,317 @@
     "Title": "Bahasa Indonesia (Indonesian)"
   },
   "Texts": {
-    "Name": {
-      "#KEYWORDS": "Kata Kunci",
-      "#NAME": "Nama",
-      "#RATING": "Rating",
-      "#RATING_MINIMUM": "Rating Minimum ",
-      "#RATING_MAXIMUM": "Rating Maximum ",
-      "#TITLE": "Judul",
-      "#SUBTITLE": "Sub Judul",
-      "#ARTISTS": "Artist",
-      "#AUTHOR": "Author",
-      "#GENRE": "Genre",
-      "#CATEGORY": "Kategori",
-      "#LANGUAGE": "Bahasa",
-      "#DIFFICULTY": "Kesulitan",
-      "#LENGTH": "Durasi",
-      "#LENGTH_MINIMUM": "Durasi Minimum",
-      "#LENGTH_MAXIMUM": "Panjang Maksimum",
-      "#SPEED": "Kecepatan Level",
-      "#MIRROR": "Mirror Level",
-      "#RANDOM": "Acak Note",
-      "#HIDDEN": "Tersembunyi",
-      "#JUDGMENT_STRICT": "Penilaian Ketat",
-      "#JUDGMENT_LOOSE": "Penilaian Longgar",
-      "#EFFECT": "SFX",
-      "#EFFECT_AUTO": "SFX Auto ",
-      "#STAGE": "Stage",
-      "#STAGE_POSITION": "Posisi Stage",
-      "#STAGE_SIZE": "Ukuran Stage",
-      "#STAGE_ROTATION": "Rotasi Stage",
-      "#STAGE_ALPHA": "Transparansi Stage",
-      "#STAGE_ANIMATION": "Animasi Stage",
-      "#STAGE_TILT": "Kemiringan Stage",
-      "#STAGE_COVER_VERTICAL": "Stage Cover Vertikal",
-      "#STAGE_COVER_HORIZONTAL": "Stage Cover Horizontal ",
-      "#STAGE_COVER_ALPHA": "Stage Cover Transparansi",
-      "#STAGE_ASPECTRATIO_LOCK": "Kunci Ratio Aspek Stage",
-      "#STAGE_EFFECT": "Efek Stage",
-      "#STAGE_EFFECT_POSITION": "Posisi Efek Stage",
-      "#STAGE_EFFECT_SIZE": "Ukuran Efek Stage",
-      "#STAGE_EFFECT_ROTATION": "Rotasi Efek Stage",
-      "#STAGE_EFFECT_ALPHA": "Transparansi Efek Stage",
-      "#LANE": "Lane",
-      "#LANE_POSITION": "Posisi Lane",
-      "#LANE_SIZE": "Ukuran Lane",
-      "#LANE_ROTATION": "Rotasi Lane",
-      "#LANE_ALPHA": "Transparansi Lane",
-      "#LANE_ANIMATION": "Animasi Lane",
-      "#LANE_EFFECT": "Efek Lane ",
-      "#LANE_EFFECT_POSITION": "Posisi Efek Lane",
-      "#LANE_EFFECT_SIZE": "Ukuran Efek Lane",
-      "#LANE_EFFECT_ROTATION": "Rotasi Efek Lane",
-      "#LANE_EFFECT_ALPHA": "Transparansi Efek Lane",
-      "#JUDGELINE": "Penilaian Line",
-      "#JUDGELINE_POSITION": "Posisi Penilaian Line",
-      "#JUDGELINE_SIZE": "Ukuran Penilaian Line",
-      "#JUDGELINE_ROTATION": "Rotasi Penilaian Line",
-      "#JUDGELINE_ALPHA": "Transparansi Penilaian Line",
-      "#JUDGELINE_ANIMATION": "Animasi Penilaian Line",
-      "#JUDGELINE_EFFECT": "Efek Penilaian Line",
-      "#JUDGELINE_EFFECT_POSITION": "Posisi Efek Penilaian Line",
-      "#JUDGELINE_EFFECT_SIZE": "Penilaian Ukuran Efek Line",
-      "#JUDGELINE_EFFECT_ROTATION": "Rotasi Efek Penilaian Line",
-      "#JUDGELINE_EFFECT_ALPHA": "Transparansi Efek Penilaian Line",
-      "#SLOT": "Slot",
-      "#SLOT_POSITION": "Posisi Slot",
-      "#SLOT_SIZE": "Ukuran Slot",
-      "#SLOT_ROTATION": "Rotasi Slot",
-      "#SLOT_ALPHA": "Transparansi Slot",
-      "#SLOT_ANIMATION": "Animasi Slot",
-      "#SLOT_EFFECT": "Efek Slot",
-      "#SLOT_EFFECT_POSITION": "Posisi Efek Slot",
-      "#SLOT_EFFECT_SIZE": "Ukuran Efek Slot",
-      "#SLOT_EFFECT_ROTATION": "Rotasi Efek Slot",
-      "#SLOT_EFFECT_ALPHA": "Transparansi Efek Slot",
-      "#NOTE": "Note",
-      "#NOTE_SPEED": "Kecepatan Note",
-      "#NOTE_SPEED_RANDOM": "Acak Kecepatan Note",
-      "#NOTE_POSITION": "Posisi Note",
-      "#NOTE_SIZE": "Ukuran Note",
-      "#NOTE_ROTATION": "Rotasi Note",
-      "#NOTE_ALPHA": "Transparansi Note",
-      "#NOTE_ANIMATION": "Animasi Note",
-      "#NOTE_EFFECT": "Efek Note",
-      "#NOTE_EFFECT_POSITION": "Posisi Efek Note",
-      "#NOTE_EFFECT_SIZE": "Ukuran Efek Note",
-      "#NOTE_EFFECT_ROTATION": "Rotasi Efek Note",
-      "#NOTE_EFFECT_ALPHA": "Transparansi Efek Note",
-      "#MARKER": "Marker",
-      "#MARKER_POSITION": "Posisi Marker",
-      "#MARKER_SIZE": "Ukuran Marker",
-      "#MARKER_ROTATION": "Rotasi Marker",
-      "#MARKER_ALPHA": "Transparansi Marker",
-      "#MARKER_ANIMATION": "Animasi Marker",
-      "#CONNECTOR": "Konektor",
-      "#CONNECTOR_POSITION": "Posisi Konektor",
-      "#CONNECTOR_SIZE": "Ukuran Konektor",
-      "#CONNECTOR_ROTATION": "Rotasi Konektor",
-      "#CONNECTOR_ALPHA": "Transparansi Konektor",
-      "#CONNECTOR_ANIMATION": "Animasi Konektor",
-      "#SIMLINE": "Line Simultan",
-      "#SIMLINE_POSITION": "Posisi Line Simultan",
-      "#SIMLINE_SIZE": "Ukuran Line Simultan",
-      "#SIMLINE_ROTATION": "Rotasi Line Simultan",
-      "#SIMLINE_ALPHA": "Transparansi Line Simultan",
-      "#SIMLINE_ANIMATION": "Animasi Line Simultan"
-    },
-    "Value": {
-      "#NONE": "Tidak Ada",
-      "#ANY": "Bebas",
-      "#ALL": "Semua",
-      "#OTHERS": "Lainnya",
-      "#SHORT": "Pendek",
-      "#LONG": "Panjang",
-      "#HIGH": "Tinggi",
-      "#MID": "Tengah",
-      "#LOW": "Rendah",
-      "#SMALL": "Kecil",
-      "#MEDIUM": "Sedang",
-      "#LARGE": "Besar",
-      "#LEFT": "Kiri",
-      "#RIGHT": "Kanan",
-      "#UP": "Atas",
-      "#DOWN": "Bawah",
-      "#FRONT": "Depan",
-      "#BACK": "Belakang",
-      "#CENTER": "Tengah",
-      "#TOP": "Atas",
-      "#BOTTOM": "Bawah",
-      "#TOP_LEFT": "Kiri Atas",
-      "#TOP_CENTER": "Tengah Atas",
-      "#TOP_RIGHT": "Kanan Atas",
-      "#CENTER_LEFT": "Kiri Tengah",
-      "#CENTER_RIGHT": "Kanan Tengah",
-      "#BOTTOM_LEFT": "Kiri Bawah",
-      "#BOTTOM_CENTER": "Tengah Bawah",
-      "#BOTTOM_RIGHT": "Kanan Bawah",
-      "#CLOCKWISE": "Searah Jarum Jam",
-      "#COUNTERCLOCKWISE": "Berlawanan Jarum Jam",
-      "#FORWARD": "Maju",
-      "#BACKWARD": "Mundur",
-      "#SIMPLE": "Simple",
-      "#EASY": "Easy",
-      "#NORMAL": "Normal",
-      "#HARD": "Hard",
-      "#EXPERT": "Expert",
-      "#MASTER": "Master",
-      "#PRO": "Pro",
-      "#TECHNICAL": "Technical",
-      "#SPECIAL": "Special"
-    },
-    "Placeholder": {
-      "#KEYWORDS": "Masukkan kata kunci...",
-      "#NAME": "Masukkan nama...",
-      "#RATING": "Enter rating...",
-      "#RATING_MINIMUM": "Masukkan rating minimum...",
-      "#RATING_MAXIMUM": "Masukkan rating maksimum...",
-      "#TITLE": "Masukkan judul...",
-      "#SUBTITLE": "Masukkan sub judul...",
-      "#ARTISTS": "Masukkan artist...",
-      "#AUTHOR": "Masukkan author...",
-      "#GENRE": "Masukkan genre...",
-      "#CATEGORY": "Masukkan kategori...",
-      "#LANGUAGE": "Masukkan bahasa...",
-      "#DIFFICULTY": "Masukkan kesulitan...",
-      "#LENGTH": "Masukkan durasi...",
-      "#LENGTH_MINIMUM": "Masukkan durasi minimum...",
-      "#LENGTH_MAXIMUM": "Masukkan durasi maksimum"
-    },
-    "Unit": {
-      "#PERCENTAGE": "{0}%",
-      "#SECOND": "{0} s",
-      "#MILLISECOND": "{0} ms"
-    },
-    "Instruction": {
-      "#TAP": "Ketuk",
-      "#TAP_HOLD": "Ketuk dan Tahan",
-      "#TAP_RELEASE": "Ketuk dan Lepaskan",
-      "#TAP_FLICK": "Ketuk dan Flick",
-      "#TAP_SLIDE": "Ketuk dan Slide",
-      "#HOLD": "Tahan",
-      "#HOLD_SLIDE": "Tahan dan Slide",
-      "#HOLD_FOLLOW": "Tahan dan Ikuti",
-      "#RELEASE": "Lepaskan",
-      "#FLICK": "Flick",
-      "#SLIDE": "Slide",
-      "#SLIDE_FLICK": "Slide dan Flick",
-      "#AVOID": "Hindari",
-      "#JIGGLE": "Jiggle"
-    }
+    "#GRADE": "Nilai",
+    "#ARCADE_SCORE": "Skor",
+    "#ACCURACY_SCORE": "Skor Akurasi",
+    "#COMBO": "Kombo",
+    "#PERFECT": "Perfect",
+    "#GREAT": "Great",
+    "#GOOD": "Good",
+    "#MISS": "Miss",
+    "#KEYWORDS": "Kata Kunci",
+    "#NAME": "Nama",
+    "#RATING": "Rating",
+    "#RATING_MINIMUM": "Rating Minimal",
+    "#RATING_MAXIMUM": "Rating Maksimal",
+    "#TITLE": "Judul",
+    "#SUBTITLE": "Subtitle",
+    "#ARTISTS": "Artist",
+    "#AUTHOR": "Author",
+    "#GENRE": "Genre",
+    "#TYPE": "Tipe",
+    "#CATEGORY": "Kategori",
+    "#LANGUAGE": "Bahasa",
+    "#DIFFICULTY": "Kesulitan",
+    "#VERSIONS": "Versi",
+    "#LENGTH": "Panjang",
+    "#LENGTH_MINIMUM": "Panjang Minimal",
+    "#LENGTH_MAXIMUM": "Panjang Maksimal",
+    "#ADDITIONAL_INFORMATION": "Informasi Tambahan",
+    "#SPEED": "Kecepatan Level",
+    "#MIRROR": "Mirror Level",
+    "#RANDOM": "Acak",
+    "#HIDDEN": "Hidden",
+    "#JUDGMENT_STRICT": "Penilaian Ketat",
+    "#JUDGMENT_LOOSE": "Penilaian Longgar",
+    "#EFFECT": "SFX",
+    "#EFFECT_AUTO": "Auto SFX",
+    "#STAGE": "Stage",
+    "#STAGE_POSITION": "Posisi Stage",
+    "#STAGE_SIZE": "Ukuran Stage",
+    "#STAGE_ROTATION": "Rotasi Stage",
+    "#STAGE_DIRECTION": "Arah Stage",
+    "#STAGE_ALPHA": "Transparansi Stage",
+    "#STAGE_ANIMATION": "Animasi Stage",
+    "#STAGE_TILT": "Kemiringan Stage",
+    "#STAGE_COVER_VERTICAL": "Cover Stage Vertikal",
+    "#STAGE_COVER_HORIZONTAL": "Cover Stage Horizontal",
+    "#STAGE_COVER_ALPHA": "Transparansi Cover Stage",
+    "#STAGE_ASPECTRATIO_LOCK": "Lock Aspect Ratio Stage",
+    "#STAGE_EFFECT": "Efek Stage",
+    "#STAGE_EFFECT_POSITION": "Posisi Efek Stage",
+    "#STAGE_EFFECT_SIZE": "Ukuran Efek Stage",
+    "#STAGE_EFFECT_ROTATION": "Rotasi Efek Stage",
+    "#STAGE_EFFECT_DIRECTION": "Arah Efek Stage",
+    "#STAGE_EFFECT_ALPHA": "Transparansi Efek Stage",
+    "#LANE": "Lane",
+    "#LANE_POSITION": "Posisi Lane",
+    "#LANE_SIZE": "Ukuran Lane",
+    "#LANE_ROTATION": "Rotasi Lane",
+    "#LANE_DIRECTION": "Arah Lane",
+    "#LANE_ALPHA": "Transparansi Lane",
+    "#LANE_ANIMATION": "Animasi Lane",
+    "#LANE_EFFECT": "Efek Lane",
+    "#LANE_EFFECT_POSITION": "Posisi Efek Lane",
+    "#LANE_EFFECT_SIZE": "Ukuran Efek Lane",
+    "#LANE_EFFECT_ROTATION": "Rotasi Efek Lane",
+    "#LANE_EFFECT_DIRECTION": "Arah Efek Lane",
+    "#LANE_EFFECT_ALPHA": "Transparansi Efek Lane",
+    "#JUDGELINE": "Penilaian Line",
+    "#JUDGELINE_POSITION": "Posisi Penilaian Line",
+    "#JUDGELINE_SIZE": "Ukuran Penilaian Line",
+    "#JUDGELINE_ROTATION": "Rotasi Penilaian Line",
+    "#JUDGELINE_DIRECTION": "Arah Penilaian Line",
+    "#JUDGELINE_ALPHA": "Transparansi Penilaian Line",
+    "#JUDGELINE_ANIMATION": "Animasi Penilaian Line",
+    "#JUDGELINE_EFFECT": "Efek Penilaian Line",
+    "#JUDGELINE_EFFECT_POSITION": "Posisi Efek Penilaian Line",
+    "#JUDGELINE_EFFECT_SIZE": "Ukuran Efek Penilaian Line",
+    "#JUDGELINE_EFFECT_ROTATION": "Rotasi Efek Penilaian Line",
+    "#JUDGELINE_EFFECT_DIRECTION": "Arah Efek Penilaian Line",
+    "#JUDGELINE_EFFECT_ALPHA": "Transparansi Efek Penilaian Line",
+    "#SLOT": "Slot",
+    "#SLOT_POSITION": "Posisi Slot",
+    "#SLOT_SIZE": "Ukuran Slot",
+    "#SLOT_ROTATION": "Rotasi Slot",
+    "#SLOT_DIRECTION": "Arah Slot",
+    "#SLOT_ALPHA": "Transparansi Slot",
+    "#SLOT_ANIMATION": "Animasi Slot",
+    "#SLOT_EFFECT": "Efek Slot",
+    "#SLOT_EFFECT_POSITION": "Posisi Efek Slot",
+    "#SLOT_EFFECT_SIZE": "Ukuran Efek Slot",
+    "#SLOT_EFFECT_ROTATION": "Rotasi Efek Slot",
+    "#SLOT_EFFECT_DIRECTION": "Arah Efek Slot",
+    "#SLOT_EFFECT_ALPHA": "Transparansi Efek Slot",
+    "#NOTE": "Note",
+    "#NOTE_SPEED": "Kecepatan Note",
+    "#NOTE_SPEED_RANDOM": "Acak Kecepatan Note",
+    "#NOTE_POSITION": "Posisi Note",
+    "#NOTE_SIZE": "Ukuran Note",
+    "#NOTE_ROTATION": "Rotasi Note",
+    "#NOTE_DIRECTION": "Arah Note",
+    "#NOTE_ALPHA": "Transparansi Note",
+    "#NOTE_ANIMATION": "Animasi Note",
+    "#NOTE_EFFECT": "Efek Note",
+    "#NOTE_EFFECT_POSITION": "Posisi Efek Note",
+    "#NOTE_EFFECT_SIZE": "Ukuran Efek Note",
+    "#NOTE_EFFECT_ROTATION": "Rotasi Efek Note",
+    "#NOTE_EFFECT_DIRECTION": "Arah Efek Note",
+    "#NOTE_EFFECT_ALPHA": "Transparansi Efek Note",
+    "#MARKER": "Marker",
+    "#MARKER_POSITION": "Posisi Marker",
+    "#MARKER_SIZE": "Ukuran Marker",
+    "#MARKER_ROTATION": "Rotasi Marker",
+    "#MARKER_DIRECTION": "Arah Marker",
+    "#MARKER_ALPHA": "Transparansi Marker",
+    "#MARKER_ANIMATION": "Animasi Marker",
+    "#CONNECTOR": "Konektor",
+    "#CONNECTOR_POSITION": "Posisi Konektor",
+    "#CONNECTOR_SIZE": "Ukuran Konektor",
+    "#CONNECTOR_ROTATION": "Rotasi Konektor",
+    "#CONNECTOR_DIRECTION": "Arah Konektor",
+    "#CONNECTOR_ALPHA": "Transparansi Konektor",
+    "#CONNECTOR_ANIMATION": "Animasi Konektor",
+    "#SIMLINE": "Line Simultan",
+    "#SIMLINE_POSITION": "Posisi Line Simultan",
+    "#SIMLINE_SIZE": "Ukuran Line Simultan",
+    "#SIMLINE_ROTATION": "Rotasi Line Simultan",
+    "#SIMLINE_DIRECTION": "Arah Line Simultan",
+    "#SIMLINE_ALPHA": "Transparansi Line Simultan",
+    "#SIMLINE_ANIMATION": "Animasi Line Simultan",
+    "#NONE": "Tidak Ada",
+    "#ANY": "Bebas",
+    "#ALL": "Semua",
+    "#OTHERS": "Lainnya",
+    "#SHORT": "Pendek",
+    "#LONG": "Panjang",
+    "#HIGH": "Tinggi",
+    "#MID": "Tengah",
+    "#LOW": "Rendah",
+    "#SMALL": "Kecil",
+    "#MEDIUM": "Sedang",
+    "#LARGE": "Besar",
+    "#LEFT": "Kiri",
+    "#RIGHT": "Kanan",
+    "#UP": "Atas",
+    "#DOWN": "Bawah",
+    "#FRONT": "Depan",
+    "#BACK": "Belakang",
+    "#CENTER": "Tengah",
+    "#TOP": "Atas",
+    "#BOTTOM": "Bawah",
+    "#TOP_LEFT": "Kiri Atas",
+    "#TOP_CENTER": "Tengah Atas",
+    "#TOP_RIGHT": "Kanan Atas",
+    "#CENTER_LEFT": "Kiri Tengah",
+    "#CENTER_RIGHT": "Kanan Tengah",
+    "#BOTTOM_LEFT": "Kiri Bawah",
+    "#BOTTOM_CENTER": "Tengah Bawah",
+    "#BOTTOM_RIGHT": "Kanan Bawah",
+    "#CLOCKWISE": "Searah Jarum Jam",
+    "#COUNTERCLOCKWISE": "Berlawanan Jarum Jam",
+    "#FORWARD": "Maju",
+    "#BACKWARD": "Mundur",
+    "#SIMPLE": "Simple",
+    "#EASY": "Easy",
+    "#NORMAL": "Normal",
+    "#HARD": "Hard",
+    "#EXPERT": "Expert",
+    "#MASTER": "Master",
+    "#PRO": "Pro",
+    "#TECHNICAL": "Technical",
+    "#SPECIAL": "Special",
+    "#KEYWORDS_PLACEHOLDER": "Masukkan kata kunci...",
+    "#NAME_PLACEHOLDER": "Masukkan nama...",
+    "#RATING_PLACEHOLDER": "Masukkan rating...",
+    "#RATING_MINIMUM_PLACEHOLDER": "Masukkan rating minimum...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "Masukkan rating maksimum...",
+    "#TITLE_PLACEHOLDER": "Masukkan judul...",
+    "#SUBTITLE_PLACEHOLDER": "Masukkan sub judul...",
+    "#ARTISTS_PLACEHOLDER": "Masukkan artist...",
+    "#AUTHOR_PLACEHOLDER": "Masukkan author...",
+    "#GENRE_PLACEHOLDER": "Masukkan genre...",
+    "#CATEGORY_PLACEHOLDER": "Masukkan kategori...",
+    "#LANGUAGE_PLACEHOLDER": "Masukkan bahasa...",
+    "#DIFFICULTY_PLACEHOLDER": "Masukkan kesulitan...",
+    "#LENGTH_PLACEHOLDER": "Masukkan durasi...",
+    "#LENGTH_MINIMUM_PLACEHOLDER": "Masukkan durasi minimum...",
+    "#LENGTH_MAXIMUM_PLACEHOLDER": "Masukkan durasi maksimum...",
+    "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Masukkan informasi tambahan...",
+    "#PERCENTAGE_UNIT": "{0}%",
+    "#SECOND_UNIT": "{0} s",
+    "#MILLISECOND_UNIT": "{0} ms",
+    "#TAP": "Ketuk",
+    "#TAP_HOLD": "Ketuk dan Tahan",
+    "#TAP_RELEASE": "Ketuk dan Lepaskan",
+    "#TAP_FLICK": "Ketuk dan Flick",
+    "#TAP_SLIDE": "Ketuk dan Slide",
+    "#HOLD": "Tahan",
+    "#HOLD_SLIDE": "Tahan dan Slide",
+    "#HOLD_FOLLOW": "Tahan dan Ikuti",
+    "#RELEASE": "Lepaskan",
+    "#FLICK": "Flick",
+    "#SLIDE": "Slide",
+    "#SLIDE_FLICK": "Slide dan Flick",
+    "#AVOID": "Hindari",
+    "#JIGGLE": "Jiggle",
+    "#NEWEST": "Terbaru",
+    "#OLDEST": "Terlama",
+    "#RECOMMENDED": "Rekomendasi",
+    "#POPULAR": "Populer",
+    "#FEATURED": "Unggulan",
+    "#COMPETITIVE": "Kompetitif",
+    "#HOLIDAY": "Holiday",
+    "#LIMITED": "Terbatas",
+    "#FOLLOWING": "Following",
+    "#ANNOUNCEMENT": "Pengumuman",
+    "#INFORMATION": "Informasi",
+    "#MAINTENANCE": "Pemeliharaan",
+    "#EVENT": "Event",
+    "#UPDATE": "Perbarui",
+    "#SEARCH": "Cari",
+    "#ADVANCED": "Lebih Lanjut",
+    "#RELATED": "Berhubungan",
+    "#SAME_AUTHOR": "Author yang sama",
+    "#SAME_ARTISTS": "Artist yang sama",
+    "#SAME_RATING": "Rating yang sama",
+    "#SAME_CATEGORY": "Kategori yang sama",
+    "#SAME_DIFFICULTY": "Kesulitan yang sama",
+    "#SAME_GENRE": "Genre yang sama",
+    "#SAME_VERSION": "Versi yang sama",
+    "#OTHER_AUTHORS": "Author Lain",
+    "#OTHER_ARTISTS": "Artist Lain",
+    "#OTHER_RATINGS": "Rating Lain",
+    "#OTHER_CATEGORIES": "Kategori Lain",
+    "#OTHER_DIFFICULTIES": "Kesulitan Lain",
+    "#OTHER_GENRES": "Genre Lainnya",
+    "#OTHER_VERSIONS": "Versi Lain",
+    "#VERIFYING": "Memverifikasi",
+    "#VERIFIED": "Diverifikasi",
+    "#REMOVED": "Dihapus",
+    "#PUBLIC": "Publik",
+    "#PRIVATE": "Pribadi",
+    "#LOCKED": "Dikunci",
+    "#POP": "Pop",
+    "#ROCK": "Rock",
+    "#HIPHOP": "Hip Hop",
+    "#COUNTRY": "Country",
+    "#ELECTRONIC": "Electronic",
+    "#METAL": "Metal",
+    "#CLASSICAL": "Classical",
+    "#FOLK": "Folk",
+    "#INDIE": "Indie",
+    "#ANIME": "Anime",
+    "#VOCALOID": "Vocaloid",
+    "#REMIX": "Remix",
+    "#INSTRUMENTAL": "Instrumental",
+    "#SHORT_VERSION": "Versi Pendek",
+    "#LONG_VERSION": "Versi Panjang",
+    "#LIVE_VERSION": "Versi Live",
+    "#REPORT": "Lapor",
+    "#REASON": "Alasan",
+    "#ILLEGAL_ACTIVITIES": "Aktifitas Ilegal",
+    "#CHEATING": "Curang",
+    "#AFK": "AFK",
+    "#SPAMMING": "Spam",
+    "#VERBAL_ABUSE": "Pelecehan Verbal",
+    "#INAPPROPRIATE_LANGUAGE": "Bahasa yang tidak pantas",
+    "#NEGATIVE_ATTITUDE": "Perilaku Negatif",
+    "#DNF": "DNF",
+    "#SUGGESTIONS": "Saran",
+    "#SUGGESTIONS_PER_PLAYER": "Saran per Pemain",
+    "#MATCH_SCORING": "Skor Pertandingan",
+    "#MATCH_TIEBREAKER": "Pertandingan Tiebreaker",
+    "#MATCH_COUNT": "Jumlah Pertandingan",
+    "#MATCH_LIMIT": "Limit Pertandingan",
+    "#ROUND_SCORING": "Skor Putaran",
+    "#ROUND_TIEBREAKER": "Putaran Tiebreaker",
+    "#ROUND_COUNT": "Jumlah Putaran",
+    "#ROUND_LIMIT": "Limit Putaran",
+    "#TEAM_SCORING": "Skor Tim",
+    "#TEAM_TIEBREAKER": "Tim Tiebreaker",
+    "#TEAM_COUNT": "Jumlah Tim",
+    "#TEAM_LIMIT": "Limit Tim",
+    "#QUALIFIED": "Terkualifikasi",
+    "#DISQUALIFIED": "Terdiskualifikasi",
+    "#RANKING": "Ranking",
+    "#SCORE": "Skor",
+    "#PLAYER": "Pemain",
+    "#SPECTATOR": "Penonton",
+    "#REFEREE": "Wasit",
+    "#ELIMINATED": "Tereliminasi",
+    "#FINALIST": "Finalis",
+    "#FINISHED": "Selesai",
+    "#WINNER": "Pemenang",
+    "#GOLD_MEDAL": "Medali Emas",
+    "#SILVER_MEDAL": "Medali Perak",
+    "#BRONZE_MEDAL": "Medali Perunggu",
+    "#TEAM_1": "Tim 1",
+    "#TEAM_2": "Tim 2",
+    "#TEAM_3": "Tim 3",
+    "#TEAM_4": "Tim 4",
+    "#TEAM_5": "Tim 5",
+    "#TEAM_6": "Tim 6",
+    "#TEAM_7": "Tim 7",
+    "#TEAM_8": "Tim 8",
+    "#TEAM_RED": "Tim Merah",
+    "#TEAM_GREEN": "Tim Hijau",
+    "#TEAM_BLUE": "Tim Biru",
+    "#TEAM_YELLOW": "Tim Kuning",
+    "#TEAM_PURPLE": "Tim Ungu",
+    "#TEAM_CYAN": "Tim Cyan",
+    "#TEAM_WHITE": "Tim Putih",
+    "#TEAM_BLACK": "Tim Hitam"
   },
   "Common": {
     "Separator": ", ",
@@ -216,7 +338,6 @@
     "Add": "Tambah",
     "Import": "Impor",
     "Search": "Cari",
-    "More": "Selebihnya",
     "PullToRefresh": "Tarik untuk menyegarkan",
     "Save": "Simpan",
     "Share": "Bagikan",
@@ -283,6 +404,12 @@
     },
     "DeviceOffsetField": {
       "Calibrate": "Kalibrasi"
+    },
+    "MultiField": {
+      "Selected": "{0} Dipilih",
+      "AllSelected": "Semua Dipilih",
+      "SelectAll": "Pilih Semua",
+      "SelectNone": "Pilih Tidak Ada"
     },
     "PullToLoad": {
       "None": "Tidak ada lagi yang harus dimuat",
@@ -357,6 +484,16 @@
         "OutInElastic": "Elastic (Out In)",
         "None": "Tidak Ada"
       }
+    },
+    "AutoExit": {
+      "Title": "Auto Keluar",
+      "Description": "Keluar dari gameplay secara otomatis pada tingkat tertentu tidak lagi dapat dicapai.",
+      "Options": {
+        "Off": "Mati",
+        "Pass": "Pass",
+        "FullCombo": "Full Combo",
+        "AllPerfect": "All Perfect"
+      }
     }
   },
   "Themes": {
@@ -430,9 +567,9 @@
           "Title": "Favorit Diedit"
         }
       },
-      "AuthenticateServer": {
-        "Loading": "Meminta autentikasi Sonolus...",
-        "Error": "Gagal meminta autentikasi dari Sonolus.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi Sonolus untuk melaporkan masalahnya."
+      "Authenticate": {
+        "Loading": "Permintaan autentikasi Sonolus...",
+        "Error": "Gagal meminta autentikasi dari Sonolus.\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi Sonolus untuk melaporkan masalahnya."
       },
       "Logout": {
         "Loading": "Keluar...",
@@ -443,219 +580,353 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilakan perbarui Sonolus Anda, atau hubungi pembuat server untuk melaporkan masalahnya.",
+      "SonolusVersionError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilakan perbarui Sonolus Anda, atau hubungi pemilik server untuk melaporkan masalah tersebut.",
       "SonolusVersionTooOld": "Server ini hanya mendukung Sonolus versi lama ({0}).\n\nHarap tunggu hingga server diperbarui, atau hubungi pemilik server untuk melaporkan masalah tersebut.",
-      "Session": {
-        "NeedAuthentication": {
+      "Authentication": {
+        "Required": {
           "NotLoggedInError": {
-            "Description": "Server ini memerlukan autentikasi.\n\nSilakan masuk terlebih dahulu dan coba lagi."
+            "Description": "Server ini membutuhkan untuk masuk ke akun tapi Anda belum masuk ke akun Sonolus.\n\nSilakan masuk ke akun Sonolus Anda dan coba kembali."
           },
           "Confirmation": {
-            "Description": "Server ini memerlukan autentikasi.\n\nAutentikasi sebagai \"{0}\" dan lanjutkan?"
+            "Description": "Server ini membutuhkan untuk masuk ke akun.\n\nMasuk sebagai \"{0}\" dan lanjutkan?"
           }
         },
-        "AuthenticationExpired": {
-          "Description": "Autentikasi Anda telah kedaluwarsa.\n\nAutentikasi sebagai \"{0}\" lagi dan lanjutkan?"
+        "Expired": {
+          "Description": "Sesi Anda telah berakhir.\n\nMasuk sebagai \"{0}\" lagi dan lanjutkan?"
         },
-        "AuthenticationRejected": {
-          "Description": "Autentikasi Anda ditolak oleh server.\n\nAutentikasi sebagai \"{0}\" lagi dan lanjutkan?"
+        "Rejected": {
+          "Description": "Sesi Anda telah ditolak dari server.\n\nMasuk sebagai \"{0}\" lagi dan lanjutkan?"
         },
-        "Authenticate": {
-          "Loading": "Meminta autentikasi server...",
-          "Error": "Gagal meminta autentikasi dari \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        "Login": {
+          "Loading": "Sedang masuk...",
+          "Error": "Gagal masuk ke \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        }
+      },
+      "Multiplayer": {
+        "NotLoggedInError": {
+          "Description": "Multiplayer membutuhkan untuk masuk ke akun tapi Anda tidak masuk ke akun Sonolus.\n\nSilakan masuk ke akun Sonolus Anda dan coba kembali."
         },
-        "AddressMismatchError": {
-          "Description": "Alamat autentikasi tidak cocok.\n\nSilakan hubungi pemilik server untuk melaporkan masalahnya."
+        "CreateRoom": {
+          "Loading": "Membuat ruang...",
+          "Error": "Gagal membuat ruang di \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "JoinRoom": {
+          "Loading": "Sedang bergabung ruang...",
+          "Error": "Gagal untuk bergabung ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         }
       },
       "Server": {
         "Info": {
           "Loading": "Memuat informasi server...",
-          "Error": "Gagal memuat informasi server \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat informasi server \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Banner": {
           "Loading": "Memuat banner server...",
-          "Error": "Gagal memuat banner server \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat banner server \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        }
+      },
+      "Post": {
+        "Info": {
+          "Loading": "Memuat info post...",
+          "Error": "Gagal memuat info post \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "List": {
+          "Loading": "Memuat post...",
+          "Error": "Gagal memuat post di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "Details": {
+          "Loading": "Memuat detail post...",
+          "Error": "Gagal memuat detail post \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas post...",
+          "Error": "Post \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan post yang berbeda, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Thumbnail": {
+          "Loading": "Memuat thumbnail post...",
+          "Error": "Gagal memuat thumbnail post \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Memuat info playlist...",
+          "Error": "Gagal memuat info playlist \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "List": {
+          "Loading": "Memuat playlist...",
+          "Error": "Gagal memuat playlist di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "Details": {
+          "Loading": "Memuat detail playlist...",
+          "Error": "Gagal memuat detail playlist \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas playlist...",
+          "Error": "Playlist \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan playlist yang berbeda, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Thumbnail": {
+          "Loading": "Memuat thumbnail playlist...",
+          "Error": "Gagal memuat thumbnail playlist \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         }
       },
       "Level": {
+        "Info": {
+          "Loading": "Memuat info level...",
+          "Error": "Gagal memuat info level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
         "List": {
           "Loading": "Memuat level...",
-          "Error": "Gagal memuat level di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat level di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Details": {
           "Loading": "Memuat detail level...",
-          "Error": "Gagal memuat detail level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat detail level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas level...",
-          "Error": "Level \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan level yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Level \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan level yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Cover": {
           "Loading": "Memuat cover level.",
-          "Error": "Gagal memuat cover level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat cover level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Bgm": {
           "Loading": "Memuat BGM level...",
-          "Error": "Gagal memuat BGM level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat BGM level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Preview": {
           "Loading": "Memuat pratinjau level...",
-          "Error": "Gagal memuat pratinjau level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat pratinjau level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Data": {
           "Loading": "Memuat data level...",
-          "Error": "Gagal memuat data level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat data level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Memuat info skin...",
+          "Error": "Gagal memuat info skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
         "List": {
           "Loading": "Memuat skin...",
-          "Error": "Gagal memuat skin di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat skin di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Details": {
           "Loading": "Memuat detail skin...",
-          "Error": "Gagal memuat detail skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat detail skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas skin...",
-          "Error": "Skin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan skin yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Skin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan skin yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail skin...",
-          "Error": "Gagal memuat thumbnail skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat thumbnail skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Data": {
           "Loading": "Memuat data skin...",
-          "Error": "Gagal memuat data skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat data skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Texture": {
           "Loading": "Memuat tekstur skin...",
-          "Error": "Gagal memuat tekstur skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat tekstur skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Memuat info latar...",
+          "Error": "Gagal memuat info latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
         "List": {
           "Loading": "Memuat latar...",
-          "Error": "Gagal memuat latar di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat latar di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Details": {
           "Loading": "Memuat detail latar...",
-          "Error": "Gagal memuat detail latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat detail latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas latar...",
-          "Error": "Latar \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan latar yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Latar \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan latar yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail latar...",
-          "Error": "Gagal memuat thumbnail latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat thumbnail latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Data": {
           "Loading": "Memuat data latar...",
-          "Error": "Gagal memuat data latar \"{0}\"\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat data latar \"{0}\"\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Image": {
           "Loading": "Memuat gambar latar...",
-          "Error": "Gagal memuat gambar latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat gambar latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Configuration": {
           "Loading": "Memuat konfigurasi latar...",
-          "Error": "Gagal memuat konfigurasi latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat konfigurasi latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Memuat info SFX...",
+          "Error": "Gagal memuat info SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
         "List": {
           "Loading": "Memuat SFX...",
-          "Error": "Gagal memuat SFX di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat SFX di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Details": {
           "Loading": "Memuat detail SFX...",
-          "Error": "Gagal memuat detail SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat detail SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas SFX...",
-          "Error": "SFX \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan SFX yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "SFX \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan SFX yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail SFX...",
-          "Error": "Gagal memuat thumbnail SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat thumbnail SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Data": {
           "Loading": "Memuat data SFX...",
-          "Error": "Gagal memuat data SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat data SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Audio": {
           "Loading": "Memuat audio SFX...",
-          "Error": "Gagal memuat audio SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat audio SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Memuat info partikel...",
+          "Error": "Gagal memuat info partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
         "List": {
           "Loading": "Memuat partikel...",
-          "Error": "Gagal memuat partikel di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat partikel di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Details": {
           "Loading": "Memuat detail partikel...",
-          "Error": "Gagal memuat detail partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat detail partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas partikel...",
-          "Error": "Partikel \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan partikel yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Partikel \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan partikel yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail partikel...",
-          "Error": "Gagal memuat thumbnail partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat thumbnail partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Data": {
           "Loading": "Memuat data partikel...",
-          "Error": "Gagal memuat data partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat data partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Texture": {
           "Loading": "Memuat tekstur partikel...",
-          "Error": "Gagal memuat tekstur partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat tekstur partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Memuat info mesin...",
+          "Error": "Gagal memuat info mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
         "List": {
           "Loading": "Memuat mesin...",
-          "Error": "Gagal memuat mesin di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat mesin di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Details": {
           "Loading": "Memuat detail mesin...",
-          "Error": "Gagal memuat detail mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat detail mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas mesin...",
-          "Error": "Mesin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan mesin yang berbeda, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Mesin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan mesin yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail mesin...",
-          "Error": "Gagal memuat thumbnail mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat thumbnail mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "PlayData": {
           "Loading": "Memuat mesin data mode play...",
-          "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "WatchData": {
           "Loading": "Memuat mesin data mode menonton...",
-          "Error": "Gagal memuat pratinjau data mode menonton \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat pratinjau data mode menonton \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
         "PreviewData": {
           "Loading": "Memuat pratinjau data mode mesin...",
-          "Error": "Gagal memuat pratinjau data mode mesin\"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat pratinjau data mode mesin\"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
         },
         "TutorialData": {
           "Loading": "Memuat mesin data mode tutorial...",
-          "Error": "Gagal memuat mesin data mode tutorial \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat mesin data mode tutorial \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
         },
         "Rom": {
           "Loading": "Memuat ROM mesin...",
-          "Error": "Gagal memuat rom mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat rom mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
         },
         "Configuration": {
           "Loading": "Memuat konfigurasi mesin...",
-          "Error": "Gagal memuat konfigurasi mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pembuat server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat konfigurasi mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Memuat info replay...",
+          "Error": "Gagal memuat info replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "List": {
+          "Loading": "Memuat replay...",
+          "Error": "Gagal memuat replay di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Details": {
+          "Loading": "Memuat detail replay...",
+          "Error": "Gagal memuat detail replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas replay...",
+          "Error": "Replay \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan replay yang berbeda, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Data": {
+          "Loading": "Memuat data replay...",
+          "Error": "Gagal memuat data replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Configuration": {
+          "Loading": "Memuat konfigurasi replay...",
+          "Error": "Gagal memuat konfigurasi replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Memuat info ruang...",
+          "Error": "Gagal memuat info ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "List": {
+          "Loading": "Memuat ruang...",
+          "Error": "Gagal memuat ruang di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Details": {
+          "Loading": "Memuat detail ruang...",
+          "Error": "Gagal memuat detail ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas ruang...",
+          "Error": "Ruang \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan ruang yang berbeda, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Cover": {
+          "Loading": "Memuat cover level ruang...",
+          "Error": "Gagal memuat cover level ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Bgm": {
+          "Loading": "Memuat BGM level ruang...",
+          "Error": "Gagal memuat BGM level ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Preview": {
+          "Loading": "Memuat pratinjau level ruang...",
+          "Error": "Gagal memuat pratinjau level ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
         }
       }
     },
@@ -670,7 +941,55 @@
           "Error": "Gagal memuat banner koleksi \"{0}\".\n\nKoleksi Anda mungkin korup."
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "Memuat info post...",
+          "Error": "Gagal memuat info post \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "List": {
+          "Loading": "Memuat post...",
+          "Error": "Gagal memuat post di halaman {0}.\n\nKoleksi Anda mungkin korup."
+        },
+        "Details": {
+          "Loading": "Memuat detail post...",
+          "Error": "Gagal memuat detail post \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas post...",
+          "Error": "Post \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui post ini, atau gunakan post yang berbeda."
+        },
+        "Thumbnail": {
+          "Loading": "Memuat thumbnail post...",
+          "Error": "Gagal memuat thumbnail post \"{0}\".\n\nSilakan perbarui post ini, atau gunakan post yang berbeda."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Memuat info playlist...",
+          "Error": "Gagal memuat info playlist \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "List": {
+          "Loading": "Memuat playlist...",
+          "Error": "Gagal memuat playlist di halaman {0}.\n\nKoleksi Anda mungkin korup."
+        },
+        "Details": {
+          "Loading": "Memuat detail playlist...",
+          "Error": "Gagal memuat detail playlist \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas playlist...",
+          "Error": "Playlist \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui playlist ini, atau gunakan playlist yang berbeda."
+        },
+        "Thumbnail": {
+          "Loading": "Memuat thumbnail playlist...",
+          "Error": "Gagal memuat thumbnail playlist \"{0}\".\n\nSilakan perbarui playlist ini, atau gunakan playlist yang berbeda."
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "Memuat info level...",
+          "Error": "Gagal memuat info level \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
         "List": {
           "Loading": "Memuat level...",
           "Error": "Gagal memuat level di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -701,6 +1020,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Memuat info skin...",
+          "Error": "Gagal memuat info skin \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
         "List": {
           "Loading": "Memuat skin...",
           "Error": "Gagal memuat skin di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -727,6 +1050,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Memuat info latar...",
+          "Error": "Gagal memuat info latar \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
         "List": {
           "Loading": "Memuat latar...",
           "Error": "Gagal memuat latar di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -757,6 +1084,10 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Memuat info SFX...",
+          "Error": "Gagal memuat info SFX \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
         "List": {
           "Loading": "Memuat SFX...",
           "Error": "Gagal memuat SFX di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -783,6 +1114,10 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Memuat info partikel...",
+          "Error": "Gagal memuat info partikel \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
         "List": {
           "Loading": "Memuat partikel...",
           "Error": "Gagal memuat partikel di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -809,6 +1144,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Memuat info mesin...",
+          "Error": "Gagal memuat info mesin \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
         "List": {
           "Loading": "Memuat mesin...",
           "Error": "Gagal memuat mesin di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -849,9 +1188,69 @@
           "Loading": "Memuat konfigurasi mesin...",
           "Error": "Gagal memuat konfigurasi mesin \"{0}\".\n\nSilakan perbarui mesin ini, atau gunakan mesin yang berbeda."
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Memuat info replay...",
+          "Error": "Gagal memuat info replay \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "List": {
+          "Loading": "Memuat replay...",
+          "Error": "Gagal memuat replay di halaman {0}.\n\nKoleksi Anda mungkin korup."
+        },
+        "Details": {
+          "Loading": "Memuat detail replay...",
+          "Error": "Gagal memuat detail replay \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas replay...",
+          "Error": "Replay \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui replay ini, atau gunakan replay yang berbeda."
+        },
+        "Data": {
+          "Loading": "Memuat data replay...",
+          "Error": "Gagal memuat data replay \"{0}\".\n\nSilakan perbarui replay ini, atau gunakan replay yang berbeda."
+        },
+        "Configuration": {
+          "Loading": "Memuat konfigurasi replay...",
+          "Error": "Gagal memuat konfigurasi replay \"{0}\".\n\nSilakan perbarui replay ini, atau gunakan replay yang berbeda."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Memuat info ruang...",
+          "Error": "Gagal memuat info ruang \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "List": {
+          "Loading": "Memuat ruang...",
+          "Error": "Gagal memuat ruang di halaman {0}.\n\nKoleksi Anda mungkin korup."
+        },
+        "Details": {
+          "Loading": "Memuat detail ruang...",
+          "Error": "Gagal memuat detail ruang \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibitas ruang...",
+          "Error": "Ruang \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui ruang ini, atau gunakan ruang yang berbeda."
+        },
+        "Cover": {
+          "Loading": "Memuat cover level ruang...",
+          "Error": "Gagal memuat cover level ruang \"{0}\".\n\nSilakan perbarui ruang ini, atau gunakan ruang yang berbeda."
+        },
+        "Bgm": {
+          "Loading": "Memuat BGM level ruang...",
+          "Error": "Gagal memuat BGM level ruang \"{0}\".\n\nSilakan perbarui ruang ini, atau gunakan ruang yang berbeda."
+        },
+        "Preview": {
+          "Loading": "Memuat pratinjau level ruang...",
+          "Error": "Gagal memuat pratinjau level ruang \"{0}\".\n\nSilakan perbarui ruang ini, atau gunakan ruang yang berbeda."
+        }
       }
     },
     "Scp": {
+      "PackageInfo": {
+        "Loading": "Memuat informasi paket...",
+        "Error": "Gagal memuat informasi paket \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+      },
       "Server": {
         "Info": {
           "Loading": "Memuat informasi paket...",
@@ -862,7 +1261,55 @@
           "Error": "Gagal memuat banner paket \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "Memuat info post...",
+          "Error": "Gagal memuat info post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "List": {
+          "Loading": "Memuat post...",
+          "Error": "Gagal memuat post di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Details": {
+          "Loading": "Memuat detail post...",
+          "Error": "Gagal memuat detail post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas post...",
+          "Error": "Post \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Thumbnail": {
+          "Loading": "Memuat thumbnail post...",
+          "Error": "Gagal memuat thumbnail post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Memuat info playlist...",
+          "Error": "Gagal memuat info playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "List": {
+          "Loading": "Memuat playlist...",
+          "Error": "Gagal memuat playlist di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Details": {
+          "Loading": "Memuat detail playlist...",
+          "Error": "Gagal memuat detail playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas playlist...",
+          "Error": "Playlist \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Thumbnail": {
+          "Loading": "Memuat thumbnail playlist...",
+          "Error": "Gagal memuat thumbnail playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "Memuat info level...",
+          "Error": "Gagal memuat info level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
         "List": {
           "Loading": "Memuat level...",
           "Error": "Gagal memuat level di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -893,6 +1340,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Memuat info skin...",
+          "Error": "Gagal memuat info skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
         "List": {
           "Loading": "Memuat skin...",
           "Error": "Gagal memuat skin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -919,6 +1370,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Memuat info latar...",
+          "Error": "Gagal memuat info latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
         "List": {
           "Loading": "Memuat latar...",
           "Error": "Gagal memuat latar di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -949,6 +1404,10 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Memuat info SFX...",
+          "Error": "Gagal memuat info SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
         "List": {
           "Loading": "Memuat SFX...",
           "Error": "Gagal memuat SFX di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -975,6 +1434,10 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Memuat info partikel...",
+          "Error": "Gagal memuat info partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
         "List": {
           "Loading": "Memuat partikel...",
           "Error": "Gagal memuat partikel di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1001,6 +1464,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Memuat info mesin...",
+          "Error": "Gagal memuat info mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
         "List": {
           "Loading": "Memuat mesin...",
           "Error": "Gagal memuat mesin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1041,12 +1508,76 @@
           "Loading": "Memuat konfigurasi mesin...",
           "Error": "Gagal memuat konfigurasi mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Memuat info replay...",
+          "Error": "Gagal memuat info replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "List": {
+          "Loading": "Memuat replay...",
+          "Error": "Gagal memuat replay di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Details": {
+          "Loading": "Memuat detail replay...",
+          "Error": "Gagal memuat detail replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas replay...",
+          "Error": "Replay \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Data": {
+          "Loading": "Memuat data replay...",
+          "Error": "Gagal memuat data replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Configuration": {
+          "Loading": "Memuat konfigurasi replay...",
+          "Error": "Gagal memuat konfigurasi replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Memuat info ruang...",
+          "Error": "Gagal memuat info ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "List": {
+          "Loading": "Memuat ruang...",
+          "Error": "Gagal memuat ruang di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Details": {
+          "Loading": "Memuat detail ruang...",
+          "Error": "Gagal memuat detail ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Compatibility": {
+          "Loading": "Memeriksa kompatibilitas ruang...",
+          "Error": "Ruang \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Cover": {
+          "Loading": "Memuat cover level ruang...",
+          "Error": "Gagal memuat cover level ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Bgm": {
+          "Loading": "Memuat BGM level ruang...",
+          "Error": "Gagal memuat BGM level ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Preview": {
+          "Loading": "Memuat pratinjau level ruang...",
+          "Error": "Gagal memuat pratinjau level ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        }
       }
+    },
+    "Multiplayer": {
+      "Connect": {
+        "Loading": "Menyambung...",
+        "Error": "Gagal untuk konek ke ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+      },
+      "Disconnected": "Anda terputus dari ruang multiplayer.",
+      "Error": "Terjadi kesalahan fatal pada ruang multiplayer.\n\nSilakan hubungi pemilik server untuk melaporkan masalahnya."
     }
   },
   "DeepLink": {
     "Invalid": {
-      "Description": "Link \"{0}\" is tidak valid.\n\nSilakan gunakan link yang berbeda."
+      "Description": "Link \"{0}\" tidak valid.\n\nSilakan gunakan link yang berbeda."
     }
   },
   "Title": {
@@ -1057,6 +1588,21 @@
     "Back": "Kembali"
   },
   "Routes": {
+    "ExternalLogin": {
+      "NotLoggedInError": {
+        "Description": "Anda tidak masuk ke akun Sonolus.\n\nSilakan masuk ke akun Sonolus Anda dan coba lagi."
+      },
+      "Confirmation": {
+        "Description": "Anda masuk ke layanan eksternal:\n{0}\n\nMasuk sebagai \"{1}\"?"
+      },
+      "Login": {
+        "Loading": "Sedang masuk...",
+        "Error": "Gagal untuk masuk ke layanan eksternal \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik layanan untuk melaporkan masalahnya."
+      },
+      "Success": {
+        "Title": "Masuk"
+      }
+    },
     "JumpToPage": {
       "Title": "Lompat ke Halaman",
       "Page": {
@@ -1095,6 +1641,14 @@
         "Description": "Pilih kustom server atau koleksi untuk mulai bermain."
       },
       "ToSave": {
+        "Post": {
+          "Title": "Simpan Post",
+          "Description": "Pilih koleksi untuk menyimpan post ini."
+        },
+        "Playlist": {
+          "Title": "Simpan Playlist",
+          "Description": "Pilih koleksi untuk menyiman playlist ini."
+        },
         "Level": {
           "Title": "Simpan Level",
           "Description": "Pilih koleksi untuk menyimpan level ini."
@@ -1118,12 +1672,70 @@
         "Engine": {
           "Title": "Simpan Mesin",
           "Description": "Pilih koleksi untuk menyimpan mesin ini."
+        },
+        "Replay": {
+          "Title": "Simpan Replay",
+          "Description": "Pilih koleksi untuk menyimpan replay ini."
+        },
+        "Room": {
+          "Title": "Simpan Ruang",
+          "Description": "Pilih koleksi untuk menyimpan ruang ini."
+        }
+      },
+      "ToCreate": {
+        "Post": {
+          "Title": "Buat Post",
+          "Description": "Pilih koleksi untuk membuat post ini."
+        },
+        "Playlist": {
+          "Title": "Buat Playlist",
+          "Description": "Pilih koleksi untuk membuat playlist ini."
+        },
+        "Level": {
+          "Title": "Buat Level",
+          "Description": "Pilih koleksi untuk membuat level ini."
+        },
+        "Skin": {
+          "Title": "Buat Skin",
+          "Description": "Pilih koleksi untuk membuat skin ini."
+        },
+        "Background": {
+          "Title": "Buat Latar",
+          "Description": "Pilih koleksi untuk membuat latar ini."
+        },
+        "Effect": {
+          "Title": "Buat Efek",
+          "Description": "Pilih koleksi untuk membuat efek ini"
+        },
+        "Particle": {
+          "Title": "Buat Partikel",
+          "Description": "Pilih koleksi untuk membuat partikel ini."
+        },
+        "Engine": {
+          "Title": "Buat Mesin",
+          "Description": "Pilih koleksi untuk membuat mesin ini."
+        },
+        "Replay": {
+          "Title": "Buat Replay",
+          "Description": "Pilih koleksi untuk membuat replay ini."
+        },
+        "Room": {
+          "Title": "Buat Ruang",
+          "Description": "Pilih koleksi untuk membuat ruang ini."
         }
       },
       "ToUse": {
+        "Post": {
+          "Title": "Pilih Post",
+          "Description": "Pilih kustom server atau koleksi untuk menggunakan post ini."
+        },
+        "Playlist": {
+          "Title": "Pilih Playlist",
+          "Description": "Pilih kustom server atau koleksi untuk menggunakan playlist ini."
+        },
         "Level": {
           "Title": "Pilih Level",
-          "Description": "Pilih kustom server atau koleksi untuk memainkan level ini."
+          "Description": "Pilih kustom server atau koleksi untuk menggunakan level ini."
         },
         "Skin": {
           "Title": "Pilih Skin",
@@ -1144,9 +1756,25 @@
         "Engine": {
           "Title": "Pilih Mesin",
           "Description": "Pilih kustom server atau koleksi untuk menggunakan mesin ini."
+        },
+        "Replay": {
+          "Title": "Pilih Replay",
+          "Description": "Pilih kustom server atau koleksi untuk menggunakan replay ini."
+        },
+        "Room": {
+          "Title": "Pilih Ruang",
+          "Description": "Pilih kustom server atau koleksi untuk menggunakan ruang ini."
         }
       },
       "ToAddFavorite": {
+        "Post": {
+          "Title": "Tambah Post Favorit",
+          "Description": "Pilih kustom server untuk menambahkan post ke favorit."
+        },
+        "Playlist": {
+          "Title": "Tambah Playlist Favorit",
+          "Description": "Pilih kustom server untuk menambahkan playlist ke favorit."
+        },
         "Level": {
           "Title": "Tambah Level Favorit",
           "Description": "Pilih kustom server untuk menambahkan level ke favorit."
@@ -1170,6 +1798,14 @@
         "Engine": {
           "Title": "Tambah Mesin Favorit",
           "Description": "Pilih kustom server untuk menambahkan mesin ke favorit."
+        },
+        "Replay": {
+          "Title": "Tambah Replay Favorit",
+          "Description": "Pilih kustom server untuk menambahkan replay ke favorit."
+        },
+        "Room": {
+          "Title": "Tambah Ruang Favorit",
+          "Description": "Pilih kustom server untuk menambahkan ruang ke favorit."
         }
       }
     },
@@ -1210,6 +1846,18 @@
       },
       "Success": {
         "Title": "Paket Diimpor"
+      }
+    },
+    "ExportScpConfiguration": {
+      "Title": "Konfigurasi Ekspor",
+      "Mode": {
+        "Title": "Mode",
+        "Description": "Disarankan untuk menggunakan mode standar.\n\nItem dengan sumber dapat diekspor sebagai link ke sumbernya, sehingga sangat mengurangi ukuran paket untuk biaya koneksi internet saat mengimpor.\nMode standar mengekspor item dengan sumber sebagai link, dan item tanpa sumber sepenuhnya. Mode sumber saja hanya mengekspor item dengan sumber sebagai link. Mode penuh mengekspor semua item sepenuhnya.",
+        "Options": {
+          "Standard": "Standar",
+          "SourceOnly": "Sumber Saja",
+          "Full": "Penuh"
+        }
       }
     },
     "ExportScp": {
@@ -1375,22 +2023,33 @@
       "AddFavorite": {
         "Title": "Tambah Favorit",
         "Description": "Pilih tipe favorit untuk ditambahkan:",
+        "Post": "Post",
+        "Playlist": "Playlist",
         "Level": "Level",
         "Skin": "Skin",
         "Background": "Latar",
         "Effect": "SFX",
         "Particle": "Partikel",
-        "Engine": "Mesin"
+        "Engine": "Mesin",
+        "Replay": "Replay",
+        "Room": "Ruang"
       }
     },
     "Server": {
       "Home": {
-        "Levels": "Level",
-        "Skins": "Skin",
-        "Backgrounds": "Latar",
-        "Effects": "SFX",
-        "Particles": "Partikel",
-        "Engines": "Mesin",
+        "Login": "Masuk",
+        "Logout": "Keluar",
+        "Multiplayer": "Multiplayer",
+        "Post": "Post",
+        "Playlist": "Playlist",
+        "Level": "Level",
+        "Skin": "Skin",
+        "Background": "Latar",
+        "Effect": "SFX",
+        "Particle": "Partikel",
+        "Engine": "Mesin",
+        "Replay": "Replay",
+        "Room": "Ruang",
         "SaveSuccess": {
           "Title": "Server Disimpan"
         },
@@ -1401,10 +2060,64 @@
       "Search": {
         "Title": "Cari"
       },
+      "Infos": {
+        "More": "Lainnya",
+        "Advanced": "Lebih Lanjut",
+        "Post": {
+          "Title": "Post"
+        },
+        "Playlist": {
+          "Title": "Playlist"
+        },
+        "Level": {
+          "Title": "Level"
+        },
+        "Skin": {
+          "Title": "Skin"
+        },
+        "Background": {
+          "Title": "Latar"
+        },
+        "Effect": {
+          "Title": "SFX"
+        },
+        "Particle": {
+          "Title": "Partikel"
+        },
+        "Engine": {
+          "Title": "Mesin"
+        },
+        "Replay": {
+          "Title": "Replay"
+        },
+        "Room": {
+          "Title": "Ruang",
+          "Create": "Buat",
+          "CreateRoom": {
+            "Title": "Buat Ruang",
+            "Description": "Buat ruang \"{0}\", Anda dapat mengundang yang lain untuk bermain bersama dengan memberi link ruang ini.",
+            "ShareSuccess": {
+              "Title": "Link Ruang Disalin"
+            }
+          }
+        }
+      },
       "Lists": {
         "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "Apakah Anda yakin ingin menghapus \"{0}\"?"
+        },
+        "Post": {
+          "Title": "Post",
+          "ShareSuccess": {
+            "Title": "Link Post Disalin"
+          }
+        },
+        "Playlist": {
+          "Title": "Playlist",
+          "ShareSuccess": {
+            "Title": "Link Playlist Disalin"
+          }
         },
         "Level": {
           "Title": "Level",
@@ -1441,6 +2154,18 @@
           "ShareSuccess": {
             "Title": "Link Mesin Disalin"
           }
+        },
+        "Replay": {
+          "Title": "Replay",
+          "ShareSuccess": {
+            "Title": "Link Replay Disalin"
+          }
+        },
+        "Room": {
+          "Title": "Ruang",
+          "ShareSuccess": {
+            "Title": "Link Ruang Disalin"
+          }
         }
       },
       "Details": {
@@ -1450,11 +2175,27 @@
         "DeleteConfirmation": {
           "Description": "Apakah Anda yakin ingin menghapus \"{0}\"?"
         },
+        "Tags": {
+          "Title": "Tag"
+        },
         "Description": {
           "Title": "Deskripsi"
         },
-        "Recommended": {
-          "Title": "Rekomendasi"
+        "Post": {
+          "ShareSuccess": {
+            "Title": "Link Post Disalin"
+          }
+        },
+        "Playlist": {
+          "Actions": {
+            "Play": "Main"
+          },
+          "ShareSuccess": {
+            "Title": "Link Playlist Disalin"
+          },
+          "Levels": {
+            "Title": "Level"
+          }
         },
         "Level": {
           "Actions": {
@@ -1563,9 +2304,46 @@
           "ShareSuccess": {
             "Title": "Link Mesin Disalin"
           }
+        },
+        "Replay": {
+          "Actions": {
+            "Watch": "Lihat"
+          },
+          "Watch": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Decoding audio SFX...",
+                "Error": "Gagal mengdecode audio SFX \"{0}\".\n\nSilakan hubungi pemilik SFX untuk melaporkan masalahnya."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Decoding BGM level...",
+                "Error": "Gagal mengdecode BGM level \"{0}\".\n\nSilakan hubungi pemilik level untuk melaporkan masalahnya."
+              }
+            },
+            "Boot": {
+              "Loading": "Booting replay...",
+              "Error": "Gagal untuk boot replay \"{0}\".\n\nSilakan hubungi pemilik replay untuk melaporkan masalahnya."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Link Replay Disalin"
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+            "Title": "Link Ruang Disalin"
+          }
         }
       },
       "Configurations": {
+        "Post": {
+          "Title": "Konfigurasi Post"
+        },
+        "Playlist": {
+          "Title": "Konfigurasi Playlist"
+        },
         "Level": {
           "Title": "Konfigurasi Level",
           "Offsets": {
@@ -1682,9 +2460,25 @@
               "Description": "Direkomendasikan untuk menggunakan 0.\n\nTambahan input offset untuk mesin ini, sebaiknya hanya digunakan saat Anda kesulitan memainkan khusus di mesin ini. Tingkatkan jika input Anda terasa terlambat, dan kurangi jika sebaliknya."
             }
           }
+        },
+        "Replay": {
+          "Title": "Konfigurasi Replay"
+        },
+        "Room": {
+          "Title": "Konfigurasi Ruang"
         }
       },
       "Savers": {
+        "Post": {
+          "Success": {
+            "Title": "Post Disimpan"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Playlist Disimpan"
+          }
+        },
         "Level": {
           "Success": {
             "Title": "Level Disimpan"
@@ -1713,6 +2507,322 @@
         "Engine": {
           "Success": {
             "Title": "Mesin Disimpan"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Replay Disimpan"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Ruang Disimpan"
+          }
+        }
+      },
+      "Updaters": {
+        "Post": {
+          "Success": {
+            "Title": "Post Diperbarui"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Playlist Diperbarui"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "Level Diperbarui"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Skin Diperbarui"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Latar Diperbarui"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Efek Diperbarui"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Partikel Diperbarui"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Mesin Diperbarui"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Replay Diperbarui"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Ruang Diperbarui"
+          }
+        }
+      },
+      "CreateInfos": {
+        "Post": {
+          "Title": "Info Post"
+        },
+        "Playlist": {
+          "Title": "Info Playlist"
+        },
+        "Level": {
+          "Title": "Info Level"
+        },
+        "Skin": {
+          "Title": "Info Skin"
+        },
+        "Background": {
+          "Title": "Info Latar"
+        },
+        "Effect": {
+          "Title": "Info Efek"
+        },
+        "Particle": {
+          "Title": "Info Partikel"
+        },
+        "Engine": {
+          "Title": "Info Mesin"
+        },
+        "Replay": {
+          "Title": "Info Replay",
+          "Info": {
+            "Title": {
+              "Title": "Judul",
+              "Description": "Judul replay",
+              "Placeholder": "Masukkan judul replay..."
+            },
+            "Subtitle": {
+              "Title": "Subjudul",
+              "Description": "Subjudul replay",
+              "Placeholder": "Masukkan subjudul replay..."
+            },
+            "Description": {
+              "Title": "Deskripsi",
+              "Description": "Deskripsi replay",
+              "Placeholder": "Masukkan deskripsi replay..."
+            }
+          }
+        },
+        "Room": {
+          "Title": "Info Ruang"
+        }
+      },
+      "Creators": {
+        "Post": {
+          "Success": {
+            "Title": "Post Dibuat"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Playlist Dibuat"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "Level Dibuat"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Skin Dibuat"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Latar Dibuat"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Efek Dibuat"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Partikel Dibuat"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Mesin Dibuat"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Replay Dibuat"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Ruang Dibuat"
+          }
+        }
+      },
+      "Multiplayer": {
+        "Connecting": "Menghubungkan...",
+        "Reconnecting": "Menghubungkan ulang...",
+        "ExitConfirmation": {
+          "Description": "Apakah Anda yakin ingin meninggalkan ruang ini?"
+        },
+        "Play": {
+          "NoLevel": "Tidak ada level dipilih",
+          "Options": {
+            "Title": "Opsi",
+            "NoLevel": "Tidak ada level dipilih"
+          },
+          "Selecting": {
+            "Title": "Memilih",
+            "Description": {
+              "Lead": "Anda memilih...",
+              "Other": "{0} memilih...",
+              "Room": "Ruang memilih..."
+            },
+            "Actions": {
+              "Select": "Pilih",
+              "NoSource": "Level ini tidak bisa dipilih karena tidak ada di sumber level.\n\nSilakan gunakan level yang berbeda, atau hubungi pemilik level untuk melaporkan masalahnya.",
+              "NoOtherServers": "Level ini tidak bisa dipilih karena ruang tidak memperbolehkan level dari server lain.\n\nSilakan gunakan level yang berbeda."
+            }
+          },
+          "Preparing": {
+            "Title": {
+              "Preparing": "Bersiap",
+              "Ready": "Siap",
+              "Skipped": "Skip"
+            },
+            "Description": "{0} bersiap, {1} siap, {2} skip...",
+            "Actions": {
+              "Configuration": "Konfigurasi",
+              "Ready": "Siap",
+              "Skip": "Skip",
+              "Start": {
+                "Title": "Mulai",
+                "Confirmation": {
+                  "Description": "Apakah Anda yakin untuk memulai?\n\nPemain yang masih bersiap akan dipaksa untuk skip."
+                }
+              }
+            }
+          },
+          "Playing": {
+            "Title": "Bermain",
+            "Description": "{0} memuat, {1} bermain...",
+            "Actions": {
+              "Finish": {
+                "Title": "Selesai",
+                "Confirmation": {
+                  "Description": "Apakah Anda yakin untuk selesai?\n\nPemain yang masih bermain akan kehilangan hasil mereka."
+                }
+              }
+            }
+          }
+        },
+        "Chat": {
+          "Title": "Chat",
+          "Overlay": {
+            "Room": "Ruang: {0}",
+            "User": "{0}: {1}",
+            "Level": "Level diubah."
+          },
+          "Text": {
+            "Placeholder": "Masukkan pesan..."
+          },
+          "Quick": {
+            "Hello": {
+              "Title": "Halo",
+              "Text": "Halo!"
+            },
+            "Glhf": {
+              "Title": "Glhf",
+              "Text": "Semangat, semoga menyenangkan!"
+            },
+            "Gg": {
+              "Title": "Gg",
+              "Text": "Mantap, kerja bagus!"
+            },
+            "Ns": {
+              "Title": "Ns",
+              "Text": "Keren skornya!"
+            },
+            "Ty": {
+              "Title": "Ty",
+              "Text": "Makasih!"
+            }
+          },
+          "System": {
+            "Selecting": "Memilih...",
+            "Preparing": "Bersiap...",
+            "Playing": "Bermain...",
+            "Master": "Pemilik ruang diubah ke {0}.",
+            "Lead": "Ketua ruang diubah ke {0}.",
+            "Options": "Opsi ruang diubah.",
+            "Level": "Level diubah ke {0}.",
+            "LevelOptions": "Opsi level diubah.",
+            "AutoExit": "Auto keluar diubah.",
+            "Connected": {
+              "Self": "Terhubung.",
+              "Other": "{0} terhubung."
+            },
+            "Disconnected": "{0} terputus."
+          }
+        },
+        "Suggestions": {
+          "Title": "Saran",
+          "Actions": {
+            "Lock": "Lock",
+            "Unlock": "Unlock",
+            "Clear": "Clear",
+            "NoSource": "Level ini tidak dapat disarankan karena tidak memiliki server sumber.\n\nSilakan gunakan level yang berbeda, atau hubungi pemilik level untuk melaporkan masalahnya.",
+            "NoOtherServers": "Level ini tidak dapat disarankan karena ruang tidak memperbolehkan level dari server lain.\n\nSilakan gunakan level yang berbeda."
+          }
+        },
+        "Scoreboard": {
+          "Title": "Papan Skor",
+          "Actions": {
+            "Reset": {
+              "Title": "Reset",
+              "Confirmation": {
+                "Description": "Apakah Anda yakin untuk mereset papan skor?"
+              }
+            }
+          },
+          "Result": {
+            "Title": "Hasil"
+          }
+        },
+        "Room": {
+          "EditOptions": "Edit Opsi Ruang",
+          "Players": {
+            "Title": "Pemain",
+            "UpdateMasterConfirmation": {
+              "Description": "Apakah Anda yakin untuk mengubah pemilik ruang menjadi {0}?"
+            },
+            "UpdateLeadConfirmation": {
+              "Description": "Apakah Anda yakin untuk mengubah ketua ruang menjadi {0}?"
+            },
+            "KickConfirmation": {
+              "Description": "Apakah Anda yakin untuk mengeluarkan {0}?"
+            },
+            "AddedToBlacklistSuccess": "Pemain Diblokir",
+            "RemovedFromBlacklistSuccess": "Blokir Pemain Dihapus",
+            "Report": {
+              "Title": "Lapor Pemain",
+              "Description": "Lapor pemain {0}:",
+              "Success": "Pemain Dilaporkan"
+            }
           }
         }
       }
@@ -1778,9 +2888,9 @@
           "Title": "Pratinjau BGM",
           "Description": "Tempat memainkan pratinjau BGM.",
           "Options": {
-            "Off": "Off",
-            "DetailsOnly": "Detail",
-            "ListAndDetails": "Daftar dan Detail"
+            "List": "List",
+            "Details": "Detail",
+            "Multiplayer": "Multiplayer"
           }
         },
         "LevelBgmQuality": {
@@ -1804,15 +2914,36 @@
       },
       "Gameplay": {
         "Title": "Gameplay",
-        "AutoExit": {
-          "Title": "Auto Keluar",
-          "Description": "Keluar dari gameplay secara otomatis pada tingkat tertentu.",
-          "Options": {
-            "Off": "Off",
-            "Fail": "Fail",
-            "Pass": "Pass",
-            "FullCombo": "Full Combo"
-          }
+        "UnpauseDelay": {
+          "Title": "Delay Jeda",
+          "Description": "Hitung mundur delay ketika membatalkan jeda."
+        },
+        "MultiplayerPreload": {
+          "Title": "Preload Multiplayer",
+          "Description": "Direkomendasikan untuk dihidupkan.\n\nDi multiplayer, memulai preloading ketika level dikonfirmasi untuk meningkatkan kecepatan memuat."
+        },
+        "ReplayTitleTemplate": {
+          "Title": "Template Judul Replay",
+          "Description": "Template untuk judul ketika membuat replay.\n\nParameter spesial tersedia dan akan digantikan dengan nilai yang sesuai.",
+          "Placeholder": "Masukkan template judul..."
+        },
+        "ReplaySubtitleTemplate": {
+          "Title": "Template Subjudul Replay",
+          "Description": "Template untuk subjudul ketika membuat replay.\n\nParameter spesial tersedia dan akan digantikan dengan nilai yang sesuai.",
+          "Placeholder": "Masukkan template subjudul..."
+        },
+        "ReplayDescriptionTemplate": {
+          "Title": "Template Deskripsi Replay",
+          "Description": "Template untuk deskripsi ketika membuat replay.\n\nParameter spesial tersedia dan akan digantikan dengan nilai yang sesuai.",
+          "Placeholder": "Masukkan template deksripsi..."
+        },
+        "ShowReplayTouches": {
+          "Title": "Tampilkan Sentuhan Replay",
+          "Description": "Tampilkan sentuhan ketika menonton replay."
+        },
+        "OverwriteReplayOptions": {
+          "Title": "Opsi Overwrite Replay",
+          "Description": "Opsi overwrite dengan opsi Anda sendiri saat menonton replay."
         }
       },
       "UI": {
@@ -1832,10 +2963,6 @@
         "Scale": {
           "Title": "Skala UI",
           "Description": "Skala UI untuk digunakan. Tingkatkan jika Anda kesulitan membaca, dan kurangi untuk menampilkan lebih banyak konten di layar sekaligus."
-        },
-        "UnpauseDelay": {
-          "Title": "Delay Setelah Jeda",
-          "Description": "Hitung mundur delay ketika setelah jeda."
         },
         "PerfectJudgmentColors": {
           "Title": "Warna Penilaian Perfect",
@@ -1884,6 +3011,10 @@
         "ShowZeroCombo": {
           "Title": "Tampilkan Kombo Nol (0)",
           "Description": "Tampilkan kombo ketika kombo adalah 0."
+        },
+        "TouchStyle": {
+          "Title": "Style Sentuhan",
+          "Description": "Style dari indikator sentuhan."
         }
       },
       "Offsets": {
@@ -1927,10 +3058,6 @@
         "ShowTouches": {
           "Title": "Tampilkan Sentuhan",
           "Description": "Menampilkan indikator sentuhan. Indikator sentuhan akan berguna untuk menunjukkan input ketika merekam video."
-        },
-        "TouchStyle": {
-          "Title": "Style Sentuhan",
-          "Description": "Style dari indikator sentuhan."
         },
         "DebugMode": {
           "Title": "Mode Debug",
@@ -2016,76 +3143,66 @@
     }
   },
   "Runtimes": {
+    "Pause": {
+      "Title": "Jeda",
+      "Debug": {
+        "Title": "Debug"
+      }
+    },
+    "Control": {
+      "Title": "Kontrol",
+      "Exit": "Keluar",
+      "Restart": "Ulang"
+    },
     "Level": {
       "Play": {
         "Routes": {
+          "Playlist": {
+            "Title": "Playlist",
+            "Previous": "Sebelumnya",
+            "Next": "Selanjutnya"
+          },
           "Pause": {
-            "Title": "Jeda",
-            "Control": {
-              "Title": "Kontrol",
-              "Exit": "Keluar",
-              "Restart": "Ulang"
-            },
             "Snapshot": {
               "Title": "Snapshot",
               "Mark": "Tandai",
               "Jump": "Balik"
-            },
-            "Debug": {
-              "Title": "Debug"
             }
           },
           "Result": {
-            "Title": "Hasil",
             "Options": {
               "HasUsedPause": "Jeda",
               "HasUsedSnapshot": "Snapshot"
             },
-            "Graphs": {
-              "Title": "Grafik",
-              "Judgment": {
-                "Title": "Grafik Penilaian"
+            "Replay": {
+              "Title": "Replay",
+              "Description": {
+                "Normal": "Gameplay Anda direkam, klik Buat untuk membuat replaynya.",
+                "HasUsedPause": "Replay tidak bisa dibuat karena menggunakan jeda.",
+                "HasUsedSnapshot": "Replay tidak bisa dibuat karena menggunakan snapshot."
               },
-              "Accuracy": {
-                "Title": "Grafik Akurasi",
-                "AbsValue": "Nilai Mutlak",
-                "Mean": "Rata-Rata",
-                "StDev": "Deviasi Standar",
-                "Min": "Min",
-                "Max": "Max"
-              },
-              "Bucket": {
-                "Title": "Grafik Klasifikasi"
-              }
+              "Create": "Buat"
             }
           }
         }
       },
-      "Watch": {
-        "Routes": {
-          "Pause": {
-            "Title": "Jeda",
-            "Control": {
-              "Title": "Kontrol",
-              "Exit": "Keluar"
-            },
-            "Debug": {
-              "Title": "Debug"
-            }
-          }
-        }
-      },
-      "Preview": {
-        "Routes": {
-          "Pause": {
-            "Title": "Jeda",
-            "Control": {
-              "Title": "Kontrol",
-              "Exit": "Keluar"
-            },
-            "Debug": {
-              "Title": "Debug"
-            }
+      "Result": {
+        "Title": "Hasil",
+        "Graphs": {
+          "Title": "Grafik",
+          "Judgment": {
+            "Title": "Grafik Penilaian"
+          },
+          "Accuracy": {
+            "Title": "Grafik Akurasi",
+            "AbsValue": "Nilai Mutlak",
+            "Mean": "Rata-rata",
+            "StDev": "Deviasi Standar",
+            "Min": "Min",
+            "Max": "Max"
+          },
+          "Bucket": {
+            "Title": "Grafik Klasifikasi"
           }
         }
       }
@@ -2095,22 +3212,6 @@
         "Routes": {
           "Preview": {
             "Play": "Main"
-          }
-        }
-      }
-    },
-    "Engine": {
-      "Tutorial": {
-        "Routes": {
-          "Pause": {
-            "Title": "Jeda",
-            "Control": {
-              "Title": "Kontrol",
-              "Exit": "Keluar"
-            },
-            "Debug": {
-              "Title": "Debug"
-            }
           }
         }
       }
