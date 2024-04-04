@@ -4,6 +4,14 @@
     "Title": "日本語 (Japanese)"
   },
   "Texts": {
+    "#GRADE": "グレード",
+    "#ARCADE_SCORE": "スコア",
+    "#ACCURACY_SCORE": "精度スコア",
+    "#COMBO": "コンボ",
+    "#PERFECT": "Perfect",
+    "#GREAT": "Great",
+    "#GOOD": "Good",
+    "#MISS": "Miss",
     "#KEYWORDS": "キーワード",
     "#NAME": "名称",
     "#RATING": "難易度",
@@ -14,6 +22,7 @@
     "#ARTISTS": "アーティスト名",
     "#AUTHOR": "作者名",
     "#GENRE": "ジャンル名",
+    "#TYPE": "Type",
     "#CATEGORY": "カテゴリ名",
     "#LANGUAGE": "言語",
     "#DIFFICULTY": "難易度",
@@ -34,6 +43,7 @@
     "#STAGE_POSITION": "ステージの位置",
     "#STAGE_SIZE": "ステージの大きさ",
     "#STAGE_ROTATION": "ステージの回転",
+    "#STAGE_DIRECTION": "ステージの方向",
     "#STAGE_ALPHA": "ステージの不透明度",
     "#STAGE_ANIMATION": "ステージのアニメーション",
     "#STAGE_TILT": "ステージの傾き",
@@ -45,69 +55,81 @@
     "#STAGE_EFFECT_POSITION": "ステージエフェクトの位置",
     "#STAGE_EFFECT_SIZE": "ステージエフェクトの大きさ",
     "#STAGE_EFFECT_ROTATION": "ステージエフェクトの回転",
+    "#STAGE_EFFECT_DIRECTION": "ステージエフェクトの方向",
     "#STAGE_EFFECT_ALPHA": "ステージエフェクトの不透明度",
     "#LANE": "レーンの表示",
     "#LANE_POSITION": "レーンの位置",
     "#LANE_SIZE": "レーンの大きさ",
     "#LANE_ROTATION": "レーンの回転",
+    "#LANE_DIRECTION": "レーンの方向",
     "#LANE_ALPHA": "レーンの不透明度",
     "#LANE_ANIMATION": "レーンのアニメーション",
     "#LANE_EFFECT": "レーンエフェクト",
     "#LANE_EFFECT_POSITION": "レーンエフェクトの位置",
     "#LANE_EFFECT_SIZE": "レーンエフェクトの大きさ",
     "#LANE_EFFECT_ROTATION": "レーンエフェクトの回転",
+    "#LANE_EFFECT_DIRECTION": "レーンエフェクトの方向",
     "#LANE_EFFECT_ALPHA": "レーンエフェクトの不透明度",
     "#JUDGELINE": "判定ラインの表示",
     "#JUDGELINE_POSITION": "判定ラインの位置",
     "#JUDGELINE_SIZE": "判定ラインの大きさ",
     "#JUDGELINE_ROTATION": "判定ラインの回転",
+    "#JUDGELINE_DIRECTION": "判定ラインの方向",
     "#JUDGELINE_ALPHA": "判定ラインの不透明度",
     "#JUDGELINE_ANIMATION": "判定ラインのアニメーション",
     "#JUDGELINE_EFFECT": "判定ラインのエフェクト",
     "#JUDGELINE_EFFECT_POSITION": "判定ラインのエフェクトの位置",
     "#JUDGELINE_EFFECT_SIZE": "判定ラインのエフェクトの大きさ",
     "#JUDGELINE_EFFECT_ROTATION": "判定ラインのエフェクトの回転",
+    "#JUDGELINE_EFFECT_DIRECTION": "判定ラインのエフェクトの方向",
     "#JUDGELINE_EFFECT_ALPHA": "判定ラインのエフェクトの不透明度",
     "#SLOT": "スロットの表示",
     "#SLOT_POSITION": "スロットの位置",
     "#SLOT_SIZE": "スロットの大きさ",
     "#SLOT_ROTATION": "スロットの回転",
+    "#SLOT_DIRECTION": "スロットの方向",
     "#SLOT_ALPHA": "スロットの不透明度",
     "#SLOT_ANIMATION": "スロットのアニメーション",
     "#SLOT_EFFECT": "スロットエフェクト",
     "#SLOT_EFFECT_POSITION": "スロットエフェクトの位置",
     "#SLOT_EFFECT_SIZE": "スロットエフェクトの大きさ",
     "#SLOT_EFFECT_ROTATION": "スロットエフェクトの回転",
+    "#SLOT_EFFECT_DIRECTION": "スロットエフェクトの方向",
     "#SLOT_EFFECT_ALPHA": "スロットエフェクトの不透明度",
     "#NOTE": "ノーツの表示",
     "#NOTE_SPEED": "ノーツ速度",
-    "#NOTE_SPEED_RANDOM": "ランダム(ノーツ速度)",
+    "#NOTE_SPEED_RANDOM": "ランダム（ノーツ速度）",
     "#NOTE_POSITION": "ノーツの位置",
     "#NOTE_SIZE": "ノーツの大きさ",
     "#NOTE_ROTATION": "ノーツの回転",
+    "#NOTE_DIRECTION": "ノーツの方向",
     "#NOTE_ALPHA": "ノーツの不透明度",
     "#NOTE_ANIMATION": "ノーツのアニメーション",
     "#NOTE_EFFECT": "ノーツエフェクト",
     "#NOTE_EFFECT_POSITION": "ノーツエフェクトの位置",
     "#NOTE_EFFECT_SIZE": "ノーツエフェクトの大きさ",
     "#NOTE_EFFECT_ROTATION": "ノーツエフェクトの回転",
+    "#NOTE_EFFECT_DIRECTION": "ノーツエフェクトの方向",
     "#NOTE_EFFECT_ALPHA": "ノーツエフェクトの不透明度",
     "#MARKER": "マーカーの表示",
     "#MARKER_POSITION": "マーカーの位置",
     "#MARKER_SIZE": "マーカーの大きさ",
     "#MARKER_ROTATION": "マーカーの回転",
+    "#MARKER_DIRECTION": "マーカーの方向",
     "#MARKER_ALPHA": "マーカーの不透明度",
     "#MARKER_ANIMATION": "マーカーのアニメーション",
     "#CONNECTOR": "コネクターの表示",
     "#CONNECTOR_POSITION": "コネクターの位置",
     "#CONNECTOR_SIZE": "コネクターの大きさ",
     "#CONNECTOR_ROTATION": "コネクターの回転",
+    "#CONNECTOR_DIRECTION": "コネクターの方向",
     "#CONNECTOR_ALPHA": "コネクターの不透明度",
     "#CONNECTOR_ANIMATION": "コネクターのアニメーション",
     "#SIMLINE": "同時ノーツ線の表示",
     "#SIMLINE_POSITION": "同時ノーツ線の位置",
     "#SIMLINE_SIZE": "同時ノーツ線の大きさ",
     "#SIMLINE_ROTATION": "同時ノーツ線の回転",
+    "#SIMLINE_DIRECTION": "同時ノーツ線の方向",
     "#SIMLINE_ALPHA": "同時ノーツ線の不透明度",
     "#SIMLINE_ANIMATION": "同時ノーツ線のアニメーション",
     "#NONE": "無し",
@@ -222,6 +244,7 @@
     "#REMOVED": "削除済",
     "#PUBLIC": "公開",
     "#PRIVATE": "非公開",
+    "#LOCKED": "ロック",
     "#POP": "ポップ",
     "#ROCK": "ロック",
     "#HIPHOP": "ヒップホップ",
@@ -238,6 +261,8 @@
     "#SHORT_VERSION": "ショートバージョン",
     "#LONG_VERSION": "ロングバージョン",
     "#LIVE_VERSION": "ライブバージョン",
+    "#REPORT": "Report",
+    "#REASON": "Reason",
     "#ILLEGAL_ACTIVITIES": "違法行為",
     "#CHEATING": "チート",
     "#AFK": "放置",
@@ -246,11 +271,31 @@
     "#INAPPROPRIATE_LANGUAGE": "不適切な言葉",
     "#NEGATIVE_ATTITUDE": "ネガティブ",
     "#DNF": "中断",
+    "#SUGGESTIONS": "提案",
+    "#SUGGESTIONS_PER_PLAYER": "プレイヤー毎の提案数",
+    "#MATCH_SCORING": "マッチのランク基準",
+    "#MATCH_TIEBREAKER": "マッチのランク基準：同点時",
+    "#MATCH_COUNT": "マッチ数",
+    "#MATCH_LIMIT": "マッチ制限",
+    "#ROUND_SCORING": "ラウンドのランク基準",
+    "#ROUND_TIEBREAKER": "ラウンドのランク基準：同点時",
+    "#ROUND_COUNT": "ラウンド数",
+    "#ROUND_LIMIT": "ラウンド制限",
+    "#TEAM_SCORING": "チームのランク基準",
+    "#TEAM_TIEBREAKER": "チームのランク基準：同点時",
+    "#TEAM_COUNT": "チーム数",
+    "#TEAM_LIMIT": "チーム制限",
     "#QUALIFIED": "通過",
     "#DISQUALIFIED": "脱落",
+    "#RANKING": "ランキング",
+    "#SCORE": "スコア",
+    "#PLAYER": "プレイヤー",
     "#SPECTATOR": "観戦",
+    "#REFEREE": "審判",
+    "#ELIMINATED": "脱落",
     "#FINALIST": "決勝",
     "#FINISHED": "終了",
+    "#WINNER": "勝者",
     "#GOLD_MEDAL": "金メダル",
     "#SILVER_MEDAL": "銀メダル",
     "#BRONZE_MEDAL": "銅メダル",
@@ -1679,45 +1724,47 @@
           "Description": "この部屋を作成するコレクションを選択してください。"
         }
       },
-      "Post": {
-        "Title": "投稿の選択",
-        "Description": "使いたい投稿のあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Playlist": {
-        "Title": "プレイリストの選択",
-        "Description": "使いたいプレイリストのあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Level": {
-        "Title": "レベルの選択",
-        "Description": "使いたいレベルのあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Skin": {
-        "Title": "スキンの選択",
-        "Description": "使いたいスキンのあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Background": {
-        "Title": "背景の選択",
-        "Description": "使いたい背景のあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Effect": {
-        "Title": "効果音の選択",
-        "Description": "使いたい効果音のあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Particle": {
-        "Title": "パーティクルの選択",
-        "Description": "使いたいパーティクルのあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Engine": {
-        "Title": "エンジンの選択",
-        "Description": "使いたいエンジンのあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Replay": {
-        "Title": "リプレイの選択",
-        "Description": "使いたいリプレイのあるカスタムサーバーまたはコレクションを選択してください。"
-      },
-      "Room": {
-        "Title": "部屋の選択",
-        "Description": "使いたい部屋のあるカスタムサーバーまたはコレクションを選択してください。"
+      "ToUse": {
+        "Post": {
+          "Title": "投稿の選択",
+          "Description": "投稿を使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Playlist": {
+          "Title": "プレイリストの選択",
+          "Description": "プレイリストを使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Level": {
+          "Title": "レベルの選択",
+          "Description": "レベルを使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Skin": {
+          "Title": "スキンの選択",
+          "Description": "スキンを使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Background": {
+          "Title": "背景の選択",
+          "Description": "背景を使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Effect": {
+          "Title": "効果音の選択",
+          "Description": "効果音を使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Particle": {
+          "Title": "パーティクルの選択",
+          "Description": "パーティクルを使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Engine": {
+          "Title": "エンジンの選択",
+          "Description": "エンジンを使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Replay": {
+          "Title": "リプレイの選択",
+          "Description": "リプレイを使用するカスタムサーバーまたはコレクションを選択してください。"
+        },
+        "Room": {
+          "Title": "部屋の選択",
+          "Description": "部屋を使用するカスタムサーバーまたはコレクションを選択してください。"
+        }
       },
       "ToAddFavorite": {
         "Post": {
@@ -2685,6 +2732,11 @@
         },
         "Chat": {
           "Title": "チャット",
+          "Overlay": {
+            "Room": "部屋：{0}",
+            "User": "{0}：{1}",
+            "Level": "レベルが選択されました。"
+          },
           "Text": {
             "Placeholder": "メッセージを入力..."
           },
