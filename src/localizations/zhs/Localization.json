@@ -4,195 +4,317 @@
     "Title": "简体中文 (Simplified Chinese)"
   },
   "Texts": {
-    "Name": {
-      "#KEYWORDS": "关键词",
-      "#NAME": "名字",
-      "#RATING": "等级",
-      "#RATING_MINIMUM": "最低等级",
-      "#RATING_MAXIMUM": "最高等级",
-      "#TITLE": "标题",
-      "#SUBTITLE": "副标题",
-      "#ARTISTS": "艺术家",
-      "#AUTHOR": "作者",
-      "#GENRE": "曲风",
-      "#CATEGORY": "类别",
-      "#LANGUAGE": "语言",
-      "#DIFFICULTY": "难度",
-      "#LENGTH": "长度",
-      "#LENGTH_MINIMUM": "最短长度",
-      "#LENGTH_MAXIMUM": "最长长度",
-      "#SPEED": "关卡速度",
-      "#MIRROR": "关卡镜像",
-      "#RANDOM": "随机",
-      "#HIDDEN": "隐藏模式",
-      "#JUDGMENT_STRICT": "严格判定",
-      "#JUDGMENT_LOOSE": "宽松判定",
-      "#EFFECT": "音效",
-      "#EFFECT_AUTO": "自动音效",
-      "#STAGE": "舞台",
-      "#STAGE_POSITION": "舞台位置",
-      "#STAGE_SIZE": "舞台大小",
-      "#STAGE_ROTATION": "舞台旋转",
-      "#STAGE_ALPHA": "舞台透明度",
-      "#STAGE_ANIMATION": "舞台动画",
-      "#STAGE_TILT": "舞台倾斜",
-      "#STAGE_COVER_VERTICAL": "纵向舞台遮挡",
-      "#STAGE_COVER_HORIZONTAL": "横向舞台遮挡",
-      "#STAGE_COVER_ALPHA": "舞台遮挡透明度",
-      "#STAGE_ASPECTRATIO_LOCK": "锁定舞台长宽比",
-      "#STAGE_EFFECT": "舞台效果",
-      "#STAGE_EFFECT_POSITION": "舞台效果位置",
-      "#STAGE_EFFECT_SIZE": "舞台效果大小",
-      "#STAGE_EFFECT_ROTATION": "舞台效果旋转",
-      "#STAGE_EFFECT_ALPHA": "舞台效果透明度",
-      "#LANE": "轨道",
-      "#LANE_POSITION": "轨道位置",
-      "#LANE_SIZE": "轨道大小",
-      "#LANE_ROTATION": "轨道旋转",
-      "#LANE_ALPHA": "轨道透明度",
-      "#LANE_ANIMATION": "轨道动画",
-      "#LANE_EFFECT": "轨道效果",
-      "#LANE_EFFECT_POSITION": "轨道效果位置",
-      "#LANE_EFFECT_SIZE": "轨道效果大小",
-      "#LANE_EFFECT_ROTATION": "轨道效果旋转",
-      "#LANE_EFFECT_ALPHA": "轨道效果透明度",
-      "#JUDGELINE": "判定线",
-      "#JUDGELINE_POSITION": "判定线位置",
-      "#JUDGELINE_SIZE": "判定线大小",
-      "#JUDGELINE_ROTATION": "判定线旋转",
-      "#JUDGELINE_ALPHA": "判定线透明度",
-      "#JUDGELINE_ANIMATION": "判定线动画",
-      "#JUDGELINE_EFFECT": "判定线效果",
-      "#JUDGELINE_EFFECT_POSITION": "判定线效果位置",
-      "#JUDGELINE_EFFECT_SIZE": "判定线效果大小",
-      "#JUDGELINE_EFFECT_ROTATION": "判定线效果旋转",
-      "#JUDGELINE_EFFECT_ALPHA": "判定线效果透明度",
-      "#SLOT": "键位",
-      "#SLOT_POSITION": "键位位置",
-      "#SLOT_SIZE": "键位大小",
-      "#SLOT_ROTATION": "键位旋转",
-      "#SLOT_ALPHA": "键位透明度",
-      "#SLOT_ANIMATION": "键位动画",
-      "#SLOT_EFFECT": "键位效果",
-      "#SLOT_EFFECT_POSITION": "键位效果位置",
-      "#SLOT_EFFECT_SIZE": "键位效果大小",
-      "#SLOT_EFFECT_ROTATION": "键位效果旋转",
-      "#SLOT_EFFECT_ALPHA": "键位效果透明度",
-      "#NOTE": "音符",
-      "#NOTE_SPEED": "音符速度",
-      "#NOTE_SPEED_RANDOM": "随机音符速度",
-      "#NOTE_POSITION": "音符位置",
-      "#NOTE_SIZE": "音符大小",
-      "#NOTE_ROTATION": "音符旋转",
-      "#NOTE_ALPHA": "音符透明度",
-      "#NOTE_ANIMATION": "音符动画",
-      "#NOTE_EFFECT": "音符击打效果",
-      "#NOTE_EFFECT_POSITION": "音符击打效果位置",
-      "#NOTE_EFFECT_SIZE": "音符击打效果大小",
-      "#NOTE_EFFECT_ROTATION": "音符效果旋转",
-      "#NOTE_EFFECT_ALPHA": "音符效果透明度",
-      "#MARKER": "标记",
-      "#MARKER_POSITION": "标记位置",
-      "#MARKER_SIZE": "标记大小",
-      "#MARKER_ROTATION": "标记旋转",
-      "#MARKER_ALPHA": "标记透明度",
-      "#MARKER_ANIMATION": "标记动画",
-      "#CONNECTOR": "音符连接",
-      "#CONNECTOR_POSITION": "音符连接位置",
-      "#CONNECTOR_SIZE": "音符连接大小",
-      "#CONNECTOR_ROTATION": "音符连接旋转",
-      "#CONNECTOR_ALPHA": "音符连接透明度",
-      "#CONNECTOR_ANIMATION": "音符连接动画",
-      "#SIMLINE": "同步线",
-      "#SIMLINE_POSITION": "同步线位置",
-      "#SIMLINE_SIZE": "同步线大小",
-      "#SIMLINE_ROTATION": "同步线旋转",
-      "#SIMLINE_ALPHA": "同步线透明度",
-      "#SIMLINE_ANIMATION": "同步线动画"
-    },
-    "Value": {
-      "#NONE": "无",
-      "#ANY": "任意",
-      "#ALL": "全部",
-      "#OTHERS": "其他",
-      "#SHORT": "短",
-      "#LONG": "长",
-      "#HIGH": "高",
-      "#MID": "中",
-      "#LOW": "低",
-      "#SMALL": "小",
-      "#MEDIUM": "中",
-      "#LARGE": "大",
-      "#LEFT": "左",
-      "#RIGHT": "右",
-      "#UP": "上",
-      "#DOWN": "下",
-      "#FRONT": "前",
-      "#BACK": "后",
-      "#CENTER": "中",
-      "#TOP": "上",
-      "#BOTTOM": "下",
-      "#TOP_LEFT": "左上",
-      "#TOP_CENTER": "中上",
-      "#TOP_RIGHT": "右上",
-      "#CENTER_LEFT": "左中",
-      "#CENTER_RIGHT": "右中",
-      "#BOTTOM_LEFT": "左下",
-      "#BOTTOM_CENTER": "中下",
-      "#BOTTOM_RIGHT": "右下",
-      "#CLOCKWISE": "顺时针",
-      "#COUNTERCLOCKWISE": "逆时针",
-      "#FORWARD": "前",
-      "#BACKWARD": "后",
-      "#SIMPLE": "简易",
-      "#EASY": "简单",
-      "#NORMAL": "普通",
-      "#HARD": "困难",
-      "#EXPERT": "专家",
-      "#MASTER": "大师",
-      "#PRO": "职业",
-      "#TECHNICAL": "技术",
-      "#SPECIAL": "特殊"
-    },
-    "Placeholder": {
-      "#KEYWORDS": "输入关键词…",
-      "#NAME": "输入名字…",
-      "#RATING": "输入等级…",
-      "#RATING_MINIMUM": "输入最低等级…",
-      "#RATING_MAXIMUM": "输入最高等级…",
-      "#TITLE": "输入标题…",
-      "#SUBTITLE": "输入副标题…",
-      "#ARTISTS": "输入艺术家…",
-      "#AUTHOR": "输入作者…",
-      "#GENRE": "输入曲风…",
-      "#CATEGORY": "输入类别…",
-      "#LANGUAGE": "输入语言…",
-      "#DIFFICULTY": "输入难度…",
-      "#LENGTH": "输入长度…",
-      "#LENGTH_MINIMUM": "输入最短长度…",
-      "#LENGTH_MAXIMUM": "输入最长长度…"
-    },
-    "Unit": {
-      "#PERCENTAGE": "{0}%",
-      "#SECOND": "{0} 秒",
-      "#MILLISECOND": "{0} 毫秒"
-    },
-    "Instruction": {
-      "#TAP": "轻触",
-      "#TAP_HOLD": "轻触并按住",
-      "#TAP_RELEASE": "轻触并松开",
-      "#TAP_FLICK": "轻触并轻划",
-      "#TAP_SLIDE": "轻触并滑动",
-      "#HOLD": "按住",
-      "#HOLD_SLIDE": "按住并滑动",
-      "#HOLD_FOLLOW": "按住并跟随",
-      "#RELEASE": "松开",
-      "#FLICK": "轻划",
-      "#SLIDE": "滑动",
-      "#SLIDE_FLICK": "滑动并轻划",
-      "#AVOID": "避免",
-      "#JIGGLE": "晃动"
-    }
+    "#GRADE": "评级",
+    "#ARCADE_SCORE": "街机分数",
+    "#ACCURACY_SCORE": "准度分数",
+    "#COMBO": "连击",
+    "#PERFECT": "Perfect",
+    "#GREAT": "Great",
+    "#GOOD": "Good",
+    "#MISS": "Miss",
+    "#KEYWORDS": "关键字",
+    "#NAME": "名称",
+    "#RATING": "评级",
+    "#RATING_MINIMUM": "最小评级",
+    "#RATING_MAXIMUM": "最大评级",
+    "#TITLE": "标题",
+    "#SUBTITLE": "副标题",
+    "#ARTISTS": "艺术家",
+    "#AUTHOR": "作者",
+    "#GENRE": "风格",
+    "#TYPE": "类型",
+    "#CATEGORY": "类别",
+    "#LANGUAGE": "语言",
+    "#DIFFICULTY": "难度",
+    "#VERSIONS": "版本",
+    "#LENGTH": "长度",
+    "#LENGTH_MINIMUM": "最小长度",
+    "#LENGTH_MAXIMUM": "最大长度",
+    "#ADDITIONAL_INFORMATION": "附加信息",
+    "#SPEED": "关卡速度",
+    "#MIRROR": "镜像关卡",
+    "#RANDOM": "随机",
+    "#HIDDEN": "隐藏",
+    "#JUDGMENT_STRICT": "严格判定",
+    "#JUDGMENT_LOOSE": "宽松判定",
+    "#EFFECT": "音效",
+    "#EFFECT_AUTO": "自动音效",
+    "#STAGE": "舞台",
+    "#STAGE_POSITION": "舞台位置",
+    "#STAGE_SIZE": "舞台尺寸",
+    "#STAGE_ROTATION": "舞台旋转",
+    "#STAGE_DIRECTION": "舞台方向",
+    "#STAGE_ALPHA": "舞台透明度",
+    "#STAGE_ANIMATION": "舞台动画",
+    "#STAGE_TILT": "舞台倾斜",
+    "#STAGE_COVER_VERTICAL": "垂直舞台遮挡",
+    "#STAGE_COVER_HORIZONTAL": "水平舞台遮挡",
+    "#STAGE_COVER_ALPHA": "舞台遮挡透明度",
+    "#STAGE_ASPECTRATIO_LOCK": "锁定舞台纵横比",
+    "#STAGE_EFFECT": "舞台特效",
+    "#STAGE_EFFECT_POSITION": "舞台特效位置",
+    "#STAGE_EFFECT_SIZE": "舞台特效尺寸",
+    "#STAGE_EFFECT_ROTATION": "舞台特效旋转",
+    "#STAGE_EFFECT_DIRECTION": "舞台特效方向",
+    "#STAGE_EFFECT_ALPHA": "舞台特效透明度",
+    "#LANE": "轨道",
+    "#LANE_POSITION": "轨道位置",
+    "#LANE_SIZE": "轨道尺寸",
+    "#LANE_ROTATION": "轨道旋转",
+    "#LANE_DIRECTION": "轨道方向",
+    "#LANE_ALPHA": "轨道透明度",
+    "#LANE_ANIMATION": "轨道动画",
+    "#LANE_EFFECT": "轨道特效",
+    "#LANE_EFFECT_POSITION": "轨道特效位置",
+    "#LANE_EFFECT_SIZE": "轨道特效尺寸",
+    "#LANE_EFFECT_ROTATION": "轨道特效旋转",
+    "#LANE_EFFECT_DIRECTION": "轨道特效方向",
+    "#LANE_EFFECT_ALPHA": "轨道特效透明度",
+    "#JUDGELINE": "判定线",
+    "#JUDGELINE_POSITION": "判定线位置",
+    "#JUDGELINE_SIZE": "判定线尺寸",
+    "#JUDGELINE_ROTATION": "判定线旋转",
+    "#JUDGELINE_DIRECTION": "判定线方向",
+    "#JUDGELINE_ALPHA": "判定线透明度",
+    "#JUDGELINE_ANIMATION": "判定线动画",
+    "#JUDGELINE_EFFECT": "判定线特效",
+    "#JUDGELINE_EFFECT_POSITION": "判定线特效位置",
+    "#JUDGELINE_EFFECT_SIZE": "判定线特效尺寸",
+    "#JUDGELINE_EFFECT_ROTATION": "判定线特效旋转",
+    "#JUDGELINE_EFFECT_DIRECTION": "判定线特效方向",
+    "#JUDGELINE_EFFECT_ALPHA": "判定线特效透明度",
+    "#SLOT": "插槽",
+    "#SLOT_POSITION": "插槽位置",
+    "#SLOT_SIZE": "插槽尺寸",
+    "#SLOT_ROTATION": "插槽旋转",
+    "#SLOT_DIRECTION": "插槽方向",
+    "#SLOT_ALPHA": "插槽透明度",
+    "#SLOT_ANIMATION": "插槽动画",
+    "#SLOT_EFFECT": "插槽特效",
+    "#SLOT_EFFECT_POSITION": "插槽特效位置",
+    "#SLOT_EFFECT_SIZE": "插槽特效尺寸",
+    "#SLOT_EFFECT_ROTATION": "插槽特效旋转",
+    "#SLOT_EFFECT_DIRECTION": "插槽特效方向",
+    "#SLOT_EFFECT_ALPHA": "插槽特效透明度",
+    "#NOTE": "音符",
+    "#NOTE_SPEED": "音符流速",
+    "#NOTE_SPEED_RANDOM": "随机音符流速",
+    "#NOTE_POSITION": "音符位置",
+    "#NOTE_SIZE": "音符尺寸",
+    "#NOTE_ROTATION": "音符旋转",
+    "#NOTE_DIRECTION": "音符方向",
+    "#NOTE_ALPHA": "音符透明度",
+    "#NOTE_ANIMATION": "音符动画",
+    "#NOTE_EFFECT": "音符特效",
+    "#NOTE_EFFECT_POSITION": "音符特效位置",
+    "#NOTE_EFFECT_SIZE": "音符特效尺寸",
+    "#NOTE_EFFECT_ROTATION": "音符特效旋转",
+    "#NOTE_EFFECT_DIRECTION": "音符特效方向",
+    "#NOTE_EFFECT_ALPHA": "音符特效透明度",
+    "#MARKER": "标记",
+    "#MARKER_POSITION": "标记位置",
+    "#MARKER_SIZE": "标记尺寸",
+    "#MARKER_ROTATION": "标记旋转",
+    "#MARKER_DIRECTION": "标记方向",
+    "#MARKER_ALPHA": "标记透明度",
+    "#MARKER_ANIMATION": "标记动画",
+    "#CONNECTOR": "连接线",
+    "#CONNECTOR_POSITION": "连接线位置",
+    "#CONNECTOR_SIZE": "连接线尺寸",
+    "#CONNECTOR_ROTATION": "连接线旋转",
+    "#CONNECTOR_DIRECTION": "连接线方向",
+    "#CONNECTOR_ALPHA": "连接线透明度",
+    "#CONNECTOR_ANIMATION": "连接线动画",
+    "#SIMLINE": "同时击打线",
+    "#SIMLINE_POSITION": "同时击打线位置",
+    "#SIMLINE_SIZE": "同时击打线尺寸",
+    "#SIMLINE_ROTATION": "同时击打线旋转",
+    "#SIMLINE_DIRECTION": "同时击打线方向",
+    "#SIMLINE_ALPHA": "同时击打线透明度",
+    "#SIMLINE_ANIMATION": "同时击打线动画",
+    "#NONE": "无",
+    "#ANY": "任意",
+    "#ALL": "全部",
+    "#OTHERS": "其它",
+    "#SHORT": "短",
+    "#LONG": "长",
+    "#HIGH": "高",
+    "#MID": "中",
+    "#LOW": "低",
+    "#SMALL": "小",
+    "#MEDIUM": "中等",
+    "#LARGE": "大",
+    "#LEFT": "左",
+    "#RIGHT": "右",
+    "#UP": "上",
+    "#DOWN": "下",
+    "#FRONT": "前",
+    "#BACK": "后",
+    "#CENTER": "中央",
+    "#TOP": "顶部",
+    "#BOTTOM": "底部",
+    "#TOP_LEFT": "顶部左侧",
+    "#TOP_CENTER": "顶部中央",
+    "#TOP_RIGHT": "顶部右侧",
+    "#CENTER_LEFT": "中央左侧",
+    "#CENTER_RIGHT": "中央右侧",
+    "#BOTTOM_LEFT": "底部左侧",
+    "#BOTTOM_CENTER": "底部中央",
+    "#BOTTOM_RIGHT": "底部右侧",
+    "#CLOCKWISE": "顺时针",
+    "#COUNTERCLOCKWISE": "逆时针",
+    "#FORWARD": "向前",
+    "#BACKWARD": "向后",
+    "#SIMPLE": "简易",
+    "#EASY": "简单",
+    "#NORMAL": "一般",
+    "#HARD": "困难",
+    "#EXPERT": "专家",
+    "#MASTER": "大师",
+    "#PRO": "职业",
+    "#TECHNICAL": "专业",
+    "#SPECIAL": "特殊",
+    "#KEYWORDS_PLACEHOLDER": "输入关键字...",
+    "#NAME_PLACEHOLDER": "输入名称...",
+    "#RATING_PLACEHOLDER": "输入评级...",
+    "#RATING_MINIMUM_PLACEHOLDER": "输入最小评级...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "输入最大评级...",
+    "#TITLE_PLACEHOLDER": "输入标题...",
+    "#SUBTITLE_PLACEHOLDER": "输入副标题...",
+    "#ARTISTS_PLACEHOLDER": "输入艺术家...",
+    "#AUTHOR_PLACEHOLDER": "输入作者...",
+    "#GENRE_PLACEHOLDER": "输入风格...",
+    "#CATEGORY_PLACEHOLDER": "输入类别...",
+    "#LANGUAGE_PLACEHOLDER": "输入语言...",
+    "#DIFFICULTY_PLACEHOLDER": "输入难度...",
+    "#LENGTH_PLACEHOLDER": "输入长度...",
+    "#LENGTH_MINIMUM_PLACEHOLDER": "输入最小长度...",
+    "#LENGTH_MAXIMUM_PLACEHOLDER": "输入最大长度...",
+    "#ADDITIONAL_INFORMATION_PLACEHOLDER": "输入附加信息...",
+    "#PERCENTAGE_UNIT": "{0}%",
+    "#SECOND_UNIT": "{0} 秒",
+    "#MILLISECOND_UNIT": "{0} 毫秒",
+    "#TAP": "轻击",
+    "#TAP_HOLD": "轻击并按住",
+    "#TAP_RELEASE": "轻击后松开",
+    "#TAP_FLICK": "轻击并轻划",
+    "#TAP_SLIDE": "轻击并滑动",
+    "#HOLD": "按住",
+    "#HOLD_SLIDE": "按住并滑动",
+    "#HOLD_FOLLOW": "按住并跟随",
+    "#RELEASE": "松开",
+    "#FLICK": "轻划",
+    "#SLIDE": "滑动",
+    "#SLIDE_FLICK": "滑动后轻划",
+    "#AVOID": "避免",
+    "#JIGGLE": "晃动",
+    "#NEWEST": "最新",
+    "#OLDEST": "最旧",
+    "#RECOMMENDED": "建议",
+    "#POPULAR": "人气",
+    "#FEATURED": "精选",
+    "#COMPETITIVE": "竞赛",
+    "#HOLIDAY": "节日",
+    "#LIMITED": "限制",
+    "#FOLLOWING": "关注",
+    "#ANNOUNCEMENT": "公告",
+    "#INFORMATION": "信息",
+    "#MAINTENANCE": "维护",
+    "#EVENT": "活动",
+    "#UPDATE": "更新",
+    "#SEARCH": "搜索",
+    "#ADVANCED": "高级",
+    "#RELATED": "相关",
+    "#SAME_AUTHOR": "同一作者",
+    "#SAME_ARTISTS": "同一艺术家",
+    "#SAME_RATING": "同一评级",
+    "#SAME_CATEGORY": "同一类别",
+    "#SAME_DIFFICULTY": "同一难度",
+    "#SAME_GENRE": "同一风格",
+    "#SAME_VERSION": "同一版本",
+    "#OTHER_AUTHORS": "其他作者",
+    "#OTHER_ARTISTS": "其他艺术家",
+    "#OTHER_RATINGS": "其他评级",
+    "#OTHER_CATEGORIES": "其他类别",
+    "#OTHER_DIFFICULTIES": "其他难度",
+    "#OTHER_GENRES": "其他风格",
+    "#OTHER_VERSIONS": "其他版本",
+    "#VERIFYING": "审核中",
+    "#VERIFIED": "已审核",
+    "#REMOVED": "已移除",
+    "#PUBLIC": "公开",
+    "#PRIVATE": "私有",
+    "#LOCKED": "已锁定",
+    "#POP": "流行",
+    "#ROCK": "摇滚",
+    "#HIPHOP": "嘻哈",
+    "#COUNTRY": "乡村",
+    "#ELECTRONIC": "电子",
+    "#METAL": "金属",
+    "#CLASSICAL": "古典",
+    "#FOLK": "民谣",
+    "#INDIE": "独立",
+    "#ANIME": "动漫",
+    "#VOCALOID": "Vocaloid",
+    "#REMIX": "Remix",
+    "#INSTRUMENTAL": "纯音乐",
+    "#SHORT_VERSION": "短版",
+    "#LONG_VERSION": "长版",
+    "#LIVE_VERSION": "现场版",
+    "#REPORT": "报告",
+    "#REASON": "原因",
+    "#ILLEGAL_ACTIVITIES": "非法活动",
+    "#CHEATING": "作弊",
+    "#AFK": "AFK",
+    "#SPAMMING": "垃圾信息",
+    "#VERBAL_ABUSE": "言论攻击",
+    "#INAPPROPRIATE_LANGUAGE": "不适当的语言",
+    "#NEGATIVE_ATTITUDE": "消极态度",
+    "#DNF": "未完成",
+    "#SUGGESTIONS": "建议",
+    "#SUGGESTIONS_PER_PLAYER": "每个玩家的建议",
+    "#MATCH_SCORING": "比赛得分",
+    "#MATCH_TIEBREAKER": "比赛加时",
+    "#MATCH_COUNT": "比赛数",
+    "#MATCH_LIMIT": "比赛上限",
+    "#ROUND_SCORING": "回合得分",
+    "#ROUND_TIEBREAKER": "回合加时",
+    "#ROUND_COUNT": "回合数",
+    "#ROUND_LIMIT": "回合上限",
+    "#TEAM_SCORING": "队伍得分",
+    "#TEAM_TIEBREAKER": "队伍加时",
+    "#TEAM_COUNT": "队伍数",
+    "#TEAM_LIMIT": "队伍上限",
+    "#QUALIFIED": "合格",
+    "#DISQUALIFIED": "不合格",
+    "#RANKING": "排名",
+    "#SCORE": "得分",
+    "#PLAYER": "玩家",
+    "#SPECTATOR": "观察者",
+    "#REFEREE": "裁判",
+    "#ELIMINATED": "被淘汰",
+    "#FINALIST": "决赛入围者",
+    "#FINISHED": "已完成",
+    "#WINNER": "胜者",
+    "#GOLD_MEDAL": "金牌",
+    "#SILVER_MEDAL": "银牌",
+    "#BRONZE_MEDAL": "铜牌",
+    "#TEAM_1": "队伍 1",
+    "#TEAM_2": "队伍 2",
+    "#TEAM_3": "队伍 3",
+    "#TEAM_4": "队伍 4",
+    "#TEAM_5": "队伍 5",
+    "#TEAM_6": "队伍 6",
+    "#TEAM_7": "队伍 7",
+    "#TEAM_8": "队伍 8",
+    "#TEAM_RED": "红队",
+    "#TEAM_GREEN": "绿队",
+    "#TEAM_BLUE": "蓝队",
+    "#TEAM_YELLOW": "黄队",
+    "#TEAM_PURPLE": "紫队",
+    "#TEAM_CYAN": "青队",
+    "#TEAM_WHITE": "白队",
+    "#TEAM_BLACK": "黑队"
   },
   "Common": {
     "Separator": "、",
@@ -216,7 +338,6 @@
     "Add": "添加",
     "Import": "导入",
     "Search": "搜索",
-    "More": "更多",
     "PullToRefresh": "拉动刷新",
     "Save": "保存",
     "Share": "分享",
@@ -283,6 +404,12 @@
     },
     "DeviceOffsetField": {
       "Calibrate": "校准"
+    },
+    "MultiField": {
+      "Selected": "已选择 {0}",
+      "AllSelected": "已全部选中",
+      "SelectAll": "全选",
+      "SelectNone": "全不选"
     },
     "PullToLoad": {
       "None": "无更多内容",
@@ -357,6 +484,16 @@
         "OutInElastic": "弹性（出入）",
         "None": "无"
       }
+    },
+    "AutoExit": {
+      "Title": "自动退出",
+      "Description": "当无法达到一定评级时自动退出游戏。",
+      "Options": {
+        "Off": "关闭",
+        "Pass": "Pass",
+        "FullCombo": "Full Combo",
+        "AllPerfect": "All Perfect"
+      }
     }
   },
   "Themes": {
@@ -430,9 +567,9 @@
           "Title": "最爱已编辑"
         }
       },
-      "AuthenticateServer": {
-        "Loading": "请求 Sonolus 身份验证…",
-        "Error": "从 Sonolus 请求身份验证失败。\n\n请检查您的网络连接并重试，或联系 Sonolus 并汇报这个问题。"
+      "Authenticate": {
+        "Loading": "正在请求 Sonolus 身份验证...",
+        "Error": "向 Sonolus 请求身份验证失败。\n\n请检查您的互联网连接并重试，或联系 Sonolus 报告问题。"
       },
       "Logout": {
         "Loading": "正在登出…",
@@ -444,28 +581,38 @@
     },
     "CustomServer": {
       "SonolusVersionError": "此服务器只支持 Sonolus 版本 {0}。\n\n请更新您的 Sonolus，或联系服务器运营并汇报这个问题。",
-      "SonolusVersionTooOld": "此服务器仅支持版本为 ({0}) 的旧版本 Sonolus。\n\n请等待服务器完成升级，或联系服务器所有者报告此问题。",
-      "Session": {
-        "NeedAuthentication": {
+      "SonolusVersionTooOld": "此服务器仅支持版本为 ({0}) 的旧版本 Sonolus。\n\n请等待服务器完成升级，或联系服务器运营并汇报这个问题。",
+      "Authentication": {
+        "Required": {
           "NotLoggedInError": {
-            "Description": "此服务器需要身份验证。\n\n请先登录并重试。"
+            "Description": "该服务器需要登录，但您未使用 Sonolus 帐户登录。\n\n请先使用您的 Sonolus 帐户登录，然后重试。"
           },
           "Confirmation": {
-            "Description": "此服务器需要身份验证。\n\n验证为“{0}”并继续？"
+            "Description": "该服务器需要登录。\n\n以“{0}”身份登录并继续吗？"
           }
         },
-        "AuthenticationExpired": {
-          "Description": "您的身份验证已过期。\n\n再次验证为“{0}”并继续？"
+        "Expired": {
+          "Description": "您的会话已过期。\n\n再次以“{0}”身份登录并继续吗？"
         },
-        "AuthenticationRejected": {
-          "Description": "服务器拒绝了您的身份验证。\n\n再次验证为“{0}”并继续？"
+        "Rejected": {
+          "Description": "您的会话被服务器拒绝。\n\n再次以“{0}”身份登录并继续吗？"
         },
-        "Authenticate": {
-          "Loading": "正在请求服务器身份验证…",
-          "Error": "从“{0}”请求身份验证失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        "Login": {
+          "Loading": "登录中...",
+          "Error": "登录“{0}”失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
+      "Multiplayer": {
+        "NotLoggedInError": {
+          "Description": "多人游戏需要登录，但您未使用 Sonolus 帐户登录。\n\n请先使用您的 Sonolus 帐户登录，然后重试。"
         },
-        "AddressMismatchError": {
-          "Description": "身份验证地址不匹配。\n\n请联系服务器运营并汇报问题。"
+        "CreateRoom": {
+          "Loading": "正在创建房间...",
+          "Error": "在“{0}”中创建房间失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "JoinRoom": {
+          "Loading": "正在加入房间...",
+          "Error": "加入房间“{0}”失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         }
       },
       "Server": {
@@ -478,10 +625,58 @@
           "Error": "加载服务器“{0}”横幅失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "正在加载帖子信息...",
+          "Error": "加载“{0}”的帖子信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "List": {
+          "Loading": "正在加载帖子...",
+          "Error": "加载第 {0} 页的帖子失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载帖子详情...",
+          "Error": "加载“{0}”的帖子详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查帖子兼容性...",
+          "Error": "帖子“{0}”与当前的 Sonolus 版本不兼容。\n\n请尝试使用其它帖子，或联系服务器运营并汇报这个问题。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载帖子缩略图...",
+          "Error": "加载“{0}”的帖子缩略图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。\n"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "正在加载游玩列表信息...",
+          "Error": "加载“{0}”的游玩列表信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "List": {
+          "Loading": "正在加载游玩列表...",
+          "Error": "加载第 {0} 页的游玩列表失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载游玩列表详情...",
+          "Error": "加载“{0}”的游玩列表详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查游玩列表兼容性...",
+          "Error": "游玩列表“{0}”与当前的 Sonolus 版本不兼容。\n\n请尝试使用其它的游玩列表，或联系服务器运营并汇报这个问题。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载游玩列表缩略图...",
+          "Error": "加载“{0}”的游玩列表缩略图失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "正在加载关卡信息...",
+          "Error": "加载“{0}”的关卡信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
         "List": {
           "Loading": "正在加载关卡…",
-          "Error": "加载关卡第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+          "Error": "加载第 {0} 页的关卡失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         },
         "Details": {
           "Loading": "正在加载关卡详情…",
@@ -509,9 +704,13 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "正在加载皮肤信息...",
+          "Error": "加载“{0}”的皮肤信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
         "List": {
           "Loading": "正在加载皮肤…",
-          "Error": "加载皮肤第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+          "Error": "加载第 {0} 页的皮肤失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         },
         "Details": {
           "Loading": "正在加载皮肤详情…",
@@ -535,9 +734,13 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "正在加载背景信息...",
+          "Error": "加载“{0}”的背景信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
         "List": {
           "Loading": "正在加载背景…",
-          "Error": "加载背景第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+          "Error": "加载第 {0} 页的背景失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         },
         "Details": {
           "Loading": "正在加载背景详情…",
@@ -565,9 +768,13 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "正在加载音效信息...",
+          "Error": "加载“{0}”的音效信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
         "List": {
           "Loading": "正在加载音效…",
-          "Error": "加载音效第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+          "Error": "加载第 {0} 页的音效失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         },
         "Details": {
           "Loading": "正在加载音效详情…",
@@ -591,9 +798,13 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "正在加载粒子效果信息...",
+          "Error": "加载“{0}”的粒子效果信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
         "List": {
           "Loading": "正在加载粒子效果…",
-          "Error": "加载粒子效果第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+          "Error": "加载第 {0} 页的粒子效果失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         },
         "Details": {
           "Loading": "正在加载粒子效果详情…",
@@ -617,9 +828,13 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "正在加载引擎信息...",
+          "Error": "加载“{0}”的引擎信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
         "List": {
           "Loading": "正在加载引擎…",
-          "Error": "加载引擎第 {0} 页失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+          "Error": "加载第 {0} 页的引擎失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         },
         "Details": {
           "Loading": "正在加载引擎详情…",
@@ -657,6 +872,62 @@
           "Loading": "正在加载引擎配置…",
           "Error": "加载引擎“{0}”配置失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "正在加载回放信息...",
+          "Error": "加载“{0}”的回放信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "List": {
+          "Loading": "正在加载回放...",
+          "Error": "加载第 {0} 页的回放失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载回放详情...",
+          "Error": "加载“{0}”的回放详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查回放兼容性...",
+          "Error": "回放“{0}”与当前 Sonolus 版本不兼容。\n\n请尝试播放其它的回放，或联系服务器运营并汇报这个问题。"
+        },
+        "Data": {
+          "Loading": "正在加载回放数据...",
+          "Error": "加载“{0}”的回放数据失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Configuration": {
+          "Loading": "正在加载回放配置...",
+          "Error": "加载“{0}”的回放配置失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "正在加载房间信息...",
+          "Error": "加载“{0}”的房间信息失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "List": {
+          "Loading": "正在加载房间...",
+          "Error": "加载第 {0} 页的房间失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Details": {
+          "Loading": "正在加载房间详情...",
+          "Error": "加载“{0}”的房间详情失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查房间兼容性...",
+          "Error": "房间“{0}”与当前 Sonolus 版本不兼容。\n\n请尝试加入其它房间，或联系服务器运营并汇报这个问题。"
+        },
+        "Cover": {
+          "Loading": "正在加载房间关卡封面...",
+          "Error": "加载“{0}”的房间关卡封面失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Bgm": {
+          "Loading": "正在加载房间关卡 BGM...",
+          "Error": "加载“{0}”的房间关卡 BGM 失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Preview": {
+          "Loading": "正在加载房间关卡预览...",
+          "Error": "加载“{0}”的房间关卡预览失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        }
       }
     },
     "Collection": {
@@ -670,10 +941,58 @@
           "Error": "加载收藏“{0}”横幅失败。\n\n您的收藏可能已损坏。"
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "正在加载帖子信息...",
+          "Error": "加载“{0}”的皮肤信息失败。\n\n您的收藏可能已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载帖子...",
+          "Error": "加载第 {0} 页的帖子失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载帖子详情...",
+          "Error": "加载“{0}”的帖子详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查帖子兼容性...",
+          "Error": "帖子“{0}”与当前的 Sonolus 版本不兼容。\n\n请更新这个帖子，或使用另一个帖子。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载帖子缩略图...",
+          "Error": "加载“{0}”的帖子缩略图失败。\n\n请更新这个帖子，或使用另一个帖子。"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "正在加载游玩列表信息...",
+          "Error": "加载“{0}”的游玩列表信息失败。\n\n您的收藏可能已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载游玩列表...",
+          "Error": "加载第 {0} 页的游玩列表失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载游玩列表详情...",
+          "Error": "加载“{0}”的游玩列表详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查游玩列表兼容性...",
+          "Error": "游玩列表“{0}”与当前的 Sonolus 版本不兼容。\n\n请更新这个游玩列表，或使用另一个游玩列表。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载游玩列表缩略图...",
+          "Error": "加载“{0}”的游玩列表缩略图失败。\n\n请更新这个游玩列表，或使用另一个游玩列表。"
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "正在加载关卡信息...",
+          "Error": "加载“{0}”的关卡信息失败。\n\n您的收藏可能已损坏。"
+        },
         "List": {
           "Loading": "正在加载关卡…",
-          "Error": "加载关卡第 {0} 页失败。\n\n您的收藏可能已损坏。"
+          "Error": "加载第 {0} 页的关卡失败。\n\n您的收藏可能已损坏。"
         },
         "Details": {
           "Loading": "正在加载关卡详情…",
@@ -701,9 +1020,13 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "正在加载皮肤信息...",
+          "Error": "加载“{0}”的皮肤信息失败。\n\n您的收藏可能已损坏。"
+        },
         "List": {
           "Loading": "正在加载皮肤…",
-          "Error": "加载皮肤第 {0} 页失败。\n\n您的收藏可能已损坏。"
+          "Error": "加载第 {0} 页的皮肤失败。\n\n您的收藏可能已损坏。"
         },
         "Details": {
           "Loading": "正在加载皮肤详情…",
@@ -727,9 +1050,13 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "正在加载背景信息...",
+          "Error": "加载“{0}”的背景信息失败。\n\n您的收藏可能已损坏。"
+        },
         "List": {
           "Loading": "正在加载背景…",
-          "Error": "加载背景第 {0} 页失败。\n\n您的收藏可能已损坏。"
+          "Error": "加载第 {0} 页的背景失败。\n\n您的收藏可能已损坏。"
         },
         "Details": {
           "Loading": "正在加载背景详情…",
@@ -757,9 +1084,13 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "正在加载音效信息...",
+          "Error": "加载“{0}”的音效信息失败。\n\n您的收藏可能已损坏。"
+        },
         "List": {
           "Loading": "正在加载音效…",
-          "Error": "加载音效第 {0} 页失败。\n\n您的收藏可能已损坏。"
+          "Error": "加载第 {0} 页的音效失败。\n\n您的收藏可能已损坏。"
         },
         "Details": {
           "Loading": "正在加载音效详情…",
@@ -783,9 +1114,13 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "正在加载粒子效果信息...",
+          "Error": "加载“{0}”的粒子效果信息失败。\n\n您的收藏可能已损坏。"
+        },
         "List": {
           "Loading": "正在加载粒子效果…",
-          "Error": "加载粒子效果第 {0} 页失败。\n\n您的收藏可能已损坏。"
+          "Error": "加载第 {0} 页的粒子效果失败。\n\n您的收藏可能已损坏。"
         },
         "Details": {
           "Loading": "正在加载粒子效果详情…",
@@ -809,9 +1144,13 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "正在加载引擎信息...",
+          "Error": "加载“{0}”的引擎信息失败。\n\n您的收藏可能已损坏。"
+        },
         "List": {
           "Loading": "正在加载引擎…",
-          "Error": "加载引擎第 {0} 页失败。\n\n您的收藏可能已损坏。"
+          "Error": "加载第 {0} 页的引擎失败。\n\n您的收藏可能已损坏。"
         },
         "Details": {
           "Loading": "正在加载引擎详情…",
@@ -849,9 +1188,69 @@
           "Loading": "正在加载引擎配置…",
           "Error": "加载引擎“{0}”配置失败。\n\n请更新这个引擎，或使用另一个引擎。"
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "正在加载回放信息...",
+          "Error": "加载“{0}”的回放信息失败。\n\n您的收藏可能已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载回放...",
+          "Error": "加载第 {0} 页的回放失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载回放详情...",
+          "Error": "加载“{0}”的回放详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查回放兼容性...",
+          "Error": "回放“{0}”与当前 Sonolus 版本不兼容。\n\n请更新这个回放，或观看另一个回放。"
+        },
+        "Data": {
+          "Loading": "正在加载回放数据...",
+          "Error": "加载“{0}”的回放数据失败。\n\n请更新这个回放，或观看另一个回放。"
+        },
+        "Configuration": {
+          "Loading": "正在加载回放配置...",
+          "Error": "加载“{0}”的回放配置失败。\n\n请更新这个回放，或观看另一个回放。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "正在加载房间信息...",
+          "Error": "加载“{0}”的房间信息失败。\n\n您的收藏可能已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载房间...",
+          "Error": "加载第 {0} 页的房间失败。\n\n您的收藏可能已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载房间详情...",
+          "Error": "加载“{0}”的房间详情失败。\n\n您的收藏可能已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查房间兼容性...",
+          "Error": "房间“{0}”与当前的 Sonolus 版本不兼容。\n\n请更新这个房间，或使用另一个房间。"
+        },
+        "Cover": {
+          "Loading": "正在加载房间关卡封面...",
+          "Error": "加载“{0}”的房间关卡封面失败。\n\n请更新这个房间，或使用另一个房间。"
+        },
+        "Bgm": {
+          "Loading": "正在加载房间关卡 BGM...",
+          "Error": "加载“{0}”的房间关卡 BGM 失败。\n\n请更新这个房间，或使用另一个房间。"
+        },
+        "Preview": {
+          "Loading": "正在加载房间关卡预览...",
+          "Error": "加载“{0}”的房间关卡预览失败。\n\n请更新这个房间，或使用另一个房间。"
+        }
       }
     },
     "Scp": {
+      "PackageInfo": {
+        "Loading": "正在加载收藏包信息...",
+        "Error": "加载收藏包“{0}”信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+      },
       "Server": {
         "Info": {
           "Loading": "正在加载收藏包信息…",
@@ -862,10 +1261,58 @@
           "Error": "加载收藏包“{0}”横幅失败。\n\n您的收藏包可能不受支持或已损坏。"
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "正在加载帖子信息...",
+          "Error": "加载“{0}”的帖子信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载帖子...",
+          "Error": "加载第 {0} 页的帖子失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载帖子详情...",
+          "Error": "加载“{0}”的帖子详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查帖子兼容性...",
+          "Error": "帖子“{0}”与当前的 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载帖子缩略图...",
+          "Error": "加载“{0}”的帖子缩略图失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "正在加载游玩列表信息...",
+          "Error": "加载“{0}”的游玩列表信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载播放列表...",
+          "Error": "加载第 {0} 页的游玩列表失败。\n\n您的软件包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载游玩列表详情...",
+          "Error": "加载“{0}”的游玩列表详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查游玩列表兼容性...",
+          "Error": "游玩列表“{0}”与当前的 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加载游玩列表缩略图...",
+          "Error": "加载“{0}”的游玩列表缩略图失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "正在加载关卡信息...",
+          "Error": "加载“{0}”的关卡信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
         "List": {
           "Loading": "正在加载关卡…",
-          "Error": "加载关卡第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+          "Error": "加载第 {0} 页的关卡失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
         "Details": {
           "Loading": "正在加载关卡详情…",
@@ -893,9 +1340,13 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "正在加载皮肤信息...",
+          "Error": "加载“{0}”的皮肤信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
         "List": {
           "Loading": "正在加载皮肤…",
-          "Error": "加载皮肤第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+          "Error": "加载第 {0} 页的皮肤失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
         "Details": {
           "Loading": "正在加载皮肤详情…",
@@ -919,9 +1370,13 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "正在加载背景信息...",
+          "Error": "加载“{0}”的背景信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
         "List": {
           "Loading": "正在加载背景…",
-          "Error": "加载背景第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+          "Error": "加载第 {0} 页的背景失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
         "Details": {
           "Loading": "正在加载背景详情…",
@@ -949,9 +1404,13 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "正在加载音效信息...",
+          "Error": "加载“{0}”的音效信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
         "List": {
           "Loading": "正在加载音效…",
-          "Error": "加载音效第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+          "Error": "加载第 {0} 页的音效失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
         "Details": {
           "Loading": "正在加载音效详情…",
@@ -975,9 +1434,13 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "正在加载粒子效果信息...",
+          "Error": "加载“{0}”的粒子效果信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
         "List": {
           "Loading": "正在加载粒子效果…",
-          "Error": "加载粒子效果第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+          "Error": "加载第 {0} 页的粒子效果失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
         "Details": {
           "Loading": "正在加载粒子效果详情…",
@@ -1001,9 +1464,13 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "正在加载引擎信息...",
+          "Error": "加载“{0}”的引擎信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
         "List": {
           "Loading": "正在加载引擎…",
-          "Error": "加载引擎第 {0} 页失败。\n\n您的收藏包可能不受支持或已损坏。"
+          "Error": "加载第 {0} 页的引擎失败。\n\n您的收藏包可能不受支持或已损坏。"
         },
         "Details": {
           "Loading": "正在加载引擎详情…",
@@ -1041,7 +1508,71 @@
           "Loading": "正在加载引擎配置…",
           "Error": "加载引擎“{0}”配置失败。\n\n您的收藏包可能不受支持或已损坏。"
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "正在加载回放信息...",
+          "Error": "加载“{0}”的回放信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载回放...",
+          "Error": "加载第 {0} 页的回放失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载回放详情...",
+          "Error": "加载“{0}”的回放详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查回放兼容性...",
+          "Error": "回放“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Data": {
+          "Loading": "正在加载回放数据...",
+          "Error": "加载“{0}”的回放数据失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Configuration": {
+          "Loading": "正在加载回放配置...",
+          "Error": "加载“{0}”的回放配置失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "正在加载房间信息...",
+          "Error": "加载“{0}”的房间信息失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "List": {
+          "Loading": "正在加载房间...",
+          "Error": "加载第 {0} 页的房间失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Details": {
+          "Loading": "正在加载房间详情...",
+          "Error": "加载“{0}”的房间详情失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Compatibility": {
+          "Loading": "正在检查房间兼容性...",
+          "Error": "房间“{0}”与当前 Sonolus 版本不兼容。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Cover": {
+          "Loading": "正在加载房间关卡封面...",
+          "Error": "加载“{0}”的房间关卡封面失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Bgm": {
+          "Loading": "正在加载关卡 BGM……",
+          "Error": "加载“{0}”的房间关卡 BGM 失败。\n\n您的收藏包可能不受支持或已损坏。"
+        },
+        "Preview": {
+          "Loading": "正在加载房间关卡预览...",
+          "Error": "加载“{0}”的房间关卡预览失败。\n\n您的收藏包可能不受支持或已损坏。"
+        }
       }
+    },
+    "Multiplayer": {
+      "Connect": {
+        "Loading": "正在连接...",
+        "Error": "连接到房间“{0}”失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+      },
+      "Disconnected": "您已与多人游戏房间断开连接。",
+      "Error": "多人游戏房间发生致命错误。\n\n请联系服务器运营并汇报这个问题。"
     }
   },
   "DeepLink": {
@@ -1057,6 +1588,21 @@
     "Back": "后退"
   },
   "Routes": {
+    "ExternalLogin": {
+      "NotLoggedInError": {
+        "Description": "您尚未使用 Sonolus 帐户登录。\n\n请先使用您的 Sonolus 帐户登录，然后重试。"
+      },
+      "Confirmation": {
+        "Description": "您正在登录第三方服务：\n{0}\n\n以“{1}”身份登录？"
+      },
+      "Login": {
+        "Loading": "登录中...",
+        "Error": "登录第三方服务“{0}”失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+      },
+      "Success": {
+        "Title": "已登录"
+      }
+    },
     "JumpToPage": {
       "Title": "跳至页码",
       "Page": {
@@ -1095,6 +1641,14 @@
         "Description": "选择一个自定义服务器或收藏来开始游玩。"
       },
       "ToSave": {
+        "Post": {
+          "Title": "保存帖子",
+          "Description": "选择一个收藏来保存这个帖子。"
+        },
+        "Playlist": {
+          "Title": "保存游玩列表",
+          "Description": "选择一个收藏来保存这个游玩列表。"
+        },
         "Level": {
           "Title": "保存关卡",
           "Description": "选择一个收藏来保存这个关卡。"
@@ -1118,9 +1672,67 @@
         "Engine": {
           "Title": "保存引擎",
           "Description": "选择一个收藏来保存这个引擎。"
+        },
+        "Replay": {
+          "Title": "保存回放",
+          "Description": "选择一个收藏来保存该回放。"
+        },
+        "Room": {
+          "Title": "保存房间",
+          "Description": "选择一个收藏来保存这个房间。"
+        }
+      },
+      "ToCreate": {
+        "Post": {
+          "Title": "创建帖子",
+          "Description": "选择一个收藏来创建这个帖子。"
+        },
+        "Playlist": {
+          "Title": "创建游玩列表",
+          "Description": "选择一个收藏来创建这个游玩列表。"
+        },
+        "Level": {
+          "Title": "创建关卡",
+          "Description": "选择一个收藏来创建这个关卡。"
+        },
+        "Skin": {
+          "Title": "创建皮肤",
+          "Description": "选择一个收藏来创建这个皮肤。"
+        },
+        "Background": {
+          "Title": "创建背景",
+          "Description": "选择一个收藏来创建这个背景。"
+        },
+        "Effect": {
+          "Title": "创建特效",
+          "Description": "选择一个收藏来创建这个特效。"
+        },
+        "Particle": {
+          "Title": "创建粒子效果",
+          "Description": "选择一个收藏来创建这个粒子效果。"
+        },
+        "Engine": {
+          "Title": "创建引擎",
+          "Description": "选择一个收藏来创建这个引擎。"
+        },
+        "Replay": {
+          "Title": "创建回放",
+          "Description": "选择一个收藏来创建这个收藏。"
+        },
+        "Room": {
+          "Title": "创建房间",
+          "Description": "选择一个收藏来创建这个房间。"
         }
       },
       "ToUse": {
+        "Post": {
+          "Title": "选择帖子",
+          "Description": "选择一个自定义服务器或收藏来使用这个帖子。"
+        },
+        "Playlist": {
+          "Title": "选择游玩列表",
+          "Description": "选择一个自定义服务器或收藏来使用这个游玩列表。"
+        },
         "Level": {
           "Title": "选择关卡",
           "Description": "选择一个自定义服务器或收藏来使用其中的关卡。"
@@ -1144,9 +1756,25 @@
         "Engine": {
           "Title": "选择引擎",
           "Description": "选择一个自定义服务器或收藏来使用其中的引擎。"
+        },
+        "Replay": {
+          "Title": "选择回放",
+          "Description": "选择一个自定义服务器或收藏来使用这个回放。"
+        },
+        "Room": {
+          "Title": "选择房间",
+          "Description": "选择一个自定义服务器或收藏来使用这个房间。"
         }
       },
       "ToAddFavorite": {
+        "Post": {
+          "Title": "添加最喜欢的帖子",
+          "Description": "选择一个自定义服务器来将这个帖子添加到最爱。"
+        },
+        "Playlist": {
+          "Title": "添加最喜欢的游玩列表",
+          "Description": "选择一个自定义服务器来将这个游玩列表添加到最爱。"
+        },
         "Level": {
           "Title": "添加最爱关卡",
           "Description": "选择一个自定义服务器来添加其中的关卡到最爱。"
@@ -1170,6 +1798,14 @@
         "Engine": {
           "Title": "添加最爱引擎",
           "Description": "选择一个自定义服务器来添加其中的引擎到最爱。"
+        },
+        "Replay": {
+          "Title": "添加最爱回放",
+          "Description": "选择一个自定义服务器来添加其中的回放到最爱。"
+        },
+        "Room": {
+          "Title": "添加最爱房间",
+          "Description": "选择一个自定义服务器来添加其中的房间到最爱。"
         }
       }
     },
@@ -1210,6 +1846,18 @@
       },
       "Success": {
         "Title": "收藏包已导入"
+      }
+    },
+    "ExportScpConfiguration": {
+      "Title": "导出配置",
+      "Mode": {
+        "Title": "模式",
+        "Description": "推荐使用标准模式。\n\n带有资源链接的项目可以将源链接导出，从而极大减小导出的收藏包体积，但导入时需要连接互联网。\n标准模式导出时，带有资源链接的项目导出为链接，而没有资源链接的项目导出为完整的资源文件。仅资源链接模式仅导出有资源链接的项目。完整模式将所有文件导出为完整的资源文件。",
+        "Options": {
+          "Standard": "标准",
+          "SourceOnly": "仅资源链接",
+          "Full": "完整"
+        }
       }
     },
     "ExportScp": {
@@ -1375,22 +2023,33 @@
       "AddFavorite": {
         "Title": "添加最爱",
         "Description": "选择要添加的最爱类型：",
+        "Post": "帖子",
+        "Playlist": "游玩列表",
         "Level": "关卡",
         "Skin": "皮肤",
         "Background": "背景",
         "Effect": "音效",
         "Particle": "粒子效果",
-        "Engine": "引擎"
+        "Engine": "引擎",
+        "Replay": "回放",
+        "Room": "房间"
       }
     },
     "Server": {
       "Home": {
-        "Levels": "关卡",
-        "Skins": "皮肤",
-        "Backgrounds": "背景",
-        "Effects": "音效",
-        "Particles": "粒子效果",
-        "Engines": "引擎",
+        "Login": "登录",
+        "Logout": "登出",
+        "Multiplayer": "多人游戏",
+        "Post": "帖子",
+        "Playlist": "游玩列表",
+        "Level": "关卡",
+        "Skin": "皮肤",
+        "Background": "背景",
+        "Effect": "音效",
+        "Particle": "粒子效果",
+        "Engine": "引擎",
+        "Replay": "回放",
+        "Room": "房间",
         "SaveSuccess": {
           "Title": "服务器已保存"
         },
@@ -1401,10 +2060,64 @@
       "Search": {
         "Title": "搜索"
       },
+      "Infos": {
+        "More": "更多",
+        "Advanced": "高级",
+        "Post": {
+          "Title": "帖子"
+        },
+        "Playlist": {
+          "Title": "游玩列表"
+        },
+        "Level": {
+          "Title": "关卡"
+        },
+        "Skin": {
+          "Title": "皮肤"
+        },
+        "Background": {
+          "Title": "背景"
+        },
+        "Effect": {
+          "Title": "音效"
+        },
+        "Particle": {
+          "Title": "粒子效果"
+        },
+        "Engine": {
+          "Title": "引擎"
+        },
+        "Replay": {
+          "Title": "回放"
+        },
+        "Room": {
+          "Title": "房间",
+          "Create": "创建",
+          "CreateRoom": {
+            "Title": "创建房间",
+            "Description": "创建房间“{0}”，您可以通过分享房间链接邀请其他人一起玩。",
+            "ShareSuccess": {
+              "Title": "房间链接已复制"
+            }
+          }
+        }
+      },
       "Lists": {
         "SearchOption": "{0}：{1}",
         "DeleteConfirmation": {
           "Description": "您确定要删除“{0}”吗？"
+        },
+        "Post": {
+          "Title": "帖子",
+          "ShareSuccess": {
+            "Title": "帖子链接已复制"
+          }
+        },
+        "Playlist": {
+          "Title": "游玩列表",
+          "ShareSuccess": {
+            "Title": "游玩列表链接已复制"
+          }
         },
         "Level": {
           "Title": "关卡",
@@ -1441,6 +2154,18 @@
           "ShareSuccess": {
             "Title": "引擎链接已复制"
           }
+        },
+        "Replay": {
+          "Title": "回放",
+          "ShareSuccess": {
+            "Title": "回放链接已复制"
+          }
+        },
+        "Room": {
+          "Title": "房间",
+          "ShareSuccess": {
+            "Title": "房间链接已复制"
+          }
         }
       },
       "Details": {
@@ -1450,11 +2175,27 @@
         "DeleteConfirmation": {
           "Description": "您确定要删除“{0}”吗？"
         },
+        "Tags": {
+          "Title": "标签"
+        },
         "Description": {
           "Title": "描述"
         },
-        "Recommended": {
-          "Title": "推荐"
+        "Post": {
+          "ShareSuccess": {
+            "Title": "帖子链接已复制"
+          }
+        },
+        "Playlist": {
+          "Actions": {
+            "Play": "游玩"
+          },
+          "ShareSuccess": {
+            "Title": "游玩列表链接已复制"
+          },
+          "Levels": {
+            "Title": "关卡"
+          }
         },
         "Level": {
           "Actions": {
@@ -1563,9 +2304,46 @@
           "ShareSuccess": {
             "Title": "引擎链接已复制"
           }
+        },
+        "Replay": {
+          "Actions": {
+            "Watch": "观看"
+          },
+          "Watch": {
+            "Effect": {
+              "Audio": {
+                "Loading": "正在解码音效音频...",
+                "Error": "解码“{0}”的音效音频失败。\n\n请联系音效作者报告问题。"
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "正在解码关卡 BGM...",
+                "Error": "解码“{0}”的关卡 BGM 失败。\n\n请联系关卡作者报告问题。"
+              }
+            },
+            "Boot": {
+              "Loading": "正在启动回放...",
+              "Error": "启动回放“{0}”失败。\n\n请联系回放作者报告问题。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "回放链接已复制"
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+            "Title": "房间链接已复制"
+          }
         }
       },
       "Configurations": {
+        "Post": {
+          "Title": "帖子配置"
+        },
+        "Playlist": {
+          "Title": "游玩列表配置"
+        },
         "Level": {
           "Title": "关卡配置",
           "Offsets": {
@@ -1682,9 +2460,25 @@
               "Description": "推荐设置为 0。\n\n针对此引擎的输入偏移量，只有在您游玩该引擎时遇到困难时才应使用。如果您的输入判定得太晚就调大，否则就调小。"
             }
           }
+        },
+        "Replay": {
+          "Title": "回放配置"
+        },
+        "Room": {
+          "Title": "房间配置"
         }
       },
       "Savers": {
+        "Post": {
+          "Success": {
+            "Title": "帖子已保存"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "游玩列表已保存"
+          }
+        },
         "Level": {
           "Success": {
             "Title": "关卡已保存"
@@ -1713,6 +2507,322 @@
         "Engine": {
           "Success": {
             "Title": "引擎已保存"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "回放已保存"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "房间已保存"
+          }
+        }
+      },
+      "Updaters": {
+        "Post": {
+          "Success": {
+            "Title": "帖子已更新"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "游玩列表已更新"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "关卡已更新"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "皮肤已更新"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景已更新"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "音效已更新"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "粒子效果更新"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "引擎已更新"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "回放已更新"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "房间已更新"
+          }
+        }
+      },
+      "CreateInfos": {
+        "Post": {
+          "Title": "帖子信息"
+        },
+        "Playlist": {
+          "Title": "游玩列表信息"
+        },
+        "Level": {
+          "Title": "关卡信息"
+        },
+        "Skin": {
+          "Title": "皮肤信息"
+        },
+        "Background": {
+          "Title": "背景信息"
+        },
+        "Effect": {
+          "Title": "音效信息"
+        },
+        "Particle": {
+          "Title": "粒子效果信息"
+        },
+        "Engine": {
+          "Title": "引擎信息"
+        },
+        "Replay": {
+          "Title": "回放信息",
+          "Info": {
+            "Title": {
+              "Title": "标题",
+              "Description": "回放标题",
+              "Placeholder": "输入回放标题..."
+            },
+            "Subtitle": {
+              "Title": "子标题",
+              "Description": "回放子标题",
+              "Placeholder": "输入回放子标题..."
+            },
+            "Description": {
+              "Title": "描述",
+              "Description": "回放描述",
+              "Placeholder": "输入回放描述..."
+            }
+          }
+        },
+        "Room": {
+          "Title": "房间信息"
+        }
+      },
+      "Creators": {
+        "Post": {
+          "Success": {
+            "Title": "帖子已创建"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "游玩列表已创建"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "关卡已创建"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "皮肤已创建"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "背景已创建"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "音效已创建"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "粒子效果已创建"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "引擎已创建"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "回放已创建"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "房间已创建"
+          }
+        }
+      },
+      "Multiplayer": {
+        "Connecting": "正在连接...",
+        "Reconnecting": "正在重新连接...",
+        "ExitConfirmation": {
+          "Description": "您确定要离开房间吗？"
+        },
+        "Play": {
+          "NoLevel": "未选择关卡",
+          "Options": {
+            "Title": "选项",
+            "NoLevel": "未选择关卡。"
+          },
+          "Selecting": {
+            "Title": "正在选择",
+            "Description": {
+              "Lead": "您正在选择...",
+              "Other": "{0} 正在选择...",
+              "Room": "房间正在选择..."
+            },
+            "Actions": {
+              "Select": "选择",
+              "NoSource": "无法选择此关卡，因为它没有源服务器。\n\n请使用另一个关卡，或联系关卡作者来报告问题。",
+              "NoOtherServers": "无法选择此关卡，因为房间不允许来自其它服务器的关卡。\n\n请使用另一个关卡。"
+            }
+          },
+          "Preparing": {
+            "Title": {
+              "Preparing": "准备中",
+              "Ready": "准备",
+              "Skipped": "跳过"
+            },
+            "Description": "{0} 正在准备，{1} 已准备好，{2} 已跳过...",
+            "Actions": {
+              "Configuration": "配置",
+              "Ready": "准备",
+              "Skip": "跳过",
+              "Start": {
+                "Title": "开始",
+                "Confirmation": {
+                  "Description": "您确定要开始吗？\n\n仍在准备的玩家将会被强制跳过。"
+                }
+              }
+            }
+          },
+          "Playing": {
+            "Title": "正在游玩",
+            "Description": "{0} 正在加载，{1} 正在游玩...",
+            "Actions": {
+              "Finish": {
+                "Title": "结束",
+                "Confirmation": {
+                  "Description": "你确定要完成吗？\n\n仍在游玩的玩家将丢失成绩。"
+                }
+              }
+            }
+          }
+        },
+        "Chat": {
+          "Title": "聊天",
+          "Overlay": {
+            "Room": "房间：{0}",
+            "User": "{0}：{1}",
+            "Level": "关卡已变更。"
+          },
+          "Text": {
+            "Placeholder": "输入消息..."
+          },
+          "Quick": {
+            "Hello": {
+              "Title": "你好",
+              "Text": "你好！"
+            },
+            "Glhf": {
+              "Title": "玩得开心",
+              "Text": "祝你好运，玩得开心！"
+            },
+            "Gg": {
+              "Title": "GG",
+              "Text": "玩得不错！"
+            },
+            "Ns": {
+              "Title": "不错",
+              "Text": "不错的分数！"
+            },
+            "Ty": {
+              "Title": "感谢",
+              "Text": "谢谢你！"
+            }
+          },
+          "System": {
+            "Selecting": "正在选择...",
+            "Preparing": "正在准备...",
+            "Playing": "正在游玩...",
+            "Master": "房主变更为 {0}。",
+            "Lead": "房间负责人变更为 {0}。",
+            "Options": "房间选项已变更。",
+            "Level": "关卡变更为 {0}。",
+            "LevelOptions": "关卡选项已变更。",
+            "AutoExit": "自动退出已变更。",
+            "Connected": {
+              "Self": "已连接。",
+              "Other": "{0} 已连接。"
+            },
+            "Disconnected": "{0} 已断开连接。"
+          }
+        },
+        "Suggestions": {
+          "Title": "建议",
+          "Actions": {
+            "Lock": "锁定",
+            "Unlock": "解锁",
+            "Clear": "清除",
+            "NoSource": "无法建议使用此关卡，因为它没有源服务器。\n\n请使用另一个关卡，或联系关卡作者报告此问题。",
+            "NoOtherServers": "无法建议使用此关卡，因为该房间不允许来自其他服务器的关卡。\n\n请使用另一个关卡。"
+          }
+        },
+        "Scoreboard": {
+          "Title": "计分板",
+          "Actions": {
+            "Reset": {
+              "Title": "重置",
+              "Confirmation": {
+                "Description": "您确定要重置计分板吗？"
+              }
+            }
+          },
+          "Result": {
+            "Title": "结果"
+          }
+        },
+        "Room": {
+          "EditOptions": "编辑房间选项",
+          "Players": {
+            "Title": "玩家",
+            "UpdateMasterConfirmation": {
+              "Description": "您确定将房主变更为 {0} 吗？"
+            },
+            "UpdateLeadConfirmation": {
+              "Description": "您确定将房间负责人变更为 {0} 吗？"
+            },
+            "KickConfirmation": {
+              "Description": "您确定要踢出 {0} 吗？"
+            },
+            "AddedToBlacklistSuccess": "玩家被阻止",
+            "RemovedFromBlacklistSuccess": "玩家被解禁",
+            "Report": {
+              "Title": "举报玩家",
+              "Description": "举报玩家 {0}：",
+              "Success": "玩家已举报"
+            }
           }
         }
       }
@@ -1778,9 +2888,9 @@
           "Title": "预览音乐",
           "Description": "播放预览 BGM 的地方。",
           "Options": {
-            "Off": "关",
-            "DetailsOnly": "仅在详情",
-            "ListAndDetails": "列表与详情"
+            "List": "列表",
+            "Details": "详情",
+            "Multiplayer": "多人游戏"
           }
         },
         "LevelBgmQuality": {
@@ -1804,15 +2914,36 @@
       },
       "Gameplay": {
         "Title": "游玩",
-        "AutoExit": {
-          "Title": "自动退出",
-          "Description": "到达一定评级后自动退出游戏。",
-          "Options": {
-            "Off": "关",
-            "Fail": "Fail",
-            "Pass": "Pass",
-            "FullCombo": "Full Combo"
-          }
+        "UnpauseDelay": {
+          "Title": "取消暂停延迟",
+          "Description": "取消暂停时的倒计时。"
+        },
+        "MultiplayerPreload": {
+          "Title": "多人游戏预加载",
+          "Description": "建议开启。\n\n在多人游戏中，一旦确认关卡就开始预加载，以提高加载速度。"
+        },
+        "ReplayTitleTemplate": {
+          "Title": "回放标题模板",
+          "Description": "创建回放时的标题模板。\n\n有特殊参数可用，它们将被替换为相应的值。",
+          "Placeholder": "输入标题模板..."
+        },
+        "ReplaySubtitleTemplate": {
+          "Title": "回放子标题模板",
+          "Description": "创建回放时的子标题模板。\n\n有特殊参数可用，它们将被替换为相应的值。",
+          "Placeholder": "输入子标题模板..."
+        },
+        "ReplayDescriptionTemplate": {
+          "Title": "回放描述模板",
+          "Description": "创建回放时的描述模板。\n\n有特殊参数可用，它们将被替换为相应的值。",
+          "Placeholder": "输入描述模板..."
+        },
+        "ShowReplayTouches": {
+          "Title": "显示回放触摸点",
+          "Description": "观看回放时显示触摸点。"
+        },
+        "OverwriteReplayOptions": {
+          "Title": "覆盖回放选项",
+          "Description": "观看回放时用您自己的选项覆盖回放内的选项。"
         }
       },
       "UI": {
@@ -1832,10 +2963,6 @@
         "Scale": {
           "Title": "用户界面比例",
           "Description": "使用的 UI 比例。如果您阅读时有困难，则增加；如果您想要在屏幕上一次性显示更多内容，则减少。"
-        },
-        "UnpauseDelay": {
-          "Title": "暂停恢复延迟",
-          "Description": "取消暂停时的倒计时。"
         },
         "PerfectJudgmentColors": {
           "Title": "Perfect 判定颜色",
@@ -1884,6 +3011,10 @@
         "ShowZeroCombo": {
           "Title": "显示零连击",
           "Description": "当连击为 0 时显示连击数字。"
+        },
+        "TouchStyle": {
+          "Title": "触摸点样式",
+          "Description": "触摸指示器的样式。"
         }
       },
       "Offsets": {
@@ -1927,10 +3058,6 @@
         "ShowTouches": {
           "Title": "显示触摸",
           "Description": "显示触摸指示器。触摸指示器对于视频录制时显示输入触点非常有用。"
-        },
-        "TouchStyle": {
-          "Title": "触摸样式",
-          "Description": "触摸指示器的样式。"
         },
         "DebugMode": {
           "Title": "调试模式",
@@ -2016,76 +3143,66 @@
     }
   },
   "Runtimes": {
+    "Pause": {
+      "Title": "暂停",
+      "Debug": {
+        "Title": "调试"
+      }
+    },
+    "Control": {
+      "Title": "控制",
+      "Exit": "退出",
+      "Restart": "重新开始"
+    },
     "Level": {
       "Play": {
         "Routes": {
+          "Playlist": {
+            "Title": "游玩列表",
+            "Previous": "上一页",
+            "Next": "下一页"
+          },
           "Pause": {
-            "Title": "暂停",
-            "Control": {
-              "Title": "控制",
-              "Exit": "退出",
-              "Restart": "重新开始"
-            },
             "Snapshot": {
               "Title": "快照",
               "Mark": "标记",
               "Jump": "跳至"
-            },
-            "Debug": {
-              "Title": "调试"
             }
           },
           "Result": {
-            "Title": "结果",
             "Options": {
               "HasUsedPause": "暂停",
               "HasUsedSnapshot": "快照"
             },
-            "Graphs": {
-              "Title": "图表",
-              "Judgment": {
-                "Title": "判定图"
+            "Replay": {
+              "Title": "回放",
+              "Description": {
+                "Normal": "您的游玩过程已被录制，单击“创建”按钮即可创建回放。",
+                "HasUsedPause": "由于使用了暂停，因此无法创建回放。",
+                "HasUsedSnapshot": "由于使用了快照，因此无法创建回放。"
               },
-              "Accuracy": {
-                "Title": "准度图",
-                "AbsValue": "绝对值",
-                "Mean": "平均值",
-                "StDev": "标准差",
-                "Min": "最小值",
-                "Max": "最大值"
-              },
-              "Bucket": {
-                "Title": "分类图"
-              }
+              "Create": "创建"
             }
           }
         }
       },
-      "Watch": {
-        "Routes": {
-          "Pause": {
-            "Title": "暂停",
-            "Control": {
-              "Title": "控制",
-              "Exit": "退出"
-            },
-            "Debug": {
-              "Title": "调试"
-            }
-          }
-        }
-      },
-      "Preview": {
-        "Routes": {
-          "Pause": {
-            "Title": "暂停",
-            "Control": {
-              "Title": "控制",
-              "Exit": "退出"
-            },
-            "Debug": {
-              "Title": "调试"
-            }
+      "Result": {
+        "Title": "结果",
+        "Graphs": {
+          "Title": "图表",
+          "Judgment": {
+            "Title": "判定图表"
+          },
+          "Accuracy": {
+            "Title": "准确度图表",
+            "AbsValue": "绝对值",
+            "Mean": "平均值",
+            "StDev": "标准差",
+            "Min": "最小值",
+            "Max": "最大值"
+          },
+          "Bucket": {
+            "Title": "统计图表"
           }
         }
       }
@@ -2095,22 +3212,6 @@
         "Routes": {
           "Preview": {
             "Play": "播放"
-          }
-        }
-      }
-    },
-    "Engine": {
-      "Tutorial": {
-        "Routes": {
-          "Pause": {
-            "Title": "暂停",
-            "Control": {
-              "Title": "控制",
-              "Exit": "退出"
-            },
-            "Debug": {
-              "Title": "调试"
-            }
           }
         }
       }
