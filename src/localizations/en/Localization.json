@@ -4,195 +4,317 @@
         "Title": "English (English)"
     },
     "Texts": {
-        "Name": {
-            "#KEYWORDS": "Keywords",
-            "#NAME": "Name",
-            "#RATING": "Rating",
-            "#RATING_MINIMUM": "Minimum Rating",
-            "#RATING_MAXIMUM": "Maximum Rating",
-            "#TITLE": "Title",
-            "#SUBTITLE": "Subtitle",
-            "#ARTISTS": "Artists",
-            "#AUTHOR": "Author",
-            "#GENRE": "Genre",
-            "#CATEGORY": "Category",
-            "#LANGUAGE": "Language",
-            "#DIFFICULTY": "Difficulty",
-            "#LENGTH": "Length",
-            "#LENGTH_MINIMUM": "Minimum Length",
-            "#LENGTH_MAXIMUM": "Maximum Length",
-            "#SPEED": "Level Speed",
-            "#MIRROR": "Mirror Level",
-            "#RANDOM": "Random",
-            "#HIDDEN": "Hidden",
-            "#JUDGMENT_STRICT": "Strict Judgment",
-            "#JUDGMENT_LOOSE": "Loose Judgment",
-            "#EFFECT": "SFX",
-            "#EFFECT_AUTO": "Auto SFX",
-            "#STAGE": "Stage",
-            "#STAGE_POSITION": "Stage Position",
-            "#STAGE_SIZE": "Stage Size",
-            "#STAGE_ROTATION": "Stage Rotation",
-            "#STAGE_ALPHA": "Stage Transparency",
-            "#STAGE_ANIMATION": "Stage Animation",
-            "#STAGE_TILT": "Stage Tilt",
-            "#STAGE_COVER_VERTICAL": "Vertical Stage Cover",
-            "#STAGE_COVER_HORIZONTAL": "Horizontal Stage Cover",
-            "#STAGE_COVER_ALPHA": "Stage Cover Transparency",
-            "#STAGE_ASPECTRATIO_LOCK": "Lock Stage Aspect Ratio",
-            "#STAGE_EFFECT": "Stage Effect",
-            "#STAGE_EFFECT_POSITION": "Stage Effect Position",
-            "#STAGE_EFFECT_SIZE": "Stage Effect Size",
-            "#STAGE_EFFECT_ROTATION": "Stage Effect Rotation",
-            "#STAGE_EFFECT_ALPHA": "Stage Effect Transparency",
-            "#LANE": "Lane",
-            "#LANE_POSITION": "Lane Position",
-            "#LANE_SIZE": "Lane Size",
-            "#LANE_ROTATION": "Lane Rotation",
-            "#LANE_ALPHA": "Lane Transparency",
-            "#LANE_ANIMATION": "Lane Animation",
-            "#LANE_EFFECT": "Lane Effect",
-            "#LANE_EFFECT_POSITION": "Lane Effect Position",
-            "#LANE_EFFECT_SIZE": "Lane Effect Size",
-            "#LANE_EFFECT_ROTATION": "Lane Effect Rotation",
-            "#LANE_EFFECT_ALPHA": "Lane Effect Transparency",
-            "#JUDGELINE": "Judgment Line",
-            "#JUDGELINE_POSITION": "Judgment Line Position",
-            "#JUDGELINE_SIZE": "Judgment Line Size",
-            "#JUDGELINE_ROTATION": "Judgment Line Rotation",
-            "#JUDGELINE_ALPHA": "Judgment Line Transparency",
-            "#JUDGELINE_ANIMATION": "Judgment Line Animation",
-            "#JUDGELINE_EFFECT": "Judgment Line Effect",
-            "#JUDGELINE_EFFECT_POSITION": "Judgment Line Effect Position",
-            "#JUDGELINE_EFFECT_SIZE": "Judgment Line Effect Size",
-            "#JUDGELINE_EFFECT_ROTATION": "Judgment Line Effect Rotation",
-            "#JUDGELINE_EFFECT_ALPHA": "Judgment Line Effect Transparency",
-            "#SLOT": "Slot",
-            "#SLOT_POSITION": "Slot Position",
-            "#SLOT_SIZE": "Slot Size",
-            "#SLOT_ROTATION": "Slot Rotation",
-            "#SLOT_ALPHA": "Slot Transparency",
-            "#SLOT_ANIMATION": "Slot Animation",
-            "#SLOT_EFFECT": "Slot Effect",
-            "#SLOT_EFFECT_POSITION": "Slot Effect Position",
-            "#SLOT_EFFECT_SIZE": "Slot Effect Size",
-            "#SLOT_EFFECT_ROTATION": "Slot Effect Rotation",
-            "#SLOT_EFFECT_ALPHA": "Slot Effect Transparency",
-            "#NOTE": "Note",
-            "#NOTE_SPEED": "Note Speed",
-            "#NOTE_SPEED_RANDOM": "Random Note Speed",
-            "#NOTE_POSITION": "Note Position",
-            "#NOTE_SIZE": "Note Size",
-            "#NOTE_ROTATION": "Note Rotation",
-            "#NOTE_ALPHA": "Note Transparency",
-            "#NOTE_ANIMATION": "Note Animation",
-            "#NOTE_EFFECT": "Note Effect",
-            "#NOTE_EFFECT_POSITION": "Note Effect Position",
-            "#NOTE_EFFECT_SIZE": "Note Effect Size",
-            "#NOTE_EFFECT_ROTATION": "Note Effect Rotation",
-            "#NOTE_EFFECT_ALPHA": "Note Effect Transparency",
-            "#MARKER": "Marker",
-            "#MARKER_POSITION": "Marker Position",
-            "#MARKER_SIZE": "Marker Size",
-            "#MARKER_ROTATION": "Marker Rotation",
-            "#MARKER_ALPHA": "Marker Transparency",
-            "#MARKER_ANIMATION": "Marker Animation",
-            "#CONNECTOR": "Connector",
-            "#CONNECTOR_POSITION": "Connector Position",
-            "#CONNECTOR_SIZE": "Connector Size",
-            "#CONNECTOR_ROTATION": "Connector Rotation",
-            "#CONNECTOR_ALPHA": "Connector Transparency",
-            "#CONNECTOR_ANIMATION": "Connector Animation",
-            "#SIMLINE": "Simultaneous Line",
-            "#SIMLINE_POSITION": "Simultaneous Line Position",
-            "#SIMLINE_SIZE": "Simultaneous Line Size",
-            "#SIMLINE_ROTATION": "Simultaneous Line Rotation",
-            "#SIMLINE_ALPHA": "Simultaneous Line Transparency",
-            "#SIMLINE_ANIMATION": "Simultaneous Line Animation"
-        },
-        "Value": {
-            "#NONE": "None",
-            "#ANY": "Any",
-            "#ALL": "All",
-            "#OTHERS": "Others",
-            "#SHORT": "Short",
-            "#LONG": "Long",
-            "#HIGH": "High",
-            "#MID": "Mid",
-            "#LOW": "Low",
-            "#SMALL": "Small",
-            "#MEDIUM": "Medium",
-            "#LARGE": "Large",
-            "#LEFT": "Left",
-            "#RIGHT": "Right",
-            "#UP": "Up",
-            "#DOWN": "Down",
-            "#FRONT": "Front",
-            "#BACK": "Back",
-            "#CENTER": "Center",
-            "#TOP": "Top",
-            "#BOTTOM": "Bottom",
-            "#TOP_LEFT": "Top Left",
-            "#TOP_CENTER": "Top Center",
-            "#TOP_RIGHT": "Top Right",
-            "#CENTER_LEFT": "Center Left",
-            "#CENTER_RIGHT": "Center Right",
-            "#BOTTOM_LEFT": "Bottom Left",
-            "#BOTTOM_CENTER": "Bottom Center",
-            "#BOTTOM_RIGHT": "Bottom Right",
-            "#CLOCKWISE": "Clockwise",
-            "#COUNTERCLOCKWISE": "Counterclockwise",
-            "#FORWARD": "Forward",
-            "#BACKWARD": "Backward",
-            "#SIMPLE": "Simple",
-            "#EASY": "Easy",
-            "#NORMAL": "Normal",
-            "#HARD": "Hard",
-            "#EXPERT": "Expert",
-            "#MASTER": "Master",
-            "#PRO": "Pro",
-            "#TECHNICAL": "Technical",
-            "#SPECIAL": "Special"
-        },
-        "Placeholder": {
-            "#KEYWORDS": "Enter keywords...",
-            "#NAME": "Enter name...",
-            "#RATING": "Enter rating...",
-            "#RATING_MINIMUM": "Enter minimum rating...",
-            "#RATING_MAXIMUM": "Enter maximum rating...",
-            "#TITLE": "Enter title...",
-            "#SUBTITLE": "Enter subtitle...",
-            "#ARTISTS": "Enter artists...",
-            "#AUTHOR": "Enter author...",
-            "#GENRE": "Enter genre...",
-            "#CATEGORY": "Enter category...",
-            "#LANGUAGE": "Enter language...",
-            "#DIFFICULTY": "Enter difficulty...",
-            "#LENGTH": "Enter length...",
-            "#LENGTH_MINIMUM": "Enter minimum length...",
-            "#LENGTH_MAXIMUM": "Enter maximum length..."
-        },
-        "Unit": {
-            "#PERCENTAGE": "{0}%",
-            "#SECOND": "{0} s",
-            "#MILLISECOND": "{0} ms"
-        },
-        "Instruction": {
-            "#TAP": "Tap",
-            "#TAP_HOLD": "Tap and Hold",
-            "#TAP_RELEASE": "Tap and Release",
-            "#TAP_FLICK": "Tap and Flick",
-            "#TAP_SLIDE": "Tap and Slide",
-            "#HOLD": "Hold",
-            "#HOLD_SLIDE": "Hold and Slide",
-            "#HOLD_FOLLOW": "Hold and Follow",
-            "#RELEASE": "Release",
-            "#FLICK": "Flick",
-            "#SLIDE": "Slide",
-            "#SLIDE_FLICK": "Slide and Flick",
-            "#AVOID": "Avoid",
-            "#JIGGLE": "Jiggle"
-        }
+        "#GRADE": "Grade",
+        "#ARCADE_SCORE": "Arcade Score",
+        "#ACCURACY_SCORE": "Accuracy Score",
+        "#COMBO": "Combo",
+        "#PERFECT": "Perfect",
+        "#GREAT": "Great",
+        "#GOOD": "Good",
+        "#MISS": "Miss",
+        "#KEYWORDS": "Keywords",
+        "#NAME": "Name",
+        "#RATING": "Rating",
+        "#RATING_MINIMUM": "Minimum Rating",
+        "#RATING_MAXIMUM": "Maximum Rating",
+        "#TITLE": "Title",
+        "#SUBTITLE": "Subtitle",
+        "#ARTISTS": "Artists",
+        "#AUTHOR": "Author",
+        "#GENRE": "Genre",
+        "#TYPE": "Type",
+        "#CATEGORY": "Category",
+        "#LANGUAGE": "Language",
+        "#DIFFICULTY": "Difficulty",
+        "#VERSIONS": "Version",
+        "#LENGTH": "Length",
+        "#LENGTH_MINIMUM": "Minimum Length",
+        "#LENGTH_MAXIMUM": "Maximum Length",
+        "#ADDITIONAL_INFORMATION": "Additional Information",
+        "#SPEED": "Level Speed",
+        "#MIRROR": "Mirror Level",
+        "#RANDOM": "Random",
+        "#HIDDEN": "Hidden",
+        "#JUDGMENT_STRICT": "Strict Judgment",
+        "#JUDGMENT_LOOSE": "Loose Judgment",
+        "#EFFECT": "SFX",
+        "#EFFECT_AUTO": "Auto SFX",
+        "#STAGE": "Stage",
+        "#STAGE_POSITION": "Stage Position",
+        "#STAGE_SIZE": "Stage Size",
+        "#STAGE_ROTATION": "Stage Rotation",
+        "#STAGE_DIRECTION": "Stage Direction",
+        "#STAGE_ALPHA": "Stage Transparency",
+        "#STAGE_ANIMATION": "Stage Animation",
+        "#STAGE_TILT": "Stage Tilt",
+        "#STAGE_COVER_VERTICAL": "Vertical Stage Cover",
+        "#STAGE_COVER_HORIZONTAL": "Horizontal Stage Cover",
+        "#STAGE_COVER_ALPHA": "Stage Cover Transparency",
+        "#STAGE_ASPECTRATIO_LOCK": "Lock Stage Aspect Ratio",
+        "#STAGE_EFFECT": "Stage Effect",
+        "#STAGE_EFFECT_POSITION": "Stage Effect Position",
+        "#STAGE_EFFECT_SIZE": "Stage Effect Size",
+        "#STAGE_EFFECT_ROTATION": "Stage Effect Rotation",
+        "#STAGE_EFFECT_DIRECTION": "Stage Effect Direction",
+        "#STAGE_EFFECT_ALPHA": "Stage Effect Transparency",
+        "#LANE": "Lane",
+        "#LANE_POSITION": "Lane Position",
+        "#LANE_SIZE": "Lane Size",
+        "#LANE_ROTATION": "Lane Rotation",
+        "#LANE_DIRECTION": "Lane Direction",
+        "#LANE_ALPHA": "Lane Transparency",
+        "#LANE_ANIMATION": "Lane Animation",
+        "#LANE_EFFECT": "Lane Effect",
+        "#LANE_EFFECT_POSITION": "Lane Effect Position",
+        "#LANE_EFFECT_SIZE": "Lane Effect Size",
+        "#LANE_EFFECT_ROTATION": "Lane Effect Rotation",
+        "#LANE_EFFECT_DIRECTION": "Lane Effect Direction",
+        "#LANE_EFFECT_ALPHA": "Lane Effect Transparency",
+        "#JUDGELINE": "Judgment Line",
+        "#JUDGELINE_POSITION": "Judgment Line Position",
+        "#JUDGELINE_SIZE": "Judgment Line Size",
+        "#JUDGELINE_ROTATION": "Judgment Line Rotation",
+        "#JUDGELINE_DIRECTION": "Judgment Line Direction",
+        "#JUDGELINE_ALPHA": "Judgment Line Transparency",
+        "#JUDGELINE_ANIMATION": "Judgment Line Animation",
+        "#JUDGELINE_EFFECT": "Judgment Line Effect",
+        "#JUDGELINE_EFFECT_POSITION": "Judgment Line Effect Position",
+        "#JUDGELINE_EFFECT_SIZE": "Judgment Line Effect Size",
+        "#JUDGELINE_EFFECT_ROTATION": "Judgment Line Effect Rotation",
+        "#JUDGELINE_EFFECT_DIRECTION": "Judgment Line Effect Direction",
+        "#JUDGELINE_EFFECT_ALPHA": "Judgment Line Effect Transparency",
+        "#SLOT": "Slot",
+        "#SLOT_POSITION": "Slot Position",
+        "#SLOT_SIZE": "Slot Size",
+        "#SLOT_ROTATION": "Slot Rotation",
+        "#SLOT_DIRECTION": "Slot Direction",
+        "#SLOT_ALPHA": "Slot Transparency",
+        "#SLOT_ANIMATION": "Slot Animation",
+        "#SLOT_EFFECT": "Slot Effect",
+        "#SLOT_EFFECT_POSITION": "Slot Effect Position",
+        "#SLOT_EFFECT_SIZE": "Slot Effect Size",
+        "#SLOT_EFFECT_ROTATION": "Slot Effect Rotation",
+        "#SLOT_EFFECT_DIRECTION": "Slot Effect Direction",
+        "#SLOT_EFFECT_ALPHA": "Slot Effect Transparency",
+        "#NOTE": "Note",
+        "#NOTE_SPEED": "Note Speed",
+        "#NOTE_SPEED_RANDOM": "Random Note Speed",
+        "#NOTE_POSITION": "Note Position",
+        "#NOTE_SIZE": "Note Size",
+        "#NOTE_ROTATION": "Note Rotation",
+        "#NOTE_DIRECTION": "Note Direction",
+        "#NOTE_ALPHA": "Note Transparency",
+        "#NOTE_ANIMATION": "Note Animation",
+        "#NOTE_EFFECT": "Note Effect",
+        "#NOTE_EFFECT_POSITION": "Note Effect Position",
+        "#NOTE_EFFECT_SIZE": "Note Effect Size",
+        "#NOTE_EFFECT_ROTATION": "Note Effect Rotation",
+        "#NOTE_EFFECT_DIRECTION": "Note Effect Direction",
+        "#NOTE_EFFECT_ALPHA": "Note Effect Transparency",
+        "#MARKER": "Marker",
+        "#MARKER_POSITION": "Marker Position",
+        "#MARKER_SIZE": "Marker Size",
+        "#MARKER_ROTATION": "Marker Rotation",
+        "#MARKER_DIRECTION": "Marker Direction",
+        "#MARKER_ALPHA": "Marker Transparency",
+        "#MARKER_ANIMATION": "Marker Animation",
+        "#CONNECTOR": "Connector",
+        "#CONNECTOR_POSITION": "Connector Position",
+        "#CONNECTOR_SIZE": "Connector Size",
+        "#CONNECTOR_ROTATION": "Connector Rotation",
+        "#CONNECTOR_DIRECTION": "Connector Direction",
+        "#CONNECTOR_ALPHA": "Connector Transparency",
+        "#CONNECTOR_ANIMATION": "Connector Animation",
+        "#SIMLINE": "Simultaneous Line",
+        "#SIMLINE_POSITION": "Simultaneous Line Position",
+        "#SIMLINE_SIZE": "Simultaneous Line Size",
+        "#SIMLINE_ROTATION": "Simultaneous Line Rotation",
+        "#SIMLINE_DIRECTION": "Simultaneous Line Direction",
+        "#SIMLINE_ALPHA": "Simultaneous Line Transparency",
+        "#SIMLINE_ANIMATION": "Simultaneous Line Animation",
+        "#NONE": "None",
+        "#ANY": "Any",
+        "#ALL": "All",
+        "#OTHERS": "Others",
+        "#SHORT": "Short",
+        "#LONG": "Long",
+        "#HIGH": "High",
+        "#MID": "Mid",
+        "#LOW": "Low",
+        "#SMALL": "Small",
+        "#MEDIUM": "Medium",
+        "#LARGE": "Large",
+        "#LEFT": "Left",
+        "#RIGHT": "Right",
+        "#UP": "Up",
+        "#DOWN": "Down",
+        "#FRONT": "Front",
+        "#BACK": "Back",
+        "#CENTER": "Center",
+        "#TOP": "Top",
+        "#BOTTOM": "Bottom",
+        "#TOP_LEFT": "Top Left",
+        "#TOP_CENTER": "Top Center",
+        "#TOP_RIGHT": "Top Right",
+        "#CENTER_LEFT": "Center Left",
+        "#CENTER_RIGHT": "Center Right",
+        "#BOTTOM_LEFT": "Bottom Left",
+        "#BOTTOM_CENTER": "Bottom Center",
+        "#BOTTOM_RIGHT": "Bottom Right",
+        "#CLOCKWISE": "Clockwise",
+        "#COUNTERCLOCKWISE": "Counterclockwise",
+        "#FORWARD": "Forward",
+        "#BACKWARD": "Backward",
+        "#SIMPLE": "Simple",
+        "#EASY": "Easy",
+        "#NORMAL": "Normal",
+        "#HARD": "Hard",
+        "#EXPERT": "Expert",
+        "#MASTER": "Master",
+        "#PRO": "Pro",
+        "#TECHNICAL": "Technical",
+        "#SPECIAL": "Special",
+        "#KEYWORDS_PLACEHOLDER": "Enter keywords...",
+        "#NAME_PLACEHOLDER": "Enter name...",
+        "#RATING_PLACEHOLDER": "Enter rating...",
+        "#RATING_MINIMUM_PLACEHOLDER": "Enter minimum rating...",
+        "#RATING_MAXIMUM_PLACEHOLDER": "Enter maximum rating...",
+        "#TITLE_PLACEHOLDER": "Enter title...",
+        "#SUBTITLE_PLACEHOLDER": "Enter subtitle...",
+        "#ARTISTS_PLACEHOLDER": "Enter artists...",
+        "#AUTHOR_PLACEHOLDER": "Enter author...",
+        "#GENRE_PLACEHOLDER": "Enter genre...",
+        "#CATEGORY_PLACEHOLDER": "Enter category...",
+        "#LANGUAGE_PLACEHOLDER": "Enter language...",
+        "#DIFFICULTY_PLACEHOLDER": "Enter difficulty...",
+        "#LENGTH_PLACEHOLDER": "Enter length...",
+        "#LENGTH_MINIMUM_PLACEHOLDER": "Enter minimum length...",
+        "#LENGTH_MAXIMUM_PLACEHOLDER": "Enter maximum length...",
+        "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Enter additional information...",
+        "#PERCENTAGE_UNIT": "{0}%",
+        "#SECOND_UNIT": "{0} s",
+        "#MILLISECOND_UNIT": "{0} ms",
+        "#TAP": "Tap",
+        "#TAP_HOLD": "Tap and Hold",
+        "#TAP_RELEASE": "Tap and Release",
+        "#TAP_FLICK": "Tap and Flick",
+        "#TAP_SLIDE": "Tap and Slide",
+        "#HOLD": "Hold",
+        "#HOLD_SLIDE": "Hold and Slide",
+        "#HOLD_FOLLOW": "Hold and Follow",
+        "#RELEASE": "Release",
+        "#FLICK": "Flick",
+        "#SLIDE": "Slide",
+        "#SLIDE_FLICK": "Slide and Flick",
+        "#AVOID": "Avoid",
+        "#JIGGLE": "Jiggle",
+        "#NEWEST": "Newest",
+        "#OLDEST": "Oldest",
+        "#RECOMMENDED": "Recommended",
+        "#POPULAR": "Popular",
+        "#FEATURED": "Featured",
+        "#COMPETITIVE": "Competitive",
+        "#HOLIDAY": "Holiday",
+        "#LIMITED": "Limited",
+        "#FOLLOWING": "Following",
+        "#ANNOUNCEMENT": "Announcement",
+        "#INFORMATION": "Information",
+        "#MAINTENANCE": "Maintenance",
+        "#EVENT": "Event",
+        "#UPDATE": "Update",
+        "#SEARCH": "Search",
+        "#ADVANCED": "Advanced",
+        "#RELATED": "Related",
+        "#SAME_AUTHOR": "Same Author",
+        "#SAME_ARTISTS": "Same Artists",
+        "#SAME_RATING": "Same Rating",
+        "#SAME_CATEGORY": "Same Category",
+        "#SAME_DIFFICULTY": "Same Difficulty",
+        "#SAME_GENRE": "Same Genre",
+        "#SAME_VERSION": "Same Version",
+        "#OTHER_AUTHORS": "Other Authors",
+        "#OTHER_ARTISTS": "Other Artists",
+        "#OTHER_RATINGS": "Other Ratings",
+        "#OTHER_CATEGORIES": "Other Categories",
+        "#OTHER_DIFFICULTIES": "Other Difficulties",
+        "#OTHER_GENRES": "Other Genres",
+        "#OTHER_VERSIONS": "Other Versions",
+        "#VERIFYING": "Verifying",
+        "#VERIFIED": "Verified",
+        "#REMOVED": "Removed",
+        "#PUBLIC": "Public",
+        "#PRIVATE": "Private",
+        "#LOCKED": "Locked",
+        "#POP": "Pop",
+        "#ROCK": "Rock",
+        "#HIPHOP": "Hip Hop",
+        "#COUNTRY": "Country",
+        "#ELECTRONIC": "Electronic",
+        "#METAL": "Metal",
+        "#CLASSICAL": "Classical",
+        "#FOLK": "Folk",
+        "#INDIE": "Indie",
+        "#ANIME": "Anime",
+        "#VOCALOID": "Vocaloid",
+        "#REMIX": "Remix",
+        "#INSTRUMENTAL": "Instrumental",
+        "#SHORT_VERSION": "Short Version",
+        "#LONG_VERSION": "Long Version",
+        "#LIVE_VERSION": "Live Version",
+        "#REPORT": "Report",
+        "#REASON": "Reason",
+        "#ILLEGAL_ACTIVITIES": "Illegal Activities",
+        "#CHEATING": "Cheating",
+        "#AFK": "AFK",
+        "#SPAMMING": "Spamming",
+        "#VERBAL_ABUSE": "Verbal Abuse",
+        "#INAPPROPRIATE_LANGUAGE": "Inappropriate Language",
+        "#NEGATIVE_ATTITUDE": "Negative Attitude",
+        "#DNF": "DNF",
+        "#SUGGESTIONS": "Suggestions",
+        "#SUGGESTIONS_PER_PLAYER": "Suggestions per Player",
+        "#MATCH_SCORING": "Match Scoring",
+        "#MATCH_TIEBREAKER": "Match Tiebreaker",
+        "#MATCH_COUNT": "Match Count",
+        "#MATCH_LIMIT": "Match Limit",
+        "#ROUND_SCORING": "Round Scoring",
+        "#ROUND_TIEBREAKER": "Round Tiebreaker",
+        "#ROUND_COUNT": "Round Count",
+        "#ROUND_LIMIT": "Round Limit",
+        "#TEAM_SCORING": "Team Scoring",
+        "#TEAM_TIEBREAKER": "Team Tiebreaker",
+        "#TEAM_COUNT": "Team Count",
+        "#TEAM_LIMIT": "Team Limit",
+        "#QUALIFIED": "Qualified",
+        "#DISQUALIFIED": "Disqualified",
+        "#RANKING": "Ranking",
+        "#SCORE": "Score",
+        "#PLAYER": "Player",
+        "#SPECTATOR": "Spectator",
+        "#REFEREE": "Referee",
+        "#ELIMINATED": "Eliminated",
+        "#FINALIST": "Finalist",
+        "#FINISHED": "Finished",
+        "#WINNER": "Winner",
+        "#GOLD_MEDAL": "Gold Medal",
+        "#SILVER_MEDAL": "Silver Medal",
+        "#BRONZE_MEDAL": "Bronze Medal",
+        "#TEAM_1": "Team 1",
+        "#TEAM_2": "Team 2",
+        "#TEAM_3": "Team 3",
+        "#TEAM_4": "Team 4",
+        "#TEAM_5": "Team 5",
+        "#TEAM_6": "Team 6",
+        "#TEAM_7": "Team 7",
+        "#TEAM_8": "Team 8",
+        "#TEAM_RED": "Team Red",
+        "#TEAM_GREEN": "Team Green",
+        "#TEAM_BLUE": "Team Blue",
+        "#TEAM_YELLOW": "Team Yellow",
+        "#TEAM_PURPLE": "Team Purple",
+        "#TEAM_CYAN": "Team Cyan",
+        "#TEAM_WHITE": "Team White",
+        "#TEAM_BLACK": "Team Black"
     },
     "Common": {
         "Separator": ", ",
@@ -216,7 +338,6 @@
         "Add": "Add",
         "Import": "Import",
         "Search": "Search",
-        "More": "More",
         "PullToRefresh": "Pull to refresh",
         "Save": "Save",
         "Share": "Share",
@@ -283,6 +404,12 @@
         },
         "DeviceOffsetField": {
             "Calibrate": "Calibrate"
+        },
+        "MultiField": {
+            "Selected": "{0} Selected",
+            "AllSelected": "All Selected",
+            "SelectAll": "Select All",
+            "SelectNone": "Select None"
         },
         "PullToLoad": {
             "None": "Nothing more to load",
@@ -357,6 +484,16 @@
                 "OutInElastic": "Elastic (Out In)",
                 "None": "None"
             }
+        },
+        "AutoExit": {
+            "Title": "Auto Exit",
+            "Description": "Automatically exit gameplay when a certain grade can no longer be achieved.",
+            "Options": {
+                "Off": "Off",
+                "Pass": "Pass",
+                "FullCombo": "Full Combo",
+                "AllPerfect": "All Perfect"
+            }
         }
     },
     "Themes": {
@@ -430,7 +567,7 @@
                     "Title": "Favorites Edited"
                 }
             },
-            "AuthenticateServer": {
+            "Authenticate": {
                 "Loading": "Requesting Sonolus authentication...",
                 "Error": "Failed to request authentication from Sonolus.\n\nPlease check your internet connection and try again, or contact Sonolus to report the problem."
             },
@@ -445,27 +582,37 @@
         "CustomServer": {
             "SonolusVersionError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem.",
             "SonolusVersionTooOld": "This server only supports an old version of Sonolus ({0}).\n\nPlease wait for the server to be updated, or contact server owner to report the problem.",
-            "Session": {
-                "NeedAuthentication": {
+            "Authentication": {
+                "Required": {
                     "NotLoggedInError": {
-                        "Description": "This server requires authentication.\n\nPlease sign in first and try again."
+                        "Description": "This server requires sign in but you are not signed in with a Sonolus account.\n\nPlease sign in with your Sonolus account first and try again."
                     },
                     "Confirmation": {
-                        "Description": "This server requires authentication.\n\nAuthenticate as \"{0}\" and continue?"
+                        "Description": "This server requires sign in.\n\nSign in as \"{0}\" and continue?"
                     }
                 },
-                "AuthenticationExpired": {
-                    "Description": "Your authentication has expired.\n\nAuthenticate as \"{0}\" again and continue?"
+                "Expired": {
+                    "Description": "Your session has expired.\n\nSign in as \"{0}\" again and continue?"
                 },
-                "AuthenticationRejected": {
-                    "Description": "Your authentication was rejected by the server.\n\nAuthenticate as \"{0}\" again and continue?"
+                "Rejected": {
+                    "Description": "Your session was rejected by the server.\n\nSign in as \"{0}\" again and continue?"
                 },
-                "Authenticate": {
-                    "Loading": "Requesting server authentication...",
-                    "Error": "Failed to request authentication from \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                "Login": {
+                    "Loading": "Signing in...",
+                    "Error": "Failed to sign in to \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
+            "Multiplayer": {
+                "NotLoggedInError": {
+                    "Description": "Multiplayer requires sign in but you are not signed in with a Sonolus account.\n\nPlease sign in with your Sonolus account first and try again."
                 },
-                "AddressMismatchError": {
-                    "Description": "Authentication address mismatched.\n\nPlease contact server owner to report the problem."
+                "CreateRoom": {
+                    "Loading": "Creating room...",
+                    "Error": "Failed to create room in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "JoinRoom": {
+                    "Loading": "Joining room...",
+                    "Error": "Failed to join room \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 }
             },
             "Server": {
@@ -478,7 +625,55 @@
                     "Error": "Failed to load server banner of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 }
             },
+            "Post": {
+                "Info": {
+                    "Loading": "Loading posts info...",
+                    "Error": "Failed to load posts info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "List": {
+                    "Loading": "Loading posts...",
+                    "Error": "Failed to load posts at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading post details...",
+                    "Error": "Failed to load post details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking post compatibility...",
+                    "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different post, or contact server owner to report the problem."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading post thumbnail...",
+                    "Error": "Failed to load post thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
+            "Playlist": {
+                "Info": {
+                    "Loading": "Loading playlists info...",
+                    "Error": "Failed to load playlists info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "List": {
+                    "Loading": "Loading playlists...",
+                    "Error": "Failed to load playlists at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading playlist details...",
+                    "Error": "Failed to load playlist details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking playlist compatibility...",
+                    "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different playlist, or contact server owner to report the problem."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading playlist thumbnail...",
+                    "Error": "Failed to load playlist thumbnail of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
             "Level": {
+                "Info": {
+                    "Loading": "Loading levels info...",
+                    "Error": "Failed to load levels info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading levels...",
                     "Error": "Failed to load levels at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -509,6 +704,10 @@
                 }
             },
             "Skin": {
+                "Info": {
+                    "Loading": "Loading skins info...",
+                    "Error": "Failed to load skins info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading skins...",
                     "Error": "Failed to load skins at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -535,6 +734,10 @@
                 }
             },
             "Background": {
+                "Info": {
+                    "Loading": "Loading backgrounds info...",
+                    "Error": "Failed to load backgrounds info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading backgrounds...",
                     "Error": "Failed to load backgrounds at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -565,6 +768,10 @@
                 }
             },
             "Effect": {
+                "Info": {
+                    "Loading": "Loading SFX info...",
+                    "Error": "Failed to load SFX info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading SFX...",
                     "Error": "Failed to load SFX at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -591,6 +798,10 @@
                 }
             },
             "Particle": {
+                "Info": {
+                    "Loading": "Loading particles info...",
+                    "Error": "Failed to load particles info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading particles...",
                     "Error": "Failed to load particles at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -617,6 +828,10 @@
                 }
             },
             "Engine": {
+                "Info": {
+                    "Loading": "Loading engines info...",
+                    "Error": "Failed to load engines info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading engines...",
                     "Error": "Failed to load engines at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -657,6 +872,62 @@
                     "Loading": "Loading engine configuration...",
                     "Error": "Failed to load engine configuration of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 }
+            },
+            "Replay": {
+                "Info": {
+                    "Loading": "Loading replays info...",
+                    "Error": "Failed to load replays info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "List": {
+                    "Loading": "Loading replays...",
+                    "Error": "Failed to load replays at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading replay details...",
+                    "Error": "Failed to load replay details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking replay compatibility...",
+                    "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different replay, or contact server owner to report the problem."
+                },
+                "Data": {
+                    "Loading": "Loading replay data...",
+                    "Error": "Failed to load replay data of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Configuration": {
+                    "Loading": "Loading replay configuration...",
+                    "Error": "Failed to load replay configuration of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
+            },
+            "Room": {
+                "Info": {
+                    "Loading": "Loading rooms info...",
+                    "Error": "Failed to load rooms info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "List": {
+                    "Loading": "Loading rooms...",
+                    "Error": "Failed to load rooms at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Details": {
+                    "Loading": "Loading room details...",
+                    "Error": "Failed to load room details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Compatibility": {
+                    "Loading": "Checking room compatibility...",
+                    "Error": "Room \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different room, or contact server owner to report the problem."
+                },
+                "Cover": {
+                    "Loading": "Loading room level cover...",
+                    "Error": "Failed to load room level cover of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Bgm": {
+                    "Loading": "Loading room level BGM...",
+                    "Error": "Failed to load room level BGM of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Preview": {
+                    "Loading": "Loading room level preview...",
+                    "Error": "Failed to load room level preview of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                }
             }
         },
         "Collection": {
@@ -670,7 +941,55 @@
                     "Error": "Failed to load collection banner of \"{0}\".\n\nYour collection may be corrupted."
                 }
             },
+            "Post": {
+                "Info": {
+                    "Loading": "Loading posts info...",
+                    "Error": "Failed to load posts info of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "List": {
+                    "Loading": "Loading posts...",
+                    "Error": "Failed to load posts at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading post details...",
+                    "Error": "Failed to load post details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking post compatibility...",
+                    "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this post, or use a different post."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading post thumbnail...",
+                    "Error": "Failed to load post thumbnail of \"{0}\".\n\nPlease update this post, or use a different post."
+                }
+            },
+            "Playlist": {
+                "Info": {
+                    "Loading": "Loading playlists info...",
+                    "Error": "Failed to load playlists info of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "List": {
+                    "Loading": "Loading playlists...",
+                    "Error": "Failed to load playlists at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading playlist details...",
+                    "Error": "Failed to load playlist details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking playlist compatibility...",
+                    "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this playlist, or use a different playlist."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading playlist thumbnail...",
+                    "Error": "Failed to load playlist thumbnail of \"{0}\".\n\nPlease update this playlist, or use a different playlist."
+                }
+            },
             "Level": {
+                "Info": {
+                    "Loading": "Loading levels info...",
+                    "Error": "Failed to load levels info of \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading levels...",
                     "Error": "Failed to load levels at page {0}.\n\nYour collection may be corrupted."
@@ -701,6 +1020,10 @@
                 }
             },
             "Skin": {
+                "Info": {
+                    "Loading": "Loading skins info...",
+                    "Error": "Failed to load skins info of \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading skins...",
                     "Error": "Failed to load skins at page {0}.\n\nYour collection may be corrupted."
@@ -727,6 +1050,10 @@
                 }
             },
             "Background": {
+                "Info": {
+                    "Loading": "Loading backgrounds info...",
+                    "Error": "Failed to load backgrounds info of \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading backgrounds...",
                     "Error": "Failed to load backgrounds at page {0}.\n\nYour collection may be corrupted."
@@ -757,6 +1084,10 @@
                 }
             },
             "Effect": {
+                "Info": {
+                    "Loading": "Loading SFX info...",
+                    "Error": "Failed to load SFX info of \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading SFX...",
                     "Error": "Failed to load SFX at page {0}.\n\nYour collection may be corrupted."
@@ -783,6 +1114,10 @@
                 }
             },
             "Particle": {
+                "Info": {
+                    "Loading": "Loading particles info...",
+                    "Error": "Failed to load particles info of \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading particles...",
                     "Error": "Failed to load particles at page {0}.\n\nYour collection may be corrupted."
@@ -809,6 +1144,10 @@
                 }
             },
             "Engine": {
+                "Info": {
+                    "Loading": "Loading engines info...",
+                    "Error": "Failed to load engines info of \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading engines...",
                     "Error": "Failed to load engines at page {0}.\n\nYour collection may be corrupted."
@@ -849,9 +1188,69 @@
                     "Loading": "Loading engine configuration...",
                     "Error": "Failed to load engine configuration of \"{0}\".\n\nPlease update this engine, or use a different engine."
                 }
+            },
+            "Replay": {
+                "Info": {
+                    "Loading": "Loading replays info...",
+                    "Error": "Failed to load replays info of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "List": {
+                    "Loading": "Loading replays...",
+                    "Error": "Failed to load replays at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading replay details...",
+                    "Error": "Failed to load replay details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking replay compatibility...",
+                    "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this replay, or use a different replay."
+                },
+                "Data": {
+                    "Loading": "Loading replay data...",
+                    "Error": "Failed to load replay data of \"{0}\".\n\nPlease update this replay, or use a different replay."
+                },
+                "Configuration": {
+                    "Loading": "Loading replay configuration...",
+                    "Error": "Failed to load replay configuration of \"{0}\".\n\nPlease update this replay, or use a different replay."
+                }
+            },
+            "Room": {
+                "Info": {
+                    "Loading": "Loading rooms info...",
+                    "Error": "Failed to load rooms info of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "List": {
+                    "Loading": "Loading rooms...",
+                    "Error": "Failed to load rooms at page {0}.\n\nYour collection may be corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading room details...",
+                    "Error": "Failed to load room details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking room compatibility...",
+                    "Error": "Room \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this room, or use a different room."
+                },
+                "Cover": {
+                    "Loading": "Loading room level cover...",
+                    "Error": "Failed to load room level cover of \"{0}\".\n\nPlease update this room, or use a different room."
+                },
+                "Bgm": {
+                    "Loading": "Loading room level BGM...",
+                    "Error": "Failed to load room level BGM of \"{0}\".\n\nPlease update this room, or use a different room."
+                },
+                "Preview": {
+                    "Loading": "Loading room level preview...",
+                    "Error": "Failed to load room level preview of \"{0}\".\n\nPlease update this room, or use a different room."
+                }
             }
         },
         "Scp": {
+            "PackageInfo": {
+                "Loading": "Loading package information...",
+                "Error": "Failed to load package information of \"{0}\".\n\nYour package may be unsupported or corrupted."
+            },
             "Server": {
                 "Info": {
                     "Loading": "Loading package information...",
@@ -862,7 +1261,55 @@
                     "Error": "Failed to load package banner of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 }
             },
+            "Post": {
+                "Info": {
+                    "Loading": "Loading posts info...",
+                    "Error": "Failed to load posts info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "List": {
+                    "Loading": "Loading posts...",
+                    "Error": "Failed to load posts at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading post details...",
+                    "Error": "Failed to load post details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking post compatibility...",
+                    "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading post thumbnail...",
+                    "Error": "Failed to load post thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            },
+            "Playlist": {
+                "Info": {
+                    "Loading": "Loading playlists info...",
+                    "Error": "Failed to load playlists info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "List": {
+                    "Loading": "Loading playlists...",
+                    "Error": "Failed to load playlists at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading playlist details...",
+                    "Error": "Failed to load playlist details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking playlist compatibility...",
+                    "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Thumbnail": {
+                    "Loading": "Loading playlist thumbnail...",
+                    "Error": "Failed to load playlist thumbnail of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            },
             "Level": {
+                "Info": {
+                    "Loading": "Loading levels info...",
+                    "Error": "Failed to load levels info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading levels...",
                     "Error": "Failed to load levels at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -893,6 +1340,10 @@
                 }
             },
             "Skin": {
+                "Info": {
+                    "Loading": "Loading skins info...",
+                    "Error": "Failed to load skins info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading skins...",
                     "Error": "Failed to load skins at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -919,6 +1370,10 @@
                 }
             },
             "Background": {
+                "Info": {
+                    "Loading": "Loading backgrounds info...",
+                    "Error": "Failed to load backgrounds info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading backgrounds...",
                     "Error": "Failed to load backgrounds at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -949,6 +1404,10 @@
                 }
             },
             "Effect": {
+                "Info": {
+                    "Loading": "Loading SFX info...",
+                    "Error": "Failed to load SFX info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading SFX...",
                     "Error": "Failed to load SFX at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -975,6 +1434,10 @@
                 }
             },
             "Particle": {
+                "Info": {
+                    "Loading": "Loading particles info...",
+                    "Error": "Failed to load particles info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading particles...",
                     "Error": "Failed to load particles at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1001,6 +1464,10 @@
                 }
             },
             "Engine": {
+                "Info": {
+                    "Loading": "Loading engines info...",
+                    "Error": "Failed to load engines info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading engines...",
                     "Error": "Failed to load engines at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1041,7 +1508,71 @@
                     "Loading": "Loading engine configuration...",
                     "Error": "Failed to load engine configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 }
+            },
+            "Replay": {
+                "Info": {
+                    "Loading": "Loading replays info...",
+                    "Error": "Failed to load replays info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "List": {
+                    "Loading": "Loading replays...",
+                    "Error": "Failed to load replays at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading replay details...",
+                    "Error": "Failed to load replay details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking replay compatibility...",
+                    "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Data": {
+                    "Loading": "Loading replay data...",
+                    "Error": "Failed to load replay data of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Configuration": {
+                    "Loading": "Loading replay configuration...",
+                    "Error": "Failed to load replay configuration of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
+            },
+            "Room": {
+                "Info": {
+                    "Loading": "Loading rooms info...",
+                    "Error": "Failed to load rooms info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "List": {
+                    "Loading": "Loading rooms...",
+                    "Error": "Failed to load rooms at page {0}.\n\nYour package may be unsupported or corrupted."
+                },
+                "Details": {
+                    "Loading": "Loading room details...",
+                    "Error": "Failed to load room details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Compatibility": {
+                    "Loading": "Checking room compatibility...",
+                    "Error": "Room \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
+                },
+                "Cover": {
+                    "Loading": "Loading room level cover...",
+                    "Error": "Failed to load room level cover of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Bgm": {
+                    "Loading": "Loading room level BGM...",
+                    "Error": "Failed to load room level BGM of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Preview": {
+                    "Loading": "Loading room level preview...",
+                    "Error": "Failed to load room level preview of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                }
             }
+        },
+        "Multiplayer": {
+            "Connect": {
+                "Loading": "Connecting...",
+                "Error": "Failed to connect to room \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Disconnected": "You have been disconnected from the multiplayer room.",
+            "Error": "A fatal error has occurred with the multiplayer room.\n\nPlease contact server owner to report the problem."
         }
     },
     "DeepLink": {
@@ -1057,6 +1588,21 @@
         "Back": "Back"
     },
     "Routes": {
+        "ExternalLogin": {
+            "NotLoggedInError": {
+                "Description": "You are not signed in with a Sonolus account.\n\nPlease sign in with your Sonolus account first and try again."
+            },
+            "Confirmation": {
+                "Description": "You are signing in to external service:\n{0}\n\nSign in as \"{1}\"?"
+            },
+            "Login": {
+                "Loading": "Signing in...",
+                "Error": "Failed to sign in to external service \"{0}\".\n\nPlease check your internet connection and try again, or contact service owner to report the problem."
+            },
+            "Success": {
+                "Title": "Signed in"
+            }
+        },
         "JumpToPage": {
             "Title": "Jump to Page",
             "Page": {
@@ -1095,6 +1641,14 @@
                 "Description": "Select a custom server or collection to start playing."
             },
             "ToSave": {
+                "Post": {
+                    "Title": "Save Post",
+                    "Description": "Select a collection to save this post to."
+                },
+                "Playlist": {
+                    "Title": "Save Playlist",
+                    "Description": "Select a collection to save this playlist to."
+                },
                 "Level": {
                     "Title": "Save Level",
                     "Description": "Select a collection to save this level to."
@@ -1118,9 +1672,67 @@
                 "Engine": {
                     "Title": "Save Engine",
                     "Description": "Select a collection to save this engine to."
+                },
+                "Replay": {
+                    "Title": "Save Replay",
+                    "Description": "Select a collection to save this replay to."
+                },
+                "Room": {
+                    "Title": "Save Room",
+                    "Description": "Select a collection to save this room to."
+                }
+            },
+            "ToCreate": {
+                "Post": {
+                    "Title": "Create Post",
+                    "Description": "Select a collection to create this post."
+                },
+                "Playlist": {
+                    "Title": "Create Playlist",
+                    "Description": "Select a collection to create this playlist."
+                },
+                "Level": {
+                    "Title": "Create Level",
+                    "Description": "Select a collection to create this level."
+                },
+                "Skin": {
+                    "Title": "Create Skin",
+                    "Description": "Select a collection to create this skin."
+                },
+                "Background": {
+                    "Title": "Create Background",
+                    "Description": "Select a collection to create this background."
+                },
+                "Effect": {
+                    "Title": "Create Effect",
+                    "Description": "Select a collection to create this effect."
+                },
+                "Particle": {
+                    "Title": "Create Particle",
+                    "Description": "Select a collection to create this particle."
+                },
+                "Engine": {
+                    "Title": "Create Engine",
+                    "Description": "Select a collection to create this engine."
+                },
+                "Replay": {
+                    "Title": "Create Replay",
+                    "Description": "Select a collection to create this replay."
+                },
+                "Room": {
+                    "Title": "Create Room",
+                    "Description": "Select a collection to create this room."
                 }
             },
             "ToUse": {
+                "Post": {
+                    "Title": "Select Post",
+                    "Description": "Select a custom server or collection to use its posts."
+                },
+                "Playlist": {
+                    "Title": "Select Playlist",
+                    "Description": "Select a custom server or collection to use its playlists."
+                },
                 "Level": {
                     "Title": "Select Level",
                     "Description": "Select a custom server or collection to use its levels."
@@ -1144,9 +1756,25 @@
                 "Engine": {
                     "Title": "Select Engine",
                     "Description": "Select a custom server or collection to use its engines."
+                },
+                "Replay": {
+                    "Title": "Select Replay",
+                    "Description": "Select a custom server or collection to use its replays."
+                },
+                "Room": {
+                    "Title": "Select Room",
+                    "Description": "Select a custom server or collection to use its rooms."
                 }
             },
             "ToAddFavorite": {
+                "Post": {
+                    "Title": "Add Favorite Post",
+                    "Description": "Select a custom server to add its posts to favorite."
+                },
+                "Playlist": {
+                    "Title": "Add Favorite Playlist",
+                    "Description": "Select a custom server to add its playlists to favorite."
+                },
                 "Level": {
                     "Title": "Add Favorite Level",
                     "Description": "Select a custom server to add its levels to favorite."
@@ -1170,6 +1798,14 @@
                 "Engine": {
                     "Title": "Add Favorite Engine",
                     "Description": "Select a custom server to add its engines to favorite."
+                },
+                "Replay": {
+                    "Title": "Add Favorite Replay",
+                    "Description": "Select a custom server to add its replays to favorite."
+                },
+                "Room": {
+                    "Title": "Add Favorite Room",
+                    "Description": "Select a custom server to add its rooms to favorite."
                 }
             }
         },
@@ -1210,6 +1846,18 @@
             },
             "Success": {
                 "Title": "Package Imported"
+            }
+        },
+        "ExportScpConfiguration": {
+            "Title": "Export Configuration",
+            "Mode": {
+                "Title": "Mode",
+                "Description": "Recommend to use standard mode.\n\nAn item with source can be exported as a link to the source, greatly reducing the package size at the cost of requiring internet connection when importing.\nStandard mode exports items with sources as links, and items without sources fully. Source only mode exports only items with sources as links. Full mode exports all items fully.",
+                "Options": {
+                    "Standard": "Standard",
+                    "SourceOnly": "Source Only",
+                    "Full": "Full"
+                }
             }
         },
         "ExportScp": {
@@ -1375,22 +2023,33 @@
             "AddFavorite": {
                 "Title": "Add Favorite",
                 "Description": "Select the type of favorite to add:",
+                "Post": "Post",
+                "Playlist": "Playlist",
                 "Level": "Level",
                 "Skin": "Skin",
                 "Background": "Background",
                 "Effect": "SFX",
                 "Particle": "Particle",
-                "Engine": "Engine"
+                "Engine": "Engine",
+                "Replay": "Replay",
+                "Room": "Room"
             }
         },
         "Server": {
             "Home": {
-                "Levels": "Levels",
-                "Skins": "Skins",
-                "Backgrounds": "Backgrounds",
-                "Effects": "SFX",
-                "Particles": "Particles",
-                "Engines": "Engines",
+                "Login": "Sign In",
+                "Logout": "Sign Out",
+                "Multiplayer": "Multiplayer",
+                "Post": "Posts",
+                "Playlist": "Playlists",
+                "Level": "Levels",
+                "Skin": "Skins",
+                "Background": "Backgrounds",
+                "Effect": "SFX",
+                "Particle": "Particles",
+                "Engine": "Engines",
+                "Replay": "Replays",
+                "Room": "Rooms",
                 "SaveSuccess": {
                     "Title": "Server Saved"
                 },
@@ -1401,10 +2060,64 @@
             "Search": {
                 "Title": "Search"
             },
+            "Infos": {
+                "More": "More",
+                "Advanced": "Advanced",
+                "Post": {
+                    "Title": "Posts"
+                },
+                "Playlist": {
+                    "Title": "Playlists"
+                },
+                "Level": {
+                    "Title": "Levels"
+                },
+                "Skin": {
+                    "Title": "Skins"
+                },
+                "Background": {
+                    "Title": "Backgrounds"
+                },
+                "Effect": {
+                    "Title": "SFX"
+                },
+                "Particle": {
+                    "Title": "Particles"
+                },
+                "Engine": {
+                    "Title": "Engines"
+                },
+                "Replay": {
+                    "Title": "Replays"
+                },
+                "Room": {
+                    "Title": "Rooms",
+                    "Create": "Create",
+                    "CreateRoom": {
+                        "Title": "Create Room",
+                        "Description": "Creating room \"{0}\", you can invite others to play together by sharing the room link.",
+                        "ShareSuccess": {
+                            "Title": "Room Link Copied"
+                        }
+                    }
+                }
+            },
             "Lists": {
                 "SearchOption": "{0}: {1}",
                 "DeleteConfirmation": {
                     "Description": "Are you sure to delete \"{0}\"?"
+                },
+                "Post": {
+                    "Title": "Posts",
+                    "ShareSuccess": {
+                        "Title": "Posts Link Copied"
+                    }
+                },
+                "Playlist": {
+                    "Title": "Playlists",
+                    "ShareSuccess": {
+                        "Title": "Playlists Link Copied"
+                    }
                 },
                 "Level": {
                     "Title": "Levels",
@@ -1441,6 +2154,18 @@
                     "ShareSuccess": {
                         "Title": "Engines Link Copied"
                     }
+                },
+                "Replay": {
+                    "Title": "Replays",
+                    "ShareSuccess": {
+                        "Title": "Replays Link Copied"
+                    }
+                },
+                "Room": {
+                    "Title": "Rooms",
+                    "ShareSuccess": {
+                        "Title": "Rooms Link Copied"
+                    }
                 }
             },
             "Details": {
@@ -1450,11 +2175,27 @@
                 "DeleteConfirmation": {
                     "Description": "Are you sure to delete \"{0}\"?"
                 },
+                "Tags": {
+                    "Title": "Tags"
+                },
                 "Description": {
                     "Title": "Description"
                 },
-                "Recommended": {
-                    "Title": "Recommended"
+                "Post": {
+                    "ShareSuccess": {
+                        "Title": "Post Link Copied"
+                    }
+                },
+                "Playlist": {
+                    "Actions": {
+                        "Play": "Play"
+                    },
+                    "ShareSuccess": {
+                        "Title": "Playlist Link Copied"
+                    },
+                    "Levels": {
+                        "Title": "Levels"
+                    }
                 },
                 "Level": {
                     "Actions": {
@@ -1563,9 +2304,46 @@
                     "ShareSuccess": {
                         "Title": "Engine Link Copied"
                     }
+                },
+                "Replay": {
+                    "Actions": {
+                        "Watch": "Watch"
+                    },
+                    "Watch": {
+                        "Effect": {
+                            "Audio": {
+                                "Loading": "Decoding SFX audio...",
+                                "Error": "Failed to decode SFX audio of \"{0}\".\n\nPlease contact SFX author to report the problem."
+                            }
+                        },
+                        "Level": {
+                            "Bgm": {
+                                "Loading": "Decoding level BGM...",
+                                "Error": "Failed to decode level BGM of \"{0}\".\n\nPlease contact level author to report the problem."
+                            }
+                        },
+                        "Boot": {
+                            "Loading": "Booting replay...",
+                            "Error": "Failed to boot replay \"{0}\".\n\nPlease contact replay author to report the problem."
+                        }
+                    },
+                    "ShareSuccess": {
+                        "Title": "Replay Link Copied"
+                    }
+                },
+                "Room": {
+                    "ShareSuccess": {
+                        "Title": "Room Link Copied"
+                    }
                 }
             },
             "Configurations": {
+                "Post": {
+                    "Title": "Post Configuration"
+                },
+                "Playlist": {
+                    "Title": "Playlist Configuration"
+                },
                 "Level": {
                     "Title": "Level Configuration",
                     "Offsets": {
@@ -1682,9 +2460,25 @@
                             "Description": "Recommend to use 0.\n\nAdditional input offset of this engine, should only be used when you have trouble playing this engine in particular. Increase if your inputs are registered as too late, and decrease otherwise."
                         }
                     }
+                },
+                "Replay": {
+                    "Title": "Replay Configuration"
+                },
+                "Room": {
+                    "Title": "Room Configuration"
                 }
             },
             "Savers": {
+                "Post": {
+                    "Success": {
+                        "Title": "Post Saved"
+                    }
+                },
+                "Playlist": {
+                    "Success": {
+                        "Title": "Playlist Saved"
+                    }
+                },
                 "Level": {
                     "Success": {
                         "Title": "Level Saved"
@@ -1713,6 +2507,322 @@
                 "Engine": {
                     "Success": {
                         "Title": "Engine Saved"
+                    }
+                },
+                "Replay": {
+                    "Success": {
+                        "Title": "Replay Saved"
+                    }
+                },
+                "Room": {
+                    "Success": {
+                        "Title": "Room Saved"
+                    }
+                }
+            },
+            "Updaters": {
+                "Post": {
+                    "Success": {
+                        "Title": "Post Updated"
+                    }
+                },
+                "Playlist": {
+                    "Success": {
+                        "Title": "Playlist Updated"
+                    }
+                },
+                "Level": {
+                    "Success": {
+                        "Title": "Level Updated"
+                    }
+                },
+                "Skin": {
+                    "Success": {
+                        "Title": "Skin Updated"
+                    }
+                },
+                "Background": {
+                    "Success": {
+                        "Title": "Background Updated"
+                    }
+                },
+                "Effect": {
+                    "Success": {
+                        "Title": "Effect Updated"
+                    }
+                },
+                "Particle": {
+                    "Success": {
+                        "Title": "Particle Updated"
+                    }
+                },
+                "Engine": {
+                    "Success": {
+                        "Title": "Engine Updated"
+                    }
+                },
+                "Replay": {
+                    "Success": {
+                        "Title": "Replay Updated"
+                    }
+                },
+                "Room": {
+                    "Success": {
+                        "Title": "Room Updated"
+                    }
+                }
+            },
+            "CreateInfos": {
+                "Post": {
+                    "Title": "Post Info"
+                },
+                "Playlist": {
+                    "Title": "Playlist Info"
+                },
+                "Level": {
+                    "Title": "Level Info"
+                },
+                "Skin": {
+                    "Title": "Skin Info"
+                },
+                "Background": {
+                    "Title": "Background Info"
+                },
+                "Effect": {
+                    "Title": "Effect Info"
+                },
+                "Particle": {
+                    "Title": "Particle Info"
+                },
+                "Engine": {
+                    "Title": "Engine Info"
+                },
+                "Replay": {
+                    "Title": "Replay Info",
+                    "Info": {
+                        "Title": {
+                            "Title": "Title",
+                            "Description": "Title of the replay",
+                            "Placeholder": "Enter replay title..."
+                        },
+                        "Subtitle": {
+                            "Title": "Subtitle",
+                            "Description": "Subtitle of the replay",
+                            "Placeholder": "Enter replay subtitle..."
+                        },
+                        "Description": {
+                            "Title": "Description",
+                            "Description": "Description of the replay",
+                            "Placeholder": "Enter replay description..."
+                        }
+                    }
+                },
+                "Room": {
+                    "Title": "Room Info"
+                }
+            },
+            "Creators": {
+                "Post": {
+                    "Success": {
+                        "Title": "Post Created"
+                    }
+                },
+                "Playlist": {
+                    "Success": {
+                        "Title": "Playlist Created"
+                    }
+                },
+                "Level": {
+                    "Success": {
+                        "Title": "Level Created"
+                    }
+                },
+                "Skin": {
+                    "Success": {
+                        "Title": "Skin Created"
+                    }
+                },
+                "Background": {
+                    "Success": {
+                        "Title": "Background Created"
+                    }
+                },
+                "Effect": {
+                    "Success": {
+                        "Title": "Effect Created"
+                    }
+                },
+                "Particle": {
+                    "Success": {
+                        "Title": "Particle Created"
+                    }
+                },
+                "Engine": {
+                    "Success": {
+                        "Title": "Engine Created"
+                    }
+                },
+                "Replay": {
+                    "Success": {
+                        "Title": "Replay Created"
+                    }
+                },
+                "Room": {
+                    "Success": {
+                        "Title": "Room Created"
+                    }
+                }
+            },
+            "Multiplayer": {
+                "Connecting": "Connecting...",
+                "Reconnecting": "Reconnecting...",
+                "ExitConfirmation": {
+                    "Description": "Are you sure to leave the room?"
+                },
+                "Play": {
+                    "NoLevel": "No level selected",
+                    "Options": {
+                        "Title": "Options",
+                        "NoLevel": "No level selected."
+                    },
+                    "Selecting": {
+                        "Title": "Selecting",
+                        "Description": {
+                            "Lead": "You are selecting...",
+                            "Other": "{0} is selecting...",
+                            "Room": "Room is selecting..."
+                        },
+                        "Actions": {
+                            "Select": "Select",
+                            "NoSource": "This level cannot be selected because it does not have a source server.\n\nPlease use a different level, or contact level author to report the problem.",
+                            "NoOtherServers": "This level cannot be selected because the room does not allow levels from other servers.\n\nPlease use a different level."
+                        }
+                    },
+                    "Preparing": {
+                        "Title": {
+                            "Preparing": "Preparing",
+                            "Ready": "Ready",
+                            "Skipped": "Skipped"
+                        },
+                        "Description": "{0} preparing, {1} ready, {2} skipped...",
+                        "Actions": {
+                            "Configuration": "Configuration",
+                            "Ready": "Ready",
+                            "Skip": "Skip",
+                            "Start": {
+                                "Title": "Start",
+                                "Confirmation": {
+                                    "Description": "Are you sure to start?\n\nPlayers that are still preparing will be forced to skip."
+                                }
+                            }
+                        }
+                    },
+                    "Playing": {
+                        "Title": "Playing",
+                        "Description": "{0} loading, {1} playing...",
+                        "Actions": {
+                            "Finish": {
+                                "Title": "Finish",
+                                "Confirmation": {
+                                    "Description": "Are you sure to finish?\n\nPlayers that are still playing will lose their results."
+                                }
+                            }
+                        }
+                    }
+                },
+                "Chat": {
+                    "Title": "Chat",
+                    "Overlay": {
+                        "Room": "Room: {0}",
+                        "User": "{0}: {1}",
+                        "Level": "Level changed."
+                    },
+                    "Text": {
+                        "Placeholder": "Enter message..."
+                    },
+                    "Quick": {
+                        "Hello": {
+                            "Title": "Hello",
+                            "Text": "Hello!"
+                        },
+                        "Glhf": {
+                            "Title": "Glhf",
+                            "Text": "Good luck, have fun!"
+                        },
+                        "Gg": {
+                            "Title": "Gg",
+                            "Text": "Good game!"
+                        },
+                        "Ns": {
+                            "Title": "Ns",
+                            "Text": "Nice score!"
+                        },
+                        "Ty": {
+                            "Title": "Ty",
+                            "Text": "Thank you!"
+                        }
+                    },
+                    "System": {
+                        "Selecting": "Selecting...",
+                        "Preparing": "Preparing...",
+                        "Playing": "Playing...",
+                        "Master": "Room master changed to {0}.",
+                        "Lead": "Room lead changed to {0}.",
+                        "Options": "Room options changed.",
+                        "Level": "Level changed to {0}.",
+                        "LevelOptions": "Level options changed.",
+                        "AutoExit": "Auto exit changed.",
+                        "Connected": {
+                            "Self": "Connected.",
+                            "Other": "{0} connected."
+                        },
+                        "Disconnected": "{0} disconnected."
+                    }
+                },
+                "Suggestions": {
+                    "Title": "Suggestions",
+                    "Actions": {
+                        "Lock": "Lock",
+                        "Unlock": "Unlock",
+                        "Clear": "Clear",
+                        "NoSource": "This level cannot be suggested because it does not have a source server.\n\nPlease use a different level, or contact level author to report the problem.",
+                        "NoOtherServers": "This level cannot be suggested because the room does not allow levels from other servers.\n\nPlease use a different level."
+                    }
+                },
+                "Scoreboard": {
+                    "Title": "Scoreboard",
+                    "Actions": {
+                        "Reset": {
+                            "Title": "Reset",
+                            "Confirmation": {
+                                "Description": "Are you sure to reset scoreboard?"
+                            }
+                        }
+                    },
+                    "Result": {
+                        "Title": "Result"
+                    }
+                },
+                "Room": {
+                    "EditOptions": "Edit Room Options",
+                    "Players": {
+                        "Title": "Players",
+                        "UpdateMasterConfirmation": {
+                            "Description": "Are you sure to change room master to {0}?"
+                        },
+                        "UpdateLeadConfirmation": {
+                            "Description": "Are you sure to change room lead to {0}?"
+                        },
+                        "KickConfirmation": {
+                            "Description": "Are you sure to kick {0}?"
+                        },
+                        "AddedToBlacklistSuccess": "Player Blocked",
+                        "RemovedFromBlacklistSuccess": "Player Unblocked",
+                        "Report": {
+                            "Title": "Report Player",
+                            "Description": "Report player {0}:",
+                            "Success": "Player Reported"
+                        }
                     }
                 }
             }
@@ -1778,9 +2888,9 @@
                     "Title": "Preview BGM",
                     "Description": "Where to play preview BGM.",
                     "Options": {
-                        "Off": "Off",
-                        "DetailsOnly": "Details Only",
-                        "ListAndDetails": "List and Details"
+                        "List": "List",
+                        "Details": "Details",
+                        "Multiplayer": "Multiplayer"
                     }
                 },
                 "LevelBgmQuality": {
@@ -1804,15 +2914,36 @@
             },
             "Gameplay": {
                 "Title": "Gameplay",
-                "AutoExit": {
-                    "Title": "Auto Exit",
-                    "Description": "Automatically exit gameplay on a certain grade.",
-                    "Options": {
-                        "Off": "Off",
-                        "Fail": "Fail",
-                        "Pass": "Pass",
-                        "FullCombo": "Full Combo"
-                    }
+                "UnpauseDelay": {
+                    "Title": "Unpause Delay",
+                    "Description": "Countdown delay when unpausing."
+                },
+                "MultiplayerPreload": {
+                    "Title": "Multiplayer Preload",
+                    "Description": "Recommend to turn on.\n\nIn multiplayer, start preloading once level has been confirmed to improve loading speed."
+                },
+                "ReplayTitleTemplate": {
+                    "Title": "Replay Title Template",
+                    "Description": "Template for title when creating a replay.\n\nSpecial parameters are available and will be replaced with corresponding values.",
+                    "Placeholder": "Enter title template..."
+                },
+                "ReplaySubtitleTemplate": {
+                    "Title": "Replay Subtitle Template",
+                    "Description": "Template for subtitle when creating a replay.\n\nSpecial parameters are available and will be replaced with corresponding values.",
+                    "Placeholder": "Enter subtitle template..."
+                },
+                "ReplayDescriptionTemplate": {
+                    "Title": "Replay Description Template",
+                    "Description": "Template for description when creating a replay.\n\nSpecial parameters are available and will be replaced with corresponding values.",
+                    "Placeholder": "Enter description template..."
+                },
+                "ShowReplayTouches": {
+                    "Title": "Show Replay Touches",
+                    "Description": "Show touches when watching replay."
+                },
+                "OverwriteReplayOptions": {
+                    "Title": "Overwrite Replay Options",
+                    "Description": "Overwrite options with your own when watching replay."
                 }
             },
             "UI": {
@@ -1832,10 +2963,6 @@
                 "Scale": {
                     "Title": "UI Scale",
                     "Description": "UI scale to use. Increase if you have difficulty reading, and decrease to show more content on screen at once."
-                },
-                "UnpauseDelay": {
-                    "Title": "Unpause Delay",
-                    "Description": "Countdown delay when unpausing."
                 },
                 "PerfectJudgmentColors": {
                     "Title": "Perfect Judgment Colors",
@@ -1884,6 +3011,10 @@
                 "ShowZeroCombo": {
                     "Title": "Show Zero Combo",
                     "Description": "Show combo when combo is zero."
+                },
+                "TouchStyle": {
+                    "Title": "Touch Style",
+                    "Description": "Style of touch indicators."
                 }
             },
             "Offsets": {
@@ -1927,10 +3058,6 @@
                 "ShowTouches": {
                     "Title": "Show Touches",
                     "Description": "Show touch indicators. Touch indicators are useful for showing inputs in video recordings."
-                },
-                "TouchStyle": {
-                    "Title": "Touch Style",
-                    "Description": "Style of touch indicators."
                 },
                 "DebugMode": {
                     "Title": "Debug Mode",
@@ -2016,76 +3143,66 @@
         }
     },
     "Runtimes": {
+        "Pause": {
+            "Title": "Pause",
+            "Debug": {
+                "Title": "Debug"
+            }
+        },
+        "Control": {
+            "Title": "Control",
+            "Exit": "Exit",
+            "Restart": "Restart"
+        },
         "Level": {
             "Play": {
                 "Routes": {
+                    "Playlist": {
+                        "Title": "Playlist",
+                        "Previous": "Previous",
+                        "Next": "Next"
+                    },
                     "Pause": {
-                        "Title": "Pause",
-                        "Control": {
-                            "Title": "Control",
-                            "Exit": "Exit",
-                            "Restart": "Restart"
-                        },
                         "Snapshot": {
                             "Title": "Snapshot",
                             "Mark": "Mark",
                             "Jump": "Jump"
-                        },
-                        "Debug": {
-                            "Title": "Debug"
                         }
                     },
                     "Result": {
-                        "Title": "Result",
                         "Options": {
                             "HasUsedPause": "Pause",
                             "HasUsedSnapshot": "Snapshot"
                         },
-                        "Graphs": {
-                            "Title": "Graphs",
-                            "Judgment": {
-                                "Title": "Judgment Graph"
+                        "Replay": {
+                            "Title": "Replay",
+                            "Description": {
+                                "Normal": "Your gameplay was recorded, click Create to create a replay from it.",
+                                "HasUsedPause": "Replay cannot be created because pause was used.",
+                                "HasUsedSnapshot": "Replay cannot be created because snapshot was used."
                             },
-                            "Accuracy": {
-                                "Title": "Accuracy Graph",
-                                "AbsValue": "Abs Value",
-                                "Mean": "Mean",
-                                "StDev": "St Dev",
-                                "Min": "Min",
-                                "Max": "Max"
-                            },
-                            "Bucket": {
-                                "Title": "Bucket Graph"
-                            }
+                            "Create": "Create"
                         }
                     }
                 }
             },
-            "Watch": {
-                "Routes": {
-                    "Pause": {
-                        "Title": "Pause",
-                        "Control": {
-                            "Title": "Control",
-                            "Exit": "Exit"
-                        },
-                        "Debug": {
-                            "Title": "Debug"
-                        }
-                    }
-                }
-            },
-            "Preview": {
-                "Routes": {
-                    "Pause": {
-                        "Title": "Pause",
-                        "Control": {
-                            "Title": "Control",
-                            "Exit": "Exit"
-                        },
-                        "Debug": {
-                            "Title": "Debug"
-                        }
+            "Result": {
+                "Title": "Result",
+                "Graphs": {
+                    "Title": "Graphs",
+                    "Judgment": {
+                        "Title": "Judgment Graph"
+                    },
+                    "Accuracy": {
+                        "Title": "Accuracy Graph",
+                        "AbsValue": "Abs Value",
+                        "Mean": "Mean",
+                        "StDev": "St Dev",
+                        "Min": "Min",
+                        "Max": "Max"
+                    },
+                    "Bucket": {
+                        "Title": "Bucket Graph"
                     }
                 }
             }
@@ -2095,22 +3212,6 @@
                 "Routes": {
                     "Preview": {
                         "Play": "Play"
-                    }
-                }
-            }
-        },
-        "Engine": {
-            "Tutorial": {
-                "Routes": {
-                    "Pause": {
-                        "Title": "Pause",
-                        "Control": {
-                            "Title": "Control",
-                            "Exit": "Exit"
-                        },
-                        "Debug": {
-                            "Title": "Debug"
-                        }
                     }
                 }
             }
