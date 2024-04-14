@@ -407,7 +407,7 @@
     },
     "MultiField": {
       "Selected": "{0} выбрал",
-      "AllSelected": "Все выбрали",
+      "AllSelected": "Все выбрано",
       "SelectAll": "Выбрать всех",
       "SelectNone": "Выбрать никого"
     },
