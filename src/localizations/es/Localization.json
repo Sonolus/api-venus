@@ -363,44 +363,7 @@
     "AdvancedOption": "Esta opción es para jugadores avanzados.",
     "Colors": "Colores",
     "ColorField": {
-      "Hex": "HEX",
-      "Rgb": "RGB",
-      "Hsv": "HSV",
-      "Components": {
-        "Hex": {
-          "Title": "Hex",
-          "Description": "#RRGGBB, o #RRGGBBAA, donde cada componente va del 00 al FF.",
-          "Placeholder": "Introduzca el color hexadecimal..."
-        },
-        "R": {
-          "Title": "Rojo",
-          "Description": "Rojo."
-        },
-        "G": {
-          "Title": "Verde",
-          "Description": "Verde."
-        },
-        "B": {
-          "Title": "Azul",
-          "Description": "Azul."
-        },
-        "H": {
-          "Title": "Matiz",
-          "Description": "Matiz."
-        },
-        "S": {
-          "Title": "Saturación",
-          "Description": "Saturación."
-        },
-        "V": {
-          "Title": "Valor",
-          "Description": "Valor."
-        },
-        "A": {
-          "Title": "Alpha",
-          "Description": "Alpha."
-        }
-      }
+      "Placeholder": "Introduzca el color hexadecimal..."
     },
     "DeviceOffsetField": {
       "Calibrate": "Calibrar"
@@ -494,6 +457,10 @@
         "FullCombo": "Full Combo",
         "AllPerfect": "All Perfect"
       }
+    },
+    "PermissionError": {
+      "Description": "Sonolus no puede obtener los permisos necesarios para realizar esta acción.\n\nAbra Configuración y otorgue los permisos a Sonolus.",
+      "Open": "Abrir"
     }
   },
   "Themes": {
@@ -516,6 +483,7 @@
       }
     },
     "Service": {
+      "AuthenticationError": "Su autenticación de Sonolus ha caducado.\n\nInicie sesión con su cuenta de Sonolus e inténtelo de nuevo.",
       "UserProfile": {
         "Loading": "Cargando perfil de usuario...",
         "Error": "Error al cargar el perfil de usuario de \"{0}\".\n\nComprueba que el ID del usuario sea correcto, o revisa tu conexión a Internet e inténtalo de nuevo."
@@ -583,6 +551,9 @@
       "SonolusVersionError": "Este servidor solo es compatible con la versión {0} de Sonolus.\n\nActualice su aplicación Sonolus o comuníquese con el propietario del servidor para informar el problema.",
       "SonolusVersionTooOld": "Este servidor solo es compatible con una versión antigua de Sonolus.\n\nEspere a que el servidor sea actualizado, o comuníquese con el propietario del servidor para informar el problema.",
       "Authentication": {
+        "NotLoggedInError": {
+          "Description": "No has iniciado sesión con una cuenta de Sonolus.\n\nPrimero inicie sesión con su cuenta de Sonolus y vuelva a intentarlo."
+        },
         "Required": {
           "NotLoggedInError": {
             "Description": "Este servidor requiere iniciar sesión, pero usted no ha iniciado sesión con una cuenta de Sonolus.\n\nPrimero inicie sesión con su cuenta de Sonolus y vuelva a intentarlo."
@@ -1927,6 +1898,7 @@
       "Play": "Jugar",
       "Players": "Jugadores",
       "Account": "Cuenta",
+      "Link": "Enlace",
       "Settings": "Ajustes",
       "UpdateAvailable": {
         "Title": "Actualización disponible",
@@ -1944,6 +1916,29 @@
           "Placeholder": "Introduce el ID del jugador..."
         },
         "Lookup": "Buscar"
+      }
+    },
+    "Link": {
+      "Title": "Enlace",
+      "QRCode": {
+        "Title": "Código QR",
+        "Camera": "Cámara",
+        "Gallery": "Galería"
+      },
+      "Text": {
+        "Title": "Texto",
+        "TextLink": {
+          "Title": "Enlace de texto",
+          "Description": "Un enlace \"sonolus://...\"",
+          "Placeholder": "Ingrese el enlace de texto..."
+        },
+        "Open": "Abrir"
+      },
+      "NotDeepLink": {
+        "Description": "El enlace \"{0}\" no es un enlace \"sonolus://...\"\n\n¿Quieres abrirlo como un servidor personalizado?"
+      },
+      "LinkError": {
+        "Description": "No se encontró ningún enlace válido."
       }
     },
     "Account": {
@@ -3035,6 +3030,17 @@
       },
       "Repository": {
         "Title": "Repositorio",
+        "AutoClean": {
+          "Title": "Limpieza automática",
+          "Description": "Limpiar automáticamente el repositorio al iniciar eliminando los recursos más antiguos.",
+          "Options": {
+            "OneHundredMB": "100 MB",
+            "FiveHundredMB": "500 MB",
+            "OneGB": "1 GB",
+            "FiveGB": "5 GB",
+            "TenGB": "10 GB"
+          }
+        },
         "Manage": "Administrar"
       },
       "Cache": {
@@ -3134,12 +3140,6 @@
     },
     "DiagnosticLogs": {
       "Title": "Registros de diagnóstico"
-    }
-  },
-  "Scp": {
-    "PermissionError": {
-      "Description": "Sonolus no puede obtener los permisos necesarios para realizar esta acción.\n\nAbra Ajustes y otorgue permisos a Sonolus.",
-      "Open": "Abrir"
     }
   },
   "Runtimes": {
