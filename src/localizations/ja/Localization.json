@@ -363,44 +363,7 @@
     "AdvancedOption": "このオプションは上級者向けです。",
     "Colors": "色",
     "ColorField": {
-      "Hex": "HEX",
-      "Rgb": "RGB",
-      "Hsv": "HSV",
-      "Components": {
-        "Hex": {
-          "Title": "Hex",
-          "Description": "#RRGGBB、または #RRGGBBAA の形式で入力してください。",
-          "Placeholder": "例：#48b0d5"
-        },
-        "R": {
-          "Title": "赤（R）",
-          "Description": "赤。0から255まで。"
-        },
-        "G": {
-          "Title": "緑（G）",
-          "Description": "緑。0から255まで。"
-        },
-        "B": {
-          "Title": "青（B）",
-          "Description": "青。0から255まで。"
-        },
-        "H": {
-          "Title": "色相（H）",
-          "Description": "色相。0度から360度まで。"
-        },
-        "S": {
-          "Title": "彩度（S）",
-          "Description": "彩度。0%から100%まで。"
-        },
-        "V": {
-          "Title": "明度（V）",
-          "Description": "明度。0%から100%まで。"
-        },
-        "A": {
-          "Title": "不透明度（A）",
-          "Description": "不透明度。0から255まで。"
-        }
-      }
+      "Placeholder": "カラーコードを入力..."
     },
     "DeviceOffsetField": {
       "Calibrate": "補正"
@@ -494,6 +457,10 @@
         "FullCombo": "Full Combo",
         "AllPerfect": "All Perfect"
       }
+    },
+    "PermissionError": {
+      "Description": "Sonolusの権限が不足していま。\n\n設定アプリからSonolusに権限を与えて下さい。",
+      "Open": "開く"
     }
   },
   "Themes": {
@@ -516,6 +483,7 @@
       }
     },
     "Service": {
+      "AuthenticationError": "Sonolus認証の有効期限が切れました。\n\nもう一度Sonolusアカウントにログインしてください。",
       "UserProfile": {
         "Loading": "ユーザープロフィールを読み込み中...",
         "Error": "\"{0}\" のユーザー プロファイルを読み込めませんでした。\n\nユーザー ID が正しいか、およびインターネット接続を確認してもう一度お試しください。"
@@ -583,6 +551,9 @@
       "SonolusVersionError": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nSonolusをアップデートするか、サーバーの管理者にお問い合わせ下さい。",
       "SonolusVersionTooOld": "このサーバーはバージョン{0}のSonolusのみサポートしています。\n\nサーバーの管理者にお問い合わせ下さい。",
       "Authentication": {
+        "NotLoggedInError": {
+          "Description": "Sonolus認証をしていません。\n\nもう一度Sonolusアカウントにログインしてください。"
+        },
         "Required": {
           "NotLoggedInError": {
             "Description": "このサーバーはログインが必要ですが、Sonolusアカウントでログインしていません。\n\nSonolusアカウントでログインしてからもう一度お試しください。"
@@ -1927,6 +1898,7 @@
       "Play": "プレイ",
       "Players": "プレイヤー",
       "Account": "アカウント",
+      "Link": "リンク",
       "Settings": "全体設定",
       "UpdateAvailable": {
         "Title": "アップデート通知",
@@ -1944,6 +1916,29 @@
           "Placeholder": "例：1073"
         },
         "Lookup": "調べる"
+      }
+    },
+    "Link": {
+      "Title": "リンク",
+      "QRCode": {
+        "Title": "QRコード",
+        "Camera": "カメラ",
+        "Gallery": "ギャラリー"
+      },
+      "Text": {
+        "Title": "テキスト",
+        "TextLink": {
+          "Title": "リンク",
+          "Description": "「sonolus://」のリンク。",
+          "Placeholder": "リンクを入力..."
+        },
+        "Open": "開く"
+      },
+      "NotDeepLink": {
+        "Description": "{0} は「sonolus://...」のリンクではありません。\n\nカスタムサーバーとして開きますか？"
+      },
+      "LinkError": {
+        "Description": "有効なリンクではありません。"
       }
     },
     "Account": {
@@ -3035,6 +3030,17 @@
       },
       "Repository": {
         "Title": "リポジトリ",
+        "AutoClean": {
+          "Title": "自動クリーンアップ",
+          "Description": "起動時に古いリソースを自動的に削除します。",
+          "Options": {
+            "OneHundredMB": "100 MB",
+            "FiveHundredMB": "500 MB",
+            "OneGB": "1 GB",
+            "FiveGB": "5 GB",
+            "TenGB": "10 GB"
+          }
+        },
         "Manage": "管理"
       },
       "Cache": {
@@ -3136,12 +3142,6 @@
       "Title": "診断ログ"
     }
   },
-  "Scp": {
-    "PermissionError": {
-      "Description": "指定された動作に必要な権限が不足しているため実行できません。\n\n端末の設定画面からSonolusに権限を付与してください。",
-      "Open": "設定画面を開く"
-    }
-  },
   "Runtimes": {
     "Pause": {
       "Title": "一時停止",
@@ -3152,7 +3152,7 @@
     "Control": {
       "Title": "操作",
       "Exit": "終了",
-      "Restart": "再開"
+      "Restart": "リスタート"
     },
     "Level": {
       "Play": {
