@@ -363,44 +363,7 @@
         "AdvancedOption": "This option is for advanced players.",
         "Colors": "Colors",
         "ColorField": {
-            "Hex": "HEX",
-            "Rgb": "RGB",
-            "Hsv": "HSV",
-            "Components": {
-                "Hex": {
-                    "Title": "Hex",
-                    "Description": "#RRGGBB, or #RRGGBBAA, where each component is 00 to FF.",
-                    "Placeholder": "Enter color hex..."
-                },
-                "R": {
-                    "Title": "Red",
-                    "Description": "Red."
-                },
-                "G": {
-                    "Title": "Green",
-                    "Description": "Green."
-                },
-                "B": {
-                    "Title": "Blue",
-                    "Description": "Blue."
-                },
-                "H": {
-                    "Title": "Hue",
-                    "Description": "Hue."
-                },
-                "S": {
-                    "Title": "Saturation",
-                    "Description": "Saturation."
-                },
-                "V": {
-                    "Title": "Value",
-                    "Description": "Value."
-                },
-                "A": {
-                    "Title": "Alpha",
-                    "Description": "Alpha."
-                }
-            }
+            "Placeholder": "Enter color hex..."
         },
         "DeviceOffsetField": {
             "Calibrate": "Calibrate"
@@ -494,6 +457,10 @@
                 "FullCombo": "Full Combo",
                 "AllPerfect": "All Perfect"
             }
+        },
+        "PermissionError": {
+            "Description": "Sonolus is unable to obtain required permissions to perform this action.\n\nPlease open Settings and grant Sonolus permissions.",
+            "Open": "Open"
         }
     },
     "Themes": {
@@ -516,6 +483,7 @@
             }
         },
         "Service": {
+            "AuthenticationError": "Your Sonolus authentication has expired.\n\nPlease sign in with your Sonolus account and try again.",
             "UserProfile": {
                 "Loading": "Loading user profile...",
                 "Error": "Failed to load user profile of \"{0}\".\n\nPlease check if the user ID is correct, or check your internet connection and try again."
@@ -583,6 +551,9 @@
             "SonolusVersionError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem.",
             "SonolusVersionTooOld": "This server only supports an old version of Sonolus ({0}).\n\nPlease wait for the server to be updated, or contact server owner to report the problem.",
             "Authentication": {
+                "NotLoggedInError": {
+                    "Description": "You are not signed in with a Sonolus account.\n\nPlease sign in with your Sonolus account first and try again."
+                },
                 "Required": {
                     "NotLoggedInError": {
                         "Description": "This server requires sign in but you are not signed in with a Sonolus account.\n\nPlease sign in with your Sonolus account first and try again."
@@ -1927,6 +1898,7 @@
             "Play": "Play",
             "Players": "Players",
             "Account": "Account",
+            "Link": "Link",
             "Settings": "Settings",
             "UpdateAvailable": {
                 "Title": "Update Available",
@@ -1944,6 +1916,29 @@
                     "Placeholder": "Enter player ID..."
                 },
                 "Lookup": "Lookup"
+            }
+        },
+        "Link": {
+            "Title": "Link",
+            "QRCode": {
+                "Title": "QR Code",
+                "Camera": "Camera",
+                "Gallery": "Gallery"
+            },
+            "Text": {
+                "Title": "Text",
+                "TextLink": {
+                    "Title": "Text Link",
+                    "Description": "A \"sonolus://...\" link.",
+                    "Placeholder": "Enter text link..."
+                },
+                "Open": "Open"
+            },
+            "NotDeepLink": {
+                "Description": "Link \"{0}\" is not a \"sonolus://...\" link.\n\nDo you want to open it as a custom server?"
+            },
+            "LinkError": {
+                "Description": "No valid link was found."
             }
         },
         "Account": {
@@ -3035,6 +3030,17 @@
             },
             "Repository": {
                 "Title": "Repository",
+                "AutoClean": {
+                    "Title": "Auto Clean",
+                    "Description": "Automatically clean repository on launch by deleting oldest resources.",
+                    "Options": {
+                        "OneHundredMB": "100 MB",
+                        "FiveHundredMB": "500 MB",
+                        "OneGB": "1 GB",
+                        "FiveGB": "5 GB",
+                        "TenGB": "10 GB"
+                    }
+                },
                 "Manage": "Manage"
             },
             "Cache": {
@@ -3134,12 +3140,6 @@
         },
         "DiagnosticLogs": {
             "Title": "Diagnostic Logs"
-        }
-    },
-    "Scp": {
-        "PermissionError": {
-            "Description": "Sonolus is unable to obtain required permissions to perform this action.\n\nPlease open Settings and grant Sonolus permissions.",
-            "Open": "Open"
         }
     },
     "Runtimes": {
