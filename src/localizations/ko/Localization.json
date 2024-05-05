@@ -363,44 +363,7 @@
     "AdvancedOption": "전문적인 플레이어를 위한 옵션입니다.",
     "Colors": "색상",
     "ColorField": {
-      "Hex": "HEX",
-      "Rgb": "RGB",
-      "Hsv": "HSV",
-      "Components": {
-        "Hex": {
-          "Title": "Hex",
-          "Description": "#RRGGBB 또는 #RRGGBBAA 형식이며, 각 값은 00에서 FF까지입니다.",
-          "Placeholder": "색상 HEX값 입력..."
-        },
-        "R": {
-          "Title": "빨강",
-          "Description": "빨강."
-        },
-        "G": {
-          "Title": "초록",
-          "Description": "초록."
-        },
-        "B": {
-          "Title": "파랑",
-          "Description": "파랑."
-        },
-        "H": {
-          "Title": "색조",
-          "Description": "색조."
-        },
-        "S": {
-          "Title": "채도",
-          "Description": "채도."
-        },
-        "V": {
-          "Title": "값",
-          "Description": "값."
-        },
-        "A": {
-          "Title": "투명도",
-          "Description": "투명도."
-        }
-      }
+      "Placeholder": "색상 HEX 입력..."
     },
     "DeviceOffsetField": {
       "Calibrate": "보정"
@@ -494,6 +457,10 @@
         "FullCombo": "풀 콤보",
         "AllPerfect": "완벽한 플레이"
       }
+    },
+    "PermissionError": {
+      "Description": "이 작업을 수행하는 데 필요한 권한을 얻을 수 없습니다.\n\n설정을 열어 Sonolus에 권한을 부여해 주십시오.",
+      "Open": "열기"
     }
   },
   "Themes": {
@@ -516,6 +483,7 @@
       }
     },
     "Service": {
+      "AuthenticationError": "Sonolus 인증이 만료되었습니다.\n\nSonolus 계정으로 로그인 후 재시도해 주십시오.",
       "UserProfile": {
         "Loading": "사용자 프로필 로드 중...",
         "Error": "\"{0}\" 사용자의 프로필을 불러올 수 없습니다.\n\n사용자 ID가 맞는지 확인하거나 인터넷 연결을 확인하고 다시 시도해 주십시오."
@@ -583,6 +551,9 @@
       "SonolusVersionError": "Sonolus {0} 버전만 지원하는 서버입니다.\n\nSonolus 앱을 업데이트하거나 서버 소유자에게 문의해 주십시오.",
       "SonolusVersionTooOld": "이전 버전의 Sonolus만 지원하는 서버입니다 ({0}).\n\n서버가 업데이트 될 때까지 기다리거나 서버 소유자에게 문의해 주십시오.",
       "Authentication": {
+        "NotLoggedInError": {
+          "Description": "Sonolus 계정으로 로그인되지 않았습니다.\n\n먼저 Sonolus 계정으로 로그인 후 재시도해 주십시오."
+        },
         "Required": {
           "NotLoggedInError": {
             "Description": "해당 서버를 이용하려면 Sonolus 계정 로그인이 필요합니다.\n\nSonolus 계정으로 로그인 후 재시도해 주십시오."
@@ -1927,6 +1898,7 @@
       "Play": "플레이",
       "Players": "플레이어",
       "Account": "계정",
+      "Link": "링크",
       "Settings": "설정",
       "UpdateAvailable": {
         "Title": "업데이트 가능",
@@ -1944,6 +1916,29 @@
           "Placeholder": "플레이어 ID 입력..."
         },
         "Lookup": "검색"
+      }
+    },
+    "Link": {
+      "Title": "링크",
+      "QRCode": {
+        "Title": "QR 코드",
+        "Camera": "카메라",
+        "Gallery": "갤러리"
+      },
+      "Text": {
+        "Title": "텍스트",
+        "TextLink": {
+          "Title": "텍스트 링크",
+          "Description": "\"sonolus://...\"와 같은 링크입니다.",
+          "Placeholder": "텍스트 링크 입력..."
+        },
+        "Open": "열기"
+      },
+      "NotDeepLink": {
+        "Description": "\"{0}\" 링크는 \"sonolus://...\"와 같이 시작하지 않습니다.\n\n맞춤 서버로 여시겠습니까?"
+      },
+      "LinkError": {
+        "Description": "유효한 링크를 찾을 수 없습니다."
       }
     },
     "Account": {
@@ -3035,6 +3030,17 @@
       },
       "Repository": {
         "Title": "저장소",
+        "AutoClean": {
+          "Title": "자동 정리",
+          "Description": "자동으로 매 실행마다 오래된 자원을 삭제하여 저장소를 정리합니다.",
+          "Options": {
+            "OneHundredMB": "100MB",
+            "FiveHundredMB": "500MB",
+            "OneGB": "1GB",
+            "FiveGB": "5GB",
+            "TenGB": "10GB"
+          }
+        },
         "Manage": "관리"
       },
       "Cache": {
@@ -3134,12 +3140,6 @@
     },
     "DiagnosticLogs": {
       "Title": "진단 로그"
-    }
-  },
-  "Scp": {
-    "PermissionError": {
-      "Description": "권한이 부족하여 작업을 수행할 수 없습니다.\n\n설정을 열어 Sonolus에 권한을 부여해 주십시오.",
-      "Open": "열기"
     }
   },
   "Runtimes": {
