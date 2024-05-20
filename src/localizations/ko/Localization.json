@@ -357,6 +357,7 @@
     "On": "켜짐",
     "Off": "꺼짐",
     "Select": "선택",
+    "Reset": "초기화",
     "Edit": "편집",
     "View": "보기",
     "Cancel": "취소",
@@ -375,6 +376,7 @@
     "PullToRefresh": "당겨서 새로고침",
     "Save": "저장",
     "Share": "공유",
+    "Export": "내보내기",
     "Update": "업데이트",
     "Delete": "삭제",
     "Copy": "복사",
@@ -392,6 +394,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "StandardOption": "표준 옵션입니다.",
     "AdvancedOption": "전문적인 플레이어를 위한 옵션입니다.",
     "Colors": "색상",
     "ColorField": {
@@ -964,6 +967,7 @@
           "Error": "\"{0}\" 엔진의 미리보기를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
         },
         "PlayData": {
+          "Loading": "엔진 플레이 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 플레이 모드 데이터를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
         },
         "WatchData": {
@@ -975,6 +979,7 @@
           "Error": "\"{0}\" 엔진 미리보기 모드 데이터를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
         },
         "TutorialData": {
+          "Loading": "엔진 튜토리얼 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 튜토리얼 모드 데이터를 불러올 수 없습니다.\n\n인터넷 연결을 확인하고 다시 시도하거나 서버 소유자에게 문의해 주십시오."
         },
         "Rom": {
@@ -1418,6 +1423,7 @@
           "Error": "\"{0}\" 엔진의 미리보기를 불러올 수 없습니다.\n\n이 엔진을 업데이트하거나 다른 엔진을 사용해 주십시오."
         },
         "PlayData": {
+          "Loading": "엔진 플레이 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 플레이 모드 데이터를 불러올 수 없습니다.\n\n이 엔진을 업데이트하거나 다른 엔진을 사용해 주십시오."
         },
         "WatchData": {
@@ -1425,9 +1431,11 @@
           "Error": "\"{0}\" 엔진 시청 모드 데이터를 불러올 수 없습니다.\n\n이 엔진을 업데이트하거나 다른 엔진을 사용해 주십시오."
         },
         "PreviewData": {
+          "Loading": "엔진 미리보기 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 미리보기 모드 데이터를 불러올 수 없습니다.\n\n이 엔진을 업데이트하거나 다른 엔진을 사용해 주십시오."
         },
         "TutorialData": {
+          "Loading": "엔진 튜토리얼 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 튜토리얼 모드 데이터를 불러올 수 없습니다.\n\n이 엔진을 업데이트하거나 다른 엔진을 사용해 주십시오."
         },
         "Rom": {
@@ -1875,6 +1883,7 @@
           "Error": "\"{0}\" 엔진의 미리보기를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "PlayData": {
+          "Loading": "엔진 플레이 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 플레이 모드 데이터를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "WatchData": {
@@ -1882,9 +1891,11 @@
           "Error": "\"{0}\" 엔진 시청 모드 데이터를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "PreviewData": {
+          "Loading": "엔진 미리보기 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 미리보기 모드 데이터를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "TutorialData": {
+          "Loading": "엔진 튜토리얼 모드 데이터를 불러오는 중...",
           "Error": "\"{0}\" 엔진 튜토리얼 모드 데이터를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Rom": {
@@ -2021,6 +2032,7 @@
     "JumpToPage": {
       "Title": "페이지로 이동",
       "Page": {
+        "Title": "페이지",
         "Description": "페이지 번호.",
         "Placeholder": "페이지 번호 입력..."
       },
@@ -2230,13 +2242,16 @@
       "Title": "커스텀 서버 추가",
       "Address": {
         "Title": "주소",
-        "Description": "커스텀 서버 주소는 일반 웹 URL(\"https://...\")이며, 보통은 커스텀 서버의 웹페이지에서 찾을 수 있습니다."
+        "Description": "커스텀 서버 주소는 일반 웹 URL(\"https://...\")이며, 보통은 커스텀 서버의 웹페이지에서 찾을 수 있습니다.",
+        "Placeholder": "커스텀 서버 주소 입력..."
       }
     },
     "AddCustomServerInfo": {
       "Title": "커스텀 서버 추가",
       "Name": {
-        "Description": "마음대로 이름을 지정할 수 있습니다."
+        "Title": "이름",
+        "Description": "마음대로 이름을 지정할 수 있습니다.",
+        "Placeholder": "커스텀 서버 이름 입력..."
       }
     },
     "EditCollection": {
@@ -2245,7 +2260,9 @@
     "AddCollection": {
       "Title": "모음집 추가",
       "Name": {
-        "Description": "원하는 이름을 설정할 수 있습니다."
+        "Title": "이름",
+        "Description": "원하는 이름을 설정할 수 있습니다.",
+        "Placeholder": "모음집 이름 입력..."
       }
     },
     "ImportScp": {
@@ -2280,6 +2297,8 @@
         "Description": "크기."
       },
       "Alpha": {
+        "Title": "투명도",
+        "Description": "투명도."
       }
     },
     "EditAnimation": {
@@ -2288,22 +2307,36 @@
         "Description": "크기."
       },
       "Alpha": {
+        "Title": "투명도",
+        "Description": "투명도."
       }
     },
     "EditTween": {
       "From": {
+        "Title": "시작",
+        "Description": "시작."
       },
       "To": {
+        "Title": "끝",
+        "Description": "끝."
       },
       "Duration": {
+        "Title": "길이",
+        "Description": "길이."
       },
       "Ease": {
+        "Title": "함수",
+        "Description": "함수."
       }
     },
     "EditColors": {
       "Foreground": {
+        "Title": "전경",
+        "Description": "전경 색."
       },
       "Background": {
+        "Title": "배경",
+        "Description": "배경 색."
       }
     },
     "CalibrateAudio": {
@@ -2333,7 +2366,9 @@
       "PlayerLookup": {
         "Title": "플레이어 검색",
         "Id": {
-          "Title": "플레이어 ID"
+          "Title": "플레이어 ID",
+          "Description": "플레이어 ID.",
+          "Placeholder": "플레이어 ID 입력..."
         },
         "Lookup": "검색"
       }
@@ -2398,27 +2433,41 @@
       "EditName": {
         "Title": "이름 수정",
         "Name": {
+          "Title": "이름",
+          "Description": "플레이어 이름.",
+          "Placeholder": "플레이어 이름 입력..."
         }
       },
       "EditAvatar": {
         "Title": "프로필 사진 수정",
         "Foreground": {
+          "Title": "전경",
+          "Description": "아바타 전경."
         },
         "Background": {
+          "Title": "배경",
+          "Description": "아바타 배경."
         }
       },
       "EditAboutMe": {
         "Title": "내 소개 수정",
         "AboutMe": {
           "Title": "내 소개",
-          "Description": "자신에 대한 간단한 설명입니다."
+          "Description": "자신에 대한 간단한 설명입니다.",
+          "Placeholder": "내 소개 입력..."
         }
       },
       "AddSocialLink": {
         "Title": "SNS 링크 추가",
         "SocialLinkTitle": {
+          "Title": "이름",
+          "Description": "이름.",
+          "Placeholder": "SNS 링크 이름 입력..."
         },
         "SocialLinkAddress": {
+          "Title": "주소",
+          "Description": "링크할 웹 URL (\"https://...\").",
+          "Placeholder": "SNS 링크 주소 입력..."
         }
       },
       "AddFavorite": {
@@ -2672,6 +2721,7 @@
         "Effect": {
           "Preview": {
             "Audio": {
+              "Loading": "SE 오디오를 디코딩하는 중...",
               "Error": "\"{0}\" SFX 오디오 디코딩에 실패했습니다.\n\nSFX 제작자에게 문의해 주십시오."
             },
             "Boot": {
@@ -2690,6 +2740,7 @@
         },
         "Engine": {
           "Actions": {
+            "Tutorial": "튜토리얼"
           },
           "Tutorial": {
             "Effect": {
@@ -2699,6 +2750,7 @@
               }
             },
             "Boot": {
+              "Loading": "튜토리얼 부팅 중...",
               "Error": "\"{0}\" 튜토리얼 부팅에 실패했습니다.\n\n엔진 제작자에게 문의해 주십시오."
             }
           },
@@ -2749,9 +2801,11 @@
           "Title": "레벨 설정",
           "Offsets": {
             "LevelAudioOffset": {
+              "Title": "레벨 오디오 오프셋",
               "Description": "이 레벨만 특히 싱크가 맞지 않을 때를 대비한 추가 오디오 오프셋입니다. 오디오가 늦다면 늘리고, 빠르다면 줄이십시오."
             },
             "ServerAudioOffset": {
+              "Title": "서버 오디오 오프셋",
               "Description": "이 서버의 레벨들이 싱크가 맞지 않을 때를 대비한 추가 오디오 오프셋입니다. 오디오가 늦다면 늘리고, 빠르다면 줄이십시오."
             }
           }
@@ -2764,6 +2818,8 @@
           "Image": {
             "Title": "이미지",
             "Blur": {
+              "Title": "블러",
+              "Description": "배경 이미지를 블러 처리합니다."
             },
             "Mask": {
               "Title": "마스크",
@@ -2799,25 +2855,44 @@
           },
           "UI": {
             "PrimaryMetric": {
+              "Title": "기본 메트릭",
+              "Description": "표시할 기본 메트릭."
             },
             "SecondaryMetric": {
+              "Title": "보조 메트릭",
+              "Description": "표시할 보조 메트릭."
             },
             "JudgmentErrorStyle": {
+              "Title": "특수 판정 스타일",
+              "Description": "특수 판정의 스타일입니다. 긍정적 특수 판정은 왼쪽에 표시되고, 부정적 특수 판정은 오른쪽에 표시됩니다."
             },
             "JudgmentErrorPlacement": {
+              "Title": "특수 판정 위치",
+              "Description": "특수 판정의 위치."
             },
             "JudgmentErrorMin": {
+              "Title": "특수 판정 최소값",
+              "Description": "특수 판정의 최소값입니다. 이 값보다 크게 나온 특수 판정만 표시됩니다."
             },
             "MenuStyle": {
+              "Title": "메뉴 스타일",
+              "Description": "메뉴의 스타일."
             },
             "JudgmentStyle": {
+              "Title": "판정 스타일",
+              "Description": "판정의 스타일."
             },
             "ComboStyle": {
-              "Title": "콤보 스타일"
+              "Title": "콤보 스타일",
+              "Description": "콤보의 스타일."
             },
             "PrimaryMetricStyle": {
+              "Title": "기본 메트릭 스타일",
+              "Description": "기본 메트릭의 스타일."
             },
             "SecondaryMetricStyle": {
+              "Title": "보조 메트릭 스타일",
+              "Description": "보조 메트릭의 스타일."
             },
             "ProgressStyle": {
               "Title": "진행 바 스타일",
@@ -2828,10 +2903,13 @@
               "Description": "튜토리얼 안내의 스타일."
             },
             "TutorialInstructionStyle": {
+              "Title": "튜토리얼 안내 스타일",
+              "Description": "튜토리얼 안내의 스타일."
             }
           },
           "Offsets": {
             "EngineInputOffset": {
+              "Title": "엔진 입력 오프셋",
               "Description": "0 사용을 권장합니다.\n\n이 엔진을 플레이하며 문제가 있을 때를 대비한 추가 입력 오프셋입니다. 입력이 늦다고 느껴지면 늘리고, 빠르다면 줄이십시오."
             }
           }
@@ -3233,9 +3311,12 @@
           }
         },
         "GpuParticleSystem": {
+          "Title": "GPU 파티클 시스템",
           "Description": "꺼두는 것을 추천합니다.\n\nSonolus는 기본적으로 CPU 파티클 시스템을 사용합니다. 켜면 GPU 파티클 시스템이 대신 사용됩니다. 대부분의 모바일 장치에서 GPU는 CPU보다 성능이 좋지 않으므로 권장되지 않습니다."
         },
         "IgnoreNotch": {
+          "Title": "노치 무시",
+          "Description": "Sonolus는 기본적으로 기기의 노치를 고려하여 화면이 잘 표시되도록 합니다. 이 기능을 켜면 Sonolus는 노치를 무시하고 전체 화면으로 렌더링하므로 그래픽이 부분적으로 가려질 수 있습니다."
         }
       },
       "Audio": {
@@ -3249,6 +3330,7 @@
           "Description": "효과음의 음량입니다."
         },
         "UIVolume": {
+          "Title": "UI 음량",
           "Description": "UI의 음량입니다."
         },
         "AlwaysDecodeLevelBgm": {
@@ -3256,6 +3338,7 @@
           "Description": "꺼두는 것을 추천합니다.\n\nSonolus는 기본적으로 최상의 성능을 위해 운영 체제의 기본 오디오 기능을 사용하며, 해당 형식이 기본적으로 지원되지 않는 경우에만 레벨 음악을 디코딩합니다. 이 기능을 켜면 Sonolus는 항상 음악을 디코딩합니다."
         },
         "PreviewBgm": {
+          "Title": "음악 미리듣기",
           "Description": "음악 미리듣기 위치입니다.",
           "Options": {
             "List": "목록",
@@ -3273,6 +3356,7 @@
           }
         },
         "PreviewBgmQuality": {
+          "Title": "음악 미리듣기 품질",
           "Description": "중간으로 두는 것을 추천합니다.\n\nSonolus는 기본적으로 최상의 성능을 위해 운영 체제의 기본 오디오 기능을 사용하며, 해당 형식이 기본적으로 지원되지 않는 경우에만 음악 미리듣기를 디코딩합니다. 음악 미리듣기는 이 품질로 디코딩됩니다.",
           "Options": {
             "Low": "낮음",
@@ -3326,6 +3410,7 @@
           "Description": "콘텐츠에서 사용할 언어입니다. 커스텀 서버는 가능한 경우 이 언어로 콘텐츠를 제공할 수 있습니다."
         },
         "Theme": {
+          "Title": "테마",
           "Description": "사용할 색상 테마입니다."
         },
         "Scale": {
@@ -3333,20 +3418,28 @@
           "Description": "사용할 UI 크기입니다. 글씨가 작아서 보이지 않는다면 늘리고, 화면에 더 많은 콘텐츠를 표시하려면 줄이십시오."
         },
         "PerfectJudgmentColors": {
+          "Title": "Perfect 판정 색",
           "Description": "Perfect 판정 색상입니다."
         },
         "GreatJudgmentColors": {
+          "Title": "Great 판정 색",
           "Description": "Great 판정 색상입니다."
         },
         "GoodJudgmentColors": {
+          "Title": "Good 판정 색",
           "Description": "Good 판정 색상입니다."
         },
         "MissJudgmentColors": {
+          "Title": "Miss 판정 색",
           "Description": "Miss 판정 색상입니다."
         },
         "PositiveJudgmentErrorColors": {
+          "Title": "긍정적 특수 판정 색",
+          "Description": "긍정적 특수 판정의 색."
         },
         "NegativeJudgmentErrorColors": {
+          "Title": "부정적 특수 판정 색",
+          "Description": "부정적 특수 판정의 색."
         },
         "AllPerfectComboColors": {
           "Title": "올 퍼펙트 콤보 색상",
@@ -3357,8 +3450,12 @@
           "Description": "등급이 풀 콤보일 때의 콤보 색상입니다."
         },
         "PassComboColors": {
+          "Title": "Pass 콤보 색",
+          "Description": "Pass 등급일 때의 콤보 색입니다."
         },
         "FailComboColors": {
+          "Title": "Fail 콤보 색",
+          "Description": "Fail 등급일 때의 콤보 색상입니다."
         },
         "BoldComboNumber": {
           "Title": "굵은 콤보 숫자",
@@ -3385,6 +3482,7 @@
           "Description": "0으로 사용하는 걸 추천합니다.\n\n기기의 오디오 오프셋입니다. 스피커를 사용하는 대부분의 기기에서는 0을 사용하면 됩니다. 블루투스는 권장되지 않아요. 오디오가 늦다고 느껴지면 늘리고, 빠르다면 줄이십시오."
         },
         "DeviceInputOffset": {
+          "Title": "기기 입력 오프셋",
           "Description": "0으로 사용하는 걸 추천합니다.\n\n기기의 입력 오프셋입니다. 이러한 설정을 제공하지 않는 게임에 익숙하다면 0으로 두어도 됩니다. 입력이 늦다고 느껴지면 늘리고, 빠르다면 줄이십시오.\n"
         }
       },
@@ -3406,18 +3504,23 @@
       "Cache": {
         "Title": "캐시",
         "AlwaysRevalidate": {
-          "Title": "항상 재검증"
+          "Title": "항상 재검증",
+          "Description": "끄는 것이 좋습니다.\n\nSonolus는 기본적으로 리소스가 오래된 후에만 재검증을 합니다. 이 기능을 켜면 리소스를 사용하기 전에 항상 재검증하게 됩니다."
         },
         "Manage": "관리"
       },
       "Developer": {
         "Title": "개발자",
         "ShowFps": {
+          "Title": "FPS 보이기",
+          "Description": "화면 왼쪽 아래에 FPS 카운터를 표시합니다."
         },
         "FpsStyle": {
+          "Title": "FPS 스타일",
           "Description": "FPS 카운터의 스타일입니다."
         },
         "ShowTouches": {
+          "Title": "터치 표시",
           "Description": "터치 위치를 표시합니다. 동영상 촬영에서 입력을 표시하는 데 유용합니다."
         },
         "DebugMode": {
@@ -3425,6 +3528,7 @@
           "Description": "디버그 모드를 사용하면 실행할 특정 코드를 디버그하고 화면 좌측 하단에 디버그 로그를 표시할 수 있습니다."
         },
         "DebugLogStyle": {
+          "Title": "디버그 로그 스타일",
           "Description": "디버그 로그의 스타일입니다."
         },
         "DiagnosticLogs": {
