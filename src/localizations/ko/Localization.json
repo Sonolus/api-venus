@@ -1,6 +1,7 @@
 {
   "Meta": {
-    "Name": "ko"
+    "Name": "ko",
+    "Title": "한국어 (Korean)"
   },
   "Texts": {
   },
@@ -1825,6 +1826,8 @@
             "ProgressStyle": {
             },
             "TutorialNavigationStyle": {
+              "Title": "튜토리얼 안내 스타일",
+              "Description": "튜토리얼 안내의 스타일."
             },
             "TutorialInstructionStyle": {
             }
