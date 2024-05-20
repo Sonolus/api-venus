@@ -4,8 +4,53 @@
     "Title": "한국어 (Korean)"
   },
   "Texts": {
+    "#TITLE": "제목",
+    "#SUBTITLE": "부제목",
+    "#GENRE": "장르",
+    "#HIDDEN": "숨김김",
+    "#JUDGMENT_STRICT": "엄격한 판정",
+    "#JUDGMENT_LOOSE": "느슨한 판정",
+    "#SLOT": "슬롯",
+    "#SLOT_POSITION": "슬롯 위치",
+    "#SLOT_SIZE": "슬롯 크기",
+    "#SLOT_ROTATION": "슬롯 회전",
+    "#SLOT_ALPHA": "슬롯 투명도",
+    "#SLOT_ANIMATION": "슬롯 애니메이션",
+    "#SLOT_EFFECT": "슬롯 효과",
+    "#SLOT_EFFECT_POSITION": "슬롯 효과 위치",
+    "#SLOT_EFFECT_SIZE": "슬롯 효과 크기",
+    "#SLOT_EFFECT_ROTATION": "슬롯 효과 회전",
+    "#SLOT_EFFECT_ALPHA": "슬롯 효과 투명도",
+    "#RATING_PLACEHOLDER": "레이팅 입력...",
+    "#RATING_MINIMUM_PLACEHOLDER": "최소 레이팅 입력...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "최대 레이팅 입력...",
+    "#SUBTITLE_PLACEHOLDER": "부제목 입력...",
+    "#GENRE_PLACEHOLDER": "장르 입력...",
+    "#TAP": "탭",
+    "#TAP_HOLD": "탭 및 누르고 있기",
+    "#TAP_RELEASE": "탭하고 때기",
+    "#TAP_FLICK": "탭하고 긋기",
+    "#TAP_SLIDE": "탭하고 슬라이드",
+    "#RELEASE": "때기",
+    "#FLICK": "긋기",
+    "#SLIDE": "슬라이드",
+    "#SLIDE_FLICK": "슬라이드하고 긋기",
+    "#FEATURED": "추천",
+    "#MAINTENANCE": "점검",
+    "#RELATED": "관련",
+    "#SAME_RATING": "동일 레이팅",
+    "#COUNTRY": "컨트리리",
+    "#FOLK": "민요",
+    "#INDIE": "인디디",
+    "#INSTRUMENTAL": "연주곡",
+    "#TEAM_RED": "빨강 팀",
+    "#TEAM_BLUE": "파랑 팀",
+    "#TEAM_YELLOW": "노랑 팀",
+    "#TEAM_WHITE": "하양 팀",
+    "#TEAM_BLACK": "검정 팀"
   },
   "Common": {
+    "Loading": "불러오는 중...",
     "On": "켜짐",
     "Off": "꺼짐",
     "Select": "선택",
@@ -33,12 +78,14 @@
     "Judgment": "판정",
     "Accuracy": "정확도",
     "Grade": "등급",
+    "ArcadeScore": "아케이드 점수",
     "AccuracyScore": "정확도 점수",
     "Combo": "콤보",
     "Perfect": "Perfect",
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "AdvancedOption": "전문적인 플레이어를 위한 옵션입니다.",
     "ColorField": {
     },
     "DeviceOffsetField": {
@@ -50,6 +97,7 @@
     },
     "UI": {
       "Metric": {
+        "Arcade": "아케이드 점수",
         "Accuracy": "정확도 점수",
         "Life": "라이프",
         "PerfectRate": "Perfect 레이트",
@@ -141,6 +189,7 @@
       "UserProfile": {
       },
       "Login": {
+        "Loading": "로그인 중...",
         "Success": {
           "New": {
             "Title": "가입 완료"
@@ -158,20 +207,25 @@
       "EditAvatar": {
         "Loading": "프로필 사진을 수정하는 중...",
         "Success": {
+          "Title": "프로필 사진 수정됨"
         }
       },
       "EditAboutMe": {
+        "Loading": "내 소개를 수정하는 중...",
         "Success": {
+          "Title": "내 소개 수정됨"
         }
       },
       "EditSocialLinks": {
         "Loading": "SNS 링크를 수정하는 중...",
         "Success": {
+          "Title": "SNS 링크 수정됨"
         }
       },
       "EditFavorites": {
         "Loading": "즐겨찾기를 수정하는 중...",
         "Success": {
+          "Title": "즐겨찾기 수정됨"
         }
       },
       "Authenticate": {
@@ -378,6 +432,7 @@
         "List": {
         },
         "Details": {
+          "Loading": "SFX 상세 정보를 불러오는 중..."
         },
         "Community": {
           "Loading": "효과음 커뮤니티 불러오는 중...",
@@ -396,10 +451,13 @@
         "Compatibility": {
         },
         "Thumbnail": {
+          "Loading": "SFX 미리보기를 불러오는 중..."
         },
         "Data": {
+          "Loading": "SFX 데이터를 불러오는 중..."
         },
         "Audio": {
+          "Loading": "SFX 오디오를 불러오는 중..."
         }
       },
       "Particle": {
@@ -466,6 +524,7 @@
         "WatchData": {
         },
         "PreviewData": {
+          "Loading": "엔진 미리보기 모드 데이터를 불러오는 중..."
         },
         "TutorialData": {
         },
@@ -716,6 +775,8 @@
         "List": {
         },
         "Details": {
+          "Loading": "SFX 상세 정보를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 상세 정보를 불러올 수 없습니다.\n\n모음집이 손상되었을 수 있습니다."
         },
         "Community": {
           "Loading": "효과음 커뮤니티 불러오는 중...",
@@ -734,10 +795,13 @@
         "Compatibility": {
         },
         "Thumbnail": {
+          "Loading": "SFX 미리보기를 불러오는 중..."
         },
         "Data": {
+          "Loading": "SFX 데이터를 불러오는 중..."
         },
         "Audio": {
+          "Loading": "SFX 오디오를 불러오는 중..."
         }
       },
       "Particle": {
@@ -1056,6 +1120,8 @@
         "List": {
         },
         "Details": {
+          "Loading": "SFX 상세 정보를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 상세 정보를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Community": {
           "Loading": "효과음 커뮤니티 불러오는 중...",
@@ -1074,10 +1140,16 @@
         "Compatibility": {
         },
         "Thumbnail": {
+          "Loading": "SFX 미리보기를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 미리보기를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Data": {
+          "Loading": "SFX 데이터를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 데이터를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         },
         "Audio": {
+          "Loading": "SFX 오디오를 불러오는 중...",
+          "Error": "\"{0}\" SFX의 오디오를 불러올 수 없습니다.\n\n패키지가 지원되지 않거나 손상되었을 수 있습니다."
         }
       },
       "Particle": {
@@ -1242,7 +1314,8 @@
     "JumpToPage": {
       "Title": "페이지로 이동",
       "Page": {
-      }
+      },
+      "Jump": "이동"
     },
     "SelectLocalization": {
       "Title": "언어 선택"
@@ -1374,6 +1447,7 @@
     "AddCustomServerAddress": {
       "Title": "커스텀 서버 추가",
       "Address": {
+        "Title": "주소"
       }
     },
     "AddCustomServerInfo": {
@@ -1387,6 +1461,7 @@
     "AddCollection": {
       "Title": "모음집 추가",
       "Name": {
+        "Description": "원하는 이름을 설정할 수 있습니다."
       }
     },
     "ImportScp": {
@@ -1455,6 +1530,7 @@
       "PlayerLookup": {
         "Title": "플레이어 검색",
         "Id": {
+          "Title": "플레이어 ID"
         },
         "Lookup": "검색"
       }
@@ -1491,6 +1567,7 @@
           "EditAvatar": "프로필 사진 수정"
         },
         "AboutMe": {
+          "Title": "내 소개"
         },
         "SocialLinks": {
           "Title": "SNS 링크",
@@ -1514,7 +1591,9 @@
         }
       },
       "EditAboutMe": {
+        "Title": "내 소개 수정",
         "AboutMe": {
+          "Title": "내 소개"
         }
       },
       "AddSocialLink": {
@@ -1529,6 +1608,7 @@
         "Level": "레벨",
         "Skin": "스킨",
         "Background": "배경",
+        "Effect": "SFX",
         "Engine": "엔진"
       }
     },
@@ -1600,7 +1680,9 @@
           }
         },
         "Effect": {
+          "Title": "SFX",
           "ShareSuccess": {
+            "Title": "SFX 링크 복사됨"
           }
         },
         "Particle": {
@@ -1653,11 +1735,13 @@
         },
         "Level": {
           "Actions": {
-            "Play": "플레이"
+            "Play": "플레이",
+            "Preview": "미리보기"
           },
           "Play": {
             "Effect": {
               "Audio": {
+                "Loading": "SFX 오디오를 디코딩 하는 중..."
               }
             },
             "Level": {
@@ -1682,6 +1766,7 @@
           },
           "Preview": {
             "Boot": {
+              "Loading": "레벨 부팅 중..."
             }
           },
           "ShareSuccess": {
@@ -1708,9 +1793,11 @@
             "Audio": {
             },
             "Boot": {
+              "Loading": "SFX 부팅 중..."
             }
           },
           "ShareSuccess": {
+            "Title": "효과 링크 복사됨"
           }
         },
         "Particle": {
@@ -1780,10 +1867,13 @@
             "Blur": {
             },
             "Mask": {
+              "Title": "마스크",
+              "Description": "마스크는 배경 이미지를 어둡게 하거나 색상을 조정하는 데 사용할 수 있습니다."
             }
           }
         },
         "Effect": {
+          "Title": "효과 설정"
         },
         "Particle": {
         },
@@ -1818,6 +1908,7 @@
             "JudgmentStyle": {
             },
             "ComboStyle": {
+              "Title": "콤보 스타일"
             },
             "PrimaryMetricStyle": {
             },
@@ -2089,14 +2180,23 @@
       "Graphics": {
         "Title": "그래픽",
         "TargetFps": {
+          "Title": "목표 FPS",
+          "Description": "기기 주사율과 동일하게 설정할 것을 권장합니다.\n\nSonolus는 해당 FPS에서 실행되도록 되어있지만, 기기가 이를 수행할 능력이 충분하다는 보장은 없습니다."
         },
         "RenderMode": {
+          "Title": "렌더 모드",
+          "Description": "표준 렌더 모드 사용을 권장합니다.\n\n표준 렌더 모드는 정확한 그래픽을 제공하며, 경량 렌더 모드는 다소 부정확한 그래픽을 제공하지만 성능이 대폭 상향됩니다.",
           "Options": {
+            "Standard": "표준",
+            "Lightweight": "경량"
           }
         },
         "RenderScale": {
+          "Description": "100% 사용을 권장합니다.\n\nSonolus는 이 스케일에서 렌더링하며 화면 크기에 맞게 크기를 늘리거나 줄입니다. 렌더 스케일이 100%보다 높은 경우 그래픽이 향상되는 대신 성능이 저하되며, 반대로 100%보다 낮은 경우 성능이 향상되는 대신 그래픽이 저하됩니다."
         },
         "AntiAliasing": {
+          "Title": "계단현상 방지",
+          "Description": "끄는 것을 권장합니다.\n\n계단현상 방지는 물체의 가장자리 주변의 각진 부분을 최소화하여 그래픽을 향상시키는 대신 성능이 저하됩니다.",
           "Options": {
             "Off": "끄기",
             "TwoX": "2x",
@@ -2165,28 +2265,40 @@
         "Scale": {
         },
         "PerfectJudgmentColors": {
+          "Description": "Perfect 판정 색상입니다."
         },
         "GreatJudgmentColors": {
+          "Description": "Great 판정 색상입니다."
         },
         "GoodJudgmentColors": {
+          "Description": "Good 판정 색상입니다."
         },
         "MissJudgmentColors": {
+          "Description": "Miss 판정 색상입니다."
         },
         "PositiveJudgmentErrorColors": {
         },
         "NegativeJudgmentErrorColors": {
         },
         "AllPerfectComboColors": {
+          "Title": "올 퍼펙트 콤보 색상",
+          "Description": "등급이 올 퍼펙트일 때의 콤보 색상입니다."
         },
         "FullComboComboColors": {
+          "Title": "풀 콤보 콤보 색상",
+          "Description": "등급이 풀 콤보일 때의 콤보 색상입니다."
         },
         "PassComboColors": {
         },
         "FailComboColors": {
         },
         "BoldComboNumber": {
+          "Title": "굵은 콤보 숫자",
+          "Description": "콤보 숫자에 굵은 글씨체를 사용합니다."
         },
         "ShowZeroCombo": {
+          "Title": "0콤보 표시",
+          "Description": "콤보가 0일 때 콤보를 표시합니다."
         },
         "TouchStyle": {
         }
@@ -2197,6 +2309,7 @@
           "Title": "기기"
         },
         "DeviceAudioOffset": {
+          "Title": "기기 오디오 오프셋"
         },
         "DeviceInputOffset": {
         }
@@ -2212,6 +2325,7 @@
       "Cache": {
         "Title": "캐시",
         "AlwaysRevalidate": {
+          "Title": "항상 재검증"
         },
         "Manage": "관리"
       },
@@ -2222,8 +2336,11 @@
         "FpsStyle": {
         },
         "ShowTouches": {
+          "Description": "터치 위치를 표시합니다. 동영상 촬영에서 입력을 표시하는 데 유용합니다."
         },
         "DebugMode": {
+          "Title": "디버그 모드",
+          "Description": "디버그 모드를 사용하면 실행할 특정 코드를 디버그하고 화면 좌측 하단에 디버그 로그를 표시할 수 있습니다."
         },
         "DebugLogStyle": {
         },
@@ -2268,10 +2385,12 @@
       },
       "DeleteCache": {
         "Title": "캐시 삭제",
+        "Description": "캐시를 모두 삭제하면 Sonolus가 모든 네트워크 요청을 다시 다운로드하게 합니다. 권장하지 않습니다.",
         "Delete": "삭제",
         "DeleteConfirmation": {
         },
         "Success": {
+          "Title": "캐시 삭제됨"
         }
       }
     },
@@ -2292,7 +2411,9 @@
           },
           "Pause": {
             "Snapshot": {
-              "Title": "스냅샷"
+              "Title": "스냅샷",
+              "Mark": "표시",
+              "Jump": "이동"
             }
           },
           "Result": {
@@ -2312,6 +2433,8 @@
           "Judgment": {
           },
           "Accuracy": {
+            "Mean": "평균",
+            "StDev": "표준편차"
           },
           "Bucket": {
           }
