@@ -3325,9 +3325,9 @@
           "Title": "음악 음량",
           "Description": "음악의 음량입니다."
         },
-        "효과음Volume": {
-          "Title": "효과음 음량",
-          "Description": "효과음의 음량입니다."
+        "SfxVolume": {
+          "Title": "효과음 볼륨",
+          "Description": "효과음의 볼륨입니다."
         },
         "UIVolume": {
           "Title": "UI 음량",
