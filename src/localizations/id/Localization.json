@@ -31,6 +31,10 @@
     "#LENGTH_MINIMUM": "Panjang Minimal",
     "#LENGTH_MAXIMUM": "Panjang Maksimal",
     "#ADDITIONAL_INFORMATION": "Informasi Tambahan",
+    "#CONTENT": "Konten",
+    "#COMMENT": "Komen",
+    "#REVIEW": "Ulasan",
+    "#REPLY": "Balas",
     "#SPEED": "Kecepatan Level",
     "#MIRROR": "Mirror Level",
     "#RANDOM": "Acak",
@@ -191,6 +195,10 @@
     "#LENGTH_MINIMUM_PLACEHOLDER": "Masukkan durasi minimum...",
     "#LENGTH_MAXIMUM_PLACEHOLDER": "Masukkan durasi maksimum...",
     "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Masukkan informasi tambahan...",
+    "#CONTENT_PLACEHOLDER": "Masukkan konten...",
+    "#COMMENT_PLACEHOLDER": "Masukkan komen...",
+    "#REVIEW_PLACEHOLDER": "Masukkan ulasan...",
+    "#REPLY_PLACEHOLDER": "Masukkan balasan...",
     "#PERCENTAGE_UNIT": "{0}%",
     "#SECOND_UNIT": "{0} s",
     "#MILLISECOND_UNIT": "{0} ms",
@@ -314,11 +322,38 @@
     "#TEAM_PURPLE": "Tim Ungu",
     "#TEAM_CYAN": "Tim Cyan",
     "#TEAM_WHITE": "Tim Putih",
-    "#TEAM_BLACK": "Tim Hitam"
+    "#TEAM_BLACK": "Tim Hitam",
+    "#LIKE": "Suka",
+    "#LIKED": "Disukai",
+    "#DISLIKE": "Tidak suka",
+    "#DISLIKED": "Tidak disukai",
+    "#BOOKMARK": "Tandai",
+    "#BOOKMARKED": "Ditandai",
+    "#DELETE": "Hapus",
+    "#EDIT": "Edit",
+    "#CONFIRM": "Konfirmasi",
+    "#CANCEL": "Batal",
+    "#INCREASE": "Meningkat",
+    "#DECREASE": "Menurun",
+    "#UPVOTE": "Upvote",
+    "#UPVOTED": "Diupvote",
+    "#DOWNVOTE": "Downvote",
+    "#DOWNVOTED": "Didownvote",
+    "#AGREE": "Setuju",
+    "#AGREED": "Disetujui",
+    "#DISAGREE": "Tidak setuju",
+    "#DISAGREED": "Tidak disetujui",
+    "#LOCK": "Kunci",
+    "#UNLOCK": "Dikunci",
+    "#SHOW": "Tampilkan",
+    "#HIDE": "Sembunyikan",
+    "#STAR": "Star",
+    "#STARRED": "Starred"
   },
   "Common": {
     "Separator": ", ",
     "Loading": "Memuat...",
+    "More": "Selebihnya",
     "On": "ON",
     "Off": "OFF",
     "Select": "Pilih",
@@ -363,44 +398,7 @@
     "AdvancedOption": "Opsi ini untuk pemain tingkat lanjut.",
     "Colors": "Warna",
     "ColorField": {
-      "Hex": "HEX",
-      "Rgb": "RGB",
-      "Hsv": "HSV",
-      "Components": {
-        "Hex": {
-          "Title": "Hex",
-          "Description": "#RRGGBB, atau #RRGGBBAA, dimana setiap komponen adalah 00 hingga FF.",
-          "Placeholder": "Masukkan warna hex..."
-        },
-        "R": {
-          "Title": "Merah",
-          "Description": "Merah."
-        },
-        "G": {
-          "Title": "Hijau",
-          "Description": "Hijau."
-        },
-        "B": {
-          "Title": "Biru",
-          "Description": "Biru."
-        },
-        "H": {
-          "Title": "Hue",
-          "Description": "Hue."
-        },
-        "S": {
-          "Title": "Saturasi",
-          "Description": "Saturasi"
-        },
-        "V": {
-          "Title": "Value",
-          "Description": "Value."
-        },
-        "A": {
-          "Title": "Alpha",
-          "Description": "Alpha."
-        }
-      }
+      "Placeholder": "Masukkan warna hex..."
     },
     "DeviceOffsetField": {
       "Calibrate": "Kalibrasi"
@@ -494,6 +492,10 @@
         "FullCombo": "Full Combo",
         "AllPerfect": "All Perfect"
       }
+    },
+    "PermissionError": {
+      "Description": "Sonolus tidak dapat memperoleh izin yang diperlukan untuk melakukan tindakan ini.\n\nSilakan buka Pengaturan dan berikan izin Sonolus.",
+      "Open": "Buka"
     }
   },
   "Themes": {
@@ -516,6 +518,7 @@
       }
     },
     "Service": {
+      "AuthenticationError": "Autentikasi Sonolus Anda telah kedaluwarsa.\n\nSilakan masuk dengan akun Sonolus Anda dan coba lagi.",
       "UserProfile": {
         "Loading": "Memuat profil pengguna...",
         "Error": "Gagal memuat profil pengguna \"{0}\".\n\nSilakan periksa apakah ID pengguna sudah benar, atau periksa koneksi internet Anda dan coba lagi."
@@ -583,6 +586,9 @@
       "SonolusVersionError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilakan perbarui Sonolus Anda, atau hubungi pemilik server untuk melaporkan masalah tersebut.",
       "SonolusVersionTooOld": "Server ini hanya mendukung Sonolus versi lama ({0}).\n\nHarap tunggu hingga server diperbarui, atau hubungi pemilik server untuk melaporkan masalah tersebut.",
       "Authentication": {
+        "NotLoggedInError": {
+          "Description": "Anda belum masuk ke akun Sonolus.\n\nSilakan masuk dengan akun Sonolus Anda terlebih dahulu dan coba lagi."
+        },
         "Required": {
           "NotLoggedInError": {
             "Description": "Server ini membutuhkan untuk masuk ke akun tapi Anda belum masuk ke akun Sonolus.\n\nSilakan masuk ke akun Sonolus Anda dan coba kembali."
@@ -638,6 +644,20 @@
           "Loading": "Memuat detail post...",
           "Error": "Gagal memuat detail post \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Community": {
+          "Loading": "Memuat komunitas post...",
+          "Error": "Gagal memuat komunitas post \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas post...",
+            "Error": "Gagal mengirim ke komunitas post \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen post...",
+              "Error": "Gagal memuat komen post di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas post...",
           "Error": "Post \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan post yang berbeda, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -660,6 +680,20 @@
           "Loading": "Memuat detail playlist...",
           "Error": "Gagal memuat detail playlist \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Community": {
+          "Loading": "Memuat komunitas playlist...",
+          "Error": "Gagal memuat komunitas playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas playlist...",
+            "Error": "Gagal mengirimkan ke komunitas playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen playlist...",
+              "Error": "Gagal memuat komen playlist di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas playlist...",
           "Error": "Playlist \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan playlist yang berbeda, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -681,6 +715,20 @@
         "Details": {
           "Loading": "Memuat detail level...",
           "Error": "Gagal memuat detail level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas level...",
+          "Error": "Gagal memuat komunitas level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas level...",
+            "Error": "Gagal mengirim ke komunitas level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen level...",
+              "Error": "Gagal memuat komen level di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas level...",
@@ -716,6 +764,20 @@
           "Loading": "Memuat detail skin...",
           "Error": "Gagal memuat detail skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Community": {
+          "Loading": "Memuat komunitas skin...",
+          "Error": "Gagal memuat komunitas skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas skin...",
+            "Error": "Gagal mengirim ke komunitas skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen skin...",
+              "Error": "Gagal memuat komen skin di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas skin...",
           "Error": "Skin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan skin yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
@@ -745,6 +807,20 @@
         "Details": {
           "Loading": "Memuat detail latar...",
           "Error": "Gagal memuat detail latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas latar...",
+          "Error": "Gagal memuat komunitas latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas latar...",
+            "Error": "Gagal mengirim ke komunitas latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen latar...",
+              "Error": "Gagal memuat komen latar di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas latar...",
@@ -780,6 +856,20 @@
           "Loading": "Memuat detail SFX...",
           "Error": "Gagal memuat detail SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Community": {
+          "Loading": "Memuat komunitas SFX...",
+          "Error": "Gagal memuat komunitas SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas SFX...",
+            "Error": "Gagal mengirim ke komunitas SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen SFX...",
+              "Error": "Gagal memuat komen SFX di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas SFX...",
           "Error": "SFX \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan SFX yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
@@ -810,6 +900,20 @@
           "Loading": "Memuat detail partikel...",
           "Error": "Gagal memuat detail partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Community": {
+          "Loading": "Memuat komunitas partikel...",
+          "Error": "Gagal memuat komunitas partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas partikel...",
+            "Error": "Gagal mengirim ke komunitas partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen partikel...",
+              "Error": "Gagal memuat komen partikel di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas partikel...",
           "Error": "Partikel \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan partikel yang berbeda, atau hubungi pemilik server untuk melaporkan masalah tersebut."
@@ -839,6 +943,20 @@
         "Details": {
           "Loading": "Memuat detail mesin...",
           "Error": "Gagal memuat detail mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas mesin...",
+          "Error": "Gagal memuat komunitas mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas mesin...",
+            "Error": "Gagal mengirim ke komunitas mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen mesin...",
+              "Error": "Gagal memuat komen mesin {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas mesin...",
@@ -886,6 +1004,20 @@
           "Loading": "Memuat detail replay...",
           "Error": "Gagal memuat detail replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
         },
+        "Community": {
+          "Loading": "Memuat komunitas replay...",
+          "Error": "Gagal memuat komunitas replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas replay...",
+            "Error": "Gagal mengirim ke komunitas replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen replay...",
+              "Error": "Gagal memuat komen replay di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas replay...",
           "Error": "Replay \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan gunakan replay yang berbeda, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -911,6 +1043,20 @@
         "Details": {
           "Loading": "Memuat detail ruang...",
           "Error": "Gagal memuat detail ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas ruang...",
+          "Error": "Gagal memuat komunitas ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas ruang...",
+            "Error": "Gagal mengirim ke komunitas ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen ruang...",
+              "Error": "Gagal memuat komen ruang di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas ruang...",
@@ -954,6 +1100,20 @@
           "Loading": "Memuat detail post...",
           "Error": "Gagal memuat detail post \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas post...",
+          "Error": "Gagal memuat komunitas post \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas post...",
+            "Error": "Gagal mengirim ke komunitas post \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen post...",
+              "Error": "Gagal memuat komen post di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas post...",
           "Error": "Post \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui post ini, atau gunakan post yang berbeda."
@@ -976,6 +1136,20 @@
           "Loading": "Memuat detail playlist...",
           "Error": "Gagal memuat detail playlist \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas playlist...",
+          "Error": "Gagal memuat komunitas playlist \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas playlist...",
+            "Error": "Gagal mengirim ke komunitas playlist \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen playlist...",
+              "Error": "Gagal memuat komen playlist di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas playlist...",
           "Error": "Playlist \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui playlist ini, atau gunakan playlist yang berbeda."
@@ -997,6 +1171,20 @@
         "Details": {
           "Loading": "Memuat detail level...",
           "Error": "Gagal memuat detail level \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas level...",
+          "Error": "Gagal memuat komunitas level \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas level...",
+            "Error": "Gagal memuat komunitas level \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen level...",
+              "Error": "Gagal memuat komen level di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas level...",
@@ -1032,6 +1220,20 @@
           "Loading": "Memuat detail skin...",
           "Error": "Gagal memuat detail skin \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas skin...",
+          "Error": "Gagal memuat komunitas skin \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas skin...",
+            "Error": "Gagal mengirim ke komunitas skin \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen skin...",
+              "Error": "Gagal memuat komen skin di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas skin...",
           "Error": "Skin \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui skin ini, atau gunakan skin yang berbeda."
@@ -1061,6 +1263,20 @@
         "Details": {
           "Loading": "Memuat detail latar...",
           "Error": "Gagal memuat detail latar \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas latar...",
+          "Error": "Gagal memuat komunitas latar \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas latar...",
+            "Error": "Gagal mengirim ke komunitas latar \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen latar...",
+              "Error": "Gagal memuat komen latar di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas latar...",
@@ -1096,6 +1312,20 @@
           "Loading": "Memuat detail SFX...",
           "Error": "Gagal memuat detail SFX \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas SFX...",
+          "Error": "Gagal memuat komunitas SFX \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas SFX...",
+            "Error": "Gagal mengirim ke komunitas SFX \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen SFX...",
+              "Error": "Gagal memuat komen SFX di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas SFX...",
           "Error": "SFX \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui SFX ini, atau gunakan SFX yang berbeda."
@@ -1126,6 +1356,20 @@
           "Loading": "Memuat detail partikel...",
           "Error": "Gagal memuat detail partikel \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas partikel...",
+          "Error": "Gagal memuat komunitas partikel \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas partikel...",
+            "Error": "Gagal mengirim ke komunitas partikel \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen partikel...",
+              "Error": "Gagal memuat komen partikel di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas partikel...",
           "Error": "Partikel \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui partikel ini, atau gunakan partikel yang berbeda"
@@ -1155,6 +1399,20 @@
         "Details": {
           "Loading": "Memuat detail mesin...",
           "Error": "Gagal memuat detail mesin \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas mesin...",
+          "Error": "Gagal memuat komunitas mesin \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas mesin...",
+            "Error": "Gagal mengirim ke komunitas mesin \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen mesin...",
+              "Error": "Gagal memuat komen mesin di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas mesin...",
@@ -1202,6 +1460,20 @@
           "Loading": "Memuat detail replay...",
           "Error": "Gagal memuat detail replay \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas replay...",
+          "Error": "Gagal memuat komunitas replay \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas replay...",
+            "Error": "Gagal mengirim ke komunitas replay \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen replay...",
+              "Error": "Gagal memuat komen replay di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas replay...",
           "Error": "Replay \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nSilakan perbarui replay ini, atau gunakan replay yang berbeda."
@@ -1227,6 +1499,20 @@
         "Details": {
           "Loading": "Memuat detail ruang...",
           "Error": "Gagal memuat detail ruang \"{0}\".\n\nKoleksi Anda mungkin korup."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas ruang...",
+          "Error": "Gagal memuat komunitas ruang \"{0}\".\n\nKoleksi Anda mungkin korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas ruang...",
+            "Error": "Gagal mengirim ke komunitas ruang \"{0}\".\n\nKoleksi Anda mungkin korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen ruang...",
+              "Error": "Gagal memuat komen ruang di halaman {0}.\n\nKoleksi Anda mungkin korup."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibitas ruang...",
@@ -1274,6 +1560,20 @@
           "Loading": "Memuat detail post...",
           "Error": "Gagal memuat detail post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas post...",
+          "Error": "Gagal memuat komunitas post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas post...",
+            "Error": "Gagal mengirim ke komunitas post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen post...",
+              "Error": "Gagal memuat komen post di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas post...",
           "Error": "Post \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1296,6 +1596,20 @@
           "Loading": "Memuat detail playlist...",
           "Error": "Gagal memuat detail playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas playlist...",
+          "Error": "Gagal memuat komunitas playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas playlist...",
+            "Error": "Gagal mengirim ke komunitas playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen playlist...",
+              "Error": "Gagal memuat komen playlist di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas playlist...",
           "Error": "Playlist \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1317,6 +1631,20 @@
         "Details": {
           "Loading": "Memuat detail level...",
           "Error": "Gagal memuat detail level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas level...",
+          "Error": "Gagal memuat komunitas level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas level...",
+            "Error": "Gagal mengirim ke komunitas level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen level...",
+              "Error": "Gagal memuat komen level di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas level...",
@@ -1352,6 +1680,20 @@
           "Loading": "Memuat detail skin...",
           "Error": "Gagal memuat detail skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas skin...",
+          "Error": "Gagal memuat komunitas skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas skin...",
+            "Error": "Gagal mengirim ke komunitas skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen skin...",
+              "Error": "Gagal memuat komen skin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas skin...",
           "Error": "Skin \"{0}\" tidak kompatibel dengan versi Sonolus saatu ini.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1381,6 +1723,20 @@
         "Details": {
           "Loading": "Memuat detail latar...",
           "Error": "Gagal memuat detail latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas latar...",
+          "Error": "Gagal memuat komunitas latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas latar...",
+            "Error": "Gagal mengirim ke komunitas latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen latar...",
+              "Error": "Gagal memuat komen latar di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas latar...",
@@ -1416,6 +1772,20 @@
           "Loading": "Memuat detail SFX...",
           "Error": "Gagal memuat detail SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas SFX...",
+          "Error": "Gagal memuat komunitas SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas SFX...",
+            "Error": "Gagal mengirim ke komunitas SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen SFX...",
+              "Error": "Gagal memuat komen SFX di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas SFX...",
           "Error": "SFX \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1446,6 +1816,20 @@
           "Loading": "Memuat detail partikel...",
           "Error": "Gagal memuat detail partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas partikel...",
+          "Error": "Gagal memuat komunitas partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas partikel...",
+            "Error": "Gagal mengirim ke komunitas partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen partikel...",
+              "Error": "Gagal memuat komen partikel di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas partikel...",
           "Error": "Partikel \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1475,6 +1859,20 @@
         "Details": {
           "Loading": "Memuat detail mesin...",
           "Error": "Gagal memuat detail mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas mesin...",
+          "Error": "Gagal memuat komunitas mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas mesin...",
+            "Error": "Gagal mengirim ke komunitas mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen mesin...",
+              "Error": "Gagal memuat komen mesin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas mesin...",
@@ -1522,6 +1920,20 @@
           "Loading": "Memuat detail replay...",
           "Error": "Gagal memuat detail replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
+        "Community": {
+          "Loading": "Memuat komunitas replay...",
+          "Error": "Gagal memaut komunitas replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas replay...",
+            "Error": "Gagal mengirim ke komunitas replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen replay...",
+              "Error": "Gagal memuat komen replay di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas replay...",
           "Error": "Replay \"{0}\" tidak kompatibel dengan versi Sonolus saat ini.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1547,6 +1959,20 @@
         "Details": {
           "Loading": "Memuat detail ruang...",
           "Error": "Gagal memuat detail ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+        },
+        "Community": {
+          "Loading": "Memuat komunitas ruang...",
+          "Error": "Gagal memuat komunitas ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
+          "Submit": {
+            "Loading": "Mengirimkan ke komunitas ruang...",
+            "Error": "Gagal mengirim ke komunitas ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Memuat komen ruang...",
+              "Error": "Gagal memuat komen ruang di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas ruang...",
@@ -1927,6 +2353,7 @@
       "Play": "Main",
       "Players": "Pemain",
       "Account": "Akun",
+      "Link": "Link",
       "Settings": "Pengaturan",
       "UpdateAvailable": {
         "Title": "Pembaruan Tersedia",
@@ -1944,6 +2371,29 @@
           "Placeholder": "Masukkan ID pemain..."
         },
         "Lookup": "Cari"
+      }
+    },
+    "Link": {
+      "Title": "Link",
+      "QRCode": {
+        "Title": "QR Code",
+        "Camera": "Kamera",
+        "Gallery": "Galeri"
+      },
+      "Text": {
+        "Title": "Teks",
+        "TextLink": {
+          "Title": "Link Teks",
+          "Description": "Link \"sonolus://...\".",
+          "Placeholder": "Masukkan link teks..."
+        },
+        "Open": "Buka"
+      },
+      "NotDeepLink": {
+        "Description": "Link \"{0}\" bukan link \"sonolus://...\".\n\nApakah Anda ingin membukanya sebagai kustom server?"
+      },
+      "LinkError": {
+        "Description": "Tidak ada link valid yang ditemukan."
       }
     },
     "Account": {
@@ -2061,7 +2511,6 @@
         "Title": "Cari"
       },
       "Infos": {
-        "More": "Lainnya",
         "Advanced": "Lebih Lanjut",
         "Post": {
           "Title": "Post"
@@ -2180,6 +2629,10 @@
         },
         "Description": {
           "Title": "Deskripsi"
+        },
+        "Community": {
+          "Title": "Komunitas",
+          "NoComments": "Tidak ada komen"
         },
         "Post": {
           "ShareSuccess": {
@@ -3035,6 +3488,17 @@
       },
       "Repository": {
         "Title": "Repositori",
+        "AutoClean": {
+          "Title": "Pembersihan Otomatis",
+          "Description": "Bersihkan repositori secara otomatis saat peluncuran dengan menghapus sumber daya terlama.",
+          "Options": {
+            "OneHundredMB": "100 MB",
+            "FiveHundredMB": "500 MB",
+            "OneGB": "1 GB",
+            "FiveGB": "5 GB",
+            "TenGB": "10 GB"
+          }
+        },
         "Manage": "Kelola"
       },
       "Cache": {
@@ -3134,12 +3598,6 @@
     },
     "DiagnosticLogs": {
       "Title": "Diagnostik Log"
-    }
-  },
-  "Scp": {
-    "PermissionError": {
-      "Description": "Sonolus tidak memperoleh izin yang diperlukan untuk melakukan tindakan ini.\n\nSilakan buka Pengaturan dan berikan izin Sonolus untuk melanjutkan.",
-      "Open": "Buka"
     }
   },
   "Runtimes": {
