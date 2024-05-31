@@ -31,6 +31,10 @@
         "#LENGTH_MINIMUM": "Minimum Length",
         "#LENGTH_MAXIMUM": "Maximum Length",
         "#ADDITIONAL_INFORMATION": "Additional Information",
+        "#CONTENT": "Content",
+        "#COMMENT": "Comment",
+        "#REVIEW": "Review",
+        "#REPLY": "Reply",
         "#SPEED": "Level Speed",
         "#MIRROR": "Mirror Level",
         "#RANDOM": "Random",
@@ -191,6 +195,10 @@
         "#LENGTH_MINIMUM_PLACEHOLDER": "Enter minimum length...",
         "#LENGTH_MAXIMUM_PLACEHOLDER": "Enter maximum length...",
         "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Enter additional information...",
+        "#CONTENT_PLACEHOLDER": "Enter content...",
+        "#COMMENT_PLACEHOLDER": "Enter comment...",
+        "#REVIEW_PLACEHOLDER": "Enter review...",
+        "#REPLY_PLACEHOLDER": "Enter reply...",
         "#PERCENTAGE_UNIT": "{0}%",
         "#SECOND_UNIT": "{0} s",
         "#MILLISECOND_UNIT": "{0} ms",
@@ -314,11 +322,38 @@
         "#TEAM_PURPLE": "Team Purple",
         "#TEAM_CYAN": "Team Cyan",
         "#TEAM_WHITE": "Team White",
-        "#TEAM_BLACK": "Team Black"
+        "#TEAM_BLACK": "Team Black",
+        "#LIKE": "Like",
+        "#LIKED": "Liked",
+        "#DISLIKE": "Dislike",
+        "#DISLIKED": "Disliked",
+        "#BOOKMARK": "Bookmark",
+        "#BOOKMARKED": "Bookmarked",
+        "#DELETE": "Delete",
+        "#EDIT": "Edit",
+        "#CONFIRM": "Confirm",
+        "#CANCEL": "Cancel",
+        "#INCREASE": "Increase",
+        "#DECREASE": "Decrease",
+        "#UPVOTE": "Upvote",
+        "#UPVOTED": "Upvoted",
+        "#DOWNVOTE": "Downvote",
+        "#DOWNVOTED": "Downvoted",
+        "#AGREE": "Agree",
+        "#AGREED": "Agreed",
+        "#DISAGREE": "Disagree",
+        "#DISAGREED": "Disagreed",
+        "#LOCK": "Lock",
+        "#UNLOCK": "Unlock",
+        "#SHOW": "Show",
+        "#HIDE": "Hide",
+        "#STAR": "Star",
+        "#STARRED": "Starred"
     },
     "Common": {
         "Separator": ", ",
         "Loading": "Loading...",
+        "More": "More",
         "On": "ON",
         "Off": "OFF",
         "Select": "Select",
@@ -609,6 +644,20 @@
                     "Loading": "Loading post details...",
                     "Error": "Failed to load post details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Community": {
+                    "Loading": "Loading post community...",
+                    "Error": "Failed to load post community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to post community...",
+                        "Error": "Failed to submit to post community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading post comments...",
+                            "Error": "Failed to load post comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking post compatibility...",
                     "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different post, or contact server owner to report the problem."
@@ -631,6 +680,20 @@
                     "Loading": "Loading playlist details...",
                     "Error": "Failed to load playlist details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Community": {
+                    "Loading": "Loading playlist community...",
+                    "Error": "Failed to load playlist community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to playlist community...",
+                        "Error": "Failed to submit to playlist community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading playlist comments...",
+                            "Error": "Failed to load playlist comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking playlist compatibility...",
                     "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different playlist, or contact server owner to report the problem."
@@ -652,6 +715,20 @@
                 "Details": {
                     "Loading": "Loading level details...",
                     "Error": "Failed to load level details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Community": {
+                    "Loading": "Loading level community...",
+                    "Error": "Failed to load level community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to level community...",
+                        "Error": "Failed to submit to level community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading level comments...",
+                            "Error": "Failed to load level comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking level compatibility...",
@@ -687,6 +764,20 @@
                     "Loading": "Loading skin details...",
                     "Error": "Failed to load skin details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Community": {
+                    "Loading": "Loading skin community...",
+                    "Error": "Failed to load skin community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to skin community...",
+                        "Error": "Failed to submit to skin community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading skin comments...",
+                            "Error": "Failed to load skin comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking skin compatibility...",
                     "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different skin, or contact server owner to report the problem."
@@ -716,6 +807,20 @@
                 "Details": {
                     "Loading": "Loading background details...",
                     "Error": "Failed to load background details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Community": {
+                    "Loading": "Loading background community...",
+                    "Error": "Failed to load background community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to background community...",
+                        "Error": "Failed to submit to background community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading background comments...",
+                            "Error": "Failed to load background comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking background compatibility...",
@@ -751,6 +856,20 @@
                     "Loading": "Loading SFX details...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Community": {
+                    "Loading": "Loading SFX community...",
+                    "Error": "Failed to load SFX community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to SFX community...",
+                        "Error": "Failed to submit to SFX community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading SFX comments...",
+                            "Error": "Failed to load SFX comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking SFX compatibility...",
                     "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different SFX, or contact server owner to report the problem."
@@ -781,6 +900,20 @@
                     "Loading": "Loading particle details...",
                     "Error": "Failed to load particle details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Community": {
+                    "Loading": "Loading particle community...",
+                    "Error": "Failed to load particle community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to particle community...",
+                        "Error": "Failed to submit to particle community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading particle comments...",
+                            "Error": "Failed to load particle comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking particle compatibility...",
                     "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different particle, or contact server owner to report the problem."
@@ -810,6 +943,20 @@
                 "Details": {
                     "Loading": "Loading engine details...",
                     "Error": "Failed to load engine details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Community": {
+                    "Loading": "Loading engine community...",
+                    "Error": "Failed to load engine community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to engine community...",
+                        "Error": "Failed to submit to engine community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading engine comments...",
+                            "Error": "Failed to load engine comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking engine compatibility...",
@@ -857,6 +1004,20 @@
                     "Loading": "Loading replay details...",
                     "Error": "Failed to load replay details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Community": {
+                    "Loading": "Loading replay community...",
+                    "Error": "Failed to load replay community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to replay community...",
+                        "Error": "Failed to submit to replay community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading replay comments...",
+                            "Error": "Failed to load replay comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking replay compatibility...",
                     "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different replay, or contact server owner to report the problem."
@@ -882,6 +1043,20 @@
                 "Details": {
                     "Loading": "Loading room details...",
                     "Error": "Failed to load room details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Community": {
+                    "Loading": "Loading room community...",
+                    "Error": "Failed to load room community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Submit": {
+                        "Loading": "Submitting to room community...",
+                        "Error": "Failed to submit to room community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading room comments...",
+                            "Error": "Failed to load room comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking room compatibility...",
@@ -925,6 +1100,20 @@
                     "Loading": "Loading post details...",
                     "Error": "Failed to load post details of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading post community...",
+                    "Error": "Failed to load post community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to post community...",
+                        "Error": "Failed to submit to post community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading post comments...",
+                            "Error": "Failed to load post comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking post compatibility...",
                     "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this post, or use a different post."
@@ -947,6 +1136,20 @@
                     "Loading": "Loading playlist details...",
                     "Error": "Failed to load playlist details of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading playlist community...",
+                    "Error": "Failed to load playlist community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to playlist community...",
+                        "Error": "Failed to submit to playlist community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading playlist comments...",
+                            "Error": "Failed to load playlist comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking playlist compatibility...",
                     "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this playlist, or use a different playlist."
@@ -968,6 +1171,20 @@
                 "Details": {
                     "Loading": "Loading level details...",
                     "Error": "Failed to load level details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Community": {
+                    "Loading": "Loading level community...",
+                    "Error": "Failed to load level community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to level community...",
+                        "Error": "Failed to submit to level community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading level comments...",
+                            "Error": "Failed to load level comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking level compatibility...",
@@ -1003,6 +1220,20 @@
                     "Loading": "Loading skin details...",
                     "Error": "Failed to load skin details of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading skin community...",
+                    "Error": "Failed to load skin community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to skin community...",
+                        "Error": "Failed to submit to skin community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading skin comments...",
+                            "Error": "Failed to load skin comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking skin compatibility...",
                     "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this skin, or use a different skin."
@@ -1032,6 +1263,20 @@
                 "Details": {
                     "Loading": "Loading background details...",
                     "Error": "Failed to load background details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Community": {
+                    "Loading": "Loading background community...",
+                    "Error": "Failed to load background community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to background community...",
+                        "Error": "Failed to submit to background community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading background comments...",
+                            "Error": "Failed to load background comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking background compatibility...",
@@ -1067,6 +1312,20 @@
                     "Loading": "Loading SFX details...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading SFX community...",
+                    "Error": "Failed to load SFX community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to SFX community...",
+                        "Error": "Failed to submit to SFX community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading SFX comments...",
+                            "Error": "Failed to load SFX comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking SFX compatibility...",
                     "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this SFX, or use a different SFX."
@@ -1097,6 +1356,20 @@
                     "Loading": "Loading particle details...",
                     "Error": "Failed to load particle details of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading particle community...",
+                    "Error": "Failed to load particle community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to particle community...",
+                        "Error": "Failed to submit to particle community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading particle comments...",
+                            "Error": "Failed to load particle comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking particle compatibility...",
                     "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this particle, or use a different particle."
@@ -1126,6 +1399,20 @@
                 "Details": {
                     "Loading": "Loading engine details...",
                     "Error": "Failed to load engine details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Community": {
+                    "Loading": "Loading engine community...",
+                    "Error": "Failed to load engine community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to engine community...",
+                        "Error": "Failed to submit to engine community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading engine comments...",
+                            "Error": "Failed to load engine comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking engine compatibility...",
@@ -1173,6 +1460,20 @@
                     "Loading": "Loading replay details...",
                     "Error": "Failed to load replay details of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading replay community...",
+                    "Error": "Failed to load replay community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to replay community...",
+                        "Error": "Failed to submit to replay community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading replay comments...",
+                            "Error": "Failed to load replay comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking replay compatibility...",
                     "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this replay, or use a different replay."
@@ -1198,6 +1499,20 @@
                 "Details": {
                     "Loading": "Loading room details...",
                     "Error": "Failed to load room details of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Community": {
+                    "Loading": "Loading room community...",
+                    "Error": "Failed to load room community of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to room community...",
+                        "Error": "Failed to submit to room community of \"{0}\".\n\nYour collection may be corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading room comments...",
+                            "Error": "Failed to load room comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking room compatibility...",
@@ -1245,6 +1560,20 @@
                     "Loading": "Loading post details...",
                     "Error": "Failed to load post details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading post community...",
+                    "Error": "Failed to load post community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to post community...",
+                        "Error": "Failed to submit to post community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading post comments...",
+                            "Error": "Failed to load post comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking post compatibility...",
                     "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1267,6 +1596,20 @@
                     "Loading": "Loading playlist details...",
                     "Error": "Failed to load playlist details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading playlist community...",
+                    "Error": "Failed to load playlist community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to playlist community...",
+                        "Error": "Failed to submit to playlist community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading playlist comments...",
+                            "Error": "Failed to load playlist comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking playlist compatibility...",
                     "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1288,6 +1631,20 @@
                 "Details": {
                     "Loading": "Loading level details...",
                     "Error": "Failed to load level details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Community": {
+                    "Loading": "Loading level community...",
+                    "Error": "Failed to load level community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to level community...",
+                        "Error": "Failed to submit to level community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading level comments...",
+                            "Error": "Failed to load level comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking level compatibility...",
@@ -1323,6 +1680,20 @@
                     "Loading": "Loading skin details...",
                     "Error": "Failed to load skin details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading skin community...",
+                    "Error": "Failed to load skin community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to skin community...",
+                        "Error": "Failed to submit to skin community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading skin comments...",
+                            "Error": "Failed to load skin comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking skin compatibility...",
                     "Error": "Skin \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1352,6 +1723,20 @@
                 "Details": {
                     "Loading": "Loading background details...",
                     "Error": "Failed to load background details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Community": {
+                    "Loading": "Loading background community...",
+                    "Error": "Failed to load background community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to background community...",
+                        "Error": "Failed to submit to background community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading background comments...",
+                            "Error": "Failed to load background comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking background compatibility...",
@@ -1387,6 +1772,20 @@
                     "Loading": "Loading SFX details...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading SFX community...",
+                    "Error": "Failed to load SFX community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to SFX community...",
+                        "Error": "Failed to submit to SFX community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading SFX comments...",
+                            "Error": "Failed to load SFX comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking SFX compatibility...",
                     "Error": "SFX \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1417,6 +1816,20 @@
                     "Loading": "Loading particle details...",
                     "Error": "Failed to load particle details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading particle community...",
+                    "Error": "Failed to load particle community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to particle community...",
+                        "Error": "Failed to submit to particle community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading particle comments...",
+                            "Error": "Failed to load particle comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking particle compatibility...",
                     "Error": "Particle \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1446,6 +1859,20 @@
                 "Details": {
                     "Loading": "Loading engine details...",
                     "Error": "Failed to load engine details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Community": {
+                    "Loading": "Loading engine community...",
+                    "Error": "Failed to load engine community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to engine community...",
+                        "Error": "Failed to submit to engine community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading engine comments...",
+                            "Error": "Failed to load engine comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking engine compatibility...",
@@ -1493,6 +1920,20 @@
                     "Loading": "Loading replay details...",
                     "Error": "Failed to load replay details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Community": {
+                    "Loading": "Loading replay community...",
+                    "Error": "Failed to load replay community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to replay community...",
+                        "Error": "Failed to submit to replay community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading replay comments...",
+                            "Error": "Failed to load replay comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking replay compatibility...",
                     "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1518,6 +1959,20 @@
                 "Details": {
                     "Loading": "Loading room details...",
                     "Error": "Failed to load room details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Community": {
+                    "Loading": "Loading room community...",
+                    "Error": "Failed to load room community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Submit": {
+                        "Loading": "Submitting to room community...",
+                        "Error": "Failed to submit to room community of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                    },
+                    "Comment": {
+                        "List": {
+                            "Loading": "Loading room comments...",
+                            "Error": "Failed to load room comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking room compatibility...",
@@ -2056,7 +2511,6 @@
                 "Title": "Search"
             },
             "Infos": {
-                "More": "More",
                 "Advanced": "Advanced",
                 "Post": {
                     "Title": "Posts"
@@ -2175,6 +2629,10 @@
                 },
                 "Description": {
                     "Title": "Description"
+                },
+                "Community": {
+                    "Title": "Community",
+                    "NoComments": "No comments"
                 },
                 "Post": {
                     "ShareSuccess": {
