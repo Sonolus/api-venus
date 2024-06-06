@@ -341,8 +341,8 @@
     "#DOWNVOTED": "已点踩",
     "#AGREE": "赞同",
     "#AGREED": "已赞同",
-    "#DISAGREE": "不赞同",
-    "#DISAGREED": "已不赞同",
+    "#DISAGREE": "反对",
+    "#DISAGREED": "已反对",
     "#LOCK": "锁定",
     "#UNLOCK": "解锁",
     "#SHOW": "显示",
@@ -398,7 +398,7 @@
     "AdvancedOption": "此选项适用于高级玩家。",
     "Colors": "颜色",
     "ColorField": {
-      "Placeholder": "输入颜色 Hex 值..."
+      "Placeholder": "输入颜色 HEX..."
     },
     "DeviceOffsetField": {
       "Calibrate": "校准"
@@ -494,7 +494,7 @@
       }
     },
     "PermissionError": {
-      "Description": "Sonolus 无法获取到所需权限来执行此操作。\n\n请打开系统设置并给予 Sonolus 相关权限。",
+      "Description": "Sonolus 无法获取执行此操作所需的权限。\n\n打开设置并授权 Sonolus 相应的权限。",
       "Open": "打开"
     }
   },
