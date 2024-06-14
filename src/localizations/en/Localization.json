@@ -360,6 +360,7 @@
         "Reset": "Reset",
         "Edit": "Edit",
         "View": "View",
+        "Create": "Create",
         "Cancel": "Cancel",
         "Confirm": "Confirm",
         "Retry": "Retry",
@@ -409,6 +410,23 @@
             "SelectAll": "Select All",
             "SelectNone": "Select None"
         },
+        "ItemFields": {
+            "NoSelected": {
+                "Post": "No post selected",
+                "Playlist": "No playlist selected",
+                "Level": "No level selected",
+                "Skin": "No skin selected",
+                "Background": "No background selected",
+                "Effect": "No SFX selected",
+                "Particle": "No particle selected",
+                "Engine": "No engine selected",
+                "Replay": "No replay selected",
+                "Room": "No room selected"
+            }
+        },
+        "FileField": {
+            "NoSelected": "No file selected"
+        },
         "PullToLoad": {
             "None": "Nothing more to load",
             "More": "Pull to load more"
@@ -416,9 +434,16 @@
         "UI": {
             "Metric": {
                 "Arcade": "Arcade Score",
+                "ArcadePercentage": "Arcade Score %",
                 "Accuracy": "Accuracy Score",
+                "AccuracyPercentage": "Accuracy Score %",
                 "Life": "Life",
-                "PerfectRate": "Perfect Rate",
+                "Perfect": "Perfect",
+                "PerfectPercentage": "Perfect %",
+                "GreatGoodMiss": "Great + Good + Miss",
+                "GreatGoodMissPercentage": "Great + Good + Miss %",
+                "Miss": "Miss",
+                "MissPercentage": "Miss %",
                 "ErrorHeatmap": "Error Heatmap"
             },
             "JudgmentErrorStyle": {
@@ -636,6 +661,10 @@
                     "Loading": "Loading posts info...",
                     "Error": "Failed to load posts info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Create": {
+                    "Loading": "Creating post...",
+                    "Error": "Failed to create post in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading posts...",
                     "Error": "Failed to load posts at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -658,6 +687,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading post leaderboard...",
+                    "Error": "Failed to load post leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading post records...",
+                            "Error": "Failed to load post records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading post record details...",
+                            "Error": "Failed to load post record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking post compatibility...",
                     "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different post, or contact server owner to report the problem."
@@ -671,6 +714,10 @@
                 "Info": {
                     "Loading": "Loading playlists info...",
                     "Error": "Failed to load playlists info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Create": {
+                    "Loading": "Creating playlist...",
+                    "Error": "Failed to create playlist in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "List": {
                     "Loading": "Loading playlists...",
@@ -694,6 +741,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading playlist leaderboard...",
+                    "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading playlist records...",
+                            "Error": "Failed to load playlist records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading playlist record details...",
+                            "Error": "Failed to load playlist record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking playlist compatibility...",
                     "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different playlist, or contact server owner to report the problem."
@@ -707,6 +768,10 @@
                 "Info": {
                     "Loading": "Loading levels info...",
                     "Error": "Failed to load levels info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Create": {
+                    "Loading": "Creating level...",
+                    "Error": "Failed to create level in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "List": {
                     "Loading": "Loading levels...",
@@ -727,6 +792,20 @@
                         "List": {
                             "Loading": "Loading level comments...",
                             "Error": "Failed to load level comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading level leaderboard...",
+                    "Error": "Failed to load level leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading level records...",
+                            "Error": "Failed to load level records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading level record details...",
+                            "Error": "Failed to load level record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                         }
                     }
                 },
@@ -756,6 +835,10 @@
                     "Loading": "Loading skins info...",
                     "Error": "Failed to load skins info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Create": {
+                    "Loading": "Creating skin...",
+                    "Error": "Failed to create skin in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading skins...",
                     "Error": "Failed to load skins at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -775,6 +858,20 @@
                         "List": {
                             "Loading": "Loading skin comments...",
                             "Error": "Failed to load skin comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading skin leaderboard...",
+                    "Error": "Failed to load skin leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading skin records...",
+                            "Error": "Failed to load skin records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading skin record details...",
+                            "Error": "Failed to load skin record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                         }
                     }
                 },
@@ -800,6 +897,10 @@
                     "Loading": "Loading backgrounds info...",
                     "Error": "Failed to load backgrounds info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Create": {
+                    "Loading": "Creating background...",
+                    "Error": "Failed to create background in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading backgrounds...",
                     "Error": "Failed to load backgrounds at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -819,6 +920,20 @@
                         "List": {
                             "Loading": "Loading background comments...",
                             "Error": "Failed to load background comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading background leaderboard...",
+                    "Error": "Failed to load background leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading background records...",
+                            "Error": "Failed to load background records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading background record details...",
+                            "Error": "Failed to load background record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                         }
                     }
                 },
@@ -848,6 +963,10 @@
                     "Loading": "Loading SFX info...",
                     "Error": "Failed to load SFX info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Create": {
+                    "Loading": "Creating SFX...",
+                    "Error": "Failed to create SFX in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading SFX...",
                     "Error": "Failed to load SFX at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -867,6 +986,20 @@
                         "List": {
                             "Loading": "Loading SFX comments...",
                             "Error": "Failed to load SFX comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading SFX leaderboard...",
+                    "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading SFX records...",
+                            "Error": "Failed to load SFX records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading SFX record details...",
+                            "Error": "Failed to load SFX record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                         }
                     }
                 },
@@ -892,6 +1025,10 @@
                     "Loading": "Loading particles info...",
                     "Error": "Failed to load particles info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Create": {
+                    "Loading": "Creating particle...",
+                    "Error": "Failed to create particle in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading particles...",
                     "Error": "Failed to load particles at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -911,6 +1048,20 @@
                         "List": {
                             "Loading": "Loading particle comments...",
                             "Error": "Failed to load particle comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading particle leaderboard...",
+                    "Error": "Failed to load particle leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading particle records...",
+                            "Error": "Failed to load particle records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading particle record details...",
+                            "Error": "Failed to load particle record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                         }
                     }
                 },
@@ -936,6 +1087,10 @@
                     "Loading": "Loading engines info...",
                     "Error": "Failed to load engines info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Create": {
+                    "Loading": "Creating engine...",
+                    "Error": "Failed to create engine in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading engines...",
                     "Error": "Failed to load engines at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -955,6 +1110,20 @@
                         "List": {
                             "Loading": "Loading engine comments...",
                             "Error": "Failed to load engine comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading engine leaderboard...",
+                    "Error": "Failed to load engine leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading engine records...",
+                            "Error": "Failed to load engine records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading engine record details...",
+                            "Error": "Failed to load engine record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                         }
                     }
                 },
@@ -996,6 +1165,10 @@
                     "Loading": "Loading replays info...",
                     "Error": "Failed to load replays info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Create": {
+                    "Loading": "Creating replay...",
+                    "Error": "Failed to create replay in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "List": {
                     "Loading": "Loading replays...",
                     "Error": "Failed to load replays at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -1018,6 +1191,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading replay leaderboard...",
+                    "Error": "Failed to load replay leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading replay records...",
+                            "Error": "Failed to load replay records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading replay record details...",
+                            "Error": "Failed to load replay record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking replay compatibility...",
                     "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nPlease use a different replay, or contact server owner to report the problem."
@@ -1035,6 +1222,10 @@
                 "Info": {
                     "Loading": "Loading rooms info...",
                     "Error": "Failed to load rooms info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "Create": {
+                    "Loading": "Creating room...",
+                    "Error": "Failed to create room in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
                 "List": {
                     "Loading": "Loading rooms...",
@@ -1055,6 +1246,20 @@
                         "List": {
                             "Loading": "Loading room comments...",
                             "Error": "Failed to load room comments at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading room leaderboard...",
+                    "Error": "Failed to load room leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading room records...",
+                            "Error": "Failed to load room records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                        },
+                        "Details": {
+                            "Loading": "Loading room record details...",
+                            "Error": "Failed to load room record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                         }
                     }
                 },
@@ -1092,6 +1297,10 @@
                     "Loading": "Loading posts info...",
                     "Error": "Failed to load posts info of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating post...",
+                    "Error": "Failed to create post in \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading posts...",
                     "Error": "Failed to load posts at page {0}.\n\nYour collection may be corrupted."
@@ -1114,6 +1323,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading post leaderboard...",
+                    "Error": "Failed to load post leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading post records...",
+                            "Error": "Failed to load post records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading post record details...",
+                            "Error": "Failed to load post record details of \"{0}\".\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking post compatibility...",
                     "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this post, or use a different post."
@@ -1127,6 +1350,10 @@
                 "Info": {
                     "Loading": "Loading playlists info...",
                     "Error": "Failed to load playlists info of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Create": {
+                    "Loading": "Creating playlist...",
+                    "Error": "Failed to create playlist in \"{0}\".\n\nYour collection may be corrupted."
                 },
                 "List": {
                     "Loading": "Loading playlists...",
@@ -1150,6 +1377,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading playlist leaderboard...",
+                    "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading playlist records...",
+                            "Error": "Failed to load playlist records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading playlist record details...",
+                            "Error": "Failed to load playlist record details of \"{0}\".\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking playlist compatibility...",
                     "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this playlist, or use a different playlist."
@@ -1163,6 +1404,10 @@
                 "Info": {
                     "Loading": "Loading levels info...",
                     "Error": "Failed to load levels info of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Create": {
+                    "Loading": "Creating level...",
+                    "Error": "Failed to create level in \"{0}\".\n\nYour collection may be corrupted."
                 },
                 "List": {
                     "Loading": "Loading levels...",
@@ -1183,6 +1428,20 @@
                         "List": {
                             "Loading": "Loading level comments...",
                             "Error": "Failed to load level comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading level leaderboard...",
+                    "Error": "Failed to load level leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading level records...",
+                            "Error": "Failed to load level records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading level record details...",
+                            "Error": "Failed to load level record details of \"{0}\".\n\nYour collection may be corrupted."
                         }
                     }
                 },
@@ -1212,6 +1471,10 @@
                     "Loading": "Loading skins info...",
                     "Error": "Failed to load skins info of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating skin...",
+                    "Error": "Failed to create skin in \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading skins...",
                     "Error": "Failed to load skins at page {0}.\n\nYour collection may be corrupted."
@@ -1231,6 +1494,20 @@
                         "List": {
                             "Loading": "Loading skin comments...",
                             "Error": "Failed to load skin comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading skin leaderboard...",
+                    "Error": "Failed to load skin leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading skin records...",
+                            "Error": "Failed to load skin records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading skin record details...",
+                            "Error": "Failed to load skin record details of \"{0}\".\n\nYour collection may be corrupted."
                         }
                     }
                 },
@@ -1256,6 +1533,10 @@
                     "Loading": "Loading backgrounds info...",
                     "Error": "Failed to load backgrounds info of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating background...",
+                    "Error": "Failed to create background in \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading backgrounds...",
                     "Error": "Failed to load backgrounds at page {0}.\n\nYour collection may be corrupted."
@@ -1275,6 +1556,20 @@
                         "List": {
                             "Loading": "Loading background comments...",
                             "Error": "Failed to load background comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading background leaderboard...",
+                    "Error": "Failed to load background leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading background records...",
+                            "Error": "Failed to load background records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading background record details...",
+                            "Error": "Failed to load background record details of \"{0}\".\n\nYour collection may be corrupted."
                         }
                     }
                 },
@@ -1304,6 +1599,10 @@
                     "Loading": "Loading SFX info...",
                     "Error": "Failed to load SFX info of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating SFX...",
+                    "Error": "Failed to create SFX in \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading SFX...",
                     "Error": "Failed to load SFX at page {0}.\n\nYour collection may be corrupted."
@@ -1323,6 +1622,20 @@
                         "List": {
                             "Loading": "Loading SFX comments...",
                             "Error": "Failed to load SFX comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading SFX leaderboard...",
+                    "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading SFX records...",
+                            "Error": "Failed to load SFX records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading SFX record details...",
+                            "Error": "Failed to load SFX record details of \"{0}\".\n\nYour collection may be corrupted."
                         }
                     }
                 },
@@ -1348,6 +1661,10 @@
                     "Loading": "Loading particles info...",
                     "Error": "Failed to load particles info of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating particle...",
+                    "Error": "Failed to create particle in \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading particles...",
                     "Error": "Failed to load particles at page {0}.\n\nYour collection may be corrupted."
@@ -1367,6 +1684,20 @@
                         "List": {
                             "Loading": "Loading particle comments...",
                             "Error": "Failed to load particle comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading particle leaderboard...",
+                    "Error": "Failed to load particle leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading particle records...",
+                            "Error": "Failed to load particle records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading particle record details...",
+                            "Error": "Failed to load particle record details of \"{0}\".\n\nYour collection may be corrupted."
                         }
                     }
                 },
@@ -1392,6 +1723,10 @@
                     "Loading": "Loading engines info...",
                     "Error": "Failed to load engines info of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating engine...",
+                    "Error": "Failed to create engine in \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading engines...",
                     "Error": "Failed to load engines at page {0}.\n\nYour collection may be corrupted."
@@ -1411,6 +1746,20 @@
                         "List": {
                             "Loading": "Loading engine comments...",
                             "Error": "Failed to load engine comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading engine leaderboard...",
+                    "Error": "Failed to load engine leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading engine records...",
+                            "Error": "Failed to load engine records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading engine record details...",
+                            "Error": "Failed to load engine record details of \"{0}\".\n\nYour collection may be corrupted."
                         }
                     }
                 },
@@ -1452,6 +1801,10 @@
                     "Loading": "Loading replays info...",
                     "Error": "Failed to load replays info of \"{0}\".\n\nYour collection may be corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating replay...",
+                    "Error": "Failed to create replay in \"{0}\".\n\nYour collection may be corrupted."
+                },
                 "List": {
                     "Loading": "Loading replays...",
                     "Error": "Failed to load replays at page {0}.\n\nYour collection may be corrupted."
@@ -1474,6 +1827,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading replay leaderboard...",
+                    "Error": "Failed to load replay leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading replay records...",
+                            "Error": "Failed to load replay records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading replay record details...",
+                            "Error": "Failed to load replay record details of \"{0}\".\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking replay compatibility...",
                     "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nPlease update this replay, or use a different replay."
@@ -1491,6 +1858,10 @@
                 "Info": {
                     "Loading": "Loading rooms info...",
                     "Error": "Failed to load rooms info of \"{0}\".\n\nYour collection may be corrupted."
+                },
+                "Create": {
+                    "Loading": "Creating room...",
+                    "Error": "Failed to create room in \"{0}\".\n\nYour collection may be corrupted."
                 },
                 "List": {
                     "Loading": "Loading rooms...",
@@ -1511,6 +1882,20 @@
                         "List": {
                             "Loading": "Loading room comments...",
                             "Error": "Failed to load room comments at page {0}.\n\nYour collection may be corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading room leaderboard...",
+                    "Error": "Failed to load room leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading room records...",
+                            "Error": "Failed to load room records at page {0}.\n\nYour collection may be corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading room record details...",
+                            "Error": "Failed to load room record details of \"{0}\".\n\nYour collection may be corrupted."
                         }
                     }
                 },
@@ -1552,6 +1937,10 @@
                     "Loading": "Loading posts info...",
                     "Error": "Failed to load posts info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating post...",
+                    "Error": "Failed to create post in \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading posts...",
                     "Error": "Failed to load posts at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1574,6 +1963,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading post leaderboard...",
+                    "Error": "Failed to load post leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading post records...",
+                            "Error": "Failed to load post records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading post record details...",
+                            "Error": "Failed to load post record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking post compatibility...",
                     "Error": "Post \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1587,6 +1990,10 @@
                 "Info": {
                     "Loading": "Loading playlists info...",
                     "Error": "Failed to load playlists info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Create": {
+                    "Loading": "Creating playlist...",
+                    "Error": "Failed to create playlist in \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "List": {
                     "Loading": "Loading playlists...",
@@ -1610,6 +2017,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading playlist leaderboard...",
+                    "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading playlist records...",
+                            "Error": "Failed to load playlist records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading playlist record details...",
+                            "Error": "Failed to load playlist record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking playlist compatibility...",
                     "Error": "Playlist \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1623,6 +2044,10 @@
                 "Info": {
                     "Loading": "Loading levels info...",
                     "Error": "Failed to load levels info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Create": {
+                    "Loading": "Creating level...",
+                    "Error": "Failed to create level in \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "List": {
                     "Loading": "Loading levels...",
@@ -1643,6 +2068,20 @@
                         "List": {
                             "Loading": "Loading level comments...",
                             "Error": "Failed to load level comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading level leaderboard...",
+                    "Error": "Failed to load level leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading level records...",
+                            "Error": "Failed to load level records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading level record details...",
+                            "Error": "Failed to load level record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                         }
                     }
                 },
@@ -1672,6 +2111,10 @@
                     "Loading": "Loading skins info...",
                     "Error": "Failed to load skins info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating skin...",
+                    "Error": "Failed to create skin in \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading skins...",
                     "Error": "Failed to load skins at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1691,6 +2134,20 @@
                         "List": {
                             "Loading": "Loading skin comments...",
                             "Error": "Failed to load skin comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading skin leaderboard...",
+                    "Error": "Failed to load skin leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading skin records...",
+                            "Error": "Failed to load skin records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading skin record details...",
+                            "Error": "Failed to load skin record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                         }
                     }
                 },
@@ -1716,6 +2173,10 @@
                     "Loading": "Loading backgrounds info...",
                     "Error": "Failed to load backgrounds info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating background...",
+                    "Error": "Failed to create background in \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading backgrounds...",
                     "Error": "Failed to load backgrounds at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1735,6 +2196,20 @@
                         "List": {
                             "Loading": "Loading background comments...",
                             "Error": "Failed to load background comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading background leaderboard...",
+                    "Error": "Failed to load background leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading background records...",
+                            "Error": "Failed to load background records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading background record details...",
+                            "Error": "Failed to load background record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                         }
                     }
                 },
@@ -1764,6 +2239,10 @@
                     "Loading": "Loading SFX info...",
                     "Error": "Failed to load SFX info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating SFX...",
+                    "Error": "Failed to create SFX in \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading SFX...",
                     "Error": "Failed to load SFX at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1783,6 +2262,20 @@
                         "List": {
                             "Loading": "Loading SFX comments...",
                             "Error": "Failed to load SFX comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading SFX leaderboard...",
+                    "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading SFX records...",
+                            "Error": "Failed to load SFX records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading SFX record details...",
+                            "Error": "Failed to load SFX record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                         }
                     }
                 },
@@ -1808,6 +2301,10 @@
                     "Loading": "Loading particles info...",
                     "Error": "Failed to load particles info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating particle...",
+                    "Error": "Failed to create particle in \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading particles...",
                     "Error": "Failed to load particles at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1827,6 +2324,20 @@
                         "List": {
                             "Loading": "Loading particle comments...",
                             "Error": "Failed to load particle comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading particle leaderboard...",
+                    "Error": "Failed to load particle leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading particle records...",
+                            "Error": "Failed to load particle records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading particle record details...",
+                            "Error": "Failed to load particle record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                         }
                     }
                 },
@@ -1852,6 +2363,10 @@
                     "Loading": "Loading engines info...",
                     "Error": "Failed to load engines info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating engine...",
+                    "Error": "Failed to create engine in \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading engines...",
                     "Error": "Failed to load engines at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1871,6 +2386,20 @@
                         "List": {
                             "Loading": "Loading engine comments...",
                             "Error": "Failed to load engine comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading engine leaderboard...",
+                    "Error": "Failed to load engine leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading engine records...",
+                            "Error": "Failed to load engine records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading engine record details...",
+                            "Error": "Failed to load engine record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                         }
                     }
                 },
@@ -1912,6 +2441,10 @@
                     "Loading": "Loading replays info...",
                     "Error": "Failed to load replays info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
+                "Create": {
+                    "Loading": "Creating replay...",
+                    "Error": "Failed to create replay in \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
                 "List": {
                     "Loading": "Loading replays...",
                     "Error": "Failed to load replays at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1934,6 +2467,20 @@
                         }
                     }
                 },
+                "Leaderboard": {
+                    "Loading": "Loading replay leaderboard...",
+                    "Error": "Failed to load replay leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading replay records...",
+                            "Error": "Failed to load replay records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading replay record details...",
+                            "Error": "Failed to load replay record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
                 "Compatibility": {
                     "Loading": "Checking replay compatibility...",
                     "Error": "Replay \"{0}\" is not compatible with current Sonolus version.\n\nYour package may be unsupported or corrupted."
@@ -1951,6 +2498,10 @@
                 "Info": {
                     "Loading": "Loading rooms info...",
                     "Error": "Failed to load rooms info of \"{0}\".\n\nYour package may be unsupported or corrupted."
+                },
+                "Create": {
+                    "Loading": "Creating room...",
+                    "Error": "Failed to create room in \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
                 "List": {
                     "Loading": "Loading rooms...",
@@ -1971,6 +2522,20 @@
                         "List": {
                             "Loading": "Loading room comments...",
                             "Error": "Failed to load room comments at page {0}.\n\nYour package may be unsupported or corrupted."
+                        }
+                    }
+                },
+                "Leaderboard": {
+                    "Loading": "Loading room leaderboard...",
+                    "Error": "Failed to load room leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+                    "Record": {
+                        "List": {
+                            "Loading": "Loading room records...",
+                            "Error": "Failed to load room records at page {0}.\n\nYour package may be unsupported or corrupted."
+                        },
+                        "Details": {
+                            "Loading": "Loading room record details...",
+                            "Error": "Failed to load room record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
                         }
                     }
                 },
@@ -2510,39 +3075,68 @@
             "Search": {
                 "Title": "Search"
             },
+            "Forms": {
+                "ValidationError": "Some required information is missing.\n\nPlease complete missing fields and try again."
+            },
             "Infos": {
                 "Advanced": "Advanced",
                 "Post": {
-                    "Title": "Posts"
+                    "Title": "Posts",
+                    "Create": {
+                        "Title": "Create Post"
+                    }
                 },
                 "Playlist": {
-                    "Title": "Playlists"
+                    "Title": "Playlists",
+                    "Create": {
+                        "Title": "Create Playlist"
+                    }
                 },
                 "Level": {
-                    "Title": "Levels"
+                    "Title": "Levels",
+                    "Create": {
+                        "Title": "Create Level"
+                    }
                 },
                 "Skin": {
-                    "Title": "Skins"
+                    "Title": "Skins",
+                    "Create": {
+                        "Title": "Create Skin"
+                    }
                 },
                 "Background": {
-                    "Title": "Backgrounds"
+                    "Title": "Backgrounds",
+                    "Create": {
+                        "Title": "Create Background"
+                    }
                 },
                 "Effect": {
-                    "Title": "SFX"
+                    "Title": "SFX",
+                    "Create": {
+                        "Title": "Create SFX"
+                    }
                 },
                 "Particle": {
-                    "Title": "Particles"
+                    "Title": "Particles",
+                    "Create": {
+                        "Title": "Create Particle"
+                    }
                 },
                 "Engine": {
-                    "Title": "Engines"
+                    "Title": "Engines",
+                    "Create": {
+                        "Title": "Create Engine"
+                    }
                 },
                 "Replay": {
-                    "Title": "Replays"
+                    "Title": "Replays",
+                    "Create": {
+                        "Title": "Create Replay"
+                    }
                 },
                 "Room": {
                     "Title": "Rooms",
-                    "Create": "Create",
-                    "CreateRoom": {
+                    "Create": {
                         "Title": "Create Room",
                         "Description": "Creating room \"{0}\", you can invite others to play together by sharing the room link.",
                         "ShareSuccess": {
@@ -2625,14 +3219,21 @@
                     "Description": "Are you sure to delete \"{0}\"?"
                 },
                 "Tags": {
-                    "Title": "Tags"
+                    "Title": "Tags",
+                    "NoTags": "No tags"
                 },
                 "Description": {
-                    "Title": "Description"
+                    "Title": "Description",
+                    "NoDescription": "No description"
                 },
                 "Community": {
                     "Title": "Community",
                     "NoComments": "No comments"
+                },
+                "Leaderboard": {
+                    "Title": "Leaderboard",
+                    "NoRecords": "No records",
+                    "NoReplays": "No replays"
                 },
                 "Post": {
                     "ShareSuccess": {
@@ -3133,10 +3734,8 @@
                     "Description": "Are you sure to leave the room?"
                 },
                 "Play": {
-                    "NoLevel": "No level selected",
                     "Options": {
-                        "Title": "Options",
-                        "NoLevel": "No level selected."
+                        "Title": "Options"
                     },
                     "Selecting": {
                         "Title": "Selecting",
