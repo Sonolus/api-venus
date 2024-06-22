@@ -107,6 +107,7 @@
     "#NOTE_SIZE": "ノーツの大きさ",
     "#NOTE_ROTATION": "ノーツの回転",
     "#NOTE_DIRECTION": "ノーツの方向",
+    "#NOTE_COLOR": "ノーツの色",
     "#NOTE_ALPHA": "ノーツの不透明度",
     "#NOTE_ANIMATION": "ノーツのアニメーション",
     "#NOTE_EFFECT": "ノーツエフェクト",
@@ -114,12 +115,14 @@
     "#NOTE_EFFECT_SIZE": "ノーツエフェクトの大きさ",
     "#NOTE_EFFECT_ROTATION": "ノーツエフェクトの回転",
     "#NOTE_EFFECT_DIRECTION": "ノーツエフェクトの方向",
+    "#NOTE_EFFECT_COLOR": "ノーツエフェクトの色",
     "#NOTE_EFFECT_ALPHA": "ノーツエフェクトの不透明度",
     "#MARKER": "マーカーの表示",
     "#MARKER_POSITION": "マーカーの位置",
     "#MARKER_SIZE": "マーカーの大きさ",
     "#MARKER_ROTATION": "マーカーの回転",
     "#MARKER_DIRECTION": "マーカーの方向",
+    "#MARKER_COLOR": "マーカーの色",
     "#MARKER_ALPHA": "マーカーの不透明度",
     "#MARKER_ANIMATION": "マーカーのアニメーション",
     "#CONNECTOR": "コネクターの表示",
@@ -127,6 +130,7 @@
     "#CONNECTOR_SIZE": "コネクターの大きさ",
     "#CONNECTOR_ROTATION": "コネクターの回転",
     "#CONNECTOR_DIRECTION": "コネクターの方向",
+    "#CONNECTOR_COLOR": "コネクターの色",
     "#CONNECTOR_ALPHA": "コネクターの不透明度",
     "#CONNECTOR_ANIMATION": "コネクターのアニメーション",
     "#SIMLINE": "同時ノーツ線の表示",
@@ -134,6 +138,7 @@
     "#SIMLINE_SIZE": "同時ノーツ線の大きさ",
     "#SIMLINE_ROTATION": "同時ノーツ線の回転",
     "#SIMLINE_DIRECTION": "同時ノーツ線の方向",
+    "#SIMLINE_COLOR": "同時ノーツ線の色",
     "#SIMLINE_ALPHA": "同時ノーツ線の不透明度",
     "#SIMLINE_ANIMATION": "同時ノーツ線のアニメーション",
     "#NONE": "無し",
@@ -169,6 +174,13 @@
     "#COUNTERCLOCKWISE": "反時計回り",
     "#FORWARD": "前方向",
     "#BACKWARD": "後方向",
+    "#NEUTRAL": "無色",
+    "#RED": "赤",
+    "#GREEN": "緑",
+    "#BLUE": "青",
+    "#YELLOW": "黄",
+    "#PURPLE": "紫",
+    "#CYAN": "水",
     "#SIMPLE": "Simple",
     "#EASY": "Easy",
     "#NORMAL": "Normal",
@@ -200,7 +212,7 @@
     "#REVIEW_PLACEHOLDER": "レビューを入力...",
     "#REPLY_PLACEHOLDER": "返信を入力...",
     "#PERCENTAGE_UNIT": "{0}%",
-    "#SECOND_UNIT": "{0} s",
+    "#SECOND_UNIT": "{0} 秒",
     "#MILLISECOND_UNIT": "{0} ms",
     "#TAP": "タップ",
     "#TAP_HOLD": "タップ→長押し",
@@ -360,6 +372,7 @@
     "Reset": "リセット",
     "Edit": "編集",
     "View": "見る",
+    "Create": "作成",
     "Cancel": "キャンセル",
     "Confirm": "確認",
     "Retry": "リトライ",
@@ -409,6 +422,23 @@
       "SelectAll": "全選択",
       "SelectNone": "全解除"
     },
+    "ItemFields": {
+      "NoSelected": {
+        "Post": "投稿が選択されていません",
+        "Playlist": "プレイリストが選択されていません",
+        "Level": "レベルが選択されていません",
+        "Skin": "スキンが選択されていません",
+        "Background": "背景が選択されていません",
+        "Effect": "SEが選択されていません",
+        "Particle": "パーティクルが選択されていません",
+        "Engine": "エンジンが選択されていません",
+        "Replay": "リプレイが選択されていません",
+        "Room": "部屋が選択されていません"
+      }
+    },
+    "FileField": {
+      "NoSelected": "ファイルが選択されていません"
+    },
     "PullToLoad": {
       "None": "この先には何もありません",
       "More": "もっと読み込む"
@@ -416,9 +446,16 @@
     "UI": {
       "Metric": {
         "Arcade": "スコア",
+        "ArcadePercentage": "Arcade Score %",
         "Accuracy": "精度スコア",
+        "AccuracyPercentage": "Accuracy Score %",
         "Life": "ライフ",
-        "PerfectRate": "Perfect率",
+        "Perfect": "Perfect",
+        "PerfectPercentage": "Perfect %",
+        "GreatGoodMiss": "Great + Good + Miss",
+        "GreatGoodMissPercentage": "Great + Good + Miss %",
+        "Miss": "Miss",
+        "MissPercentage": "Miss %",
         "ErrorHeatmap": "ミスヒートマップ"
       },
       "JudgmentErrorStyle": {
@@ -636,6 +673,10 @@
           "Loading": "投稿情報を読み込み中...",
           "Error": "\"{0}\" の投稿情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         },
+        "Create": {
+          "Loading": "投稿を作成中...",
+          "Error": "Failed to create post in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+        },
         "List": {
           "Loading": "投稿一覧を読み込み中...",
           "Error": "{0}ページ目の投稿一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -658,6 +699,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "投稿のランキングを読み込み中...",
+          "Error": "Failed to load post leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "投稿の記録を読み込み中...",
+              "Error": "Failed to load post records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "投稿の記録の詳細を読み込み中...",
+              "Error": "Failed to load post record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "投稿の互換性を確認中...",
           "Error": "投稿 \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\n別の投稿を選択するか、サーバーの管理者にお問い合わせ下さい。"
@@ -671,6 +726,10 @@
         "Info": {
           "Loading": "プレイリスト情報を読み込み中...",
           "Error": "\"{0}\" のプレイリスト情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Create": {
+          "Loading": "プレイリストを作成中...",
+          "Error": "Failed to create playlist in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
         },
         "List": {
           "Loading": "プレイリストを読み込み中...",
@@ -694,6 +753,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "プレイリストのランキングを読み込み中...",
+          "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "プレイリストの記録を読み込み中...",
+              "Error": "Failed to load playlist records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "プレイリストの記録の詳細を読み込み中...",
+              "Error": "Failed to load playlist record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "プレイリストの互換性を確認中...",
           "Error": "プレイリスト \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -707,6 +780,10 @@
         "Info": {
           "Loading": "レベル情報を読み込み中...",
           "Error": "\"{0}\" のレベル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Create": {
+          "Loading": "レベルを作成中...",
+          "Error": "Failed to create level in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
         },
         "List": {
           "Loading": "レベル一覧を読み込み中...",
@@ -727,6 +804,20 @@
             "List": {
               "Loading": "レベルのコメントを読み込み中...",
               "Error": "{0}ページ目のレベルコメントの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "レベルのランキングを読み込み中...",
+          "Error": "Failed to load level leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "レベルの記録を読み込み中...",
+              "Error": "Failed to load level records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "レベルの記録の詳細を読み込み中...",
+              "Error": "Failed to load level record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
             }
           }
         },
@@ -756,6 +847,10 @@
           "Loading": "スキン情報を読み込み中...",
           "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         },
+        "Create": {
+          "Loading": "スキンを作成中...",
+          "Error": "Failed to create skin in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+        },
         "List": {
           "Loading": "スキン一覧を読み込み中...",
           "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -775,6 +870,20 @@
             "List": {
               "Loading": "スキンのコメントを読み込み中...",
               "Error": "{0}ページ目のスキンコメントの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "スキンのランキングを読み込み中...",
+          "Error": "Failed to load skin leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "スキンの記録を読み込み中...",
+              "Error": "Failed to load skin records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "スキンの記録の詳細を読み込み中...",
+              "Error": "Failed to load skin record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
             }
           }
         },
@@ -800,6 +909,10 @@
           "Loading": "背景情報を読み込み中...",
           "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         },
+        "Create": {
+          "Loading": "背景を作成中...",
+          "Error": "Failed to create background in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+        },
         "List": {
           "Loading": "背景一覧を読み込み中...",
           "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -819,6 +932,20 @@
             "List": {
               "Loading": "背景のコメントを読み込み中...",
               "Error": "{0}ページ目の背景コメントの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "背景のランキングを読み込み中...",
+          "Error": "Failed to load background leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "背景の記録を読み込み中...",
+              "Error": "Failed to load background records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "背景の記録の詳細を読み込み中...",
+              "Error": "Failed to load background record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
             }
           }
         },
@@ -848,6 +975,10 @@
           "Loading": "SE情報を読み込み中...",
           "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合せ下さい。"
         },
+        "Create": {
+          "Loading": "SEを作成中...",
+          "Error": "Failed to create SFX in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+        },
         "List": {
           "Loading": "SE一覧を読み込み中...",
           "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -867,6 +998,20 @@
             "List": {
               "Loading": "SEのコメントを読み込み中...",
               "Error": "{0}ページ目のSEコメントの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "SEのランキングを読み込み中...",
+          "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "SEの記録を読み込み中...",
+              "Error": "Failed to load SFX records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "SEの記録の詳細を読み込み中...",
+              "Error": "Failed to load SFX record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
             }
           }
         },
@@ -892,6 +1037,10 @@
           "Loading": "パーティクル情報を読み込み中...",
           "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         },
+        "Create": {
+          "Loading": "パーティクルを作成中...",
+          "Error": "Failed to create particle in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+        },
         "List": {
           "Loading": "パーティクル一覧を読み込み中...",
           "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -911,6 +1060,20 @@
             "List": {
               "Loading": "パーティクルのコメントを読み込み中...",
               "Error": "{0}ページ目のパーティクルコメントの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "パーティクルのランキングを読み込み中...",
+          "Error": "Failed to load particle leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "パーティクルの記録を読み込み中...",
+              "Error": "Failed to load particle records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "パーティクルの記録の詳細を読み込み中...",
+              "Error": "Failed to load particle record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
             }
           }
         },
@@ -936,6 +1099,10 @@
           "Loading": "エンジン情報を読み込み中...",
           "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         },
+        "Create": {
+          "Loading": "エンジンを作成中...",
+          "Error": "Failed to create engine in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+        },
         "List": {
           "Loading": "エンジン一覧を読み込み中...",
           "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -955,6 +1122,20 @@
             "List": {
               "Loading": "エンジンのコメントを読み込み中...",
               "Error": "{0}ページ目のエンジンコメントの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "エンジンのランキングを読み込み中...",
+          "Error": "Failed to load engine leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "エンジンの記録を読み込み中...",
+              "Error": "Failed to load engine records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "エンジンの記録の詳細を読み込み中...",
+              "Error": "Failed to load engine record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
             }
           }
         },
@@ -996,6 +1177,10 @@
           "Loading": "リプレイ情報を読み込み中...",
           "Error": "\"{0}\"のリプレイ情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
         },
+        "Create": {
+          "Loading": "リプレイを作成中...",
+          "Error": "Failed to create replay in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+        },
         "List": {
           "Loading": "リプレイ一覧を読み込み中...",
           "Error": "{0}ページ目のリプレイ一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
@@ -1018,6 +1203,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "リプレイのランキングを読み込み中...",
+          "Error": "Failed to load replay leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "リプレイの記録を読み込み中...",
+              "Error": "Failed to load replay records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "リプレイの記録の詳細を読み込み中...",
+              "Error": "Failed to load replay record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "リプレイの互換性を確認中...",
           "Error": "リプレイ \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のリプレイを使用するか、サーバーの管理者にお問い合わせ下さい。"
@@ -1035,6 +1234,10 @@
         "Info": {
           "Loading": "部屋情報を読み込み中...",
           "Error": "\"{0}\"の部屋情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+        },
+        "Create": {
+          "Loading": "部屋を作成中...",
+          "Error": "Failed to create room in \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
         },
         "List": {
           "Loading": "部屋一覧を読み込み中...",
@@ -1055,6 +1258,20 @@
             "List": {
               "Loading": "部屋のコメントを読み込み中...",
               "Error": "{0}ページ目の部屋コメントの読み込みに失敗しました。\n\nインターネット接続を確認してもう一度試すか、サーバーの管理者にお問い合わせ下さい。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "部屋のランキングを読み込み中...",
+          "Error": "Failed to load room leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+          "Record": {
+            "List": {
+              "Loading": "部屋の記録を読み込み中...",
+              "Error": "Failed to load room records at page {0}.\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+            },
+            "Details": {
+              "Loading": "部屋の記録の詳細を読み込み中...",
+              "Error": "Failed to load room record details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
             }
           }
         },
@@ -1092,6 +1309,10 @@
           "Loading": "投稿情報を読み込み中...",
           "Error": "\"{0}\" の投稿情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
         },
+        "Create": {
+          "Loading": "投稿を作成中...",
+          "Error": "Failed to create post in \"{0}\".\n\nYour collection may be corrupted."
+        },
         "List": {
           "Loading": "投稿一覧を読み込み中...",
           "Error": "{0}ページ目の投稿一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -1114,6 +1335,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "投稿のランキングを読み込み中...",
+          "Error": "Failed to load post leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "投稿の記録を読み込み中...",
+              "Error": "Failed to load post records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "投稿の記録の詳細を読み込み中...",
+              "Error": "Failed to load post record details of \"{0}\".\n\nYour collection may be corrupted."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "投稿の互換性を確認中...",
           "Error": "投稿 \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\nこの投稿を更新するか、別の投稿を使用してください。"
@@ -1127,6 +1362,10 @@
         "Info": {
           "Loading": "プレイリスト情報を読み込み中...",
           "Error": "\"{0}\" のプレイリスト情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Create": {
+          "Loading": "プレイリストを作成中...",
+          "Error": "Failed to create playlist in \"{0}\".\n\nYour collection may be corrupted."
         },
         "List": {
           "Loading": "プレイリスト一覧を読み込み中...",
@@ -1150,6 +1389,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "プレイリストのランキングを読み込み中...",
+          "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "プレイリストの記録を読み込み中...",
+              "Error": "Failed to load playlist records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "プレイリストの記録の詳細を読み込み中...",
+              "Error": "Failed to load playlist record details of \"{0}\".\n\nYour collection may be corrupted."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "プレイリストの互換性を確認中...",
           "Error": "プレイリスト \"{0}\" は現在のSonolusバージョンと互換性がありません。\n\nこのプレイリストを更新するか、別のプレイリストを使用してください。"
@@ -1163,6 +1416,10 @@
         "Info": {
           "Loading": "レベル情報を読み込み中...",
           "Error": "\"{0}\"のレベル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Create": {
+          "Loading": "レベルを作成中...",
+          "Error": "Failed to create level in \"{0}\".\n\nYour collection may be corrupted."
         },
         "List": {
           "Loading": "レベル一覧を読み込み中...",
@@ -1183,6 +1440,20 @@
             "List": {
               "Loading": "レベルのコメントを読み込み中...",
               "Error": "{0}ページ目のレベルコメントの読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "レベルのランキングを読み込み中...",
+          "Error": "Failed to load level leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "レベルの記録を読み込み中...",
+              "Error": "Failed to load level records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "レベルの記録の詳細を読み込み中...",
+              "Error": "Failed to load level record details of \"{0}\".\n\nYour collection may be corrupted."
             }
           }
         },
@@ -1212,6 +1483,10 @@
           "Loading": "スキン情報を読み込み中...",
           "Error": "\"{0}\"のスキン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
         },
+        "Create": {
+          "Loading": "スキンを作成中...",
+          "Error": "Failed to create skin in \"{0}\".\n\nYour collection may be corrupted."
+        },
         "List": {
           "Loading": "スキン一覧を読み込み中...",
           "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -1231,6 +1506,20 @@
             "List": {
               "Loading": "スキンのコメントを読み込み中...",
               "Error": "{0}ページ目のスキンコメントの読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "スキンのランキングを読み込み中...",
+          "Error": "Failed to load skin leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "スキンの記録を読み込み中...",
+              "Error": "Failed to load skin records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "スキンの記録の詳細を読み込み中...",
+              "Error": "Failed to load skin record details of \"{0}\".\n\nYour collection may be corrupted."
             }
           }
         },
@@ -1256,6 +1545,10 @@
           "Loading": "背景情報を読み込み中...",
           "Error": "\"{0}\"の背景情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
         },
+        "Create": {
+          "Loading": "背景を作成中...",
+          "Error": "Failed to create background in \"{0}\".\n\nYour collection may be corrupted."
+        },
         "List": {
           "Loading": "背景一覧を読み込み中...",
           "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -1275,6 +1568,20 @@
             "List": {
               "Loading": "背景のコメントを読み込み中...",
               "Error": "{0}ページ目の背景コメントの読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "背景のランキングを読み込み中...",
+          "Error": "Failed to load background leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "背景の記録を読み込み中...",
+              "Error": "Failed to load background records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "背景の記録の詳細を読み込み中...",
+              "Error": "Failed to load background record details of \"{0}\".\n\nYour collection may be corrupted."
             }
           }
         },
@@ -1304,6 +1611,10 @@
           "Loading": "SE情報を読み込み中...",
           "Error": "\"{0}\"のSE情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
         },
+        "Create": {
+          "Loading": "SEを作成中...",
+          "Error": "Failed to create SFX in \"{0}\".\n\nYour collection may be corrupted."
+        },
         "List": {
           "Loading": "SE一覧を読み込み中...",
           "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -1323,6 +1634,20 @@
             "List": {
               "Loading": "SEのコメントを読み込み中...",
               "Error": "{0}ページ目のSEコメントの読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "SEのランキングを読み込み中...",
+          "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "SEの記録を読み込み中...",
+              "Error": "Failed to load SFX records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "SEの記録の詳細を読み込み中...",
+              "Error": "Failed to load SFX record details of \"{0}\".\n\nYour collection may be corrupted."
             }
           }
         },
@@ -1348,6 +1673,10 @@
           "Loading": "パーティクル情報を読み込み中...",
           "Error": "\"{0}\"のパーティクル情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
         },
+        "Create": {
+          "Loading": "パーティクルを作成中...",
+          "Error": "Failed to create particle in \"{0}\".\n\nYour collection may be corrupted."
+        },
         "List": {
           "Loading": "パーティクル一覧を読み込み中...",
           "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -1367,6 +1696,20 @@
             "List": {
               "Loading": "パーティクルのコメントを読み込み中...",
               "Error": "{0}ページ目のパーティクルコメントの読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "パーティクルのランキングを読み込み中...",
+          "Error": "Failed to load particle leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "パーティクルの記録を読み込み中...",
+              "Error": "Failed to load particle records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "パーティクルの記録の詳細を読み込み中...",
+              "Error": "Failed to load particle record details of \"{0}\".\n\nYour collection may be corrupted."
             }
           }
         },
@@ -1392,6 +1735,10 @@
           "Loading": "エンジン情報を読み込み中...",
           "Error": "\"{0}\"のエンジン情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
         },
+        "Create": {
+          "Loading": "エンジンを作成中...",
+          "Error": "Failed to create engine in \"{0}\".\n\nYour collection may be corrupted."
+        },
         "List": {
           "Loading": "エンジン一覧を読み込み中...",
           "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -1411,6 +1758,20 @@
             "List": {
               "Loading": "エンジンのコメントを読み込み中...",
               "Error": "{0}ページ目のエンジンコメントの読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "エンジンのランキングを読み込み中...",
+          "Error": "Failed to load engine leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "エンジンの記録を読み込み中...",
+              "Error": "Failed to load engine records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "エンジンの記録の詳細を読み込み中...",
+              "Error": "Failed to load engine record details of \"{0}\".\n\nYour collection may be corrupted."
             }
           }
         },
@@ -1452,6 +1813,10 @@
           "Loading": "リプレイ情報を読み込み中...",
           "Error": "\"{0}\"のリプレイ情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
         },
+        "Create": {
+          "Loading": "リプレイを作成中...",
+          "Error": "Failed to create replay in \"{0}\".\n\nYour collection may be corrupted."
+        },
         "List": {
           "Loading": "リプレイ一覧を読み込み中...",
           "Error": "{0}ページ目のリプレイ一覧の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
@@ -1474,6 +1839,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "リプレイのランキングを読み込み中...",
+          "Error": "Failed to load replay leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "リプレイの記録を読み込み中...",
+              "Error": "Failed to load replay records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "リプレイの記録の詳細を読み込み中...",
+              "Error": "Failed to load replay record details of \"{0}\".\n\nYour collection may be corrupted."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "リプレイの互換性を確認中...",
           "Error": "リプレイ \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のリプレイをご利用ください。"
@@ -1491,6 +1870,10 @@
         "Info": {
           "Loading": "部屋情報を読み込み中...",
           "Error": "\"{0}\"の部屋情報の読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+        },
+        "Create": {
+          "Loading": "部屋を作成中...",
+          "Error": "Failed to create room in \"{0}\".\n\nYour collection may be corrupted."
         },
         "List": {
           "Loading": "部屋一覧を読み込み中...",
@@ -1511,6 +1894,20 @@
             "List": {
               "Loading": "部屋のコメントを読み込み中...",
               "Error": "{0}ページ目の部屋コメントの読み込みに失敗しました。\n\nコレクションが破損している可能性があります。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "部屋のランキングを読み込み中...",
+          "Error": "Failed to load room leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "部屋の記録を読み込み中...",
+              "Error": "Failed to load room records at page {0}.\n\nYour collection may be corrupted."
+            },
+            "Details": {
+              "Loading": "部屋の記録の詳細を読み込み中...",
+              "Error": "Failed to load room record details of \"{0}\".\n\nYour collection may be corrupted."
             }
           }
         },
@@ -1552,6 +1949,10 @@
           "Loading": "投稿の情報を読み込み中...",
           "Error": "{0} の投稿の情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
+        "Create": {
+          "Loading": "投稿を作成中...",
+          "Error": "Failed to create post in \"{0}\".\n\nYour package may be unsupported or corrupted."
+        },
         "List": {
           "Loading": "投稿を読み込み中...",
           "Error": "{0}ページ目の投稿一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1574,6 +1975,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "投稿のランキングを読み込み中...",
+          "Error": "Failed to load post leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "投稿の記録を読み込み中...",
+              "Error": "Failed to load post records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "投稿の記録の詳細を読み込み中...",
+              "Error": "Failed to load post record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "投稿の互換性を確認中...",
           "Error": "投稿 \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1587,6 +2002,10 @@
         "Info": {
           "Loading": "プレイリストの情報を読み込み中...",
           "Error": "{0} のプレイリストの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Create": {
+          "Loading": "プレイリストを作成中...",
+          "Error": "Failed to create playlist in \"{0}\".\n\nYour package may be unsupported or corrupted."
         },
         "List": {
           "Loading": "プレイリストを読み込み中...",
@@ -1610,6 +2029,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "プレイリストのランキングを読み込み中...",
+          "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "プレイリストの記録を読み込み中...",
+              "Error": "Failed to load playlist records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "プレイリストの記録の詳細を読み込み中...",
+              "Error": "Failed to load playlist record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "プレイリストの互換性を確認中...",
           "Error": "プレイリスト \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1623,6 +2056,10 @@
         "Info": {
           "Loading": "レベルの情報を読み込み中...",
           "Error": "{0} のレベルの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Create": {
+          "Loading": "レベルを作成中...",
+          "Error": "Failed to create level in \"{0}\".\n\nYour package may be unsupported or corrupted."
         },
         "List": {
           "Loading": "レベル一覧を読み込み中...",
@@ -1643,6 +2080,20 @@
             "List": {
               "Loading": "レベルのコメントを読み込み中...",
               "Error": "{0}ページ目のレベルコメントの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "レベルのランキングを読み込み中...",
+          "Error": "Failed to load level leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "レベルの記録を読み込み中...",
+              "Error": "Failed to load level records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "レベルの記録の詳細を読み込み中...",
+              "Error": "Failed to load level record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
             }
           }
         },
@@ -1672,6 +2123,10 @@
           "Loading": "スキンの情報を読み込み中...",
           "Error": "{0} のスキンの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
+        "Create": {
+          "Loading": "スキンを作成中...",
+          "Error": "Failed to create skin in \"{0}\".\n\nYour package may be unsupported or corrupted."
+        },
         "List": {
           "Loading": "スキン一覧を読み込み中...",
           "Error": "{0}ページ目のスキン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1691,6 +2146,20 @@
             "List": {
               "Loading": "スキンのコメントを読み込み中...",
               "Error": "{0}ページ目のスキンコメントの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "スキンのランキングを読み込み中...",
+          "Error": "Failed to load skin leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "スキンの記録を読み込み中...",
+              "Error": "Failed to load skin records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "スキンの記録の詳細を読み込み中...",
+              "Error": "Failed to load skin record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
             }
           }
         },
@@ -1716,6 +2185,10 @@
           "Loading": "背景の情報を読み込み中...",
           "Error": "{0} の背景の情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
+        "Create": {
+          "Loading": "背景を作成中...",
+          "Error": "Failed to create background in \"{0}\".\n\nYour package may be unsupported or corrupted."
+        },
         "List": {
           "Loading": "背景一覧を読み込み中...",
           "Error": "{0}ページ目の背景一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1735,6 +2208,20 @@
             "List": {
               "Loading": "背景のコメントを読み込み中...",
               "Error": "{0}ページ目の背景コメントの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "背景のランキングを読み込み中...",
+          "Error": "Failed to load background leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "背景の記録を読み込み中...",
+              "Error": "Failed to load background records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "背景の記録の詳細を読み込み中...",
+              "Error": "Failed to load background record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
             }
           }
         },
@@ -1764,6 +2251,10 @@
           "Loading": "SE情報を読み込み中...",
           "Error": "{0} のSE情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
+        "Create": {
+          "Loading": "SEを作成中...",
+          "Error": "Failed to create SFX in \"{0}\".\n\nYour package may be unsupported or corrupted."
+        },
         "List": {
           "Loading": "SE一覧を読み込み中...",
           "Error": "{0}ページ目のSE一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1783,6 +2274,20 @@
             "List": {
               "Loading": "SEのコメントを読み込み中...",
               "Error": "{0}ページ目のSEコメントの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "SEのランキングを読み込み中...",
+          "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "SEの記録を読み込み中...",
+              "Error": "Failed to load SFX records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "SEの記録の詳細を読み込み中...",
+              "Error": "Failed to load SFX record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
             }
           }
         },
@@ -1808,6 +2313,10 @@
           "Loading": "パーティクルの情報を読み込み中...",
           "Error": "{0} のパーティクルの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
+        "Create": {
+          "Loading": "パーティクルを作成中...",
+          "Error": "Failed to create particle in \"{0}\".\n\nYour package may be unsupported or corrupted."
+        },
         "List": {
           "Loading": "パーティクル一覧を読み込み中...",
           "Error": "{0}ページ目のパーティクル一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1827,6 +2336,20 @@
             "List": {
               "Loading": "パーティクルのコメントを読み込み中...",
               "Error": "{0}ページ目のパーティクルコメントの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "パーティクルのランキングを読み込み中...",
+          "Error": "Failed to load particle leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "パーティクルの記録を読み込み中...",
+              "Error": "Failed to load particle records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "パーティクルの記録の詳細を読み込み中...",
+              "Error": "Failed to load particle record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
             }
           }
         },
@@ -1852,6 +2375,10 @@
           "Loading": "エンジンの情報を読み込み中...",
           "Error": "{0} のエンジンの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
+        "Create": {
+          "Loading": "エンジンを作成中...",
+          "Error": "Failed to create engine in \"{0}\".\n\nYour package may be unsupported or corrupted."
+        },
         "List": {
           "Loading": "エンジン一覧を読み込み中...",
           "Error": "{0}ページ目のエンジン一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1871,6 +2398,20 @@
             "List": {
               "Loading": "エンジンのコメントを読み込み中...",
               "Error": "{0}ページ目のエンジンコメントの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "エンジンのランキングを読み込み中...",
+          "Error": "Failed to load engine leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "エンジンの記録を読み込み中...",
+              "Error": "Failed to load engine records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "エンジンの記録の詳細を読み込み中...",
+              "Error": "Failed to load engine record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
             }
           }
         },
@@ -1912,6 +2453,10 @@
           "Loading": "リプレイの情報を読み込み中...",
           "Error": "{0} のリプレイの情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
+        "Create": {
+          "Loading": "リプレイを作成中...",
+          "Error": "Failed to create replay in \"{0}\".\n\nYour package may be unsupported or corrupted."
+        },
         "List": {
           "Loading": "リプレイを読み込み中...",
           "Error": "{0}ページ目のリプレイ一覧の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1934,6 +2479,20 @@
             }
           }
         },
+        "Leaderboard": {
+          "Loading": "リプレイのランキングを読み込み中...",
+          "Error": "Failed to load replay leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "リプレイの記録を読み込み中...",
+              "Error": "Failed to load replay records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "リプレイの記録の詳細を読み込み中...",
+              "Error": "Failed to load replay record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "リプレイの互換性を確認中...",
           "Error": "リプレイ \"{0}\" は現在の Sonolus バージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
@@ -1951,6 +2510,10 @@
         "Info": {
           "Loading": "部屋の情報を読み込み中...",
           "Error": "{0} の部屋の情報の読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+        },
+        "Create": {
+          "Loading": "部屋を作成中...",
+          "Error": "Failed to create room in \"{0}\".\n\nYour package may be unsupported or corrupted."
         },
         "List": {
           "Loading": "部屋を読み込み中...",
@@ -1971,6 +2534,20 @@
             "List": {
               "Loading": "部屋のコメントを読み込み中...",
               "Error": "{0}ページ目の部屋コメントの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "部屋のランキングを読み込み中...",
+          "Error": "Failed to load room leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
+          "Record": {
+            "List": {
+              "Loading": "部屋の記録を読み込み中...",
+              "Error": "Failed to load room records at page {0}.\n\nYour package may be unsupported or corrupted."
+            },
+            "Details": {
+              "Loading": "部屋の記録の詳細を読み込み中...",
+              "Error": "Failed to load room record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
             }
           }
         },
@@ -2510,43 +3087,72 @@
       "Search": {
         "Title": "検索"
       },
+      "Forms": {
+        "ValidationError": "Some required information is missing.\n\nPlease complete missing fields and try again."
+      },
       "Infos": {
         "Advanced": "高度",
         "Post": {
-          "Title": "投稿"
+          "Title": "投稿",
+          "Create": {
+            "Title": "投稿を作成"
+          }
         },
         "Playlist": {
-          "Title": "プレイリスト"
+          "Title": "プレイリスト",
+          "Create": {
+            "Title": "プレイリストを作成"
+          }
         },
         "Level": {
-          "Title": "レベル"
+          "Title": "レベル",
+          "Create": {
+            "Title": "レベルを作成"
+          }
         },
         "Skin": {
-          "Title": "スキン"
+          "Title": "スキン",
+          "Create": {
+            "Title": "スキンを作成"
+          }
         },
         "Background": {
-          "Title": "背景"
+          "Title": "背景",
+          "Create": {
+            "Title": "背景を作成"
+          }
         },
         "Effect": {
-          "Title": "SE"
+          "Title": "SE",
+          "Create": {
+            "Title": "SEを作成"
+          }
         },
         "Particle": {
-          "Title": "パーティクル"
+          "Title": "パーティクル",
+          "Create": {
+            "Title": "パーティクルを作成"
+          }
         },
         "Engine": {
-          "Title": "エンジン"
+          "Title": "エンジン",
+          "Create": {
+            "Title": "エンジンを作成"
+          }
         },
         "Replay": {
-          "Title": "リプレイ"
+          "Title": "リプレイ",
+          "Create": {
+            "Title": "リプレイを作成"
+          }
         },
         "Room": {
           "Title": "部屋",
-          "Create": "部屋を作成",
-          "CreateRoom": {
+          "Create": {
             "Title": "部屋を作成",
-            "Description": "部屋 \"{0}\" を作成しました。部屋リンクを共有して他のプレイヤーを招待できます。",
+            "Description": "部屋 {0} を作成しました。部屋リンクを共有して他のプレイヤーを招待できます。",
             "ShareSuccess": {
-              "Title": "部屋リンクをコピーしました。"
+              "Title": "部屋のリンクをコピーしました。"
             }
           }
         }
@@ -2625,14 +3231,21 @@
           "Description": "「{0}」を削除してもよろしいですか?"
         },
         "Tags": {
-          "Title": "タグ"
+          "Title": "タグ",
+          "NoTags": "（タグなし）"
         },
         "Description": {
-          "Title": "説明文"
+          "Title": "説明文",
+          "NoDescription": "（説明文なし）"
         },
         "Community": {
           "Title": "コミュニティ",
-          "NoComments": "コメントはありません。"
+          "NoComments": "（コメントなし）"
+        },
+        "Leaderboard": {
+          "Title": "ランキング",
+          "NoRecords": "（記録なし）",
+          "NoReplays": "（リプレイなし）"
         },
         "Post": {
           "ShareSuccess": {
@@ -3133,10 +3746,8 @@
           "Description": "部屋を退出してもよろしいですか？"
         },
         "Play": {
-          "NoLevel": "レベルが選択されていません。",
           "Options": {
-            "Title": "設定",
-            "NoLevel": "レベルが選択されていません。"
+            "Title": "設定"
           },
           "Selecting": {
             "Title": "選択中",
