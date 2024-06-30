@@ -446,16 +446,16 @@
     "UI": {
       "Metric": {
         "Arcade": "スコア",
-        "ArcadePercentage": "Arcade Score %",
+        "ArcadePercentage": "スコア（割合）",
         "Accuracy": "精度スコア",
-        "AccuracyPercentage": "Accuracy Score %",
+        "AccuracyPercentage": "精度スコア（割合）",
         "Life": "ライフ",
         "Perfect": "Perfect",
-        "PerfectPercentage": "Perfect %",
+        "PerfectPercentage": "Perfect（割合）",
         "GreatGoodMiss": "Great + Good + Miss",
-        "GreatGoodMissPercentage": "Great + Good + Miss %",
+        "GreatGoodMissPercentage": "Great + Good + Miss（割合）",
         "Miss": "Miss",
-        "MissPercentage": "Miss %",
+        "MissPercentage": "Miss（割合）",
         "ErrorHeatmap": "ミスヒートマップ"
       },
       "JudgmentErrorStyle": {
