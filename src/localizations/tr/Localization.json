@@ -4,205 +4,375 @@
     "Title": "Türkçe (Turkish)"
   },
   "Texts": {
-    "Name": {
-      "#KEYWORDS": "Anahtar Kelimeler",
-      "#NAME": "İsim",
-      "#RATING": "Derece",
-      "#RATING_MINIMUM": "Minimum Derece",
-      "#RATING_MAXIMUM": "Maksimum Derece",
-      "#TITLE": "Başlık",
-      "#SUBTITLE": "Altyazı",
-      "#ARTISTS": "Sanatçılar",
-      "#AUTHOR": "Yaratıcı",
-      "#GENRE": "Tür",
-      "#CATEGORY": "Kategori",
-      "#LANGUAGE": "Dil",
-      "#DIFFICULTY": "Zorluk",
-      "#LENGTH": "Uzunluk",
-      "#LENGTH_MINIMUM": "Minimum Uzunluk",
-      "#LENGTH_MAXIMUM": "Maksimum Uzunluk",
-      "#SPEED": "Seviye Hızı",
-      "#MIRROR": "Seviyeyi Ters Yansıt ",
-      "#RANDOM": "Rastgele",
-      "#HIDDEN": "Gizli",
-      "#JUDGMENT_STRICT": "Katı Yargı",
-      "#JUDGMENT_LOOSE": "Yumuşak Yargı",
-      "#EFFECT": "Ses Efekti",
-      "#EFFECT_AUTO": "Otomatik Ses Efekti",
-      "#STAGE": "Sahne",
-      "#STAGE_POSITION": "Sahne Pozisyonu",
-      "#STAGE_SIZE": "Sahne Boyutu",
-      "#STAGE_ROTATION": "Sahne Döndürmesi",
-      "#STAGE_ALPHA": "Sahne Saydamlığı",
-      "#STAGE_ANIMATION": "Sahne Animasyonu",
-      "#STAGE_TILT": "Sahne Eğilimi",
-      "#STAGE_COVER_VERTICAL": "Dikey Sahne Örtüsü",
-      "#STAGE_COVER_HORIZONTAL": "Yatay Sahne Örtüsü",
-      "#STAGE_COVER_ALPHA": "Sahne Örtüsü Saydamlığı",
-      "#STAGE_ASPECTRATIO_LOCK": "Sahne Görünüş Oranını Kilitle",
-      "#STAGE_EFFECT": "Sahne Efekti",
-      "#STAGE_EFFECT_POSITION": "Sahne Efekti Posizyonu",
-      "#STAGE_EFFECT_SIZE": "Sahne Efekt Boyutu",
-      "#STAGE_EFFECT_ROTATION": "Sahne Efekt Döndürmesi",
-      "#STAGE_EFFECT_ALPHA": "Sahne Efekt Saydamlığı",
-      "#LANE": "Kulvar",
-      "#LANE_POSITION": "Kulvar Posizyonu",
-      "#LANE_SIZE": "Kulvar Boyutu",
-      "#LANE_ROTATION": "Kulvar Döndürmesi",
-      "#LANE_ALPHA": "Kulvar Saydamlığı",
-      "#LANE_ANIMATION": "Kulvar Animasyonu",
-      "#LANE_EFFECT": "Kulvar Efekti",
-      "#LANE_EFFECT_POSITION": "Kulvar Efekti Posizyonu",
-      "#LANE_EFFECT_SIZE": "Kulvar Efekt Boyutu",
-      "#LANE_EFFECT_ROTATION": "Kulvar Efekt Döndürmesi",
-      "#LANE_EFFECT_ALPHA": "Kulvar Efekt Saydamlığı",
-      "#JUDGELINE": "Yargı Çizgisi",
-      "#JUDGELINE_POSITION": "Yargı Çizgisi Posizyonu",
-      "#JUDGELINE_SIZE": "Yargı Çizgi Büyüklüğü",
-      "#JUDGELINE_ROTATION": "Yargı Çizgi Döndürmesi",
-      "#JUDGELINE_ALPHA": "Yargı Çizgi Saydamlığı",
-      "#JUDGELINE_ANIMATION": "Yargı Çizgi Animasyonu",
-      "#JUDGELINE_EFFECT": "Yargı Çizgi Efekti",
-      "#JUDGELINE_EFFECT_POSITION": "Yargı Çizgi Efekti Posizyonu",
-      "#JUDGELINE_EFFECT_SIZE": "Yargı Çizgi Efekt Boyutu",
-      "#JUDGELINE_EFFECT_ROTATION": "Yargı Çizgi Efekt Döndürmesi",
-      "#JUDGELINE_EFFECT_ALPHA": "Yargı Çizgi Efekt Saydamlığı",
-      "#SLOT": "Yuva",
-      "#SLOT_POSITION": "Yuva Pozisyonu",
-      "#SLOT_SIZE": "Yuva Büyüklüğü",
-      "#SLOT_ROTATION": "Yuva Döndürmesi",
-      "#SLOT_ALPHA": "Yuva Saydamlığı",
-      "#SLOT_ANIMATION": "Yuva Animasyonu",
-      "#SLOT_EFFECT": "Yuva Efekti",
-      "#SLOT_EFFECT_POSITION": "Yuva Efekti Pozisyonu",
-      "#SLOT_EFFECT_SIZE": "Yuva Efekt Büyüklüğü",
-      "#SLOT_EFFECT_ROTATION": "Yuva Efekt Döndürmesi",
-      "#SLOT_EFFECT_ALPHA": "Yuva Efekt Saydamlığı",
-      "#NOTE": "Nota",
-      "#NOTE_SPEED": "Nota Hızı",
-      "#NOTE_SPEED_RANDOM": "Rastgele Nota Hızı",
-      "#NOTE_POSITION": "Nota Pozisyonu",
-      "#NOTE_SIZE": "Nota Büyüklüğü",
-      "#NOTE_ROTATION": "Nota Döndürmesi",
-      "#NOTE_ALPHA": "Nota Saydamlığı",
-      "#NOTE_ANIMATION": "Nota Animasyonu",
-      "#NOTE_EFFECT": "Nota Efekti",
-      "#NOTE_EFFECT_POSITION": "Nota Efekti Pozisyonu",
-      "#NOTE_EFFECT_SIZE": "Nota Efekt Büyüklüğü",
-      "#NOTE_EFFECT_ROTATION": "Nota Efekt Döndürmesi",
-      "#NOTE_EFFECT_ALPHA": "Note Efekt Saydamlığı",
-      "#MARKER": "İmleç",
-      "#MARKER_POSITION": "İmleç Pozisyonu",
-      "#MARKER_SIZE": "İmleç Boyutu",
-      "#MARKER_ROTATION": "İmleç Döndürmesi",
-      "#MARKER_ALPHA": "İmleç Saydamlığı",
-      "#MARKER_ANIMATION": "İmleç Animasyonu",
-      "#CONNECTOR": "Bağlayıcı",
-      "#CONNECTOR_POSITION": "Bağlayıcı Pozisyonu",
-      "#CONNECTOR_SIZE": "Bağlayıcı Boyutu",
-      "#CONNECTOR_ROTATION": "Bağlayıcı Döndürmesi",
-      "#CONNECTOR_ALPHA": "Bağlayıcı Saydamlığı",
-      "#CONNECTOR_ANIMATION": "Bağlayıcı Animasyonu",
-      "#SIMLINE": "Eş Zamanlı Çizgi",
-      "#SIMLINE_POSITION": "Eş Zamanlı Çizgi Pozisyonu",
-      "#SIMLINE_SIZE": "Eş Zamanlı Çizgi Büyüklüğü",
-      "#SIMLINE_ROTATION": "Eş Zamanlı Çizgi Döndürmesi",
-      "#SIMLINE_ALPHA": "Eş Zamanlı Çizgi Saydamlığı",
-      "#SIMLINE_ANIMATION": "Eş Zamanlı Çizgi Animasyonu"
-    },
-    "Value": {
-      "#NONE": "Yok",
-      "#ANY": "Herhangi",
-      "#ALL": "Hepsi",
-      "#OTHERS": "Diğerleri",
-      "#SHORT": "Kısa",
-      "#LONG": "Uzun",
-      "#HIGH": "Yüksek",
-      "#MID": "Orta",
-      "#LOW": "Düşük",
-      "#SMALL": "Küçük",
-      "#MEDIUM": "Orta",
-      "#LARGE": "Büyük",
-      "#LEFT": "Sol",
-      "#RIGHT": "Sağ",
-      "#UP": "Yukarı",
-      "#DOWN": "Aşağı",
-      "#FRONT": "Ön",
-      "#BACK": "Arka",
-      "#CENTER": "Orta",
-      "#TOP": "Üst",
-      "#BOTTOM": "Alt",
-      "#TOP_LEFT": "Sol Üst",
-      "#TOP_CENTER": "Orta Üst",
-      "#TOP_RIGHT": "Sağ Üst",
-      "#CENTER_LEFT": "Sol Orta",
-      "#CENTER_RIGHT": "Sağ Orta",
-      "#BOTTOM_LEFT": "Sol Alt",
-      "#BOTTOM_CENTER": "Orta Alt",
-      "#BOTTOM_RIGHT": "Sağ Alt",
-      "#CLOCKWISE": "Saat Yönü",
-      "#COUNTERCLOCKWISE": "Saat Yönü Tersi",
-      "#FORWARD": "İleri",
-      "#BACKWARD": "Geri",
-      "#SIMPLE": "Basit",
-      "#EASY": "Kolay",
-      "#NORMAL": "Normal",
-      "#HARD": "Zor",
-      "#EXPERT": "Uzman",
-      "#MASTER": "Usta",
-      "#PRO": "Pro",
-      "#TECHNICAL": "Teknik",
-      "#SPECIAL": "Özel"
-    },
-    "Placeholder": {
-      "#KEYWORDS": "Anahtar kelimeleri girin...",
-      "#NAME": "İsim girin...",
-      "#RATING": "Derece girin...",
-      "#RATING_MINIMUM": "Minimum derece girin...",
-      "#RATING_MAXIMUM": "Maksimum derece girin...",
-      "#TITLE": "Başlık girin...",
-      "#SUBTITLE": "Altyazı girin...",
-      "#ARTISTS": "Sanatçıları girin...",
-      "#AUTHOR": "Yaratıcı girin...",
-      "#GENRE": "Tür girin...",
-      "#CATEGORY": "Kategori girin...",
-      "#LANGUAGE": "Dil girin...",
-      "#DIFFICULTY": "Zorluk girin..\n",
-      "#LENGTH": "Uzunluk girin...",
-      "#LENGTH_MINIMUM": "Minimum uzunluk girin...",
-      "#LENGTH_MAXIMUM": "Maksimum uzunluk girin..."
-    },
-    "Unit": {
-      "#PERCENTAGE": "%{0}",
-      "#SECOND": "{0} s",
-      "#MILLISECOND": "{0} ms"
-    },
-    "Instruction": {
-      "#TAP": "Dokunun",
-      "#TAP_HOLD": "Dokunun ve Basılı Bırakın",
-      "#TAP_RELEASE": "Dokunun ve Bırakın",
-      "#TAP_FLICK": "Dokunun ve Fiske Atın",
-      "#TAP_SLIDE": "Dokunun ve Kaydırın",
-      "#HOLD": "Basılı Tutun",
-      "#HOLD_SLIDE": "Basılı Tutun ve Kaydırın",
-      "#HOLD_FOLLOW": "Basılı Tutun ve Takip Edin",
-      "#RELEASE": "Bırakın",
-      "#FLICK": "Fiske Atın",
-      "#SLIDE": "Kaydırın",
-      "#SLIDE_FLICK": "Kaydırın ve Fiske Atın",
-      "#AVOID": "Dokunmaktan Kaçının",
-      "#JIGGLE": "Sallandırın"
-    }
+    "#GRADE": "Rapor",
+    "#ARCADE_SCORE": "Atari Skoru",
+    "#ACCURACY_SCORE": "Kesinlik Skoru",
+    "#COMBO": "Kombo",
+    "#PERFECT": "Perfect",
+    "#GREAT": "Great",
+    "#GOOD": "Good",
+    "#MISS": "Miss",
+    "#KEYWORDS": "Anahtar Kelimeler",
+    "#NAME": "İsim",
+    "#RATING": "Derecelendirme",
+    "#RATING_MINIMUM": "Minimum Derecelendirme",
+    "#RATING_MAXIMUM": "Maksimum Derecelendirme",
+    "#TITLE": "Başlık",
+    "#SUBTITLE": "Alt Başlık",
+    "#ARTISTS": "Sanatçılar",
+    "#AUTHOR": "Yaratıcı",
+    "#GENRE": "Tür",
+    "#TYPE": "Tip",
+    "#CATEGORY": "Kategori",
+    "#LANGUAGE": "Dil",
+    "#DIFFICULTY": "Zorluk",
+    "#VERSIONS": "Sürüm",
+    "#LENGTH": "Uzunluk",
+    "#LENGTH_MINIMUM": "Minimum Uzunluk",
+    "#LENGTH_MAXIMUM": "Maksimum Uzunluk",
+    "#ADDITIONAL_INFORMATION": "Ek Bilgiler",
+    "#CONTENT": "İçerik",
+    "#COMMENT": "Yorum",
+    "#REVIEW": "İnceleme",
+    "#REPLY": "Cevap",
+    "#SPEED": "Seviye Hızı",
+    "#MIRROR": "Seviyeyi Ters Çevir",
+    "#RANDOM": "Rastgele",
+    "#HIDDEN": "Gizli",
+    "#JUDGMENT_STRICT": "Katı Yargı",
+    "#JUDGMENT_LOOSE": "Gevşek Yargı",
+    "#EFFECT": "Ses Efekti",
+    "#EFFECT_AUTO": "Otomatik Ses Efekti",
+    "#STAGE": "Sahne",
+    "#STAGE_POSITION": "Sahne Konumu",
+    "#STAGE_SIZE": "Sahne Boyutu",
+    "#STAGE_ROTATION": "Sahne Rotasyonu",
+    "#STAGE_DIRECTION": "Sahne Doğrultusu",
+    "#STAGE_ALPHA": "Sahne Saydamlığı",
+    "#STAGE_ANIMATION": "Sahne Animasyonu",
+    "#STAGE_TILT": "Sahne Eğilimi",
+    "#STAGE_COVER_VERTICAL": "Dikey Sahne Kapağı",
+    "#STAGE_COVER_HORIZONTAL": "Yatay Sahne Kapağı",
+    "#STAGE_COVER_ALPHA": "Sahne Kapağı Saydamlığı",
+    "#STAGE_ASPECTRATIO_LOCK": "Sahne Çerçeve Oranını Kilitle",
+    "#STAGE_EFFECT": "Sahne Efekti",
+    "#STAGE_EFFECT_POSITION": "Sahne Efekti Konumu",
+    "#STAGE_EFFECT_SIZE": "Sahne Efekt Boyutu",
+    "#STAGE_EFFECT_ROTATION": "Sahne Efekti Rotasyonu",
+    "#STAGE_EFFECT_DIRECTION": "Sahne Efekti Doğrultusu",
+    "#STAGE_EFFECT_ALPHA": "Sahne Efekti Saydamlığı",
+    "#LANE": "Kulvar",
+    "#LANE_POSITION": "Kulvar Konumu",
+    "#LANE_SIZE": "Kulvar Boyutu",
+    "#LANE_ROTATION": "Kulvar Rotasyonu",
+    "#LANE_DIRECTION": "Kulvar Doğrultusu",
+    "#LANE_ALPHA": "Kulvar Saydamlığı",
+    "#LANE_ANIMATION": "Kulvar Animasyonu",
+    "#LANE_EFFECT": "Kulvar Efekti",
+    "#LANE_EFFECT_POSITION": "Kulvar Efekti Konumu",
+    "#LANE_EFFECT_SIZE": "Kulvar Efekti Boyutu",
+    "#LANE_EFFECT_ROTATION": "Kulvar Efekti Rotasyonu",
+    "#LANE_EFFECT_DIRECTION": "Kulvar Efekti Doğrultusu",
+    "#LANE_EFFECT_ALPHA": "Kulvar Efekti Saydamlığı",
+    "#JUDGELINE": "Yargı Çizgisi",
+    "#JUDGELINE_POSITION": "Yargı Çizgisi Konumu",
+    "#JUDGELINE_SIZE": "Yargı Çizgisi Boyutu",
+    "#JUDGELINE_ROTATION": "Yargı Çizgisi Rotasyonu",
+    "#JUDGELINE_DIRECTION": "Yargı Çizgisi Doğrultusu",
+    "#JUDGELINE_ALPHA": "Yargı Çizgisi Saydamlığı",
+    "#JUDGELINE_ANIMATION": "Yargı Çizgisi Animasyonu",
+    "#JUDGELINE_EFFECT": "Yargı Çizgisi Efekti",
+    "#JUDGELINE_EFFECT_POSITION": "Yargı Çizgisi Efekti Konumu",
+    "#JUDGELINE_EFFECT_SIZE": "Yargı Çizgisi Efekti Boyutu",
+    "#JUDGELINE_EFFECT_ROTATION": "Yargı Çizgisi Efekt Rotasyonu",
+    "#JUDGELINE_EFFECT_DIRECTION": "Yargı Çizgisi Efekti Doğrultusu",
+    "#JUDGELINE_EFFECT_ALPHA": "Yargı Çizgisi Efekti Saydamlığı",
+    "#SLOT": "Yuva",
+    "#SLOT_POSITION": "Yuva Konumu",
+    "#SLOT_SIZE": "Yuva Boyutu",
+    "#SLOT_ROTATION": "Yuva Rotasyonu",
+    "#SLOT_DIRECTION": "Yuva Doğrultusu",
+    "#SLOT_ALPHA": "Yuva Saydamlığı",
+    "#SLOT_ANIMATION": "Yuva Animasyonu",
+    "#SLOT_EFFECT": "Yuva Efekti",
+    "#SLOT_EFFECT_POSITION": "Yuva Efekti Konumu",
+    "#SLOT_EFFECT_SIZE": "Yuva Efekti Boyutu",
+    "#SLOT_EFFECT_ROTATION": "Yuva Efekti Rotasyonu",
+    "#SLOT_EFFECT_DIRECTION": "Yuva Efekti Doğrultusu",
+    "#SLOT_EFFECT_ALPHA": "Yuva Efekti Saydamlığı",
+    "#NOTE": "Nota",
+    "#NOTE_SPEED": "Nota Hızı",
+    "#NOTE_SPEED_RANDOM": "Rastgele Nota Hızı",
+    "#NOTE_POSITION": "Nota Konumu",
+    "#NOTE_SIZE": "Nota Boyutu",
+    "#NOTE_ROTATION": "Nota Rotasyonu",
+    "#NOTE_DIRECTION": "Nota Doğrultusu",
+    "#NOTE_COLOR": "Nota Rengi",
+    "#NOTE_ALPHA": "Nota Saydamlığı",
+    "#NOTE_ANIMATION": "Nota Animasyonu",
+    "#NOTE_EFFECT": "Nota Efekti",
+    "#NOTE_EFFECT_POSITION": "Nota Efekti Konumu",
+    "#NOTE_EFFECT_SIZE": "Nota Efekti Boyutu",
+    "#NOTE_EFFECT_ROTATION": "Nota Efekti Rotasyonu",
+    "#NOTE_EFFECT_DIRECTION": "Nota Efekti Doğrultusu",
+    "#NOTE_EFFECT_COLOR": "Nota Efekt Rengi",
+    "#NOTE_EFFECT_ALPHA": "Nota Efekti Saydamlığı",
+    "#MARKER": "İmleç",
+    "#MARKER_POSITION": "İmleç Konumu",
+    "#MARKER_SIZE": "İmleç Boyutu",
+    "#MARKER_ROTATION": "İmleç Rotasyonu",
+    "#MARKER_DIRECTION": "İmleç Doğrultusu",
+    "#MARKER_COLOR": "İmleç Rengi",
+    "#MARKER_ALPHA": "İmleç Saydamlığı",
+    "#MARKER_ANIMATION": "İmleç Animasyonu",
+    "#CONNECTOR": "Bağlayıcı",
+    "#CONNECTOR_POSITION": "Bağlayıcı Konumu",
+    "#CONNECTOR_SIZE": "Bağlayıcı Boyutu",
+    "#CONNECTOR_ROTATION": "Bağlayıcı Rotasyonu",
+    "#CONNECTOR_DIRECTION": "Bağlayıcı Doğrultusu",
+    "#CONNECTOR_COLOR": "Bağlayıcı Rengi",
+    "#CONNECTOR_ALPHA": "Bağlayıcı Saydamlığı",
+    "#CONNECTOR_ANIMATION": "Bağlayıcı Animasyonu",
+    "#SIMLINE": "Eş Zamanlı Çizgi",
+    "#SIMLINE_POSITION": "Eş Zamanlı Çizgi Konumu",
+    "#SIMLINE_SIZE": "Eş Zamanlı Çizgi Boyutu",
+    "#SIMLINE_ROTATION": "Eş Zamanlı Çizgi Rotasyonu",
+    "#SIMLINE_DIRECTION": "Eş Zamanlı Çizgi Doğrultusu",
+    "#SIMLINE_COLOR": "Eş Zamanlı Çizgi Rengi",
+    "#SIMLINE_ALPHA": "Eş Zamanlı Çizgi Saydamlığı",
+    "#SIMLINE_ANIMATION": "Eş Zamanlı Çizgi Animasyonu",
+    "#NONE": "Hiçbiri",
+    "#ANY": "Herhangi",
+    "#ALL": "Hepsi",
+    "#OTHERS": "Diğerleri",
+    "#SHORT": "Kısa",
+    "#LONG": "Uzun",
+    "#HIGH": "Yüksek",
+    "#MID": "Orta",
+    "#LOW": "Düşük",
+    "#SMALL": "Küçük",
+    "#MEDIUM": "Orta",
+    "#LARGE": "Büyük",
+    "#LEFT": "Sol",
+    "#RIGHT": "Sağ",
+    "#UP": "Yukarı",
+    "#DOWN": "Aşağı",
+    "#FRONT": "Ön",
+    "#BACK": "Arka",
+    "#CENTER": "Merkez",
+    "#TOP": "Üst",
+    "#BOTTOM": "Alt",
+    "#TOP_LEFT": "Sol Üst",
+    "#TOP_CENTER": "Üst Merkez",
+    "#TOP_RIGHT": "Sağ Üst",
+    "#CENTER_LEFT": "Sol Merkez",
+    "#CENTER_RIGHT": "Sağ Merkez",
+    "#BOTTOM_LEFT": "Sol Aşağı",
+    "#BOTTOM_CENTER": "Aşağı Merkez",
+    "#BOTTOM_RIGHT": "Sağ Aşağı",
+    "#CLOCKWISE": "Saat Yönü",
+    "#COUNTERCLOCKWISE": "Saat Yönünün Tersi ",
+    "#FORWARD": "İleri",
+    "#BACKWARD": "Geri",
+    "#NEUTRAL": "Nötr",
+    "#RED": "Kırmızı",
+    "#GREEN": "Yeşil",
+    "#BLUE": "Mavi",
+    "#YELLOW": "Sarı",
+    "#PURPLE": "Mor",
+    "#CYAN": "Camgöbeği",
+    "#SIMPLE": "Basit",
+    "#EASY": "Kolay",
+    "#NORMAL": "Normal",
+    "#HARD": "Zor",
+    "#EXPERT": "Uzman",
+    "#MASTER": "Usta",
+    "#PRO": "Pro",
+    "#TECHNICAL": "Teknik",
+    "#SPECIAL": "Özel",
+    "#KEYWORDS_PLACEHOLDER": "Anahtar kelimeleri gir...",
+    "#NAME_PLACEHOLDER": "İsim girin...",
+    "#RATING_PLACEHOLDER": "Derece girin...",
+    "#RATING_MINIMUM_PLACEHOLDER": "Minimum derecelendirme girin...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "Maksimum derecelendirme girin...",
+    "#TITLE_PLACEHOLDER": "Başlık girin...",
+    "#SUBTITLE_PLACEHOLDER": "Altyazı girin...",
+    "#ARTISTS_PLACEHOLDER": "Sanatçıları girin...",
+    "#AUTHOR_PLACEHOLDER": "Yaratıcı girin...",
+    "#GENRE_PLACEHOLDER": "Tür girin...",
+    "#CATEGORY_PLACEHOLDER": "Kategori girin...",
+    "#LANGUAGE_PLACEHOLDER": "Dil girin...",
+    "#DIFFICULTY_PLACEHOLDER": "Zorluk girin...",
+    "#LENGTH_PLACEHOLDER": "Uzunluk girin...",
+    "#LENGTH_MINIMUM_PLACEHOLDER": "Minimum Uzunluğu girin...",
+    "#LENGTH_MAXIMUM_PLACEHOLDER": "Maksimum Uzunluğu girin...",
+    "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Ek bilgi girin...",
+    "#CONTENT_PLACEHOLDER": "Bir içerik girin...",
+    "#COMMENT_PLACEHOLDER": "Bir yorum girin...",
+    "#REVIEW_PLACEHOLDER": "Bir inceleme girin...",
+    "#REPLY_PLACEHOLDER": "Bir yanıt girin...",
+    "#PERCENTAGE_UNIT": "%{0}",
+    "#SECOND_UNIT": "{0} s",
+    "#MILLISECOND_UNIT": "{0} ms",
+    "#TAP": "Dokunun",
+    "#TAP_HOLD": "Dokunun ve Basılı Tutun",
+    "#TAP_RELEASE": "Dokunun ve Bırakın",
+    "#TAP_FLICK": "Dokunun ve Fiske Atın",
+    "#TAP_SLIDE": "Dokunun ve Kaydırın",
+    "#HOLD": "Basılı Tutun",
+    "#HOLD_SLIDE": "Basılı Tutun ve Kaydırın",
+    "#HOLD_FOLLOW": "Basılı Tutun ve Takip Edin",
+    "#RELEASE": "Bırakın",
+    "#FLICK": "Fiske Atın",
+    "#SLIDE": "Kaydırın",
+    "#SLIDE_FLICK": "Kaydırın ve Fiske Atın",
+    "#AVOID": "Dokunmaktan Kaçının",
+    "#JIGGLE": "Sallandırın",
+    "#NEWEST": "En Yeni",
+    "#OLDEST": "En Eski",
+    "#RECOMMENDED": "Önerilenler",
+    "#POPULAR": "Popüler",
+    "#FEATURED": "Öne Çıkanlar",
+    "#COMPETITIVE": "Rekabetçi",
+    "#HOLIDAY": "Özel Gün",
+    "#LIMITED": "Sınırlı",
+    "#FOLLOWING": "Sonraki",
+    "#ANNOUNCEMENT": "Duyuru",
+    "#INFORMATION": "Bilgi",
+    "#MAINTENANCE": "Bakım Molası",
+    "#EVENT": "Etkinlik",
+    "#UPDATE": "Güncelleme",
+    "#SEARCH": "Arama",
+    "#ADVANCED": "Gelişmiş",
+    "#RELATED": "İlişkili",
+    "#SAME_AUTHOR": "Aynı Yaratıcı",
+    "#SAME_ARTISTS": "Aynı Sanatçı",
+    "#SAME_RATING": "Aynı Derecelendirme",
+    "#SAME_CATEGORY": "Aynı Kategori",
+    "#SAME_DIFFICULTY": "Aynı Zorluk",
+    "#SAME_GENRE": "Aynı Tür",
+    "#SAME_VERSION": "Aynı Versiyonlar",
+    "#OTHER_AUTHORS": "Diğer Yaratıcılar",
+    "#OTHER_ARTISTS": "Diğer Sanatçılar",
+    "#OTHER_RATINGS": "Diğer Derecelendirmeler",
+    "#OTHER_CATEGORIES": "Diğer Kategoriler",
+    "#OTHER_DIFFICULTIES": "Diğer Zorluklar",
+    "#OTHER_GENRES": "Diğer Türler",
+    "#OTHER_VERSIONS": "Diğer Versiyonlar",
+    "#VERIFYING": "Doğrulanıyor",
+    "#VERIFIED": "Doğrulandı",
+    "#REMOVED": "Kaldırıldı",
+    "#PUBLIC": "Herkese Açık",
+    "#PRIVATE": "Özel",
+    "#LOCKED": "Kilitli",
+    "#POP": "Pop",
+    "#ROCK": "Rock",
+    "#HIPHOP": "Hip Hop",
+    "#COUNTRY": "Country",
+    "#ELECTRONIC": "Elektronik",
+    "#METAL": "Metal",
+    "#CLASSICAL": "Klasik",
+    "#FOLK": "Halk Müziği",
+    "#INDIE": "Indie",
+    "#ANIME": "Anime",
+    "#VOCALOID": "Vocaloid",
+    "#REMIX": "Remix",
+    "#INSTRUMENTAL": "Enstrümental",
+    "#SHORT_VERSION": "Kısa Versiyon",
+    "#LONG_VERSION": "Uzun Versiyon",
+    "#LIVE_VERSION": "Canlı Versiyon",
+    "#REPORT": "Raporla",
+    "#REASON": "Neden",
+    "#ILLEGAL_ACTIVITIES": "Yasadışı Aktiviteler",
+    "#CHEATING": "Hile Yapmak",
+    "#AFK": "AFK",
+    "#SPAMMING": "Spamleme",
+    "#VERBAL_ABUSE": "Hakaret",
+    "#INAPPROPRIATE_LANGUAGE": "Uygunsuz Kelimeler",
+    "#NEGATIVE_ATTITUDE": "Olumsuz Davranışlar",
+    "#DNF": "Bitirilmedi",
+    "#SUGGESTIONS": "Önerilenler",
+    "#SUGGESTIONS_PER_PLAYER": "Oyuncu Başına Önerilenler",
+    "#MATCH_SCORING": "Maç Skoru",
+    "#MATCH_TIEBREAKER": "Maç Uzatmaları",
+    "#MATCH_COUNT": "Maç Sayısı",
+    "#MATCH_LIMIT": "Maç Limiti",
+    "#ROUND_SCORING": "Tur Skoru",
+    "#ROUND_TIEBREAKER": "Tur Uzatmaları",
+    "#ROUND_COUNT": "Tur Sayısı",
+    "#ROUND_LIMIT": "Tur Limiti",
+    "#TEAM_SCORING": "Takım Skoru",
+    "#TEAM_TIEBREAKER": "Takım Uzatmaları",
+    "#TEAM_COUNT": "Takım Sayısı",
+    "#TEAM_LIMIT": "Takım Limiti",
+    "#QUALIFIED": "Kalifiye Olmak",
+    "#DISQUALIFIED": "Diskalifiye Olmak",
+    "#RANKING": "Sıralama",
+    "#SCORE": "Skor",
+    "#PLAYER": "Oyuncu",
+    "#SPECTATOR": "İzleyici",
+    "#REFEREE": "Hakem",
+    "#ELIMINATED": "Elendi",
+    "#FINALIST": "Finalist",
+    "#FINISHED": "Bitti",
+    "#WINNER": "Kazanan",
+    "#GOLD_MEDAL": "Altın Madalya",
+    "#SILVER_MEDAL": "Gümüş Madalya",
+    "#BRONZE_MEDAL": "Bronz Madalya",
+    "#TEAM_1": "Takım 1",
+    "#TEAM_2": "Takım 2",
+    "#TEAM_3": "Takım 3",
+    "#TEAM_4": "Takım 4",
+    "#TEAM_5": "Takım 5",
+    "#TEAM_6": "Takım 6",
+    "#TEAM_7": "Team 7",
+    "#TEAM_8": "Takım 8",
+    "#TEAM_RED": "Takım Kırmızı",
+    "#TEAM_GREEN": "Takım Yeşil",
+    "#TEAM_BLUE": "Takım Mavi",
+    "#TEAM_YELLOW": "Takım Sarı",
+    "#TEAM_PURPLE": "Takım Mor",
+    "#TEAM_CYAN": "Takım Camgöbeği",
+    "#TEAM_WHITE": "Takım Beyaz",
+    "#TEAM_BLACK": "Takım Siyah",
+    "#LIKE": "Beğen",
+    "#LIKED": "Beğenildi",
+    "#DISLIKE": "Beğenme",
+    "#DISLIKED": "Beğenilmedi",
+    "#BOOKMARK": "Yer İmlerine Ekle",
+    "#BOOKMARKED": "Eklendi",
+    "#DELETE": "Sil",
+    "#EDIT": "Düzenle",
+    "#CONFIRM": "Onayla",
+    "#CANCEL": "İptal",
+    "#INCREASE": "Artır",
+    "#DECREASE": "Azalt",
+    "#UPVOTE": "Artıla",
+    "#UPVOTED": "Artılandı",
+    "#DOWNVOTE": "Eksile",
+    "#DOWNVOTED": "Eksilendi",
+    "#AGREE": "Katıl",
+    "#AGREED": "Katılındı",
+    "#DISAGREE": "Katılma",
+    "#DISAGREED": "Katılınmadı",
+    "#LOCK": "Kilitle",
+    "#UNLOCK": "Kilidini Aç",
+    "#SHOW": "Göster",
+    "#HIDE": "Gizle",
+    "#STAR": "Yıldızla",
+    "#STARRED": "Yıldızlandı"
   },
   "Common": {
     "Separator": ", ",
     "Loading": "Yükleniyor...",
+    "More": "Daha Fazlası",
     "On": "AÇIK",
     "Off": "KAPALI",
     "Select": "Seç",
     "Reset": "Sıfırla",
     "Edit": "Düzenle",
     "View": "Görüntüle",
+    "Create": "Oluştur",
     "Cancel": "İptal",
     "Confirm": "Onayla",
     "Retry": "Yeniden Dene",
@@ -216,7 +386,6 @@
     "Add": "Ekle",
     "Import": "İçe Aktar",
     "Search": "Ara",
-    "More": "Daha Fazla",
     "PullToRefresh": "Yeniden yüklemek için çekin",
     "Save": "Kaydet",
     "Share": "Paylaş",
@@ -242,47 +411,33 @@
     "AdvancedOption": "Bu seçenek sadece gelişmiş oyuncular içindir.",
     "Colors": "Renkler",
     "ColorField": {
-      "Hex": "HEX",
-      "Rgb": "RGB",
-      "Hsv": "HSV",
-      "Components": {
-        "Hex": {
-          "Title": "Hex",
-          "Description": "Bütün bileşenleri 00 ve FF arasında sayarsak, #KKYYMM (Kırmızı, Yeşil, Mavi) ya da #KKYYMMAA olarak gösterilir.",
-          "Placeholder": "Hex kodlu bir renk girin..."
-        },
-        "R": {
-          "Title": "Kırmızı",
-          "Description": "Kırmızı."
-        },
-        "G": {
-          "Title": "Yeşil",
-          "Description": "Yeşil."
-        },
-        "B": {
-          "Title": "Mavi",
-          "Description": "Mavi."
-        },
-        "H": {
-          "Title": "Renk Tonu",
-          "Description": "Renk Tonu."
-        },
-        "S": {
-          "Title": "Doygunluk",
-          "Description": "Doygunluk."
-        },
-        "V": {
-          "Title": "Değer",
-          "Description": "Değer."
-        },
-        "A": {
-          "Title": "Alfa",
-          "Description": "Alfa."
-        }
-      }
+      "Placeholder": "HEX kodunu girin..."
     },
     "DeviceOffsetField": {
       "Calibrate": "Ayarla"
+    },
+    "MultiField": {
+      "Selected": "{0} Öge Seçildi",
+      "AllSelected": "Hepsi Seçildi",
+      "SelectAll": "Hepsini Seç",
+      "SelectNone": "Hiçbirini Seçme"
+    },
+    "ItemFields": {
+      "NoSelected": {
+        "Post": "Herhangi bir gönderi seçilmedi",
+        "Playlist": "Herhangi bir çalma listesi seçilmedi",
+        "Level": "Herhangi bir seviye seçilmedi",
+        "Skin": "Herhangi bir doku seçilmedi",
+        "Background": "Herhangi bir arkaplan seçilmedi",
+        "Effect": "Herhangi bir ses efekti seçilmedi",
+        "Particle": "Herhangi bir partikül seçilmedi",
+        "Engine": "Herhangi bir motor seçilmedi",
+        "Replay": "Herhangi bir tekrar seçilmedi",
+        "Room": "Herhangi bir oda seçilmedi"
+      }
+    },
+    "FileField": {
+      "NoSelected": "Herhangi bir dosya seçilmedi"
     },
     "PullToLoad": {
       "None": "Yüklenecek başka bir şey yok",
@@ -291,9 +446,16 @@
     "UI": {
       "Metric": {
         "Arcade": "Atari Skoru",
+        "ArcadePercentage": "Atari Skoru %",
         "Accuracy": "Kesinlik Skoru",
+        "AccuracyPercentage": "Kesinlik Skoru %",
         "Life": "Can",
-        "PerfectRate": "Mükemmellik Yüzdesi",
+        "Perfect": "Perfect",
+        "PerfectPercentage": "Perfect %",
+        "GreatGoodMiss": "Great + Good + Miss",
+        "GreatGoodMissPercentage": "Great + Good + Miss %",
+        "Miss": "Miss",
+        "MissPercentage": "Miss %",
         "ErrorHeatmap": "Hata Isı Haritası"
       },
       "JudgmentErrorStyle": {
@@ -357,6 +519,20 @@
         "OutInElastic": "Elastic (Out In)",
         "None": "Hiçbiri"
       }
+    },
+    "AutoExit": {
+      "Title": "Otomatik Çıkış",
+      "Description": "Belirli bir aşamadaya ulaşılamadığında oyundan otomatik olarak çıkarır.",
+      "Options": {
+        "Off": "Kapalı",
+        "Pass": "Pass",
+        "FullCombo": "Full Combo",
+        "AllPerfect": "All Perfect"
+      }
+    },
+    "PermissionError": {
+      "Description": "Sonolus bu eylemi gerçekleştirmek için gerekli izinleri alamıyor.\n\nLütfen Ayarlar'ı açın ve Sonolus' a gerekli izinlerini verin.",
+      "Open": "İzin ver"
     }
   },
   "Themes": {
@@ -379,6 +555,7 @@
       }
     },
     "Service": {
+      "AuthenticationError": "Sonolus kimlik doğrulamanızın süresi doldu.\n\nLütfen Sonolus hesabınızla oturum açın ve tekrar deneyin.",
       "UserProfile": {
         "Loading": "Kullanıcı profili yükleniyor...",
         "Error": "\"{0}\" profili yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
@@ -430,9 +607,9 @@
           "Title": "Favoriler Düzenlendi"
         }
       },
-      "AuthenticateServer": {
-        "Loading": "Sonolus doğrulaması isteniyor...",
-        "Error": "Sonolus'tan doğrulama isterken başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için Sonolus ile iletişime geçin."
+      "Authenticate": {
+        "Loading": "Sonolus kimlik doğrulaması isteniyor...",
+        "Error": "Sonolus' tan kimlik doğrulama isteğinde bulunmada başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için Sonolus ile iletişime geçin."
       },
       "Logout": {
         "Loading": "Oturum kapatılıyor...",
@@ -443,29 +620,42 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "Bu sunucu sadece Sonolus' un {0} versiyonunu destekliyor.\n\nLütfen Sonolus uygulamanızı güncelleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
-      "SonolusVersionTooOld": "Bu sunucu Sonolus' un eski bir versiyonunu destekliyor ({0}).\n\nLütfen sunucunun güncellenmesini bekleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
-      "Session": {
-        "NeedAuthentication": {
+      "SonolusVersionError": "Bu sunucu sadece Sonolus' un {0} sürümünü destekliyor.\n\nLütfen Sonolus uygulamanızı güncelleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+      "SonolusVersionTooOld": "Bu sunucu Sonolus' un eski bir sürümünü destekliyor ({0}).\n\nLütfen sunucunun güncellenmesini bekleyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+      "Authentication": {
+        "NotLoggedInError": {
+          "Description": "Bir Sonolus hesabıyla oturum açmadınız.\n\nLütfen Sonolus hesabınızla oturum açın ve tekrar deneyin."
+        },
+        "Required": {
           "NotLoggedInError": {
-            "Description": "Bu sunucu doğrulama gerektiriyor.\n\nLütfen oturum açın ve tekrar deneyin."
+            "Description": "Bu sunucu oturum açmayı gerektiriyor, fakat bir Sonolus hesabıyla oturum açmadınız.\n\nLütfen ilk olarak Sonolus hesabınızla oturum açın ve tekrar deneyin."
           },
           "Confirmation": {
-            "Description": "Bu sunucu doğrulama gerektiriyor.\n\n\"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
+            "Description": "Bu sunucu oturum açmayı gerektiriyor.\n\n\"{0}\" olarak oturum açıp devam etmek ister misiniz?"
           }
         },
-        "AuthenticationExpired": {
-          "Description": "Doğrulamanız geçerliliğini yitirdi.\n\nTekrar \"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
+        "Expired": {
+          "Description": "Oturumunuz sona erdi.\n\nTekrar \"{0}\" olarak oturum açıp devam etmek ister misiniz?"
         },
-        "AuthenticationRejected": {
-          "Description": "Doğrulama talebiniz sunucu tarafından reddedildi.\n\nTekrar \"{0}\" olarak doğrulama talebi yapmak ister misiniz?"
+        "Rejected": {
+          "Description": "Oturumunuz sunucu tarafından reddedildi.\n\nTekrar \"{0}\" olarak oturum açıp devam etmek ister misiniz?"
         },
-        "Authenticate": {
-          "Loading": "Sunucu doğrulaması talep ediliyor...",
-          "Error": "\"{0}\" tarafından istenen doğrulama talebi başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        "Login": {
+          "Loading": "Giriş yapılıyor...",
+          "Error": "\"{0}\" hesabıyla oturum açılamadı.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        }
+      },
+      "Multiplayer": {
+        "NotLoggedInError": {
+          "Description": "Çok oyunculu oyun, oturum açmayı gerektirir ancak bir Sonolus hesabıyla oturum açmadınız.\n\nLütfen ilk olarak Sonolus hesabınızla oturum açın ve tekrar deneyin."
         },
-        "AddressMismatchError": {
-          "Description": "Doğrulama adresi eşleşmedi.\n\nSorunu bildirmek için lütfen sunucu sahibiyle iletişime geçin."
+        "CreateRoom": {
+          "Loading": "Oda oluşturuluyor...",
+          "Error": "\"{0}\" içinde oda oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "JoinRoom": {
+          "Loading": "Odaya bağlanılıyor...",
+          "Error": "\"{0}\" odasına bağlanmada başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
         }
       },
       "Server": {
@@ -478,7 +668,123 @@
           "Error": "\"{0}\" sunucusunun sembolünü yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "Gönderilerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" gönderilerinin bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Gönderi oluşturuluyor...",
+          "Error": "\"{0}\" içinde gönderi oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "List": {
+          "Loading": "Gönderiler yükleniyor...",
+          "Error": "{0}. sayfadaki gönderiler yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Gönderi detayları yükleniyor...",
+          "Error": "\"{0}\" gönderisinin detayları yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Community": {
+          "Loading": "Gönderi topluluğu yükleniyor...",
+          "Error": "\"{0}\" gönderi topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Gönderi topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini gönderi topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Gönderi yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki gönderi yorumları yüklenmesinde başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Gönderi liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" gönderi liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Gönderi kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki gönderi kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Gönderi kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" gönderi kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Gönderi uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" gönderisi mevcut Sonolus sürümüyle uyumlu değil.\n\nLütfen farklı bir gönderi kullanın, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Thumbnail": {
+          "Loading": "Gönderi önizleme resmi yükleniyor...",
+          "Error": "\"{0}\" gönderisinin önizleme resmini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Çalma listelerinin bilgileri yükleniyor...",
+          "Error": "\"{0}\" çalma listelerinin bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Çalma listesi oluşturuluyor...",
+          "Error": "\"{0}\" içinde çalma listesi oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "List": {
+          "Loading": "Çalma listeleri yükleniyor...",
+          "Error": "{0}. sayfadaki çalma listeleri yüklenmesinde başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Çalma listesi detayları yükleniyor...",
+          "Error": "\"{0}\" oynatma listesi detayları yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Community": {
+          "Loading": "Çalma listesi topluluğu yükleniyor...",
+          "Error": "\"{0}\" çalma listesi topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Çalma listesi topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini çalma listesi topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Çalma listesi yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki çalma listesi yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Çalma listesi liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" çalma listesi liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Çalma listesi kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki çalma listesi kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Çalma listesi kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" çalma listesi kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Çalma listesi uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" çalma listesi şu anki Sonolus sürümüyle uyumlu değil.\n\nLütfen farklı bir çalma listesi kullanın, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Thumbnail": {
+          "Loading": "Çalma listesi önizleme resmi yükleniyor...",
+          "Error": "\"{0}\" oynatma listesi önizleme resmi yüklenmesinde başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "Seviyelerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" seviyelerinin bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Seviye oluşturuluyor...",
+          "Error": "\"{0}\" içinde seviye oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "List": {
           "Loading": "Seviyeler yükleniyor...",
           "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -487,28 +793,64 @@
           "Loading": "Seviye detayları yükleniyor...",
           "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Community": {
+          "Loading": "Seviye topluluğu yükleniyor...",
+          "Error": "\"{0}\" seviye topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Seviye topluluğa gönderiliyor...",
+            "Error": "\"{0}\" içeriğini seviye topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Seviye yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki seviye yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Seviye liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" seviye liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Seviye kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki seviye kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Seviye kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" seviye kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Seviye uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir seviyeyi kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+          "Error": "\"{0}\" seviyesi şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir seviyeyi kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
         },
         "Cover": {
           "Loading": "Seviye albüm kapağı yükleniyor...",
-          "Error": "\"{0}\" seviyesinin albüm kapağını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" seviye albüm kapağını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Bgm": {
-          "Loading": "Seviye ses efektleri yükleniyor...",
-          "Error": "\"{0}\" seviyesinin ses efektlerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Seviye arkaplan müziği yükleniyor...",
+          "Error": "\"{0}\" seviye arkaplan müziğini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Preview": {
           "Loading": "Seviye önizlemesi yükleniyor...",
-          "Error": "\"{0}\" seviyesinin önizlemesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Data": {
-          "Loading": "Seviye bilgisi yükleniyor...",
-          "Error": "\"{0}\" seviyesinin bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Seviye verileri yükleniyor...",
+          "Error": "\"{0}\" seviye verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Dokuların bilgileri yükleniyor...",
+          "Error": "\"{0}\" dokularının bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Doku oluşturuluyor...",
+          "Error": "\"{0}\" içinde doku oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "List": {
           "Loading": "Dokular yükleniyor...",
           "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -517,17 +859,45 @@
           "Loading": "Doku detayları yükleniyor...",
           "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Community": {
+          "Loading": "Doku topluluğu yükleniyor...",
+          "Error": "\"{0}\" doku topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Doku topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini doku topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Doku yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki doku yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Doku liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" doku liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Doku kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki doku kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Doku kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" doku kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Doku uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir dokuyu kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+          "Error": "\"{0}\" dokusu şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir dokuyu kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
         },
         "Thumbnail": {
           "Loading": "Doku önizleme görseli yükleniyor...",
           "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Data": {
-          "Loading": "Doku bilgisi yükleniyor...",
-          "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Doku verileri yükleniyor...",
+          "Error": "\"{0}\" doku verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Texture": {
           "Loading": "Doku yapısı yükleniyor...",
@@ -535,6 +905,14 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Arkaplanların bilgileri yükleniyor...",
+          "Error": "\"{0}\" arkaplanlarının bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Arkaplan oluşturuluyor...",
+          "Error": "\"{0}\" içinde arkaplan oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "List": {
           "Loading": "Arkaplanlar yükleniyor...",
           "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -543,17 +921,45 @@
           "Loading": "Arkaplan detayları yükleniyor...",
           "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Community": {
+          "Loading": "Arkaplan topluluğu yükleniyor...",
+          "Error": "\"{0}\" arkaplan topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Arkaplan topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini arkaplan topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Arkaplan yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki arkaplan yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Arkaplan liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" arkaplan liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Arkaplan kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki arkaplan kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Arkaplan kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" arkaplan kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir arkaplanı kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+          "Error": "\"{0}\" arkaplanı şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir arkaplanı kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
         },
         "Thumbnail": {
           "Loading": "Arkaplan önizleme görseli yükleniyor...",
           "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Data": {
-          "Loading": "Arkaplan bilgisi yükleniyor...",
-          "Error": "\"{0}\" arkaplan bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Arkaplan verileri yükleniyor...",
+          "Error": "\"{0}\" arkaplan verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Image": {
           "Loading": "Arkaplan görseli yükleniyor...",
@@ -565,6 +971,14 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Ses efekti bilgileri yükleniyor...",
+          "Error": "\"{0}\" ses efekti bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Ses efekti oluşturuluyor...",
+          "Error": "\"{0}\" içinde ses efekti oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "List": {
           "Loading": "Ses efekti yükleniyor...",
           "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -573,17 +987,45 @@
           "Loading": "Ses efekti detayları yükleniyor...",
           "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Community": {
+          "Loading": "Ses efekti topluluğu yükleniyor...",
+          "Error": "\"{0}\" ses efekti topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Ses efekti topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini ses efekti topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Ses efekti yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki ses efekti yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Ses efekti liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" ses efekti liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Ses efekti kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki ses efekti kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Ses efekti kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" ses efekti kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir ses efekti kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+          "Error": "\"{0}\" ses efekti şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir ses efekti kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
         },
         "Thumbnail": {
           "Loading": "Ses efekti önizleme görseli yükleniyor...",
           "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Data": {
-          "Loading": "Ses efekti bilgisi yükleniyor...",
-          "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Ses efekti verileri yükleniyor...",
+          "Error": "\"{0}\" ses efekti verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Audio": {
           "Loading": "Ses efekti sesi yükleniyor...",
@@ -591,6 +1033,14 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Partiküllerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" partiküllerin bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Partikül oluşturuluyor...",
+          "Error": "\"{0}\" içinde partikül oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "List": {
           "Loading": "Partiküller yükleniyor...",
           "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -599,17 +1049,45 @@
           "Loading": "Partikül detayları yükleniyor...",
           "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Community": {
+          "Loading": "Partikül topluluğu yükleniyor...",
+          "Error": "\"{0}\" partikül topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Partikül topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini partikül topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Partikül yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki partikül yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Partikül liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" partikül liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Partikül kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki partikül kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Partikül kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" partikül kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Partikül uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir partikülü kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+          "Error": "\"{0}\" partikülü şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir partikülü kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
         },
         "Thumbnail": {
           "Loading": "Partikül önizleme görseli yükleniyor...",
           "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Data": {
-          "Loading": "Partikül bilgileri yükleniyor...",
-          "Error": "\"{0}\" partikül bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Partikül verileri yükleniyor...",
+          "Error": "\"{0}\" partikül verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Texture": {
           "Loading": "Partikül dokusu yükleniyor...",
@@ -617,6 +1095,14 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Motorların bilgileri yükleniyor...",
+          "Error": "\"{0}\" motorların bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Motor oluşturuluyor...",
+          "Error": "\"{0}\" içinde motor oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "List": {
           "Loading": "Motorlar yükleniyor...",
           "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -625,29 +1111,57 @@
           "Loading": "Motor detayları yükleniyor...",
           "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Community": {
+          "Loading": "Motor topluluğu yükleniyor...",
+          "Error": "\"{0}\" motor topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Motor topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini motor topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Motor yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki motor yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Motor liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" motor liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Motor kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki motor kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Motor kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" motor kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Motor uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen başka bir motoru kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+          "Error": "\"{0}\" motoru şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir motoru kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
         },
         "Thumbnail": {
           "Loading": "Motor önizleme görseli yükleniyor...",
           "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "PlayData": {
-          "Loading": "Motor oyun modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor oynama modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Motor oyun modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor oynama modunun verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "WatchData": {
-          "Loading": "Motor izleme modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor izleme modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Motor izleme modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor izleme modunun verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "PreviewData": {
-          "Loading": "Motor önizleme modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor önizleme modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Motor önizleme modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor önizleme modunun verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "TutorialData": {
-          "Loading": "Motor öğretici modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor öğretici modunun bilgisini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          "Loading": "Motor öğretici modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor öğretici modunun verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
         "Rom": {
           "Loading": "Motor ROM' u yükleniyor...",
@@ -656,6 +1170,126 @@
         "Configuration": {
           "Loading": "Motor yapılandırması yükleniyor...",
           "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Tekrarların bilgileri yükleniyor...",
+          "Error": "\"{0}\" tekrarlarının bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Tekrar oluşturuluyor...",
+          "Error": "\"{0}\" içinde tekrar oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "List": {
+          "Loading": "Tekrarlar yükleniyor...",
+          "Error": "{0}. sayfadaki tekrarlar yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Kayıt detayları yükleniyor...",
+          "Error": "{0}. sayfadaki tekrarları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Community": {
+          "Loading": "Tekrar topluluğu yükleniyor...",
+          "Error": "\"{0}\" tekrar topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Tekrar topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini tekrar topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Tekrar yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki tekrar yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Tekrar liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" tekrar liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Tekrar kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki tekrar kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Tekrar kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" tekrar kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Tekrar uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" tekrarı şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir tekrarı kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+        },
+        "Data": {
+          "Loading": "Tekrar verileri yükleniyor...",
+          "Error": "\"{0}\" tekrar verilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Configuration": {
+          "Loading": "Tekrar yapılandırması yükleniyor...",
+          "Error": "\"{0}\" tekrar yapılandırmasını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Odaların bilgileri yükleniyor...",
+          "Error": "\"{0}\" odalarının bilgilerini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Create": {
+          "Loading": "Oda oluşturuluyor...",
+          "Error": "\"{0}\" içinde oda oluşturmasında başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "List": {
+          "Loading": "Odalar yükleniyor...",
+          "Error": "{0}. sayfadaki odaları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Details": {
+          "Loading": "Oda detayları yükleniyor...",
+          "Error": "\"{0}\" oda detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Community": {
+          "Loading": "Oda topluluğu yükleniyor...",
+          "Error": "\"{0}\" oda topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Submit": {
+            "Loading": "Oda topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini oda topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Oda yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki oda yorumlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Oda liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" oda liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Record": {
+            "List": {
+              "Loading": "Oda kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki oda kayıtlarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            },
+            "Details": {
+              "Loading": "Oda kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" oda kayıt detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Oda uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" odası şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen başka bir odayı kullanın, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin. "
+        },
+        "Cover": {
+          "Loading": "Oda seviyesi kapağı yükleniyor...",
+          "Error": "\"{0}\" oda seviyesi kapağını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Bgm": {
+          "Loading": "Oda sevyesi arkaplan müziği yükleniyor...",
+          "Error": "\"{0}\" oda seviyesi arkaplan müziğini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+        },
+        "Preview": {
+          "Loading": "Oda seviyesi önizlemesi yükleniyor...",
+          "Error": "\"{0}\" oda seviyesi önizlemesini yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         }
       }
     },
@@ -670,7 +1304,123 @@
           "Error": "\"{0}\" koleksiyonunun sembolünü yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "Gönderilerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" gönderilerinin bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Gönderi oluşturuluyor...",
+          "Error": "\"{0}\" içinde gönderi oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "List": {
+          "Loading": "Gönderiler yükleniyor...",
+          "Error": "{0}. sayfadaki gönderileri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Gönderi detayları yükleniyor...",
+          "Error": "\"{0}\" gönderisinin detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Community": {
+          "Loading": "Gönderi topluluğu yükleniyor...",
+          "Error": "\"{0}\" gönderi topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Gönderi topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini gönderi topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Gönderi yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki gönderi yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Gönderi liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" gönderi liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Gönderi kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki gönderi kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Gönderi kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" gönderi kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Gönderi uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" gönderisi şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu gönderiyi güncelleyin, ya da başka bir gönderiyi kullanın."
+        },
+        "Thumbnail": {
+          "Loading": "Gönderi önizleme resmi yükleniyor...",
+          "Error": "\"{0}\" gönderi önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu gönderiyi güncelleyin, ya da başka bir gönderiyi kullanın."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Çalma listelerinin bilgileri yükleniyor...",
+          "Error": "\"{0}\" çalma listelerinin bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Çalma listesi oluşturuluyor...",
+          "Error": "\"{0}\" içinde çalma listesi oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "List": {
+          "Loading": "Çalma listeleri yükleniyor...",
+          "Error": "{0}. sayfadaki çalma listelerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Çalma listesi detayları yükleniyor...",
+          "Error": "\"{0}\" çalma listelerinin detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Community": {
+          "Loading": "Çalma listesi topluluğu yükleniyor...",
+          "Error": "\"{0}\" çalma listesi topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Çalma listesi topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini çalma listesi topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Çalma listesi yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki çalma listesi yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Çalma listesi liderlik tablosu yükleniyor...",
+          "Error": "\"{0}\" çalma listesi liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Çalma listesi kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki çalma listesi kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Çalma listesi kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" çalma listesi kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Çalma listesi uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" çalma listesi şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu çalma listesini güncelleyin, ya da başka bir çalma listesi kullanın."
+        },
+        "Thumbnail": {
+          "Loading": "Oynatma listesi önizleme resmi yükleniyor...",
+          "Error": "\"{0}\" oynatma listesinin önizleme resmini yüklemede başarısız olundu.\n\n\nLütfen bu çalma listesini güncelleyin, ya da başka bir çalma listesi kullanın."
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "Seviyelerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" seviyelerinin bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Seviye oluşturuluyor...",
+          "Error": "\"{0}\" içinde seviye oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Seviyeler yükleniyor...",
           "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -679,28 +1429,64 @@
           "Loading": "Seviye detayları yükleniyor...",
           "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Seviye topluluğu yükleniyor...",
+          "Error": "\"{0}\" seviye topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Seviye topluluğa gönderiliyor...",
+            "Error": "\"{0}\" içeriğini seviye topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Seviye yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki seviye yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Seviye liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" seviye liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Seviye kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki seviye kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Seviye kaydı detayları yükleniyor...",
+              "Error": "\"{0}\" seviye kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Seviye uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
+          "Error": "\"{0}\" seviyesi şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
         },
         "Cover": {
           "Loading": "Seviye albüm kapağı yükleniyor...",
           "Error": "\"{0}\" seviye albüm kapağını yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
         },
         "Bgm": {
-          "Loading": "Seviye ses efektleri yükleniyor...",
-          "Error": "\"{0}\" seviye ses efektini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
+          "Loading": "Seviye arkaplan müziği yükleniyor...",
+          "Error": "\"{0}\" seviye arkaplan müziğini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
         },
         "Preview": {
           "Loading": "Seviye önizlemesi yükleniyor...",
           "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
         },
         "Data": {
-          "Loading": "Seviye bilgisi yükleniyor...",
-          "Error": "\"{0}\" seviye bilgisini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
+          "Loading": "Seviye verileri yükleniyor...",
+          "Error": "\"{0}\" seviye verilerini yüklemede başarısız olundu.\n\nLütfen bu seviyeyi güncelleyin, ya da başka bir seviyeyi kullanın."
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Dokuların bilgileri yükleniyor...",
+          "Error": "\"{0}\" dokularının bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Doku oluşturuluyor...",
+          "Error": "\"{0}\" içinde doku oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Dokular yükleniyor...",
           "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -709,17 +1495,45 @@
           "Loading": "Doku detayları yükleniyor...",
           "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Doku topluluğu yükleniyor...",
+          "Error": "\"{0}\" doku topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Doku topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini doku topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Doku yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki doku yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Doku liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" doku liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Doku kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki doku kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Doku kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" doku kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Doku uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
+          "Error": "\"{0}\" dokusu şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
         },
         "Thumbnail": {
           "Loading": "Doku önizleme görseli yükleniyor...",
           "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
         },
         "Data": {
-          "Loading": "Doku bilgisi yükleniyor...",
-          "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
+          "Loading": "Doku verileri yükleniyor...",
+          "Error": "\"{0}\" doku verilerini yüklemede başarısız olundu.\n\nLütfen bu dokuyu güncelleyin, ya da başka bir doku kullanın."
         },
         "Texture": {
           "Loading": "Doku yapısı yükleniyor...",
@@ -727,6 +1541,14 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Arkaplanların bilgileri yükleniyor...",
+          "Error": "\"{0}\" arkaplanlarının bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Arkaplan oluşturuluyor...",
+          "Error": "\"{0}\" içinde arkaplan oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Arkaplanlar yükleniyor...",
           "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -735,17 +1557,45 @@
           "Loading": "Arkaplan detayları yükleniyor...",
           "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Arkaplan topluluğu yükleniyor...",
+          "Error": "\"{0}\" arkaplan topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Arkaplan topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini arkaplan topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Arkaplan yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki arkaplan yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Arkaplan liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" arkaplan liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Arkaplan kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki arkaplan kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Arkaplan kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" arkaplan kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
+          "Error": "\"{0}\" arkaplanı şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
         },
         "Thumbnail": {
           "Loading": "Arkaplan önizleme görseli yükleniyor...",
           "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
         },
         "Data": {
-          "Loading": "Arkaplan bilgisi yükleniyor...",
-          "Error": "\"{0}\" arkaplan bilgisini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
+          "Loading": "Arkaplan verileri yükleniyor...",
+          "Error": "\"{0}\" arkaplan verilerini yüklemede başarısız olundu.\n\nLütfen bu arkaplanı güncelleyin, ya da başka bir arkaplan kullanın."
         },
         "Image": {
           "Loading": "Arkaplan görseli yükleniyor...",
@@ -757,6 +1607,14 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Ses efektleri bilgileri yükleniyor...",
+          "Error": "\"{0}\" ses efektlerinin bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Ses efekti oluşturuluyor...",
+          "Error": "\"{0}\" içinde ses efekti oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Ses efekti yükleniyor...",
           "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -765,17 +1623,45 @@
           "Loading": "Ses efekti detayları yükleniyor...",
           "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Ses efekti topluluğu yükleniyor...",
+          "Error": "\"{0}\" ses efekti topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Ses efekti topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini ses efekti topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Ses efekti yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki ses efekti yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Ses efekti liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" ses efekti liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Ses efekti kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki ses efekti kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Ses efekti kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" ses efekti kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
+          "Error": "\"{0}\" ses efekti şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
         },
         "Thumbnail": {
           "Loading": "Ses efekti önizleme görseli yükleniyor...",
           "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
         },
         "Data": {
-          "Loading": "Ses efekti bilgisi yükleniyor...",
-          "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
+          "Loading": "Ses efekti verileri yükleniyor...",
+          "Error": "\"{0}\" ses efekti verilerini yüklemede başarısız olundu.\n\nLütfen bu ses efektini güncelleyin, ya da başka bir ses efekti kullanın."
         },
         "Audio": {
           "Loading": "Ses efekti sesi yükleniyor...",
@@ -783,6 +1669,14 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Partiküllerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" partiküllerinin bilgilerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Partikül oluşturuluyor...",
+          "Error": "\"{0}\" içinde partikül oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Partiküller yükleniyor...",
           "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -791,17 +1685,45 @@
           "Loading": "Partikül detayları yükleniyor...",
           "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Partikül topluluğu yükleniyor...",
+          "Error": "\"{0}\" partikül topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Partikül topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini partikül topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Partikül yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki partikül yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Partikül liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" partikül topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Partikül kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki partikül kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Partikül kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" partikül kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Partikül uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
+          "Error": "\"{0}\" partikülü şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
         },
         "Thumbnail": {
           "Loading": "Partikül önizleme görseli yükleniyor...",
           "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
         },
         "Data": {
-          "Loading": "Partikül bilgileri yükleniyor...",
-          "Error": "\"{0}\" partikül bilgisini yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
+          "Loading": "Partikül verileri yükleniyor...",
+          "Error": "\"{0}\" partikül verilerini yüklemede başarısız olundu.\n\nLütfen bu partikülü güncelleyin, ya da başka bir partikül kullanın."
         },
         "Texture": {
           "Loading": "Partikül dokusu yükleniyor...",
@@ -809,6 +1731,14 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Motorların bilgileri yükleniyor...",
+          "Error": "\"{0}\" motorlarının bilgilerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Motor oluşturuluyor...",
+          "Error": "\"{0}\" içinde motor oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Motorlar yükleniyor...",
           "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -817,29 +1747,57 @@
           "Loading": "Motor detayları yükleniyor...",
           "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Motor topluluğu yükleniyor...",
+          "Error": "\"{0}\" motor topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Motor topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini motor topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Motor yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki motor yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Motor liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" motor liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Motor kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki motor kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Motor kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" motor kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Motor uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+          "Error": "\"{0}\" motoru şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
         "Thumbnail": {
           "Loading": "Motor önizleme görseli yükleniyor...",
           "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
         "PlayData": {
-          "Loading": "Motor oyun modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor oynama modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+          "Loading": "Motor oyun modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor oynama modu verilerini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
         "WatchData": {
-          "Loading": "Motor izleme modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor izleme modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+          "Loading": "Motor izleme modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor izleme modu verilerini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
         "PreviewData": {
-          "Loading": "Motor önizleme modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor önizleme modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+          "Loading": "Motor önizleme modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor önizleme modu verilerini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
         "TutorialData": {
-          "Loading": "Motor öğretici modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor öğretici modu bilgisini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
+          "Loading": "Motor öğretici modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor öğretici modu verilerini yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         },
         "Rom": {
           "Loading": "Motor ROM' u yükleniyor...",
@@ -849,9 +1807,133 @@
           "Loading": "Motor yapılandırması yükleniyor...",
           "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nLütfen bu motoru güncelleyin, ya da başka bir motor kullanın."
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Kayıtların bilgileri yükleniyor...",
+          "Error": "\"{0}\" kayıtlarının bilgilerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Tekrar oluşturuluyor...",
+          "Error": "\"{0}\" içinde tekrar oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "List": {
+          "Loading": "Tekrarlar yükleniyor...",
+          "Error": "{0}. sayfadaki tekrarları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Tekrar detayları yükleniyor...",
+          "Error": "\"{0}\" tekrar detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Community": {
+          "Loading": "Tekrar topluluğu yükleniyor...",
+          "Error": "\"{0}\" tekrar topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Tekrar topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini tekrar topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Tekrar yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki tekrar yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Tekrar liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" tekrar liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Tekrar kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki tekrar kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Tekrar kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" tekrar kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Tekrar uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" tekrarı şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu tekrarı güncelleyin, ya da başka bir tekrar kullanın."
+        },
+        "Data": {
+          "Loading": "Tekrar verileri yükleniyor...",
+          "Error": "\"{0}\" tekrar verilerini yüklemede başarısız olundu.\n\nLütfen bu tekrarı güncelleyin, ya da başka bir tekrar kullanın."
+        },
+        "Configuration": {
+          "Loading": "Tekrar yapılandırması yükleniyor...",
+          "Error": "\"{0}\" tekrar yapılandırmasını yüklemede başarısız olundu.\n\nLütfen bu tekrarı güncelleyin, ya da başka bir tekrar kullanın."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Odaların bilgileri yükleniyor...",
+          "Error": "\"{0}\" odalarının bilgilerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Oda oluşturuluyor...",
+          "Error": "\"{0}\" içinde oda oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "List": {
+          "Loading": "Odalar yükleniyor...",
+          "Error": "{0}. sayfadaki odaları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Oda detayları yükleniyor...",
+          "Error": "\"{0}\" oda detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
+        "Community": {
+          "Loading": "Oda topluluğu yükleniyor...",
+          "Error": "\"{0}\" oda topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Oda topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini oda topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Oda yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki oda yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Oda liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" oda liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Oda kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki oda kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Oda kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" oda kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Oda uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" odası şu anki Sonolus sürümü ile uyumlu değil.\n\nLütfen bu odayı güncelleyin, ya da başka bir oda kullanın."
+        },
+        "Cover": {
+          "Loading": "Oda seviyesinin kapağı yükleniyor...",
+          "Error": "\"{0}\" oda seviyesinin kapağını yüklemede başarısız olundu.\n\nLütfen bu odayı güncelleyin, ya da başka bir oda kullanın."
+        },
+        "Bgm": {
+          "Loading": "Oda seviyesinin arkaplan müziği yükleniyor...",
+          "Error": "\"{0}\" oda seviyesinin arkaplan müziğini yüklemede başarısız olundu.\n\nLütfen bu odayı güncelleyin, ya da başka bir oda kullanın."
+        },
+        "Preview": {
+          "Loading": "Oda seviyesinin önizlemesi yükleniyor...",
+          "Error": "\"{0}\" oda seviyesinin önizlemesini yüklemede başarısız olundu.\n\nLütfen bu odayı güncelleyin, ya da başka bir oda kullanın."
+        }
       }
     },
     "Scp": {
+      "PackageInfo": {
+        "Loading": "Paket bilgisi yükleniyor...",
+        "Error": "\"{0}\" paket bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+      },
       "Server": {
         "Info": {
           "Loading": "Paket bilgisi yükleniyor...",
@@ -862,7 +1944,123 @@
           "Error": "\"{0}\" paket sembolünü yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "Gönderilerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" gönderilerinin bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Gönderi oluşturuluyor...",
+          "Error": "\"{0}\" içinde gönderi oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "List": {
+          "Loading": "Gönderiler yükleniyor...",
+          "Error": "{0}. sayfadaki gönderileri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Gönderi detayları yükleniyor...",
+          "Error": "\"{0}\" gönderi detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Community": {
+          "Loading": "Gönderi topluluğu yükleniyor...",
+          "Error": "\"{0}\" gönderi topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Gönderi topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini gönderi topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Gönderi yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki gönderi yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Gönderi liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" gönderi liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Gönderi kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki gönderi kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Gönderi kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" gönderi kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Gönderi uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" gönderisi şu anki Sonolus sürümü ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Thumbnail": {
+          "Loading": "Gönderi önizleme resmi yükleniyor...",
+          "Error": "\"{0}\" gönderi önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Çalma listelerinin bilgileri yükleniyor...",
+          "Error": "\"{0}\" çalma listelerinin bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Çalma listesi oluşturuluyor...",
+          "Error": "\"{0}\" içinde çalma listesi oluşturmasında başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "List": {
+          "Loading": "Çalma listeleri yükleniyor...",
+          "Error": "{0}. sayfadaki çalma listelerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Çalma listesi detayları yükleniyor...",
+          "Error": "\"{0}\" çalma listesi detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Community": {
+          "Loading": "Çalma listesi topluluğu yükleniyor...",
+          "Error": "\"{0}\" çalma listesi topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Çalma listesi topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini çalma listesi topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Çalma listesi yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki çalma listesi yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Çalma listesi liderlik tablosu yükleniyor...",
+          "Error": "\"{0}\" çalma listesi liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Çalma listesi kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki çalma listesi kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Çalma listesi kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" çalma listesi kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Çalma listesi uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" çalma listesi mevcut Sonolus sürümüyle uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Thumbnail": {
+          "Loading": "Oynatma listesi önizleme resmi yükleniyor...",
+          "Error": "\"{0}\" çalma listesi önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "Seviyelerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" seviyelerinin bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Seviye oluşturuluyor...",
+          "Error": "\"{0}\" içinde seviye oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Seviyeler yükleniyor...",
           "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -871,9 +2069,37 @@
           "Loading": "Seviye detayları yükleniyor...",
           "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Seviye topluluğu yükleniyor...",
+          "Error": "\"{0}\" seviye topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Seviye topluluğa gönderiliyor...",
+            "Error": "\"{0}\" içeriğini seviye topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Seviye yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki seviye yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Seviye liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" seviye liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Seviye kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki seviye kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Seviye kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" seviye kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Seviye uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" seviyesi şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Error": "\"{0}\" seviyesi şu anki Sonolus sürümü ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Cover": {
           "Loading": "Seviye albüm kapağı yükleniyor...",
@@ -888,11 +2114,19 @@
           "Error": "\"{0}\" seviye önizlemesini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Data": {
-          "Loading": "Seviye bilgisi yükleniyor...",
-          "Error": "\"{0}\" seviye bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Seviye verileri yükleniyor...",
+          "Error": "\"{0}\" seviye verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Dokuların bilgileri yükleniyor...",
+          "Error": "\"{0}\" dokularının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Doku oluşturuluyor...",
+          "Error": "\"{0}\" içinde doku oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Dokular yükleniyor...",
           "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -901,17 +2135,45 @@
           "Loading": "Doku detayları yükleniyor...",
           "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Doku topluluğu yükleniyor...",
+          "Error": "\"{0}\" doku topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Doku topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini doku topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Doku yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki doku yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Doku liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" doku liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Doku kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki doku kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Doku kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" doku kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Doku uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" dokusu şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Error": "\"{0}\" dokusu şu anki Sonolus sürümü ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Thumbnail": {
           "Loading": "Doku önizleme görseli yükleniyor...",
           "Error": "\"{0}\" doku önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Data": {
-          "Loading": "Doku bilgisi yükleniyor...",
-          "Error": "\"{0}\" doku bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Doku verileri yükleniyor...",
+          "Error": "\"{0}\" doku verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Texture": {
           "Loading": "Doku yapısı yükleniyor...",
@@ -919,6 +2181,14 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Arkaplanların bilgileri yükleniyor...",
+          "Error": "\"{0}\" arkaplanlarının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Arkaplan oluşturuluyor...",
+          "Error": "\"{0}\" içinde arkaplan oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Arkaplanlar yükleniyor...",
           "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -927,17 +2197,45 @@
           "Loading": "Arkaplan detayları yükleniyor...",
           "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Arkaplan topluluğu yükleniyor...",
+          "Error": "\"{0}\" arkaplan topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Arkaplan topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini arkaplan topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Arkaplan yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki arkaplan yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Arkaplan liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" arkaplan liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Arkaplan kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki arkaplan kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Arkaplan kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" arkaplan kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" arkaplanı şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Error": "\"{0}\" arkaplanı şu anki Sonolus sürümü ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Thumbnail": {
           "Loading": "Arkaplan önizleme görseli yükleniyor...",
           "Error": "\"{0}\" arkaplan önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Data": {
-          "Loading": "Arkaplan bilgisi yükleniyor...",
-          "Error": "\"{0}\" arkaplan bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Arkaplan verileri yükleniyor...",
+          "Error": "\"{0}\" arkaplan verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Image": {
           "Loading": "Arkaplan görseli yükleniyor...",
@@ -949,6 +2247,14 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Ses efekti bilgileri yükleniyor...",
+          "Error": "\"{0}\" ses efekt bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Ses efekti oluşturuluyor...",
+          "Error": "\"{0}\" içinde ses efekti oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Ses efekti yükleniyor...",
           "Error": "{0}. sayfadaki ses efektlerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -957,17 +2263,45 @@
           "Loading": "Ses efekti detayları yükleniyor...",
           "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Ses efekti topluluğu yükleniyor...",
+          "Error": "\"{0}\" ses efekti topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Ses efekti topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini ses efekti topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Ses efekti yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki ses efekti yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Ses efekti liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" ses efekti liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Ses efekti kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki ses efekti kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Ses efekti kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" ses efekti kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" ses efekti şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Error": "\"{0}\" ses efekti şu anki Sonolus sürümü ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Thumbnail": {
           "Loading": "Ses efekti önizleme görseli yükleniyor...",
           "Error": "\"{0}\" ses efekti önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Data": {
-          "Loading": "Ses efekti bilgisi yükleniyor...",
-          "Error": "\"{0}\" ses efekti bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Ses efekti verileri yükleniyor...",
+          "Error": "\"{0}\" ses efekti verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Audio": {
           "Loading": "Ses efekti sesi yükleniyor...",
@@ -975,6 +2309,14 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Partiküllerin bilgileri yükleniyor...",
+          "Error": "\"{0}\" partiküllerin bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Partikül oluşturuluyor...",
+          "Error": "\"{0}\" içinde partikül oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Partiküller yükleniyor...",
           "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -983,17 +2325,45 @@
           "Loading": "Partikül detayları yükleniyor...",
           "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Partikül topluluğu yükleniyor...",
+          "Error": "\"{0}\" partikül topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Partikül topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini partikül topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Partikül yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki partikül yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Partikül liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" partikül liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Partikül kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki partikül kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Partikül kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" partikül kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Partikül uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" partikülü şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Error": "\"{0}\" partikülü şu anki Sonolus sürümü ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Thumbnail": {
           "Loading": "Partikül önizleme görseli yükleniyor...",
           "Error": "\"{0}\" partikül önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Data": {
-          "Loading": "Partikül bilgileri yükleniyor...",
-          "Error": "\"{0}\" partikül bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Partikül verileri yükleniyor...",
+          "Error": "\"{0}\" partikül verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Texture": {
           "Loading": "Partikül dokusu yükleniyor...",
@@ -1001,6 +2371,14 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Motorların bilgileri yükleniyor...",
+          "Error": "\"{0}\" motorlarının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Motor oluşturuluyor...",
+          "Error": "\"{0}\" içinde motor oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
+        },
         "List": {
           "Loading": "Motorlar yükleniyor...",
           "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -1009,29 +2387,57 @@
           "Loading": "Motor detayları yükleniyor...",
           "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
+        "Community": {
+          "Loading": "Motor topluluğu yükleniyor...",
+          "Error": "\"{0}\" motor topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Motor topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini motor topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Motor yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki motor yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Motor liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" motor liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Motor kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki motor kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Motor kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" motor kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
         "Compatibility": {
           "Loading": "Motor uyumluluğu kontrol ediliyor...",
-          "Error": "\"{0}\" motoru şu anki Sonolus versiyonu ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Error": "\"{0}\" motoru şu anki Sonolus sürümü ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Thumbnail": {
           "Loading": "Motor önizleme görseli yükleniyor...",
           "Error": "\"{0}\" motor önizleme görselini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "PlayData": {
-          "Loading": "Motor oyun modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor oyun modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Motor oyun modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor oyun modu verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "WatchData": {
-          "Loading": "Motor izleme modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor izleme modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Motor izleme modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor izleme modu verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "PreviewData": {
-          "Loading": "Motor önizleme modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor önizleme modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Motor önizleme modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor önizleme modu verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "TutorialData": {
-          "Loading": "Motor öğretici modu bilgisi yükleniyor...",
-          "Error": "\"{0}\" motor öğretici modu bilgisini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          "Loading": "Motor öğretici modu verileri yükleniyor...",
+          "Error": "\"{0}\" motor öğretici modu verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
         "Rom": {
           "Loading": "Motor ROM' u yükleniyor...",
@@ -1041,7 +2447,135 @@
           "Loading": "Motor yapılandırması yükleniyor...",
           "Error": "\"{0}\" motor yapılandırmasını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Tekrarların bilgileri yükleniyor...",
+          "Error": "\"{0}\" tekrarlarının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Tekrar oluşturuluyor...",
+          "Error": "\"{0}\" içinde tekrar oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "List": {
+          "Loading": "Tekrarlar yükleniyor...",
+          "Error": "{0}. sayfadaki tekrarları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Tekrar detayları yükleniyor...",
+          "Error": "\"{0}\" tekrar detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Community": {
+          "Loading": "Tekrar topluluğu yükleniyor...",
+          "Error": "\"{0}\" tekrar topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Tekrar topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini tekrar topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Tekrar yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki tekrar yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Tekrar liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" tekrar liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Tekrar kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki tekrar kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Tekrar kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" tekrar kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Tekrar uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" tekrarı şu anki Sonolus sürümüyle uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Data": {
+          "Loading": "Tekrar verileri yükleniyor...",
+          "Error": "\"{0}\" tekrar verilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Configuration": {
+          "Loading": "Tekrar yapılandırması yükleniyor...",
+          "Error": "\"{0}\" tekrar yapılandırmasını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Odaların bilgileri yükleniyor...",
+          "Error": "\"{0}\" odalarının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Create": {
+          "Loading": "Oda oluşturuluyor...",
+          "Error": "\"{0}\" içinde oda oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "List": {
+          "Loading": "Odalar yükleniyor...",
+          "Error": "{0}. sayfadaki odaları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Details": {
+          "Loading": "Oda detayları yükleniyor...",
+          "Error": "\"{0}\" oda detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Community": {
+          "Loading": "Oda topluluğu yükleniyor...",
+          "Error": "\"{0}\" oda topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Submit": {
+            "Loading": "Oda topluluğuna gönderiliyor...",
+            "Error": "\"{0}\" içeriğini oda topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Oda yorumları yükleniyor...",
+              "Error": "{0}. sayfadaki oda yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Loading": "Oda liderler tablosu yükleniyor...",
+          "Error": "\"{0}\" oda liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
+          "Record": {
+            "List": {
+              "Loading": "Oda kayıtları yükleniyor...",
+              "Error": "{0}. sayfadaki oda kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            },
+            "Details": {
+              "Loading": "Oda kayıt detayları yükleniyor...",
+              "Error": "\"{0}\" oda kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Oda uyumluluğu kontrol ediliyor...",
+          "Error": "\"{0}\" odası şu anki Sonolus sürümü ile uyumlu değil.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Cover": {
+          "Loading": "Oda seviyesinin albüm kapağı yükleniyor...",
+          "Error": "\"{0}\" seviyesinin albüm kapağı yüklenmesinde başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Bgm": {
+          "Loading": "Oda seviyesinin arkaplan müziği yükleniyor...",
+          "Error": "\"{0}\" seviyesinin oda arkaplan müziği yüklenmesinde başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        },
+        "Preview": {
+          "Loading": "Oda seviyesinin önizlemesi yükleniyor...",
+          "Error": "\"{0}\" seviyesinin oda önizleme yüklenmesinde başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
+        }
       }
+    },
+    "Multiplayer": {
+      "Connect": {
+        "Loading": "Bağlanılıyor...",
+        "Error": "\"{0}\" odasına bağlanmada başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+      },
+      "Disconnected": "Çok oyunculu odayla bağlantınız kesildi.",
+      "Error": "Çok oyunculu odada önemli bir hata oluştu.\n\nSorunu bildirmek için lütfen sunucu sahibiyle iletişime geçin."
     }
   },
   "DeepLink": {
@@ -1057,6 +2591,21 @@
     "Back": "Geri"
   },
   "Routes": {
+    "ExternalLogin": {
+      "NotLoggedInError": {
+        "Description": "Bir Sonolus hesabıyla oturum açmadınız.\n\nLütfen önce Sonolus hesabınızla oturum açın ve tekrar deneyin."
+      },
+      "Confirmation": {
+        "Description": "Harici bir hizmette oturum açıyorsunuz:\n{0}\n\n\"{1}\" olarak oturum açmak ister misiniz?"
+      },
+      "Login": {
+        "Loading": "Giriş yapılıyor...",
+        "Error": "\"{0}\" harici hizmetinde oturum açılamadı.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin ya da sorunu bildirmek için servis sahibiyle iletişime geçin."
+      },
+      "Success": {
+        "Title": "Giriş Yapıldı"
+      }
+    },
     "JumpToPage": {
       "Title": "Sayfaya Atla",
       "Page": {
@@ -1095,81 +2644,171 @@
         "Description": "Oynamaya başlamak için özel sunucu ya da koleksiyon seçin"
       },
       "ToSave": {
+        "Post": {
+          "Title": "Gönderiyi Kaydet",
+          "Description": "Bu gönderinin kaydedileceği koleksiyonu seçin."
+        },
+        "Playlist": {
+          "Title": "Çalma Listesini Kaydet",
+          "Description": "Bu çalma listesinin kaydedileceği bir koleksiyon seçin"
+        },
         "Level": {
           "Title": "Seviyeyi Kaydet",
           "Description": "Bu seviyenin kaydedileceği bir koleksiyon seçin"
         },
         "Skin": {
           "Title": "Dokuyu Kaydet",
-          "Description": "Bu dokunun kaydedileceği koleksiyonu seçin."
+          "Description": "Bu dokunun kaydedileceği bir koleksiyon seçin."
         },
         "Background": {
           "Title": "Arkaplanı Kaydet",
-          "Description": "Bu arkaplanın kaydedileceği koleksiyonu seçin"
+          "Description": "Bu arkaplanın kaydedileceği bir koleksiyon seçin"
         },
         "Effect": {
           "Title": "Efekti Kaydet",
-          "Description": "Bu efektin kaydedileceği koleksiyonu seçin"
+          "Description": "Bu efektin kaydedileceği bir koleksiyon seçin"
         },
         "Particle": {
           "Title": "Partikülü Kaydet",
-          "Description": "Bu partikülün kaydedileceği koleksiyonu seçin."
+          "Description": "Bu partikülün kaydedileceği bir koleksiyon seçin."
         },
         "Engine": {
           "Title": "Motoru Kaydet",
-          "Description": "Bu motorun kaydedileceği koleksiyonu seçin."
+          "Description": "Bu motorun kaydedileceği bir koleksiyon seçin."
+        },
+        "Replay": {
+          "Title": "Tekrarı Kaydet",
+          "Description": "Bu tekrarın kaydedileceği bir koleksiyon seçin."
+        },
+        "Room": {
+          "Title": "Odayı Kaydet",
+          "Description": "Bu odanın kaydedileceği bir koleksiyon seçin"
+        }
+      },
+      "ToCreate": {
+        "Post": {
+          "Title": "Gönderi Oluştur",
+          "Description": "Bu gönderiyi oluşturmak için bir koleksiyon seçin"
+        },
+        "Playlist": {
+          "Title": "Çalma Listesi Oluştur",
+          "Description": "Bu çalma listesini oluşturmak için bir koleksiyon seçin"
+        },
+        "Level": {
+          "Title": "Seviye Oluştur",
+          "Description": "Bu seviyeyi oluşturmak için bir koleksiyon seçin."
+        },
+        "Skin": {
+          "Title": "Doku Oluştur",
+          "Description": "Bu dokuyu oluşturmak için bir koleksiyon seçin."
+        },
+        "Background": {
+          "Title": "Arkaplan Oluştur",
+          "Description": "Bu arkaplanı oluşturmak için bir koleksiyon seçin."
+        },
+        "Effect": {
+          "Title": "Efekt Oluştur",
+          "Description": "Bu efekti oluşturmak için bir koleksiyon seçin."
+        },
+        "Particle": {
+          "Title": "Partikül Oluştur",
+          "Description": "Bu partikülü oluşturmak için bir koleksiyon seçin."
+        },
+        "Engine": {
+          "Title": "Motor Oluştur",
+          "Description": "Bu motoru oluşturmak için bir koleksiyon seçin."
+        },
+        "Replay": {
+          "Title": "Tekrar Oluştur",
+          "Description": "Bu tekrarı oluşturmak için bir koleksiyon seçin."
+        },
+        "Room": {
+          "Title": "Oda Oluştur",
+          "Description": "Bu odayı oluşturmak için bir koleksiyon seçin."
         }
       },
       "ToUse": {
+        "Post": {
+          "Title": "Gönderi Seçin",
+          "Description": "Gönderilerini kullanmak için bir özel sunucu ya da koleksiyon seçin."
+        },
+        "Playlist": {
+          "Title": "Çalma Listesini Seçin",
+          "Description": "Çalma listelerini kullanmak için bir özel sunucu ya da koleksiyon seçin."
+        },
         "Level": {
           "Title": "Seviye Seçin",
-          "Description": "Seviyesini kullanmak için özel sunucu ya da koleksiyon seçin."
+          "Description": "Seviyelerini kullanmak için bir özel sunucu ya da koleksiyon seçin."
         },
         "Skin": {
           "Title": "Doku Seçin",
-          "Description": "Dokusunu kullanmak için özel sunucu ya da koleksiyon seçin."
+          "Description": "Dokularını kullanmak için bir özel sunucu ya da koleksiyon seçin."
         },
         "Background": {
           "Title": "Arkaplan Seçin",
-          "Description": "Arkaplanını kullanmak için özel sunucu ya da koleksiyon seçin."
+          "Description": "Arkaplanlarını kullanmak için bir özel sunucu ya da koleksiyon seçin."
         },
         "Effect": {
           "Title": "Efekt Seçin",
-          "Description": "Efektini kullanmak için özel sunucu ya da koleksiyon seçin."
+          "Description": "Efektlerini kullanmak için bir özel sunucu ya da koleksiyon seçin."
         },
         "Particle": {
           "Title": "Partikül Seçin",
-          "Description": "Partiküllerinizi kullanmak için özel sunucu ya da koleksiyon seçin."
+          "Description": "Partiküllerini kullanmak için bir özel sunucu ya da koleksiyon seçin."
         },
         "Engine": {
           "Title": "Motor Seçin",
-          "Description": "Motorunu kullanmak için özel sunucu ya da koleksiyon seçin."
+          "Description": "Motorlarını kullanmak için bir özel sunucu ya da koleksiyon seçin."
+        },
+        "Replay": {
+          "Title": "Kayıt Seçin",
+          "Description": "Kayıtlarını kullanmak için bir özel sunucu ya da koleksiyon seçin."
+        },
+        "Room": {
+          "Title": "Oda Seçin",
+          "Description": "Odalarını kullanmak için bir özel sunucu ya da koleksiyon seçin."
         }
       },
       "ToAddFavorite": {
+        "Post": {
+          "Title": "Favori bir Gönderi Ekleyin",
+          "Description": "Favori gönderilerinizi eklemek için bir özel sunucu seçin."
+        },
+        "Playlist": {
+          "Title": "Favori bir Çalma Listesi Ekleyin",
+          "Description": "Favori çalma listelerinizi eklemek için bir özel sunucu seçin."
+        },
         "Level": {
           "Title": "Favori bir Seviye Ekleyin",
-          "Description": "Favori seviyelerinizi eklemek için özel sunucu ya da koleksiyon seçin."
+          "Description": "Favori seviyelerinizi eklemek için bir özel sunucu seçin."
         },
         "Skin": {
           "Title": "Favori bir Doku Ekleyin",
-          "Description": "Favori dokularınızı eklemek için özel sunucu ya da koleksiyon seçin."
+          "Description": "Favori dokularınızı eklemek için bir özel sunucu seçin."
         },
         "Background": {
           "Title": "Favori bir Arkaplan Seçin",
-          "Description": "Favori arkaplanlarınızı eklemek için özel sunucu ya da koleksiyon seçin."
+          "Description": "Favori arkaplanlarınızı eklemek için bir özel sunucu seçin."
         },
         "Effect": {
           "Title": "Favori bir Efekt Seçin",
-          "Description": "Favori efektlerinizi eklemek için özel sunucu ya da koleksiyon seçin."
+          "Description": "Favori efektlerinizi eklemek için bir özel sunucu seçin."
         },
         "Particle": {
           "Title": "Favori bir Partikül Seçin",
-          "Description": "Favori partiküllerinizi eklemek için özel sunucu ya da koleksiyon seçin."
+          "Description": "Favori partiküllerinizi eklemek için bir özel sunucu seçin."
         },
         "Engine": {
           "Title": "Favori bir Motor Seçin",
-          "Description": "Favori motorunuzu eklemek için özel sunucu ya da koleksiyon seçin."
+          "Description": "Favori motorlarınızı eklemek için bir özel sunucu seçin."
+        },
+        "Replay": {
+          "Title": "Favori bir Kayıt Ekleyin",
+          "Description": "Favori kayıtlarınızı eklemek için bir özel sunucu seçin."
+        },
+        "Room": {
+          "Title": "Favori bir Oda Ekleyin",
+          "Description": "Favori odalarınızı eklemek için bir özel sunucu seçin."
         }
       }
     },
@@ -1210,6 +2849,18 @@
       },
       "Success": {
         "Title": "Paket İçe Aktarıldı"
+      }
+    },
+    "ExportScpConfiguration": {
+      "Title": "Dışa Aktarma Yapılandırması",
+      "Mode": {
+        "Title": "Mod",
+        "Description": "Standart modun kullanılması önerilir.\n\nKaynağı olan bir öğe, bir bağlantı olarak dışa aktarılabilir; bu durum, içe aktarırken internet bağlantısı gerektirme pahasına paket boyutunu büyük ölçüde azaltır.\nStandart mod, kaynaklara sahip öğeleri bağlantı olarak ve kaynak olmayan öğeleri tamamen dışa aktarır. Yalnızca kaynak modu, yalnızca kaynakları bağlantı olarak içeren öğeleri dışa aktarır. Tam mod, tüm öğeleri tam olarak dışa aktarır.",
+        "Options": {
+          "Standard": "Standart",
+          "SourceOnly": "Sadece Kaynak",
+          "Full": "Full"
+        }
       }
     },
     "ExportScp": {
@@ -1279,10 +2930,11 @@
       "Play": "Oyna",
       "Players": "Oyuncular",
       "Account": "Hesap",
+      "Link": "Bağlantı",
       "Settings": "Ayarlar",
       "UpdateAvailable": {
         "Title": "Güncelleme Var",
-        "Description": "Sonolus' un {0} versiyonu çıktı!\n\nWeb sitemizi ziyaret edin:\nhttps://sonolus.com",
+        "Description": "Sonolus' un {0} sürümü çıktı!\n\nWeb sitemizi ziyaret edin:\nhttps://sonolus.com",
         "Open": "Aç"
       }
     },
@@ -1296,6 +2948,29 @@
           "Placeholder": "Oyuncu kimliğini girin..."
         },
         "Lookup": "Ara"
+      }
+    },
+    "Link": {
+      "Title": "Bağlantı",
+      "QRCode": {
+        "Title": "QR Kodu",
+        "Camera": "Kamera",
+        "Gallery": "Galeri"
+      },
+      "Text": {
+        "Title": "Metin",
+        "TextLink": {
+          "Title": "Metin Bağlantısı",
+          "Description": "Bir \"sonolus://...\" bağlantısı.",
+          "Placeholder": "Metin bağlantısını girin..."
+        },
+        "Open": "Aç"
+      },
+      "NotDeepLink": {
+        "Description": "\"{0}\" bağlantısı bir \"sonolus://...\" bağlantısı değil.\n\nÖzel bir sunucu olarak açmak ister misiniz?"
+      },
+      "LinkError": {
+        "Description": "Geçerli bir bağlantı bulunamadı."
       }
     },
     "Account": {
@@ -1375,22 +3050,33 @@
       "AddFavorite": {
         "Title": "Favori Ekle",
         "Description": "Eklenecek favori türünü seçin:",
+        "Post": "Gönderi",
+        "Playlist": "Çalma Listesi",
         "Level": "Seviye",
         "Skin": "Doku",
         "Background": "Arkaplan",
         "Effect": "Ses Efekti",
         "Particle": "Partikül",
-        "Engine": "Motor"
+        "Engine": "Motor",
+        "Replay": "Tekrar",
+        "Room": "Oda"
       }
     },
     "Server": {
       "Home": {
-        "Levels": "Seviyeler",
-        "Skins": "Dokular",
-        "Backgrounds": "Arkaplanlar",
-        "Effects": "Ses Efektleri",
-        "Particles": "Partiküller",
-        "Engines": "Motorlar",
+        "Login": "Oturum Aç",
+        "Logout": "Oturumu Kapat",
+        "Multiplayer": "Çok Oyunculu",
+        "Post": "Gönderiler",
+        "Playlist": "Çalma Listeleri",
+        "Level": "Seviyeler",
+        "Skin": "Dokular",
+        "Background": "Arkaplanlar",
+        "Effect": "Ses Efektleri",
+        "Particle": "Partiküller",
+        "Engine": "Motorlar",
+        "Replay": "Tekrarlar",
+        "Room": "Odalar",
         "SaveSuccess": {
           "Title": "Sunucu Kaydedildi"
         },
@@ -1401,10 +3087,92 @@
       "Search": {
         "Title": "Ara"
       },
+      "Forms": {
+        "ValidationError": "Gerekli bilgilerin bir kısmı eksik.\n\nLütfen eksik alanları tamamlayıp tekrar deneyin."
+      },
+      "Infos": {
+        "Advanced": "Gelişmiş",
+        "Post": {
+          "Title": "Gönderiler",
+          "Create": {
+            "Title": "Gönderi Oluştur"
+          }
+        },
+        "Playlist": {
+          "Title": "Çalma Listeleri",
+          "Create": {
+            "Title": "Çalma Listesi Oluştur"
+          }
+        },
+        "Level": {
+          "Title": "Seviyeler",
+          "Create": {
+            "Title": "Seviye Oluştur"
+          }
+        },
+        "Skin": {
+          "Title": "Dokular",
+          "Create": {
+            "Title": "Doku Oluştur"
+          }
+        },
+        "Background": {
+          "Title": "Arkaplanlar",
+          "Create": {
+            "Title": "Arkaplan Oluştur"
+          }
+        },
+        "Effect": {
+          "Title": "Ses Efektleri",
+          "Create": {
+            "Title": "Ses Efekti Oluştur"
+          }
+        },
+        "Particle": {
+          "Title": "Partiküller",
+          "Create": {
+            "Title": "Partikül Oluştur"
+          }
+        },
+        "Engine": {
+          "Title": "Motorlar",
+          "Create": {
+            "Title": "Motor Oluştur"
+          }
+        },
+        "Replay": {
+          "Title": "Tekrarlar",
+          "Create": {
+            "Title": "Tekrar Oluştur"
+          }
+        },
+        "Room": {
+          "Title": "Odalar",
+          "Create": {
+            "Title": "Oda Oluştur",
+            "Description": "\"{0}\" odasını oluşturarak, oda bağlantısını paylaşıp başkalarını birlikte oynamaya davet edebilirsiniz.",
+            "ShareSuccess": {
+              "Title": "Oda Bağlantısı Kopyalandı"
+            }
+          }
+        }
+      },
       "Lists": {
         "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "\"{0}\" dosyasını silmek istediğinize emin misiniz?"
+        },
+        "Post": {
+          "Title": "Gönderiler",
+          "ShareSuccess": {
+            "Title": "Gönderi Bağlantısı Kopyalandı"
+          }
+        },
+        "Playlist": {
+          "Title": "Çalma Listeleri",
+          "ShareSuccess": {
+            "Title": "Çalma Listeleri Bağlantısı Kopyalandı"
+          }
         },
         "Level": {
           "Title": "Seviyeler",
@@ -1441,6 +3209,18 @@
           "ShareSuccess": {
             "Title": "Motorların Bağlantısı Kopyalandı"
           }
+        },
+        "Replay": {
+          "Title": "Tekrarlar",
+          "ShareSuccess": {
+            "Title": "Tekrarların Bağlantısı Kopyalandı"
+          }
+        },
+        "Room": {
+          "Title": "Odalar",
+          "ShareSuccess": {
+            "Title": "Odaların Bağlantısı Kopyalandı"
+          }
         }
       },
       "Details": {
@@ -1450,11 +3230,38 @@
         "DeleteConfirmation": {
           "Description": "\"{0}\" dosyasını silmek istediğinizden emin misiniz?"
         },
-        "Description": {
-          "Title": "Açıklama"
+        "Tags": {
+          "Title": "Etiketler",
+          "NoTags": "Etiket yok"
         },
-        "Recommended": {
-          "Title": "Önerilenler"
+        "Description": {
+          "Title": "Açıklama",
+          "NoDescription": "Açıklama yok"
+        },
+        "Community": {
+          "Title": "Topluluk",
+          "NoComments": "Yorum yok"
+        },
+        "Leaderboard": {
+          "Title": "Liderler Sıralaması",
+          "NoRecords": "Kayıt yok",
+          "NoReplays": "Tekrar yok"
+        },
+        "Post": {
+          "ShareSuccess": {
+            "Title": "Gönderi Bağlantısı Kopyalandı"
+          }
+        },
+        "Playlist": {
+          "Actions": {
+            "Play": "Oyna"
+          },
+          "ShareSuccess": {
+            "Title": "Çalma Listesi Bağlantısı Kopyalandı"
+          },
+          "Levels": {
+            "Title": "Seviyeler"
+          }
         },
         "Level": {
           "Actions": {
@@ -1471,8 +3278,8 @@
             },
             "Level": {
               "Bgm": {
-                "Loading": "Seviye ses efekti deşifre ediliyor...",
-                "Error": "\"{0}\" seviyesinin ses efektini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+                "Loading": "Seviye arkaplan müziği deşifre ediliyor...",
+                "Error": "\"{0}\" seviye arkaplan müziğini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
               }
             },
             "Boot": {
@@ -1489,8 +3296,8 @@
             },
             "Level": {
               "Bgm": {
-                "Loading": "Seviye ses efekti deşifre ediliyor...",
-                "Error": "\"{0}\" seviyesinin ses efektini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+                "Loading": "Seviye arkaplan müziği deşifre ediliyor...",
+                "Error": "\"{0}\" seviye arkaplan müziğini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
               }
             },
             "Boot": {
@@ -1557,15 +3364,52 @@
             },
             "Boot": {
               "Loading": "Öğretici önyükleniyor...",
-              "Error": "\"{0}\" öğreticisini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için öğretici yaratıcısı ile iletişime geçin."
+              "Error": "\"{0}\" öğreticisini önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için motor yaratıcısı ile iletişime geçin."
             }
           },
           "ShareSuccess": {
             "Title": "Motor Bağlantısı Kopyalandı"
           }
+        },
+        "Replay": {
+          "Actions": {
+            "Watch": "İzle"
+          },
+          "Watch": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Ses efektinin sesi deşifre ediliyor...",
+                "Error": "\"{0}\" ses efektinin sesini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Arkaplan müziği deşifre ediliyor...",
+                "Error": "\"{0}\" seviyesinin arkaplan müziğini deşifre etmekte başarısız olundu.\n\nLütfen sorunu bildirmek için seviye yaratıcısı ile iletişime geçin."
+              }
+            },
+            "Boot": {
+              "Loading": "Tekrar önyükleniyor...",
+              "Error": "\"{0}\" tekrarını önyüklemede başarısız olundu.\n\nLütfen sorunu bildirmek için tekrar yaratıcısı ile iletişime geçin."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Tekrar Bağlantısı Kopyalandı"
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+            "Title": "Oda Bağlantısı Kopyalandı"
+          }
         }
       },
       "Configurations": {
+        "Post": {
+          "Title": "Gönderi Yapılandırması"
+        },
+        "Playlist": {
+          "Title": "Çalma Listesi Yapılandırması"
+        },
         "Level": {
           "Title": "Seviye Yapılandırması",
           "Offsets": {
@@ -1592,7 +3436,7 @@
             },
             "Mask": {
               "Title": "Maskeleme",
-              "Description": "Maskeleme, arkaplan görüntüsünü karartmak veya renklendirmek için kullanılabilir."
+              "Description": "Maskeleme, arkaplan görüntüsünü karartmak ya da renklendirmek için kullanılabilir."
             }
           }
         },
@@ -1682,9 +3526,25 @@
               "Description": "0' da kullanılması önerilir.\n\nBu motora artıdan girdi ayarı ayarlamak, yalnızca özellikle bu motoru çalıştırırken sorun yaşadığınızda kullanılmalıdır. Girişleriniz çok geç olarak kaydedilirse artırın, aksi takdirde de azaltın."
             }
           }
+        },
+        "Replay": {
+          "Title": "Kayıt Yapılandırılması"
+        },
+        "Room": {
+          "Title": "Oda Yapılandırılması"
         }
       },
       "Savers": {
+        "Post": {
+          "Success": {
+            "Title": "Gönderi Kaydedildi"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Oynatma Listesi Kaydedildi"
+          }
+        },
         "Level": {
           "Success": {
             "Title": "Seviye Kaydedildi"
@@ -1713,6 +3573,320 @@
         "Engine": {
           "Success": {
             "Title": "Motor Kaydedildi"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Kayıt Kaydedildi"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Oda Kaydedildi"
+          }
+        }
+      },
+      "Updaters": {
+        "Post": {
+          "Success": {
+            "Title": "Gönderi Güncellendi"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Çalma Listesi Güncellendi"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "Seviye Güncellendi"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Doku Güncellendi"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Arkaplan Güncellendi"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Efekt Güncellendi"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Partikül Güncellendi"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Motor Güncellendi"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Tekrar Güncellendi"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Oda Güncellendi"
+          }
+        }
+      },
+      "CreateInfos": {
+        "Post": {
+          "Title": "Gönderi Bilgisi"
+        },
+        "Playlist": {
+          "Title": "Çalma Listesi Bilgisi"
+        },
+        "Level": {
+          "Title": "Seviye Bilgisi"
+        },
+        "Skin": {
+          "Title": "Doku Bilgisi"
+        },
+        "Background": {
+          "Title": "Arkaplan Bilgisi"
+        },
+        "Effect": {
+          "Title": "Efekt Bilgisi"
+        },
+        "Particle": {
+          "Title": "Partikül Bilgisi"
+        },
+        "Engine": {
+          "Title": "Motor Bilgisi"
+        },
+        "Replay": {
+          "Title": "Tekrar Bilgisi",
+          "Info": {
+            "Title": {
+              "Title": "Başlık",
+              "Description": "Bu tekrarın başlığı",
+              "Placeholder": "Tekrar başlığını girin..."
+            },
+            "Subtitle": {
+              "Title": "Alt Başlık",
+              "Description": "Bu tekrarın alt başlığı",
+              "Placeholder": "Tekrar alt başlığını girin..."
+            },
+            "Description": {
+              "Title": "Açıklama",
+              "Description": "Tekrarın açıklaması",
+              "Placeholder": "Tekrar açıklamasını girin..."
+            }
+          }
+        },
+        "Room": {
+          "Title": "Oda Bilgileri"
+        }
+      },
+      "Creators": {
+        "Post": {
+          "Success": {
+            "Title": "Gönderi Oluşturuldu"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Çalma Listesi Oluşturuldu"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "Seviye Oluşturuldu"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Doku Oluşturuldu"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Arkaplan Oluşturuldu"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Efekt Oluşturuldu"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Partikül Oluşturuldu"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Motor Oluşturuldu"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Tekrar Oluşturuldu"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Oda Oluşturuldu"
+          }
+        }
+      },
+      "Multiplayer": {
+        "Connecting": "Bağlanılıyor...",
+        "Reconnecting": "Yeniden bağlanılıyor...",
+        "ExitConfirmation": {
+          "Description": "Odadan ayrılmak istediğinize emin misiniz?"
+        },
+        "Play": {
+          "Options": {
+            "Title": "Seçenekler"
+          },
+          "Selecting": {
+            "Title": "Seçme",
+            "Description": {
+              "Lead": "Seçiliyor...",
+              "Other": "{0} seçiyor...",
+              "Room": "Oda seçiliyor..."
+            },
+            "Actions": {
+              "Select": "Seç",
+              "NoSource": "Kaynak sunucusu bulunmadığından bu seviye seçilemez.\n\nLütfen farklı bir seviye kullanın ya da sorunu bildirmek için seviye yaratıcısıyla iletişime geçin.",
+              "NoOtherServers": "Bu oda, diğer sunuculardan gelen seviyelere izin vermediğinden bu seviye seçilemez.\n\nLütfen farklı bir seviye kullanın."
+            }
+          },
+          "Preparing": {
+            "Title": {
+              "Preparing": "Hazırlanıyor",
+              "Ready": "Hazır",
+              "Skipped": "Atlandı"
+            },
+            "Description": "{0} hazırlanıyor, {1} hazır, {2} atladı...",
+            "Actions": {
+              "Configuration": "Yapılandırma",
+              "Ready": "Hazır",
+              "Skip": "Atla",
+              "Start": {
+                "Title": "Başlat",
+                "Confirmation": {
+                  "Description": "Başlatmak istediğinizden emin misiniz?\n\nHal hazırlık aşamasında olan oyuncular atlamak zorunda kalacak."
+                }
+              }
+            }
+          },
+          "Playing": {
+            "Title": "Oynanıyor",
+            "Description": "{0} yükleniyor, {1} oynuyor...",
+            "Actions": {
+              "Finish": {
+                "Title": "Sona Erdir",
+                "Confirmation": {
+                  "Description": "Sona erdirmek istediğinizden emin misiniz?\n\nHala oynayan oyuncular sonuçlarını kaybedecek."
+                }
+              }
+            }
+          }
+        },
+        "Chat": {
+          "Title": "Sohbet",
+          "Overlay": {
+            "Room": "Oda: {0}",
+            "User": "{0}: {1}",
+            "Level": "Seviye değişti."
+          },
+          "Text": {
+            "Placeholder": "Mesaj girin..."
+          },
+          "Quick": {
+            "Hello": {
+              "Title": "Selam",
+              "Text": "Selam!"
+            },
+            "Glhf": {
+              "Title": "İyi şanslar",
+              "Text": "İyi şanslar, iyi eğlenceler!"
+            },
+            "Gg": {
+              "Title": "Gg",
+              "Text": "İyi oyundu!"
+            },
+            "Ns": {
+              "Title": "İyi skor",
+              "Text": "İyi skor!"
+            },
+            "Ty": {
+              "Title": "Tşk",
+              "Text": "Teşekkür ederim!"
+            }
+          },
+          "System": {
+            "Selecting": "Seçiliyor...",
+            "Preparing": "Hazırlanıyor...",
+            "Playing": "Oynanıyor...",
+            "Master": "Oda yöneticisi {0} olarak değiştirildi.",
+            "Lead": "Oda yöncüsü {0} olarak değiştirildi.",
+            "Options": "Oda seçenekleri değişti.",
+            "Level": "Seviye {0} olarak değiştirildi.",
+            "LevelOptions": "Seviye seçenekleri değiştirildi.",
+            "AutoExit": "Otomatik çıkış değiştirildi.",
+            "Connected": {
+              "Self": "Bağlanıldı.",
+              "Other": "{0} oyuncusu bağlandı."
+            },
+            "Disconnected": "{0} oyuncusunun bağlantısı kesildi."
+          }
+        },
+        "Suggestions": {
+          "Title": "Öneriler",
+          "Actions": {
+            "Lock": "Kilitle",
+            "Unlock": "Kilidini Aç",
+            "Clear": "Temizle",
+            "NoSource": "Kaynak sunucusu bulunmadığından bu seviye, çoklu oyunculu modda önerilemez.\n\nLütfen farklı bir seviye kullanın ya da sorunu bildirmek için seviye yaratıcısıyla iletişime geçin.",
+            "NoOtherServers": "Oda, diğer sunuculardan gelen seviyelere izin vermediğinden bu seviye önerilemez.\n\nLütfen farklı bir seviye kullanın."
+          }
+        },
+        "Scoreboard": {
+          "Title": "Skor Tablosu",
+          "Actions": {
+            "Reset": {
+              "Title": "Sıfırla",
+              "Confirmation": {
+                "Description": "Skor tablosunu sıfırlamak istiyor musunuz?"
+              }
+            }
+          },
+          "Result": {
+            "Title": "Sonuç"
+          }
+        },
+        "Room": {
+          "EditOptions": "Oda Seçeneklerini Düzenle",
+          "Players": {
+            "Title": "Oyuncular",
+            "UpdateMasterConfirmation": {
+              "Description": "Oda yöneticisini {0} olarak değiştirmek istiyor musunuz?"
+            },
+            "UpdateLeadConfirmation": {
+              "Description": "Oda yöncüsünü {0} olarak değiştirmek istediğinizden emin misiniz?"
+            },
+            "KickConfirmation": {
+              "Description": "{0} oyuncusunu atmak istiyor musunuz?"
+            },
+            "AddedToBlacklistSuccess": "Oyuncu Engellendi",
+            "RemovedFromBlacklistSuccess": "Oyuncunun Engeli Kaldırıldı",
+            "Report": {
+              "Title": "Oyuncuyu Şikayet Et",
+              "Description": "{0} oyuncusunu şikayet et:",
+              "Success": "Şikayet Bildirildi"
+            }
           }
         }
       }
@@ -1778,9 +3952,9 @@
           "Title": "Arkaplan Müziği Önizlemesi",
           "Description": "Arkaplan müziğinin önizlemesi.",
           "Options": {
-            "Off": "Kapalı",
-            "DetailsOnly": "Sadece Detaylarda",
-            "ListAndDetails": "Liste ve Detaylarda"
+            "List": "Liste",
+            "Details": "Detaylar",
+            "Multiplayer": "Çok Oyunculu"
           }
         },
         "LevelBgmQuality": {
@@ -1804,15 +3978,36 @@
       },
       "Gameplay": {
         "Title": "Oynanış",
-        "AutoExit": {
-          "Title": "Otomatik Çıkış",
-          "Description": "Belirli bir aşamada oyundan otomatik olarak çıkar.",
-          "Options": {
-            "Off": "Kapalı",
-            "Fail": "Fail",
-            "Pass": "Pass",
-            "FullCombo": "Full Combo"
-          }
+        "UnpauseDelay": {
+          "Title": "Durdurma Gecikmesi",
+          "Description": "Duraklatma kaldırıldığında geri sayımın gecikmesi."
+        },
+        "MultiplayerPreload": {
+          "Title": "Çok Oyunculu' da Ön Yükleme",
+          "Description": "Açılması önerilir.\n\nÇok oyunculu modda, yükleme hızını artırmak için seviye onaylandıktan sonra ön yüklemeye başlayın."
+        },
+        "ReplayTitleTemplate": {
+          "Title": "Tekrar Başlık Şablonu",
+          "Description": "Tekrar için oluşturulan başlık şablonu.\n\nÖzel parametreler mevcuttur ve ilgili değerlerle değiştirilecektir.",
+          "Placeholder": "Başlık şablonunu girin..."
+        },
+        "ReplaySubtitleTemplate": {
+          "Title": "Tekrar Altbaşlık Şablonu",
+          "Description": "Tekrar için oluşturulan altbaşlık şablonu.\n\nÖzel parametreler mevcuttur ve ilgili değerlerle değiştirilecektir.",
+          "Placeholder": "Altbaşlık şablonunu girin..."
+        },
+        "ReplayDescriptionTemplate": {
+          "Title": "Tekrar Açıklama Şablonu",
+          "Description": "Tekrar için oluşturulan açıklama şablonu.\n\nÖzel parametreler mevcuttur ve ilgili değerlerle değiştirilecektir.",
+          "Placeholder": "Açıklama şablonunu girin..."
+        },
+        "ShowReplayTouches": {
+          "Title": "Tekrarda Dokunuşları Göster",
+          "Description": "Tekrar izlerken dokunuşları gösterir."
+        },
+        "OverwriteReplayOptions": {
+          "Title": "Tekrar Seçeneklerinin Üzerine Yaz",
+          "Description": "Tekrar izlerken seçeneklerin üzerine kendinizinkileri yazar."
         }
       },
       "UI": {
@@ -1832,10 +4027,6 @@
         "Scale": {
           "Title": "Arayüz Büyüklüğü",
           "Description": "Kullanılacak arayüz ölçeği. Okumada güçlük çekiyorsanız artırın, ekranda daha fazla içerik göstermek için azaltın."
-        },
-        "UnpauseDelay": {
-          "Title": "Durdurma Gecikmesi",
-          "Description": "Duraklatmayı kaldırırken gecikme geri sayımı."
         },
         "PerfectJudgmentColors": {
           "Title": "Perfect Yargı Renkleri",
@@ -1884,6 +4075,10 @@
         "ShowZeroCombo": {
           "Title": "Kombo Sıfır İken Göster",
           "Description": "Kombo sıfır olduğunda göster."
+        },
+        "TouchStyle": {
+          "Title": "Dokunma İmleci Biçimi",
+          "Description": "Dokunma imlecinin biçimi ayarı."
         }
       },
       "Offsets": {
@@ -1904,6 +4099,17 @@
       },
       "Repository": {
         "Title": "Depo",
+        "AutoClean": {
+          "Title": "Otomatik Temizleme",
+          "Description": "En eski kaynakları silerek, başlatma sırasında depoyu otomatik olarak temizler.",
+          "Options": {
+            "OneHundredMB": "100 MB",
+            "FiveHundredMB": "500 MB",
+            "OneGB": "1 GB",
+            "FiveGB": "5 GB",
+            "TenGB": "10 GB"
+          }
+        },
         "Manage": "Ayarla"
       },
       "Cache": {
@@ -1928,17 +4134,13 @@
           "Title": "Dokunmaları Göster",
           "Description": "Dokunma göstergelerini gösterir. Dokunma göstergeleri de, video kayıtlarında girişleri göstermek için kullanışlıdır."
         },
-        "TouchStyle": {
-          "Title": "Dokunma İmleci Biçimi",
-          "Description": "Dokunma imlecinin biçimi ayarı."
-        },
         "DebugMode": {
           "Title": "Hata Ayıklama (Debug) Modu",
           "Description": "Hata ayıklama modu, hata ayıklamaya özel kodun çalışmasını sağlar ve ekranın sağ alt kısmında hata ayıklama kaydını gösterir."
         },
         "DebugLogStyle": {
-          "Title": "Hata Ayıklama Kayıt Biçimi",
-          "Description": "Hata ayıklama kayıt biçimi ayarı."
+          "Title": "Hata Ayıklama Günlük Biçimi",
+          "Description": "Hata ayıklama günlük biçimi ayarı."
         },
         "DiagnosticLogs": {
           "Title": "Tanılama Günlükleri",
@@ -2009,83 +4211,67 @@
       "Title": "Tanılama Günlükleri"
     }
   },
-  "Scp": {
-    "PermissionError": {
-      "Description": "Sonolus bu eylemi yapabilmek için gerekli izinleri alamıyor.\n\nLütfen Ayarları açın ve Sonolus' a yetki verin.",
-      "Open": "Aç"
-    }
-  },
   "Runtimes": {
+    "Pause": {
+      "Title": "Durduruldu",
+      "Debug": {
+        "Title": "Hata Ayıklama"
+      }
+    },
+    "Control": {
+      "Title": "Kontrol",
+      "Exit": "Çık",
+      "Restart": "Tekrar Başlat"
+    },
     "Level": {
       "Play": {
         "Routes": {
+          "Playlist": {
+            "Title": "Çalma Listesi",
+            "Previous": "Önceki",
+            "Next": "Sonraki"
+          },
           "Pause": {
-            "Title": "Durduruldu",
-            "Control": {
-              "Title": "Kontrol",
-              "Exit": "Çık",
-              "Restart": "Tekrar Başlat"
-            },
             "Snapshot": {
-              "Title": "Şipşak",
+              "Title": "Anlık Görüntü",
               "Mark": "İşaretle",
               "Jump": "Atla"
-            },
-            "Debug": {
-              "Title": "Hata Ayıklama"
             }
           },
           "Result": {
-            "Title": "Sonuç",
             "Options": {
               "HasUsedPause": "Durduruldu",
-              "HasUsedSnapshot": "Şipşak"
+              "HasUsedSnapshot": "Anlık Görüntü"
             },
-            "Graphs": {
-              "Title": "Grafikler",
-              "Judgment": {
-                "Title": "Yargı Grafiği"
+            "Replay": {
+              "Title": "Kayıt",
+              "Description": {
+                "Normal": "Oynanışınız kaydedildi, bundan bir kayıt oluşturmak için Oluştur' a tıklayın.",
+                "HasUsedPause": "Duraklatma kullanıldığı için kayıt oluşturulamıyor.",
+                "HasUsedSnapshot": "Anlık görüntü kullanıldığı için kayıt oluşturulamıyor."
               },
-              "Accuracy": {
-                "Title": "Kesinlik Grafiği",
-                "AbsValue": "Abs Value",
-                "Mean": "Mean",
-                "StDev": "St Dev",
-                "Min": "Min",
-                "Max": "Maks"
-              },
-              "Bucket": {
-                "Title": "Bucket Grafiği"
-              }
+              "Create": "Oluştur"
             }
           }
         }
       },
-      "Watch": {
-        "Routes": {
-          "Pause": {
-            "Title": "Durduruldu",
-            "Control": {
-              "Title": "Kontrol",
-              "Exit": "Çık"
-            },
-            "Debug": {
-              "Title": "Hata Ayıklama"
-            }
-          }
-        }
-      },
-      "Preview": {
-        "Routes": {
-          "Pause": {
-            "Title": "Durduruldu",
-            "Control": {
-              "Title": "Kontrol",
-              "Exit": "Çık"
-            },
-            "Debug": {
-              "Title": "Hata Ayıklama"
-            }
+      "Result": {
+        "Title": "Sonuç",
+        "Graphs": {
+          "Title": "İstatistikler",
+          "Judgment": {
+            "Title": "Yargı İstatistiği"
+          },
+          "Accuracy": {
+            "Title": "Kesinlik İstatistiği",
+            "AbsValue": "Abs Value",
+            "Mean": "Mean",
+            "StDev": "St Dev",
+            "Min": "Min",
+            "Max": "Maks"
+          },
+          "Bucket": {
+            "Title": "Bucket Graph"
           }
         }
       }
@@ -2095,22 +4281,6 @@
         "Routes": {
           "Preview": {
             "Play": "Oynat"
-          }
-        }
-      }
-    },
-    "Engine": {
-      "Tutorial": {
-        "Routes": {
-          "Pause": {
-            "Title": "Durduruldu",
-            "Control": {
-              "Title": "Kontrol",
-              "Exit": "Çık"
-            },
-            "Debug": {
-              "Title": "Hata Ayıklama"
-            }
           }
         }
       }
