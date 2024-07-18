@@ -4,6 +4,16 @@
         "Title": "English (English)"
     },
     "Texts": {
+        "#POST": "Post",
+        "#PLAYLIST": "Playlist",
+        "#LEVEL": "Level",
+        "#SKIN": "Skin",
+        "#BACKGROUND": "Background",
+        "#EFFECT": "SFX",
+        "#PARTICLE": "Particle",
+        "#ENGINE": "Engine",
+        "#REPLAY": "Replay",
+        "#ROOM": "Room",
         "#GRADE": "Grade",
         "#ARCADE_SCORE": "Arcade Score",
         "#ACCURACY_SCORE": "Accuracy Score",
@@ -20,28 +30,34 @@
         "#TITLE": "Title",
         "#SUBTITLE": "Subtitle",
         "#ARTISTS": "Artists",
+        "#TIME": "Time",
         "#AUTHOR": "Author",
         "#GENRE": "Genre",
         "#TYPE": "Type",
         "#CATEGORY": "Category",
         "#LANGUAGE": "Language",
         "#DIFFICULTY": "Difficulty",
-        "#VERSIONS": "Version",
+        "#VERSION": "Version",
         "#LENGTH": "Length",
         "#LENGTH_MINIMUM": "Minimum Length",
         "#LENGTH_MAXIMUM": "Maximum Length",
         "#ADDITIONAL_INFORMATION": "Additional Information",
+        "#TIMEZONE": "Timezone",
+        "#REGION": "Region",
         "#CONTENT": "Content",
         "#COMMENT": "Comment",
         "#REVIEW": "Review",
         "#REPLY": "Reply",
+        "#MESSAGE": "Message",
+        "#ROLE": "Role",
+        "#PERMISSION": "Permission",
+        "#USER": "User",
         "#SPEED": "Level Speed",
         "#MIRROR": "Mirror Level",
         "#RANDOM": "Random",
         "#HIDDEN": "Hidden",
         "#JUDGMENT_STRICT": "Strict Judgment",
         "#JUDGMENT_LOOSE": "Loose Judgment",
-        "#EFFECT": "SFX",
         "#EFFECT_AUTO": "Auto SFX",
         "#STAGE": "Stage",
         "#STAGE_POSITION": "Stage Position",
@@ -174,6 +190,7 @@
         "#COUNTERCLOCKWISE": "Counterclockwise",
         "#FORWARD": "Forward",
         "#BACKWARD": "Backward",
+        "#DEFAULT": "Default",
         "#NEUTRAL": "Neutral",
         "#RED": "Red",
         "#GREEN": "Green",
@@ -198,8 +215,10 @@
         "#TITLE_PLACEHOLDER": "Enter title...",
         "#SUBTITLE_PLACEHOLDER": "Enter subtitle...",
         "#ARTISTS_PLACEHOLDER": "Enter artists...",
+        "#TIME_PLACEHOLDER": "Enter time...",
         "#AUTHOR_PLACEHOLDER": "Enter author...",
         "#GENRE_PLACEHOLDER": "Enter genre...",
+        "#TYPE_PLACEHOLDER": "Enter type...",
         "#CATEGORY_PLACEHOLDER": "Enter category...",
         "#LANGUAGE_PLACEHOLDER": "Enter language...",
         "#DIFFICULTY_PLACEHOLDER": "Enter difficulty...",
@@ -207,10 +226,16 @@
         "#LENGTH_MINIMUM_PLACEHOLDER": "Enter minimum length...",
         "#LENGTH_MAXIMUM_PLACEHOLDER": "Enter maximum length...",
         "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Enter additional information...",
+        "#TIMEZONE_PLACEHOLDER": "Enter timezone...",
+        "#REGION_PLACEHOLDER": "Enter region...",
         "#CONTENT_PLACEHOLDER": "Enter content...",
         "#COMMENT_PLACEHOLDER": "Enter comment...",
         "#REVIEW_PLACEHOLDER": "Enter review...",
         "#REPLY_PLACEHOLDER": "Enter reply...",
+        "#MESSAGE_PLACEHOLDER": "Enter message...",
+        "#ROLE_PLACEHOLDER": "Enter role...",
+        "#PERMISSION_PLACEHOLDER": "Enter permission...",
+        "#USER_PLACEHOLDER": "Enter user...",
         "#PERCENTAGE_UNIT": "{0}%",
         "#SECOND_UNIT": "{0} s",
         "#MILLISECOND_UNIT": "{0} ms",
@@ -342,6 +367,7 @@
         "#BOOKMARK": "Bookmark",
         "#BOOKMARKED": "Bookmarked",
         "#DELETE": "Delete",
+        "#RESTORE": "Restore",
         "#EDIT": "Edit",
         "#CONFIRM": "Confirm",
         "#CANCEL": "Cancel",
@@ -357,8 +383,20 @@
         "#DISAGREED": "Disagreed",
         "#LOCK": "Lock",
         "#UNLOCK": "Unlock",
+        "#PIN": "Pin",
+        "#UNPIN": "Unpin",
+        "#FOLLOW": "Follow",
+        "#UNFOLLOW": "Unfollow",
+        "#SUBSCRIBE": "Subscribe",
+        "#UNSUBSCRIBE": "Unsubscribe",
         "#SHOW": "Show",
         "#HIDE": "Hide",
+        "#ALLOW": "Allow",
+        "#DISALLOW": "Disallow",
+        "#APPROVE": "Approve",
+        "#DENY": "Deny",
+        "#ACCEPT": "Accept",
+        "#REJECT": "Reject",
         "#STAR": "Star",
         "#STARRED": "Starred"
     },
@@ -368,6 +406,7 @@
         "More": "More",
         "On": "ON",
         "Off": "OFF",
+        "None": "None",
         "Select": "Select",
         "Reset": "Reset",
         "Edit": "Edit",
@@ -423,6 +462,7 @@
             "SelectNone": "Select None"
         },
         "ItemFields": {
+            "Selected": "{0} Selected",
             "NoSelected": {
                 "Post": "No post selected",
                 "Playlist": "No playlist selected",
@@ -434,6 +474,30 @@
                 "Engine": "No engine selected",
                 "Replay": "No replay selected",
                 "Room": "No room selected"
+            },
+            "NoSource": {
+                "Post": "This post cannot be selected because it does not have a source server.\n\nPlease use a different post, or contact post author to report the problem.",
+                "Playlist": "This playlist cannot be selected because it does not have a source server.\n\nPlease use a different playlist, or contact playlist author to report the problem.",
+                "Level": "This level cannot be selected because it does not have a source server.\n\nPlease use a different level, or contact level author to report the problem.",
+                "Skin": "This skin cannot be selected because it does not have a source server.\n\nPlease use a different skin, or contact skin author to report the problem.",
+                "Background": "This background cannot be selected because it does not have a source server.\n\nPlease use a different background, or contact background author to report the problem.",
+                "Effect": "This SFX cannot be selected because it does not have a source server.\n\nPlease use a different SFX, or contact SFX author to report the problem.",
+                "Particle": "This particle cannot be selected because it does not have a source server.\n\nPlease use a different particle, or contact particle author to report the problem.",
+                "Engine": "This engine cannot be selected because it does not have a source server.\n\nPlease use a different engine, or contact engine author to report the problem.",
+                "Replay": "This replay cannot be selected because it does not have a source server.\n\nPlease use a different replay, or contact replay author to report the problem.",
+                "Room": "This room cannot be selected because it does not have a source server.\n\nPlease use a different room, or contact room author to report the problem."
+            },
+            "NoOtherServers": {
+                "Post": "This post cannot be selected because it is from a different server.\n\nPlease use a different post from the same server.",
+                "Playlist": "This playlist cannot be selected because it is from a different server.\n\nPlease use a different playlist from the same server.",
+                "Level": "This level cannot be selected because it is from a different server.\n\nPlease use a different level from the same server.",
+                "Skin": "This skin cannot be selected because it is from a different server.\n\nPlease use a different skin from the same server.",
+                "Background": "This background cannot be selected because it is from a different server.\n\nPlease use a different background from the same server.",
+                "Effect": "This SFX cannot be selected because it is from a different server.\n\nPlease use a different SFX from the same server.",
+                "Particle": "This particle cannot be selected because it is from a different server.\n\nPlease use a different particle from the same server.",
+                "Engine": "This engine cannot be selected because it is from a different server.\n\nPlease use a different engine from the same server.",
+                "Replay": "This replay cannot be selected because it is from a different server.\n\nPlease use a different replay from the same server.",
+                "Room": "This room cannot be selected because it is from a different server.\n\nPlease use a different room from the same server."
             }
         },
         "FileField": {
@@ -643,6 +707,9 @@
                 "Login": {
                     "Loading": "Signing in...",
                     "Error": "Failed to sign in to \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
+                "AutoLogin": {
+                    "Description": "Do you want to automatically sign in when visiting this server?"
                 }
             },
             "Multiplayer": {
@@ -685,9 +752,15 @@
                     "Loading": "Loading post details...",
                     "Error": "Failed to load post details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to post...",
+                    "Error": "Failed to submit to post \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading post community...",
-                    "Error": "Failed to load post community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading post community info...",
+                        "Error": "Failed to load post community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to post community...",
                         "Error": "Failed to submit to post community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -700,8 +773,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading post leaderboard...",
-                    "Error": "Failed to load post leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading post leaderboard details...",
+                        "Error": "Failed to load post leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading post records...",
@@ -739,9 +814,15 @@
                     "Loading": "Loading playlist details...",
                     "Error": "Failed to load playlist details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to playlist...",
+                    "Error": "Failed to submit to playlist \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading playlist community...",
-                    "Error": "Failed to load playlist community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading playlist community info...",
+                        "Error": "Failed to load playlist community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to playlist community...",
                         "Error": "Failed to submit to playlist community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -754,8 +835,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading playlist leaderboard...",
-                    "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading playlist leaderboard details...",
+                        "Error": "Failed to load playlist leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading playlist records...",
@@ -793,9 +876,15 @@
                     "Loading": "Loading level details...",
                     "Error": "Failed to load level details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to level...",
+                    "Error": "Failed to submit to level \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading level community...",
-                    "Error": "Failed to load level community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading level community info...",
+                        "Error": "Failed to load level community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to level community...",
                         "Error": "Failed to submit to level community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -808,8 +897,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading level leaderboard...",
-                    "Error": "Failed to load level leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading level leaderboard details...",
+                        "Error": "Failed to load level leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading level records...",
@@ -859,9 +950,15 @@
                     "Loading": "Loading skin details...",
                     "Error": "Failed to load skin details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to skin...",
+                    "Error": "Failed to submit to skin \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading skin community...",
-                    "Error": "Failed to load skin community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading skin community info...",
+                        "Error": "Failed to load skin community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to skin community...",
                         "Error": "Failed to submit to skin community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -874,8 +971,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading skin leaderboard...",
-                    "Error": "Failed to load skin leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading skin leaderboard details...",
+                        "Error": "Failed to load skin leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading skin records...",
@@ -921,9 +1020,15 @@
                     "Loading": "Loading background details...",
                     "Error": "Failed to load background details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to background...",
+                    "Error": "Failed to submit to background \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading background community...",
-                    "Error": "Failed to load background community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading background community info...",
+                        "Error": "Failed to load background community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to background community...",
                         "Error": "Failed to submit to background community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -936,8 +1041,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading background leaderboard...",
-                    "Error": "Failed to load background leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading background leaderboard details...",
+                        "Error": "Failed to load background leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading background records...",
@@ -987,9 +1094,15 @@
                     "Loading": "Loading SFX details...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to SFX...",
+                    "Error": "Failed to submit to SFX \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading SFX community...",
-                    "Error": "Failed to load SFX community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading SFX community info...",
+                        "Error": "Failed to load SFX community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to SFX community...",
                         "Error": "Failed to submit to SFX community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -1002,8 +1115,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading SFX leaderboard...",
-                    "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading SFX leaderboard details...",
+                        "Error": "Failed to load SFX leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading SFX records...",
@@ -1049,9 +1164,15 @@
                     "Loading": "Loading particle details...",
                     "Error": "Failed to load particle details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to particle...",
+                    "Error": "Failed to submit to particle \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading particle community...",
-                    "Error": "Failed to load particle community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading particle community info...",
+                        "Error": "Failed to load particle community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to particle community...",
                         "Error": "Failed to submit to particle community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -1064,8 +1185,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading particle leaderboard...",
-                    "Error": "Failed to load particle leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading particle leaderboard details...",
+                        "Error": "Failed to load particle leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading particle records...",
@@ -1111,9 +1234,15 @@
                     "Loading": "Loading engine details...",
                     "Error": "Failed to load engine details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to engine...",
+                    "Error": "Failed to submit to engine \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading engine community...",
-                    "Error": "Failed to load engine community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading engine community info...",
+                        "Error": "Failed to load engine community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to engine community...",
                         "Error": "Failed to submit to engine community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -1126,8 +1255,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading engine leaderboard...",
-                    "Error": "Failed to load engine leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading engine leaderboard details...",
+                        "Error": "Failed to load engine leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading engine records...",
@@ -1189,9 +1320,15 @@
                     "Loading": "Loading replay details...",
                     "Error": "Failed to load replay details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to replay...",
+                    "Error": "Failed to submit to replay \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading replay community...",
-                    "Error": "Failed to load replay community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading replay community info...",
+                        "Error": "Failed to load replay community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to replay community...",
                         "Error": "Failed to submit to replay community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -1204,8 +1341,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading replay leaderboard...",
-                    "Error": "Failed to load replay leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading replay leaderboard details...",
+                        "Error": "Failed to load replay leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading replay records...",
@@ -1247,9 +1386,15 @@
                     "Loading": "Loading room details...",
                     "Error": "Failed to load room details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
                 },
+                "Submit": {
+                    "Loading": "Submitting to room...",
+                    "Error": "Failed to submit to room \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                },
                 "Community": {
-                    "Loading": "Loading room community...",
-                    "Error": "Failed to load room community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Info": {
+                        "Loading": "Loading room community info...",
+                        "Error": "Failed to load room community info of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Submit": {
                         "Loading": "Submitting to room community...",
                         "Error": "Failed to submit to room community of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
@@ -1262,8 +1407,10 @@
                     }
                 },
                 "Leaderboard": {
-                    "Loading": "Loading room leaderboard...",
-                    "Error": "Failed to load room leaderboard of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem.",
+                    "Details": {
+                        "Loading": "Loading room leaderboard details...",
+                        "Error": "Failed to load room leaderboard details of \"{0}\".\n\nPlease check your internet connection and try again, or contact server owner to report the problem."
+                    },
                     "Record": {
                         "List": {
                             "Loading": "Loading room records...",
@@ -1309,10 +1456,6 @@
                     "Loading": "Loading posts info...",
                     "Error": "Failed to load posts info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating post...",
-                    "Error": "Failed to create post in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading posts...",
                     "Error": "Failed to load posts at page {0}.\n\nYour collection may be corrupted."
@@ -1320,34 +1463,6 @@
                 "Details": {
                     "Loading": "Loading post details...",
                     "Error": "Failed to load post details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading post community...",
-                    "Error": "Failed to load post community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to post community...",
-                        "Error": "Failed to submit to post community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading post comments...",
-                            "Error": "Failed to load post comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading post leaderboard...",
-                    "Error": "Failed to load post leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading post records...",
-                            "Error": "Failed to load post records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading post record details...",
-                            "Error": "Failed to load post record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking post compatibility...",
@@ -1363,10 +1478,6 @@
                     "Loading": "Loading playlists info...",
                     "Error": "Failed to load playlists info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating playlist...",
-                    "Error": "Failed to create playlist in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading playlists...",
                     "Error": "Failed to load playlists at page {0}.\n\nYour collection may be corrupted."
@@ -1374,34 +1485,6 @@
                 "Details": {
                     "Loading": "Loading playlist details...",
                     "Error": "Failed to load playlist details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading playlist community...",
-                    "Error": "Failed to load playlist community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to playlist community...",
-                        "Error": "Failed to submit to playlist community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading playlist comments...",
-                            "Error": "Failed to load playlist comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading playlist leaderboard...",
-                    "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading playlist records...",
-                            "Error": "Failed to load playlist records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading playlist record details...",
-                            "Error": "Failed to load playlist record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking playlist compatibility...",
@@ -1417,10 +1500,6 @@
                     "Loading": "Loading levels info...",
                     "Error": "Failed to load levels info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating level...",
-                    "Error": "Failed to create level in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading levels...",
                     "Error": "Failed to load levels at page {0}.\n\nYour collection may be corrupted."
@@ -1428,34 +1507,6 @@
                 "Details": {
                     "Loading": "Loading level details...",
                     "Error": "Failed to load level details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading level community...",
-                    "Error": "Failed to load level community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to level community...",
-                        "Error": "Failed to submit to level community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading level comments...",
-                            "Error": "Failed to load level comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading level leaderboard...",
-                    "Error": "Failed to load level leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading level records...",
-                            "Error": "Failed to load level records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading level record details...",
-                            "Error": "Failed to load level record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking level compatibility...",
@@ -1483,10 +1534,6 @@
                     "Loading": "Loading skins info...",
                     "Error": "Failed to load skins info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating skin...",
-                    "Error": "Failed to create skin in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading skins...",
                     "Error": "Failed to load skins at page {0}.\n\nYour collection may be corrupted."
@@ -1494,34 +1541,6 @@
                 "Details": {
                     "Loading": "Loading skin details...",
                     "Error": "Failed to load skin details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading skin community...",
-                    "Error": "Failed to load skin community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to skin community...",
-                        "Error": "Failed to submit to skin community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading skin comments...",
-                            "Error": "Failed to load skin comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading skin leaderboard...",
-                    "Error": "Failed to load skin leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading skin records...",
-                            "Error": "Failed to load skin records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading skin record details...",
-                            "Error": "Failed to load skin record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking skin compatibility...",
@@ -1545,10 +1564,6 @@
                     "Loading": "Loading backgrounds info...",
                     "Error": "Failed to load backgrounds info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating background...",
-                    "Error": "Failed to create background in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading backgrounds...",
                     "Error": "Failed to load backgrounds at page {0}.\n\nYour collection may be corrupted."
@@ -1556,34 +1571,6 @@
                 "Details": {
                     "Loading": "Loading background details...",
                     "Error": "Failed to load background details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading background community...",
-                    "Error": "Failed to load background community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to background community...",
-                        "Error": "Failed to submit to background community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading background comments...",
-                            "Error": "Failed to load background comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading background leaderboard...",
-                    "Error": "Failed to load background leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading background records...",
-                            "Error": "Failed to load background records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading background record details...",
-                            "Error": "Failed to load background record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking background compatibility...",
@@ -1611,10 +1598,6 @@
                     "Loading": "Loading SFX info...",
                     "Error": "Failed to load SFX info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating SFX...",
-                    "Error": "Failed to create SFX in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading SFX...",
                     "Error": "Failed to load SFX at page {0}.\n\nYour collection may be corrupted."
@@ -1622,34 +1605,6 @@
                 "Details": {
                     "Loading": "Loading SFX details...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading SFX community...",
-                    "Error": "Failed to load SFX community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to SFX community...",
-                        "Error": "Failed to submit to SFX community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading SFX comments...",
-                            "Error": "Failed to load SFX comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading SFX leaderboard...",
-                    "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading SFX records...",
-                            "Error": "Failed to load SFX records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading SFX record details...",
-                            "Error": "Failed to load SFX record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking SFX compatibility...",
@@ -1673,10 +1628,6 @@
                     "Loading": "Loading particles info...",
                     "Error": "Failed to load particles info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating particle...",
-                    "Error": "Failed to create particle in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading particles...",
                     "Error": "Failed to load particles at page {0}.\n\nYour collection may be corrupted."
@@ -1684,34 +1635,6 @@
                 "Details": {
                     "Loading": "Loading particle details...",
                     "Error": "Failed to load particle details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading particle community...",
-                    "Error": "Failed to load particle community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to particle community...",
-                        "Error": "Failed to submit to particle community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading particle comments...",
-                            "Error": "Failed to load particle comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading particle leaderboard...",
-                    "Error": "Failed to load particle leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading particle records...",
-                            "Error": "Failed to load particle records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading particle record details...",
-                            "Error": "Failed to load particle record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking particle compatibility...",
@@ -1735,10 +1658,6 @@
                     "Loading": "Loading engines info...",
                     "Error": "Failed to load engines info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating engine...",
-                    "Error": "Failed to create engine in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading engines...",
                     "Error": "Failed to load engines at page {0}.\n\nYour collection may be corrupted."
@@ -1746,34 +1665,6 @@
                 "Details": {
                     "Loading": "Loading engine details...",
                     "Error": "Failed to load engine details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading engine community...",
-                    "Error": "Failed to load engine community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to engine community...",
-                        "Error": "Failed to submit to engine community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading engine comments...",
-                            "Error": "Failed to load engine comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading engine leaderboard...",
-                    "Error": "Failed to load engine leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading engine records...",
-                            "Error": "Failed to load engine records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading engine record details...",
-                            "Error": "Failed to load engine record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking engine compatibility...",
@@ -1813,10 +1704,6 @@
                     "Loading": "Loading replays info...",
                     "Error": "Failed to load replays info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating replay...",
-                    "Error": "Failed to create replay in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading replays...",
                     "Error": "Failed to load replays at page {0}.\n\nYour collection may be corrupted."
@@ -1824,34 +1711,6 @@
                 "Details": {
                     "Loading": "Loading replay details...",
                     "Error": "Failed to load replay details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading replay community...",
-                    "Error": "Failed to load replay community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to replay community...",
-                        "Error": "Failed to submit to replay community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading replay comments...",
-                            "Error": "Failed to load replay comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading replay leaderboard...",
-                    "Error": "Failed to load replay leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading replay records...",
-                            "Error": "Failed to load replay records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading replay record details...",
-                            "Error": "Failed to load replay record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking replay compatibility...",
@@ -1871,10 +1730,6 @@
                     "Loading": "Loading rooms info...",
                     "Error": "Failed to load rooms info of \"{0}\".\n\nYour collection may be corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating room...",
-                    "Error": "Failed to create room in \"{0}\".\n\nYour collection may be corrupted."
-                },
                 "List": {
                     "Loading": "Loading rooms...",
                     "Error": "Failed to load rooms at page {0}.\n\nYour collection may be corrupted."
@@ -1882,34 +1737,6 @@
                 "Details": {
                     "Loading": "Loading room details...",
                     "Error": "Failed to load room details of \"{0}\".\n\nYour collection may be corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading room community...",
-                    "Error": "Failed to load room community of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to room community...",
-                        "Error": "Failed to submit to room community of \"{0}\".\n\nYour collection may be corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading room comments...",
-                            "Error": "Failed to load room comments at page {0}.\n\nYour collection may be corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading room leaderboard...",
-                    "Error": "Failed to load room leaderboard of \"{0}\".\n\nYour collection may be corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading room records...",
-                            "Error": "Failed to load room records at page {0}.\n\nYour collection may be corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading room record details...",
-                            "Error": "Failed to load room record details of \"{0}\".\n\nYour collection may be corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking room compatibility...",
@@ -1949,10 +1776,6 @@
                     "Loading": "Loading posts info...",
                     "Error": "Failed to load posts info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating post...",
-                    "Error": "Failed to create post in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading posts...",
                     "Error": "Failed to load posts at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -1960,34 +1783,6 @@
                 "Details": {
                     "Loading": "Loading post details...",
                     "Error": "Failed to load post details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading post community...",
-                    "Error": "Failed to load post community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to post community...",
-                        "Error": "Failed to submit to post community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading post comments...",
-                            "Error": "Failed to load post comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading post leaderboard...",
-                    "Error": "Failed to load post leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading post records...",
-                            "Error": "Failed to load post records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading post record details...",
-                            "Error": "Failed to load post record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking post compatibility...",
@@ -2003,10 +1798,6 @@
                     "Loading": "Loading playlists info...",
                     "Error": "Failed to load playlists info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating playlist...",
-                    "Error": "Failed to create playlist in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading playlists...",
                     "Error": "Failed to load playlists at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2014,34 +1805,6 @@
                 "Details": {
                     "Loading": "Loading playlist details...",
                     "Error": "Failed to load playlist details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading playlist community...",
-                    "Error": "Failed to load playlist community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to playlist community...",
-                        "Error": "Failed to submit to playlist community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading playlist comments...",
-                            "Error": "Failed to load playlist comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading playlist leaderboard...",
-                    "Error": "Failed to load playlist leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading playlist records...",
-                            "Error": "Failed to load playlist records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading playlist record details...",
-                            "Error": "Failed to load playlist record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking playlist compatibility...",
@@ -2057,10 +1820,6 @@
                     "Loading": "Loading levels info...",
                     "Error": "Failed to load levels info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating level...",
-                    "Error": "Failed to create level in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading levels...",
                     "Error": "Failed to load levels at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2068,34 +1827,6 @@
                 "Details": {
                     "Loading": "Loading level details...",
                     "Error": "Failed to load level details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading level community...",
-                    "Error": "Failed to load level community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to level community...",
-                        "Error": "Failed to submit to level community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading level comments...",
-                            "Error": "Failed to load level comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading level leaderboard...",
-                    "Error": "Failed to load level leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading level records...",
-                            "Error": "Failed to load level records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading level record details...",
-                            "Error": "Failed to load level record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking level compatibility...",
@@ -2123,10 +1854,6 @@
                     "Loading": "Loading skins info...",
                     "Error": "Failed to load skins info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating skin...",
-                    "Error": "Failed to create skin in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading skins...",
                     "Error": "Failed to load skins at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2134,34 +1861,6 @@
                 "Details": {
                     "Loading": "Loading skin details...",
                     "Error": "Failed to load skin details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading skin community...",
-                    "Error": "Failed to load skin community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to skin community...",
-                        "Error": "Failed to submit to skin community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading skin comments...",
-                            "Error": "Failed to load skin comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading skin leaderboard...",
-                    "Error": "Failed to load skin leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading skin records...",
-                            "Error": "Failed to load skin records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading skin record details...",
-                            "Error": "Failed to load skin record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking skin compatibility...",
@@ -2185,10 +1884,6 @@
                     "Loading": "Loading backgrounds info...",
                     "Error": "Failed to load backgrounds info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating background...",
-                    "Error": "Failed to create background in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading backgrounds...",
                     "Error": "Failed to load backgrounds at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2196,34 +1891,6 @@
                 "Details": {
                     "Loading": "Loading background details...",
                     "Error": "Failed to load background details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading background community...",
-                    "Error": "Failed to load background community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to background community...",
-                        "Error": "Failed to submit to background community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading background comments...",
-                            "Error": "Failed to load background comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading background leaderboard...",
-                    "Error": "Failed to load background leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading background records...",
-                            "Error": "Failed to load background records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading background record details...",
-                            "Error": "Failed to load background record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking background compatibility...",
@@ -2251,10 +1918,6 @@
                     "Loading": "Loading SFX info...",
                     "Error": "Failed to load SFX info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating SFX...",
-                    "Error": "Failed to create SFX in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading SFX...",
                     "Error": "Failed to load SFX at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2262,34 +1925,6 @@
                 "Details": {
                     "Loading": "Loading SFX details...",
                     "Error": "Failed to load SFX details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading SFX community...",
-                    "Error": "Failed to load SFX community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to SFX community...",
-                        "Error": "Failed to submit to SFX community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading SFX comments...",
-                            "Error": "Failed to load SFX comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading SFX leaderboard...",
-                    "Error": "Failed to load SFX leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading SFX records...",
-                            "Error": "Failed to load SFX records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading SFX record details...",
-                            "Error": "Failed to load SFX record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking SFX compatibility...",
@@ -2313,10 +1948,6 @@
                     "Loading": "Loading particles info...",
                     "Error": "Failed to load particles info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating particle...",
-                    "Error": "Failed to create particle in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading particles...",
                     "Error": "Failed to load particles at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2324,34 +1955,6 @@
                 "Details": {
                     "Loading": "Loading particle details...",
                     "Error": "Failed to load particle details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading particle community...",
-                    "Error": "Failed to load particle community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to particle community...",
-                        "Error": "Failed to submit to particle community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading particle comments...",
-                            "Error": "Failed to load particle comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading particle leaderboard...",
-                    "Error": "Failed to load particle leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading particle records...",
-                            "Error": "Failed to load particle records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading particle record details...",
-                            "Error": "Failed to load particle record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking particle compatibility...",
@@ -2375,10 +1978,6 @@
                     "Loading": "Loading engines info...",
                     "Error": "Failed to load engines info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating engine...",
-                    "Error": "Failed to create engine in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading engines...",
                     "Error": "Failed to load engines at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2386,34 +1985,6 @@
                 "Details": {
                     "Loading": "Loading engine details...",
                     "Error": "Failed to load engine details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading engine community...",
-                    "Error": "Failed to load engine community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to engine community...",
-                        "Error": "Failed to submit to engine community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading engine comments...",
-                            "Error": "Failed to load engine comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading engine leaderboard...",
-                    "Error": "Failed to load engine leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading engine records...",
-                            "Error": "Failed to load engine records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading engine record details...",
-                            "Error": "Failed to load engine record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking engine compatibility...",
@@ -2453,10 +2024,6 @@
                     "Loading": "Loading replays info...",
                     "Error": "Failed to load replays info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating replay...",
-                    "Error": "Failed to create replay in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading replays...",
                     "Error": "Failed to load replays at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2464,34 +2031,6 @@
                 "Details": {
                     "Loading": "Loading replay details...",
                     "Error": "Failed to load replay details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading replay community...",
-                    "Error": "Failed to load replay community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to replay community...",
-                        "Error": "Failed to submit to replay community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading replay comments...",
-                            "Error": "Failed to load replay comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading replay leaderboard...",
-                    "Error": "Failed to load replay leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading replay records...",
-                            "Error": "Failed to load replay records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading replay record details...",
-                            "Error": "Failed to load replay record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking replay compatibility...",
@@ -2511,10 +2050,6 @@
                     "Loading": "Loading rooms info...",
                     "Error": "Failed to load rooms info of \"{0}\".\n\nYour package may be unsupported or corrupted."
                 },
-                "Create": {
-                    "Loading": "Creating room...",
-                    "Error": "Failed to create room in \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
                 "List": {
                     "Loading": "Loading rooms...",
                     "Error": "Failed to load rooms at page {0}.\n\nYour package may be unsupported or corrupted."
@@ -2522,34 +2057,6 @@
                 "Details": {
                     "Loading": "Loading room details...",
                     "Error": "Failed to load room details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                },
-                "Community": {
-                    "Loading": "Loading room community...",
-                    "Error": "Failed to load room community of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Submit": {
-                        "Loading": "Submitting to room community...",
-                        "Error": "Failed to submit to room community of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                    },
-                    "Comment": {
-                        "List": {
-                            "Loading": "Loading room comments...",
-                            "Error": "Failed to load room comments at page {0}.\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
-                },
-                "Leaderboard": {
-                    "Loading": "Loading room leaderboard...",
-                    "Error": "Failed to load room leaderboard of \"{0}\".\n\nYour package may be unsupported or corrupted.",
-                    "Record": {
-                        "List": {
-                            "Loading": "Loading room records...",
-                            "Error": "Failed to load room records at page {0}.\n\nYour package may be unsupported or corrupted."
-                        },
-                        "Details": {
-                            "Loading": "Loading room record details...",
-                            "Error": "Failed to load room record details of \"{0}\".\n\nYour package may be unsupported or corrupted."
-                        }
-                    }
                 },
                 "Compatibility": {
                     "Loading": "Checking room compatibility...",
@@ -2770,46 +2277,8 @@
                 }
             },
             "ToAddFavorite": {
-                "Post": {
-                    "Title": "Add Favorite Post",
-                    "Description": "Select a custom server to add its posts to favorite."
-                },
-                "Playlist": {
-                    "Title": "Add Favorite Playlist",
-                    "Description": "Select a custom server to add its playlists to favorite."
-                },
-                "Level": {
-                    "Title": "Add Favorite Level",
-                    "Description": "Select a custom server to add its levels to favorite."
-                },
-                "Skin": {
-                    "Title": "Add Favorite Skin",
-                    "Description": "Select a custom server to add its skins to favorite."
-                },
-                "Background": {
-                    "Title": "Add Favorite Background",
-                    "Description": "Select a custom server to add its backgrounds to favorite."
-                },
-                "Effect": {
-                    "Title": "Add Favorite Effect",
-                    "Description": "Select a custom server to add its effects to favorite."
-                },
-                "Particle": {
-                    "Title": "Add Favorite Particle",
-                    "Description": "Select a custom server to add its particles to favorite."
-                },
-                "Engine": {
-                    "Title": "Add Favorite Engine",
-                    "Description": "Select a custom server to add its engines to favorite."
-                },
-                "Replay": {
-                    "Title": "Add Favorite Replay",
-                    "Description": "Select a custom server to add its replays to favorite."
-                },
-                "Room": {
-                    "Title": "Add Favorite Room",
-                    "Description": "Select a custom server to add its rooms to favorite."
-                }
+                "Title": "Add Favorite",
+                "Description": "Select a custom server to add its items to favorite."
             }
         },
         "EditCustomServer": {
@@ -3077,6 +2546,7 @@
                 "Engine": "Engines",
                 "Replay": "Replays",
                 "Room": "Rooms",
+                "Configuration": "Configuration",
                 "SaveSuccess": {
                     "Title": "Server Saved"
                 },
@@ -3088,7 +2558,20 @@
                 "Title": "Search"
             },
             "Forms": {
-                "ValidationError": "Some required information is missing.\n\nPlease complete missing fields and try again."
+                "ValidationError": "Some required information is missing.\n\nPlease complete missing fields and try again.",
+                "Confirmation": "Are you sure to submit \"{0}\"?"
+            },
+            "Configuration": {
+                "Options": {
+                    "Title": "Options",
+                    "AutoLogin": {
+                        "Title": "Auto Sign In",
+                        "Description": "Automatically sign in when visiting this server."
+                    }
+                }
+            },
+            "Upload": {
+                "Title": "Upload"
             },
             "Infos": {
                 "Advanced": "Advanced",
@@ -3757,9 +3240,7 @@
                             "Room": "Room is selecting..."
                         },
                         "Actions": {
-                            "Select": "Select",
-                            "NoSource": "This level cannot be selected because it does not have a source server.\n\nPlease use a different level, or contact level author to report the problem.",
-                            "NoOtherServers": "This level cannot be selected because the room does not allow levels from other servers.\n\nPlease use a different level."
+                            "Select": "Select"
                         }
                     },
                     "Preparing": {
@@ -3848,9 +3329,7 @@
                     "Actions": {
                         "Lock": "Lock",
                         "Unlock": "Unlock",
-                        "Clear": "Clear",
-                        "NoSource": "This level cannot be suggested because it does not have a source server.\n\nPlease use a different level, or contact level author to report the problem.",
-                        "NoOtherServers": "This level cannot be suggested because the room does not allow levels from other servers.\n\nPlease use a different level."
+                        "Clear": "Clear"
                     }
                 },
                 "Scoreboard": {
