@@ -4,6 +4,16 @@
     "Title": "Bahasa Indonesia (Indonesian)"
   },
   "Texts": {
+    "#POST": "Post",
+    "#PLAYLIST": "Playlist",
+    "#LEVEL": "Level",
+    "#SKIN": "Skin",
+    "#BACKGROUND": "Latar",
+    "#EFFECT": "SFX",
+    "#PARTICLE": "Partikel",
+    "#ENGINE": "Mesin",
+    "#REPLAY": "Replay",
+    "#ROOM": "Ruang",
     "#GRADE": "Nilai",
     "#ARCADE_SCORE": "Skor",
     "#ACCURACY_SCORE": "Skor Akurasi",
@@ -20,28 +30,34 @@
     "#TITLE": "Judul",
     "#SUBTITLE": "Subtitle",
     "#ARTISTS": "Artist",
+    "#TIME": "Waktu",
     "#AUTHOR": "Author",
     "#GENRE": "Genre",
     "#TYPE": "Tipe",
     "#CATEGORY": "Kategori",
     "#LANGUAGE": "Bahasa",
     "#DIFFICULTY": "Kesulitan",
-    "#VERSIONS": "Versi",
+    "#VERSION": "Versi",
     "#LENGTH": "Panjang",
     "#LENGTH_MINIMUM": "Panjang Minimal",
     "#LENGTH_MAXIMUM": "Panjang Maksimal",
     "#ADDITIONAL_INFORMATION": "Informasi Tambahan",
+    "#TIMEZONE": "Zona Waktu",
+    "#REGION": "Wilayah",
     "#CONTENT": "Konten",
     "#COMMENT": "Komen",
     "#REVIEW": "Ulasan",
     "#REPLY": "Balas",
+    "#MESSAGE": "Pesan",
+    "#ROLE": "Peran",
+    "#PERMISSION": "Izin",
+    "#USER": "User",
     "#SPEED": "Kecepatan Level",
     "#MIRROR": "Mirror Level",
     "#RANDOM": "Acak",
     "#HIDDEN": "Hidden",
     "#JUDGMENT_STRICT": "Penilaian Ketat",
     "#JUDGMENT_LOOSE": "Penilaian Longgar",
-    "#EFFECT": "SFX",
     "#EFFECT_AUTO": "Auto SFX",
     "#STAGE": "Stage",
     "#STAGE_POSITION": "Posisi Stage",
@@ -174,6 +190,7 @@
     "#COUNTERCLOCKWISE": "Berlawanan Jarum Jam",
     "#FORWARD": "Maju",
     "#BACKWARD": "Mundur",
+    "#DEFAULT": "Default",
     "#NEUTRAL": "Netral",
     "#RED": "Merah",
     "#GREEN": "Hijau",
@@ -198,8 +215,10 @@
     "#TITLE_PLACEHOLDER": "Masukkan judul...",
     "#SUBTITLE_PLACEHOLDER": "Masukkan sub judul...",
     "#ARTISTS_PLACEHOLDER": "Masukkan artist...",
+    "#TIME_PLACEHOLDER": "Masukkan waktu...",
     "#AUTHOR_PLACEHOLDER": "Masukkan author...",
     "#GENRE_PLACEHOLDER": "Masukkan genre...",
+    "#TYPE_PLACEHOLDER": "Masukkan tipe...",
     "#CATEGORY_PLACEHOLDER": "Masukkan kategori...",
     "#LANGUAGE_PLACEHOLDER": "Masukkan bahasa...",
     "#DIFFICULTY_PLACEHOLDER": "Masukkan kesulitan...",
@@ -207,10 +226,16 @@
     "#LENGTH_MINIMUM_PLACEHOLDER": "Masukkan durasi minimum...",
     "#LENGTH_MAXIMUM_PLACEHOLDER": "Masukkan durasi maksimum...",
     "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Masukkan informasi tambahan...",
+    "#TIMEZONE_PLACEHOLDER": "Masukkan zona waktu...",
+    "#REGION_PLACEHOLDER": "Masukkan wilayah...",
     "#CONTENT_PLACEHOLDER": "Masukkan konten...",
     "#COMMENT_PLACEHOLDER": "Masukkan komen...",
     "#REVIEW_PLACEHOLDER": "Masukkan ulasan...",
     "#REPLY_PLACEHOLDER": "Masukkan balasan...",
+    "#MESSAGE_PLACEHOLDER": "Masukkan pesan...",
+    "#ROLE_PLACEHOLDER": "Masukkan peran...",
+    "#PERMISSION_PLACEHOLDER": "Masukkan izin...",
+    "#USER_PLACEHOLDER": "Masukkan user...",
     "#PERCENTAGE_UNIT": "{0}%",
     "#SECOND_UNIT": "{0} s",
     "#MILLISECOND_UNIT": "{0} ms",
@@ -342,6 +367,7 @@
     "#BOOKMARK": "Tandai",
     "#BOOKMARKED": "Ditandai",
     "#DELETE": "Hapus",
+    "#RESTORE": "Pulihkan",
     "#EDIT": "Edit",
     "#CONFIRM": "Konfirmasi",
     "#CANCEL": "Batal",
@@ -357,8 +383,20 @@
     "#DISAGREED": "Tidak disetujui",
     "#LOCK": "Kunci",
     "#UNLOCK": "Dikunci",
+    "#PIN": "Pin",
+    "#UNPIN": "Unpin",
+    "#FOLLOW": "Follow",
+    "#UNFOLLOW": "Unfollow",
+    "#SUBSCRIBE": "Subscribe",
+    "#UNSUBSCRIBE": "Unsubscribe",
     "#SHOW": "Tampilkan",
     "#HIDE": "Sembunyikan",
+    "#ALLOW": "Izinkan",
+    "#DISALLOW": "Larang",
+    "#APPROVE": "Setuju",
+    "#DENY": "Tidak Setuju",
+    "#ACCEPT": "Terima",
+    "#REJECT": "Tolak",
     "#STAR": "Star",
     "#STARRED": "Starred"
   },
@@ -368,6 +406,7 @@
     "More": "Selebihnya",
     "On": "ON",
     "Off": "OFF",
+    "None": "Tidak Ada",
     "Select": "Pilih",
     "Reset": "Reset",
     "Edit": "Edit",
@@ -423,6 +462,7 @@
       "SelectNone": "Pilih Tidak Ada"
     },
     "ItemFields": {
+      "Selected": "{0} Dipilih",
       "NoSelected": {
         "Post": "Tidak ada post yang dipilih",
         "Playlist": "Tidak ada playlist yang dipilih",
@@ -434,6 +474,30 @@
         "Engine": "Tidak ada mesin yang dipilih",
         "Replay": "Tidak ada replay yang dipilih",
         "Room": "Tidak ada ruang yang dipilih"
+      },
+      "NoSource": {
+        "Post": "Postingan ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan postingan lain, atau hubungi pemilik postingan untuk melaporkan masalahnya.",
+        "Playlist": "Playlist ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan playlist lain, atau hubungi pemilik playlist untuk melaporkan masalahnya.",
+        "Level": "Level ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan level lain, atau hubungi pemilik level untuk melaporkan masalahnya.",
+        "Skin": "Skin ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan skin lain, atau hubungi pemilik skin untuk melaporkan masalahnya.",
+        "Background": "Latar ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan latar lain, atau hubungi pemilik latar untuk melaporkan masalahnya.",
+        "Effect": "SFX ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan SFX lain, atau hubungi pemilik SFX untuk melaporkan masalahnya.",
+        "Particle": "Partikel ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan partikel lain, atau hubungi pemilik partikel untuk melaporkan masalahnya.",
+        "Engine": "Mesin ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan mesin lain, atau hubungi pemilik mesin untuk melaporkan masalahnya.",
+        "Replay": "Replay ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan replay lain, atau hubungi pemilik replay untuk melaporkan masalahnya.",
+        "Room": "Ruang ini tidak dapat dipilih karena tidak memiliki server sumber.\n\nSilakan gunakan ruang lain, atau hubungi pemilik ruang untuk melaporkan masalahnya."
+      },
+      "NoOtherServers": {
+        "Post": "Postingan ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan postingan dari server yang sama.",
+        "Playlist": "Playlist ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan playlist dari server yang sama.",
+        "Level": "Level ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan level dari server yang sama.",
+        "Skin": "Skin ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan skin dari server yang sama.",
+        "Background": "Latar ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan latar dari server yang sama.",
+        "Effect": "SFX ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan SFX dari server yang sama.",
+        "Particle": "Partikel ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan partikel dari server yang sama.",
+        "Engine": "Mesin ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan mesin dari server yang sama.",
+        "Replay": "Replay ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan replay dari server yang sama.",
+        "Room": "Ruang ini tidak dapat dipilih karena dari server yang berbeda.\n\nSilakan gunakan ruang dari server yang sama."
       }
     },
     "FileField": {
@@ -643,6 +707,9 @@
         "Login": {
           "Loading": "Sedang masuk...",
           "Error": "Gagal masuk ke \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+        },
+        "AutoLogin": {
+          "Description": "Apakah Anda ingin otomatis masuk ketika mengunjungi server ini?"
         }
       },
       "Multiplayer": {
@@ -685,9 +752,15 @@
           "Loading": "Memuat detail post...",
           "Error": "Gagal memuat detail post \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke postingan...",
+          "Error": "Gagal mengirim ke postingan \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik sever untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas post...",
-          "Error": "Gagal memuat komunitas post \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas postingan...",
+            "Error": "Gagal memuat info komunitas postingan \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas post...",
             "Error": "Gagal mengirim ke komunitas post \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -700,8 +773,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat post papan peringkat...",
-          "Error": "Gagal memuat post papan paringkat \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat postingan...",
+            "Error": "Gagal memuat detail papan peringkat postingan \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan post...",
@@ -739,9 +814,15 @@
           "Loading": "Memuat detail playlist...",
           "Error": "Gagal memuat detail playlist \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke playlist...",
+          "Error": "Gagal mengirim ke playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas playlist...",
-          "Error": "Gagal memuat komunitas playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas playlist...",
+            "Error": "Gagal memuat info komunitas playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas playlist...",
             "Error": "Gagal mengirimkan ke komunitas playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -754,8 +835,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat playlist...",
-          "Error": "Gagal memuat papan peringkat playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat playlist...",
+            "Error": "Gagal memuat detail papan peringkat playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan playlist...",
@@ -793,9 +876,15 @@
           "Loading": "Memuat detail level...",
           "Error": "Gagal memuat detail level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke level...",
+          "Error": "Gagal mengirim ke level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas level...",
-          "Error": "Gagal memuat komunitas level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas level...",
+            "Error": "Gagal memuat info komunitas level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas level...",
             "Error": "Gagal mengirim ke komunitas level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -808,8 +897,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat level...",
-          "Error": "Gagal memuat papan peringkat level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat level...",
+            "Error": "Gagal memuat detail papan peringkat level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan level...",
@@ -859,9 +950,15 @@
           "Loading": "Memuat detail skin...",
           "Error": "Gagal memuat detail skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke skin...",
+          "Error": "Gagal mengirim ke skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas skin...",
-          "Error": "Gagal memuat komunitas skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas skin...",
+            "Error": "Gagal memuat info komunitas skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas skin...",
             "Error": "Gagal mengirim ke komunitas skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -874,8 +971,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat skin...",
-          "Error": "Gagal memuat papan peringkat skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat skin...",
+            "Error": "Gagal memuat detail papan peringkat skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan skin...",
@@ -921,9 +1020,15 @@
           "Loading": "Memuat detail latar...",
           "Error": "Gagal memuat detail latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke latar...",
+          "Error": "Gagal mengirim ke latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas latar...",
-          "Error": "Gagal memuat komunitas latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas latar...",
+            "Error": "Gagal memuat info komunitas latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas latar...",
             "Error": "Gagal mengirim ke komunitas latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -936,8 +1041,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat latar...",
-          "Error": "Gagal memuat papan peringkat latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat latar...",
+            "Error": "Gagal memuat detail papan peringkat latar\"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan latar...",
@@ -987,9 +1094,15 @@
           "Loading": "Memuat detail SFX...",
           "Error": "Gagal memuat detail SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke SFX...",
+          "Error": "Gagal mengirim ke SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas SFX...",
-          "Error": "Gagal memuat komunitas SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas SFX...",
+            "Error": "Gagal memuat komunitas SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas SFX...",
             "Error": "Gagal mengirim ke komunitas SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -1002,8 +1115,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat SFX...",
-          "Error": "Gagal memuat papan peringkat SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat SFX...",
+            "Error": "Gagal memuat detail papan peringkat SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan SFX...",
@@ -1049,9 +1164,15 @@
           "Loading": "Memuat detail partikel...",
           "Error": "Gagal memuat detail partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke partikel...",
+          "Error": "Gagal mengirim ke partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas partikel...",
-          "Error": "Gagal memuat komunitas partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas partikel...",
+            "Error": "Gagal memuat info komunitas partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas partikel...",
             "Error": "Gagal mengirim ke komunitas partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -1064,8 +1185,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat partikel...",
-          "Error": "Gagal memuat papan peringkat partikel di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat partikel...",
+            "Error": "Gagal memuat detail papan peringkat partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan partikel...",
@@ -1111,9 +1234,15 @@
           "Loading": "Memuat detail mesin...",
           "Error": "Gagal memuat detail mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke mesin...",
+          "Error": "Gagal mengirim ke mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas mesin...",
-          "Error": "Gagal memuat komunitas mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas mesin...",
+            "Error": "Gagal memuat info komunitas mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas mesin...",
             "Error": "Gagal mengirim ke komunitas mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -1126,8 +1255,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat mesin...",
-          "Error": "Gagal membuat papan peringkat mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat mesin...",
+            "Error": "Gagal memuat detail papan peringkat mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan mesin...",
@@ -1189,9 +1320,15 @@
           "Loading": "Memuat detail replay...",
           "Error": "Gagal memuat detail replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke replay...",
+          "Error": "Gagal mengirim ke replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas replay...",
-          "Error": "Gagal memuat komunitas replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas replay...",
+            "Error": "Gagal memuat info komunitas replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas replay...",
             "Error": "Gagal mengirim ke komunitas replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -1204,8 +1341,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat replay...",
-          "Error": "Gagal memuat papan peringkat replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat replay...",
+            "Error": "Gagal memuat detail papan peringkat replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan replay...",
@@ -1247,9 +1386,15 @@
           "Loading": "Memuat detail ruang...",
           "Error": "Gagal memuat detail ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
         },
+        "Submit": {
+          "Loading": "Mengirimkan ke ruang...",
+          "Error": "Gagal mengirim ke ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+        },
         "Community": {
-          "Loading": "Memuat komunitas ruang...",
-          "Error": "Gagal memuat komunitas ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Info": {
+            "Loading": "Memuat info komunitas ruang...",
+            "Error": "Gagal memuat info komunitas ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas ruang...",
             "Error": "Gagal mengirim ke komunitas ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
@@ -1262,8 +1407,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Memuat papan peringkat ruang...",
-          "Error": "Gagal memuat papan peringkat ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+          "Details": {
+            "Loading": "Memuat detail papan peringkat ruang...",
+            "Error": "Gagal memuat detail papan peringkat ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          },
           "Record": {
             "List": {
               "Loading": "Memuat catatan ruang...",
@@ -1309,10 +1456,6 @@
           "Loading": "Memuat info post...",
           "Error": "Gagal memuat info post \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat post...",
-          "Error": "Gagal membuat post di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat post...",
           "Error": "Gagal memuat post di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1320,34 +1463,6 @@
         "Details": {
           "Loading": "Memuat detail post...",
           "Error": "Gagal memuat detail post \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas post...",
-          "Error": "Gagal memuat komunitas post \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas post...",
-            "Error": "Gagal mengirim ke komunitas post \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen post...",
-              "Error": "Gagal memuat komen post di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat post...",
-          "Error": "Gagal memuat papan peringkat post \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan post...",
-              "Error": "Gagal memuat catatan post di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan post...",
-              "Error": "Gagal memuat detail catatan post \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas post...",
@@ -1363,10 +1478,6 @@
           "Loading": "Memuat info playlist...",
           "Error": "Gagal memuat info playlist \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat playlist...",
-          "Error": "Gagal membuat playlist di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat playlist...",
           "Error": "Gagal memuat playlist di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1374,34 +1485,6 @@
         "Details": {
           "Loading": "Memuat detail playlist...",
           "Error": "Gagal memuat detail playlist \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas playlist...",
-          "Error": "Gagal memuat komunitas playlist \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas playlist...",
-            "Error": "Gagal mengirim ke komunitas playlist \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen playlist...",
-              "Error": "Gagal memuat komen playlist di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat playlist...",
-          "Error": "Gagal memuat papan peringkat playlist \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan playlist...",
-              "Error": "Gagal memuat catatan playlist di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan playlist...",
-              "Error": "Gagal memuat detail catatan playlist \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas playlist...",
@@ -1417,10 +1500,6 @@
           "Loading": "Memuat info level...",
           "Error": "Gagal memuat info level \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat level...",
-          "Error": "Gagal membuat level di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat level...",
           "Error": "Gagal memuat level di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1428,34 +1507,6 @@
         "Details": {
           "Loading": "Memuat detail level...",
           "Error": "Gagal memuat detail level \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas level...",
-          "Error": "Gagal memuat komunitas level \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas level...",
-            "Error": "Gagal memuat komunitas level \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen level...",
-              "Error": "Gagal memuat komen level di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat level...",
-          "Error": "Gagal memuat papan peringkat level \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan level...",
-              "Error": "Gagal memuat catatan level di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan level...",
-              "Error": "Gagal memuat detail catatan level \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas level...",
@@ -1483,10 +1534,6 @@
           "Loading": "Memuat info skin...",
           "Error": "Gagal memuat info skin \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat skin...",
-          "Error": "Gagal memuat skin di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat skin...",
           "Error": "Gagal memuat skin di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1494,34 +1541,6 @@
         "Details": {
           "Loading": "Memuat detail skin...",
           "Error": "Gagal memuat detail skin \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas skin...",
-          "Error": "Gagal memuat komunitas skin \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas skin...",
-            "Error": "Gagal mengirim ke komunitas skin \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen skin...",
-              "Error": "Gagal memuat komen skin di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat skin...",
-          "Error": "Gagal memuat papan peringkat skin \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan skin...",
-              "Error": "Gagal memuat catatan skin di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan skin...",
-              "Error": "Gagal memuat detail catatan skin \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas skin...",
@@ -1545,10 +1564,6 @@
           "Loading": "Memuat info latar...",
           "Error": "Gagal memuat info latar \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat latar...",
-          "Error": "Gagal membuat latar di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat latar...",
           "Error": "Gagal memuat latar di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1556,34 +1571,6 @@
         "Details": {
           "Loading": "Memuat detail latar...",
           "Error": "Gagal memuat detail latar \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas latar...",
-          "Error": "Gagal memuat komunitas latar \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas latar...",
-            "Error": "Gagal mengirim ke komunitas latar \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen latar...",
-              "Error": "Gagal memuat komen latar di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat latar...",
-          "Error": "Gagal memuat papan peringkat \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan latar...",
-              "Error": "Gagal memuat catatan latar di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan latar...",
-              "Error": "Gagal memuat detail catatan latar \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas latar...",
@@ -1611,10 +1598,6 @@
           "Loading": "Memuat info SFX...",
           "Error": "Gagal memuat info SFX \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat SFX...",
-          "Error": "Gagal membuat SFX di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat SFX...",
           "Error": "Gagal memuat SFX di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1622,34 +1605,6 @@
         "Details": {
           "Loading": "Memuat detail SFX...",
           "Error": "Gagal memuat detail SFX \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas SFX...",
-          "Error": "Gagal memuat komunitas SFX \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas SFX...",
-            "Error": "Gagal mengirim ke komunitas SFX \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen SFX...",
-              "Error": "Gagal memuat komen SFX di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat SFX...",
-          "Error": "Gagal memuat papan peringkat SFX \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan SFX...",
-              "Error": "Gagal memuat catatan SFX di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan SFX...",
-              "Error": "Gagal memuat detail catatan SFX \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas SFX...",
@@ -1673,10 +1628,6 @@
           "Loading": "Memuat info partikel...",
           "Error": "Gagal memuat info partikel \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat partikel...",
-          "Error": "Gagal membuat partikel di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat partikel...",
           "Error": "Gagal memuat partikel di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1684,34 +1635,6 @@
         "Details": {
           "Loading": "Memuat detail partikel...",
           "Error": "Gagal memuat detail partikel \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas partikel...",
-          "Error": "Gagal memuat komunitas partikel \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas partikel...",
-            "Error": "Gagal mengirim ke komunitas partikel \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen partikel...",
-              "Error": "Gagal memuat komen partikel di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat partikel...",
-          "Error": "Gagal memuat papan peringkat partikel \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan partikel...",
-              "Error": "Gagal memuat catatan partikel di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan partikel...",
-              "Error": "Gagal memuat detail catatan partikel \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas partikel...",
@@ -1735,10 +1658,6 @@
           "Loading": "Memuat info mesin...",
           "Error": "Gagal memuat info mesin \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat mesin...",
-          "Error": "Gagal membuat mesin di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat mesin...",
           "Error": "Gagal memuat mesin di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1746,34 +1665,6 @@
         "Details": {
           "Loading": "Memuat detail mesin...",
           "Error": "Gagal memuat detail mesin \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas mesin...",
-          "Error": "Gagal memuat komunitas mesin \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas mesin...",
-            "Error": "Gagal mengirim ke komunitas mesin \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen mesin...",
-              "Error": "Gagal memuat komen mesin di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat mesin...",
-          "Error": "Gagal memuat papan peringkat mesin \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan mesin...",
-              "Error": "Gagal memuat catatan mesin di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan mesin...",
-              "Error": "Gagal memuat detail catatan mesin \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas mesin...",
@@ -1813,10 +1704,6 @@
           "Loading": "Memuat info replay...",
           "Error": "Gagal memuat info replay \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat replay...",
-          "Error": "Gagal membuat replay di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat replay...",
           "Error": "Gagal memuat replay di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1824,34 +1711,6 @@
         "Details": {
           "Loading": "Memuat detail replay...",
           "Error": "Gagal memuat detail replay \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas replay...",
-          "Error": "Gagal memuat komunitas replay \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas replay...",
-            "Error": "Gagal mengirim ke komunitas replay \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen replay...",
-              "Error": "Gagal memuat komen replay di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat replay...",
-          "Error": "Gagal memuat papan peringkat replay \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan replay...",
-              "Error": "Gagal memuat catatan replay di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan replay...",
-              "Error": "Gagal memuat detail catatan replay \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas replay...",
@@ -1871,10 +1730,6 @@
           "Loading": "Memuat info ruang...",
           "Error": "Gagal memuat info ruang \"{0}\".\n\nKoleksi Anda mungkin korup."
         },
-        "Create": {
-          "Loading": "Membuat ruang...",
-          "Error": "Gagal membuat ruang di \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
         "List": {
           "Loading": "Memuat ruang...",
           "Error": "Gagal memuat ruang di halaman {0}.\n\nKoleksi Anda mungkin korup."
@@ -1882,34 +1737,6 @@
         "Details": {
           "Loading": "Memuat detail ruang...",
           "Error": "Gagal memuat detail ruang \"{0}\".\n\nKoleksi Anda mungkin korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas ruang...",
-          "Error": "Gagal memuat komunitas ruang \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas ruang...",
-            "Error": "Gagal mengirim ke komunitas ruang \"{0}\".\n\nKoleksi Anda mungkin korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen ruang...",
-              "Error": "Gagal memuat komen ruang di halaman {0}.\n\nKoleksi Anda mungkin korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat ruang...",
-          "Error": "Gagal memuat papan peringkat ruang \"{0}\".\n\nKoleksi Anda mungkin korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan ruang...",
-              "Error": "Gagal memuat catatan ruang {0}.\n\nKoleksi Anda mungkin korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan ruang...",
-              "Error": "Gagal memuat detail catatan ruang \"{0}\".\n\nKoleksi Anda mungkin korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibitas ruang...",
@@ -1949,10 +1776,6 @@
           "Loading": "Memuat info post...",
           "Error": "Gagal memuat info post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat post...",
-          "Error": "Gagal membuat post di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat post...",
           "Error": "Gagal memuat post di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -1960,34 +1783,6 @@
         "Details": {
           "Loading": "Memuat detail post...",
           "Error": "Gagal memuat detail post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas post...",
-          "Error": "Gagal memuat komunitas post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas post...",
-            "Error": "Gagal mengirim ke komunitas post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen post...",
-              "Error": "Gagal memuat komen post di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat post...",
-          "Error": "Gagal memuat papan peringkat post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan post...",
-              "Error": "Gagal memuat catatan post di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan post...",
-              "Error": "Gagal memuat detail catatan post \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas post...",
@@ -2003,10 +1798,6 @@
           "Loading": "Memuat info playlist...",
           "Error": "Gagal memuat info playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat playlist...",
-          "Error": "Gagal membuat playlist di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat playlist...",
           "Error": "Gagal memuat playlist di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2014,34 +1805,6 @@
         "Details": {
           "Loading": "Memuat detail playlist...",
           "Error": "Gagal memuat detail playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas playlist...",
-          "Error": "Gagal memuat komunitas playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas playlist...",
-            "Error": "Gagal mengirim ke komunitas playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen playlist...",
-              "Error": "Gagal memuat komen playlist di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat playlist...",
-          "Error": "Gagal memuat papan peringkat playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan playlist...",
-              "Error": "Gagal memuat catatan playlist di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan playlist...",
-              "Error": "Gagal memuat detail catatan playlist \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas playlist...",
@@ -2057,10 +1820,6 @@
           "Loading": "Memuat info level...",
           "Error": "Gagal memuat info level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat level...",
-          "Error": "Gagal membuat level di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat level...",
           "Error": "Gagal memuat level di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2068,34 +1827,6 @@
         "Details": {
           "Loading": "Memuat detail level...",
           "Error": "Gagal memuat detail level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas level...",
-          "Error": "Gagal memuat komunitas level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas level...",
-            "Error": "Gagal mengirim ke komunitas level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen level...",
-              "Error": "Gagal memuat komen level di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat level...",
-          "Error": "Gagal memuat papan peringkat level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan level...",
-              "Error": "Gagal memuat catatan level di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan level...",
-              "Error": "Gagal memuat detail catatan level \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas level...",
@@ -2123,10 +1854,6 @@
           "Loading": "Memuat info skin...",
           "Error": "Gagal memuat info skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat skin...",
-          "Error": "Gagal membuat skin di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat skin...",
           "Error": "Gagal memuat skin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2134,34 +1861,6 @@
         "Details": {
           "Loading": "Memuat detail skin...",
           "Error": "Gagal memuat detail skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas skin...",
-          "Error": "Gagal memuat komunitas skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas skin...",
-            "Error": "Gagal mengirim ke komunitas skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen skin...",
-              "Error": "Gagal memuat komen skin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat skin...",
-          "Error": "Gagal memuat papan peringkat skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan skin...",
-              "Error": "Gagal memuat catatan skin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan skin...",
-              "Error": "Gagal memuat detail catatan skin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas skin...",
@@ -2185,10 +1884,6 @@
           "Loading": "Memuat info latar...",
           "Error": "Gagal memuat info latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat latar...",
-          "Error": "Gagal memuat latar di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat latar...",
           "Error": "Gagal memuat latar di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2196,34 +1891,6 @@
         "Details": {
           "Loading": "Memuat detail latar...",
           "Error": "Gagal memuat detail latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas latar...",
-          "Error": "Gagal memuat komunitas latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas latar...",
-            "Error": "Gagal mengirim ke komunitas latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen latar...",
-              "Error": "Gagal memuat komen latar di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat latar...",
-          "Error": "Gagal memuat papan peringkat latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan latar...",
-              "Error": "Gagal memuat catatan latar di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan latar...",
-              "Error": "Gagal memuat detail catatan latar \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas latar...",
@@ -2251,10 +1918,6 @@
           "Loading": "Memuat info SFX...",
           "Error": "Gagal memuat info SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat SFX...",
-          "Error": "Gagal memuat SFX di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat SFX...",
           "Error": "Gagal memuat SFX di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2262,34 +1925,6 @@
         "Details": {
           "Loading": "Memuat detail SFX...",
           "Error": "Gagal memuat detail SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas SFX...",
-          "Error": "Gagal memuat komunitas SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas SFX...",
-            "Error": "Gagal mengirim ke komunitas SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen SFX...",
-              "Error": "Gagal memuat komen SFX di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat SFX...",
-          "Error": "Gagal memuat papan peringkat SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan SFX...",
-              "Error": "Gagal memuat catatan SFX di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan SFX...",
-              "Error": "Gagal memuat detail catatan SFX \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas SFX...",
@@ -2313,10 +1948,6 @@
           "Loading": "Memuat info partikel...",
           "Error": "Gagal memuat info partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat partikel...",
-          "Error": "Gagal membuat partikel di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat partikel...",
           "Error": "Gagal memuat partikel di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2324,34 +1955,6 @@
         "Details": {
           "Loading": "Memuat detail partikel...",
           "Error": "Gagal memuat detail partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas partikel...",
-          "Error": "Gagal memuat komunitas partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas partikel...",
-            "Error": "Gagal mengirim ke komunitas partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen partikel...",
-              "Error": "Gagal memuat komen partikel di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat partikel...",
-          "Error": "Gagal memuat papan peringkat partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan partikel...",
-              "Error": "Gagal memuat catatan partikel di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan partikel...",
-              "Error": "Gagal memuat detail catatan partikel \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas partikel...",
@@ -2375,10 +1978,6 @@
           "Loading": "Memuat info mesin...",
           "Error": "Gagal memuat info mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat mesin...",
-          "Error": "Gagal membuat mesin di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat mesin...",
           "Error": "Gagal memuat mesin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2386,34 +1985,6 @@
         "Details": {
           "Loading": "Memuat detail mesin...",
           "Error": "Gagal memuat detail mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas mesin...",
-          "Error": "Gagal memuat komunitas mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas mesin...",
-            "Error": "Gagal mengirim ke komunitas mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen mesin...",
-              "Error": "Gagal memuat komen mesin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat mesin...",
-          "Error": "Gagal memuat papan peringkat mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan mesin...",
-              "Error": "Gagal memuat catatan mesin di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan mesin...",
-              "Error": "Gagal memuat detail catatan mesin \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas mesin...",
@@ -2453,10 +2024,6 @@
           "Loading": "Memuat info replay...",
           "Error": "Gagal memuat info replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat replay...",
-          "Error": "Gagal membuat replay di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat replay...",
           "Error": "Gagal memuat replay di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2464,34 +2031,6 @@
         "Details": {
           "Loading": "Memuat detail replay...",
           "Error": "Gagal memuat detail replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas replay...",
-          "Error": "Gagal memaut komunitas replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas replay...",
-            "Error": "Gagal mengirim ke komunitas replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen replay...",
-              "Error": "Gagal memuat komen replay di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat replay...",
-          "Error": "Gagal memuat papan peringkat replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan replay...",
-              "Error": "Gagal memuat catatan replay di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan replay...",
-              "Error": "Gagal memuat detail catatan replay \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas replay...",
@@ -2511,10 +2050,6 @@
           "Loading": "Memuat info ruang...",
           "Error": "Gagal memuat info ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
         },
-        "Create": {
-          "Loading": "Membuat ruang...",
-          "Error": "Gagal membuat ruang di \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
         "List": {
           "Loading": "Memuat ruang...",
           "Error": "Gagal memuat ruang di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
@@ -2522,34 +2057,6 @@
         "Details": {
           "Loading": "Memuat detail ruang...",
           "Error": "Gagal memuat detail ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-        },
-        "Community": {
-          "Loading": "Memuat komunitas ruang...",
-          "Error": "Gagal memuat komunitas ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Submit": {
-            "Loading": "Mengirimkan ke komunitas ruang...",
-            "Error": "Gagal mengirim ke komunitas ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Memuat komen ruang...",
-              "Error": "Gagal memuat komen ruang di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Memuat papan peringkat ruang...",
-          "Error": "Gagal memuat papan peringkat ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup.",
-          "Record": {
-            "List": {
-              "Loading": "Memuat catatan ruang...",
-              "Error": "Gagal memuat catatan ruang di halaman {0}.\n\nPaket Anda mungkin tidak didukung atau korup."
-            },
-            "Details": {
-              "Loading": "Memuat detail catatan ruang...",
-              "Error": "Gagal memuat detail catatan ruang \"{0}\".\n\nPaket Anda mungkin tidak didukung atau korup."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Memeriksa kompatibilitas ruang...",
@@ -2770,46 +2277,8 @@
         }
       },
       "ToAddFavorite": {
-        "Post": {
-          "Title": "Tambah Post Favorit",
-          "Description": "Pilih kustom server untuk menambahkan post ke favorit."
-        },
-        "Playlist": {
-          "Title": "Tambah Playlist Favorit",
-          "Description": "Pilih kustom server untuk menambahkan playlist ke favorit."
-        },
-        "Level": {
-          "Title": "Tambah Level Favorit",
-          "Description": "Pilih kustom server untuk menambahkan level ke favorit."
-        },
-        "Skin": {
-          "Title": "Tambah Skin Favorit",
-          "Description": "Pilih kustom server untuk menambahkan skin ke favorit."
-        },
-        "Background": {
-          "Title": "Tambah Latar Favorit",
-          "Description": "Pilih kustom server untuk menambahkan latar ke favorit."
-        },
-        "Effect": {
-          "Title": "Tambah Efek Favorit",
-          "Description": "Pilih kustom server untuk menambahkan efek ke favorit."
-        },
-        "Particle": {
-          "Title": "Tambah Partikel Favorit",
-          "Description": "Pilih kustom server untuk menambahkan partikel ke favorit."
-        },
-        "Engine": {
-          "Title": "Tambah Mesin Favorit",
-          "Description": "Pilih kustom server untuk menambahkan mesin ke favorit."
-        },
-        "Replay": {
-          "Title": "Tambah Replay Favorit",
-          "Description": "Pilih kustom server untuk menambahkan replay ke favorit."
-        },
-        "Room": {
-          "Title": "Tambah Ruang Favorit",
-          "Description": "Pilih kustom server untuk menambahkan ruang ke favorit."
-        }
+        "Title": "Tambah Favorit",
+        "Description": "Pilih kustom server untuk menambahkan item ke favorit."
       }
     },
     "EditCustomServer": {
@@ -3077,6 +2546,7 @@
         "Engine": "Mesin",
         "Replay": "Replay",
         "Room": "Ruang",
+        "Configuration": "Konfigurasi",
         "SaveSuccess": {
           "Title": "Server Disimpan"
         },
@@ -3088,7 +2558,20 @@
         "Title": "Cari"
       },
       "Forms": {
-        "ValidationError": "Beberapa informasi yang diperlukan tidak ada.\n\nSilakan lengkapi kolom yang hilang dan coba lagi."
+        "ValidationError": "Beberapa informasi yang diperlukan tidak ada.\n\nSilakan lengkapi kolom yang hilang dan coba lagi.",
+        "Confirmation": "Apakah Anda yakin untuk mengirim \"{0}\"?"
+      },
+      "Configuration": {
+        "Options": {
+          "Title": "Opsi",
+          "AutoLogin": {
+            "Title": "Otomatis Masuk",
+            "Description": "Otomatis masuk ketika mengunjungi server ini."
+          }
+        }
+      },
+      "Upload": {
+        "Title": "Upload"
       },
       "Infos": {
         "Advanced": "Lebih Lanjut",
@@ -3757,9 +3240,7 @@
               "Room": "Ruang memilih..."
             },
             "Actions": {
-              "Select": "Pilih",
-              "NoSource": "Level ini tidak bisa dipilih karena tidak ada di sumber level.\n\nSilakan gunakan level yang berbeda, atau hubungi pemilik level untuk melaporkan masalahnya.",
-              "NoOtherServers": "Level ini tidak bisa dipilih karena ruang tidak memperbolehkan level dari server lain.\n\nSilakan gunakan level yang berbeda."
+              "Select": "Pilih"
             }
           },
           "Preparing": {
@@ -3848,9 +3329,7 @@
           "Actions": {
             "Lock": "Lock",
             "Unlock": "Unlock",
-            "Clear": "Clear",
-            "NoSource": "Level ini tidak dapat disarankan karena tidak memiliki server sumber.\n\nSilakan gunakan level yang berbeda, atau hubungi pemilik level untuk melaporkan masalahnya.",
-            "NoOtherServers": "Level ini tidak dapat disarankan karena ruang tidak memperbolehkan level dari server lain.\n\nSilakan gunakan level yang berbeda."
+            "Clear": "Clear"
           }
         },
         "Scoreboard": {
