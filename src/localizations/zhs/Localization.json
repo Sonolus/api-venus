@@ -333,7 +333,7 @@
     "#QUALIFIED": "合格",
     "#DISQUALIFIED": "不合格",
     "#RANKING": "排名",
-    "#SCORE": "得分",
+    "#SCORE": "分数",
     "#PLAYER": "玩家",
     "#SPECTATOR": "观察者",
     "#REFEREE": "裁判",
@@ -903,7 +903,7 @@
           },
           "Record": {
             "List": {
-              "Loading": "正在加载帖关卡记录...",
+              "Loading": "正在加载关卡记录...",
               "Error": "加载第 {0} 页的关卡记录失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
             },
             "Details": {
