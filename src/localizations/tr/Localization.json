@@ -4,6 +4,16 @@
     "Title": "Türkçe (Turkish)"
   },
   "Texts": {
+    "#POST": "Gönderi",
+    "#PLAYLIST": "Çalma Listesi",
+    "#LEVEL": "Seviye",
+    "#SKIN": "Doku",
+    "#BACKGROUND": "Arkaplan",
+    "#EFFECT": "Ses Efekti",
+    "#PARTICLE": "Partikül",
+    "#ENGINE": "Motor",
+    "#REPLAY": "Tekrar",
+    "#ROOM": "Oda",
     "#GRADE": "Rapor",
     "#ARCADE_SCORE": "Atari Skoru",
     "#ACCURACY_SCORE": "Kesinlik Skoru",
@@ -20,28 +30,34 @@
     "#TITLE": "Başlık",
     "#SUBTITLE": "Alt Başlık",
     "#ARTISTS": "Sanatçılar",
+    "#TIME": "Saat",
     "#AUTHOR": "Yaratıcı",
     "#GENRE": "Tür",
     "#TYPE": "Tip",
     "#CATEGORY": "Kategori",
     "#LANGUAGE": "Dil",
     "#DIFFICULTY": "Zorluk",
-    "#VERSIONS": "Sürüm",
+    "#VERSION": "Sürüm",
     "#LENGTH": "Uzunluk",
     "#LENGTH_MINIMUM": "Minimum Uzunluk",
     "#LENGTH_MAXIMUM": "Maksimum Uzunluk",
     "#ADDITIONAL_INFORMATION": "Ek Bilgiler",
+    "#TIMEZONE": "Saat Dilimi",
+    "#REGION": "Bölge",
     "#CONTENT": "İçerik",
     "#COMMENT": "Yorum",
     "#REVIEW": "İnceleme",
     "#REPLY": "Cevap",
+    "#MESSAGE": "Mesaj",
+    "#ROLE": "Rol",
+    "#PERMISSION": "İzinler",
+    "#USER": "Kullanıcı",
     "#SPEED": "Seviye Hızı",
     "#MIRROR": "Seviyeyi Ters Çevir",
     "#RANDOM": "Rastgele",
     "#HIDDEN": "Gizli",
     "#JUDGMENT_STRICT": "Katı Yargı",
     "#JUDGMENT_LOOSE": "Gevşek Yargı",
-    "#EFFECT": "Ses Efekti",
     "#EFFECT_AUTO": "Otomatik Ses Efekti",
     "#STAGE": "Sahne",
     "#STAGE_POSITION": "Sahne Konumu",
@@ -174,6 +190,7 @@
     "#COUNTERCLOCKWISE": "Saat Yönünün Tersi ",
     "#FORWARD": "İleri",
     "#BACKWARD": "Geri",
+    "#DEFAULT": "Varsayılan",
     "#NEUTRAL": "Nötr",
     "#RED": "Kırmızı",
     "#GREEN": "Yeşil",
@@ -181,15 +198,15 @@
     "#YELLOW": "Sarı",
     "#PURPLE": "Mor",
     "#CYAN": "Camgöbeği",
-    "#SIMPLE": "Basit",
-    "#EASY": "Kolay",
+    "#SIMPLE": "Simple",
+    "#EASY": "Easy",
     "#NORMAL": "Normal",
-    "#HARD": "Zor",
-    "#EXPERT": "Uzman",
-    "#MASTER": "Usta",
+    "#HARD": "Hard",
+    "#EXPERT": "Expert",
+    "#MASTER": "Master",
     "#PRO": "Pro",
-    "#TECHNICAL": "Teknik",
-    "#SPECIAL": "Özel",
+    "#TECHNICAL": "Technical",
+    "#SPECIAL": "Special",
     "#KEYWORDS_PLACEHOLDER": "Anahtar kelimeleri gir...",
     "#NAME_PLACEHOLDER": "İsim girin...",
     "#RATING_PLACEHOLDER": "Derece girin...",
@@ -198,8 +215,10 @@
     "#TITLE_PLACEHOLDER": "Başlık girin...",
     "#SUBTITLE_PLACEHOLDER": "Altyazı girin...",
     "#ARTISTS_PLACEHOLDER": "Sanatçıları girin...",
+    "#TIME_PLACEHOLDER": "Saati girin...",
     "#AUTHOR_PLACEHOLDER": "Yaratıcı girin...",
     "#GENRE_PLACEHOLDER": "Tür girin...",
+    "#TYPE_PLACEHOLDER": "Türü girin...",
     "#CATEGORY_PLACEHOLDER": "Kategori girin...",
     "#LANGUAGE_PLACEHOLDER": "Dil girin...",
     "#DIFFICULTY_PLACEHOLDER": "Zorluk girin...",
@@ -207,10 +226,16 @@
     "#LENGTH_MINIMUM_PLACEHOLDER": "Minimum Uzunluğu girin...",
     "#LENGTH_MAXIMUM_PLACEHOLDER": "Maksimum Uzunluğu girin...",
     "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Ek bilgi girin...",
+    "#TIMEZONE_PLACEHOLDER": "Saat dilimini girin...",
+    "#REGION_PLACEHOLDER": "Bölgeyi girin...",
     "#CONTENT_PLACEHOLDER": "Bir içerik girin...",
     "#COMMENT_PLACEHOLDER": "Bir yorum girin...",
     "#REVIEW_PLACEHOLDER": "Bir inceleme girin...",
     "#REPLY_PLACEHOLDER": "Bir yanıt girin...",
+    "#MESSAGE_PLACEHOLDER": "Mesaj girin...",
+    "#ROLE_PLACEHOLDER": "Rol girin...",
+    "#PERMISSION_PLACEHOLDER": "İzinleri girin...",
+    "#USER_PLACEHOLDER": "Kullanıcıyı girin...",
     "#PERCENTAGE_UNIT": "%{0}",
     "#SECOND_UNIT": "{0} s",
     "#MILLISECOND_UNIT": "{0} ms",
@@ -342,6 +367,7 @@
     "#BOOKMARK": "Yer İmlerine Ekle",
     "#BOOKMARKED": "Eklendi",
     "#DELETE": "Sil",
+    "#RESTORE": "Onar",
     "#EDIT": "Düzenle",
     "#CONFIRM": "Onayla",
     "#CANCEL": "İptal",
@@ -357,8 +383,20 @@
     "#DISAGREED": "Katılınmadı",
     "#LOCK": "Kilitle",
     "#UNLOCK": "Kilidini Aç",
+    "#PIN": "Pinle",
+    "#UNPIN": "Pinlerden Çıkar",
+    "#FOLLOW": "Takip Et",
+    "#UNFOLLOW": "Takipten Çıkar",
+    "#SUBSCRIBE": "Abone Ol",
+    "#UNSUBSCRIBE": "Abonelikten Çık",
     "#SHOW": "Göster",
     "#HIDE": "Gizle",
+    "#ALLOW": "İzin Ver",
+    "#DISALLOW": "İzin Verme",
+    "#APPROVE": "Onayla",
+    "#DENY": "Reddet",
+    "#ACCEPT": "Kabul Et",
+    "#REJECT": "Geri Çevir",
     "#STAR": "Yıldızla",
     "#STARRED": "Yıldızlandı"
   },
@@ -368,6 +406,7 @@
     "More": "Daha Fazlası",
     "On": "AÇIK",
     "Off": "KAPALI",
+    "None": "Hiçbiri",
     "Select": "Seç",
     "Reset": "Sıfırla",
     "Edit": "Düzenle",
@@ -423,6 +462,7 @@
       "SelectNone": "Hiçbirini Seçme"
     },
     "ItemFields": {
+      "Selected": "{0} Öge Seçildi",
       "NoSelected": {
         "Post": "Herhangi bir gönderi seçilmedi",
         "Playlist": "Herhangi bir çalma listesi seçilmedi",
@@ -434,6 +474,30 @@
         "Engine": "Herhangi bir motor seçilmedi",
         "Replay": "Herhangi bir tekrar seçilmedi",
         "Room": "Herhangi bir oda seçilmedi"
+      },
+      "NoSource": {
+        "Post": "Bu gönderi, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir gönderiyi kullanın, ya da sorunu bildirmek için gönderi yaratıcısı ile iletişime geçin.",
+        "Playlist": "Bu çalma listesi, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir çalma listesini kullanın, ya da sorunu bildirmek için çalma listesi yaratıcısı ile iletişime geçin. ",
+        "Level": "Bu seviye, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir seviyeyi kullanın, ya da sorunu bildirmek için seviye yaratıcısı ile iletişime geçin. ",
+        "Skin": "Bu doku, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir dokuyu kullanın, ya da sorunu bildirmek için doku yaratıcısı ile iletişime geçin. ",
+        "Background": "Bu arkaplan, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir arkaplanı kullanın, ya da sorunu bildirmek için arkaplan yaratıcısı ile iletişime geçin. ",
+        "Effect": "Bu ses efekti, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir ses efektini kullanın, ya da sorunu bildirmek için ses efekti yaratıcısı ile iletişime geçin. ",
+        "Particle": "Bu partikül, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir partikülü kullanın, ya da sorunu bildirmek için partikül yaratıcısı ile iletişime geçin. ",
+        "Engine": "Bu motor, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir motoru kullanın, ya da sorunu bildirmek için motor yaratıcısı ile iletişime geçin. ",
+        "Replay": "Bu tekrar, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir tekrarı kullanın, ya da sorunu bildirmek için tekrar yaratıcısı ile iletişime geçin.",
+        "Room": "Bu oda, kaynak sunucusu olmadığından seçilemiyor.\n\nLütfen başka bir odayı kullanın, ya da sorunu bildirmek için oda yaratıcısı ile iletişime geçin."
+      },
+      "NoOtherServers": {
+        "Post": "Bu gönderi, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir gönderiyi kullanın.",
+        "Playlist": "Bu çalma listesi, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir çalma listesini kullanın.",
+        "Level": "Bu seviye, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir seviyeyi kullanın.",
+        "Skin": "Bu doku, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir dokuyu kullanın.",
+        "Background": "Bu arkaplan, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir arkaplanı kullanın.",
+        "Effect": "Bu ses efekti, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir ses efektini kullanın.",
+        "Particle": "Bu partikül, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir partikülü kullanın.",
+        "Engine": "Bu motor, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir motoru kullanın.",
+        "Replay": "Bu bu tekrar, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir tekrarı kullanın.",
+        "Room": "Bu oda, farklı bir sunucudan olduğu için seçilemiyor.\n\nLütfen aynı sunucuda bulunan farklı bir odayı kullanın."
       }
     },
     "FileField": {
@@ -558,7 +622,7 @@
       "AuthenticationError": "Sonolus kimlik doğrulamanızın süresi doldu.\n\nLütfen Sonolus hesabınızla oturum açın ve tekrar deneyin.",
       "UserProfile": {
         "Loading": "Kullanıcı profili yükleniyor...",
-        "Error": "\"{0}\" profili yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin."
+        "Error": "\"{0}\" profilini yüklemede başarısız olundu.\n\nLütfen kullanıcı kimliğinin doğru olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin."
       },
       "Login": {
         "Loading": "Oturum açılıyor...",
@@ -574,35 +638,35 @@
       },
       "EditName": {
         "Loading": "İsim düzenleniyor...",
-        "Error": "İsim düzenlenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Error": "İsmi düzenlemede başarısız olundu.\n\nLütfen isminizin yasal ve karakter uzunluğu limitinde olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
         "Success": {
           "Title": "İsim Düzenlendi"
         }
       },
       "EditAvatar": {
         "Loading": "Avatar düzenleniyor...",
-        "Error": "Avatar düzenlenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Error": "Avatar düzenlenmede başarısız olundu.\n\nLütfen avatarınızın yasal olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
         "Success": {
           "Title": "Avatar Düzenlendi"
         }
       },
       "EditAboutMe": {
         "Loading": "Hakkımda düzenleniyor...",
-        "Error": "Hakkımda bölümü düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Error": "Hakkımda bölümü düzenlemede başarısız olundu.\n\nLütfen hakkımda bölümünüzün yasal ve karakter uzunluğu limitinde olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
         "Success": {
           "Title": "Hakkımda Düzenlendi"
         }
       },
       "EditSocialLinks": {
         "Loading": "Sosyal bağlantılar düzenleniyor...",
-        "Error": "Sosyal bağlantıları düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Error": "Sosyal bağlantıları düzenlemede başarısız olundu.\n\nLütfen sosyal bağlantılarınızın yasal ve karakter uzunluğu limitinde olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
         "Success": {
           "Title": "Sosyal Bağlantılar Düzenlendi"
         }
       },
       "EditFavorites": {
         "Loading": "Favoriler düzenleniyor...",
-        "Error": "Favorileri düzenlemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin.",
+        "Error": "Favorileri düzenlemede başarısız olundu.\n\nLütfen favorilerinizin yasal ve karakter uzunluğu limitinde olup olmadığını kontrol edin, ya da internet bağlantınızı kontrol edin ve tekrar deneyin.",
         "Success": {
           "Title": "Favoriler Düzenlendi"
         }
@@ -643,6 +707,9 @@
         "Login": {
           "Loading": "Giriş yapılıyor...",
           "Error": "\"{0}\" hesabıyla oturum açılamadı.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
+        "AutoLogin": {
+          "Description": "Bu sunucuyu ziyaret ettiğinizde otomatik olarak oturum açmak istiyor musunuz?"
         }
       },
       "Multiplayer": {
@@ -685,9 +752,15 @@
           "Loading": "Gönderi detayları yükleniyor...",
           "Error": "\"{0}\" gönderisinin detayları yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz gönderiye gönderiliyor...",
+          "Error": "\"{0}\" gönderi talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Gönderi topluluğu yükleniyor...",
-          "Error": "\"{0}\" gönderi topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Gönderi topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" gönderi topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Gönderi topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini gönderi topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -700,8 +773,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Gönderi liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" gönderi liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Gönderi liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" gönderi liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Gönderi kayıtları yükleniyor...",
@@ -739,9 +814,15 @@
           "Loading": "Çalma listesi detayları yükleniyor...",
           "Error": "\"{0}\" oynatma listesi detayları yüklenemedi.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz çalma listesine gönderiliyor...",
+          "Error": "\"{0}\" çalma listesi talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Çalma listesi topluluğu yükleniyor...",
-          "Error": "\"{0}\" çalma listesi topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Çalma listesi topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" çalma listesi topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Çalma listesi topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini çalma listesi topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -754,8 +835,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Çalma listesi liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" çalma listesi liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Çalma listesi liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" çalma listesi liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Çalma listesi kayıtları yükleniyor...",
@@ -793,9 +876,15 @@
           "Loading": "Seviye detayları yükleniyor...",
           "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz seviyeye gönderiliyor...",
+          "Error": "\"{0}\" seviye talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Seviye topluluğu yükleniyor...",
-          "Error": "\"{0}\" seviye topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Seviye topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" seviye topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Seviye topluluğa gönderiliyor...",
             "Error": "\"{0}\" içeriğini seviye topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -808,8 +897,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Seviye liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" seviye liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Seviye liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" seviye liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Seviye kayıtları yükleniyor...",
@@ -859,9 +950,15 @@
           "Loading": "Doku detayları yükleniyor...",
           "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz dokuya gönderiliyor...",
+          "Error": "\"{0}\" doku talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Doku topluluğu yükleniyor...",
-          "Error": "\"{0}\" doku topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Doku topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" doku topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Doku topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini doku topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -874,8 +971,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Doku liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" doku liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Doku liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" doku liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Doku kayıtları yükleniyor...",
@@ -921,9 +1020,15 @@
           "Loading": "Arkaplan detayları yükleniyor...",
           "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz arkaplana gönderiliyor...",
+          "Error": "\"{0}\" arkaplan talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Arkaplan topluluğu yükleniyor...",
-          "Error": "\"{0}\" arkaplan topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Arkaplan topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" arkaplan topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Arkaplan topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini arkaplan topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -936,8 +1041,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Arkaplan liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" arkaplan liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Arkaplan liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" arkaplan liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Arkaplan kayıtları yükleniyor...",
@@ -987,9 +1094,15 @@
           "Loading": "Ses efekti detayları yükleniyor...",
           "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz ses efektine gönderiliyor...",
+          "Error": "\"{0}\" ses efekti talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Ses efekti topluluğu yükleniyor...",
-          "Error": "\"{0}\" ses efekti topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Ses efekti topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" ses efekti topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Ses efekti topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini ses efekti topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -1002,8 +1115,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Ses efekti liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" ses efekti liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Ses efekti liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" ses efekti liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Ses efekti kayıtları yükleniyor...",
@@ -1049,9 +1164,15 @@
           "Loading": "Partikül detayları yükleniyor...",
           "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz partiküle gönderiliyor...",
+          "Error": "\"{0}\" partikül talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Partikül topluluğu yükleniyor...",
-          "Error": "\"{0}\" partikül topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Partikül topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" partikül topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Partikül topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini partikül topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -1064,8 +1185,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Partikül liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" partikül liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Partikül liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" partikül liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Partikül kayıtları yükleniyor...",
@@ -1111,9 +1234,15 @@
           "Loading": "Motor detayları yükleniyor...",
           "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz motora gönderiliyor...",
+          "Error": "\"{0}\" motor talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Motor topluluğu yükleniyor...",
-          "Error": "\"{0}\" motor topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Motor topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" motor topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Motor topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini motor topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -1126,8 +1255,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Motor liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" motor liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Motor liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" motor liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Motor kayıtları yükleniyor...",
@@ -1189,9 +1320,15 @@
           "Loading": "Kayıt detayları yükleniyor...",
           "Error": "{0}. sayfadaki tekrarları yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz tekrara gönderiliyor...",
+          "Error": "\"{0}\" tekrar talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Tekrar topluluğu yükleniyor...",
-          "Error": "\"{0}\" tekrar topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Tekrar topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" tekrar topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Tekrar topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini tekrar topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -1204,8 +1341,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Tekrar liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" tekrar liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Tekrar liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" tekrar liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Tekrar kayıtları yükleniyor...",
@@ -1247,9 +1386,15 @@
           "Loading": "Oda detayları yükleniyor...",
           "Error": "\"{0}\" oda detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
         },
+        "Submit": {
+          "Loading": "Talebiniz odaya gönderiliyor...",
+          "Error": "\"{0}\" oda talebinizi göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+        },
         "Community": {
-          "Loading": "Oda topluluğu yükleniyor...",
-          "Error": "\"{0}\" oda topluluğunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Info": {
+            "Loading": "Oda topluluğu bilgileri yükleniyor...",
+            "Error": "\"{0}\" oda topluluğu bilgilerini yüklenmede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibiyle iletişime geçin."
+          },
           "Submit": {
             "Loading": "Oda topluluğuna gönderiliyor...",
             "Error": "\"{0}\" içeriğini oda topluluğuna göndermede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edip tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
@@ -1262,8 +1407,10 @@
           }
         },
         "Leaderboard": {
-          "Loading": "Oda liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" oda liderler tablosunu yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin.",
+          "Details": {
+            "Loading": "Oda liderler tablosu detayları yükleniyor...",
+            "Error": "\"{0}\" oda liderler tablosu detaylarını yüklemede başarısız olundu.\n\nLütfen internet bağlantınızı kontrol edin ve tekrar deneyin, ya da sorunu bildirmek için sunucu sahibi ile iletişime geçin."
+          },
           "Record": {
             "List": {
               "Loading": "Oda kayıtları yükleniyor...",
@@ -1309,10 +1456,6 @@
           "Loading": "Gönderilerin bilgileri yükleniyor...",
           "Error": "\"{0}\" gönderilerinin bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Gönderi oluşturuluyor...",
-          "Error": "\"{0}\" içinde gönderi oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Gönderiler yükleniyor...",
           "Error": "{0}. sayfadaki gönderileri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1320,34 +1463,6 @@
         "Details": {
           "Loading": "Gönderi detayları yükleniyor...",
           "Error": "\"{0}\" gönderisinin detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Gönderi topluluğu yükleniyor...",
-          "Error": "\"{0}\" gönderi topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Gönderi topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini gönderi topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Gönderi yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki gönderi yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Gönderi liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" gönderi liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Gönderi kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki gönderi kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Gönderi kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" gönderi kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Gönderi uyumluluğu kontrol ediliyor...",
@@ -1363,10 +1478,6 @@
           "Loading": "Çalma listelerinin bilgileri yükleniyor...",
           "Error": "\"{0}\" çalma listelerinin bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Çalma listesi oluşturuluyor...",
-          "Error": "\"{0}\" içinde çalma listesi oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Çalma listeleri yükleniyor...",
           "Error": "{0}. sayfadaki çalma listelerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1374,34 +1485,6 @@
         "Details": {
           "Loading": "Çalma listesi detayları yükleniyor...",
           "Error": "\"{0}\" çalma listelerinin detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Çalma listesi topluluğu yükleniyor...",
-          "Error": "\"{0}\" çalma listesi topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Çalma listesi topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini çalma listesi topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Çalma listesi yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki çalma listesi yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Çalma listesi liderlik tablosu yükleniyor...",
-          "Error": "\"{0}\" çalma listesi liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Çalma listesi kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki çalma listesi kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Çalma listesi kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" çalma listesi kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Çalma listesi uyumluluğu kontrol ediliyor...",
@@ -1417,10 +1500,6 @@
           "Loading": "Seviyelerin bilgileri yükleniyor...",
           "Error": "\"{0}\" seviyelerinin bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Seviye oluşturuluyor...",
-          "Error": "\"{0}\" içinde seviye oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Seviyeler yükleniyor...",
           "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1428,34 +1507,6 @@
         "Details": {
           "Loading": "Seviye detayları yükleniyor...",
           "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Seviye topluluğu yükleniyor...",
-          "Error": "\"{0}\" seviye topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Seviye topluluğa gönderiliyor...",
-            "Error": "\"{0}\" içeriğini seviye topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Seviye yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki seviye yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Seviye liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" seviye liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Seviye kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki seviye kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Seviye kaydı detayları yükleniyor...",
-              "Error": "\"{0}\" seviye kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Seviye uyumluluğu kontrol ediliyor...",
@@ -1483,10 +1534,6 @@
           "Loading": "Dokuların bilgileri yükleniyor...",
           "Error": "\"{0}\" dokularının bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Doku oluşturuluyor...",
-          "Error": "\"{0}\" içinde doku oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Dokular yükleniyor...",
           "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1494,34 +1541,6 @@
         "Details": {
           "Loading": "Doku detayları yükleniyor...",
           "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Doku topluluğu yükleniyor...",
-          "Error": "\"{0}\" doku topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Doku topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini doku topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Doku yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki doku yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Doku liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" doku liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Doku kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki doku kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Doku kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" doku kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Doku uyumluluğu kontrol ediliyor...",
@@ -1545,10 +1564,6 @@
           "Loading": "Arkaplanların bilgileri yükleniyor...",
           "Error": "\"{0}\" arkaplanlarının bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Arkaplan oluşturuluyor...",
-          "Error": "\"{0}\" içinde arkaplan oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Arkaplanlar yükleniyor...",
           "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1556,34 +1571,6 @@
         "Details": {
           "Loading": "Arkaplan detayları yükleniyor...",
           "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Arkaplan topluluğu yükleniyor...",
-          "Error": "\"{0}\" arkaplan topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Arkaplan topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini arkaplan topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Arkaplan yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki arkaplan yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Arkaplan liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" arkaplan liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Arkaplan kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki arkaplan kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Arkaplan kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" arkaplan kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
@@ -1611,10 +1598,6 @@
           "Loading": "Ses efektleri bilgileri yükleniyor...",
           "Error": "\"{0}\" ses efektlerinin bilgisini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Ses efekti oluşturuluyor...",
-          "Error": "\"{0}\" içinde ses efekti oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Ses efekti yükleniyor...",
           "Error": "{0}. sayfadaki ses efektini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1622,34 +1605,6 @@
         "Details": {
           "Loading": "Ses efekti detayları yükleniyor...",
           "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Ses efekti topluluğu yükleniyor...",
-          "Error": "\"{0}\" ses efekti topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Ses efekti topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini ses efekti topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Ses efekti yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki ses efekti yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Ses efekti liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" ses efekti liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Ses efekti kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki ses efekti kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Ses efekti kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" ses efekti kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
@@ -1673,10 +1628,6 @@
           "Loading": "Partiküllerin bilgileri yükleniyor...",
           "Error": "\"{0}\" partiküllerinin bilgilerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Partikül oluşturuluyor...",
-          "Error": "\"{0}\" içinde partikül oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Partiküller yükleniyor...",
           "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1684,34 +1635,6 @@
         "Details": {
           "Loading": "Partikül detayları yükleniyor...",
           "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Partikül topluluğu yükleniyor...",
-          "Error": "\"{0}\" partikül topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Partikül topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini partikül topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Partikül yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki partikül yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Partikül liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" partikül topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Partikül kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki partikül kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Partikül kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" partikül kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Partikül uyumluluğu kontrol ediliyor...",
@@ -1735,10 +1658,6 @@
           "Loading": "Motorların bilgileri yükleniyor...",
           "Error": "\"{0}\" motorlarının bilgilerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Motor oluşturuluyor...",
-          "Error": "\"{0}\" içinde motor oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Motorlar yükleniyor...",
           "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1746,34 +1665,6 @@
         "Details": {
           "Loading": "Motor detayları yükleniyor...",
           "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Motor topluluğu yükleniyor...",
-          "Error": "\"{0}\" motor topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Motor topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini motor topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Motor yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki motor yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Motor liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" motor liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Motor kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki motor kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Motor kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" motor kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Motor uyumluluğu kontrol ediliyor...",
@@ -1813,10 +1704,6 @@
           "Loading": "Kayıtların bilgileri yükleniyor...",
           "Error": "\"{0}\" kayıtlarının bilgilerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Tekrar oluşturuluyor...",
-          "Error": "\"{0}\" içinde tekrar oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Tekrarlar yükleniyor...",
           "Error": "{0}. sayfadaki tekrarları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1824,34 +1711,6 @@
         "Details": {
           "Loading": "Tekrar detayları yükleniyor...",
           "Error": "\"{0}\" tekrar detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Tekrar topluluğu yükleniyor...",
-          "Error": "\"{0}\" tekrar topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Tekrar topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini tekrar topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Tekrar yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki tekrar yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Tekrar liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" tekrar liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Tekrar kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki tekrar kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Tekrar kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" tekrar kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Tekrar uyumluluğu kontrol ediliyor...",
@@ -1871,10 +1730,6 @@
           "Loading": "Odaların bilgileri yükleniyor...",
           "Error": "\"{0}\" odalarının bilgilerini yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Oda oluşturuluyor...",
-          "Error": "\"{0}\" içinde oda oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Odalar yükleniyor...",
           "Error": "{0}. sayfadaki odaları yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
@@ -1882,34 +1737,6 @@
         "Details": {
           "Loading": "Oda detayları yükleniyor...",
           "Error": "\"{0}\" oda detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Oda topluluğu yükleniyor...",
-          "Error": "\"{0}\" oda topluluğunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Oda topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini oda topluluğuna göndermede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Oda yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki oda yorumlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Oda liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" oda liderler tablosunu yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Oda kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki oda kayıtlarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Oda kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" oda kayıt detaylarını yüklemede başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Oda uyumluluğu kontrol ediliyor...",
@@ -1949,10 +1776,6 @@
           "Loading": "Gönderilerin bilgileri yükleniyor...",
           "Error": "\"{0}\" gönderilerinin bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Gönderi oluşturuluyor...",
-          "Error": "\"{0}\" içinde gönderi oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Gönderiler yükleniyor...",
           "Error": "{0}. sayfadaki gönderileri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -1960,34 +1783,6 @@
         "Details": {
           "Loading": "Gönderi detayları yükleniyor...",
           "Error": "\"{0}\" gönderi detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Gönderi topluluğu yükleniyor...",
-          "Error": "\"{0}\" gönderi topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Gönderi topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini gönderi topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Gönderi yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki gönderi yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Gönderi liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" gönderi liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Gönderi kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki gönderi kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Gönderi kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" gönderi kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Gönderi uyumluluğu kontrol ediliyor...",
@@ -2003,10 +1798,6 @@
           "Loading": "Çalma listelerinin bilgileri yükleniyor...",
           "Error": "\"{0}\" çalma listelerinin bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Çalma listesi oluşturuluyor...",
-          "Error": "\"{0}\" içinde çalma listesi oluşturmasında başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Çalma listeleri yükleniyor...",
           "Error": "{0}. sayfadaki çalma listelerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2014,34 +1805,6 @@
         "Details": {
           "Loading": "Çalma listesi detayları yükleniyor...",
           "Error": "\"{0}\" çalma listesi detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Çalma listesi topluluğu yükleniyor...",
-          "Error": "\"{0}\" çalma listesi topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Çalma listesi topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini çalma listesi topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Çalma listesi yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki çalma listesi yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Çalma listesi liderlik tablosu yükleniyor...",
-          "Error": "\"{0}\" çalma listesi liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Çalma listesi kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki çalma listesi kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Çalma listesi kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" çalma listesi kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Çalma listesi uyumluluğu kontrol ediliyor...",
@@ -2057,10 +1820,6 @@
           "Loading": "Seviyelerin bilgileri yükleniyor...",
           "Error": "\"{0}\" seviyelerinin bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Seviye oluşturuluyor...",
-          "Error": "\"{0}\" içinde seviye oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Seviyeler yükleniyor...",
           "Error": "{0}. sayfadaki seviyeleri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2068,34 +1827,6 @@
         "Details": {
           "Loading": "Seviye detayları yükleniyor...",
           "Error": "\"{0}\" seviye detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Seviye topluluğu yükleniyor...",
-          "Error": "\"{0}\" seviye topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Seviye topluluğa gönderiliyor...",
-            "Error": "\"{0}\" içeriğini seviye topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Seviye yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki seviye yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Seviye liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" seviye liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Seviye kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki seviye kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Seviye kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" seviye kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Seviye uyumluluğu kontrol ediliyor...",
@@ -2123,10 +1854,6 @@
           "Loading": "Dokuların bilgileri yükleniyor...",
           "Error": "\"{0}\" dokularının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Doku oluşturuluyor...",
-          "Error": "\"{0}\" içinde doku oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Dokular yükleniyor...",
           "Error": "{0}. sayfadaki dokuları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2134,34 +1861,6 @@
         "Details": {
           "Loading": "Doku detayları yükleniyor...",
           "Error": "\"{0}\" doku detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Doku topluluğu yükleniyor...",
-          "Error": "\"{0}\" doku topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Doku topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini doku topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Doku yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki doku yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Doku liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" doku liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Doku kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki doku kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Doku kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" doku kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Doku uyumluluğu kontrol ediliyor...",
@@ -2185,10 +1884,6 @@
           "Loading": "Arkaplanların bilgileri yükleniyor...",
           "Error": "\"{0}\" arkaplanlarının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Arkaplan oluşturuluyor...",
-          "Error": "\"{0}\" içinde arkaplan oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Arkaplanlar yükleniyor...",
           "Error": "{0}. sayfadaki arkaplanları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2196,34 +1891,6 @@
         "Details": {
           "Loading": "Arkaplan detayları yükleniyor...",
           "Error": "\"{0}\" arkaplan detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Arkaplan topluluğu yükleniyor...",
-          "Error": "\"{0}\" arkaplan topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Arkaplan topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini arkaplan topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Arkaplan yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki arkaplan yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Arkaplan liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" arkaplan liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Arkaplan kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki arkaplan kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Arkaplan kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" arkaplan kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Arkaplan uyumluluğu kontrol ediliyor...",
@@ -2251,10 +1918,6 @@
           "Loading": "Ses efekti bilgileri yükleniyor...",
           "Error": "\"{0}\" ses efekt bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Ses efekti oluşturuluyor...",
-          "Error": "\"{0}\" içinde ses efekti oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Ses efekti yükleniyor...",
           "Error": "{0}. sayfadaki ses efektlerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2262,34 +1925,6 @@
         "Details": {
           "Loading": "Ses efekti detayları yükleniyor...",
           "Error": "\"{0}\" ses efekti detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Ses efekti topluluğu yükleniyor...",
-          "Error": "\"{0}\" ses efekti topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Ses efekti topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini ses efekti topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Ses efekti yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki ses efekti yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Ses efekti liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" ses efekti liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Ses efekti kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki ses efekti kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Ses efekti kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" ses efekti kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Ses efekti uyumluluğu kontrol ediliyor...",
@@ -2313,10 +1948,6 @@
           "Loading": "Partiküllerin bilgileri yükleniyor...",
           "Error": "\"{0}\" partiküllerin bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Partikül oluşturuluyor...",
-          "Error": "\"{0}\" içinde partikül oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Partiküller yükleniyor...",
           "Error": "{0}. sayfadaki partikülleri yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2324,34 +1955,6 @@
         "Details": {
           "Loading": "Partikül detayları yükleniyor...",
           "Error": "\"{0}\" partikül detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Partikül topluluğu yükleniyor...",
-          "Error": "\"{0}\" partikül topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Partikül topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini partikül topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Partikül yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki partikül yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Partikül liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" partikül liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Partikül kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki partikül kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Partikül kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" partikül kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Partikül uyumluluğu kontrol ediliyor...",
@@ -2375,10 +1978,6 @@
           "Loading": "Motorların bilgileri yükleniyor...",
           "Error": "\"{0}\" motorlarının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Motor oluşturuluyor...",
-          "Error": "\"{0}\" içinde motor oluşturmasında başarısız olundu.\n\nKoleksiyonunuz bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Motorlar yükleniyor...",
           "Error": "{0}. sayfadaki motorları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2386,34 +1985,6 @@
         "Details": {
           "Loading": "Motor detayları yükleniyor...",
           "Error": "\"{0}\" motor detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Motor topluluğu yükleniyor...",
-          "Error": "\"{0}\" motor topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Motor topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini motor topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Motor yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki motor yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Motor liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" motor liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Motor kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki motor kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Motor kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" motor kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Motor uyumluluğu kontrol ediliyor...",
@@ -2453,10 +2024,6 @@
           "Loading": "Tekrarların bilgileri yükleniyor...",
           "Error": "\"{0}\" tekrarlarının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Tekrar oluşturuluyor...",
-          "Error": "\"{0}\" içinde tekrar oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Tekrarlar yükleniyor...",
           "Error": "{0}. sayfadaki tekrarları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2464,34 +2031,6 @@
         "Details": {
           "Loading": "Tekrar detayları yükleniyor...",
           "Error": "\"{0}\" tekrar detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Tekrar topluluğu yükleniyor...",
-          "Error": "\"{0}\" tekrar topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Tekrar topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini tekrar topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Tekrar yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki tekrar yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Tekrar liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" tekrar liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Tekrar kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki tekrar kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Tekrar kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" tekrar kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Tekrar uyumluluğu kontrol ediliyor...",
@@ -2511,10 +2050,6 @@
           "Loading": "Odaların bilgileri yükleniyor...",
           "Error": "\"{0}\" odalarının bilgilerini yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
         },
-        "Create": {
-          "Loading": "Oda oluşturuluyor...",
-          "Error": "\"{0}\" içinde oda oluşturmada başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
         "List": {
           "Loading": "Odalar yükleniyor...",
           "Error": "{0}. sayfadaki odaları yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
@@ -2522,34 +2057,6 @@
         "Details": {
           "Loading": "Oda detayları yükleniyor...",
           "Error": "\"{0}\" oda detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-        },
-        "Community": {
-          "Loading": "Oda topluluğu yükleniyor...",
-          "Error": "\"{0}\" oda topluluğunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Submit": {
-            "Loading": "Oda topluluğuna gönderiliyor...",
-            "Error": "\"{0}\" içeriğini oda topluluğuna göndermede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-          },
-          "Comment": {
-            "List": {
-              "Loading": "Oda yorumları yükleniyor...",
-              "Error": "{0}. sayfadaki oda yorumlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
-        },
-        "Leaderboard": {
-          "Loading": "Oda liderler tablosu yükleniyor...",
-          "Error": "\"{0}\" oda liderler tablosunu yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir.",
-          "Record": {
-            "List": {
-              "Loading": "Oda kayıtları yükleniyor...",
-              "Error": "{0}. sayfadaki oda kayıtlarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            },
-            "Details": {
-              "Loading": "Oda kayıt detayları yükleniyor...",
-              "Error": "\"{0}\" oda kayıt detaylarını yüklemede başarısız olundu.\n\nPaketiniz desteklenmiyor ya da bozulmuş olabilir."
-            }
-          }
         },
         "Compatibility": {
           "Loading": "Oda uyumluluğu kontrol ediliyor...",
@@ -2770,46 +2277,8 @@
         }
       },
       "ToAddFavorite": {
-        "Post": {
-          "Title": "Favori bir Gönderi Ekleyin",
-          "Description": "Favori gönderilerinizi eklemek için bir özel sunucu seçin."
-        },
-        "Playlist": {
-          "Title": "Favori bir Çalma Listesi Ekleyin",
-          "Description": "Favori çalma listelerinizi eklemek için bir özel sunucu seçin."
-        },
-        "Level": {
-          "Title": "Favori bir Seviye Ekleyin",
-          "Description": "Favori seviyelerinizi eklemek için bir özel sunucu seçin."
-        },
-        "Skin": {
-          "Title": "Favori bir Doku Ekleyin",
-          "Description": "Favori dokularınızı eklemek için bir özel sunucu seçin."
-        },
-        "Background": {
-          "Title": "Favori bir Arkaplan Seçin",
-          "Description": "Favori arkaplanlarınızı eklemek için bir özel sunucu seçin."
-        },
-        "Effect": {
-          "Title": "Favori bir Efekt Seçin",
-          "Description": "Favori efektlerinizi eklemek için bir özel sunucu seçin."
-        },
-        "Particle": {
-          "Title": "Favori bir Partikül Seçin",
-          "Description": "Favori partiküllerinizi eklemek için bir özel sunucu seçin."
-        },
-        "Engine": {
-          "Title": "Favori bir Motor Seçin",
-          "Description": "Favori motorlarınızı eklemek için bir özel sunucu seçin."
-        },
-        "Replay": {
-          "Title": "Favori bir Kayıt Ekleyin",
-          "Description": "Favori kayıtlarınızı eklemek için bir özel sunucu seçin."
-        },
-        "Room": {
-          "Title": "Favori bir Oda Ekleyin",
-          "Description": "Favori odalarınızı eklemek için bir özel sunucu seçin."
-        }
+        "Title": "Favorilere Ekle",
+        "Description": "Öğelerini favorilere eklemek için özel bir sunucu seçin."
       }
     },
     "EditCustomServer": {
@@ -3048,7 +2517,7 @@
         }
       },
       "AddFavorite": {
-        "Title": "Favori Ekle",
+        "Title": "Favorilere Ekle",
         "Description": "Eklenecek favori türünü seçin:",
         "Post": "Gönderi",
         "Playlist": "Çalma Listesi",
@@ -3077,6 +2546,7 @@
         "Engine": "Motorlar",
         "Replay": "Tekrarlar",
         "Room": "Odalar",
+        "Configuration": "Yapılandırma",
         "SaveSuccess": {
           "Title": "Sunucu Kaydedildi"
         },
@@ -3088,7 +2558,20 @@
         "Title": "Ara"
       },
       "Forms": {
-        "ValidationError": "Gerekli bilgilerin bir kısmı eksik.\n\nLütfen eksik alanları tamamlayıp tekrar deneyin."
+        "ValidationError": "Gerekli bilgilerin bir kısmı eksik.\n\nLütfen eksik alanları tamamlayıp tekrar deneyin.",
+        "Confirmation": "\"{0}\" talebini göndermek istediğinizden emin misiniz?"
+      },
+      "Configuration": {
+        "Options": {
+          "Title": "Seçenekler",
+          "AutoLogin": {
+            "Title": "Otomatik Giriş",
+            "Description": "Bu sunucuyu ziyaret ettiğinizde otomatik olarak oturum açın."
+          }
+        }
+      },
+      "Upload": {
+        "Title": "Yükle"
       },
       "Infos": {
         "Advanced": "Gelişmiş",
@@ -3757,9 +3240,7 @@
               "Room": "Oda seçiliyor..."
             },
             "Actions": {
-              "Select": "Seç",
-              "NoSource": "Kaynak sunucusu bulunmadığından bu seviye seçilemez.\n\nLütfen farklı bir seviye kullanın ya da sorunu bildirmek için seviye yaratıcısıyla iletişime geçin.",
-              "NoOtherServers": "Bu oda, diğer sunuculardan gelen seviyelere izin vermediğinden bu seviye seçilemez.\n\nLütfen farklı bir seviye kullanın."
+              "Select": "Seç"
             }
           },
           "Preparing": {
@@ -3848,9 +3329,7 @@
           "Actions": {
             "Lock": "Kilitle",
             "Unlock": "Kilidini Aç",
-            "Clear": "Temizle",
-            "NoSource": "Kaynak sunucusu bulunmadığından bu seviye, çoklu oyunculu modda önerilemez.\n\nLütfen farklı bir seviye kullanın ya da sorunu bildirmek için seviye yaratıcısıyla iletişime geçin.",
-            "NoOtherServers": "Oda, diğer sunuculardan gelen seviyelere izin vermediğinden bu seviye önerilemez.\n\nLütfen farklı bir seviye kullanın."
+            "Clear": "Temizle"
           }
         },
         "Scoreboard": {
