@@ -264,6 +264,7 @@
     "#FOLLOWING": "关注",
     "#ANNOUNCEMENT": "公告",
     "#INFORMATION": "信息",
+    "#HELP": "帮助",
     "#MAINTENANCE": "维护",
     "#EVENT": "活动",
     "#UPDATE": "更新",
@@ -284,8 +285,11 @@
     "#OTHER_DIFFICULTIES": "其他难度",
     "#OTHER_GENRES": "其他风格",
     "#OTHER_VERSIONS": "其他版本",
-    "#VERIFYING": "审核中",
-    "#VERIFIED": "已审核",
+    "#DRAFT": "草稿",
+    "#REVIEWING": "审核中",
+    "#PUBLISHED": "已发布",
+    "#VERIFYING": "验证中",
+    "#VERIFIED": "已验证",
     "#REMOVED": "已移除",
     "#PUBLIC": "公开",
     "#PRIVATE": "私有",
@@ -360,6 +364,9 @@
     "#TEAM_CYAN": "青队",
     "#TEAM_WHITE": "白队",
     "#TEAM_BLACK": "黑队",
+    "#UPLOAD": "上传",
+    "#SUBMIT": "提交",
+    "#EDIT": "编辑",
     "#LIKE": "喜欢",
     "#LIKED": "已添加喜欢",
     "#DISLIKE": "不喜欢",
@@ -368,7 +375,6 @@
     "#BOOKMARKED": "已添加书签",
     "#DELETE": "删除",
     "#RESTORE": "恢复",
-    "#EDIT": "编辑",
     "#CONFIRM": "确认",
     "#CANCEL": "取消",
     "#INCREASE": "增加",
@@ -389,6 +395,8 @@
     "#UNFOLLOW": "取消关注",
     "#SUBSCRIBE": "订阅",
     "#UNSUBSCRIBE": "取消订阅",
+    "#PUBLISH": "发布",
+    "#UNPUBLISH": "取消发布",
     "#SHOW": "显示",
     "#HIDE": "隐藏",
     "#ALLOW": "允许",
@@ -403,6 +411,7 @@
   "Common": {
     "Separator": "、",
     "Loading": "正在加载…",
+    "Help": "帮助",
     "More": "更多",
     "On": "开",
     "Off": "关",
@@ -412,6 +421,8 @@
     "Edit": "编辑",
     "View": "查看",
     "Create": "创建",
+    "Upload": "上传",
+    "Submit": "提交",
     "Cancel": "取消",
     "Confirm": "确认",
     "Retry": "重试",
@@ -435,7 +446,6 @@
     "CopySuccess": {
       "Title": "已复制"
     },
-    "Preview": "预览",
     "Judgment": "判定",
     "Accuracy": "准度",
     "Grade": "评级",
@@ -603,6 +613,13 @@
     "Dark": "暗色",
     "Light": "亮色"
   },
+  "Web": {
+    "InternetConnectionError": "无网络连接。\n请检查您的网络连接，以及 Sonolus 的访问互联网权限，然后重试。",
+    "ServerConnectionError": "无法连接至服务器。\n请检查服务器地址是否正确，并检查您的网络连接，然后重试。或联系服务器运营并汇报这个问题。",
+    "ServerHttpError": "服务器响应：{0}",
+    "ServerVersionTooOldError": "此服务器只支持一个旧的 Sonolus 版本 ({0})。\n请等待服务器进行更新，或联系服务器运营汇报这个问题。",
+    "ServerVersionTooNewError": "此服务器只支持版本为 {0} 的 Sonolus。\n\n请更新您的 Sonolus，或联系服务器运营汇报这个问题。"
+  },
   "Clients": {
     "Master": {
       "Info": {
@@ -684,8 +701,6 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "此服务器只支持 Sonolus 版本 {0}。\n\n请更新您的 Sonolus，或联系服务器运营并汇报这个问题。",
-      "SonolusVersionTooOld": "此服务器仅支持版本为 ({0}) 的旧版本 Sonolus。\n\n请等待服务器完成升级，或联系服务器运营并汇报这个问题。",
       "Authentication": {
         "NotLoggedInError": {
           "Description": "您未使用 Sonolus 账户登录。\n\n请先使用您的 Sonolus 帐户登录，然后重试。"
@@ -700,9 +715,6 @@
         },
         "Expired": {
           "Description": "您的会话已过期。\n\n再次以“{0}”身份登录并继续吗？"
-        },
-        "Rejected": {
-          "Description": "您的会话被服务器拒绝。\n\n再次以“{0}”身份登录并继续吗？"
         },
         "Login": {
           "Loading": "登录中...",
@@ -879,6 +891,20 @@
         "Submit": {
           "Loading": "正在提交关卡...",
           "Error": "提交关卡“{0}”失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
+        },
+        "Result": {
+          "Info": {
+            "Loading": "正在加载关卡成绩信息...",
+            "Error": "加载“{0}”的关卡成绩信息失败。"
+          },
+          "NotSupported": {
+            "Title": "提交",
+            "Description": "此服务器不支持提交关卡成绩。"
+          },
+          "Submit": {
+            "Loading": "正在提交关卡成绩...",
+            "Error": "提交关卡成绩至“{0}”失败。"
+          }
         },
         "Community": {
           "Info": {
@@ -2110,7 +2136,8 @@
         "Error": "登录第三方服务“{0}”失败。\n\n请检查您的网络连接并重试，或联系服务器运营并汇报这个问题。"
       },
       "Success": {
-        "Title": "已登录"
+        "Title": "已登录",
+        "Description": "服务器响应信息：{0}"
       }
     },
     "JumpToPage": {
@@ -2303,12 +2330,12 @@
     "EditCollection": {
       "Title": "编辑收藏包"
     },
-    "AddCollection": {
-      "Title": "添加收藏包",
+    "CreateCollection": {
+      "Title": "创建收藏包",
       "Name": {
         "Title": "名称",
-        "Description": "你可以随意为其取名。",
-        "Placeholder": "输入收藏包名称…"
+        "Description": "你可以给它取任何你喜欢的名字。",
+        "Placeholder": "输入收藏包名称..."
       }
     },
     "ImportScp": {
@@ -2547,6 +2574,9 @@
         "Replay": "回放",
         "Room": "房间",
         "Configuration": "设置",
+        "CollectionUpdateConfirmation": {
+          "Description": "部分收藏包里的项目需要在使用前先进行更新。\n\n您想要现在更新吗？"
+        },
         "SaveSuccess": {
           "Title": "服务器已保存"
         },
@@ -2570,69 +2600,96 @@
           }
         }
       },
-      "Upload": {
-        "Title": "上传"
-      },
       "Infos": {
         "Advanced": "高级",
         "Post": {
           "Title": "帖子",
           "Create": {
-            "Title": "创建帖子"
+            "Title": "创建帖子",
+            "Success": {
+              "Title": "帖子已创建"
+            }
           }
         },
         "Playlist": {
           "Title": "游玩列表",
           "Create": {
-            "Title": "创建游玩列表"
+            "Title": "创建游玩列表",
+            "Success": {
+              "Title": "游玩列表已创建"
+            }
           }
         },
         "Level": {
           "Title": "关卡",
           "Create": {
-            "Title": "创建关卡"
+            "Title": "创建关卡",
+            "Success": {
+              "Title": "关卡已创建"
+            }
           }
         },
         "Skin": {
           "Title": "皮肤",
           "Create": {
-            "Title": "创建皮肤"
+            "Title": "创建皮肤",
+            "Success": {
+              "Title": "皮肤已创建"
+            }
           }
         },
         "Background": {
           "Title": "背景",
           "Create": {
-            "Title": "创建背景"
+            "Title": "创建背景",
+            "Success": {
+              "Title": "背景已创建"
+            }
           }
         },
         "Effect": {
           "Title": "音效",
           "Create": {
-            "Title": "创建音效"
+            "Title": "创建音效",
+            "Success": {
+              "Title": "音效已创建"
+            }
           }
         },
         "Particle": {
           "Title": "粒子效果",
           "Create": {
-            "Title": "创建粒子效果"
+            "Title": "创建粒子效果",
+            "Success": {
+              "Title": "粒子效果已创建"
+            }
           }
         },
         "Engine": {
           "Title": "引擎",
           "Create": {
-            "Title": "创建引擎"
+            "Title": "创建引擎",
+            "Success": {
+              "Title": "引擎已创建"
+            }
           }
         },
         "Replay": {
           "Title": "回放",
           "Create": {
-            "Title": "创建回放"
+            "Title": "创建回放",
+            "Success": {
+              "Title": "回放已创建"
+            }
           }
         },
         "Room": {
           "Title": "房间",
           "Create": {
             "Title": "创建房间",
+            "Success": {
+              "Title": "房间已创建"
+            },
             "Description": "正在创建房间“{0}”，您可以通过分享房间链接邀请其他人一起玩。",
             "ShareSuccess": {
               "Title": "房间链接已复制"
@@ -2708,6 +2765,10 @@
       },
       "Details": {
         "Actions": {
+          "Play": "游玩",
+          "Watch": "观看",
+          "Preview": "预览",
+          "Tutorial": "教程",
           "Configuration": "配置"
         },
         "DeleteConfirmation": {
@@ -2733,25 +2794,43 @@
         "Post": {
           "ShareSuccess": {
             "Title": "帖子链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "帖子操作已提交"
           }
         },
         "Playlist": {
-          "Actions": {
-            "Play": "游玩"
-          },
           "ShareSuccess": {
             "Title": "游玩列表链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "游玩列表操作已提交"
+          },
+          "Watch": {
+            "Multiple": {
+              "Description": "在此游玩列表中有多个关卡。\n\n请选择一个进行观看。"
+            }
+          },
+          "Preview": {
+            "Multiple": {
+              "Description": "在此游玩列表中有多个关卡。\n\n请选择一个进行预览。"
+            }
+          },
+          "Tutorial": {
+            "Multiple": {
+              "Description": "在此游玩列表中有多个关卡。\n\n请选择一个进行教学。"
+            }
+          },
+          "Configuration": {
+            "Multiple": {
+              "Description": "在此游玩列表中有多个关卡。\n\n请选择一个进行配置。"
+            }
           },
           "Levels": {
             "Title": "关卡"
           }
         },
         "Level": {
-          "Actions": {
-            "Play": "开始",
-            "Watch": "观看",
-            "Preview": "预览"
-          },
           "Play": {
             "Effect": {
               "Audio": {
@@ -2796,11 +2875,20 @@
           },
           "ShareSuccess": {
             "Title": "关卡链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "关卡操作已提交"
+          },
+          "Engine": {
+            "Title": "引擎"
           }
         },
         "Skin": {
           "ShareSuccess": {
             "Title": "皮肤链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "皮肤操作已提交"
           }
         },
         "Background": {
@@ -2812,6 +2900,9 @@
           },
           "ShareSuccess": {
             "Title": "背景链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "背景操作已提交"
           }
         },
         "Effect": {
@@ -2827,17 +2918,20 @@
           },
           "ShareSuccess": {
             "Title": "音效链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "音效操作已提交"
           }
         },
         "Particle": {
           "ShareSuccess": {
             "Title": "粒子效果链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "粒子效果操作已提交"
           }
         },
         "Engine": {
-          "Actions": {
-            "Tutorial": "教程"
-          },
           "Tutorial": {
             "Effect": {
               "Audio": {
@@ -2852,12 +2946,24 @@
           },
           "ShareSuccess": {
             "Title": "引擎链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "引擎操作已提交"
+          },
+          "Skin": {
+            "Title": "皮肤"
+          },
+          "Background": {
+            "Title": "背景"
+          },
+          "Effect": {
+            "Title": "音效"
+          },
+          "Particle": {
+            "Title": "粒子效果"
           }
         },
         "Replay": {
-          "Actions": {
-            "Watch": "观看"
-          },
           "Watch": {
             "Effect": {
               "Audio": {
@@ -2878,11 +2984,20 @@
           },
           "ShareSuccess": {
             "Title": "回放链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "回放操作已提交"
+          },
+          "Level": {
+            "Title": "关卡"
           }
         },
         "Room": {
           "ShareSuccess": {
             "Title": "房间链接已复制"
+          },
+          "ActionSuccess": {
+            "Title": "房间操作已提交"
           }
         }
       },
@@ -3729,7 +3844,14 @@
                 "HasUsedPause": "由于使用了暂停，因此无法创建回放。",
                 "HasUsedSnapshot": "由于使用了快照，因此无法创建回放。"
               },
-              "Create": "创建"
+              "Submit": {
+                "Confirmation": {
+                  "Description": "你想要提交回放至服务器 \"{0}\" 吗？"
+                },
+                "Success": {
+                  "Title": "关卡成绩已提交"
+                }
+              }
             }
           }
         }
