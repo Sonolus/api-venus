@@ -264,7 +264,6 @@
     "#FOLLOWING": "팔로우 중",
     "#ANNOUNCEMENT": "공지",
     "#INFORMATION": "정보",
-    "#HELP": "도움말",
     "#MAINTENANCE": "점검",
     "#EVENT": "이벤트",
     "#UPDATE": "업데이트",
@@ -285,9 +284,6 @@
     "#OTHER_DIFFICULTIES": "다른 난이도",
     "#OTHER_GENRES": "다른 장르",
     "#OTHER_VERSIONS": "다른 버전",
-    "#DRAFT": "초안",
-    "#REVIEWING": "리뷰 중",
-    "#PUBLISHED": "공개됨",
     "#VERIFYING": "인증 중",
     "#VERIFIED": "인증됨",
     "#REMOVED": "제거됨",
@@ -364,9 +360,6 @@
     "#TEAM_CYAN": "청록 팀",
     "#TEAM_WHITE": "하양 팀",
     "#TEAM_BLACK": "검정 팀",
-    "#UPLOAD": "업로드",
-    "#SUBMIT": "제출",
-    "#EDIT": "편집",
     "#LIKE": "좋아요",
     "#LIKED": "좋아요 표시됨",
     "#DISLIKE": "싫어요",
@@ -375,6 +368,7 @@
     "#BOOKMARKED": "북마크됨",
     "#DELETE": "제거",
     "#RESTORE": "복원",
+    "#EDIT": "편집",
     "#CONFIRM": "확인",
     "#CANCEL": "취소",
     "#INCREASE": "증가",
@@ -395,8 +389,6 @@
     "#UNFOLLOW": "팔로우 해제",
     "#SUBSCRIBE": "구독",
     "#UNSUBSCRIBE": "구독 해제",
-    "#PUBLISH": "공개",
-    "#UNPUBLISH": "비공개",
     "#SHOW": "보이기",
     "#HIDE": "숨기기",
     "#ALLOW": "허용",
@@ -411,7 +403,6 @@
   "Common": {
     "Separator": ", ",
     "Loading": "불러오는 중...",
-    "Help": "도움말",
     "More": "더 보기",
     "On": "켜짐",
     "Off": "꺼짐",
@@ -421,8 +412,6 @@
     "Edit": "편집",
     "View": "보기",
     "Create": "생성",
-    "Upload": "업로드",
-    "Submit": "제출",
     "Cancel": "취소",
     "Confirm": "확인",
     "Retry": "재시도",
@@ -446,6 +435,7 @@
     "CopySuccess": {
       "Title": "복사됨"
     },
+    "Preview": "미리보기",
     "Judgment": "판정",
     "Accuracy": "정확도",
     "Grade": "등급",
@@ -613,13 +603,6 @@
     "Dark": "다크",
     "Light": "라이트"
   },
-  "Web": {
-    "InternetConnectionError": "인터넷 연결이 없습니다.\n인터넷 연결을 확인하거나 Sonolus가 인터넷에 접근할 수 있는 지 확인 후 재시도해 주십시오.",
-    "ServerConnectionError": "서버에 연결할 수 없습니다.\n서버 주소가 올바른지 확인하거나 인터넷 연결을 확인 후 재시도하거나 서버 소유자에게 문의해 주십시오.",
-    "ServerHttpError": "서버 응답: {0}",
-    "ServerVersionTooOldError": "이 서버는 이전 버전의 Sonolus만 지원합니다 ({0}).\n서버가 업데이트될 때까지 기다리거나 서버 소유자에게 문의해 주십시오.",
-    "ServerVersionTooNewError": "이 서버는 {0} 버전의 Sonolus만 지원합니다.\n\nSonolus를 업데이트하거나 서버 소유자에게 문의해 주십시오."
-  },
   "Clients": {
     "Master": {
       "Info": {
@@ -701,6 +684,8 @@
       }
     },
     "CustomServer": {
+      "SonolusVersionError": "Sonolus {0} 버전만 지원하는 서버입니다.\n\nSonolus 앱을 업데이트하거나 서버 소유자에게 문의해 주십시오.",
+      "SonolusVersionTooOld": "이전 버전의 Sonolus만 지원하는 서버입니다 ({0}).\n\n서버가 업데이트 될 때까지 기다리거나 서버 소유자에게 문의해 주십시오.",
       "Authentication": {
         "NotLoggedInError": {
           "Description": "Sonolus 계정으로 로그인되지 않았습니다.\n\n먼저 Sonolus 계정으로 로그인 후 재시도해 주십시오."
@@ -715,6 +700,9 @@
         },
         "Expired": {
           "Description": "세션이 만료되었습니다.\n\n\"{0}\" 계정으로 다시 로그인 후 계속하시겠습니까?"
+        },
+        "Rejected": {
+          "Description": "서버에서 세션을 거부했습니다.\n\n\"{0}\" 계정으로 다시 로그인 후 계속하시겠습니까?"
         },
         "Login": {
           "Loading": "로그인 중...",
@@ -891,20 +879,6 @@
         "Submit": {
           "Loading": "레벨에 제출 중...",
           "Error": "\"{0}\" 레벨에 제출할 수 없습니다.\n\n인터넷 연결을 확인 후 재시도하거나 서버 소유자에게 문의해 주십시오."
-        },
-        "Result": {
-          "Info": {
-            "Loading": "레벨 결과 정보 불러오는 중...",
-            "Error": "\"{0}\"의 레벨 결과 정보를 불러올 수 없습니다."
-          },
-          "NotSupported": {
-            "Title": "제출",
-            "Description": "이 서버는 레벨 결과 제출을 지원하지 않습니다."
-          },
-          "Submit": {
-            "Loading": "레벨 결과 제출 중...",
-            "Error": "\"{0}\"에 레벨 결과를 제출할 수 없습니다."
-          }
         },
         "Community": {
           "Info": {
@@ -2136,8 +2110,7 @@
         "Error": "\"{0}\" 외부 서비스에 로그인할 수 없습니다.\n\n인터넷 연결을 확인 후 재시도하거나 서비스 소유자에게 문의해 주십시오."
       },
       "Success": {
-        "Title": "로그인 됨",
-        "Description": "서버 응답: {0}"
+        "Title": "로그인 됨"
       }
     },
     "JumpToPage": {
@@ -2330,11 +2303,11 @@
     "EditCollection": {
       "Title": "모음집 수정"
     },
-    "CreateCollection": {
-      "Title": "모음집 생성",
+    "AddCollection": {
+      "Title": "모음집 추가",
       "Name": {
         "Title": "이름",
-        "Description": "원하는 이름을 작성할 수 있습니다.",
+        "Description": "원하는 이름을 설정할 수 있습니다.",
         "Placeholder": "모음집 이름 입력..."
       }
     },
@@ -2574,9 +2547,6 @@
         "Replay": "다시보기",
         "Room": "방",
         "Configuration": "구성",
-        "CollectionUpdateConfirmation": {
-          "Description": "모음집의 일부 항목은 사용 전 업데이트해야 합니다.\n\n업데이트하시겠습니까?"
-        },
         "SaveSuccess": {
           "Title": "서버 저장됨"
         },
@@ -2600,96 +2570,69 @@
           }
         }
       },
+      "Upload": {
+        "Title": "업로드"
+      },
       "Infos": {
         "Advanced": "고급",
         "Post": {
           "Title": "게시물",
           "Create": {
-            "Title": "게시물 생성",
-            "Success": {
-              "Title": "게시물 생성됨"
-            }
+            "Title": "게시물 생성"
           }
         },
         "Playlist": {
           "Title": "재생목록",
           "Create": {
-            "Title": "재생목록 생성",
-            "Success": {
-              "Title": "재생목록 생성됨"
-            }
+            "Title": "재생목록 생성"
           }
         },
         "Level": {
           "Title": "레벨",
           "Create": {
-            "Title": "레벨 생성",
-            "Success": {
-              "Title": "레벨 생성됨"
-            }
+            "Title": "레벨 생성"
           }
         },
         "Skin": {
           "Title": "스킨",
           "Create": {
-            "Title": "스킨 생성",
-            "Success": {
-              "Title": "스킨 생성됨"
-            }
+            "Title": "스킨 생성"
           }
         },
         "Background": {
           "Title": "배경",
           "Create": {
-            "Title": "배경 생성",
-            "Success": {
-              "Title": "배경 생성됨"
-            }
+            "Title": "배경 생성"
           }
         },
         "Effect": {
           "Title": "효과음",
           "Create": {
-            "Title": "효과음 생성",
-            "Success": {
-              "Title": "효과음 생성됨"
-            }
+            "Title": "효과음 생성"
           }
         },
         "Particle": {
           "Title": "입자",
           "Create": {
-            "Title": "입자 생성",
-            "Success": {
-              "Title": "입자 생성됨"
-            }
+            "Title": "입자 생성"
           }
         },
         "Engine": {
           "Title": "엔진",
           "Create": {
-            "Title": "엔진 생성",
-            "Success": {
-              "Title": "엔진 생성됨"
-            }
+            "Title": "엔진 생성"
           }
         },
         "Replay": {
           "Title": "다시보기",
           "Create": {
-            "Title": "다시보기 생성",
-            "Success": {
-              "Title": "다시보기 생성됨"
-            }
+            "Title": "다시보기 생성"
           }
         },
         "Room": {
           "Title": "방",
           "Create": {
             "Title": "Create Room",
-            "Success": {
-              "Title": "방 생성됨"
-            },
             "Description": "Creating room \"{0}\", you can invite others to play together by sharing the room link.",
             "ShareSuccess": {
               "Title": "Room Link Copied"
@@ -2765,10 +2708,6 @@
       },
       "Details": {
         "Actions": {
-          "Play": "플레이",
-          "Watch": "시청",
-          "Preview": "미리보기",
-          "Tutorial": "튜토리얼",
           "Configuration": "설정"
         },
         "DeleteConfirmation": {
@@ -2794,43 +2733,25 @@
         "Post": {
           "ShareSuccess": {
             "Title": "게시물 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "게시물 작업 제출됨"
           }
         },
         "Playlist": {
+          "Actions": {
+            "Play": "플레이"
+          },
           "ShareSuccess": {
             "Title": "재생목록 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "재생목록 작업 제출됨"
-          },
-          "Watch": {
-            "Multiple": {
-              "Description": "재생목록에 여러 레벨이 존재합니다.\n\n시청할 레벨을 선택해 주십시오."
-            }
-          },
-          "Preview": {
-            "Multiple": {
-              "Description": "재생목록에 여러 레벨이 존재합니다.\n\n미리 볼 레벨을 선택해 주십시오."
-            }
-          },
-          "Tutorial": {
-            "Multiple": {
-              "Description": "재생목록에 여러 레벨이 존재합니다.\n\n튜토리얼을 볼 레벨을 선택해 주십시오."
-            }
-          },
-          "Configuration": {
-            "Multiple": {
-              "Description": "재생목록에 여러 레벨이 존재합니다.\n\n구성할 레벨을 선택해 주십시오."
-            }
           },
           "Levels": {
             "Title": "레벨"
           }
         },
         "Level": {
+          "Actions": {
+            "Play": "플레이",
+            "Watch": "시청",
+            "Preview": "미리보기"
+          },
           "Play": {
             "Effect": {
               "Audio": {
@@ -2875,20 +2796,11 @@
           },
           "ShareSuccess": {
             "Title": "레벨 링크 복사 됨"
-          },
-          "ActionSuccess": {
-            "Title": "레벨 작업 제출됨"
-          },
-          "Engine": {
-            "Title": "엔진"
           }
         },
         "Skin": {
           "ShareSuccess": {
             "Title": "스킨 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "스킨 작업 제출됨"
           }
         },
         "Background": {
@@ -2900,9 +2812,6 @@
           },
           "ShareSuccess": {
             "Title": "배경 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "배경 작업 제출됨"
           }
         },
         "Effect": {
@@ -2918,20 +2827,17 @@
           },
           "ShareSuccess": {
             "Title": "효과 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "효과 작업 제출됨"
           }
         },
         "Particle": {
           "ShareSuccess": {
             "Title": "입자 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "입자 작업 제출됨"
           }
         },
         "Engine": {
+          "Actions": {
+            "Tutorial": "튜토리얼"
+          },
           "Tutorial": {
             "Effect": {
               "Audio": {
@@ -2946,24 +2852,12 @@
           },
           "ShareSuccess": {
             "Title": "엔진 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "엔진 작업 제출됨"
-          },
-          "Skin": {
-            "Title": "스킨"
-          },
-          "Background": {
-            "Title": "배경"
-          },
-          "Effect": {
-            "Title": "효과음"
-          },
-          "Particle": {
-            "Title": "입자"
           }
         },
         "Replay": {
+          "Actions": {
+            "Watch": "시청"
+          },
           "Watch": {
             "Effect": {
               "Audio": {
@@ -2984,20 +2878,11 @@
           },
           "ShareSuccess": {
             "Title": "다시보기 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "다시보기 작업 제출됨"
-          },
-          "Level": {
-            "Title": "레벨"
           }
         },
         "Room": {
           "ShareSuccess": {
             "Title": "방 링크 복사됨"
-          },
-          "ActionSuccess": {
-            "Title": "방 작업 제출됨"
           }
         }
       },
@@ -3844,14 +3729,7 @@
                 "HasUsedPause": "일시정지가 사용된 게임은 다시보기를 생성할 수 없습니다.",
                 "HasUsedSnapshot": "스냅샷이 사용된 게임은 다시보기를 생성할 수 없습니다."
               },
-              "Submit": {
-                "Confirmation": {
-                  "Description": "\"{0}\" 서버에 다시보기를 제출하시겠습니까?"
-                },
-                "Success": {
-                  "Title": "레벨 결과 제출됨"
-                }
-              }
+              "Create": "생성"
             }
           }
         }
