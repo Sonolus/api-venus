@@ -264,6 +264,7 @@
     "#FOLLOWING": "Following",
     "#ANNOUNCEMENT": "Pengumuman",
     "#INFORMATION": "Informasi",
+    "#HELP": "Bantuan",
     "#MAINTENANCE": "Pemeliharaan",
     "#EVENT": "Event",
     "#UPDATE": "Perbarui",
@@ -284,6 +285,9 @@
     "#OTHER_DIFFICULTIES": "Kesulitan Lain",
     "#OTHER_GENRES": "Genre Lainnya",
     "#OTHER_VERSIONS": "Versi Lain",
+    "#DRAFT": "Draf",
+    "#REVIEWING": "Meninjau",
+    "#PUBLISHED": "Diterbitkan",
     "#VERIFYING": "Memverifikasi",
     "#VERIFIED": "Diverifikasi",
     "#REMOVED": "Dihapus",
@@ -360,6 +364,9 @@
     "#TEAM_CYAN": "Tim Cyan",
     "#TEAM_WHITE": "Tim Putih",
     "#TEAM_BLACK": "Tim Hitam",
+    "#UPLOAD": "Unggah",
+    "#SUBMIT": "Kirim",
+    "#EDIT": "Edit",
     "#LIKE": "Suka",
     "#LIKED": "Disukai",
     "#DISLIKE": "Tidak suka",
@@ -368,7 +375,6 @@
     "#BOOKMARKED": "Ditandai",
     "#DELETE": "Hapus",
     "#RESTORE": "Pulihkan",
-    "#EDIT": "Edit",
     "#CONFIRM": "Konfirmasi",
     "#CANCEL": "Batal",
     "#INCREASE": "Meningkat",
@@ -389,6 +395,8 @@
     "#UNFOLLOW": "Unfollow",
     "#SUBSCRIBE": "Subscribe",
     "#UNSUBSCRIBE": "Unsubscribe",
+    "#PUBLISH": "Terbit",
+    "#UNPUBLISH": "Batal Terbit",
     "#SHOW": "Tampilkan",
     "#HIDE": "Sembunyikan",
     "#ALLOW": "Izinkan",
@@ -403,6 +411,7 @@
   "Common": {
     "Separator": ", ",
     "Loading": "Memuat...",
+    "Help": "Bantuan",
     "More": "Selebihnya",
     "On": "ON",
     "Off": "OFF",
@@ -412,6 +421,8 @@
     "Edit": "Edit",
     "View": "Tampilan",
     "Create": "Buat",
+    "Upload": "Unggah",
+    "Submit": "Kirim",
     "Cancel": "Batal",
     "Confirm": "Konfirmasi",
     "Retry": "Ulang",
@@ -435,7 +446,6 @@
     "CopySuccess": {
       "Title": "Disalin"
     },
-    "Preview": "Pratinjau",
     "Judgment": "Penilaian",
     "Accuracy": "Akurasi",
     "Grade": "Nilai",
@@ -603,6 +613,13 @@
     "Dark": "Gelap",
     "Light": "Terang"
   },
+  "Web": {
+    "InternetConnectionError": "Tidak ada koneksi internet.\nSilakan periksa koneksi internet Anda, izinkan Sonolus ke akses internet dan coba lagi.",
+    "ServerConnectionError": "Tidak bisa konek ke server.\nSilakan periksa apakah alamat server benar, periksa koneks internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya.",
+    "ServerHttpError": "Respon server: {0}",
+    "ServerVersionTooOldError": "Server ini hanya mendukung Sonolus versi lama ({0}).\nSilakan tunggu server diperbarui, atau hubungi pemilik server untuk melaporkan masalahnya.",
+    "ServerVersionTooNewError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilakan perbarui aplikasi Sonolus Anda, atau hubungi pemilik server untuk melaporkan masalahnya."
+  },
   "Clients": {
     "Master": {
       "Info": {
@@ -684,8 +701,6 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "Server ini hanya mendukung Sonolus versi {0}.\n\nSilakan perbarui Sonolus Anda, atau hubungi pemilik server untuk melaporkan masalah tersebut.",
-      "SonolusVersionTooOld": "Server ini hanya mendukung Sonolus versi lama ({0}).\n\nHarap tunggu hingga server diperbarui, atau hubungi pemilik server untuk melaporkan masalah tersebut.",
       "Authentication": {
         "NotLoggedInError": {
           "Description": "Anda belum masuk ke akun Sonolus.\n\nSilakan masuk dengan akun Sonolus Anda terlebih dahulu dan coba lagi."
@@ -701,12 +716,9 @@
         "Expired": {
           "Description": "Sesi Anda telah berakhir.\n\nMasuk sebagai \"{0}\" lagi dan lanjutkan?"
         },
-        "Rejected": {
-          "Description": "Sesi Anda telah ditolak dari server.\n\nMasuk sebagai \"{0}\" lagi dan lanjutkan?"
-        },
         "Login": {
           "Loading": "Sedang masuk...",
-          "Error": "Gagal masuk ke \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal masuk ke \"{0}\"."
         },
         "AutoLogin": {
           "Description": "Apakah Anda ingin otomatis masuk ketika mengunjungi server ini?"
@@ -718,73 +730,73 @@
         },
         "CreateRoom": {
           "Loading": "Membuat ruang...",
-          "Error": "Gagal membuat ruang di \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal membuat ruang di \"{0}\"."
         },
         "JoinRoom": {
           "Loading": "Sedang bergabung ruang...",
-          "Error": "Gagal untuk bergabung ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal bergabung ruang \"{0}\"."
         }
       },
       "Server": {
         "Info": {
           "Loading": "Memuat informasi server...",
-          "Error": "Gagal memuat informasi server \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat informasi server \"{0}\"."
         },
         "Banner": {
           "Loading": "Memuat banner server...",
-          "Error": "Gagal memuat banner server \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat banner server \"{0}\"."
         }
       },
       "Post": {
         "Info": {
           "Loading": "Memuat info post...",
-          "Error": "Gagal memuat info post \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat info post \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat post...",
-          "Error": "Gagal membuat post di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat post di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat post...",
-          "Error": "Gagal memuat post di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat post di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail post...",
-          "Error": "Gagal memuat detail post \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat detail post \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke postingan...",
-          "Error": "Gagal mengirim ke postingan \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik sever untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim post \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas postingan...",
-            "Error": "Gagal memuat info komunitas postingan \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas post \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas post...",
-            "Error": "Gagal mengirim ke komunitas post \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas post \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen post...",
-              "Error": "Gagal memuat komen post di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen post di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat postingan...",
-            "Error": "Gagal memuat detail papan peringkat postingan \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat post \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan post...",
-              "Error": "Gagal memuat catatan post di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan post di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan post...",
-              "Error": "Gagal memuat detail catatan post \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan post \"{0}\"."
             }
           }
         },
@@ -794,59 +806,59 @@
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail post...",
-          "Error": "Gagal memuat thumbnail post \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat thumbnail post \"{0}\"."
         }
       },
       "Playlist": {
         "Info": {
           "Loading": "Memuat info playlist...",
-          "Error": "Gagal memuat info playlist \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat info playlist \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat playlist...",
-          "Error": "Gagal membuat playlist di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat playlist di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat playlist...",
-          "Error": "Gagal memuat playlist di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat playlist di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail playlist...",
-          "Error": "Gagal memuat detail playlist \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat detail playlist \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke playlist...",
-          "Error": "Gagal mengirim ke playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke playlist \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas playlist...",
-            "Error": "Gagal memuat info komunitas playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas playlist \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas playlist...",
-            "Error": "Gagal mengirimkan ke komunitas playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas playlist \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen playlist...",
-              "Error": "Gagal memuat komen playlist di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen playlist di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat playlist...",
-            "Error": "Gagal memuat detail papan peringkat playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat playlist \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan playlist...",
-              "Error": "Gagal memuat catatan playlist di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan playlist di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan playlist...",
-              "Error": "Gagal memuat detail catatan playlist \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan playlist \"{0}\"."
             }
           }
         },
@@ -856,59 +868,73 @@
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail playlist...",
-          "Error": "Gagal memuat thumbnail playlist \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat thumbnail playlist \"{0}\"."
         }
       },
       "Level": {
         "Info": {
           "Loading": "Memuat info level...",
-          "Error": "Gagal memuat info level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat info level \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat level...",
-          "Error": "Gagal membuat level di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat level di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat level...",
-          "Error": "Gagal memuat level di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat level di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail level...",
-          "Error": "Gagal memuat detail level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat detail level \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke level...",
-          "Error": "Gagal mengirim ke level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke level \"{0}\"."
+        },
+        "Result": {
+          "Info": {
+            "Loading": "Memuat info hasil level...",
+            "Error": "Gagal memuat info hasil level \"{0}\"."
+          },
+          "NotSupported": {
+            "Title": "Kirim",
+            "Description": "Server ini tidak mendukung untuk mengirim hasil level."
+          },
+          "Submit": {
+            "Loading": "Mengirim hasil level...",
+            "Error": "Gagal mengirim hasil level \"{0}\"."
+          }
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas level...",
-            "Error": "Gagal memuat info komunitas level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas level \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas level...",
-            "Error": "Gagal mengirim ke komunitas level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas level \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen level...",
-              "Error": "Gagal memuat komen level di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen level di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat level...",
-            "Error": "Gagal memuat detail papan peringkat level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat level \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan level...",
-              "Error": "Gagal memuat catatan level di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan level di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan level...",
-              "Error": "Gagal memuat detail catatan level \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan level \"{0}\"."
             }
           }
         },
@@ -918,71 +944,71 @@
         },
         "Cover": {
           "Loading": "Memuat cover level.",
-          "Error": "Gagal memuat cover level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat cover level \"{0}\"."
         },
         "Bgm": {
           "Loading": "Memuat BGM level...",
-          "Error": "Gagal memuat BGM level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat BGM level \"{0}\"."
         },
         "Preview": {
           "Loading": "Memuat pratinjau level...",
-          "Error": "Gagal memuat pratinjau level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat tinjauan level \"{0}\"."
         },
         "Data": {
           "Loading": "Memuat data level...",
-          "Error": "Gagal memuat data level \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat data level \"{0}\"."
         }
       },
       "Skin": {
         "Info": {
           "Loading": "Memuat info skin...",
-          "Error": "Gagal memuat info skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat info skin \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat skin...",
-          "Error": "Gagal membuat skin di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal membuat skin di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat skin...",
-          "Error": "Gagal memuat skin di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat skin di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail skin...",
-          "Error": "Gagal memuat detail skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat detail skin \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke skin...",
-          "Error": "Gagal mengirim ke skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke skin \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas skin...",
-            "Error": "Gagal memuat info komunitas skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas skin \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas skin...",
-            "Error": "Gagal mengirim ke komunitas skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas skin \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen skin...",
-              "Error": "Gagal memuat komen skin di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen skin di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat skin...",
-            "Error": "Gagal memuat detail papan peringkat skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat skin \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan skin...",
-              "Error": "Gagal memuat catatan skin di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan skin di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan skin...",
-              "Error": "Gagal memuat detail catatan skin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan skin \"{0}\"."
             }
           }
         },
@@ -992,67 +1018,67 @@
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail skin...",
-          "Error": "Gagal memuat thumbnail skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat thumbnail skin \"{0}\"."
         },
         "Data": {
           "Loading": "Memuat data skin...",
-          "Error": "Gagal memuat data skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat data skin \"{0}\"."
         },
         "Texture": {
           "Loading": "Memuat tekstur skin...",
-          "Error": "Gagal memuat tekstur skin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat tekstur skin \"{0}\"."
         }
       },
       "Background": {
         "Info": {
           "Loading": "Memuat info latar...",
-          "Error": "Gagal memuat info latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat info latar \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat latar...",
-          "Error": "Gagal membuat latar di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat latar di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat latar...",
-          "Error": "Gagal memuat latar di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat latar di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail latar...",
-          "Error": "Gagal memuat detail latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat detail latar \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke latar...",
-          "Error": "Gagal mengirim ke latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke latar \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas latar...",
-            "Error": "Gagal memuat info komunitas latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas latar \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas latar...",
-            "Error": "Gagal mengirim ke komunitas latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas latar \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen latar...",
-              "Error": "Gagal memuat komen latar di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen latar di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat latar...",
-            "Error": "Gagal memuat detail papan peringkat latar\"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat latar \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan latar...",
-              "Error": "Gagal memuat catatan latar di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan latar di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan latar...",
-              "Error": "Gagal memuat detail catatan latar \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan latar \"{0}\"."
             }
           }
         },
@@ -1062,71 +1088,71 @@
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail latar...",
-          "Error": "Gagal memuat thumbnail latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat thumbnail latar \"{0}\"."
         },
         "Data": {
           "Loading": "Memuat data latar...",
-          "Error": "Gagal memuat data latar \"{0}\"\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat data latar \"{0}\"."
         },
         "Image": {
           "Loading": "Memuat gambar latar...",
-          "Error": "Gagal memuat gambar latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat gambar latar \"{0}\"."
         },
         "Configuration": {
           "Loading": "Memuat konfigurasi latar...",
-          "Error": "Gagal memuat konfigurasi latar \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat konfigurasi latar \"{0}\"."
         }
       },
       "Effect": {
         "Info": {
           "Loading": "Memuat info SFX...",
-          "Error": "Gagal memuat info SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat info SFX \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat SFX...",
-          "Error": "Gagal membuat SFX di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal membuat SFX di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat SFX...",
-          "Error": "Gagal memuat SFX di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat SFX di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail SFX...",
-          "Error": "Gagal memuat detail SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat detail SFX \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke SFX...",
-          "Error": "Gagal mengirim ke SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke SFX \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas SFX...",
-            "Error": "Gagal memuat komunitas SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas SFX \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas SFX...",
-            "Error": "Gagal mengirim ke komunitas SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas SFX \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen SFX...",
-              "Error": "Gagal memuat komen SFX di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen SFX di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat SFX...",
-            "Error": "Gagal memuat detail papan peringkat SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat SFX \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan SFX...",
-              "Error": "Gagal memuat catatan SFX di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan SFX di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan SFX...",
-              "Error": "Gagal memuat detail catatan SFX \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan SFX \"{0}\"."
             }
           }
         },
@@ -1136,67 +1162,67 @@
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail SFX...",
-          "Error": "Gagal memuat thumbnail SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat thumbnail SFX \"{0}\"."
         },
         "Data": {
           "Loading": "Memuat data SFX...",
-          "Error": "Gagal memuat data SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat data SFX \"{0}\"."
         },
         "Audio": {
           "Loading": "Memuat audio SFX...",
-          "Error": "Gagal memuat audio SFX \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat audio SFX \"{0}\"."
         }
       },
       "Particle": {
         "Info": {
           "Loading": "Memuat info partikel...",
-          "Error": "Gagal memuat info partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat info partikel \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat partikel...",
-          "Error": "Gagal membuat partikel di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal membuat partikel di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat partikel...",
-          "Error": "Gagal memuat partikel di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat partikel di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail partikel...",
-          "Error": "Gagal memuat detail partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat detail partikel \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke partikel...",
-          "Error": "Gagal mengirim ke partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke partikel \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas partikel...",
-            "Error": "Gagal memuat info komunitas partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas partikel \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas partikel...",
-            "Error": "Gagal mengirim ke komunitas partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas partikel \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen partikel...",
-              "Error": "Gagal memuat komen partikel di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen partikel di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat partikel...",
-            "Error": "Gagal memuat detail papan peringkat partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat partikel \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan partikel...",
-              "Error": "Gagal memuat catatan partikel di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan partikel di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan partikel...",
-              "Error": "Gagal memuat detail catatan partikel \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan partikel \"{0}\"."
             }
           }
         },
@@ -1206,67 +1232,67 @@
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail partikel...",
-          "Error": "Gagal memuat thumbnail partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat thumbnail partikel \"{0}\"."
         },
         "Data": {
           "Loading": "Memuat data partikel...",
-          "Error": "Gagal memuat data partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat data partikel \"{0}\"."
         },
         "Texture": {
           "Loading": "Memuat tekstur partikel...",
-          "Error": "Gagal memuat tekstur partikel \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat tekstur partikel \"{0}\"."
         }
       },
       "Engine": {
         "Info": {
           "Loading": "Memuat info mesin...",
-          "Error": "Gagal memuat info mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba kembali, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat info mesin \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat mesin...",
-          "Error": "Gagal membuat mesin di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal membuat mesin di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat mesin...",
-          "Error": "Gagal memuat mesin di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat mesin di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail mesin...",
-          "Error": "Gagal memuat detail mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat detail mesin \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke mesin...",
-          "Error": "Gagal mengirim ke mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke mesin \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas mesin...",
-            "Error": "Gagal memuat info komunitas mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas mesin \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas mesin...",
-            "Error": "Gagal mengirim ke komunitas mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas mesin \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen mesin...",
-              "Error": "Gagal memuat komen mesin {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen mesin di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat mesin...",
-            "Error": "Gagal memuat detail papan peringkat mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat mesin \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan mesin...",
-              "Error": "Gagal memuat catatan mesin di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan mesin di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan mesin...",
-              "Error": "Gagal memuat detail catatan mesin \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan mesin \"{0}\"."
             }
           }
         },
@@ -1276,83 +1302,83 @@
         },
         "Thumbnail": {
           "Loading": "Memuat thumbnail mesin...",
-          "Error": "Gagal memuat thumbnail mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat thumbnail mesin \"{0}\"."
         },
         "PlayData": {
           "Loading": "Memuat mesin data mode play...",
-          "Error": "Gagal memuat mesin data mode play \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat data mode main mesin \"{0}\"."
         },
         "WatchData": {
           "Loading": "Memuat mesin data mode menonton...",
-          "Error": "Gagal memuat pratinjau data mode menonton \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalah tersebut."
+          "Error": "Gagal memuat data mode tonton mesin \"{0}\"."
         },
         "PreviewData": {
           "Loading": "Memuat pratinjau data mode mesin...",
-          "Error": "Gagal memuat pratinjau data mode mesin\"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat data mode pratinjau mesin \"{0}\"."
         },
         "TutorialData": {
           "Loading": "Memuat mesin data mode tutorial...",
-          "Error": "Gagal memuat mesin data mode tutorial \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat data mode tutorial mesin \"{0}\"."
         },
         "Rom": {
           "Loading": "Memuat ROM mesin...",
-          "Error": "Gagal memuat rom mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat rom mesin \"{0}\"."
         },
         "Configuration": {
           "Loading": "Memuat konfigurasi mesin...",
-          "Error": "Gagal memuat konfigurasi mesin \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat konfigurasi mesin \"{0}\"."
         }
       },
       "Replay": {
         "Info": {
           "Loading": "Memuat info replay...",
-          "Error": "Gagal memuat info replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat info replay \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat replay...",
-          "Error": "Gagal membuat replay di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal membuat replay di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat replay...",
-          "Error": "Gagal memuat replay di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat replay di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail replay...",
-          "Error": "Gagal memuat detail replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat detail replay \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke replay...",
-          "Error": "Gagal mengirim ke replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke replay \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas replay...",
-            "Error": "Gagal memuat info komunitas replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas replay \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas replay...",
-            "Error": "Gagal mengirim ke komunitas replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas replay \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen replay...",
-              "Error": "Gagal memuat komen replay di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen replay di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat replay...",
-            "Error": "Gagal memuat detail papan peringkat replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat replay \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan replay...",
-              "Error": "Gagal memuat catatan replay di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan replay di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan replay...",
-              "Error": "Gagal memuat detail catatan replay \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan replay \"{0}\"."
             }
           }
         },
@@ -1362,63 +1388,63 @@
         },
         "Data": {
           "Loading": "Memuat data replay...",
-          "Error": "Gagal memuat data replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat data replay \"{0}\"."
         },
         "Configuration": {
           "Loading": "Memuat konfigurasi replay...",
-          "Error": "Gagal memuat konfigurasi replay \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat konfigurasi replay \"{0}\"."
         }
       },
       "Room": {
         "Info": {
           "Loading": "Memuat info ruang...",
-          "Error": "Gagal memuat info ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat info ruang \"{0}\"."
         },
         "Create": {
           "Loading": "Membuat ruang...",
-          "Error": "Gagal membuat ruang di \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal membuat ruang di \"{0}\"."
         },
         "List": {
           "Loading": "Memuat ruang...",
-          "Error": "Gagal memuat ruang di halaman {0}.\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat ruang di halaman {0}."
         },
         "Details": {
           "Loading": "Memuat detail ruang...",
-          "Error": "Gagal memuat detail ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat detail ruang \"{0}\"."
         },
         "Submit": {
           "Loading": "Mengirimkan ke ruang...",
-          "Error": "Gagal mengirim ke ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal mengirim ke ruang \"{0}\"."
         },
         "Community": {
           "Info": {
             "Loading": "Memuat info komunitas ruang...",
-            "Error": "Gagal memuat info komunitas ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat info komunitas ruang \"{0}\"."
           },
           "Submit": {
             "Loading": "Mengirimkan ke komunitas ruang...",
-            "Error": "Gagal mengirim ke komunitas ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal mengirim ke komunitas ruang \"{0}\"."
           },
           "Comment": {
             "List": {
               "Loading": "Memuat komen ruang...",
-              "Error": "Gagal memuat komen ruang di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat komen ruang di halaman {0}."
             }
           }
         },
         "Leaderboard": {
           "Details": {
             "Loading": "Memuat detail papan peringkat ruang...",
-            "Error": "Gagal memuat detail papan peringkat ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+            "Error": "Gagal memuat detail papan peringkat ruang \"{0}\"."
           },
           "Record": {
             "List": {
               "Loading": "Memuat catatan ruang...",
-              "Error": "Gagal memuat catatan ruang di halaman {0}.\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat catatan ruang di halaman {0}."
             },
             "Details": {
               "Loading": "Memuat detail catatan ruang...",
-              "Error": "Gagal memuat detail catatan ruang \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+              "Error": "Gagal memuat detail catatan ruang \"{0}\"."
             }
           }
         },
@@ -1428,15 +1454,15 @@
         },
         "Cover": {
           "Loading": "Memuat cover level ruang...",
-          "Error": "Gagal memuat cover level ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat cover level ruang \"{0}\"."
         },
         "Bgm": {
           "Loading": "Memuat BGM level ruang...",
-          "Error": "Gagal memuat BGM level ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat BGM level ruang \"{0}\"."
         },
         "Preview": {
           "Loading": "Memuat pratinjau level ruang...",
-          "Error": "Gagal memuat pratinjau level ruang \"{0}\".\n\nSilakan cek koneksi internet Anda dan coba lagi, atau hubungi pemilik server untuk melaporkan masalahnya."
+          "Error": "Gagal memuat pratinjau level ruang \"{0}\"."
         }
       }
     },
@@ -2107,10 +2133,11 @@
       },
       "Login": {
         "Loading": "Sedang masuk...",
-        "Error": "Gagal untuk masuk ke layanan eksternal \"{0}\".\n\nSilakan periksa koneksi internet Anda dan coba lagi, atau hubungi pemilik layanan untuk melaporkan masalahnya."
+        "Error": "Gagal masuk ke layanan eksternal \"{0}\"."
       },
       "Success": {
-        "Title": "Masuk"
+        "Title": "Masuk",
+        "Description": "Respon server: {0}"
       }
     },
     "JumpToPage": {
@@ -2303,11 +2330,11 @@
     "EditCollection": {
       "Title": "Edit Koleksi"
     },
-    "AddCollection": {
-      "Title": "Tambah Koleksi",
+    "CreateCollection": {
+      "Title": "Buat Koleksi",
       "Name": {
-        "Title": "Nama Koleksi",
-        "Description": "Anda dapat menamainya sesuka Anda.",
+        "Title": "Nama",
+        "Description": "Anda dapat menamainya sesuka Anda",
         "Placeholder": "Masukkan nama koleksi..."
       }
     },
@@ -2547,6 +2574,9 @@
         "Replay": "Replay",
         "Room": "Ruang",
         "Configuration": "Konfigurasi",
+        "CollectionUpdateConfirmation": {
+          "Description": "Beberapa item di koleksi butuh pembaruan terlebih dahulu sebelum digunakan.\n\nApakah Anda ingin memperbarui sekarang?"
+        },
         "SaveSuccess": {
           "Title": "Server Disimpan"
         },
@@ -2570,69 +2600,96 @@
           }
         }
       },
-      "Upload": {
-        "Title": "Upload"
-      },
       "Infos": {
         "Advanced": "Lebih Lanjut",
         "Post": {
           "Title": "Post",
           "Create": {
-            "Title": "Membuat Post"
+            "Title": "Membuat Post",
+            "Success": {
+              "Title": "Post Dibuat"
+            }
           }
         },
         "Playlist": {
           "Title": "Playlist",
           "Create": {
-            "Title": "Membuat Playlist"
+            "Title": "Membuat Playlist",
+            "Success": {
+              "Title": "Playlist Dibuat"
+            }
           }
         },
         "Level": {
           "Title": "Level",
           "Create": {
-            "Title": "Membuat Level"
+            "Title": "Membuat Level",
+            "Success": {
+              "Title": "Level Dibuat"
+            }
           }
         },
         "Skin": {
           "Title": "Skin",
           "Create": {
-            "Title": "Membuat Skin"
+            "Title": "Membuat Skin",
+            "Success": {
+              "Title": "Skin Dibuat"
+            }
           }
         },
         "Background": {
           "Title": "Latar",
           "Create": {
-            "Title": "Membuat Latar"
+            "Title": "Membuat Latar",
+            "Success": {
+              "Title": "Latar Dibuat"
+            }
           }
         },
         "Effect": {
           "Title": "SFX",
           "Create": {
-            "Title": "Membuat SFX"
+            "Title": "Membuat SFX",
+            "Success": {
+              "Title": "SFX Dibuat"
+            }
           }
         },
         "Particle": {
           "Title": "Partikel",
           "Create": {
-            "Title": "Membuat Partikel"
+            "Title": "Membuat Partikel",
+            "Success": {
+              "Title": "Partikel Dibuat"
+            }
           }
         },
         "Engine": {
           "Title": "Mesin",
           "Create": {
-            "Title": "Membuat Mesin"
+            "Title": "Membuat Mesin",
+            "Success": {
+              "Title": "Mesin Dibuat"
+            }
           }
         },
         "Replay": {
           "Title": "Replay",
           "Create": {
-            "Title": "Membuat Replay"
+            "Title": "Membuat Replay",
+            "Success": {
+              "Title": "Replay Dibuat"
+            }
           }
         },
         "Room": {
           "Title": "Ruang",
           "Create": {
             "Title": "Membuat Ruang",
+            "Success": {
+              "Title": "Ruang Dibuat"
+            },
             "Description": "Membuat ruang \"{0}\", Anda bisa mengundang yang lain untuk bermain bersama dengan memberikan link ruang.",
             "ShareSuccess": {
               "Title": "Link Ruang Disalin"
@@ -2708,6 +2765,10 @@
       },
       "Details": {
         "Actions": {
+          "Play": "Main",
+          "Watch": "Tonton",
+          "Preview": "Pratinjau",
+          "Tutorial": "Tutorial",
           "Configuration": "Konfigurasi"
         },
         "DeleteConfirmation": {
@@ -2733,25 +2794,43 @@
         "Post": {
           "ShareSuccess": {
             "Title": "Link Post Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Post Dikirim"
           }
         },
         "Playlist": {
-          "Actions": {
-            "Play": "Main"
-          },
           "ShareSuccess": {
             "Title": "Link Playlist Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Playlist Dikirim"
+          },
+          "Watch": {
+            "Multiple": {
+              "Description": "Ada beberapa level dalam playlist ini.\n\nSilakan pilih level untuk menggunakan tonton."
+            }
+          },
+          "Preview": {
+            "Multiple": {
+              "Description": "Ada beberapa level dalam playlist ini.\n\nSilakan pilih level untuk menggunakan pratinjau."
+            }
+          },
+          "Tutorial": {
+            "Multiple": {
+              "Description": "Ada beberapa level dalam playlist ini.\n\nSilakan pilih level untuk menggunakan tutorial."
+            }
+          },
+          "Configuration": {
+            "Multiple": {
+              "Description": "Ada beberapa level dalam playlist ini.\n\nSilakan pilih level untuk menggunakan konfigurasi."
+            }
           },
           "Levels": {
             "Title": "Level"
           }
         },
         "Level": {
-          "Actions": {
-            "Play": "Main",
-            "Watch": "Tonton",
-            "Preview": "Pratinjau"
-          },
           "Play": {
             "Effect": {
               "Audio": {
@@ -2796,11 +2875,20 @@
           },
           "ShareSuccess": {
             "Title": "Link Level Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Level Dikirim"
+          },
+          "Engine": {
+            "Title": "Mesin"
           }
         },
         "Skin": {
           "ShareSuccess": {
             "Title": "Link Skin Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Skin Dikirim"
           }
         },
         "Background": {
@@ -2812,6 +2900,9 @@
           },
           "ShareSuccess": {
             "Title": "Link Latar Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Latar Dikirim"
           }
         },
         "Effect": {
@@ -2827,17 +2918,20 @@
           },
           "ShareSuccess": {
             "Title": "Link Efek Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Efek Dikirim"
           }
         },
         "Particle": {
           "ShareSuccess": {
             "Title": "Link Partikel Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Partikel Dikirim "
           }
         },
         "Engine": {
-          "Actions": {
-            "Tutorial": "Tutorial"
-          },
           "Tutorial": {
             "Effect": {
               "Audio": {
@@ -2852,12 +2946,24 @@
           },
           "ShareSuccess": {
             "Title": "Link Mesin Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Mesin Dikirim"
+          },
+          "Skin": {
+            "Title": "Skin"
+          },
+          "Background": {
+            "Title": "Latar"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Partikel"
           }
         },
         "Replay": {
-          "Actions": {
-            "Watch": "Lihat"
-          },
           "Watch": {
             "Effect": {
               "Audio": {
@@ -2878,11 +2984,20 @@
           },
           "ShareSuccess": {
             "Title": "Link Replay Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Replay Dikirim"
+          },
+          "Level": {
+            "Title": "Level"
           }
         },
         "Room": {
           "ShareSuccess": {
             "Title": "Link Ruang Disalin"
+          },
+          "ActionSuccess": {
+            "Title": "Aksi Ruang Dikirim"
           }
         }
       },
@@ -3729,7 +3844,14 @@
                 "HasUsedPause": "Replay tidak bisa dibuat karena menggunakan jeda.",
                 "HasUsedSnapshot": "Replay tidak bisa dibuat karena menggunakan snapshot."
               },
-              "Create": "Buat"
+              "Submit": {
+                "Confirmation": {
+                  "Description": "Apakah Anda ingin mengirim replay ke server \"{0}\"?"
+                },
+                "Success": {
+                  "Title": "Hasil Level Dikirim"
+                }
+              }
             }
           }
         }
