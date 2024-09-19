@@ -827,6 +827,7 @@
           "Error": "No se pudieron cargar los detalles de la lista de reproducción de \"{0}\"."
         },
         "Submit": {
+          "Loading": "Enviando a la lista de reproducción...",
           "Error": "No se pudo enviar a la lista de reproducción \"{0}\"."
         },
         "Community": {
