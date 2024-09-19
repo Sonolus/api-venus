@@ -4,9 +4,19 @@
     "Title": "Español (Spanish)"
   },
   "Texts": {
+    "#POST": "Publicación",
+    "#PLAYLIST": "Lista de reproducción",
+    "#LEVEL": "Nivel",
+    "#SKIN": "Skin",
+    "#BACKGROUND": "Fondo",
+    "#EFFECT": "Efectos de sonido",
+    "#PARTICLE": "Partícula",
+    "#ENGINE": "Motor",
+    "#REPLAY": "Repetición",
+    "#ROOM": "Sala",
     "#GRADE": "Calificación",
     "#ARCADE_SCORE": "Puntuación de arcade",
-    "#ACCURACY_SCORE": "Puntuación de precisión",
+    "#ACCURACY_SCORE": "Precisión",
     "#COMBO": "Combo",
     "#PERFECT": "Perfect",
     "#GREAT": "Great",
@@ -20,24 +30,34 @@
     "#TITLE": "Título",
     "#SUBTITLE": "Subtítulo",
     "#ARTISTS": "Artistas",
+    "#TIME": "Tiempo",
     "#AUTHOR": "Autor(a)",
     "#GENRE": "Género",
     "#TYPE": "Tipo",
     "#CATEGORY": "Categoría",
     "#LANGUAGE": "Idioma",
     "#DIFFICULTY": "Dificultad",
-    "#VERSIONS": "Versión",
+    "#VERSION": "Versión",
     "#LENGTH": "Duración",
     "#LENGTH_MINIMUM": "Duración mínima",
     "#LENGTH_MAXIMUM": "Duración máxima",
     "#ADDITIONAL_INFORMATION": "Información adicional",
+    "#TIMEZONE": "Zona horaria",
+    "#REGION": "Región",
+    "#CONTENT": "Contenido",
+    "#COMMENT": "Comentar",
+    "#REVIEW": "Reseñar",
+    "#REPLY": "Responder",
+    "#MESSAGE": "Mensaje",
+    "#ROLE": "Rol",
+    "#PERMISSION": "Permiso",
+    "#USER": "Usuario",
     "#SPEED": "Velocidad del nivel",
     "#MIRROR": "Espejo",
     "#RANDOM": "Aleatorio",
     "#HIDDEN": "Hidden",
     "#JUDGMENT_STRICT": "Juicio estricto",
     "#JUDGMENT_LOOSE": "Juicio flexible",
-    "#EFFECT": "Efectos de sonido",
     "#EFFECT_AUTO": "Efectos de sonido en automático",
     "#STAGE": "Escenario",
     "#STAGE_POSITION": "Posición del escenario",
@@ -103,6 +123,7 @@
     "#NOTE_SIZE": "Tamaño de la nota",
     "#NOTE_ROTATION": "Rotación de la nota",
     "#NOTE_DIRECTION": "Dirección de la nota",
+    "#NOTE_COLOR": "Color de la nota",
     "#NOTE_ALPHA": "Transparencia de la nota",
     "#NOTE_ANIMATION": "Animación de la nota",
     "#NOTE_EFFECT": "Efecto de la nota",
@@ -110,12 +131,14 @@
     "#NOTE_EFFECT_SIZE": "Tamaño del efecto de la nota",
     "#NOTE_EFFECT_ROTATION": "Rotación del efecto de la nota",
     "#NOTE_EFFECT_DIRECTION": "Dirección del efecto de la nota",
+    "#NOTE_EFFECT_COLOR": "Color del efecto de la nota",
     "#NOTE_EFFECT_ALPHA": "Transparencia del efecto de la nota",
     "#MARKER": "Marcador",
     "#MARKER_POSITION": "Posición del marcador",
     "#MARKER_SIZE": "Tamaño del marcador",
     "#MARKER_ROTATION": "Rotación del marcador",
     "#MARKER_DIRECTION": "Dirección del marcador",
+    "#MARKER_COLOR": "Color del marcador",
     "#MARKER_ALPHA": "Transparencia del marcador",
     "#MARKER_ANIMATION": "Animación del marcador",
     "#CONNECTOR": "Conector",
@@ -123,6 +146,7 @@
     "#CONNECTOR_SIZE": "Tamaño del conector",
     "#CONNECTOR_ROTATION": "Rotación del conector",
     "#CONNECTOR_DIRECTION": "Dirección del conector",
+    "#CONNECTOR_COLOR": "Color del conector",
     "#CONNECTOR_ALPHA": "Transparencia del conector",
     "#CONNECTOR_ANIMATION": "Animación del conector",
     "#SIMLINE": "Línea simultánea",
@@ -130,6 +154,7 @@
     "#SIMLINE_SIZE": "Tamaño de línea simultánea",
     "#SIMLINE_ROTATION": "Rotación de línea simultánea",
     "#SIMLINE_DIRECTION": "Dirección de línea simultánea",
+    "#SIMLINE_COLOR": "Color de la línea simultánea",
     "#SIMLINE_ALPHA": "Transparencia de línea simultánea",
     "#SIMLINE_ANIMATION": "Animación de línea simultánea",
     "#NONE": "Ninguno",
@@ -165,6 +190,14 @@
     "#COUNTERCLOCKWISE": "En sentido anti-horario",
     "#FORWARD": "Hacia adelante",
     "#BACKWARD": "Hacia atrás",
+    "#DEFAULT": "Por defecto",
+    "#NEUTRAL": "Neutral",
+    "#RED": "Rojo",
+    "#GREEN": "Verde",
+    "#BLUE": "Azul",
+    "#YELLOW": "Amarillo",
+    "#PURPLE": "Morado",
+    "#CYAN": "Cian",
     "#SIMPLE": "Simple",
     "#EASY": "Fácil",
     "#NORMAL": "Normal",
@@ -182,8 +215,10 @@
     "#TITLE_PLACEHOLDER": "Introduzca el título...",
     "#SUBTITLE_PLACEHOLDER": "Introduzca el subtítulo...",
     "#ARTISTS_PLACEHOLDER": "Introduzca los artistas...",
+    "#TIME_PLACEHOLDER": "Introduzca la hora...",
     "#AUTHOR_PLACEHOLDER": "Introduzca el autor...",
     "#GENRE_PLACEHOLDER": "Introduzca el género...",
+    "#TYPE_PLACEHOLDER": "Introduzca el tipo...",
     "#CATEGORY_PLACEHOLDER": "Introduzca la categoría...",
     "#LANGUAGE_PLACEHOLDER": "Introduzca el idioma...",
     "#DIFFICULTY_PLACEHOLDER": "Introduzca la dificultad...",
@@ -191,6 +226,16 @@
     "#LENGTH_MINIMUM_PLACEHOLDER": "Introduzca la duración mínima...",
     "#LENGTH_MAXIMUM_PLACEHOLDER": "Introduzca la duración máxima...",
     "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Introduzca información adicional...",
+    "#TIMEZONE_PLACEHOLDER": "Introduzca la zona horaria...",
+    "#REGION_PLACEHOLDER": "Introduzca la región...",
+    "#CONTENT_PLACEHOLDER": "Escribir contenido...",
+    "#COMMENT_PLACEHOLDER": "Escribir comentario...",
+    "#REVIEW_PLACEHOLDER": "Escribir reseña...",
+    "#REPLY_PLACEHOLDER": "Escribir respuesta...",
+    "#MESSAGE_PLACEHOLDER": "Introduzca el mensaje...",
+    "#ROLE_PLACEHOLDER": "Introduzca el rol...",
+    "#PERMISSION_PLACEHOLDER": "Introduzca el permiso...",
+    "#USER_PLACEHOLDER": "Introduzca el usuario...",
     "#PERCENTAGE_UNIT": "{0}%",
     "#SECOND_UNIT": "{0} s",
     "#MILLISECOND_UNIT": "{0} ms",
@@ -219,6 +264,7 @@
     "#FOLLOWING": "Siguiendo",
     "#ANNOUNCEMENT": "Anuncio",
     "#INFORMATION": "Información",
+    "#HELP": "Ayuda",
     "#MAINTENANCE": "Mantenimiento",
     "#EVENT": "Evento",
     "#UPDATE": "Actualizar",
@@ -239,6 +285,9 @@
     "#OTHER_DIFFICULTIES": "Otras dificultades",
     "#OTHER_GENRES": "Otros géneros",
     "#OTHER_VERSIONS": "Otras versiones",
+    "#DRAFT": "Borrador",
+    "#REVIEWING": "En revisión",
+    "#PUBLISHED": "Publicado",
     "#VERIFYING": "En verificación",
     "#VERIFIED": "Verificado",
     "#REMOVED": "Removido",
@@ -314,17 +363,66 @@
     "#TEAM_PURPLE": "Equipo Morado",
     "#TEAM_CYAN": "Equipo Cian",
     "#TEAM_WHITE": "Equipo Blanco",
-    "#TEAM_BLACK": "Equipo Negro"
+    "#TEAM_BLACK": "Equipo Negro",
+    "#UPLOAD": "Subir",
+    "#SUBMIT": "Enviar",
+    "#EDIT": "Editar",
+    "#LIKE": "Me gusta",
+    "#LIKED": "Te gusta",
+    "#DISLIKE": "No me gusta",
+    "#DISLIKED": "No te gusta",
+    "#BOOKMARK": "Marcador",
+    "#BOOKMARKED": "Marcado",
+    "#DELETE": "Borrar",
+    "#RESTORE": "Restaurar",
+    "#CONFIRM": "Confirmar",
+    "#CANCEL": "Cancelar",
+    "#INCREASE": "Aumentar",
+    "#DECREASE": "Disminuir",
+    "#UPVOTE": "Votar a favor",
+    "#UPVOTED": "Votado a favor",
+    "#DOWNVOTE": "Votar en contra",
+    "#DOWNVOTED": "Votado en contra",
+    "#AGREE": "De acuerdo",
+    "#AGREED": "Acordado",
+    "#DISAGREE": "Desacuerdo",
+    "#DISAGREED": "En desacuerdo",
+    "#LOCK": "Bloquear",
+    "#UNLOCK": "Desbloquear",
+    "#PIN": "Anclar",
+    "#UNPIN": "Desanclar",
+    "#FOLLOW": "Seguir",
+    "#UNFOLLOW": "Dejar de seguir",
+    "#SUBSCRIBE": "Suscribirse",
+    "#UNSUBSCRIBE": "Desuscribirse",
+    "#PUBLISH": "Publicar",
+    "#UNPUBLISH": "Anular publicación",
+    "#SHOW": "Mostrar",
+    "#HIDE": "Ocultar",
+    "#ALLOW": "Permitir",
+    "#DISALLOW": "Prohibir",
+    "#APPROVE": "Aprobar",
+    "#DENY": "Denegar",
+    "#ACCEPT": "Aceptar",
+    "#REJECT": "Rechazar",
+    "#STAR": "Marcar como favorito",
+    "#STARRED": "Favorito"
   },
   "Common": {
     "Separator": ", ",
     "Loading": "Cargando...",
+    "Help": "Ayuda",
+    "More": "Más",
     "On": "ON",
     "Off": "OFF",
+    "None": "Ninguno",
     "Select": "Seleccionar",
     "Reset": "Reiniciar",
     "Edit": "Editar",
     "View": "Ver",
+    "Create": "Crear",
+    "Upload": "Subir",
+    "Submit": "Enviar",
     "Cancel": "Cancelar",
     "Confirm": "Confirmar",
     "Retry": "Reintentar",
@@ -348,7 +446,6 @@
     "CopySuccess": {
       "Title": "Copiado"
     },
-    "Preview": "Vista previa",
     "Judgment": "Juicio",
     "Accuracy": "Precisión",
     "Grade": "Calificación",
@@ -374,6 +471,48 @@
       "SelectAll": "Seleccionar todo",
       "SelectNone": "Seleccionar ninguno"
     },
+    "ItemFields": {
+      "Selected": "{0} seleccionados",
+      "NoSelected": {
+        "Post": "No se ha seleccionado ninguna publicación",
+        "Playlist": "No se ha seleccionado ninguna lista de reproducción",
+        "Level": "No se ha seleccionado ningún nivel",
+        "Skin": "No se ha seleccionado ninguna skin",
+        "Background": "No se ha seleccionado ningún fondo",
+        "Effect": "No se ha seleccionado ningún efecto de sonido",
+        "Particle": "No se ha seleccionado ninguna partícula",
+        "Engine": "No se ha seleccionado ningún motor",
+        "Replay": "No se ha seleccionado ninguna repetición",
+        "Room": "No se ha seleccionado ninguna sala"
+      },
+      "NoSource": {
+        "Post": "No se puede seleccionar esta publicación porque no tiene un servidor de origen.\n\nUtilice una publicación diferente o comuníquese con el autor de la publicación para reportar el problema.",
+        "Playlist": "No se puede seleccionar esta lista de reproducción porque no tiene un servidor de origen.\n\nUtilice una lista de reproducción diferente o comuníquese con el autor de la lista de reproducción para reportar el problema.",
+        "Level": "No se puede seleccionar este nivel porque no tiene un servidor de origen.\n\nUtilice un nivel diferente o comuníquese con el autor del nivel para reportar el problema.",
+        "Skin": "No se puede seleccionar esta máscara porque no tiene un servidor de origen.\n\nUtilice una máscara diferente o comuníquese con el autor de la máscara para reportar el problema.",
+        "Background": "No se puede seleccionar este fondo porque no tiene un servidor de origen.\n\nUtilice un fondo diferente o comuníquese con el autor del fondo para reportar el problema.",
+        "Effect": "No se puede seleccionar este efecto de sonido porque no tiene un servidor de origen.\n\nUtilice un efecto de sonido diferente o comuníquese con el autor del efecto de sonido para reportar el problema.",
+        "Particle": "No se puede seleccionar esta partícula porque no tiene un servidor de origen.\n\nUtilice una partícula diferente o comuníquese con el autor de la partícula para reportar el problema.",
+        "Engine": "No se puede seleccionar este motor porque no tiene un servidor de origen.\n\nUtilice un motor diferente o comuníquese con el autor del motor para reportar el problema.",
+        "Replay": "No se puede seleccionar esta repetición porque no tiene un servidor de origen.\n\nUtilice una repetición diferente o comuníquese con el autor de la repetición para reportar el problema.",
+        "Room": "No se puede seleccionar esta sala porque no tiene un servidor de origen.\n\nUtilice una sala diferente o comuníquese con el autor de la sala para reportar el problema."
+      },
+      "NoOtherServers": {
+        "Post": "No se puede seleccionar esta publicación porque es de un servidor diferente.\n\nUtilice una publicación diferente del mismo servidor.",
+        "Playlist": "No se puede seleccionar esta lista de reproducción porque pertenece a un servidor diferente.\n\nUtilice una lista de reproducción diferente del mismo servidor.",
+        "Level": "No se puede seleccionar este nivel porque es de un servidor diferente.\n\nUtilice un nivel diferente del mismo servidor.",
+        "Skin": "No se puede seleccionar esta skin porque es de un servidor diferente.\n\nUtilice una skin diferente del mismo servidor.",
+        "Background": "No se puede seleccionar este fondo porque es de un servidor diferente.\n\nUtilice un fondo diferente del mismo servidor.",
+        "Effect": "No se puede seleccionar este efecto de sonido porque proviene de un servidor diferente.\n\nUtilice un efecto de sonido diferente del mismo servidor.",
+        "Particle": "No se puede seleccionar esta partícula porque proviene de un servidor diferente.\n\nUtilice una partícula diferente del mismo servidor.",
+        "Engine": "No se puede seleccionar este motor porque pertenece a un servidor diferente.\n\nUtilice un motor diferente del mismo servidor.",
+        "Replay": "No se puede seleccionar esta repetición porque es de un servidor diferente.\n\nUtilice una repetición diferente del mismo servidor.",
+        "Room": "No se puede seleccionar esta sala porque pertenece a un servidor diferente.\n\nUtilice una sala diferente del mismo servidor."
+      }
+    },
+    "FileField": {
+      "NoSelected": "No hay ningún archivo seleccionado"
+    },
     "PullToLoad": {
       "None": "Nada más que cargar",
       "More": "Arrastre para cargar más"
@@ -381,9 +520,16 @@
     "UI": {
       "Metric": {
         "Arcade": "Puntuación de arcade",
+        "ArcadePercentage": "Puntuación de Arcade %",
         "Accuracy": "Puntuación de precisión",
+        "AccuracyPercentage": "Puntuación de precisión %",
         "Life": "Vida",
-        "PerfectRate": "Proporción de perfectos",
+        "Perfect": "Perfect",
+        "PerfectPercentage": "Perfect %",
+        "GreatGoodMiss": "Great + Good + Miss",
+        "GreatGoodMissPercentage": "Great + Good + Miss %",
+        "Miss": "Miss",
+        "MissPercentage": "Miss %",
         "ErrorHeatmap": "Mapa de calor de errores"
       },
       "JudgmentErrorStyle": {
@@ -467,6 +613,13 @@
     "Dark": "Oscuro",
     "Light": "Claro"
   },
+  "Web": {
+    "InternetConnectionError": "No hay conexión a Internet.\nVerifique su conexión a Internet y el permiso para que Sonolus acceda a Internet, y vuelva a intentarlo.",
+    "ServerConnectionError": "No se puede conectar al servidor.\nVerifique si la dirección del servidor es correcta, verifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema.",
+    "ServerHttpError": "Respuesta del servidor: {0}",
+    "ServerVersionTooOldError": "Este servidor solo es compatible con una versión anterior de Sonolus ({0}).\nEspere a que se actualice el servidor o comuníquese con el propietario del servidor para informar el problema.",
+    "ServerVersionTooNewError": "Este servidor solo es compatible con la versión {0} de Sonolus.\n\nActualice su aplicación Sonolus o comuníquese con el propietario del servidor para informar el problema."
+  },
   "Clients": {
     "Master": {
       "Info": {
@@ -548,8 +701,6 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "Este servidor solo es compatible con la versión {0} de Sonolus.\n\nActualice su aplicación Sonolus o comuníquese con el propietario del servidor para informar el problema.",
-      "SonolusVersionTooOld": "Este servidor solo es compatible con una versión antigua de Sonolus.\n\nEspere a que el servidor sea actualizado, o comuníquese con el propietario del servidor para informar el problema.",
       "Authentication": {
         "NotLoggedInError": {
           "Description": "No has iniciado sesión con una cuenta de Sonolus.\n\nPrimero inicie sesión con su cuenta de Sonolus y vuelva a intentarlo."
@@ -565,12 +716,12 @@
         "Expired": {
           "Description": "Su sesión ha caducado.\n\n¿Iniciar sesión como \"{0}\" nuevamente y continuar?"
         },
-        "Rejected": {
-          "Description": "Su sesión fue rechazada por el servidor.\n\n¿Iniciar sesión como \"{0}\" nuevamente y continuar?"
-        },
         "Login": {
           "Loading": "Iniciando sesión...",
-          "Error": "No se pudo iniciar sesión en \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo iniciar sesión en \"{0}\"."
+        },
+        "AutoLogin": {
+          "Description": "¿Quieres iniciar sesión automáticamente cuando visites este servidor?"
         }
       },
       "Multiplayer": {
@@ -579,35 +730,75 @@
         },
         "CreateRoom": {
           "Loading": "Creando sala...",
-          "Error": "No se pudo crear una sala en \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo crear una sala en \"{0}\"."
         },
         "JoinRoom": {
           "Loading": "Uniéndose a la sala...",
-          "Error": "No se pudo unir a la sala \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo unir a la sala \"{0}\"."
         }
       },
       "Server": {
         "Info": {
           "Loading": "Cargando información del servidor...",
-          "Error": "Error al cargar la información del servidor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información del servidor \"{0}\"."
         },
         "Banner": {
           "Loading": "Cargando banner del servidor...",
-          "Error": "No se pudo cargar el banner del servidor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar el banner del servidor de \"{0}\"."
         }
       },
       "Post": {
         "Info": {
           "Loading": "Cargando información de publicaciones...",
-          "Error": "No se pudo cargar la información de las publicaciones de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información de las publicaciones de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando publicación...",
+          "Error": "No se pudo crear la publicación en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando publicaciones...",
-          "Error": "No se pudieron cargar publicaciones en la página {0}.\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar las publicaciones en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles de la publicación...",
-          "Error": "No se pudieron cargar los detalles de la publicación de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles de la publicación \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando a la publicación...",
+          "Error": "No se pudo enviar a la publicación \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad de publicaciones...",
+            "Error": "No se pudo cargar la información de la comunidad de publicaciones de \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad de la publicación...",
+            "Error": "No se pudo enviar a la comunidad de publicaciones de \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios de la publicación...",
+              "Error": "Error al cargar los comentarios de la publicación en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando clasificación de publicaciones...",
+            "Error": "Error al cargar la clasificación de publicaciones de \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords de la publicación...",
+              "Error": "Error al cargar los récords de la publicación en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord de la publicación...",
+              "Error": "Error al cargar el récord de la publicación de \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando la compatibilidad de la publicación...",
@@ -615,21 +806,61 @@
         },
         "Thumbnail": {
           "Loading": "Cargando miniatura de la publicación...",
-          "Error": "No se pudo cargar la miniatura de la publicación de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la miniatura de la publicación \"{0}\"."
         }
       },
       "Playlist": {
         "Info": {
           "Loading": "Cargando información de listas de reproducción...",
-          "Error": "No se pudo cargar la información de las listas de reproducción de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "Error al cargar la información de las listas de reproducción de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando lista de reproducción...",
+          "Error": "No se pudo crear la lista de reproducción en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando listas de reproducción...",
-          "Error": "No se pudieron cargar las listas de reproducción en la página {0}.\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar las listas de reproducción en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles de la lista de reproducción...",
-          "Error": "No se pudieron cargar los detalles de la lista de reproducción de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles de la lista de reproducción de \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando a la lista de reproducción...",
+          "Error": "No se pudo enviar a la lista de reproducción \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando comunidad de listas de reproducción...",
+            "Error": "Error al cargar la información de la comunidad de la lista de reproducción \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad de la lista de reproducción...",
+            "Error": "No se pudo enviar a la comunidad de listas de reproducción de \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios de la lista de reproducción...",
+              "Error": "No se pudieron cargar los comentarios de la lista de reproducción en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la clasificación de la lista de reproducción...",
+            "Error": "Error al cargar la clasificación de la lista de reproducción de \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords de la lista de reproducción...",
+              "Error": "No se pudieron cargar los récords de la lista de reproducción en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord de la lista de reproducción...",
+              "Error": "Error al cargar los detalles del récord de la lista de reproducción de \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando la compatibilidad de la lista de reproducción...",
@@ -637,21 +868,75 @@
         },
         "Thumbnail": {
           "Loading": "Cargando miniatura de la lista de reproducción...",
-          "Error": "No se pudo cargar la miniatura de la lista de reproducción de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la miniatura de la lista de reproducción de \"{0}\"."
         }
       },
       "Level": {
         "Info": {
           "Loading": "Cargando información de niveles...",
-          "Error": "No se pudo cargar la información de los niveles de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información de niveles de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando nivel...",
+          "Error": "No se pudo crear el nivel en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando niveles...",
-          "Error": "Error al cargar los niveles en la página {0}.\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los niveles en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles del nivel...",
-          "Error": "Error al cargar los detalles del nivel de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles del nivel de \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando al nivel...",
+          "Error": "No se pudo enviar al nivel \"{0}\"."
+        },
+        "Result": {
+          "Info": {
+            "Loading": "Cargando información del resultado del nivel...",
+            "Error": "No se pudo cargar la información del resultado del nivel de \"{0}\"."
+          },
+          "NotSupported": {
+            "Title": "Enviar",
+            "Description": "Este servidor no admite el envío de los resultados del nivel."
+          },
+          "Submit": {
+            "Loading": "Enviando resultado del nivel...",
+            "Error": "No se pudo enviar el resultado del nivel a \"{0}\"."
+          }
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad de niveles...",
+            "Error": "No se pudo cargar la información de la comunidad del nivel \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad del nivel...",
+            "Error": "No se pudo enviar a la comunidad del nivel de \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios del nivel...",
+              "Error": "No se pudieron cargar los comentarios del nivel en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación de niveles...",
+            "Error": "No se pudieron cargar los detalles de la clasificación del nivel \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords del nivel...",
+              "Error": "No se pudieron cargar los récords del nivel en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord del nivel...",
+              "Error": "No se pudieron cargar los detalles del récord del nivel \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando la compatibilidad del nivel...",
@@ -659,33 +944,73 @@
         },
         "Cover": {
           "Loading": "Cargando imagen del nivel...",
-          "Error": "Error al cargar la portada de nivel de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la portada del nivel \"{0}\"."
         },
         "Bgm": {
           "Loading": "Cargando música del nivel...",
-          "Error": "No se pudo cargar la música del nivel de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la música del nivel \"{0}\"."
         },
         "Preview": {
           "Loading": "Cargando vista previa del nivel...",
-          "Error": "No se pudo cargar la vista previa del nivel de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la vista previa del nivel \"{0}\"."
         },
         "Data": {
           "Loading": "Cargando datos de nivel...",
-          "Error": "Error al cargar los datos de nivel de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos del nivel \"{0}\"."
         }
       },
       "Skin": {
         "Info": {
           "Loading": "Cargando información de skins...",
-          "Error": "No se pudo cargar la información de skins de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información de las skins de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando skin...",
+          "Error": "No se pudo crear la skin en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando skins...",
-          "Error": "Error al cargar skins en la página {0}.\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar las skins en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles de la skin...",
-          "Error": "Error al cargar los detalles de la skin de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles de la skin de \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando a la skin...",
+          "Error": "No se pudo enviar a la skin \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad de la skin...",
+            "Error": "No se pudo cargar la información de la comunidad de la skin \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad de la skin...",
+            "Error": "No se pudo enviar a la comunidad de la skin de \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios de la skin...",
+              "Error": "No se pudieron cargar los comentarios de la skin en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación de la skin...",
+            "Error": "No se pudieron cargar los detalles de la clasificación de la skin \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords de la skin...",
+              "Error": "No se pudieron cargar los récords de la skin en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord de la skin...",
+              "Error": "No se pudieron cargar los detalles del récord de la skin de \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando la compatibilidad con la skin...",
@@ -693,29 +1018,69 @@
         },
         "Thumbnail": {
           "Loading": "Cargando miniatura de la skin...",
-          "Error": "Error al cargar la miniatura de la skin de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la miniatura de la skin \"{0}\"."
         },
         "Data": {
           "Loading": "Cargando datos de la skin...",
-          "Error": "Error al cargar los datos de la skin de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos de la skin \"{0}\"."
         },
         "Texture": {
           "Loading": "Cargando textura de la skin...",
-          "Error": "Error al cargar la textura de la skin de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la textura de la skin \"{0}\"."
         }
       },
       "Background": {
         "Info": {
           "Loading": "Cargando información de fondos...",
-          "Error": "No se pudo cargar la información de fondo de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información del fondo \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando fondo...",
+          "Error": "No se pudo crear el fondo en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando fondos...",
-          "Error": "No se pudieron cargar los fondos en la página {0}.\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los fondos en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles de fondo...",
-          "Error": "Error al cargar los detalles de fondo de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles del fondo \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando al fondo...",
+          "Error": "No se pudo enviar al fondo \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad del fondo...",
+            "Error": "No se pudo cargar la información de la comunidad del fondo \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad del fondo de pantalla...",
+            "Error": "No se pudo enviar a la comunidad del fondo \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios del fondo de pantalla...",
+              "Error": "No se pudieron cargar los comentarios del fondo en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación del fondo...",
+            "Error": "No se pudieron cargar los detalles de la tabla de clasificación del fondo \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords del fondo...",
+              "Error": "No se pudieron cargar los récords del fondo en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord del fondo...",
+              "Error": "No se pudieron cargar los detalles del récord del fondo \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando la compatibilidad de fondo...",
@@ -723,33 +1088,73 @@
         },
         "Thumbnail": {
           "Loading": "Cargando miniatura de fondo...",
-          "Error": "Error al cargar la miniatura de fondo de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la miniatura del fondo \"{0}\"."
         },
         "Data": {
           "Loading": "Cargando datos de fondo...",
-          "Error": "Error al cargar los datos de fondo de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos del fondo \"{0}\"."
         },
         "Image": {
           "Loading": "Cargando imagen de fondo...",
-          "Error": "Error al cargar la imagen de fondo de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la imagen del fondo \"{0}\"."
         },
         "Configuration": {
           "Loading": "Cargando configuración del fondo...",
-          "Error": "No se pudo cargar la configuración del fondo de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la configuración del fondo \"{0}\"."
         }
       },
       "Effect": {
         "Info": {
           "Loading": "Cargando información de los efectos de sonido...",
-          "Error": "No se pudo cargar la información de los efectos de sonido de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información de los efectos de sonido de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando efectos de sonido...",
+          "Error": "No se pudieron crear los efectos de sonido en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando efectos de sonido...",
-          "Error": "Error al cargar los efectos de sonido en la página {0}.\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los efectos de sonido en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles de los efectos de sonido...",
-          "Error": "Error al cargar los detalles de los efectos de sonido de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles de los efectos de sonido de \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando a efectos de sonido...",
+          "Error": "No se pudo enviar al efecto de sonido \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad del efecto de sonido...",
+            "Error": "No se pudo cargar la información de la comunidad del efecto de sonido de \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad de efectos de sonido...",
+            "Error": "No se pudo enviar a la comunidad del efecto de sonido de \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios de los efectos de sonido...",
+              "Error": "No se pudieron cargar los comentarios del efecto de sonido en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación del efecto de sonido...",
+            "Error": "No se pudieron cargar los detalles de la tabla de clasificación del efecto de sonido de \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords del efecto de sonido...",
+              "Error": "No se pudieron cargar récords del efecto de sonido en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord del efecto de sonido...",
+              "Error": "No se pudieron cargar los detalles del récord del efecto de sonido de \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando la compatibilidad de los efectos de sonido...",
@@ -757,29 +1162,69 @@
         },
         "Thumbnail": {
           "Loading": "Cargando miniatura del efecto de sonido...",
-          "Error": "No se pudo cargar la miniatura del efecto de sonido de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la miniatura del efecto de sonido de \"{0}\"."
         },
         "Data": {
           "Loading": "Cargando datos de los efectos de sonido...",
-          "Error": "Error al cargar los datos de efecto de sonido de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos del efecto de sonido \"{0}\"."
         },
         "Audio": {
           "Loading": "Cargando audio de efectos de sonido...",
-          "Error": "No se pudo cargar el audio de los efectos de sonido de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar el audio del efecto de sonido de \"{0}\"."
         }
       },
       "Particle": {
         "Info": {
           "Loading": "Cargando información de partículas...",
-          "Error": "No se pudo cargar la información de partículas de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información de las partículas de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando partículas...",
+          "Error": "No se pudieron crear las partículas en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando partículas...",
-          "Error": "Error al cargar partículas en la página {0}.\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar las partículas en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles de partículas...",
-          "Error": "Error al cargar detalles de partículas de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles de partículas de \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando a la partícula...",
+          "Error": "No se pudo enviar a la partícula \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad de la partícula...",
+            "Error": "No se pudo cargar la información de la comunidad de la partícula de \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad de partículas...",
+            "Error": "No se pudo enviar a la comunidad de la partícula de \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios de partículas...",
+              "Error": "No se pudieron cargar los comentarios de la partícula en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación de la partícula...",
+            "Error": "No se pudieron cargar los detalles de la tabla de clasificación de la partícula de \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords de la partícula...",
+              "Error": "No se pudieron cargar los récords de la partícula en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles de los récords de la partícula...",
+              "Error": "No se pudieron cargar los detalles del récord de la partícula de \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando la compatibilidad de partículas...",
@@ -787,29 +1232,69 @@
         },
         "Thumbnail": {
           "Loading": "Cargando miniatura de partículas...",
-          "Error": "Error al cargar la miniatura de partículas de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la miniatura de la partícula de \"{0}\"."
         },
         "Data": {
           "Loading": "Cargando datos de partículas...",
-          "Error": "Error al cargar datos de partículas de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos de la partícula de \"{0}\"."
         },
         "Texture": {
           "Loading": "Cargando textura de partículas...",
-          "Error": "Error al cargar la textura de partículas de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la textura de la partícula de \"{0}\"."
         }
       },
       "Engine": {
         "Info": {
           "Loading": "Cargando información de motores...",
-          "Error": "No se pudo cargar la información de los motores de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información del motor \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando motor...",
+          "Error": "No se pudo crear el motor en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando motores...",
-          "Error": "Error al cargar los motores en la página {0}.\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los motores en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles del motor...",
-          "Error": "Error al cargar los detalles del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles del motor \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando al motor...",
+          "Error": "No se pudo enviar al motor \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad del motor...",
+            "Error": "No se pudo cargar la información de la comunidad del motor de \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad del motore...",
+            "Error": "No se pudo enviar a la comunidad del motor de \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios del motor...",
+              "Error": "No se pudieron cargar los comentarios del motor en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación del motor...",
+            "Error": "No se pudieron cargar los detalles de la tabla de clasificación del motor de \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords del motor...",
+              "Error": "No se pudieron cargar los récords del motor en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord del motor...",
+              "Error": "No se pudieron cargar los detalles del récord del motor de \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando la compatibilidad del motor...",
@@ -817,45 +1302,85 @@
         },
         "Thumbnail": {
           "Loading": "Cargando miniatura del motor...",
-          "Error": "Error al cargar la miniatura del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la miniatura del motor de \"{0}\"."
         },
         "PlayData": {
           "Loading": "Cargando datos del modo de juego del motor...",
-          "Error": "Error al cargar los datos del modo de juego del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos del modo de reproducción del motor de \"{0}\"."
         },
         "WatchData": {
           "Loading": "Cargando datos del modo observación del motor...",
-          "Error": "Error al cargar los datos del modo observación del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos del modo espectador del motor de \"{0}\"."
         },
         "PreviewData": {
           "Loading": "Cargando datos del modo vista previa del motor...",
-          "Error": "Error al cargar los datos del modo vista previa del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos del modo de vista previa del motor de \"{0}\"."
         },
         "TutorialData": {
           "Loading": "Cargando datos del tutorial del motor...",
-          "Error": "Error al cargar los datos del tutorial del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos del modo tutorial del motor de \"{0}\"."
         },
         "Rom": {
           "Loading": "Cargando ROM del motor...",
-          "Error": "Error al cargar la ROM del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la ROM del motor \"{0}\"."
         },
         "Configuration": {
           "Loading": "Cargando configuración del motor...",
-          "Error": "Error al cargar la configuración del motor de \"{0}\".\n\nVerifique su conexión a Internet e intente nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la configuración del motor de \"{0}\"."
         }
       },
       "Replay": {
         "Info": {
           "Loading": "Cargando información de repeticiones...",
-          "Error": "No se pudo cargar la información de repeticiones de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información de repeticiones de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando repetición...",
+          "Error": "No se pudo crear la repetición en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando repeticiones...",
-          "Error": "No se pudieron cargar las repeticiones en la página {0}.\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar las repeticiones en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles de la repetición...",
-          "Error": "No se pudieron cargar los detalles de la repetición de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles de la repetición de \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando a repetición...",
+          "Error": "No se pudo enviar a la repetición \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad de la repetición...",
+            "Error": "No se pudo cargar la información de la comunidad de la repetición \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad de la repetición...",
+            "Error": "No se pudo enviar a la comunidad de la repetición \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios de la repetición...",
+              "Error": "No se pudieron cargar los comentarios de la repetición en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación de la repetición...",
+            "Error": "No se pudieron cargar los detalles de la tabla de clasificación de la repetición de \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords de la repetición...",
+              "Error": "No se pudieron cargar los récords de la repetición en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord de la repetición...",
+              "Error": "No se pudieron cargar los detalles del récord de la repetición \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando compatibilidad de la repetición...",
@@ -863,25 +1388,65 @@
         },
         "Data": {
           "Loading": "Cargando datos de repetición...",
-          "Error": "No se pudieron cargar los datos de repetición de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los datos de la repetición \"{0}\"."
         },
         "Configuration": {
           "Loading": "Cargando configuración de la repetición...",
-          "Error": "No se pudo cargar la configuración de la repetición de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la configuración de la repetición \"{0}\"."
         }
       },
       "Room": {
         "Info": {
           "Loading": "Cargando información de las salas...",
-          "Error": "No se pudo cargar la información de las salas de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la información de las salas de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Creando sala...",
+          "Error": "No se pudo crear la sala en \"{0}\"."
         },
         "List": {
           "Loading": "Cargando salas...",
-          "Error": "No se pudieron cargar las salas en la página {0}.\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar las salas en la página {0}."
         },
         "Details": {
           "Loading": "Cargando detalles de la sala...",
-          "Error": "No se pudieron cargar los detalles de la sala \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudieron cargar los detalles de la sala \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Enviando a la sala...",
+          "Error": "No se pudo enviar a la sala \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Cargando información de la comunidad de la sala...",
+            "Error": "No se pudo cargar la información de la comunidad de la sala \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Enviando a la comunidad de la sala...",
+            "Error": "No se pudo enviar a la comunidad de la sala \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Cargando comentarios de la sala...",
+              "Error": "No se pudieron cargar los comentarios de la sala en la página {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Cargando detalles de la tabla de clasificación de la sala...",
+            "Error": "No se pudieron cargar los detalles de la tabla de clasificación de la sala \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Cargando récords de la sala...",
+              "Error": "No se pudieron cargar los récords de la sala en la página {0}."
+            },
+            "Details": {
+              "Loading": "Cargando detalles del récord de la sala...",
+              "Error": "No se pudieron cargar los detalles del récord de la sala \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Comprobando compatibilidad de la sala...",
@@ -889,15 +1454,15 @@
         },
         "Cover": {
           "Loading": "Cargando portada del nivel de la sala...",
-          "Error": "No se pudo cargar la portada del nivel de la sala \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la portada del nivel de la sala \"{0}\"."
         },
         "Bgm": {
           "Loading": "Cargando música del nivel de la sala...",
-          "Error": "No se pudo cargar la música del nivel de la sala \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la música del nivel de la sala \"{0}\"."
         },
         "Preview": {
           "Loading": "Cargando vista previa del nivel de la sala...",
-          "Error": "No se pudo cargar la vista previa del nivel de la sala de \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servidor para informar el problema."
+          "Error": "No se pudo cargar la vista previa del nivel de la sala \"{0}\"."
         }
       }
     },
@@ -1568,10 +2133,11 @@
       },
       "Login": {
         "Loading": "Iniciando sesión...",
-        "Error": "No se pudo iniciar sesión en el servicio externo \"{0}\".\n\nVerifique su conexión a Internet e inténtelo nuevamente, o comuníquese con el propietario del servicio para informar el problema."
+        "Error": "No se pudo iniciar sesión en el servicio externo \"{0}\"."
       },
       "Success": {
-        "Title": "Registrado"
+        "Title": "Registrado",
+        "Description": "Respuesta del servidor: {0}"
       }
     },
     "JumpToPage": {
@@ -1738,46 +2304,8 @@
         }
       },
       "ToAddFavorite": {
-        "Post": {
-          "Title": "Agregar publicación favorita",
-          "Description": "Seleccione un servidor personalizado para agregar sus publicaciones a favoritos."
-        },
-        "Playlist": {
-          "Title": "Agregar lista de reproducción favorita",
-          "Description": "Seleccione un servidor personalizado para agregar sus listas de reproducción a favoritos."
-        },
-        "Level": {
-          "Title": "Añadir nivel favorito",
-          "Description": "Selecciona un servidor personalizado para añadir sus niveles a favoritos."
-        },
-        "Skin": {
-          "Title": "Añadir skin favorita",
-          "Description": "Selecciona un servidor personalizado para añadir sus skins a favoritos."
-        },
-        "Background": {
-          "Title": "Añadir fondo favorito",
-          "Description": "Selecciona un servidor personalizado para añadir sus fondos a favoritos."
-        },
-        "Effect": {
-          "Title": "Añadir efecto favorito",
-          "Description": "Selecciona un servidor personalizado para añadir sus efectos a favoritos."
-        },
-        "Particle": {
-          "Title": "Añadir partícula favorita",
-          "Description": "Selecciona un servidor personalizado para añadir sus partículas a favoritos."
-        },
-        "Engine": {
-          "Title": "Añadir motor favorito",
-          "Description": "Selecciona un servidor personalizado para añadir sus motores a favoritos."
-        },
-        "Replay": {
-          "Title": "Agregar repetición favorita",
-          "Description": "Seleccione un servidor personalizado para agregar sus repeticiones a favoritos."
-        },
-        "Room": {
-          "Title": "Agregar sala favorita",
-          "Description": "Seleccione un servidor personalizado para agregar sus salas a favoritos."
-        }
+        "Title": "Agregar favorito",
+        "Description": "Seleccione un servidor personalizado para agregar sus elementos a favoritos."
       }
     },
     "EditCustomServer": {
@@ -1802,11 +2330,11 @@
     "EditCollection": {
       "Title": "Editar colección"
     },
-    "AddCollection": {
-      "Title": "Añadir colección",
+    "CreateCollection": {
+      "Title": "Crear colección",
       "Name": {
         "Title": "Nombre",
-        "Description": "Puedes ponerle el nombre que quieras.",
+        "Description": "Puedes ponerle cualquier nombre.",
         "Placeholder": "Introduzca el nombre de la colección..."
       }
     },
@@ -2045,6 +2573,10 @@
         "Engine": "Motores",
         "Replay": "Repeticiones",
         "Room": "Salas",
+        "Configuration": "Configuración",
+        "CollectionUpdateConfirmation": {
+          "Description": "Algunos elementos de la colección deben actualizarse antes de usarlos.\n\n¿Quieres actualizar ahora?"
+        },
         "SaveSuccess": {
           "Title": "Servidor guardado"
         },
@@ -2055,44 +2587,112 @@
       "Search": {
         "Title": "Búsqueda"
       },
+      "Forms": {
+        "ValidationError": "Falta información obligatoria.\n\nComplete los campos faltantes y vuelva a intentarlo.",
+        "Confirmation": "¿Estás seguro de enviar \"{0}\"?"
+      },
+      "Configuration": {
+        "Options": {
+          "Title": "Opciones",
+          "AutoLogin": {
+            "Title": "Inicio de sesión automático",
+            "Description": "Iniciar sesión automáticamente al visitar este servidor."
+          }
+        }
+      },
       "Infos": {
-        "More": "Más",
         "Advanced": "Avanzado",
         "Post": {
-          "Title": "Publicaciones"
+          "Title": "Publicaciones",
+          "Create": {
+            "Title": "Crear publicación",
+            "Success": {
+              "Title": "Publicaciones creadas"
+            }
+          }
         },
         "Playlist": {
-          "Title": "Listas de reproducción"
+          "Title": "Listas de reproducción",
+          "Create": {
+            "Title": "Crear lista de reproducción",
+            "Success": {
+              "Title": "Lista de reproducción creada"
+            }
+          }
         },
         "Level": {
-          "Title": "Niveles"
+          "Title": "Niveles",
+          "Create": {
+            "Title": "Crear nivel",
+            "Success": {
+              "Title": "Nivel creado"
+            }
+          }
         },
         "Skin": {
-          "Title": "Skins"
+          "Title": "Skins",
+          "Create": {
+            "Title": "Crear skin",
+            "Success": {
+              "Title": "Skin creada"
+            }
+          }
         },
         "Background": {
-          "Title": "Fondos"
+          "Title": "Fondos",
+          "Create": {
+            "Title": "Crear fondo",
+            "Success": {
+              "Title": "Fondo creado"
+            }
+          }
         },
         "Effect": {
-          "Title": "Efectos de sonido"
+          "Title": "Efectos de sonido",
+          "Create": {
+            "Title": "Crear efectos especiales",
+            "Success": {
+              "Title": "Efectos de sonido creados"
+            }
+          }
         },
         "Particle": {
-          "Title": "Partículas"
+          "Title": "Partículas",
+          "Create": {
+            "Title": "Crear partícula",
+            "Success": {
+              "Title": "Partícula creada"
+            }
+          }
         },
         "Engine": {
-          "Title": "Motores"
+          "Title": "Motores",
+          "Create": {
+            "Title": "Crear motor",
+            "Success": {
+              "Title": "Motor creado"
+            }
+          }
         },
         "Replay": {
-          "Title": "Repeticiones"
+          "Title": "Repeticiones",
+          "Create": {
+            "Title": "Crear repetición",
+            "Success": {
+              "Title": "Repetición creada"
+            }
+          }
         },
         "Room": {
           "Title": "Salas",
-          "Create": "Crear",
-          "CreateRoom": {
+          "Create": {
             "Title": "Crear sala",
+            "Success": {
+              "Title": "Sala creada"
+            },
             "Description": "Al crear la sala \"{0}\", puedes invitar a otros a jugar juntos compartiendo el enlace de la sala.",
             "ShareSuccess": {
-              "Title": "Enlace de sala copiado"
+              "Title": "Enlace de la sala copiado"
             }
           }
         }
@@ -2165,39 +2765,72 @@
       },
       "Details": {
         "Actions": {
+          "Play": "Jugar",
+          "Watch": "Ver",
+          "Preview": "Previsualizar",
+          "Tutorial": "Tutorial",
           "Configuration": "Configuración"
         },
         "DeleteConfirmation": {
           "Description": "¿Está seguro de eliminar \"{0}\"?"
         },
         "Tags": {
-          "Title": "Etiquetas"
+          "Title": "Etiquetas",
+          "NoTags": "Sin etiquetas"
         },
         "Description": {
-          "Title": "Descripción"
+          "Title": "Descripción",
+          "NoDescription": "Sin descripción"
+        },
+        "Community": {
+          "Title": "Comunidad",
+          "NoComments": "Sin comentarios"
+        },
+        "Leaderboard": {
+          "Title": "Tabla de clasificación",
+          "NoRecords": "Sin récords",
+          "NoReplays": "Sin repeticiones"
         },
         "Post": {
           "ShareSuccess": {
             "Title": "Enlace de publicación copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de publicación enviada"
           }
         },
         "Playlist": {
-          "Actions": {
-            "Play": "Reproducir"
-          },
           "ShareSuccess": {
             "Title": "Enlace de lista de reproducción copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de lista de reproducción enviada"
+          },
+          "Watch": {
+            "Multiple": {
+              "Description": "Hay múltiples niveles en esta lista de reproducción.\n\nSeleccione un nivel para ver."
+            }
+          },
+          "Preview": {
+            "Multiple": {
+              "Description": "Hay múltiples niveles en esta lista de reproducción.\n\nSeleccione un nivel para previsualizar."
+            }
+          },
+          "Tutorial": {
+            "Multiple": {
+              "Description": "Hay múltiples niveles en esta lista de reproducción.\n\nSeleccione un nivel para entrar al tutorial."
+            }
+          },
+          "Configuration": {
+            "Multiple": {
+              "Description": "Hay múltiples niveles en esta lista de reproducción.\n\nSeleccione un nivel para configurar."
+            }
           },
           "Levels": {
             "Title": "Niveles"
           }
         },
         "Level": {
-          "Actions": {
-            "Play": "Jugar",
-            "Watch": "Observar",
-            "Preview": "Vista previa"
-          },
           "Play": {
             "Effect": {
               "Audio": {
@@ -2242,11 +2875,20 @@
           },
           "ShareSuccess": {
             "Title": "Enlace de nivel copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de nivel enviada"
+          },
+          "Engine": {
+            "Title": "Motor"
           }
         },
         "Skin": {
           "ShareSuccess": {
             "Title": "Enlace de skin copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de skin enviada"
           }
         },
         "Background": {
@@ -2258,6 +2900,9 @@
           },
           "ShareSuccess": {
             "Title": "Enlace de fondo copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de fondo enviada"
           }
         },
         "Effect": {
@@ -2273,17 +2918,20 @@
           },
           "ShareSuccess": {
             "Title": "Enlace de efecto copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de efecto enviada"
           }
         },
         "Particle": {
           "ShareSuccess": {
             "Title": "Enlace de partículas copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de partícula enviada"
           }
         },
         "Engine": {
-          "Actions": {
-            "Tutorial": "Tutorial"
-          },
           "Tutorial": {
             "Effect": {
               "Audio": {
@@ -2298,12 +2946,24 @@
           },
           "ShareSuccess": {
             "Title": "Enlace de motor copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de motor enviada"
+          },
+          "Skin": {
+            "Title": "Skin"
+          },
+          "Background": {
+            "Title": "Fondo"
+          },
+          "Effect": {
+            "Title": "Efectos de sonido"
+          },
+          "Particle": {
+            "Title": "Partícula"
           }
         },
         "Replay": {
-          "Actions": {
-            "Watch": "Mirar"
-          },
           "Watch": {
             "Effect": {
               "Audio": {
@@ -2324,11 +2984,20 @@
           },
           "ShareSuccess": {
             "Title": "Enlace de repetición copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de repetición enviada"
+          },
+          "Level": {
+            "Title": "Nivel"
           }
         },
         "Room": {
           "ShareSuccess": {
             "Title": "Enlace de sala copiado"
+          },
+          "ActionSuccess": {
+            "Title": "Acción de sala enviada"
           }
         }
       },
@@ -2675,10 +3344,8 @@
           "Description": "¿Estás seguro de salir de la habitación?"
         },
         "Play": {
-          "NoLevel": "Ningún nivel seleccionado",
           "Options": {
-            "Title": "Opciones",
-            "NoLevel": "Ningún nivel seleccionado."
+            "Title": "Opciones"
           },
           "Selecting": {
             "Title": "Seleccionando",
@@ -2688,9 +3355,7 @@
               "Room": "La sala está seleccionando..."
             },
             "Actions": {
-              "Select": "Seleccionar",
-              "NoSource": "Este nivel no se puede seleccionar porque no tiene un servidor de origen.\n\nUtilice un nivel diferente o comuníquese con el autor del nivel para informar el problema.",
-              "NoOtherServers": "Este nivel no se puede seleccionar porque la sala no permite niveles de otros servidores.\n\nUtilice un nivel diferente."
+              "Select": "Seleccionar"
             }
           },
           "Preparing": {
@@ -2779,9 +3444,7 @@
           "Actions": {
             "Lock": "Bloquear",
             "Unlock": "Desbloquear",
-            "Clear": "Limpiar",
-            "NoSource": "Este nivel no se puede sugerir porque no tiene un servidor de origen.\n\nUtilice un nivel diferente o comuníquese con el autor del nivel para informar el problema.",
-            "NoOtherServers": "Este nivel no se puede sugerir porque la sala no permite niveles de otros servidores.\n\nUtilice un nivel diferente."
+            "Clear": "Limpiar"
           }
         },
         "Scoreboard": {
@@ -3181,7 +3844,14 @@
                 "HasUsedPause": "No se puede crear la repetición porque se utilizó una pausa.",
                 "HasUsedSnapshot": "No se puede crear la repetición porque se utilizó una instantánea (snapshot)."
               },
-              "Create": "Crear"
+              "Submit": {
+                "Confirmation": {
+                  "Description": "¿Quieres enviar la repetición al servidor \"{0}\"?"
+                },
+                "Success": {
+                  "Title": "Resultado de nivel enviado"
+                }
+              }
             }
           }
         }
