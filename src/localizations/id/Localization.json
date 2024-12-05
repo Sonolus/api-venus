@@ -381,6 +381,8 @@
     "#DELETE": "Hapus",
     "#DELETING": "Menghapus",
     "#DELETED": "Dihapus",
+    "#REMOVE": "Hapus",
+    "#REMOVING": "Menghapus",
     "#REMOVED": "Dihapus",
     "#RESTORE": "Pulihkan",
     "#RESTORING": "Memulihkan",
@@ -409,20 +411,30 @@
     "#UNPINNED": "Diunpin",
     "#FOLLOW": "Follow",
     "#FOLLOWING": "Following",
+    "#FOLLOWED": "Diikuti",
     "#UNFOLLOW": "Unfollow",
     "#SUBSCRIBE": "Subscribe",
+    "#SUBSCRIBING": "Berlangganan",
+    "#SUBSCRIBED": "Berlangganan",
     "#UNSUBSCRIBE": "Unsubscribe",
     "#PUBLISH": "Terbit",
+    "#PUBLISHING": "Menerbitkan",
     "#PUBLISHED": "Diterbitkan",
     "#UNPUBLISH": "Batal Terbit",
     "#SHOW": "Tampilkan",
     "#HIDE": "Sembunyikan",
     "#ALLOW": "Izinkan",
+    "#ALLOWED": "Diizinkan",
     "#DISALLOW": "Larang",
+    "#DISALLOWED": "Tidak Diizinkan",
     "#APPROVE": "Setuju",
+    "#APPROVED": "Disetujui",
     "#DENY": "Tidak Setuju",
+    "#DENIED": "Ditolak",
     "#ACCEPT": "Terima",
+    "#ACCEPTED": "Diterima",
     "#REJECT": "Tolak",
+    "#REJECTED": "Ditolak",
     "#STAR": "Star",
     "#STARRED": "Starred"
   },
@@ -3864,6 +3876,7 @@
               },
               "Submit": {
                 "Confirmation": {
+                  "Description": "Replay Anda berhasil dibuat dan disimpan.\n\nApakah Anda juga ingin mengirimkan replay tersebut ke server \"{0}\"?"
                 },
                 "Success": {
                   "Title": "Hasil Level Dikirim"
