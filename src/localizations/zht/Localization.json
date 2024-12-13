@@ -4,205 +4,455 @@
     "Title": "繁體中文 (Traditional Chinese)"
   },
   "Texts": {
-    "Name": {
-      "#KEYWORDS": "關鍵字",
-      "#NAME": "ID",
-      "#RATING": "等級",
-      "#RATING_MINIMUM": "最低等級",
-      "#RATING_MAXIMUM": "最高等級",
-      "#TITLE": "標題",
-      "#SUBTITLE": "副標題",
-      "#ARTISTS": "作曲",
-      "#AUTHOR": "歌手",
-      "#GENRE": "曲風",
-      "#CATEGORY": "分類",
-      "#LANGUAGE": "語言",
-      "#DIFFICULTY": "難度",
-      "#LENGTH": "時長",
-      "#LENGTH_MINIMUM": "最短時長",
-      "#LENGTH_MAXIMUM": "最長時長",
-      "#SPEED": "關卡速度",
-      "#MIRROR": "鏡向",
-      "#RANDOM": "隨機",
-      "#HIDDEN": "隱藏",
-      "#JUDGMENT_STRICT": "嚴格判定",
-      "#JUDGMENT_LOOSE": "寬鬆判定",
-      "#EFFECT": "SE",
-      "#EFFECT_AUTO": "自動SE",
-      "#STAGE": "舞台",
-      "#STAGE_POSITION": "舞台位置",
-      "#STAGE_SIZE": "舞台大小",
-      "#STAGE_ROTATION": "舞台旋轉",
-      "#STAGE_ALPHA": "舞台透明度",
-      "#STAGE_ANIMATION": "舞台動畫",
-      "#STAGE_TILT": "舞台傾側",
-      "#STAGE_COVER_VERTICAL": "垂直上隱條",
-      "#STAGE_COVER_HORIZONTAL": "橫向上隱條",
-      "#STAGE_COVER_ALPHA": "上隱條透明度",
-      "#STAGE_ASPECTRATIO_LOCK": "固定舞台比例",
-      "#STAGE_EFFECT": "舞台特效",
-      "#STAGE_EFFECT_POSITION": "舞台特效位置",
-      "#STAGE_EFFECT_SIZE": "舞台特效大小",
-      "#STAGE_EFFECT_ROTATION": "舞台特效旋轉",
-      "#STAGE_EFFECT_ALPHA": "舞台特效透明度",
-      "#LANE": "軌道",
-      "#LANE_POSITION": "軌道位置",
-      "#LANE_SIZE": "軌道大小",
-      "#LANE_ROTATION": "軌道旋轉",
-      "#LANE_ALPHA": "軌道透明度",
-      "#LANE_ANIMATION": "軌道動畫",
-      "#LANE_EFFECT": "軌道特效",
-      "#LANE_EFFECT_POSITION": "軌道特效位置",
-      "#LANE_EFFECT_SIZE": "軌道特效大小",
-      "#LANE_EFFECT_ROTATION": "軌道特效旋轉",
-      "#LANE_EFFECT_ALPHA": "軌道特效透明度",
-      "#JUDGELINE": "判定線",
-      "#JUDGELINE_POSITION": "判定線位置",
-      "#JUDGELINE_SIZE": "判定線大小",
-      "#JUDGELINE_ROTATION": "判定線旋轉",
-      "#JUDGELINE_ALPHA": "判定線透明度",
-      "#JUDGELINE_ANIMATION": "判定線動畫",
-      "#JUDGELINE_EFFECT": "判定線特效",
-      "#JUDGELINE_EFFECT_POSITION": "判定線特效位置",
-      "#JUDGELINE_EFFECT_SIZE": "判定線特效大小",
-      "#JUDGELINE_EFFECT_ROTATION": "判定線特效旋轉",
-      "#JUDGELINE_EFFECT_ALPHA": "判定線特效透明度",
-      "#SLOT": "按鍵",
-      "#SLOT_POSITION": "按鍵位置",
-      "#SLOT_SIZE": "按鍵大小",
-      "#SLOT_ROTATION": "按鍵旋轉",
-      "#SLOT_ALPHA": "按鍵透明度",
-      "#SLOT_ANIMATION": "按鍵動畫",
-      "#SLOT_EFFECT": "按鍵特效",
-      "#SLOT_EFFECT_POSITION": "按鍵特效位置",
-      "#SLOT_EFFECT_SIZE": "按鍵特效大小",
-      "#SLOT_EFFECT_ROTATION": "按鍵特效旋轉",
-      "#SLOT_EFFECT_ALPHA": "按鍵特效透明度",
-      "#NOTE": "節奏圖示",
-      "#NOTE_SPEED": "節奏圖示速度",
-      "#NOTE_SPEED_RANDOM": "隨機節奏圖示速度",
-      "#NOTE_POSITION": "節奏圖示位置",
-      "#NOTE_SIZE": "節奏圖示大小",
-      "#NOTE_ROTATION": "節奏圖示旋轉",
-      "#NOTE_ALPHA": "節奏圖示透明度",
-      "#NOTE_ANIMATION": "節奏圖示動畫",
-      "#NOTE_EFFECT": "節奏圖示特效",
-      "#NOTE_EFFECT_POSITION": "節奏圖示特效位置",
-      "#NOTE_EFFECT_SIZE": "節奏圖示特效大小",
-      "#NOTE_EFFECT_ROTATION": "節奏圖示特效旋轉",
-      "#NOTE_EFFECT_ALPHA": "節奏圖示特效透明度",
-      "#MARKER": "圖示記號",
-      "#MARKER_POSITION": "圖示記號位置",
-      "#MARKER_SIZE": "圖示記號大小",
-      "#MARKER_ROTATION": "圖示記號旋轉",
-      "#MARKER_ALPHA": "圖示記號透明度",
-      "#MARKER_ANIMATION": "圖示記號動畫",
-      "#CONNECTOR": "長壓線",
-      "#CONNECTOR_POSITION": "長壓線位置",
-      "#CONNECTOR_SIZE": "長壓線大小",
-      "#CONNECTOR_ROTATION": "長壓線旋轉",
-      "#CONNECTOR_ALPHA": "長壓線透明度",
-      "#CONNECTOR_ANIMATION": "長壓線動畫",
-      "#SIMLINE": "同時點擊線",
-      "#SIMLINE_POSITION": "同時點擊線位置",
-      "#SIMLINE_SIZE": "同時點擊線大小",
-      "#SIMLINE_ROTATION": "同時點擊線旋轉",
-      "#SIMLINE_ALPHA": "同時點擊線透明度",
-      "#SIMLINE_ANIMATION": "同時點擊線動畫"
-    },
-    "Value": {
-      "#NONE": "無",
-      "#ANY": "任意",
-      "#ALL": "全部",
-      "#OTHERS": "其他",
-      "#SHORT": "短",
-      "#LONG": "長",
-      "#HIGH": "高",
-      "#MID": "中",
-      "#LOW": "低",
-      "#SMALL": "小",
-      "#MEDIUM": "中",
-      "#LARGE": "大",
-      "#LEFT": "左",
-      "#RIGHT": "右",
-      "#UP": "上",
-      "#DOWN": "下",
-      "#FRONT": "前",
-      "#BACK": "後",
-      "#CENTER": "中心",
-      "#TOP": "頂",
-      "#BOTTOM": "底",
-      "#TOP_LEFT": "左上",
-      "#TOP_CENTER": "中上",
-      "#TOP_RIGHT": "右上",
-      "#CENTER_LEFT": "左中",
-      "#CENTER_RIGHT": "右中",
-      "#BOTTOM_LEFT": "左下",
-      "#BOTTOM_CENTER": "中下",
-      "#BOTTOM_RIGHT": "右下",
-      "#CLOCKWISE": "順時針",
-      "#COUNTERCLOCKWISE": "逆時針",
-      "#FORWARD": "向前",
-      "#BACKWARD": "向後",
-      "#SIMPLE": "Simple",
-      "#EASY": "Easy",
-      "#NORMAL": "Normal",
-      "#HARD": "Hard",
-      "#EXPERT": "Expert",
-      "#MASTER": "Master",
-      "#PRO": "Pro",
-      "#TECHNICAL": "Technical",
-      "#SPECIAL": "Special"
-    },
-    "Placeholder": {
-      "#KEYWORDS": "請輸入關鍵字…",
-      "#NAME": "請輸入ID…",
-      "#RATING": "請輸入等級…",
-      "#RATING_MINIMUM": "請輸入最低等級…",
-      "#RATING_MAXIMUM": "請輸入最高等級…",
-      "#TITLE": "請輸入標題…",
-      "#SUBTITLE": "請輸入副標題…",
-      "#ARTISTS": "請輸入歌手/作曲…",
-      "#AUTHOR": "請輸入作者…",
-      "#GENRE": "請輸入曲風…",
-      "#CATEGORY": "請輸入分類…",
-      "#LANGUAGE": "請輸入語言…",
-      "#DIFFICULTY": "請輸入難度…",
-      "#LENGTH": "請輸入時長…",
-      "#LENGTH_MINIMUM": "請輸入最短時長…",
-      "#LENGTH_MAXIMUM": "請輸入最長時長…"
-    },
-    "Unit": {
-      "#PERCENTAGE": "{0}%",
-      "#SECOND": "{0} s",
-      "#MILLISECOND": "{0} ms"
-    },
-    "Instruction": {
-      "#TAP": "點擊",
-      "#TAP_HOLD": "點擊並按住",
-      "#TAP_RELEASE": "點擊並放開",
-      "#TAP_FLICK": "點擊並輕彈",
-      "#TAP_SLIDE": "點擊並滑動",
-      "#HOLD": "長按",
-      "#HOLD_SLIDE": "按住並滑動",
-      "#HOLD_FOLLOW": "按住並跟隨",
-      "#RELEASE": "放開",
-      "#FLICK": "輕彈",
-      "#SLIDE": "滑動",
-      "#SLIDE_FLICK": "滑動並輕彈",
-      "#AVOID": "避開",
-      "#JIGGLE": "搖動"
-    }
+    "#POST": "貼文",
+    "#PLAYLIST": "播放清單",
+    "#LEVEL": "關卡",
+    "#SKIN": "外觀",
+    "#BACKGROUND": "背景",
+    "#EFFECT": "SFX",
+    "#PARTICLE": "粒子",
+    "#ENGINE": "引擎",
+    "#REPLAY": "重播",
+    "#ROOM": "房間",
+    "#GRADE": "評級",
+    "#ARCADE_SCORE": "街機分數",
+    "#ACCURACY_SCORE": "準確率分數",
+    "#COMBO": "連擊",
+    "#PERFECT": "Perfect",
+    "#GREAT": "Great",
+    "#GOOD": "Good",
+    "#MISS": "Miss",
+    "#KEYWORDS": "關鍵字",
+    "#NAME": "名稱",
+    "#RATING": "評分",
+    "#RATING_MINIMUM": "最低評分",
+    "#RATING_MAXIMUM": "最高評分",
+    "#TITLE": "標題",
+    "#SUBTITLE": "副標題",
+    "#ARTISTS": "藝術家",
+    "#TIME": "時間",
+    "#AUTHOR": "作者",
+    "#GENRE": "風格",
+    "#TYPE": "類型",
+    "#CATEGORY": "類別",
+    "#LANGUAGE": "語言",
+    "#DIFFICULTY": "難易度",
+    "#VERSION": "版本",
+    "#LENGTH": "長度",
+    "#LENGTH_MINIMUM": "最小長度",
+    "#LENGTH_MAXIMUM": "最大長度",
+    "#ADDITIONAL_INFORMATION": "附加資訊",
+    "#TIMEZONE": "時區",
+    "#REGION": "地區",
+    "#CONTENT": "內容",
+    "#COMMENT": "留言",
+    "#MESSAGE": "訊息",
+    "#ROLE": "角色",
+    "#PERMISSION": "權限",
+    "#USER": "用戶",
+    "#SPEED": "關卡速度",
+    "#MIRROR": "鏡像關卡",
+    "#RANDOM": "隨機",
+    "#HIDDEN": "隱形",
+    "#JUDGMENT_STRICT": "嚴格判定",
+    "#JUDGMENT_LOOSE": "寬鬆判定",
+    "#EFFECT_AUTO": "自動SFX",
+    "#STAGE": "舞台",
+    "#STAGE_POSITION": "舞台位置",
+    "#STAGE_SIZE": "舞台尺寸",
+    "#STAGE_ROTATION": "舞台旋轉",
+    "#STAGE_DIRECTION": "舞台方向",
+    "#STAGE_ALPHA": "舞台透明度",
+    "#STAGE_ANIMATION": "舞台動畫",
+    "#STAGE_TILT": "舞台傾斜",
+    "#STAGE_COVER_VERTICAL": "垂直舞台遮罩",
+    "#STAGE_COVER_HORIZONTAL": "水平舞台遮罩",
+    "#STAGE_COVER_ALPHA": "舞台遮罩透明度",
+    "#STAGE_ASPECTRATIO_LOCK": "鎖定舞台比例",
+    "#STAGE_EFFECT": "舞台效果",
+    "#STAGE_EFFECT_POSITION": "舞台效果位置",
+    "#STAGE_EFFECT_SIZE": "舞台效果尺寸",
+    "#STAGE_EFFECT_ROTATION": "舞台效果旋轉",
+    "#STAGE_EFFECT_DIRECTION": "舞台效果方向",
+    "#STAGE_EFFECT_ALPHA": "舞台效果透明度",
+    "#LANE": "軌道",
+    "#LANE_POSITION": "軌道位置",
+    "#LANE_SIZE": "軌道尺寸",
+    "#LANE_ROTATION": "軌道旋轉",
+    "#LANE_DIRECTION": "軌道方向",
+    "#LANE_ALPHA": "軌道透明度",
+    "#LANE_ANIMATION": "軌道動畫",
+    "#LANE_EFFECT": "軌道效果",
+    "#LANE_EFFECT_POSITION": "軌道效果位置",
+    "#LANE_EFFECT_SIZE": "軌道效果尺寸",
+    "#LANE_EFFECT_ROTATION": "軌道效果旋轉",
+    "#LANE_EFFECT_DIRECTION": "軌道效果方向",
+    "#LANE_EFFECT_ALPHA": "軌道效果透明度",
+    "#JUDGELINE": "判定線",
+    "#JUDGELINE_POSITION": "判定線位置",
+    "#JUDGELINE_SIZE": "判定線尺寸",
+    "#JUDGELINE_ROTATION": "判定線旋轉",
+    "#JUDGELINE_DIRECTION": "判定線方向",
+    "#JUDGELINE_ALPHA": "判定線透明度",
+    "#JUDGELINE_ANIMATION": "判定線動畫",
+    "#JUDGELINE_EFFECT": "判定線效​​果",
+    "#JUDGELINE_EFFECT_POSITION": "判定線效​​果位置",
+    "#JUDGELINE_EFFECT_SIZE": "判定線效​​果大小",
+    "#JUDGELINE_EFFECT_ROTATION": "判定線效​​果旋轉",
+    "#JUDGELINE_EFFECT_DIRECTION": "判定線效​​果方向",
+    "#JUDGELINE_EFFECT_ALPHA": "判定線效​​果透明度",
+    "#SLOT": "插槽",
+    "#SLOT_POSITION": "插槽位置",
+    "#SLOT_SIZE": "插槽尺寸",
+    "#SLOT_ROTATION": "插槽旋轉",
+    "#SLOT_DIRECTION": "插槽方向",
+    "#SLOT_ALPHA": "插槽透明度",
+    "#SLOT_ANIMATION": "插槽動畫",
+    "#SLOT_EFFECT": "插槽效果",
+    "#SLOT_EFFECT_POSITION": "插槽效果位置",
+    "#SLOT_EFFECT_SIZE": "插槽效果尺寸",
+    "#SLOT_EFFECT_ROTATION": "插槽效果旋轉",
+    "#SLOT_EFFECT_DIRECTION": "插槽效果方向",
+    "#SLOT_EFFECT_ALPHA": "插槽效果透明度",
+    "#NOTE": "音符",
+    "#NOTE_SPEED": "音符速度",
+    "#NOTE_SPEED_RANDOM": "隨機音符速度",
+    "#NOTE_POSITION": "音符位置",
+    "#NOTE_SIZE": "音符尺寸",
+    "#NOTE_ROTATION": "音符旋轉",
+    "#NOTE_DIRECTION": "音符方向",
+    "#NOTE_COLOR": "音符顏色",
+    "#NOTE_ALPHA": "音符透明度",
+    "#NOTE_ANIMATION": "音符動畫",
+    "#NOTE_EFFECT": "音符效果",
+    "#NOTE_EFFECT_POSITION": "音符效果位置",
+    "#NOTE_EFFECT_SIZE": "音符效果尺寸",
+    "#NOTE_EFFECT_ROTATION": "音符效果旋轉",
+    "#NOTE_EFFECT_DIRECTION": "音符效果方向",
+    "#NOTE_EFFECT_COLOR": "音符效果顏色",
+    "#NOTE_EFFECT_ALPHA": "音符效果透明度",
+    "#MARKER": "標記",
+    "#MARKER_POSITION": "標記位置",
+    "#MARKER_SIZE": "標記尺寸",
+    "#MARKER_ROTATION": "標記旋轉",
+    "#MARKER_DIRECTION": "標記方向",
+    "#MARKER_COLOR": "標記顏色",
+    "#MARKER_ALPHA": "標記透明度",
+    "#MARKER_ANIMATION": "標記動畫",
+    "#CONNECTOR": "連接線",
+    "#CONNECTOR_POSITION": "連接線位置",
+    "#CONNECTOR_SIZE": "連接線尺寸",
+    "#CONNECTOR_ROTATION": "連接線旋轉",
+    "#CONNECTOR_DIRECTION": "連接線方向",
+    "#CONNECTOR_COLOR": "連接線顏色",
+    "#CONNECTOR_ALPHA": "連接線透明度",
+    "#CONNECTOR_ANIMATION": "連接線動畫",
+    "#SIMLINE": "同步操作線",
+    "#SIMLINE_POSITION": "同步操作線位置",
+    "#SIMLINE_SIZE": "同步操作線尺寸",
+    "#SIMLINE_ROTATION": "同步操作線旋轉",
+    "#SIMLINE_DIRECTION": "同步操作線方向",
+    "#SIMLINE_COLOR": "同步操作線顏色",
+    "#SIMLINE_ALPHA": "同步操作線透明度",
+    "#SIMLINE_ANIMATION": "同步操作線動畫",
+    "#NONE": "無",
+    "#ANY": "任何",
+    "#ALL": "全部",
+    "#OTHERS": "其他",
+    "#SHORT": "短",
+    "#LONG": "長",
+    "#HIGH": "高",
+    "#MID": "中",
+    "#LOW": "低",
+    "#SMALL": "小",
+    "#MEDIUM": "中",
+    "#LARGE": "大",
+    "#LEFT": "左",
+    "#RIGHT": "右",
+    "#UP": "上",
+    "#DOWN": "下",
+    "#FRONT": "前",
+    "#BACK": "後",
+    "#CENTER": "中心",
+    "#TOP": "頂部",
+    "#BOTTOM": "底部",
+    "#TOP_LEFT": "左上",
+    "#TOP_CENTER": "中上",
+    "#TOP_RIGHT": "右上",
+    "#CENTER_LEFT": "中左",
+    "#CENTER_RIGHT": "中右",
+    "#BOTTOM_LEFT": "左下",
+    "#BOTTOM_CENTER": "中下",
+    "#BOTTOM_RIGHT": "右下",
+    "#CLOCKWISE": "順時針",
+    "#COUNTERCLOCKWISE": "逆時針",
+    "#FORWARD": "向前",
+    "#BACKWARD": "向後",
+    "#DEFAULT": "預設",
+    "#NEUTRAL": "中性",
+    "#RED": "紅色",
+    "#GREEN": "綠色",
+    "#BLUE": "藍色",
+    "#YELLOW": "黃色",
+    "#PURPLE": "紫色",
+    "#CYAN": "青色",
+    "#SIMPLE": "Simple",
+    "#EASY": "Easy",
+    "#NORMAL": "Normal",
+    "#HARD": "Hard",
+    "#EXPERT": "Expert",
+    "#MASTER": "Master",
+    "#PRO": "Pro",
+    "#TECHNICAL": "Technical",
+    "#SPECIAL": "Special",
+    "#KEYWORDS_PLACEHOLDER": "輸入關鍵字...",
+    "#NAME_PLACEHOLDER": "輸入名稱...",
+    "#RATING_PLACEHOLDER": "輸入評分...",
+    "#RATING_MINIMUM_PLACEHOLDER": "輸入最低評分...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "輸入最大評分...",
+    "#TITLE_PLACEHOLDER": "輸入標題...",
+    "#SUBTITLE_PLACEHOLDER": "輸入副標題...",
+    "#ARTISTS_PLACEHOLDER": "輸入藝術家...",
+    "#TIME_PLACEHOLDER": "輸入時間...",
+    "#AUTHOR_PLACEHOLDER": "輸入作者...",
+    "#GENRE_PLACEHOLDER": "輸入風格...",
+    "#TYPE_PLACEHOLDER": "輸入類型...",
+    "#CATEGORY_PLACEHOLDER": "輸入類別...",
+    "#LANGUAGE_PLACEHOLDER": "輸入語言...",
+    "#DIFFICULTY_PLACEHOLDER": "輸入難度...",
+    "#LENGTH_PLACEHOLDER": "輸入長度...",
+    "#LENGTH_MINIMUM_PLACEHOLDER": "輸入最小長度...",
+    "#LENGTH_MAXIMUM_PLACEHOLDER": "輸入最大長度...",
+    "#ADDITIONAL_INFORMATION_PLACEHOLDER": "輸入附加資訊...",
+    "#TIMEZONE_PLACEHOLDER": "輸入時區...",
+    "#REGION_PLACEHOLDER": "輸入地區...",
+    "#CONTENT_PLACEHOLDER": "輸入內容...",
+    "#COMMENT_PLACEHOLDER": "輸入留言...",
+    "#REVIEW_PLACEHOLDER": "輸入評論...",
+    "#REPLY_PLACEHOLDER": "輸入回覆...",
+    "#MESSAGE_PLACEHOLDER": "輸入留言...",
+    "#ROLE_PLACEHOLDER": "輸入角色...",
+    "#PERMISSION_PLACEHOLDER": "輸入權限...",
+    "#USER_PLACEHOLDER": "輸入用戶...",
+    "#PERCENTAGE_UNIT": "{0}%",
+    "#SECOND_UNIT": "{0} 秒",
+    "#MILLISECOND_UNIT": "{0} 毫秒",
+    "#TAP": "點擊",
+    "#TAP_HOLD": "點擊並按住",
+    "#TAP_RELEASE": "點擊並放開",
+    "#TAP_FLICK": "點擊並輕彈",
+    "#TAP_SLIDE": "點擊並滑動",
+    "#HOLD": "按住",
+    "#HOLD_SLIDE": "按住並滑動",
+    "#HOLD_FOLLOW": "按住並跟隨",
+    "#RELEASE": "釋放",
+    "#FLICK": "輕彈",
+    "#SLIDE": "滑動",
+    "#SLIDE_FLICK": "滑動並輕彈",
+    "#AVOID": "避開",
+    "#JIGGLE": "搖動",
+    "#NEWEST": "最新",
+    "#OLDEST": "最舊",
+    "#RECOMMENDED": "推薦",
+    "#POPULAR": "熱門",
+    "#FEATURED": "精選",
+    "#COMPETITIVE": "競賽",
+    "#HOLIDAY": "假日",
+    "#LIMITED": "限定",
+    "#ANNOUNCEMENT": "公告",
+    "#INFORMATION": "資訊",
+    "#HELP": "幫助",
+    "#MAINTENANCE": "維護",
+    "#EVENT": "活動",
+    "#UPDATE": "更新",
+    "#SEARCH": "搜尋",
+    "#ADVANCED": "進階",
+    "#RELATED": "相關",
+    "#SAME_AUTHOR": "相同作者",
+    "#SAME_ARTISTS": "相同藝術家",
+    "#SAME_RATING": "相同評分",
+    "#SAME_CATEGORY": "相同類別",
+    "#SAME_DIFFICULTY": "相同難度",
+    "#SAME_GENRE": "相同風格",
+    "#SAME_VERSION": "相同版本",
+    "#OTHER_AUTHORS": "其他作者",
+    "#OTHER_ARTISTS": "其他藝術家",
+    "#OTHER_RATINGS": "其他評分",
+    "#OTHER_CATEGORIES": "其他類別",
+    "#OTHER_DIFFICULTIES": "其他難度",
+    "#OTHER_GENRES": "其他風格",
+    "#OTHER_VERSIONS": "其他版本",
+    "#DRAFT": "草稿",
+    "#PUBLIC": "公開",
+    "#PRIVATE": "私人",
+    "#POP": "流行",
+    "#ROCK": "搖滾",
+    "#HIPHOP": "嘻哈",
+    "#COUNTRY": "鄉村",
+    "#ELECTRONIC": "電子",
+    "#METAL": "金屬",
+    "#CLASSICAL": "古典",
+    "#FOLK": "民謠",
+    "#INDIE": "獨立",
+    "#ANIME": "動漫",
+    "#VOCALOID": "VOCALOID",
+    "#REMIX": "混音",
+    "#INSTRUMENTAL": "純音樂",
+    "#SHORT_VERSION": "短版本",
+    "#LONG_VERSION": "長版本",
+    "#LIVE_VERSION": "現場版",
+    "#REPORT": "回報",
+    "#REASON": "原因",
+    "#ILLEGAL_ACTIVITIES": "非法行為",
+    "#CHEATING": "作弊",
+    "#AFK": "掛機",
+    "#SPAMMING": "垃圾訊息",
+    "#VERBAL_ABUSE": "言論攻擊",
+    "#INAPPROPRIATE_LANGUAGE": "不適當的語言",
+    "#NEGATIVE_ATTITUDE": "態度消極",
+    "#DNF": "未完成",
+    "#SUGGESTIONS": "建議",
+    "#SUGGESTIONS_PER_PLAYER": "每個玩家的建議",
+    "#MATCH_SCORING": "比賽得分",
+    "#MATCH_TIEBREAKER": "延長賽",
+    "#MATCH_COUNT": "比賽數",
+    "#MATCH_LIMIT": "比賽限制",
+    "#ROUND_SCORING": "回合得分",
+    "#ROUND_TIEBREAKER": "回合延長賽",
+    "#ROUND_COUNT": "回合數",
+    "#ROUND_LIMIT": "回合限制",
+    "#TEAM_SCORING": "隊伍得分",
+    "#TEAM_TIEBREAKER": "隊伍延長賽",
+    "#TEAM_COUNT": "隊伍數",
+    "#TEAM_LIMIT": "隊伍限制",
+    "#QUALIFIED": "合格",
+    "#DISQUALIFIED": "不合格",
+    "#RANKING": "排行",
+    "#SCORE": "分數",
+    "#PLAYER": "玩家",
+    "#SPECTATOR": "觀眾",
+    "#REFEREE": "裁判",
+    "#ELIMINATED": "淘汰",
+    "#FINALIST": "決賽入圍者",
+    "#FINISHED": "完成",
+    "#WINNER": "贏家",
+    "#GOLD_MEDAL": "金牌",
+    "#SILVER_MEDAL": "銀牌",
+    "#BRONZE_MEDAL": "銅牌",
+    "#TEAM_1": "隊伍1",
+    "#TEAM_2": "隊伍2",
+    "#TEAM_3": "隊伍3",
+    "#TEAM_4": "隊伍4",
+    "#TEAM_5": "隊伍5",
+    "#TEAM_6": "隊伍6",
+    "#TEAM_7": "隊伍7",
+    "#TEAM_8": "隊伍8",
+    "#TEAM_RED": "紅隊",
+    "#TEAM_GREEN": "綠隊",
+    "#TEAM_BLUE": "藍隊",
+    "#TEAM_YELLOW": "黃隊",
+    "#TEAM_PURPLE": "紫隊",
+    "#TEAM_CYAN": "青隊",
+    "#TEAM_WHITE": "白隊",
+    "#TEAM_BLACK": "黑隊",
+    "#REPLY": "回覆",
+    "#REPLIED": "已回覆",
+    "#REVIEW": "審核",
+    "#REVIEWING": "審核中",
+    "#REVIEWED": "已審核",
+    "#VERIFY": "驗證",
+    "#VERIFYING": "正在驗證",
+    "#VERIFIED": "已驗證",
+    "#UPLOAD": "上傳",
+    "#UPLOADING": "上傳中",
+    "#UPLOADED": "已上傳",
+    "#SUBMIT": "提交",
+    "#SUBMITTING": "提交中",
+    "#SUBMITTED": "已提交",
+    "#EDIT": "編輯",
+    "#EDITING": "編輯中",
+    "#EDITED": "已編輯",
+    "#LIKE": "喜歡",
+    "#LIKED": "已喜歡",
+    "#DISLIKE": "不喜歡",
+    "#DISLIKED": "已不喜歡",
+    "#BOOKMARK": "書籤",
+    "#BOOKMARKED": "已加書籤",
+    "#DELETE": "刪除",
+    "#DELETING": "刪除中",
+    "#DELETED": "已刪除",
+    "#REMOVE": "移除",
+    "#REMOVING": "移除中",
+    "#REMOVED": "已移除",
+    "#RESTORE": "恢復",
+    "#RESTORING": "恢復中",
+    "#RESTORED": "已恢復",
+    "#CONFIRM": "確認",
+    "#CONFIRMED": "已確認",
+    "#CANCEL": "取消",
+    "#CANCELED": "已取消",
+    "#INCREASE": "增加",
+    "#DECREASE": "減少",
+    "#UPVOTE": "讚",
+    "#UPVOTED": "已讚",
+    "#DOWNVOTE": "爛",
+    "#DOWNVOTED": "已爛",
+    "#AGREE": "同意",
+    "#AGREED": "已同意",
+    "#DISAGREE": "不同意",
+    "#DISAGREED": "已不同意",
+    "#LOCK": "鎖定",
+    "#LOCKED": "已鎖定",
+    "#UNLOCK": "解鎖",
+    "#UNLOCKED": "已解鎖",
+    "#PIN": "釘選",
+    "#PINNED": "已釘選",
+    "#UNPIN": "取消釘選",
+    "#UNPINNED": "已取消釘選",
+    "#FOLLOW": "追蹤",
+    "#FOLLOWING": "跟隨",
+    "#FOLLOWED": "已跟隨",
+    "#UNFOLLOW": "取消追蹤",
+    "#SUBSCRIBE": "訂閱",
+    "#SUBSCRIBING": "訂閱中",
+    "#SUBSCRIBED": "已訂閱",
+    "#UNSUBSCRIBE": "取消訂閱",
+    "#PUBLISH": "發表",
+    "#PUBLISHING": "發表中",
+    "#PUBLISHED": "已發表",
+    "#UNPUBLISH": "取消發布",
+    "#SHOW": "顯示",
+    "#HIDE": "隱藏",
+    "#ALLOW": "允許",
+    "#ALLOWED": "已允許",
+    "#DISALLOW": "不允許",
+    "#DISALLOWED": "已不允許",
+    "#APPROVE": "核准",
+    "#APPROVED": "已核准",
+    "#DENY": "否決",
+    "#DENIED": "已否決",
+    "#ACCEPT": "接受",
+    "#ACCEPTED": "已接受",
+    "#REJECT": "拒絕",
+    "#REJECTED": "已拒絕",
+    "#STAR": "標記星號",
+    "#STARRED": "已標記星號"
   },
   "Common": {
     "Separator": ", ",
     "Loading": "載入中…",
+    "Help": "幫助",
+    "More": "更多",
     "On": "開",
     "Off": "關",
+    "None": "無",
     "Select": "選擇",
     "Reset": "重置",
     "Edit": "編輯",
     "View": "查看",
+    "Create": "建立",
+    "Upload": "上傳",
+    "Submit": "提交",
     "Cancel": "取消",
     "Confirm": "確認",
     "Retry": "重試",
@@ -216,9 +466,8 @@
     "Add": "新增",
     "Import": "匯入",
     "Search": "搜尋",
-    "More": "更多",
     "PullToRefresh": "下拉刷新",
-    "Save": "保存",
+    "Save": "儲存",
     "Share": "分享",
     "Export": "匯出",
     "Update": "更新",
@@ -227,7 +476,6 @@
     "CopySuccess": {
       "Title": "已複製"
     },
-    "Preview": "預覽",
     "Judgment": "判定",
     "Accuracy": "準確率",
     "Grade": "評級",
@@ -238,51 +486,62 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
-    "StandardOption": "這是一個基礎選項。",
+    "StandardOption": "這是一個標準選項。",
     "AdvancedOption": "此選項適用於進階玩家。",
     "Colors": "顏色",
     "ColorField": {
-      "Hex": "HEX顏色",
-      "Rgb": "RGB顏色",
-      "Hsv": "HSV顏色",
-      "Components": {
-        "Hex": {
-          "Title": "HEX",
-          "Description": "#RRGGBB或#RRGGBBAA，每個選項範圍皆是00至FF。",
-          "Placeholder": "輸入HEX色碼…"
-        },
-        "R": {
-          "Title": "R",
-          "Description": "紅。"
-        },
-        "G": {
-          "Title": "G",
-          "Description": "綠。"
-        },
-        "B": {
-          "Title": "B",
-          "Description": "藍。"
-        },
-        "H": {
-          "Title": "色相",
-          "Description": "色相。"
-        },
-        "S": {
-          "Title": "飽和度",
-          "Description": "飽和度。"
-        },
-        "V": {
-          "Title": "明度",
-          "Description": "明度。"
-        },
-        "A": {
-          "Title": "透明度",
-          "Description": "透明度。"
-        }
-      }
+      "Placeholder": "輸入顏色HEX..."
     },
     "DeviceOffsetField": {
       "Calibrate": "校準"
+    },
+    "MultiField": {
+      "Selected": "已選擇{0}",
+      "AllSelected": "全部選定",
+      "SelectAll": "全選",
+      "SelectNone": "無選擇"
+    },
+    "ItemFields": {
+      "Selected": "已選擇 {0}",
+      "NoSelected": {
+        "Post": "未選擇貼文",
+        "Playlist": "未選擇播放清單",
+        "Level": "未選擇關卡",
+        "Skin": "未選擇外觀",
+        "Background": "未選擇背景",
+        "Effect": "未選擇 SFX",
+        "Particle": "未選擇粒子",
+        "Engine": "未選擇引擎",
+        "Replay": "未選擇重播",
+        "Room": "未選擇房間"
+      },
+      "NoSource": {
+        "Post": "該貼文無法選擇，因為它沒有來源伺服器。\n\n請使用其他貼文，或聯絡貼文作者以報告問題。",
+        "Playlist": "無法選擇該播放清單，因為它沒有來源伺服器。\n\n請使用不同的播放清單，或聯絡播放清單的作者來回報問題。",
+        "Level": "無法選擇此關卡，因為它沒有來源伺服器。\n\n請使用不同關卡，或聯絡關卡作者來回報問題。",
+        "Skin": "無法選擇此外觀，因為它沒有來源伺服器。\n\n請使用不同的外觀，或聯絡外觀作者回報問題。",
+        "Background": "無法選擇該背景，因為它沒有來源伺服器。\n\n請使用不同的背景，或聯絡背景作者回報問題。",
+        "Effect": "無法選擇此 SFX，因為它沒有來源伺服器。\n\n請使用不同的 SFX，或聯絡 SFX 作者回報問題。",
+        "Particle": "無法選擇該粒子，因為它沒有來源伺服器。\n\n請使用不同的粒子，或聯絡粒子作者回報問題。",
+        "Engine": "無法選擇該引擎，因為它沒有來源伺服器。\n\n請使用不同的引擎，或聯絡引擎作者報告問題。",
+        "Replay": "無法選擇此重播，因為它沒有來源伺服器。\n\n請使用不同的重播，或聯絡重播作者回報問題。",
+        "Room": "無法選擇該房間，因為它沒有來源伺服器。\n\n請使用其他房間，或聯絡房間作者回報問題。"
+      },
+      "NoOtherServers": {
+        "Post": "無法選擇該貼文，因為它來自不同的伺服器。\n\n請使用同一伺服器的不同貼文。",
+        "Playlist": "無法選擇該播放清單，因為它來自不同的伺服器。\n\n請使用同一伺服器中的不同播放清單。",
+        "Level": "無法選擇此關卡，因為它來自不同的伺服器。\n\n請使用同一伺服器的不同關卡。",
+        "Skin": "無法選擇此外觀，因為它來自不同的伺服器。\n\n請使用同一伺服器的不同外觀。",
+        "Background": "無法選擇該背景，因為它來自不同的伺服器。\n\n請使用同一伺服器的不同背景。",
+        "Effect": "無法選擇此 SFX，因為它來自不同的伺服器。\n\n請使用同一伺服器中的不同 SFX。",
+        "Particle": "無法選擇該粒子，因為它來自不同的伺服器。\n\n請使用同一伺服器的不同粒子。",
+        "Engine": "無法選擇該引擎，因為它來自不同的伺服器。\n\n請使用同一台伺服器的不同引擎。",
+        "Replay": "無法選擇此重播，因為它來自不同的伺服器。\n\n請使用來自同一伺服器的不同重播。",
+        "Room": "無法選擇該房間，因為它來自不同的伺服器。\n\n請使用同一伺服器的不同房間。"
+      }
+    },
+    "FileField": {
+      "NoSelected": "未選擇文件"
     },
     "PullToLoad": {
       "None": "沒有更多內容",
@@ -291,9 +550,16 @@
     "UI": {
       "Metric": {
         "Arcade": "正常得分",
+        "ArcadePercentage": "正常得分 %",
         "Accuracy": "準確率得分",
+        "AccuracyPercentage": "準確率得分 %",
         "Life": "Life",
-        "PerfectRate": "Perfect率",
+        "Perfect": "Perfect",
+        "PerfectPercentage": "Perfect %",
+        "GreatGoodMiss": "Great + Good + Miss",
+        "GreatGoodMissPercentage": "Great + Good + Miss %",
+        "Miss": "Miss",
+        "MissPercentage": "Miss %",
         "ErrorHeatmap": "偏差熱圖"
       },
       "JudgmentErrorStyle": {
@@ -357,31 +623,53 @@
         "OutInElastic": "彈性（出入）",
         "None": "無"
       }
+    },
+    "AutoExit": {
+      "Title": "自動退出",
+      "Description": "當無法達到指定評級時自動退出遊戲。",
+      "Options": {
+        "Off": "關閉",
+        "Pass": "Pass",
+        "FullCombo": "Full Combo",
+        "AllPerfect": "All Perfect"
+      }
+    },
+    "PermissionError": {
+      "Description": "Sonolus 無法取得執行此操作所需的權限。\n\n請開啟「設定」並授予 Sonolus 權限。",
+      "Open": "開啟"
     }
   },
   "Themes": {
     "Dark": "深色",
     "Light": "淺色"
   },
+  "Web": {
+    "InternetConnectionError": "沒有網路連線。\n請檢查您的網路連線、Sonolus 存取網際網路的權限，然後重試。",
+    "ServerConnectionError": "無法連接到伺服器。\n請檢查伺服器位址是否正確，檢查您的網路連線並重試，或聯絡伺服器擁有者回報問題。",
+    "ServerHttpError": "伺服器回應：{0}",
+    "ServerVersionTooOldError": "此伺服器僅支援舊版的 Sonolus ({0})。\n請等待伺服器更新，或聯絡伺服器擁有者報告問題。",
+    "ServerVersionTooNewError": "此伺服器僅支援 Sonolus 版本 {0}。\n\n請更新您的 Sonolus 應用程序，或聯絡伺服器擁有者報告問題。"
+  },
   "Clients": {
     "Master": {
       "Info": {
         "Loading": "正在載入Sonolus的資訊…",
-        "Error": "無法載入Sonolus的資訊。\n\n請檢查你的互聯網連接並重試。"
+        "Error": "無法載入 Sonolus 的資訊。\n\n請檢查您的網路連接，然後重試。"
       },
       "List": {
         "Loading": "正在載入語言清單…",
-        "Error": "無法載入語言清單。\n\n請檢查你的互聯網連接並重試。"
+        "Error": "無法載入語言清單。\n\n請檢查您的網路連接，然後重試。"
       },
       "Localization": {
         "Loading": "正在載入語言…",
-        "Error": "無法載入語言\"{0}\"。\n\n請檢查你的互聯網連接並重試。"
+        "Error": "無法載入語言\"{0}\"。\n\n請檢查您的網路連接，然後重試。"
       }
     },
     "Service": {
+      "AuthenticationError": "您的 Sonolus 身份驗證已過期。\n\n請使用您的 Sonolus 帳戶登錄，然後再試一次。",
       "UserProfile": {
-        "Loading": "正在載入用戶資料...",
-        "Error": "加載“{0}”的用戶資料失敗。\n\n請檢查用戶 ID 是否正確，或檢查您的網路連線並重試。"
+        "Loading": "正在載入用戶個人資料...",
+        "Error": "無法載入“{0}”的用戶個人資料。\n\n請檢查用戶 ID 是否正確，或檢查您的網路連線並重試。"
       },
       "Login": {
         "Loading": "正在登入...",
@@ -411,7 +699,7 @@
       },
       "EditAboutMe": {
         "Loading": "正在編輯關於我...",
-        "Error": "無法編輯關於我的信息。\n\n請檢查你的關於我是否符合規範和在限制大小內，或檢查你的網路連線並再試一次。",
+        "Error": "無法編輯關於我。\n\n請檢查你的關於我是否符合規範和在限制大小內，或檢查你的網路連線並再試一次。",
         "Success": {
           "Title": "關於我編輯成功"
         }
@@ -430,9 +718,9 @@
           "Title": "收藏已編輯"
         }
       },
-      "AuthenticateServer": {
-        "Loading": "請求 Sonolus 身份驗驗證...",
-        "Error": "無法請求 Sonolus 身份驗證。\n\n請檢查您的網路連線並重試，或聯繫 Sonolus 回報問題。"
+      "Authenticate": {
+        "Loading": "請求 Sonolus 身份驗證...",
+        "Error": "無法向 Sonolus 要求身份驗證。\n\n請檢查您的網路連線並重試，或聯絡 Sonolus 回報問題。"
       },
       "Logout": {
         "Loading": "登出中...",
@@ -443,49 +731,242 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "此伺服器只支援{0}版本的Sonolus。\n\n請更新Sonolus，或聯絡伺服器擁有人報告這個問題。",
-      "SonolusVersionTooOld": "此伺服器只支援舊版本{0}的Sonolus。\n\n請等待伺服器更新，或聯絡伺服器擁有人報告這個問題。",
-      "Session": {
-        "NeedAuthentication": {
+      "Authentication": {
+        "NotLoggedInError": {
+          "Description": "您尚未使用 Sonolus 帳號登入。\n\n請先使用您的 Sonolus 帳戶登錄，然後再試一次。"
+        },
+        "Required": {
           "NotLoggedInError": {
-            "Description": "此伺服器需要身份驗證。\n\n請先登入，然後再試一次。"
+            "Description": "該伺服器需要登錄，但您未使用 Sonolus 帳戶登入。\n\n請先使用您的 Sonolus 帳戶登錄，然後再試一次。"
           },
           "Confirmation": {
-            "Description": "此伺服器需要身份驗證。\n\n驗證為“{0}”並繼續？"
+            "Description": "該伺服器需要登入。\n\n以 \"{0}\" 登入並繼續嗎？"
           }
         },
-        "AuthenticationExpired": {
-          "Description": "您的身份驗證已過期。\n\n再次驗證為“{0}”並繼續？"
+        "Expired": {
+          "Description": "您的會話已過期。\n\n再次以 \"{0}\" 登入並繼續嗎？"
         },
-        "AuthenticationRejected": {
-          "Description": "您的身分認證被伺服器拒絕。\n\n再次驗證為“{0}”並繼續？"
+        "Login": {
+          "Loading": "登入中...",
+          "Error": "無法登入\"{0}\"。"
         },
-        "Authenticate": {
-          "Loading": "正在請求伺服器身份驗證...",
-          "Error": "從“{0}”請求身份驗證失敗。\n\n請檢查您的網路連線並再試一次，或聯繫伺服器擁有者回報問題。"
+        "AutoLogin": {
+          "Description": "您想在訪問該伺服器時自動登入嗎？"
+        }
+      },
+      "Multiplayer": {
+        "NotLoggedInError": {
+          "Description": "多人遊戲需要登錄，但您未使用 Sonolus 帳戶登入。\n\n請先使用您的 Sonolus 帳戶登錄，然後再試一次。"
         },
-        "AddressMismatchError": {
-          "Description": "身份驗證地址不符合。\n\n請聯繫伺服器擁有者回報問題。"
+        "CreateRoom": {
+          "Loading": "正在建立房間...",
+          "Error": "無法在\"{0}\"中建立房間。"
+        },
+        "JoinRoom": {
+          "Loading": "正在加入房間...",
+          "Error": "無法加入房間\"{0}\"。"
         }
       },
       "Server": {
         "Info": {
           "Loading": "正在載入伺服器資訊…",
-          "Error": "無法載入伺服器\"{0}\"的資訊。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入\"{0}\"的伺服器資訊。"
         },
         "Banner": {
           "Loading": "正在載入伺服器橫幅…",
-          "Error": "無法載入伺服器\"{0}\"的橫幅。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入\"{0}\"的伺服器橫幅。"
+        }
+      },
+      "Post": {
+        "Info": {
+          "Loading": "正在載入貼文資訊...",
+          "Error": "無法載入\"{0}\"的貼文資訊。"
+        },
+        "Create": {
+          "Loading": "正在建立貼文...",
+          "Error": "無法在\"{0}\"中建立貼文。"
+        },
+        "List": {
+          "Loading": "正在載入貼文...",
+          "Error": "無法載入第 {0} 頁上的貼文。"
+        },
+        "Details": {
+          "Loading": "正在載入貼文詳細資訊...",
+          "Error": "無法載入\"{0}\"的貼文詳細資訊。"
+        },
+        "Submit": {
+          "Loading": "正在提交貼文...",
+          "Error": "無法提交貼文\"{0}\"。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在載入貼文社群資訊...",
+            "Error": "無法載入\"{0}\"的貼文社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交到貼文社群...",
+            "Error": "無法提交到\"{0}\"的貼文社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在載入留言...",
+              "Error": "無法載入第 {0} 頁的貼文留言。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在載入貼文排行榜詳細資訊...",
+            "Error": "無法載入\"{0}\"的貼文排行榜詳細資訊。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入貼文紀錄...",
+              "Error": "無法載入第 {0} 頁的貼文紀錄。"
+            },
+            "Details": {
+              "Loading": "正在載入貼文紀錄詳細資訊...",
+              "Error": "無法載入\"{0}\"的貼文紀錄詳細資料。"
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "檢查貼文相容性...",
+          "Error": "貼文 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n請使用其他貼文，或聯絡伺服器擁有者來報告問題。"
+        },
+        "Thumbnail": {
+          "Loading": "正在載入貼文縮圖...",
+          "Error": "無法載入\"{0}\"的貼文縮圖。"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "正在載入播放清單資訊...",
+          "Error": "無法載入\"{0}\"的播放清單資訊。"
+        },
+        "Create": {
+          "Loading": "正在建立播放清單...",
+          "Error": "無法在\"{0}\"中建立播放清單。"
+        },
+        "List": {
+          "Loading": "正在載入播放清單...",
+          "Error": "無法載入第 {0} 頁的播放清單。"
+        },
+        "Details": {
+          "Loading": "正在載入播放清單詳細資訊...",
+          "Error": "無法載入\"{0}\"的播放清單詳細資訊。"
+        },
+        "Submit": {
+          "Loading": "正在提交到播放清單...",
+          "Error": "無法提交到播放清單\"{0}\"。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在載入播放清單社群資訊...",
+            "Error": "無法載入\"{0}\"的播放清單社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交到播放清單社群...",
+            "Error": "無法提交到\"{0}\"的播放清單社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在載入播放清單留言...",
+              "Error": "無法載入第 {0} 頁的播放清單留言。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在載入播放清單排行榜詳細資訊...",
+            "Error": "無法載入\"{0}\"的播放清單排行榜詳細資訊。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入播放清單紀錄...",
+              "Error": "無法載入第 {0} 頁的播放清單紀錄。"
+            },
+            "Details": {
+              "Loading": "正在載入播放清單紀錄詳細資訊...",
+              "Error": "無法載入\"{0}\"的播放清單紀錄詳細資料。"
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "正在檢查播放清單相容性...",
+          "Error": "播放清單 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n請使用不同的播放清單，或聯絡伺服器擁有者報告問題。"
+        },
+        "Thumbnail": {
+          "Loading": "正在載入播放清單縮圖...",
+          "Error": "無法載入\"{0}\"的播放清單縮圖。"
         }
       },
       "Level": {
+        "Info": {
+          "Loading": "正在載入關卡資訊...",
+          "Error": "無法載入\"{0}\"的關卡資訊。"
+        },
+        "Create": {
+          "Loading": "正在建立關卡...",
+          "Error": "無法在\"{0}\"中建立關卡。"
+        },
         "List": {
           "Loading": "正在載入關卡…",
-          "Error": "無法載入關卡第{0}頁。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入第 {0} 頁的關卡。"
         },
         "Details": {
           "Loading": "正在載入關卡詳情…",
-          "Error": "無法載入關卡\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入\"{0}\"的關卡詳細資料。"
+        },
+        "Submit": {
+          "Loading": "正在提交關卡...",
+          "Error": "無法提交關卡\"{0}\"。"
+        },
+        "Result": {
+          "Info": {
+            "Loading": "正在載入關卡結果資訊...",
+            "Error": "無法載入\"{0}\"的關卡結果資訊。"
+          },
+          "NotSupported": {
+            "Title": "提交",
+            "Description": "該伺服器不支援提交關卡結果。"
+          },
+          "Submit": {
+            "Loading": "正在提交關卡結果...",
+            "Error": "無法將級別結果提交至\"{0}\"。"
+          }
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在載入關卡社群資訊...",
+            "Error": "無法載入\"{0}\"的關卡社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交到關卡社群...",
+            "Error": "無法提交到關卡\"{0}\"的社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在載入關卡留言...",
+              "Error": "無法載入第 {0} 頁的關卡留言。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在載入關卡排行榜詳細資料...",
+            "Error": "無法載入\"{0}\"的關卡排行榜詳細資料。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入關卡紀錄...",
+              "Error": "無法載入第 {0} 頁的關卡紀錄。"
+            },
+            "Details": {
+              "Loading": "正在載入關卡紀錄詳細資料...",
+              "Error": "無法載入\"{0}\"的關卡紀錄詳細資料。"
+            }
+          }
         },
         "Compatibility": {
           "Loading": "正在檢查關卡相容性…",
@@ -493,29 +974,73 @@
         },
         "Cover": {
           "Loading": "正在載入關卡封面…",
-          "Error": "無法載入關卡\"{0}\"的封面。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入\"{0}\"的關卡封面。"
         },
         "Bgm": {
-          "Loading": "正在載入關卡樂曲…",
-          "Error": "無法載入關卡\"{0}\"的樂曲。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在載入關卡BGM…",
+          "Error": "無法載入\"{0}\"的關卡BGM。"
         },
         "Preview": {
           "Loading": "正在載入關卡預覽…",
-          "Error": "無法載入關卡\"{0}\"的預覽。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入\"{0}\"的關卡預覽。"
         },
         "Data": {
           "Loading": "正在載入關卡數據…",
-          "Error": "無法載入關卡\"{0}\"的數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入\"{0}\"的關卡數據。"
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "正在載入外觀資訊...",
+          "Error": "無法載入\"{0}\"的外觀資訊。"
+        },
+        "Create": {
+          "Loading": "建立外觀...",
+          "Error": "無法在“{0}”中建立外觀。"
+        },
         "List": {
-          "Loading": "正在載入佈景…",
-          "Error": "無法載入佈景第{0}頁。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在載入外觀…",
+          "Error": "無法載入第 {0} 頁的外觀。"
         },
         "Details": {
           "Loading": "正在載入佈景詳情…",
-          "Error": "無法載入佈景\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的外觀詳細資料。"
+        },
+        "Submit": {
+          "Loading": "正在提交外觀...",
+          "Error": "無法提交外觀 \"{0}\"。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在載入社群資訊...",
+            "Error": "無法載入 \"{0}\" 的外觀社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交給外觀社群...",
+            "Error": "無法提交到 \"{0}\" 的外觀社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在載入外觀評論...",
+              "Error": "無法載入第 {0} 頁的外觀留言。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在載入外觀排行榜詳細信息...",
+            "Error": "無法載入 \"{0}\" 的外觀排行榜詳細資料。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入外觀紀錄...",
+              "Error": "無法載入第 {0} 頁的外觀紀錄。"
+            },
+            "Details": {
+              "Loading": "正在載入外觀紀錄詳細資料...",
+              "Error": "無法載入 \"{0}\" 的外觀紀錄詳細資訊。"
+            }
+          }
         },
         "Compatibility": {
           "Loading": "正在檢查佈景相容性…",
@@ -523,25 +1048,69 @@
         },
         "Thumbnail": {
           "Loading": "正在載入佈景縮圖…",
-          "Error": "無法載入佈景\"{0}\"的縮圖。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入 \"{0}\" 的外觀縮圖。"
         },
         "Data": {
           "Loading": "正在載入佈景數據…",
-          "Error": "無法載入佈景\"{0}\"的數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入 \"{0}\" 的外觀資料。"
         },
         "Texture": {
           "Loading": "正在載入佈景材質…",
-          "Error": "無法載入佈景\"{0}\"的材質。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入 \"{0}\" 的外觀紋理。"
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "正在載入背景資訊...",
+          "Error": "無法載入\"{0}\"的背景資訊。"
+        },
+        "Create": {
+          "Loading": "正在建立背景...",
+          "Error": "無法在\"{0}\"中建立背景。"
+        },
         "List": {
           "Loading": "正在載入背景…",
-          "Error": "無法載入背景第{0}頁。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入第 {0} 頁的背景。"
         },
         "Details": {
           "Loading": "正在載入背景詳情…",
-          "Error": "無法載入背景\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入\"{0}\"的背景詳細資料。"
+        },
+        "Submit": {
+          "Loading": "正在提交背景...",
+          "Error": "無法提交背景 \"{0}\"。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在載入背景社群資訊...",
+            "Error": "無法載入\"{0}\"的背景社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交至背景社群...",
+            "Error": "無法提交到\"{0}\"的背景社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在載入背景留言...",
+              "Error": "無法載入第 {0} 頁的背景留言。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在載入背景排行榜詳細資訊...",
+            "Error": "無法載入 \"{0}\" 的後台排行榜詳細資料。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入背景紀錄...",
+              "Error": "無法載入第 {0} 頁的後台紀錄。"
+            },
+            "Details": {
+              "Loading": "正在載入背景紀錄詳細資料...",
+              "Error": "無法載入 \"{0}\" 的後台紀錄詳細資料。"
+            }
+          }
         },
         "Compatibility": {
           "Loading": "正在檢查背景相容性…",
@@ -549,55 +1118,143 @@
         },
         "Thumbnail": {
           "Loading": "正在載入背景縮圖…",
-          "Error": "無法載入背景\"{0}\"的縮圖。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的背景縮圖。"
         },
         "Data": {
           "Loading": "正在載入背景數據…",
-          "Error": "無法載入背景\"{0}\"的數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的後台資料。"
         },
         "Image": {
           "Loading": "正在載入背景圖片…",
-          "Error": "無法載入背景\"{0}\"的圖片。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的背景圖片。"
         },
         "Configuration": {
           "Loading": "正在載入背景設定…",
-          "Error": "無法載入背景\"{0}\"的設定。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的後台配置。"
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "正在載入 SFX 資訊...",
+          "Error": "無法載入 \"{0}\" 的 SFX 資訊。"
+        },
+        "Create": {
+          "Loading": "建立SFX...",
+          "Error": "無法在“{0}”中建立 SFX。"
+        },
         "List": {
-          "Loading": "正在載入SE…",
-          "Error": "無法載入SE詳情第{0}頁。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在載入SFX…",
+          "Error": "無法載入第 {0} 頁的 SFX。"
         },
         "Details": {
-          "Loading": "正在載入SE詳情…",
-          "Error": "無法載入SE\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在載入SFX詳情…",
+          "Error": "無法載入 \"{0}\" 的 SFX 詳細資料。"
+        },
+        "Submit": {
+          "Loading": "*正在提交至 SFX...",
+          "Error": "無法提交到 SFX“{0}”。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在載入 SFX 社群資訊...",
+            "Error": "無法載入 \"{0}\" 的 SFX 社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交給 SFX 社群...",
+            "Error": "無法提交到 \"{0}\" 的 SFX 社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在載入 SFX 留言...",
+              "Error": "無法載入第 {0} 頁的 SFX 評論。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在載入 SFX 排行榜詳細資訊...",
+            "Error": "無法載入 \"{0}\" 的 SFX 排行榜詳細資料。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入 SFX 紀錄...",
+              "Error": "無法載入第 {0} 頁的 SFX 記錄。"
+            },
+            "Details": {
+              "Loading": "正在載入 SFX 記錄詳細資訊...",
+              "Error": "無法載入 \"{0}\" 的 SFX 記錄詳細資訊。"
+            }
+          }
         },
         "Compatibility": {
-          "Loading": "正在檢查SE相容性…",
-          "Error": "SE\"{0}\"與當前的 Sonolus 版本不相容。\n\n請聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在檢查SFX相容性…",
+          "Error": "SFX\"{0}\"與當前的 Sonolus 版本不相容。\n\n請聯絡伺服器擁有人報告這個問題。"
         },
         "Thumbnail": {
-          "Loading": "正在載入SE縮圖…",
-          "Error": "無法載入SE\"{0}\"的縮圖。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在載入SFX縮圖…",
+          "Error": "無法載入 \"{0}\" 的 SFX 縮圖。"
         },
         "Data": {
-          "Loading": "正在載入SE數據…",
-          "Error": "無法載入SE\"{0}\"的數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在載入SFX數據…",
+          "Error": "無法載入 \"{0}\" 的 SFX 資料。"
         },
         "Audio": {
-          "Loading": "正在載入SE片段…",
-          "Error": "無法載入SE\"{0}\"的片段。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Loading": "正在載入SFX片段…",
+          "Error": "無法載入 \"{0}\" 的 SFX 音訊。"
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "正在載入粒子資訊...",
+          "Error": "無法載入 \"{0}\" 的粒子資訊。"
+        },
+        "Create": {
+          "Loading": "建立粒子...",
+          "Error": "無法在“{0}”中建立粒子。"
+        },
         "List": {
           "Loading": "正在載入粒子效果…",
-          "Error": "無法載入粒子效果第{0}頁。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法在第 {0} 頁載入粒子。"
         },
         "Details": {
           "Loading": "正在載入粒子效果詳情…",
-          "Error": "無法載入粒子效果\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的粒子詳細資訊。"
+        },
+        "Submit": {
+          "Loading": "提交給粒子...",
+          "Error": "無法提交到粒子“{0}”。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在載入粒子社群資訊...",
+            "Error": "無法載入 \"{0}\" 的粒子社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交給粒子社區...",
+            "Error": "無法提交到 \"{0}\" 的粒子社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在加載粒子評論...",
+              "Error": "無法載入第 {0} 頁的粒子註解。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在加載粒子排行榜詳細資料...",
+            "Error": "無法載入“{0}”的粒子排行榜詳細資訊。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入粒子記錄...",
+              "Error": "無法載入第 {0} 頁的粒子記錄。"
+            },
+            "Details": {
+              "Loading": "正在載入粒子記錄詳細資料...",
+              "Error": "無法載入“{0}”的粒子記錄詳細資訊。"
+            }
+          }
         },
         "Compatibility": {
           "Loading": "正在檢查粒子效果相容性…",
@@ -605,25 +1262,69 @@
         },
         "Thumbnail": {
           "Loading": "正在載入粒子效果縮圖…",
-          "Error": "無法載入粒子效果\"{0}\"的縮圖。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的粒子縮圖。"
         },
         "Data": {
           "Loading": "正在載入粒子效果數據…",
-          "Error": "無法載入粒子效果\"{0}\"的數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的粒子資料。"
         },
         "Texture": {
           "Loading": "正在載入粒子效果材質…",
-          "Error": "無法載入粒子效果\"{0}\"的材質。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的粒子紋理。"
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "正在載入引擎資訊...",
+          "Error": "無法載入 \"{0}\" 的引擎資訊。"
+        },
+        "Create": {
+          "Loading": "正在創建引擎...",
+          "Error": "無法在 \"{0}\" 中建立引擎。"
+        },
         "List": {
           "Loading": "正在載入引擎…",
-          "Error": "無法載入引擎第{0}頁。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入第 {0} 頁的引擎。"
         },
         "Details": {
           "Loading": "正在載入引擎詳情…",
-          "Error": "無法載入引擎\"{0}\"的詳情。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的引擎詳細資料。"
+        },
+        "Submit": {
+          "Loading": "正在提交給引擎...",
+          "Error": "無法提交到引擎“{0}”。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在加載引擎社區資訊...",
+            "Error": "無法載入 \"{0}\" 的引擎社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交給引擎社區...",
+            "Error": "無法提交到 \"{0}\" 的引擎社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在加載引擎評論...",
+              "Error": "無法載入第 {0} 頁的引擎評論。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在加載引擎排行榜詳細資訊...",
+            "Error": "無法載入 \"{0}\" 的引擎排行榜詳細資料。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入引擎紀錄...",
+              "Error": "無法載入第 {0} 頁的引擎記錄。"
+            },
+            "Details": {
+              "Loading": "正在載入引擎紀錄詳細資料...",
+              "Error": "無法載入 \"{0}\" 的引擎記錄詳細資料。"
+            }
+          }
         },
         "Compatibility": {
           "Loading": "正在檢查引擎相容性…",
@@ -631,31 +1332,167 @@
         },
         "Thumbnail": {
           "Loading": "正在載入引擎縮圖…",
-          "Error": "無法載入引擎\"{0}\"的縮圖。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入 \"{0}\" 的引擎縮圖。"
         },
         "PlayData": {
           "Loading": "正在載入引擎遊戲數據…",
-          "Error": "無法載入引擎\"{0}\"的遊戲數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入 \"{0}\" 的引擎播放模式資料。"
         },
         "WatchData": {
           "Loading": "正在載入引擎演示模式數據…",
-          "Error": "無法載入引擎\"{0}\"的演示模式數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入\"{0}\"的引擎演示模式數據。"
         },
         "PreviewData": {
           "Loading": "正在載入引擎預覽模式數據…",
-          "Error": "無法載入引擎\"{0}\"的預覽數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入 \"{0}\" 的引擎預覽模式資料。"
         },
         "TutorialData": {
           "Loading": "正在載入引擎教學模式數據…",
-          "Error": "無法載入引擎\"{0}\"的遊戲教學模式數據。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入 \"{0}\" 的引擎教學模式資料。"
         },
         "Rom": {
           "Loading": "正在載入引擎ROM…",
-          "Error": "無法載入引擎\"{0}\"的ROM。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入“{0}”的引擎 ROM。"
         },
         "Configuration": {
           "Loading": "正在載入引擎設定…",
-          "Error": "無法載入引擎\"{0}\"的設定。\n\n請檢查你的互聯網連接並重試，或聯絡伺服器擁有人報告這個問題。"
+          "Error": "無法載入 \"{0}\" 的引擎配置。"
+        }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "正在載入重播資訊...",
+          "Error": "無法載入 \"{0}\" 的重播資訊。"
+        },
+        "Create": {
+          "Loading": "正在建立重播...",
+          "Error": "無法在 \"{0}\" 中建立重播。"
+        },
+        "List": {
+          "Loading": "正在載入重播...",
+          "Error": "無法載入第 {0} 頁的重播。"
+        },
+        "Details": {
+          "Loading": "正在載入重播詳細資訊...",
+          "Error": "無法載入 \"{0}\" 的重播詳細資料。"
+        },
+        "Submit": {
+          "Loading": "正在提交重播...",
+          "Error": "無法提交重播“{0}”。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在載入重播社群資訊...",
+            "Error": "無法載入「{0}」的重播社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交給重播社群...",
+            "Error": "無法提交到 \"{0}\" 的重播社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在加載重播評論...",
+              "Error": "無法載入第 {0} 頁的重播評論。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在加載重播排行榜詳細資訊...",
+            "Error": "無法載入 \"{0}\" 的重播排行榜詳細資料。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在載入重播記錄...",
+              "Error": "無法載入第 {0} 頁的重播記錄。"
+            },
+            "Details": {
+              "Loading": "正在載入重播記錄詳細資訊...",
+              "Error": "無法載入 \"{0}\" 的重播記錄詳細資料。"
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "正在檢查重播相容性...",
+          "Error": "重播 \"{0}\" 與目前 Sonolus 版本不相容。\n\n請使用不同的重播，或聯絡伺服器擁有者回報問題。"
+        },
+        "Data": {
+          "Loading": "正在載入重播資料...",
+          "Error": "無法載入 \"{0}\" 的重播資料。"
+        },
+        "Configuration": {
+          "Loading": "正在載入重播配置...",
+          "Error": "無法載入 \"{0}\" 的重播配置。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "正在載入房間資訊...",
+          "Error": "無法載入 \"{0}\" 的房間資訊。"
+        },
+        "Create": {
+          "Loading": "正在創建房間...",
+          "Error": "無法在“{0}”中建立房間。"
+        },
+        "List": {
+          "Loading": "正在載入房間...",
+          "Error": "無法載入第 {0} 頁的房間。"
+        },
+        "Details": {
+          "Loading": "正在載入房間詳細資料...",
+          "Error": "無法載入“{0}”的房間詳細資料。"
+        },
+        "Submit": {
+          "Loading": "正在提交至房間...",
+          "Error": "無法提交到房間“{0}”。"
+        },
+        "Community": {
+          "Info": {
+            "Loading": "正在加載房間社區資訊...",
+            "Error": "無法載入 \"{0}\" 的房間社群資訊。"
+          },
+          "Submit": {
+            "Loading": "正在提交給房間社區...",
+            "Error": "無法提交至 \"{0}\" 的房間社群。"
+          },
+          "Comment": {
+            "List": {
+              "Loading": "正在加載房間評論...",
+              "Error": "無法載入第 {0} 頁的房間評論。"
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "正在加載房間排行榜詳細資訊...",
+            "Error": "無法載入 \"{0}\" 的房間排行榜詳細資料。"
+          },
+          "Record": {
+            "List": {
+              "Loading": "正在加載房間記錄...",
+              "Error": "無法載入第 {0} 頁的房間記錄。"
+            },
+            "Details": {
+              "Loading": "正在加載房間記錄詳細資料...",
+              "Error": "無法載入 \"{0}\" 的房間紀錄詳細資料。"
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "正在檢查房間相容性...",
+          "Error": "房間 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n請使用其他房間，或聯絡伺服器擁有者報告問題。"
+        },
+        "Cover": {
+          "Loading": "正在載入房間封面...",
+          "Error": "無法載入 \"{0}\" 的房間關卡封面。"
+        },
+        "Bgm": {
+          "Loading": "正在加載房間級別 BGM...",
+          "Error": "無法載入\"{0}\"的房間關卡 BGM。"
+        },
+        "Preview": {
+          "Loading": "正在載入房間關卡預覽...",
+          "Error": "無法載入 \"{0}\" 的房間關卡。"
         }
       }
     },
@@ -670,7 +1507,55 @@
           "Error": "無法載入收藏\"{0}\"的橫幅。\n\n你的收藏可能已損壞。"
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "正在載入貼文資訊...",
+          "Error": "無法載入 \"{0}\" 的貼文資訊。\n\n您的收藏可能已損壞。"
+        },
+        "List": {
+          "Loading": "正在載入貼文...",
+          "Error": "無法載入第 {0} 頁上的貼文。\n\n您的收藏可能已損壞。"
+        },
+        "Details": {
+          "Loading": "正在載入貼文詳細資訊...",
+          "Error": "無法載入\"{0}\"的貼文詳細資訊。\n\n您的收藏可能已損壞。"
+        },
+        "Compatibility": {
+          "Loading": "檢查帖子相容性...",
+          "Error": "貼文 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n請更新此貼文，或使用其他貼文。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加載帖子縮圖...",
+          "Error": "無法載入 \"{0}\" 的貼文縮圖。\n\n請更新此貼文，或使用其他貼文。"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "正在載入播放清單資訊...",
+          "Error": "無法載入 \"{0}\" 的播放清單資訊。\n\n您的收藏可能已損壞。"
+        },
+        "List": {
+          "Loading": "正在載入播放清單...",
+          "Error": "無法載入第 {0} 頁的播放清單。\n\n您的收藏可能已損壞。"
+        },
+        "Details": {
+          "Loading": "正在載入播放清單詳細資訊...",
+          "Error": "無法載入“{0}”的播放清單詳細資訊。\n\n您的收藏可能已損壞。"
+        },
+        "Compatibility": {
+          "Loading": "正在檢查播放清單相容性...",
+          "Error": "播放清單 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n請更新此播放列表，或使用其他播放清單。"
+        },
+        "Thumbnail": {
+          "Loading": "正在載入播放清單縮圖...",
+          "Error": "無法載入 \"{0}\" 的播放清單縮圖。\n\n請更新此播放列表，或使用其他播放清單。"
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "正在加載關卡資訊...",
+          "Error": "無法載入 \"{0}\" 的關卡資訊。\n\n您的收藏可能已損壞。"
+        },
         "List": {
           "Loading": "正在載入關卡…",
           "Error": "無法載入關卡第{0}頁。\n\n你的收藏可能已損壞。"
@@ -688,7 +1573,7 @@
           "Error": "無法載入關卡\"{0}\"的封面。\n\n請更新此關卡，或使用不同的關卡。"
         },
         "Bgm": {
-          "Loading": "正在載入關卡樂曲…",
+          "Loading": "正在載入關卡背景音樂...",
           "Error": "無法載入關卡\"{0}\"的樂曲。\n\n請更新此關卡，或遊玩不同的關卡。"
         },
         "Preview": {
@@ -701,6 +1586,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "正在加載外觀資訊...",
+          "Error": "無法載入 \"{0}\" 的外觀資訊。\n\n您的收藏可能已損壞。"
+        },
         "List": {
           "Loading": "正在載入佈景…",
           "Error": "無法載入佈景第{0}頁。\n\n你的收藏可能已損壞。"
@@ -727,6 +1616,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "正在載入背景資訊...",
+          "Error": "無法載入 \"{0}\" 的背景資訊。\n\n您的收藏可能已損壞。"
+        },
         "List": {
           "Loading": "正在載入背景…",
           "Error": "無法載入背景第{0}頁。\n\n你的收藏可能已損壞。"
@@ -757,32 +1650,40 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "正在載入 SFX 資訊...",
+          "Error": "無法載入SFX\"{0}\"的資訊。\n\n您的收藏可能已損壞。"
+        },
         "List": {
-          "Loading": "正在載入SE…",
-          "Error": "無法載入SE第{0}頁。\n\n你的收藏可能已損壞。"
+          "Loading": "正在載入SFX…",
+          "Error": "無法載入SFX第{0}頁。\n\n你的收藏可能已損壞。"
         },
         "Details": {
-          "Loading": "正在載入SE詳情…",
-          "Error": "無法載入SE詳情第{0}頁。\n\n你的收藏可能已損壞。"
+          "Loading": "正在載入SFX詳情…",
+          "Error": "無法載入SFX詳情第{0}頁。\n\n你的收藏可能已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查SE相容性…",
-          "Error": "SE\"{0}\"與當前的 Sonolus 版本不相容。\n\n請更新此SE，或使用不同的SE。"
+          "Loading": "正在檢查SFX相容性…",
+          "Error": "SFX\"{0}\"與當前的 Sonolus 版本不相容。\n\n請更新此SFX，或使用不同的SFX。"
         },
         "Thumbnail": {
-          "Loading": "正在載入SE縮圖…",
-          "Error": "無法載入SE\"{0}\"的縮圖。\n\n請更新此SE，或使用不同的SE。"
+          "Loading": "正在載入SFX縮圖…",
+          "Error": "無法載入SFX\"{0}\"的縮圖。\n\n請更新此SFX，或使用不同的SFX。"
         },
         "Data": {
-          "Loading": "正在載入SE數據…",
-          "Error": "無法載入SE\"{0}\"的數據。\n\n請更新此SE，或使用不同的SE。"
+          "Loading": "正在載入SFX數據…",
+          "Error": "無法載入SFX\"{0}\"的數據。\n\n請更新此SFX，或使用不同的SFX。"
         },
         "Audio": {
-          "Loading": "正在載入SE片段…",
-          "Error": "無法載入SE\"{0}\"的片段。\n\n請更新此SE，或使用不同的SE。"
+          "Loading": "正在載入SFX片段…",
+          "Error": "無法載入SFX\"{0}\"的片段。\n\n請更新此SFX，或使用不同的SFX。"
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "正在載入粒子資訊...",
+          "Error": "無法載入 \"{0}\" 的粒子資訊。\n\n您的收藏可能已損壞。"
+        },
         "List": {
           "Loading": "正在載入粒子效果…",
           "Error": "無法載入粒子效果第{0}頁。\n\n你的收藏可能已損壞。"
@@ -809,6 +1710,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "正在載入引擎資訊...",
+          "Error": "無法載入 \"{0}\" 的引擎資訊。\n\n您的收藏可能已損壞。"
+        },
         "List": {
           "Loading": "正在載入引擎…",
           "Error": "無法載入引擎第{0}頁。\n\n你的收藏可能已損壞。"
@@ -826,8 +1731,8 @@
           "Error": "無法載入引擎\"{0}\"的縮圖。\n\n請更新此引擎，或使用不同的引擎。"
         },
         "PlayData": {
-          "Loading": "正在載入引擎遊戲數據…",
-          "Error": "無法載入引擎\"{0}\"的遊戲數據。\n\n請更新此引擎，或使用不同的引擎。"
+          "Loading": "正在載入引擎遊戲模式數據…",
+          "Error": "無法載入引擎\"{0}\"的遊戲模式數據。\n\n請更新此引擎，或使用不同的引擎。"
         },
         "WatchData": {
           "Loading": "正在載入引擎演示模式數據…",
@@ -849,27 +1754,135 @@
           "Loading": "正在載入引擎設定…",
           "Error": "無法載入引擎\"{0}\"的設定。\n\n請更新此引擎，或使用不同的引擎。"
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "正在載入重播資訊...",
+          "Error": "無法載入 \"{0}\" 的重播資訊。\n\n您的收藏可能已損壞。"
+        },
+        "List": {
+          "Loading": "正在載入重播...",
+          "Error": "無法載入第 {0} 頁的重播。\n\n您的收藏可能已損壞。"
+        },
+        "Details": {
+          "Loading": "正在加載重播詳細資訊...",
+          "Error": "無法載入 \"{0}\" 的重播詳細資料。\n\n您的收藏可能已損壞。"
+        },
+        "Compatibility": {
+          "Loading": "正在檢查重播相容性...",
+          "Error": "重播“{0}”與目前 Sonolus 版本不相容。\n\n請更新此重播，或使用不同的重播。"
+        },
+        "Data": {
+          "Loading": "正在載入重播資料...",
+          "Error": "無法載入 \"{0}\" 的重播資料。\n\n請更新此重播，或使用不同的重播。"
+        },
+        "Configuration": {
+          "Loading": "正在載入重播配置...",
+          "Error": "無法載入 \"{0}\" 的重播配置。\n\n請更新此重播，或使用不同的重播。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "正在加載房間資訊...",
+          "Error": "無法載入 \"{0}\" 的房間資訊。\n\n您的收藏可能已損壞。"
+        },
+        "List": {
+          "Loading": "正在加載房間...",
+          "Error": "無法載入第 {0} 頁的房間。\n\n您的收藏可能已損壞。"
+        },
+        "Details": {
+          "Loading": "正在加載房間詳細資料...",
+          "Error": "無法載入“{0}”的房間詳細資料。\n\n您的收藏可能已損壞。"
+        },
+        "Compatibility": {
+          "Loading": "檢查房間相容性...",
+          "Error": "房間 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n請更新此房間，或使用其他房間。"
+        },
+        "Cover": {
+          "Loading": "正在加載房間層蓋...",
+          "Error": "無法載入 \"{0}\" 的房間層覆蓋。\n\n請更新此房間，或使用其他房間。"
+        },
+        "Bgm": {
+          "Loading": "正在加載房間級別 BGM...",
+          "Error": "無法載入 \"{0}\" 的房間等級 BGM。\n\n請更新此房間，或使用其他房間。"
+        },
+        "Preview": {
+          "Loading": "正在加載房間級別預覽...",
+          "Error": "無法載入 \"{0}\" 的房間關卡預覽。\n\n請更新此房間，或使用其他房間。"
+        }
       }
     },
     "Scp": {
+      "PackageInfo": {
+        "Loading": "正在載入收藏包資訊…",
+        "Error": "無法載入 \"{0}\" 的收藏包資訊。\n\n您的軟體包可能不受支援或已損壞。"
+      },
       "Server": {
         "Info": {
           "Loading": "正在載入收藏包資訊…",
-          "Error": "無法載入收藏包\"{0}\"的資訊。\n\n你的收藏包可能不受支持或已損壞。"
+          "Error": "無法載入收藏包 \"{0}\" 的資訊。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Banner": {
           "Loading": "正在載入收藏包橫幅…",
           "Error": "無法載入收藏包\"{0}\"的橫幅。\n\n你的收藏包可能不受支持或已損壞。"
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "正在載入貼文資訊...",
+          "Error": "無法載入 \"{0}\" 的貼文資訊。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "List": {
+          "Loading": "正在載入貼文...",
+          "Error": "無法載入第 {0} 頁上的貼文。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Details": {
+          "Loading": "正在加載帖子詳細信息...",
+          "Error": "無法加載 \"{0}\" 的帖子詳細資訊。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Compatibility": {
+          "Loading": "檢查帖子相容性...",
+          "Error": "貼文 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Thumbnail": {
+          "Loading": "正在加載帖子縮圖...",
+          "Error": "無法載入 \"{0}\" 的貼文縮圖。\n\n您的軟體包可能不受支援或已損壞。"
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "正在載入播放清單資訊...",
+          "Error": "無法載入 \"{0}\" 的播放清單資訊。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "List": {
+          "Loading": "正在載入播放清單...",
+          "Error": "無法載入第 {0} 頁的播放清單。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Details": {
+          "Loading": "正在載入播放清單詳細資訊...",
+          "Error": "無法載入 \"{0}\" 的播放清單詳細資訊。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Compatibility": {
+          "Loading": "正在檢查播放清單相容性...",
+          "Error": "播放清單 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Thumbnail": {
+          "Loading": "正在載入播放清單縮圖...",
+          "Error": "無法載入 \"{0}\" 的播放清單縮圖。\n\n您的軟體包可能不受支援或已損壞。"
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "正在加載關卡資訊...",
+          "Error": "無法載入 \"{0}\" 的層級資訊。\n\n您的軟體包可能不受支援或已損壞。"
+        },
         "List": {
           "Loading": "正在載入關卡…",
           "Error": "無法載入關卡第{0}頁。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Details": {
           "Loading": "正在載入關卡詳情…",
-          "Error": "無法載入關卡\"{0}\"的詳情。\n\n你的收藏包可能不受支持或已損壞。"
+          "Error": "無法載入關卡 \"{0}\" 的詳情。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Compatibility": {
           "Loading": "正在檢查關卡相容性…",
@@ -893,6 +1906,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "正在載入外觀資訊...",
+          "Error": "無法載入\"{0}\"的外觀資訊。\n\n您的收藏包可能不受支援或已損壞。"
+        },
         "List": {
           "Loading": "正在載入佈景…",
           "Error": "無法載入佈景第{0}頁。\n\n你的收藏包可能不受支持或已損壞。"
@@ -919,6 +1936,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "正在載入背景資訊...",
+          "Error": "無法載入\"{0}\"的背景資訊。\n\n您的收藏包可能不受支援或已損壞。"
+        },
         "List": {
           "Loading": "正在載入背景…",
           "Error": "無法載入背景第{0}頁。\n\n你的收藏包可能不受支持或已損壞。"
@@ -949,32 +1970,40 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "正在載入 SFX 資訊...",
+          "Error": "無法載入\"{0}\"的 SFX 資訊。\n\n您的收藏包可能不受支援或已損壞。"
+        },
         "List": {
-          "Loading": "正在載入SE…",
-          "Error": "無法載入SE第{0}頁。\n\n你的收藏包可能不受支持已損壞。"
+          "Loading": "正在載入SFX...",
+          "Error": "無法載入SFX第{0}頁。\n\n你的收藏包可能不受支持已損壞。"
         },
         "Details": {
-          "Loading": "正在載入SE詳情…",
-          "Error": "無法載入SE\"{0}\"的詳情。\n\n你的收藏包可能不受支持或已損壞。"
+          "Loading": "正在載入SFX詳情…",
+          "Error": "無法載入SFX\"{0}\"的詳情。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Compatibility": {
-          "Loading": "正在檢查SE相容性…",
-          "Error": "SE\"{0}\"與當前的 Sonolus 版本不相容。\n\n你的收藏包可能不受支持或已損壞。"
+          "Loading": "正在檢查SFX相容性…",
+          "Error": "SFX\"{0}\"與當前的 Sonolus 版本不相容。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Thumbnail": {
-          "Loading": "正在載入SE縮圖…",
-          "Error": "無法載入SE\"{0}\"的縮圖。\n\n你的收藏包可能不受支持或已損壞。"
+          "Loading": "正在載入SFX縮圖…",
+          "Error": "無法載入SFX\"{0}\"的縮圖。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Data": {
-          "Loading": "正在載入SE數據…",
-          "Error": "無法載入SE\"{0}\"的數據。\n\n你的收藏包可能不受支持或已損壞。"
+          "Loading": "正在載入SFX數據…",
+          "Error": "無法載入SFX\"{0}\"的數據。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "Audio": {
-          "Loading": "正在載入SE片段…",
-          "Error": "無法載入SE\"{0}\"的片段。\n\n你的收藏包可能不受支持或已損壞。"
+          "Loading": "正在載入SFX片段…",
+          "Error": "無法載入SFX\"{0}\"的片段。\n\n你的收藏包可能不受支持或已損壞。"
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "正在載入粒子資訊...",
+          "Error": "無法載入 \"{0}\" 的粒子資訊。\n\n您的軟體包可能不受支援或已損壞。"
+        },
         "List": {
           "Loading": "正在載入粒子效果…",
           "Error": "無法載入粒子效果第{0}頁。\n\n你的收藏包可能不受支持或已損壞。"
@@ -1001,6 +2030,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "正在載入引擎資訊...",
+          "Error": "無法載入\"{0}\"的引擎資訊。\n\n您的收藏包可能不受支援或已損壞。"
+        },
         "List": {
           "Loading": "正在載入引擎…",
           "Error": "無法載入引擎第{0}頁。\n\n你的收藏包可能不受支持或已損壞。"
@@ -1018,8 +2051,8 @@
           "Error": "無法載入引擎\"{0}\"的縮圖。\n\n你的收藏包可能不受支持或已經損毀。"
         },
         "PlayData": {
-          "Loading": "正在載入引擎遊戲數據…",
-          "Error": "無法載入引擎\"{0}\"的遊戲數據。\n\n你的收藏包可能不受支持或已損壞。"
+          "Loading": "正在載入引擎遊戲模式數據…",
+          "Error": "無法載入引擎\"{0}\"的遊戲模式數據。\n\n你的收藏包可能不受支持或已損壞。"
         },
         "WatchData": {
           "Loading": "正在載入引擎演示模式數據…",
@@ -1041,7 +2074,71 @@
           "Loading": "正在載入引擎設定…",
           "Error": "無法載入引擎\"{0}\"的設定。\n\n你的收藏包可能不受支持或已經損毀。"
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "正在載入重播資訊...",
+          "Error": "無法載入\"{0}\"的重播資訊。\n\n您的收藏包可能不受支援或已損壞。"
+        },
+        "List": {
+          "Loading": "正在載入重播...",
+          "Error": "無法載入第 {0} 頁的重播。\n\n您的收藏包可能不受支援或已損壞。"
+        },
+        "Details": {
+          "Loading": "正在載入重播詳細資訊...",
+          "Error": "無法載入\"{0}\"的重播詳細資料。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Compatibility": {
+          "Loading": "正在檢查重播相容性...",
+          "Error": "重播\"{0}\"與目前 Sonolus 版本不相容。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Data": {
+          "Loading": "正在載入重播資料...",
+          "Error": "無法載入\"{0}\"的重播資料。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Configuration": {
+          "Loading": "正在載入重播配置...",
+          "Error": "無法載入\"{0}\"的重播配置。\n\n您的軟體包可能不受支援或已損壞。"
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "正在載入房間資訊...",
+          "Error": "無法載入\"{0}\"的房間資訊。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "List": {
+          "Loading": "正在載入房間...",
+          "Error": "無法載入第 {0} 頁的房間。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Details": {
+          "Loading": "正在載入房間詳細資料...",
+          "Error": "無法載入 \"{0}\" 的房間詳細資料。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Compatibility": {
+          "Loading": "檢查房間相容性...",
+          "Error": "房間 \"{0}\" 與目前的 Sonolus 版本不相容。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Cover": {
+          "Loading": "正在加載房間層蓋...",
+          "Error": "無法載入 \"{0}\" 的房間關卡封面。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Bgm": {
+          "Loading": "正在載入房間關卡 BGM...",
+          "Error": "無法載入 \"{0}\" 的房間關卡 BGM。\n\n您的軟體包可能不受支援或已損壞。"
+        },
+        "Preview": {
+          "Loading": "正在載入房間關卡預覽...",
+          "Error": "無法載入 \"{0}\" 的房間關卡預覽。\n\n您的軟體包可能不受支援或已損壞。"
+        }
       }
+    },
+    "Multiplayer": {
+      "Connect": {
+        "Loading": "正在連接...",
+        "Error": "無法連接到房間“{0}”。\n\n請檢查您的網路連線並重試，或聯絡伺服器擁有者報告問題。"
+      },
+      "Disconnected": "您已與多人遊戲房間斷開連線。",
+      "Error": "多人遊戲室發生致命錯誤。\n\n請聯絡伺服器擁有者報告問題。"
     }
   },
   "DeepLink": {
@@ -1057,6 +2154,22 @@
     "Back": "返回"
   },
   "Routes": {
+    "ExternalLogin": {
+      "NotLoggedInError": {
+        "Description": "您尚未使用 Sonolus 帳號登入。\n\n請先使用您的 Sonolus 帳戶登錄，然後再試一次。"
+      },
+      "Confirmation": {
+        "Description": "You are signing in to external service:\n{0}\n\nSign in as \"{1}\"?"
+      },
+      "Login": {
+        "Loading": "登入中...",
+        "Error": "無法登入外部服務“{0}”。"
+      },
+      "Success": {
+        "Title": "已登入",
+        "Description": "伺服器回應：{0}"
+      }
+    },
     "JumpToPage": {
       "Title": "跳轉到",
       "Page": {
@@ -1069,7 +2182,7 @@
     "SelectLocalization": {
       "Title": "選擇語言",
       "Description": "選擇你想使用的介面語言：",
-      "Error": "加載語言失敗。"
+      "Error": "載入語言失敗。"
     },
     "SelectTheme": {
       "Title": "選擇主題",
@@ -1095,13 +2208,21 @@
         "Description": "選擇一個自訂伺服器或是收藏已開始遊戲。"
       },
       "ToSave": {
+        "Post": {
+          "Title": "儲存貼文",
+          "Description": "選擇一個收藏來儲存這篇文章。"
+        },
+        "Playlist": {
+          "Title": "儲存播放清單",
+          "Description": "選擇一個收藏來儲存該播放清單。"
+        },
         "Level": {
           "Title": "儲存關卡",
           "Description": "選擇一個收藏以儲存此關卡。"
         },
         "Skin": {
           "Title": "儲存外觀",
-          "Description": "選擇一個收藏來保存這個外觀。"
+          "Description": "選擇一個收藏來儲存這個外觀。"
         },
         "Background": {
           "Title": "儲存關卡",
@@ -1118,9 +2239,67 @@
         "Engine": {
           "Title": "儲存引擎",
           "Description": "選擇一個收藏來儲存這個引擎。"
+        },
+        "Replay": {
+          "Title": "儲存重播",
+          "Description": "選擇一個收藏來儲存該重播。"
+        },
+        "Room": {
+          "Title": "儲存房間",
+          "Description": "選擇一個集合來保存該房間。"
+        }
+      },
+      "ToCreate": {
+        "Post": {
+          "Title": "建立貼文",
+          "Description": "選擇一個集合來建立此帖子。"
+        },
+        "Playlist": {
+          "Title": "建立播放清單",
+          "Description": "選擇一個集合來建立此播放清​​單。"
+        },
+        "Level": {
+          "Title": "創建關卡",
+          "Description": "選擇一個集合來建立此層級。"
+        },
+        "Skin": {
+          "Title": "創造皮膚",
+          "Description": "選擇一個集合來建立此皮膚。"
+        },
+        "Background": {
+          "Title": "創建背景",
+          "Description": "選擇一個集合來建立此背景。"
+        },
+        "Effect": {
+          "Title": "創造效果",
+          "Description": "選擇一個集合來建立此效果。"
+        },
+        "Particle": {
+          "Title": "創建粒子",
+          "Description": "選擇一個集合來建立此粒子。"
+        },
+        "Engine": {
+          "Title": "創建引擎",
+          "Description": "選擇一個集合來建立此引擎。"
+        },
+        "Replay": {
+          "Title": "建立重播",
+          "Description": "選擇一個集合來建立此重播。"
+        },
+        "Room": {
+          "Title": "創建房間",
+          "Description": "選擇一個集合來建立此房間。"
         }
       },
       "ToUse": {
+        "Post": {
+          "Title": "選擇貼文",
+          "Description": "選擇自訂伺服器或集合以使用其貼文。"
+        },
+        "Playlist": {
+          "Title": "選擇播放列表",
+          "Description": "選擇自訂伺服器或集合以使用其播放清單。"
+        },
         "Level": {
           "Title": "選擇難度",
           "Description": "選擇一個自訂伺服器或收藏以使用其級別。"
@@ -1144,33 +2323,19 @@
         "Engine": {
           "Title": "選擇引擎",
           "Description": "選擇一個自訂伺服器或收藏以使用其引擎。"
+        },
+        "Replay": {
+          "Title": "選擇重播",
+          "Description": "選擇自訂伺服器或收藏以使用其重播。"
+        },
+        "Room": {
+          "Title": "選擇房間",
+          "Description": "選擇自訂伺服器或收藏以使用其房間。"
         }
       },
       "ToAddFavorite": {
-        "Level": {
-          "Title": "添加收藏級別",
-          "Description": "選擇一個自訂伺服器以將其級別添加到收藏。"
-        },
-        "Skin": {
-          "Title": "添加最喜歡的外觀",
-          "Description": "選擇一個自訂伺服器以將其外觀添加到收藏。"
-        },
-        "Background": {
-          "Title": "添加最喜歡的背景",
-          "Description": "選擇一個自訂伺服器以將其背景添加到收藏。"
-        },
-        "Effect": {
-          "Title": "添加收藏效果",
-          "Description": "選擇一個自訂伺服器以將其效果添加到收藏。"
-        },
-        "Particle": {
-          "Title": "添加最喜歡的粒子",
-          "Description": "選擇一個自訂伺服器以將其粒子添加到收藏。"
-        },
-        "Engine": {
-          "Title": "添加收藏引擎",
-          "Description": "選擇一個自訂伺服器以將其引擎添加到收藏。"
-        }
+        "Title": "新增至收藏夾",
+        "Description": "選擇一個自訂伺服器以將其項目新增至收藏夾。"
       }
     },
     "EditCustomServer": {
@@ -1180,7 +2345,7 @@
       "Title": "新增自訂伺服器",
       "Address": {
         "Title": "網址",
-        "Description": "自訂伺服器網址是一個普通的網址（「https://...」），通常可以在自訂伺服器的網頁上找到。",
+        "Description": "自訂伺服器網址是一個普通的網址（https://...」），通常可以在自訂伺服器的網站上找到。",
         "Placeholder": "輸入自訂伺服器網址…"
       }
     },
@@ -1195,11 +2360,11 @@
     "EditCollection": {
       "Title": "編輯收藏"
     },
-    "AddCollection": {
-      "Title": "新增收藏",
+    "CreateCollection": {
+      "Title": "建立收藏",
       "Name": {
         "Title": "名稱",
-        "Description": "任意填入你想要的名稱～",
+        "Description": "取任何名稱都可以喔！",
         "Placeholder": "輸入收藏名稱..."
       }
     },
@@ -1210,6 +2375,18 @@
       },
       "Success": {
         "Title": "已導入收藏包"
+      }
+    },
+    "ExportScpConfiguration": {
+      "Title": "匯出配置",
+      "Mode": {
+        "Title": "模式",
+        "Description": "推薦使用標準模式。\n\n具有來源的項目可以作為來源連結匯出，從而大幅減小套件大小，但導入時需要連接網路。\n標準模式導出帶有來源的項目作為鏈接，以及完全導出沒有來源的項目。僅來源模式僅匯出來源為連結的項目。完整模式完全匯出所有項目。",
+        "Options": {
+          "Standard": "標準",
+          "SourceOnly": "僅限來源",
+          "Full": "全部"
+        }
       }
     },
     "ExportScp": {
@@ -1271,7 +2448,7 @@
     },
     "CalibrateInput": {
       "Title": "校準輸入",
-      "Description": "通過點擊螢幕來校準輸入。請先請確保正確校準您的音頻偏移。\n如果您習慣了不提供此類選項的遊戲，可以將這個選項保持為0。",
+      "Description": "通過點擊螢幕來校準輸入。請先請確保已正確校準您的音頻偏移。\n如果您習慣了不提供此類選項的遊戲，可以將這個選項保持為0。",
       "Result": "推薦偏移：{0} (±{1})"
     },
     "Home": {
@@ -1279,10 +2456,11 @@
       "Play": "遊玩",
       "Players": "玩家",
       "Account": "帳號",
+      "Link": "連結",
       "Settings": "設定",
       "UpdateAvailable": {
         "Title": "有可用更新",
-        "Description": "Sonolus {0} 版本已發佈！\n\n請瀏覽我們的網頁：\nhttps://sonolus.com",
+        "Description": "Sonolus {0} 版本已發佈！\n\n請瀏覽我們的網站：\nhttps://sonolus.com",
         "Open": "打開"
       }
     },
@@ -1298,6 +2476,29 @@
         "Lookup": "尋找"
       }
     },
+    "Link": {
+      "Title": "連結",
+      "QRCode": {
+        "Title": "QR Code",
+        "Camera": "相機",
+        "Gallery": "圖片庫"
+      },
+      "Text": {
+        "Title": "文字",
+        "TextLink": {
+          "Title": "文字連結",
+          "Description": "一個格式\"sonolus://...\"的連結。",
+          "Placeholder": "輸入文字連結..."
+        },
+        "Open": "開啟"
+      },
+      "NotDeepLink": {
+        "Description": "連結“{0}”不是“sonolus://...”連結。\n\n您想將其作為自訂伺服器開啟嗎？"
+      },
+      "LinkError": {
+        "Description": "未找到有效連結。"
+      }
+    },
     "Account": {
       "Title": "帳號",
       "MyAccount": {
@@ -1305,7 +2506,7 @@
         "Login": {
           "Apple": "使用Apple登入",
           "Google": "使用Google登入",
-          "Wechat": "使用微信登入"
+          "Wechat": "使用WeChat登入"
         },
         "Profile": "簡介",
         "Logout": "登出"
@@ -1337,7 +2538,7 @@
         "Name": {
           "Title": "名稱",
           "Description": "玩家名稱。",
-          "Placeholder": "輸入玩家名..."
+          "Placeholder": "輸入玩家名稱..."
         }
       },
       "EditAvatar": {
@@ -1368,31 +2569,46 @@
         },
         "SocialLinkAddress": {
           "Title": "網址",
-          "Description": "要連結到的網址（“https://...”）。",
+          "Description": "要連結到的網址（\"https://...\"）。",
           "Placeholder": "輸入社交連接..."
         }
       },
       "AddFavorite": {
         "Title": "添加收藏",
         "Description": "選擇要添加的收藏：",
+        "Post": "貼文",
+        "Playlist": "播放清單",
         "Level": "等級",
         "Skin": "外觀",
         "Background": "背景",
         "Effect": "SFX",
         "Particle": "粒子",
-        "Engine": "引擎"
+        "Engine": "引擎",
+        "Replay": "重播",
+        "Room": "房間"
       }
     },
     "Server": {
       "Home": {
-        "Levels": "關卡",
-        "Skins": "佈景",
-        "Backgrounds": "背景",
-        "Effects": "SE",
-        "Particles": "粒子效果",
-        "Engines": "引擎",
+        "Login": "登入",
+        "Logout": "登出",
+        "Multiplayer": "多人遊戲",
+        "Post": "貼文",
+        "Playlist": "播放清單",
+        "Level": "關卡",
+        "Skin": "外觀",
+        "Background": "背景",
+        "Effect": "SFX",
+        "Particle": "粒子",
+        "Engine": "引擎",
+        "Replay": "重播",
+        "Room": "房間",
+        "Configuration": "配置",
+        "CollectionUpdateConfirmation": {
+          "Description": "收藏包中的某些項目需要先更新才能使用。\n\n您想現在更新嗎？"
+        },
         "SaveSuccess": {
-          "Title": "已保存伺服器"
+          "Title": "已儲存伺服器"
         },
         "ShareSuccess": {
           "Title": "已複製伺服器鏈接"
@@ -1401,10 +2617,132 @@
       "Search": {
         "Title": "搜尋"
       },
+      "Forms": {
+        "ValidationError": "缺少一些必要資訊。\n\n請填寫缺失欄位並重試。",
+        "Confirmation": "您確定要提交\"{0}\"嗎？"
+      },
+      "Configuration": {
+        "Options": {
+          "Title": "選項",
+          "AutoLogin": {
+            "Title": "自動登入",
+            "Description": "造訪此伺服器時自動登入。"
+          }
+        }
+      },
+      "Infos": {
+        "Advanced": "進階",
+        "Post": {
+          "Title": "貼文",
+          "Create": {
+            "Title": "建立貼文",
+            "Success": {
+              "Title": "已建立貼文"
+            }
+          }
+        },
+        "Playlist": {
+          "Title": "播放清單",
+          "Create": {
+            "Title": "建立播放清單",
+            "Success": {
+              "Title": "已建立播放清單"
+            }
+          }
+        },
+        "Level": {
+          "Title": "關卡",
+          "Create": {
+            "Title": "建立關卡",
+            "Success": {
+              "Title": "已建立關卡"
+            }
+          }
+        },
+        "Skin": {
+          "Title": "外觀",
+          "Create": {
+            "Title": "建立外觀",
+            "Success": {
+              "Title": "已建立外觀"
+            }
+          }
+        },
+        "Background": {
+          "Title": "背景",
+          "Create": {
+            "Title": "建立背景",
+            "Success": {
+              "Title": "已建立背景"
+            }
+          }
+        },
+        "Effect": {
+          "Title": "SFX",
+          "Create": {
+            "Title": "建立SFX",
+            "Success": {
+              "Title": "已建立SFX"
+            }
+          }
+        },
+        "Particle": {
+          "Title": "粒子",
+          "Create": {
+            "Title": "建立粒子",
+            "Success": {
+              "Title": "已建立粒子"
+            }
+          }
+        },
+        "Engine": {
+          "Title": "引擎",
+          "Create": {
+            "Title": "建立引擎",
+            "Success": {
+              "Title": "已建立引擎"
+            }
+          }
+        },
+        "Replay": {
+          "Title": "重播",
+          "Create": {
+            "Title": "建立重播",
+            "Success": {
+              "Title": "已建立重播"
+            }
+          }
+        },
+        "Room": {
+          "Title": "房間",
+          "Create": {
+            "Title": "建立房間",
+            "Success": {
+              "Title": "已建立房間"
+            },
+            "Description": "建立房間\"{0}\"，您可以透過分享房間連結邀請其他人一起玩。",
+            "ShareSuccess": {
+              "Title": "已複製房間連結"
+            }
+          }
+        }
+      },
       "Lists": {
         "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "您確定要刪除\"{0}\"嗎？"
+        },
+        "Post": {
+          "Title": "貼文",
+          "ShareSuccess": {
+            "Title": "已複製貼文連結"
+          }
+        },
+        "Playlist": {
+          "Title": "播放清單",
+          "ShareSuccess": {
+            "Title": "已複製播放清單連結"
+          }
         },
         "Level": {
           "Title": "關卡",
@@ -1425,9 +2763,9 @@
           }
         },
         "Effect": {
-          "Title": "SE",
+          "Title": "SFX",
           "ShareSuccess": {
-            "Title": "已複製SE鏈接"
+            "Title": "已複製SFX鏈接"
           }
         },
         "Particle": {
@@ -1441,32 +2779,93 @@
           "ShareSuccess": {
             "Title": "已複製引擎鏈接"
           }
+        },
+        "Replay": {
+          "Title": "重播",
+          "ShareSuccess": {
+            "Title": "已複製重播連結"
+          }
+        },
+        "Room": {
+          "Title": "房間",
+          "ShareSuccess": {
+            "Title": "已複製房間連結"
+          }
         }
       },
       "Details": {
         "Actions": {
+          "Play": "遊玩",
+          "Watch": "觀看",
+          "Preview": "預覽",
+          "Tutorial": "教學",
           "Configuration": "設定"
         },
         "DeleteConfirmation": {
           "Description": "您確定要刪除\"{0}\"嗎？"
         },
-        "Description": {
-          "Title": "描述"
+        "Tags": {
+          "Title": "標籤",
+          "NoTags": "無標籤"
         },
-        "Recommended": {
-          "Title": "推薦"
+        "Description": {
+          "Title": "描述",
+          "NoDescription": "無描述"
+        },
+        "Community": {
+          "Title": "社群",
+          "NoComments": "暫無評論"
+        },
+        "Leaderboard": {
+          "Title": "排行榜",
+          "NoRecords": "暫無紀錄",
+          "NoReplays": "暫無重播"
+        },
+        "Post": {
+          "ShareSuccess": {
+            "Title": "已複製貼文連結"
+          },
+          "ActionSuccess": {
+            "Title": "已提交貼文操作"
+          }
+        },
+        "Playlist": {
+          "ShareSuccess": {
+            "Title": "已複製播放清單連結"
+          },
+          "ActionSuccess": {
+            "Title": "已提交播放清單操作"
+          },
+          "Watch": {
+            "Multiple": {
+              "Description": "該播放清單中有多個關卡。\n\n請選擇要使用觀看的關卡。"
+            }
+          },
+          "Preview": {
+            "Multiple": {
+              "Description": "該播放清單中有多個關卡。\n\n請選擇要使用預覽的關卡。"
+            }
+          },
+          "Tutorial": {
+            "Multiple": {
+              "Description": "該播放清單中有多個關卡。\n\n請選擇要使用教學的關卡。"
+            }
+          },
+          "Configuration": {
+            "Multiple": {
+              "Description": "該播放清單中有多個關卡。\n\n請選擇要使用配置的關卡。"
+            }
+          },
+          "Levels": {
+            "Title": "關卡"
+          }
         },
         "Level": {
-          "Actions": {
-            "Play": "開始",
-            "Watch": "演示",
-            "Preview": "預覽"
-          },
           "Play": {
             "Effect": {
               "Audio": {
-                "Loading": "正在解碼SE片段…",
-                "Error": "無法解碼SE\"{0}\"的片段。\n\n請聯絡SE作者回報這個問題。"
+                "Loading": "正在解碼SFX片段…",
+                "Error": "無法解碼SFX\"{0}\"的片段。\n\n請聯絡SFX作者回報這個問題。"
               }
             },
             "Level": {
@@ -1483,8 +2882,8 @@
           "Watch": {
             "Effect": {
               "Audio": {
-                "Loading": "正在解碼SE片段...",
-                "Error": "無法解碼SE\"{0}\"的片段。\n\n請聯絡SE作者報告這個問題。"
+                "Loading": "正在解碼SFX片段...",
+                "Error": "無法解碼SFX\"{0}\"的片段。\n\n請聯絡SFX作者報告這個問題。"
               }
             },
             "Level": {
@@ -1495,77 +2894,150 @@
             },
             "Boot": {
               "Loading": "啟動關卡...",
-              "Error": "無法啟動關卡“{0}”。\n\n請聯絡關卡作者報告這個問題。"
+              "Error": "無法啟動關卡\"{0}\"。\n\n請聯絡關卡作者報告這個問題。"
             }
           },
           "Preview": {
             "Boot": {
               "Loading": "正在啟動關卡…",
-              "Error": "無法啟動關卡\"{0}\"的樂曲。\n\n請聯絡關卡作者回報這個問題。"
+              "Error": "無法啟動關卡\"{0}\"。\n\n請聯絡關卡作者回報這個問題。"
             }
           },
           "ShareSuccess": {
             "Title": "已複製關卡鏈接"
+          },
+          "ActionSuccess": {
+            "Title": "已提交關卡操作"
+          },
+          "Engine": {
+            "Title": "引擎"
           }
         },
         "Skin": {
           "ShareSuccess": {
             "Title": "已複製佈景鏈接"
+          },
+          "ActionSuccess": {
+            "Title": "已提交外觀操作"
           }
         },
         "Background": {
           "Preview": {
             "Boot": {
               "Loading": "啟動背景...",
-              "Error": "啟動背景 “{0}” 失敗。\n\n請聯繫背景作者回報問題。"
+              "Error": "啟動背景\"{0}\"失敗。\n\n請聯繫背景作者回報問題。"
             }
           },
           "ShareSuccess": {
             "Title": "已複製背景鏈接"
+          },
+          "ActionSuccess": {
+            "Title": "已提交背景操作"
           }
         },
         "Effect": {
           "Preview": {
             "Audio": {
-              "Loading": "解碼音效中...",
-              "Error": "解碼音效 “{0}” 失敗。\n\n請聯繫音效作者回報問題。"
+              "Loading": "解碼SFX中...",
+              "Error": "解碼SFX\"{0}\"失敗。\n\n請聯繫SFX作者回報問題。"
             },
             "Boot": {
-              "Loading": "啟動音效中...",
-              "Error": "啟動音效 “{0}” 失敗。\n\n請聯繫音效作者回報問題。"
+              "Loading": "啟動SFX中...",
+              "Error": "啟動SFX\"{0}\"失敗。\n\n請聯繫SFX作者回報問題。"
             }
           },
           "ShareSuccess": {
-            "Title": "已複製特效鏈接"
+            "Title": "已複製效果鏈接"
+          },
+          "ActionSuccess": {
+            "Title": "已提交效果操作"
           }
         },
         "Particle": {
           "ShareSuccess": {
             "Title": "已複製粒子效果鏈接"
+          },
+          "ActionSuccess": {
+            "Title": "已提交粒子操作"
           }
         },
         "Engine": {
-          "Actions": {
-            "Tutorial": "教學"
-          },
           "Tutorial": {
             "Effect": {
               "Audio": {
-                "Loading": "解碼音效中...",
-                "Error": "無法解碼SE\"{0}\"的片段。\n\n請聯絡SE作者回報這個問題。"
+                "Loading": "解碼SFX中...",
+                "Error": "無法解碼SFX\"{0}\"的片段。\n\n請聯絡SFX作者回報這個問題。"
               }
             },
             "Boot": {
               "Loading": "正在啟動教學…",
-              "Error": "無法啟動關卡“{0}”。\n\n請聯絡引擎作者回報這個問題。"
+              "Error": "無法啟動關卡\"{0}\"。\n\n請聯絡引擎作者回報這個問題。"
             }
           },
           "ShareSuccess": {
             "Title": "已複製引擎鏈接"
+          },
+          "ActionSuccess": {
+            "Title": "已提交引擎操作"
+          },
+          "Skin": {
+            "Title": "外觀"
+          },
+          "Background": {
+            "Title": "背景"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "粒子"
+          }
+        },
+        "Replay": {
+          "Watch": {
+            "Effect": {
+              "Audio": {
+                "Loading": "解碼 SFX 音訊...",
+                "Error": "無法解碼\"{0}\"的 SFX 音訊。\n\n請聯絡 SFX 作者回報問題。"
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "解碼關卡 BGM...",
+                "Error": "無法解碼\"{0}\"的關卡 BGM。\n\n請聯絡級別作者報告問題。"
+              }
+            },
+            "Boot": {
+              "Loading": "正在啟動重播...",
+              "Error": "無法啟動重播“{0}”。\n\n請聯絡重播作者回報問題。"
+            }
+          },
+          "ShareSuccess": {
+            "Title": "已複製重播連結"
+          },
+          "ActionSuccess": {
+            "Title": "已提交重播操作"
+          },
+          "Level": {
+            "Title": "關卡"
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+            "Title": "已複製房間連結"
+          },
+          "ActionSuccess": {
+            "Title": "已提交房間操作"
           }
         }
       },
       "Configurations": {
+        "Post": {
+          "Title": "貼文配置"
+        },
+        "Playlist": {
+          "Title": "播放清單配置"
+        },
         "Level": {
           "Title": "關卡設定",
           "Offsets": {
@@ -1682,9 +3154,25 @@
               "Description": "推薦設定為0。\n\n針對此引擎的輸入偏移量，只有在您遊玩該引擎時遇到問題時才該使用。如果輸入判定過晚則增加，反之。"
             }
           }
+        },
+        "Replay": {
+          "Title": "重播配置"
+        },
+        "Room": {
+          "Title": "房間配置"
         }
       },
       "Savers": {
+        "Post": {
+          "Success": {
+            "Title": "已保存貼文"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "已保存播放清單"
+          }
+        },
         "Level": {
           "Success": {
             "Title": "已保存關卡"
@@ -1702,7 +3190,7 @@
         },
         "Effect": {
           "Success": {
-            "Title": "已保存特效"
+            "Title": "已保存效果"
           }
         },
         "Particle": {
@@ -1713,6 +3201,316 @@
         "Engine": {
           "Success": {
             "Title": "已保存引擎"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "已保存重播"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "已保存房間"
+          }
+        }
+      },
+      "Updaters": {
+        "Post": {
+          "Success": {
+            "Title": "已更新貼文"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "已更新播放清單"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "已更新關卡"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "已更新外觀"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "已更新背景"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "已更新效果"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "已更新粒子"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "已更新引擎"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "已更新重播"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "已更新房間"
+          }
+        }
+      },
+      "CreateInfos": {
+        "Post": {
+          "Title": "貼文資訊"
+        },
+        "Playlist": {
+          "Title": "播放清單資訊"
+        },
+        "Level": {
+          "Title": "關卡資訊"
+        },
+        "Skin": {
+          "Title": "外觀資訊"
+        },
+        "Background": {
+          "Title": "背景資訊"
+        },
+        "Effect": {
+          "Title": "效果資訊"
+        },
+        "Particle": {
+          "Title": "粒子資訊"
+        },
+        "Engine": {
+          "Title": "引擎資訊"
+        },
+        "Replay": {
+          "Title": "重播資訊",
+          "Info": {
+            "Title": {
+              "Title": "標題",
+              "Description": "重播標題",
+              "Placeholder": "輸入重播標題..."
+            },
+            "Subtitle": {
+              "Title": "副標題",
+              "Description": "重播副標題",
+              "Placeholder": "輸入重播副標題..."
+            },
+            "Description": {
+              "Title": "描述",
+              "Description": "重播的描述",
+              "Placeholder": "輸入重播描述..."
+            }
+          }
+        },
+        "Room": {
+          "Title": "房間資訊"
+        }
+      },
+      "Creators": {
+        "Post": {
+          "Success": {
+            "Title": "已建立貼文"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "已建立播放清單"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "已建立關卡"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "已建立外觀"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "已建立背景"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "已建立效果"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "已建立粒子"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "已建立引擎"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "已建立重播"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "已建立房間"
+          }
+        }
+      },
+      "Multiplayer": {
+        "Connecting": "正在連接...",
+        "Reconnecting": "正在重新連接...",
+        "ExitConfirmation": {
+          "Description": "您確定要離開房間嗎？"
+        },
+        "Play": {
+          "Options": {
+            "Title": "選項"
+          },
+          "Selecting": {
+            "Title": "選擇中",
+            "Description": {
+              "Lead": "您正在選擇...",
+              "Other": "{0}正在選擇...",
+              "Room": "房間正在選擇..."
+            },
+            "Actions": {
+              "Select": "選擇"
+            }
+          },
+          "Preparing": {
+            "Title": {
+              "Preparing": "準備中",
+              "Ready": "已準備",
+              "Skipped": "已跳過"
+            },
+            "Description": "{0}準備中，{1}已準備，{2}已跳過...",
+            "Actions": {
+              "Configuration": "配置",
+              "Ready": "準備",
+              "Skip": "跳過",
+              "Start": {
+                "Title": "開始",
+                "Confirmation": {
+                  "Description": "您確定要開始嗎？\n\n仍在準備中的玩家將自動跳過。"
+                }
+              }
+            }
+          },
+          "Playing": {
+            "Title": "遊玩中",
+            "Description": "{0}正在載入，{1}正在遊玩...",
+            "Actions": {
+              "Finish": {
+                "Title": "完成",
+                "Confirmation": {
+                  "Description": "你確定要結束嗎？\n\n仍在玩遊戲的玩家將失去他們的成績結果。"
+                }
+              }
+            }
+          }
+        },
+        "Chat": {
+          "Title": "聊天",
+          "Overlay": {
+            "Room": "房間：{0}",
+            "User": "{0}: {1}",
+            "Level": "變更關卡"
+          },
+          "Text": {
+            "Placeholder": "輸入文字..."
+          },
+          "Quick": {
+            "Hello": {
+              "Title": "Hello",
+              "Text": "Hello!"
+            },
+            "Glhf": {
+              "Title": "Glhf",
+              "Text": "Good luck, have fun!"
+            },
+            "Gg": {
+              "Title": "Gg",
+              "Text": "Good game!"
+            },
+            "Ns": {
+              "Title": "Ns",
+              "Text": "Nice score!"
+            },
+            "Ty": {
+              "Title": "Ty",
+              "Text": "Thank you!"
+            }
+          },
+          "System": {
+            "Selecting": "選擇中...",
+            "Preparing": "準備中...",
+            "Playing": "遊玩中...",
+            "Master": "房主改為{0}",
+            "Lead": "房管改為{0}",
+            "Options": "房間選項已改變",
+            "Level": "關卡更改為{0}",
+            "LevelOptions": "關卡選項已更改",
+            "AutoExit": "自動退出已更改。",
+            "Connected": {
+              "Self": "已連線。",
+              "Other": "{0}已連線"
+            },
+            "Disconnected": "{0} 已斷線"
+          }
+        },
+        "Suggestions": {
+          "Title": "建議",
+          "Actions": {
+            "Lock": "鎖定",
+            "Unlock": "解鎖",
+            "Clear": "清除"
+          }
+        },
+        "Scoreboard": {
+          "Title": "分數",
+          "Actions": {
+            "Reset": {
+              "Title": "重置",
+              "Confirmation": {
+                "Description": "您確定要重置分數嗎？"
+              }
+            }
+          },
+          "Result": {
+            "Title": "結果"
+          }
+        },
+        "Room": {
+          "EditOptions": "設置房間選項",
+          "Players": {
+            "Title": "玩家",
+            "UpdateMasterConfirmation": {
+              "Description": "您確定將房主更改為{0}嗎？"
+            },
+            "UpdateLeadConfirmation": {
+              "Description": "您確定將房管更改為{0}嗎？"
+            },
+            "KickConfirmation": {
+              "Description": "您確定要踢出{0}嗎？"
+            },
+            "AddedToBlacklistSuccess": "玩家已封鎖",
+            "RemovedFromBlacklistSuccess": "玩家已解除封鎖",
+            "Report": {
+              "Title": "檢舉玩家",
+              "Description": "檢舉玩家{0}：",
+              "Success": "已檢舉玩家"
+            }
           }
         }
       }
@@ -1763,8 +3561,8 @@
           "Description": "BGM的音量。"
         },
         "SfxVolume": {
-          "Title": "音效音量",
-          "Description": "SE音量的大小。"
+          "Title": "SFX音量",
+          "Description": "SFX的音量。"
         },
         "UIVolume": {
           "Title": "UI音量",
@@ -1778,13 +3576,13 @@
           "Title": "預覽樂曲",
           "Description": "選擇在哪裡播放預覽BGM。",
           "Options": {
-            "Off": "關",
-            "DetailsOnly": "只在詳情",
-            "ListAndDetails": "在列表和詳情"
+            "List": "清單",
+            "Details": "詳細資訊",
+            "Multiplayer": "多人遊戲"
           }
         },
         "LevelBgmQuality": {
-          "Title": "關卡樂曲品質",
+          "Title": "關卡BGM品質",
           "Description": "推薦設定為高。\n\nSonolus預設使用裝置系統底層的音訊功能以獲得最佳性能，僅在本機不支援該格式時才解碼關卡BGM。關卡BGM時將以該品質進行解碼。",
           "Options": {
             "Low": "低",
@@ -1793,7 +3591,7 @@
           }
         },
         "PreviewBgmQuality": {
-          "Title": "預覽樂曲品質",
+          "Title": "預覽BGM品質",
           "Description": "推薦設定為中。\n\nSonolus預設使用裝置系統底層的音訊功能以獲得最佳性能，僅在本機不支援該格式時才解碼預覽BGM。預覽BGM時將以該品質進行解碼。",
           "Options": {
             "Low": "低",
@@ -1804,15 +3602,36 @@
       },
       "Gameplay": {
         "Title": "遊戲",
-        "AutoExit": {
-          "Title": "自動退出",
-          "Description": "到達指定等級後自動退出遊玩。",
-          "Options": {
-            "Off": "關",
-            "Fail": "Fail",
-            "Pass": "Pass",
-            "FullCombo": "Full Combo"
-          }
+        "UnpauseDelay": {
+          "Title": "取消暫停延遲",
+          "Description": "取消暫停時的倒數時長。"
+        },
+        "MultiplayerPreload": {
+          "Title": "多人遊戲預載",
+          "Description": "建議開啟。\n\n在多人遊戲中，一旦確認關卡就開始預先加載，以提高加載速度。"
+        },
+        "ReplayTitleTemplate": {
+          "Title": "重播標題範本",
+          "Description": "建立重播時的標題範本。\n\n特殊參數可用，並將被替換為相應的值。",
+          "Placeholder": "輸入標題範本..."
+        },
+        "ReplaySubtitleTemplate": {
+          "Title": "重播副標題範本",
+          "Description": "建立重播時的副標題範本。\n\n特殊參數可用，並將被替換為相應的值。",
+          "Placeholder": "輸入副標題範本..."
+        },
+        "ReplayDescriptionTemplate": {
+          "Title": "重播描述範本",
+          "Description": "建立重播時的描述範本。\n\n特殊參數可用，並將被替換為相應的值。",
+          "Placeholder": "輸入描述範本..."
+        },
+        "ShowReplayTouches": {
+          "Title": "顯示重播觸摸點",
+          "Description": "觀看重播時顯示觸摸點。"
+        },
+        "OverwriteReplayOptions": {
+          "Title": "覆蓋重播選項",
+          "Description": "觀看重播時用您自己的選項覆蓋。"
         }
       },
       "UI": {
@@ -1832,10 +3651,6 @@
         "Scale": {
           "Title": "UI比例",
           "Description": "UI的顯示比例。如果您覺得閱讀有困難，則增加；如果您希望在螢幕上一次顯示更多內容，則減少。"
-        },
-        "UnpauseDelay": {
-          "Title": "暫停解除時的倒數",
-          "Description": "暫停解除時倒數秒數。"
         },
         "PerfectJudgmentColors": {
           "Title": "Perfect判定顏色",
@@ -1884,13 +3699,17 @@
         "ShowZeroCombo": {
           "Title": "顯示0連擊數",
           "Description": "當連擊為零時依然顯示連擊數。"
+        },
+        "TouchStyle": {
+          "Title": "觸碰圖示風格",
+          "Description": "觸摸指示器的風格樣式。"
         }
       },
       "Offsets": {
         "Title": "偏移",
         "Device": {
           "Title": "設備",
-          "Description": "使用此功能來保存使用不同裝置時的偏移量，例如使用揚聲器、耳機、藍牙等。",
+          "Description": "使用此功能來儲存使用不同裝置時的偏移量，例如使用揚聲器、耳機、藍牙等。",
           "Option": "設備 {0}"
         },
         "DeviceAudioOffset": {
@@ -1904,6 +3723,17 @@
       },
       "Repository": {
         "Title": "資料庫",
+        "AutoClean": {
+          "Title": "自動清理",
+          "Description": "在啟動時自動清理儲存庫，將從最舊的資源開始刪除。",
+          "Options": {
+            "OneHundredMB": "100 MB",
+            "FiveHundredMB": "500 MB",
+            "OneGB": "1 GB",
+            "FiveGB": "5 GB",
+            "TenGB": "10 GB"
+          }
+        },
         "Manage": "管理"
       },
       "Cache": {
@@ -1928,10 +3758,6 @@
           "Title": "顯示觸摸點",
           "Description": "顯示觸摸指示器。這適合用於螢幕錄影時的觸碰輸入。"
         },
-        "TouchStyle": {
-          "Title": "觸摸點樣式",
-          "Description": "觸摸指示器樣式。"
-        },
         "DebugMode": {
           "Title": "開發模式",
           "Description": "開發模式允許特定程式碼運行，並在螢幕右下角顯示開發日誌。"
@@ -1950,7 +3776,7 @@
       "Title": "管理資料庫",
       "Repository": {
         "Title": "資料庫",
-        "Description": "資料庫保存在本設備上可用的全部資源。",
+        "Description": "資料庫儲存在本設備上可用的全部資源。",
         "Size": "大小：{0}"
       },
       "RepairRepository": {
@@ -2009,83 +3835,74 @@
       "Title": "診斷日誌"
     }
   },
-  "Scp": {
-    "PermissionError": {
-      "Description": "Sonolus無法獲取執行此操作所需的權限。\n\n請打開設定並授權Sonolus相應的權限以繼續。",
-      "Open": "打開"
-    }
-  },
   "Runtimes": {
+    "Pause": {
+      "Title": "暫停",
+      "Debug": {
+        "Title": "偵錯"
+      }
+    },
+    "Control": {
+      "Title": "控制",
+      "Exit": "退出",
+      "Restart": "重新開始"
+    },
     "Level": {
       "Play": {
         "Routes": {
+          "Playlist": {
+            "Title": "播放清單",
+            "Previous": "上一個",
+            "Next": "下一個"
+          },
           "Pause": {
-            "Title": "暫停",
-            "Control": {
-              "Title": "控制",
-              "Exit": "退出",
-              "Restart": "重新開始"
-            },
             "Snapshot": {
               "Title": "選段重玩",
               "Mark": "標記",
               "Jump": "跳回"
-            },
-            "Debug": {
-              "Title": "開發工具"
             }
           },
           "Result": {
-            "Title": "結果",
             "Options": {
               "HasUsedPause": "暫停",
               "HasUsedSnapshot": "選段重玩"
             },
-            "Graphs": {
-              "Title": "圖表",
-              "Judgment": {
-                "Title": "判定圖表"
+            "Replay": {
+              "Title": "重播",
+              "Description": {
+                "Normal": "您的遊戲過程已被錄製，點擊「建立」即可建立重播。",
+                "HasUsedPause": "由於使用了暫停，因此無法建立重播。",
+                "HasUsedSnapshot": "由於使用了選段重玩，因此無法建立重播。"
               },
-              "Accuracy": {
-                "Title": "準確率圖表",
-                "AbsValue": "絕對值",
-                "Mean": "平均值",
-                "StDev": "標準差",
-                "Min": "最小值",
-                "Max": "最大值"
-              },
-              "Bucket": {
-                "Title": "分類圖表"
+              "Submit": {
+                "Confirmation": {
+                  "Description": "您的重播已成功建立並儲存。\n\n您是否還要將重播提交到伺服器“{0}”？"
+                },
+                "Success": {
+                  "Title": "已提交結果"
+                }
               }
             }
           }
         }
       },
-      "Watch": {
-        "Routes": {
-          "Pause": {
-            "Title": "暫停",
-            "Control": {
-              "Title": "控制",
-              "Exit": "退出"
-            },
-            "Debug": {
-              "Title": "開發工具"
-            }
-          }
-        }
-      },
-      "Preview": {
-        "Routes": {
-          "Pause": {
-            "Title": "暫停",
-            "Control": {
-              "Title": "控制",
-              "Exit": "退出"
-            },
-            "Debug": {
-              "Title": "開發工具"
-            }
+      "Result": {
+        "Title": "結果",
+        "Graphs": {
+          "Title": "圖表",
+          "Judgment": {
+            "Title": "判定圖"
+          },
+          "Accuracy": {
+            "Title": "準確率圖",
+            "AbsValue": "絕對值",
+            "Mean": "平均",
+            "StDev": "標準差",
+            "Min": "最小",
+            "Max": "最大"
+          },
+          "Bucket": {
+            "Title": "桶圖"
           }
         }
       }
@@ -2095,22 +3912,6 @@
         "Routes": {
           "Preview": {
             "Play": "播放"
-          }
-        }
-      }
-    },
-    "Engine": {
-      "Tutorial": {
-        "Routes": {
-          "Pause": {
-            "Title": "暫停",
-            "Control": {
-              "Title": "控制",
-              "Exit": "退出"
-            },
-            "Debug": {
-              "Title": "開發工具"
-            }
           }
         }
       }
