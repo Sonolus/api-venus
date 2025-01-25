@@ -23,6 +23,37 @@
         "#ENGINE": "Engine",
         "#REPLAY": "Replay",
         "#ROOM": "Room",
+        "#POST_THUMBNAIL": "Thumbnail",
+        "#PLAYLIST_THUMBNAIL": "Thumbnail",
+        "#LEVEL_COVER": "Cover",
+        "#LEVEL_BGM": "BGM",
+        "#LEVEL_PREVIEW": "Preview",
+        "#LEVEL_DATA": "Data",
+        "#SKIN_THUMBNAIL": "Thumbnail",
+        "#SKIN_DATA": "Data",
+        "#SKIN_TEXTURE": "Texture",
+        "#BACKGROUND_THUMBNAIL": "Thumbnail",
+        "#BACKGROUND_IMAGE": "Image",
+        "#BACKGROUND_DATA": "Data",
+        "#BACKGROUND_CONFIGURATION": "Configuration",
+        "#EFFECT_THUMBNAIL": "Thumbnail",
+        "#EFFECT_DATA": "Data",
+        "#EFFECT_AUDIO": "Audio",
+        "PARTICLE_THUMBNAIL": "Thumbnail",
+        "PARTICLE_DATA": "Data",
+        "PARTICLE_TEXTURE": "Texture",
+        "#ENGINE_THUMBNAIL": "Thumbnail",
+        "#ENGINE_PLAYDATA": "Play Data",
+        "#ENGINE_WATCHDATA": "Watch Data",
+        "#ENGINE_PREVIEWDATA": "Preview Data",
+        "#ENGINE_TUTORIALDATA": "Tutorial Data",
+        "#ENGINE_ROM": "ROM",
+        "#ENGINE_CONFIGURATION": "Configuration",
+        "#REPLAY_DATA": "Data",
+        "#REPLAY_CONFIGURATION": "Configuration",
+        "#ROOM_COVER": "Cover",
+        "#ROOM_BGM": "Bgm",
+        "#ROOM_PREVIEW": "Preview",
         "#GRADE": "Grade",
         "#ARCADE_SCORE": "Arcade Score",
         "#ACCURACY_SCORE": "Accuracy Score",
@@ -31,6 +62,8 @@
         "#GREAT": "Great",
         "#GOOD": "Good",
         "#MISS": "Miss",
+        "#FILTER": "Filter",
+        "#SORT": "Sort",
         "#KEYWORDS": "Keywords",
         "#NAME": "Name",
         "#RATING": "Rating",
@@ -45,6 +78,7 @@
         "#GENRE": "Genre",
         "#TYPE": "Type",
         "#CATEGORY": "Category",
+        "#STATUS": "Status",
         "#LANGUAGE": "Language",
         "#DIFFICULTY": "Difficulty",
         "#VERSION": "Version",
@@ -246,8 +280,27 @@
         "#PERMISSION_PLACEHOLDER": "Enter permission...",
         "#USER_PLACEHOLDER": "Enter user...",
         "#PERCENTAGE_UNIT": "{0}%",
+        "#YEAR_UNIT": "{0} yr",
+        "#MONTH_UNIT": "{0} mo",
+        "#DAY_UNIT": "{0} d",
+        "#HOUR_UNIT": "{0} h",
+        "#MINUTE_UNIT": "{0} m",
         "#SECOND_UNIT": "{0} s",
         "#MILLISECOND_UNIT": "{0} ms",
+        "#YEAR_PAST": "{0} yr ago",
+        "#MONTH_PAST": "{0} mo ago",
+        "#DAY_PAST": "{0} d ago",
+        "#HOUR_PAST": "{0} h ago",
+        "#MINUTE_PAST": "{0} m ago",
+        "#SECOND_PAST": "{0} s ago",
+        "#MILLISECOND_PAST": "{0} ms ago",
+        "#YEAR_FUTURE": "In {0} yr",
+        "#MONTH_FUTURE": "In {0} mo",
+        "#DAY_FUTURE": "In {0} d",
+        "#HOUR_FUTURE": "In {0} h",
+        "#MINUTE_FUTURE": "In {0} m",
+        "#SECOND_FUTURE": "In {0} s",
+        "#MILLISECOND_FUTURE": "In {0} ms",
         "#TAP": "Tap",
         "#TAP_HOLD": "Tap and Hold",
         "#TAP_RELEASE": "Tap and Release",
@@ -502,6 +555,7 @@
         "Great": "Great",
         "Good": "Good",
         "Miss": "Miss",
+        "RequiredOption": "This is a required option.",
         "StandardOption": "This is a standard option.",
         "AdvancedOption": "This option is for advanced players.",
         "Colors": "Colors",
@@ -2815,7 +2869,8 @@
                     "Watch": "Watch",
                     "Preview": "Preview",
                     "Tutorial": "Tutorial",
-                    "Configuration": "Configuration"
+                    "Configuration": "Configuration",
+                    "Resources": "Resources"
                 },
                 "DeleteConfirmation": {
                     "Description": "Are you sure to delete \"{0}\"?"
@@ -3176,6 +3231,74 @@
                 },
                 "Room": {
                     "Title": "Room Configuration"
+                }
+            },
+            "Resources": {
+                "Post": {
+                    "Title": "Post Resources",
+                    "Thumbnail": "Thumbnail"
+                },
+                "Playlist": {
+                    "Title": "Playlist Resources",
+                    "Thumbnail": "Thumbnail"
+                },
+                "Level": {
+                    "Title": "Level Resources",
+                    "Cover": "Cover",
+                    "Bgm": "BGM",
+                    "Preview": "Preview",
+                    "Data": "Data"
+                },
+                "Skin": {
+                    "Title": "Skin Resources",
+                    "Thumbnail": "Thumbnail",
+                    "Data": "Data",
+                    "Texture": "Texture"
+                },
+                "Background": {
+                    "Title": "Background Resources",
+                    "Thumbnail": "Thumbnail",
+                    "Image": "Image",
+                    "Data": "Data",
+                    "Configuration": "Configuration"
+                },
+                "Effect": {
+                    "Title": "Effect Resources",
+                    "Thumbnail": "Thumbnail",
+                    "Data": "Data",
+                    "Audio": "Audio"
+                },
+                "Particle": {
+                    "Title": "Particle Resources",
+                    "Thumbnail": "Thumbnail",
+                    "Data": "Data",
+                    "Texture": "Texture"
+                },
+                "Engine": {
+                    "Title": "Engine Resources",
+                    "Thumbnail": "Thumbnail",
+                    "PlayData": "Play Data",
+                    "WatchData": "Watch Data",
+                    "PreviewData": "Preview Data",
+                    "TutorialData": "Tutorial Data",
+                    "Rom": "ROM",
+                    "Configuration": "Configuration"
+                },
+                "Replay": {
+                    "Title": "Replay Resources",
+                    "Data": "Data",
+                    "Configuration": "Configuration"
+                },
+                "Room": {
+                    "Title": "Room Resources",
+                    "Cover": "Cover",
+                    "Bgm": "Bgm",
+                    "Preview": "Preview"
+                }
+            },
+            "ResourceExporters": {
+                "Success": {
+                    "Title": "Resource Exported"
                 }
             },
             "Savers": {
