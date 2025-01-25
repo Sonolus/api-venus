@@ -52,7 +52,7 @@
         "#REPLAY_DATA": "Data",
         "#REPLAY_CONFIGURATION": "Configuration",
         "#ROOM_COVER": "Cover",
-        "#ROOM_BGM": "Bgm",
+        "#ROOM_BGM": "BGM",
         "#ROOM_PREVIEW": "Preview",
         "#GRADE": "Grade",
         "#ARCADE_SCORE": "Arcade Score",
@@ -3292,7 +3292,7 @@
                 "Room": {
                     "Title": "Room Resources",
                     "Cover": "Cover",
-                    "Bgm": "Bgm",
+                    "Bgm": "BGM",
                     "Preview": "Preview"
                 }
             },
