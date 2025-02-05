@@ -23,6 +23,37 @@
     "#ENGINE": "エンジン",
     "#REPLAY": "リプレイ",
     "#ROOM": "部屋",
+    "#POST_THUMBNAIL": "サムネイル",
+    "#PLAYLIST_THUMBNAIL": "サムネイル",
+    "#LEVEL_COVER": "ジャケット",
+    "#LEVEL_BGM": "BGM",
+    "#LEVEL_PREVIEW": "プレビュー",
+    "#LEVEL_DATA": "データ",
+    "#SKIN_THUMBNAIL": "サムネイル",
+    "#SKIN_DATA": "データ",
+    "#SKIN_TEXTURE": "テクスチャ",
+    "#BACKGROUND_THUMBNAIL": "サムネイル",
+    "#BACKGROUND_IMAGE": "画像",
+    "#BACKGROUND_DATA": "データ",
+    "#BACKGROUND_CONFIGURATION": "設定",
+    "#EFFECT_THUMBNAIL": "サムネイル",
+    "#EFFECT_DATA": "データ",
+    "#EFFECT_AUDIO": "音源",
+    "#PARTICLE_THUMBNAIL": "サムネイル",
+    "#PARTICLE_DATA": "データ",
+    "#PARTICLE_TEXTURE": "テクスチャ",
+    "#ENGINE_THUMBNAIL": "サムネイル",
+    "#ENGINE_PLAYDATA": "プレイデータ",
+    "#ENGINE_WATCHDATA": "閲覧データ",
+    "#ENGINE_PREVIEWDATA": "プレビューデータ",
+    "#ENGINE_TUTORIALDATA": "チュートリアルデータ",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "設定",
+    "#REPLAY_DATA": "データ",
+    "#REPLAY_CONFIGURATION": "設定",
+    "#ROOM_COVER": "カバー",
+    "#ROOM_BGM": "BGM",
+    "#ROOM_PREVIEW": "プレビュー",
     "#GRADE": "グレード",
     "#ARCADE_SCORE": "スコア",
     "#ACCURACY_SCORE": "精度スコア",
@@ -31,6 +62,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#FILTER": "フィルター",
+    "#SORT": "ソート",
     "#KEYWORDS": "キーワード",
     "#NAME": "名称",
     "#RATING": "難易度",
@@ -45,6 +78,7 @@
     "#GENRE": "ジャンル名",
     "#TYPE": "タイプ",
     "#CATEGORY": "カテゴリ名",
+    "#STATUS": "ステータス",
     "#LANGUAGE": "言語",
     "#DIFFICULTY": "難易度",
     "#VERSION": "バージョン",
@@ -246,8 +280,27 @@
     "#PERMISSION_PLACEHOLDER": "権限を入力...",
     "#USER_PLACEHOLDER": "ユーザーを入力...",
     "#PERCENTAGE_UNIT": "{0}%",
+    "#YEAR_UNIT": "{0} 年",
+    "#MONTH_UNIT": "{0} 月",
+    "#DAY_UNIT": "{0} 日",
+    "#HOUR_UNIT": "{0} 時間",
+    "#MINUTE_UNIT": "{0} 分",
     "#SECOND_UNIT": "{0} 秒",
     "#MILLISECOND_UNIT": "{0} ms",
+    "#YEAR_PAST": "{0} 年前",
+    "#MONTH_PAST": "{0} 月前",
+    "#DAY_PAST": "{0} 日前",
+    "#HOUR_PAST": "{0} 時間前",
+    "#MINUTE_PAST": "{0} 分前",
+    "#SECOND_PAST": "{0} 秒前",
+    "#MILLISECOND_PAST": "{0} ms 前",
+    "#YEAR_FUTURE": "{0} 年後",
+    "#MONTH_FUTURE": "{0} 月後",
+    "#DAY_FUTURE": "{0} 日後",
+    "#HOUR_FUTURE": "{0} 時間後",
+    "#MINUTE_FUTURE": "{0} 分後",
+    "#SECOND_FUTURE": "{0} 秒後",
+    "#MILLISECOND_FUTURE": "{0} ms 後",
     "#TAP": "タップ",
     "#TAP_HOLD": "タップ→長押し",
     "#TAP_RELEASE": "タップ→離す",
@@ -502,6 +555,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "RequiredOption": "このオプションは必須です。",
     "StandardOption": "このオプションはリザルト画面に表示されます。",
     "AdvancedOption": "このオプションは上級者向けです。",
     "Colors": "色",
@@ -989,8 +1043,8 @@
           "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別のレベルを選択するか、サーバーの管理者にお問い合わせ下さい。"
         },
         "Cover": {
-          "Loading": "レベルカバーを読み込み中...",
-          "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。"
+          "Loading": "レベルジャケットを読み込み中...",
+          "Error": "\"{0}\"のレベルジャケットの読み込みに失敗しました。"
         },
         "Bgm": {
           "Loading": "レベルBGMを読み込み中...",
@@ -1499,8 +1553,8 @@
           "Error": "部屋 \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n別の部屋を使用するか、サーバーの管理者にお問い合わせ下さい。"
         },
         "Cover": {
-          "Loading": "レベルカバーを読み込み中...",
-          "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。"
+          "Loading": "レベルジャケットを読み込み中...",
+          "Error": "\"{0}\"のレベルジャケットの読み込みに失敗しました。"
         },
         "Bgm": {
           "Loading": "レベルBGMを読み込み中...",
@@ -1585,8 +1639,8 @@
           "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
         },
         "Cover": {
-          "Loading": "レベルカバーを読み込み中...",
-          "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
+          "Loading": "レベルジャケットを読み込み中...",
+          "Error": "\"{0}\"のレベルジャケットの読み込みに失敗しました。\n\n更新を押して最新版を取得し直すか、別のレベルをご利用ください。"
         },
         "Bgm": {
           "Loading": "レベルBGMを読み込み中...",
@@ -1905,8 +1959,8 @@
           "Error": "レベル \"{0}\"は現在のSonolusバージョンと互換性がありません。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
         "Cover": {
-          "Loading": "レベルカバーを読み込み中...",
-          "Error": "\"{0}\"のレベルカバーの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
+          "Loading": "レベルジャケットを読み込み中...",
+          "Error": "\"{0}\"のレベルジャケットの読み込みに失敗しました。\n\nSonolusが未対応のパッケージか、パッケージが破損しています。"
         },
         "Bgm": {
           "Loading": "レベルBGMを読み込み中...",
@@ -2815,7 +2869,8 @@
           "Watch": "閲覧",
           "Preview": "プレビュー",
           "Tutorial": "チュートリアル",
-          "Configuration": "設定"
+          "Configuration": "設定",
+          "Resources": "リソース"
         },
         "DeleteConfirmation": {
           "Description": "「{0}」を削除してもよろしいですか?"
@@ -3176,6 +3231,74 @@
         },
         "Room": {
           "Title": "部屋設定"
+        }
+      },
+      "Resources": {
+        "Post": {
+          "Title": "リソース",
+          "Thumbnail": "サムネイル"
+        },
+        "Playlist": {
+          "Title": "リソース",
+          "Thumbnail": "サムネイル"
+        },
+        "Level": {
+          "Title": "リソース",
+          "Cover": "カバー",
+          "Bgm": "BGM",
+          "Preview": "プレビュー",
+          "Data": "データ"
+        },
+        "Skin": {
+          "Title": "リソース",
+          "Thumbnail": "サムネイル",
+          "Data": "データ",
+          "Texture": "テクスチャ"
+        },
+        "Background": {
+          "Title": "リソース",
+          "Thumbnail": "サムネイル",
+          "Image": "画像",
+          "Data": "データ",
+          "Configuration": "設定"
+        },
+        "Effect": {
+          "Title": "リソース",
+          "Thumbnail": "サムネイル",
+          "Data": "データ",
+          "Audio": "音声"
+        },
+        "Particle": {
+          "Title": "リソース",
+          "Thumbnail": "サムネイル",
+          "Data": "データ",
+          "Texture": "テクスチャ"
+        },
+        "Engine": {
+          "Title": "リソース",
+          "Thumbnail": "サムネイル",
+          "PlayData": "プレイデータ",
+          "WatchData": "閲覧データ",
+          "PreviewData": "プレビューデータ",
+          "TutorialData": "チュートリアルデータ",
+          "Rom": "ROM",
+          "Configuration": "設定"
+        },
+        "Replay": {
+          "Title": "リソース",
+          "Data": "データ",
+          "Configuration": "設定"
+        },
+        "Room": {
+          "Title": "リソース",
+          "Cover": "カバー",
+          "Bgm": "BGM",
+          "Preview": "プレビュー"
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+          "Title": "リソースを書き出しました"
         }
       },
       "Savers": {
