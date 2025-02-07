@@ -23,6 +23,37 @@
     "#ENGINE": "引擎",
     "#REPLAY": "回放",
     "#ROOM": "房间",
+    "#POST_THUMBNAIL": "缩略图",
+    "#PLAYLIST_THUMBNAIL": "缩略图",
+    "#LEVEL_COVER": "关卡封面图",
+    "#LEVEL_BGM": "背景乐",
+    "#LEVEL_PREVIEW": "背景乐预览",
+    "#LEVEL_DATA": "关卡数据",
+    "#SKIN_THUMBNAIL": "缩略图",
+    "#SKIN_DATA": "皮肤数据",
+    "#SKIN_TEXTURE": "皮肤材质",
+    "#BACKGROUND_THUMBNAIL": "缩略图",
+    "#BACKGROUND_IMAGE": "背景图像",
+    "#BACKGROUND_DATA": "背景数据",
+    "#BACKGROUND_CONFIGURATION": "背景配置",
+    "#EFFECT_THUMBNAIL": "缩略图",
+    "#EFFECT_DATA": "音效数据",
+    "#EFFECT_AUDIO": "音效音频",
+    "#PARTICLE_THUMBNAIL": "缩略图",
+    "#PARTICLE_DATA": "粒子效果数据",
+    "#PARTICLE_TEXTURE": "粒子效果材质",
+    "#ENGINE_THUMBNAIL": "缩略图",
+    "#ENGINE_PLAYDATA": "游玩模式数据",
+    "#ENGINE_WATCHDATA": "观看模式数据",
+    "#ENGINE_PREVIEWDATA": "预览模式数据",
+    "#ENGINE_TUTORIALDATA": "教程模式数据",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "引擎配置",
+    "#REPLAY_DATA": "回放数据",
+    "#REPLAY_CONFIGURATION": "回放配置",
+    "#ROOM_COVER": "房间封面图",
+    "#ROOM_BGM": "背景乐",
+    "#ROOM_PREVIEW": "背景乐预览",
     "#GRADE": "评级",
     "#ARCADE_SCORE": "街机分数",
     "#ACCURACY_SCORE": "准度分数",
@@ -31,6 +62,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#FILTER": "过滤器",
+    "#SORT": "排序",
     "#KEYWORDS": "关键字",
     "#NAME": "名称",
     "#RATING": "评级",
@@ -45,6 +78,7 @@
     "#GENRE": "风格",
     "#TYPE": "类型",
     "#CATEGORY": "类别",
+    "#STATUS": "状态",
     "#LANGUAGE": "语言",
     "#DIFFICULTY": "难度",
     "#VERSION": "版本",
@@ -246,8 +280,27 @@
     "#PERMISSION_PLACEHOLDER": "输入权限...",
     "#USER_PLACEHOLDER": "输入用户...",
     "#PERCENTAGE_UNIT": "{0}%",
+    "#YEAR_UNIT": "{0} 年",
+    "#MONTH_UNIT": "{0} 月",
+    "#DAY_UNIT": "{0} 天",
+    "#HOUR_UNIT": "{0} 时",
+    "#MINUTE_UNIT": "{0} 分",
     "#SECOND_UNIT": "{0} 秒",
     "#MILLISECOND_UNIT": "{0} 毫秒",
+    "#YEAR_PAST": "{0} 年以前",
+    "#MONTH_PAST": "{0} 月以前",
+    "#DAY_PAST": "{0} 天以前",
+    "#HOUR_PAST": "{0} 时以前",
+    "#MINUTE_PAST": "{0} 分以前",
+    "#SECOND_PAST": "{0} 秒以前",
+    "#MILLISECOND_PAST": "{0} 毫秒以前",
+    "#YEAR_FUTURE": "{0} 年后",
+    "#MONTH_FUTURE": "{0} 月后",
+    "#DAY_FUTURE": "{0} 天后",
+    "#HOUR_FUTURE": "{0} 时后",
+    "#MINUTE_FUTURE": "{0} 分后",
+    "#SECOND_FUTURE": "{0} 秒后",
+    "#MILLISECOND_FUTURE": "{0} 毫秒后",
     "#TAP": "轻击",
     "#TAP_HOLD": "轻击并按住",
     "#TAP_RELEASE": "轻击后松开",
@@ -502,6 +555,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "RequiredOption": "这是一个必需项。",
     "StandardOption": "这是一个标准选项。",
     "AdvancedOption": "此选项适用于高级玩家。",
     "Colors": "颜色",
@@ -2815,7 +2869,8 @@
           "Watch": "观看",
           "Preview": "预览",
           "Tutorial": "教程",
-          "Configuration": "配置"
+          "Configuration": "配置",
+          "Resources": "资源"
         },
         "DeleteConfirmation": {
           "Description": "您确定要删除“{0}”吗？"
@@ -3176,6 +3231,74 @@
         },
         "Room": {
           "Title": "房间配置"
+        }
+      },
+      "Resources": {
+        "Post": {
+          "Title": "帖子资源",
+          "Thumbnail": "缩略图"
+        },
+        "Playlist": {
+          "Title": "游玩列表资源",
+          "Thumbnail": "缩略图"
+        },
+        "Level": {
+          "Title": "关卡资源",
+          "Cover": "封面图",
+          "Bgm": "背景乐",
+          "Preview": "背景预览",
+          "Data": "关卡数据"
+        },
+        "Skin": {
+          "Title": "皮肤资源",
+          "Thumbnail": "缩略图",
+          "Data": "皮肤数据",
+          "Texture": "皮肤材质"
+        },
+        "Background": {
+          "Title": "背景资源",
+          "Thumbnail": "缩略图",
+          "Image": "背景图像",
+          "Data": "背景数据",
+          "Configuration": "背景配置"
+        },
+        "Effect": {
+          "Title": "音效资源",
+          "Thumbnail": "缩略图",
+          "Data": "音效数据",
+          "Audio": "音效音频"
+        },
+        "Particle": {
+          "Title": "粒子效果资源",
+          "Thumbnail": "缩略图",
+          "Data": "粒子效果数据",
+          "Texture": "粒子效果材质"
+        },
+        "Engine": {
+          "Title": "引擎资源",
+          "Thumbnail": "缩略图",
+          "PlayData": "游玩模式数据",
+          "WatchData": "观看模式数据",
+          "PreviewData": "预览模式数据",
+          "TutorialData": "教程模式数据",
+          "Rom": "ROM",
+          "Configuration": "引擎配置"
+        },
+        "Replay": {
+          "Title": "回放资源",
+          "Data": "回放数据",
+          "Configuration": "回放配置"
+        },
+        "Room": {
+          "Title": "房间资源",
+          "Cover": "封面图",
+          "Bgm": "背景乐",
+          "Preview": "背景乐预览"
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+          "Title": "资源已导出"
         }
       },
       "Savers": {
