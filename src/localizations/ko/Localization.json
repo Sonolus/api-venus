@@ -23,6 +23,37 @@
     "#ENGINE": "엔진",
     "#REPLAY": "다시보기",
     "#ROOM": "방",
+    "#POST_THUMBNAIL": "미리보기 이미지",
+    "#PLAYLIST_THUMBNAIL": "미리보기 이미지",
+    "#LEVEL_COVER": "커버",
+    "#LEVEL_BGM": "배경음악",
+    "#LEVEL_PREVIEW": "미리보기",
+    "#LEVEL_DATA": "데이터",
+    "#SKIN_THUMBNAIL": "미리보기 이미지",
+    "#SKIN_DATA": "데이터",
+    "#SKIN_TEXTURE": "텍스처",
+    "#BACKGROUND_THUMBNAIL": "미리보기 이미지",
+    "#BACKGROUND_IMAGE": "이미지",
+    "#BACKGROUND_DATA": "데이터",
+    "#BACKGROUND_CONFIGURATION": "구성",
+    "#EFFECT_THUMBNAIL": "미리보기 이미지",
+    "#EFFECT_DATA": "데이터",
+    "#EFFECT_AUDIO": "오디오",
+    "#PARTICLE_THUMBNAIL": "미리보기 이미지",
+    "#PARTICLE_DATA": "데이터",
+    "#PARTICLE_TEXTURE": "텍스처",
+    "#ENGINE_THUMBNAIL": "미리보기 이미지",
+    "#ENGINE_PLAYDATA": "플레이 데이터",
+    "#ENGINE_WATCHDATA": "시청 데이터",
+    "#ENGINE_PREVIEWDATA": "미리보기 데이터",
+    "#ENGINE_TUTORIALDATA": "튜토리얼 데이터",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "구성",
+    "#REPLAY_DATA": "데이터",
+    "#REPLAY_CONFIGURATION": "구성",
+    "#ROOM_COVER": "커버",
+    "#ROOM_BGM": "BGM",
+    "#ROOM_PREVIEW": "미리보기",
     "#GRADE": "등급",
     "#ARCADE_SCORE": "아케이드 점수",
     "#ACCURACY_SCORE": "정확도 점수",
@@ -31,6 +62,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#FILTER": "필터",
+    "#SORT": "정렬",
     "#KEYWORDS": "검색어",
     "#NAME": "이름",
     "#RATING": "난이도",
@@ -45,6 +78,7 @@
     "#GENRE": "장르",
     "#TYPE": "유형",
     "#CATEGORY": "범주",
+    "#STATUS": "상태",
     "#LANGUAGE": "언어",
     "#DIFFICULTY": "난이도",
     "#VERSION": "버전",
@@ -246,8 +280,27 @@
     "#PERMISSION_PLACEHOLDER": "권한 입력...",
     "#USER_PLACEHOLDER": "사용자 입력...",
     "#PERCENTAGE_UNIT": "{0}%",
+    "#YEAR_UNIT": "{0}년",
+    "#MONTH_UNIT": "{0}월",
+    "#DAY_UNIT": "{0}일",
+    "#HOUR_UNIT": "{0}시간",
+    "#MINUTE_UNIT": "{0}분",
     "#SECOND_UNIT": "{0}초",
     "#MILLISECOND_UNIT": "{0}ms",
+    "#YEAR_PAST": "{0}년 전",
+    "#MONTH_PAST": "{0}개월 전",
+    "#DAY_PAST": "{0}일 전",
+    "#HOUR_PAST": "{0}시간 전",
+    "#MINUTE_PAST": "{0}분 전",
+    "#SECOND_PAST": "{0}초 전",
+    "#MILLISECOND_PAST": "{0}밀리초 전",
+    "#YEAR_FUTURE": "{0}년 후",
+    "#MONTH_FUTURE": "{0}개월 후",
+    "#DAY_FUTURE": "{0}일 후",
+    "#HOUR_FUTURE": "{0}시간 후",
+    "#MINUTE_FUTURE": "{0}분 후",
+    "#SECOND_FUTURE": "{0}초 후",
+    "#MILLISECOND_FUTURE": "{0}밀리초 후",
     "#TAP": "탭",
     "#TAP_HOLD": "탭 및 누르고 있기",
     "#TAP_RELEASE": "탭하고 때기",
@@ -502,6 +555,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "RequiredOption": "필수 옵션입니다.",
     "StandardOption": "표준 옵션입니다.",
     "AdvancedOption": "전문적인 플레이어를 위한 옵션입니다.",
     "Colors": "색상",
@@ -2815,7 +2869,8 @@
           "Watch": "시청",
           "Preview": "미리보기",
           "Tutorial": "튜토리얼",
-          "Configuration": "설정"
+          "Configuration": "설정",
+          "Resources": "리소스"
         },
         "DeleteConfirmation": {
           "Description": "정말 \"{0}\" 아이템을 삭제합니까?"
@@ -3176,6 +3231,74 @@
         },
         "Room": {
           "Title": "방 구성"
+        }
+      },
+      "Resources": {
+        "Post": {
+          "Title": "게시물 자원",
+          "Thumbnail": "미리보기 이미지"
+        },
+        "Playlist": {
+          "Title": "재생목록 자원",
+          "Thumbnail": "미리보기 이미지"
+        },
+        "Level": {
+          "Title": "레벨 자원",
+          "Cover": "커버",
+          "Bgm": "배경음",
+          "Preview": "미리보기",
+          "Data": "데이터"
+        },
+        "Skin": {
+          "Title": "스킨 자원",
+          "Thumbnail": "미리보기 이미지",
+          "Data": "데이터",
+          "Texture": "텍스처"
+        },
+        "Background": {
+          "Title": "배경 자원",
+          "Thumbnail": "미리보기 이미지",
+          "Image": "이미지",
+          "Data": "데이터",
+          "Configuration": "구성"
+        },
+        "Effect": {
+          "Title": "효과 자원",
+          "Thumbnail": "미리보기 이미지",
+          "Data": "데이터",
+          "Audio": "오디오"
+        },
+        "Particle": {
+          "Title": "입자 자원",
+          "Thumbnail": "미리보기 이미지",
+          "Data": "데이터",
+          "Texture": "텍스처"
+        },
+        "Engine": {
+          "Title": "엔진 자원",
+          "Thumbnail": "미리보기 이미지",
+          "PlayData": "플레이 데이터",
+          "WatchData": "시청 데이터",
+          "PreviewData": "미리보기 데이터",
+          "TutorialData": "튜토리얼 데이터",
+          "Rom": "ROM",
+          "Configuration": "구성"
+        },
+        "Replay": {
+          "Title": "다시보기 자원",
+          "Data": "데이터",
+          "Configuration": "구성"
+        },
+        "Room": {
+          "Title": "방 자원",
+          "Cover": "커버",
+          "Bgm": "BGM",
+          "Preview": "미리보기"
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+          "Title": "자원 추출됨"
         }
       },
       "Savers": {
