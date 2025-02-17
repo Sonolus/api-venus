@@ -23,6 +23,32 @@
     "#ENGINE": "Mesin",
     "#REPLAY": "Replay",
     "#ROOM": "Ruang",
+    "#POST_THUMBNAIL": "Thumbnail",
+    "#PLAYLIST_THUMBNAIL": "Thumbnail",
+    "#LEVEL_COVER": "Cover",
+    "#LEVEL_BGM": "BGM",
+    "#LEVEL_PREVIEW": "Pratinjau",
+    "#LEVEL_DATA": "Data",
+    "#SKIN_THUMBNAIL": "Thumbnail",
+    "#SKIN_DATA": "Data",
+    "#SKIN_TEXTURE": "Tekstur",
+    "#BACKGROUND_THUMBNAIL": "Thumbnail",
+    "#BACKGROUND_IMAGE": "Gambar",
+    "#BACKGROUND_DATA": "Data",
+    "#BACKGROUND_CONFIGURATION": "Konfigurasi",
+    "#EFFECT_THUMBNAIL": "Thumbnail",
+    "#EFFECT_DATA": "Data",
+    "#EFFECT_AUDIO": "Audio",
+    "#PARTICLE_THUMBNAIL": "Thumbnail",
+    "#PARTICLE_DATA": "Data",
+    "#PARTICLE_TEXTURE": "Tekstur",
+    "#ENGINE_THUMBNAIL": "Thumbnail",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "Konfigurasi",
+    "#REPLAY_DATA": "Data",
+    "#REPLAY_CONFIGURATION": "Konfigurasi",
+    "#ROOM_COVER": "Cover",
+    "#ROOM_PREVIEW": "Pratinjau",
     "#GRADE": "Nilai",
     "#ARCADE_SCORE": "Skor",
     "#ACCURACY_SCORE": "Skor Akurasi",
@@ -3176,6 +3202,32 @@
         },
         "Room": {
           "Title": "Konfigurasi Ruang"
+        }
+      },
+      "Resources": {
+        "Post": {
+        },
+        "Playlist": {
+        },
+        "Level": {
+        },
+        "Skin": {
+        },
+        "Background": {
+        },
+        "Effect": {
+        },
+        "Particle": {
+        },
+        "Engine": {
+        },
+        "Replay": {
+        },
+        "Room": {
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
         }
       },
       "Savers": {
