@@ -23,6 +23,37 @@
     "#ENGINE": "Motor",
     "#REPLAY": "Repetición",
     "#ROOM": "Sala",
+    "#POST_THUMBNAIL": "Miniatura",
+    "#PLAYLIST_THUMBNAIL": "Miniatura",
+    "#LEVEL_COVER": "Carátula",
+    "#LEVEL_BGM": "Música",
+    "#LEVEL_PREVIEW": "Previsualización",
+    "#LEVEL_DATA": "Datos",
+    "#SKIN_THUMBNAIL": "Miniatura",
+    "#SKIN_DATA": "Datos",
+    "#SKIN_TEXTURE": "Textura",
+    "#BACKGROUND_THUMBNAIL": "Miniatura",
+    "#BACKGROUND_IMAGE": "Imagen",
+    "#BACKGROUND_DATA": "Datos",
+    "#BACKGROUND_CONFIGURATION": "Configuración",
+    "#EFFECT_THUMBNAIL": "Miniatura",
+    "#EFFECT_DATA": "Datos",
+    "#EFFECT_AUDIO": "Audio",
+    "#PARTICLE_THUMBNAIL": "Miniatura",
+    "#PARTICLE_DATA": "Datos",
+    "#PARTICLE_TEXTURE": "Textura",
+    "#ENGINE_THUMBNAIL": "Miniatura",
+    "#ENGINE_PLAYDATA": "Datos de juego",
+    "#ENGINE_WATCHDATA": "Datos de espectador",
+    "#ENGINE_PREVIEWDATA": "Datos de previsualización",
+    "#ENGINE_TUTORIALDATA": "Datos del tutorial",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "Configuración",
+    "#REPLAY_DATA": "Datos",
+    "#REPLAY_CONFIGURATION": "Configuración",
+    "#ROOM_COVER": "Carátula",
+    "#ROOM_BGM": "Música",
+    "#ROOM_PREVIEW": "Previsualización",
     "#GRADE": "Calificación",
     "#ARCADE_SCORE": "Puntos Arcade",
     "#ACCURACY_SCORE": "Puntos Precisión",
@@ -31,6 +62,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#FILTER": "Filtros",
+    "#SORT": "Orden",
     "#KEYWORDS": "Palabras clave",
     "#NAME": "Nombre",
     "#RATING": "Clasificación",
@@ -45,6 +78,7 @@
     "#GENRE": "Género",
     "#TYPE": "Tipo",
     "#CATEGORY": "Categoría",
+    "#STATUS": "Estado",
     "#LANGUAGE": "Idioma",
     "#DIFFICULTY": "Dificultad",
     "#VERSION": "Versión",
@@ -246,8 +280,27 @@
     "#PERMISSION_PLACEHOLDER": "Introduzca el permiso...",
     "#USER_PLACEHOLDER": "Introduzca el usuario...",
     "#PERCENTAGE_UNIT": "{0}%",
+    "#YEAR_UNIT": "{0} a",
+    "#MONTH_UNIT": "{0} m",
+    "#DAY_UNIT": "{0} d",
+    "#HOUR_UNIT": "{0} h",
+    "#MINUTE_UNIT": "{0} min",
     "#SECOND_UNIT": "{0} s",
     "#MILLISECOND_UNIT": "{0} ms",
+    "#YEAR_PAST": "hace {0} años",
+    "#MONTH_PAST": "hace {0} meses",
+    "#DAY_PAST": "hace {0} d",
+    "#HOUR_PAST": "hace {0} h",
+    "#MINUTE_PAST": "hace {0} m",
+    "#SECOND_PAST": "hace {0} s",
+    "#MILLISECOND_PAST": "hace {0} ms",
+    "#YEAR_FUTURE": "En {0} años",
+    "#MONTH_FUTURE": "En {0} meses",
+    "#DAY_FUTURE": "En {0} d",
+    "#HOUR_FUTURE": "En {0} h",
+    "#MINUTE_FUTURE": "En {0} m",
+    "#SECOND_FUTURE": "En {0} s",
+    "#MILLISECOND_FUTURE": "En {0} ms",
     "#TAP": "Tocar",
     "#TAP_HOLD": "Tocar y mantener",
     "#TAP_RELEASE": "Tocar y soltar",
@@ -502,6 +555,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "RequiredOption": "Esta es una opción obligatoria.",
     "StandardOption": "Esta es una opción estándar.",
     "AdvancedOption": "Esta opción es para jugadores avanzados.",
     "Colors": "Colores",
@@ -2815,7 +2869,8 @@
           "Watch": "Ver",
           "Preview": "Previsualizar",
           "Tutorial": "Tutorial",
-          "Configuration": "Configuración"
+          "Configuration": "Configuración",
+          "Resources": "Recursos"
         },
         "DeleteConfirmation": {
           "Description": "¿Está seguro de eliminar \"{0}\"?"
@@ -3176,6 +3231,74 @@
         },
         "Room": {
           "Title": "Configuración de la sala"
+        }
+      },
+      "Resources": {
+        "Post": {
+          "Title": "Recursos de la publicación",
+          "Thumbnail": "Miniatura"
+        },
+        "Playlist": {
+          "Title": "Recursos de la lista de reproducción",
+          "Thumbnail": "Miniatura"
+        },
+        "Level": {
+          "Title": "Recursos del nivel",
+          "Cover": "Carátula",
+          "Bgm": "Música",
+          "Preview": "Previsualización",
+          "Data": "Datos"
+        },
+        "Skin": {
+          "Title": "Recursos de la skin",
+          "Thumbnail": "Miniatura",
+          "Data": "Datos",
+          "Texture": "Textura"
+        },
+        "Background": {
+          "Title": "Recursos del fondo",
+          "Thumbnail": "Miniatura",
+          "Image": "Imagen",
+          "Data": "Datos",
+          "Configuration": "Configuración"
+        },
+        "Effect": {
+          "Title": "Recursos de los efectos",
+          "Thumbnail": "Miniatura",
+          "Data": "Datos",
+          "Audio": "Audio"
+        },
+        "Particle": {
+          "Title": "Recursos de las partículas",
+          "Thumbnail": "Miniatura",
+          "Data": "Datos",
+          "Texture": "Textura"
+        },
+        "Engine": {
+          "Title": "Recursos del motor",
+          "Thumbnail": "Miniatura",
+          "PlayData": "Datos de reproducción",
+          "WatchData": "Datos de espectador",
+          "PreviewData": "Datos de previsualización",
+          "TutorialData": "Datos del tutorial",
+          "Rom": "ROM",
+          "Configuration": "Configuración"
+        },
+        "Replay": {
+          "Title": "Recursos de la repetición",
+          "Data": "Datos",
+          "Configuration": "Configuración"
+        },
+        "Room": {
+          "Title": "Recursos de la sala",
+          "Cover": "Carátula",
+          "Bgm": "Música",
+          "Preview": "Previsualización"
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+          "Title": "Recurso exportado"
         }
       },
       "Savers": {
