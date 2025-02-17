@@ -23,6 +23,37 @@
     "#ENGINE": "Mesin",
     "#REPLAY": "Replay",
     "#ROOM": "Ruang",
+    "#POST_THUMBNAIL": "Thumbnail",
+    "#PLAYLIST_THUMBNAIL": "Thumbnail",
+    "#LEVEL_COVER": "Cover",
+    "#LEVEL_BGM": "BGM",
+    "#LEVEL_PREVIEW": "Pratinjau",
+    "#LEVEL_DATA": "Data",
+    "#SKIN_THUMBNAIL": "Thumbnail",
+    "#SKIN_DATA": "Data",
+    "#SKIN_TEXTURE": "Tekstur",
+    "#BACKGROUND_THUMBNAIL": "Thumbnail",
+    "#BACKGROUND_IMAGE": "Gambar",
+    "#BACKGROUND_DATA": "Data",
+    "#BACKGROUND_CONFIGURATION": "Konfigurasi",
+    "#EFFECT_THUMBNAIL": "Thumbnail",
+    "#EFFECT_DATA": "Data",
+    "#EFFECT_AUDIO": "Audio",
+    "#PARTICLE_THUMBNAIL": "Thumbnail",
+    "#PARTICLE_DATA": "Data",
+    "#PARTICLE_TEXTURE": "Tekstur",
+    "#ENGINE_THUMBNAIL": "Thumbnail",
+    "#ENGINE_PLAYDATA": "Data Main",
+    "#ENGINE_WATCHDATA": "Data Tonton",
+    "#ENGINE_PREVIEWDATA": "Data Pratinjau",
+    "#ENGINE_TUTORIALDATA": "Data Tutorial",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "Konfigurasi",
+    "#REPLAY_DATA": "Data",
+    "#REPLAY_CONFIGURATION": "Konfigurasi",
+    "#ROOM_COVER": "Cover",
+    "#ROOM_BGM": "BGM",
+    "#ROOM_PREVIEW": "Pratinjau",
     "#GRADE": "Nilai",
     "#ARCADE_SCORE": "Skor",
     "#ACCURACY_SCORE": "Skor Akurasi",
@@ -31,6 +62,8 @@
     "#GREAT": "Great",
     "#GOOD": "Good",
     "#MISS": "Miss",
+    "#FILTER": "Filter",
+    "#SORT": "Urut",
     "#KEYWORDS": "Kata Kunci",
     "#NAME": "Nama",
     "#RATING": "Rating",
@@ -45,6 +78,7 @@
     "#GENRE": "Genre",
     "#TYPE": "Tipe",
     "#CATEGORY": "Kategori",
+    "#STATUS": "Status",
     "#LANGUAGE": "Bahasa",
     "#DIFFICULTY": "Kesulitan",
     "#VERSION": "Versi",
@@ -246,8 +280,27 @@
     "#PERMISSION_PLACEHOLDER": "Masukkan izin...",
     "#USER_PLACEHOLDER": "Masukkan user...",
     "#PERCENTAGE_UNIT": "{0}%",
+    "#YEAR_UNIT": "{0} thn",
+    "#MONTH_UNIT": "{0} bln",
+    "#DAY_UNIT": "{0} hr",
+    "#HOUR_UNIT": "{0} jam",
+    "#MINUTE_UNIT": "{0} mnt",
     "#SECOND_UNIT": "{0} s",
     "#MILLISECOND_UNIT": "{0} ms",
+    "#YEAR_PAST": "{0} thn lalu",
+    "#MONTH_PAST": "{0} bln lalu",
+    "#DAY_PAST": "{0} hr lalu",
+    "#HOUR_PAST": "{0} jam lalu",
+    "#MINUTE_PAST": "{0} mnt lalu",
+    "#SECOND_PAST": "{0} dtk lalu",
+    "#MILLISECOND_PAST": "{0} mdtk lalu",
+    "#YEAR_FUTURE": "Dalam {0} thn",
+    "#MONTH_FUTURE": "Dalam {0} bln",
+    "#DAY_FUTURE": "Dalam {0} hr",
+    "#HOUR_FUTURE": "Dalam {0} jam",
+    "#MINUTE_FUTURE": "Dalam {0} mnt",
+    "#SECOND_FUTURE": "Dalam {0} dtk",
+    "#MILLISECOND_FUTURE": "Dalam {0} mdtk",
     "#TAP": "Ketuk",
     "#TAP_HOLD": "Ketuk dan Tahan",
     "#TAP_RELEASE": "Ketuk dan Lepaskan",
@@ -502,6 +555,7 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "RequiredOption": "Ini adalah opsi yang diperlukan.",
     "StandardOption": "Ini adalah opsi standar.",
     "AdvancedOption": "Opsi ini untuk pemain tingkat lanjut.",
     "Colors": "Warna",
@@ -2815,7 +2869,8 @@
           "Watch": "Tonton",
           "Preview": "Pratinjau",
           "Tutorial": "Tutorial",
-          "Configuration": "Konfigurasi"
+          "Configuration": "Konfigurasi",
+          "Resources": "Sumber Daya"
         },
         "DeleteConfirmation": {
           "Description": "Apakah Anda yakin ingin menghapus \"{0}\"?"
@@ -3176,6 +3231,74 @@
         },
         "Room": {
           "Title": "Konfigurasi Ruang"
+        }
+      },
+      "Resources": {
+        "Post": {
+          "Title": "Posting Sumber Daya",
+          "Thumbnail": "Thumbnail"
+        },
+        "Playlist": {
+          "Title": "Sumber Daya Playlist",
+          "Thumbnail": "Thumbnail"
+        },
+        "Level": {
+          "Title": "Sumber Daya Level",
+          "Cover": "Cover",
+          "Bgm": "BGM",
+          "Preview": "Pratinjau",
+          "Data": "Data"
+        },
+        "Skin": {
+          "Title": "Sumber Daya Skin",
+          "Thumbnail": "Thumbnail",
+          "Data": "Data",
+          "Texture": "Tekstur"
+        },
+        "Background": {
+          "Title": "Sumber Daya Latar Belakang",
+          "Thumbnail": "Thumbnail",
+          "Image": "Gambar",
+          "Data": "Data",
+          "Configuration": "Konfigurasi"
+        },
+        "Effect": {
+          "Title": "Sumber Daya Efek",
+          "Thumbnail": "Thumbnail",
+          "Data": "Data",
+          "Audio": "Audio"
+        },
+        "Particle": {
+          "Title": "Sumber Daya Partikel",
+          "Thumbnail": "Thumbnail",
+          "Data": "Data",
+          "Texture": "Tekstur"
+        },
+        "Engine": {
+          "Title": "Sumber Daya Mesin",
+          "Thumbnail": "Thumbnail",
+          "PlayData": "Data Main",
+          "WatchData": "Data Tonton",
+          "PreviewData": "Data Pratinjau",
+          "TutorialData": "Data Tutorial",
+          "Rom": "ROM",
+          "Configuration": "Konfigurasi"
+        },
+        "Replay": {
+          "Title": "Sumber Daya Ulang",
+          "Data": "Data",
+          "Configuration": "Konfigurasi"
+        },
+        "Room": {
+          "Title": "Sumber Daya Ruang",
+          "Cover": "Cover",
+          "Bgm": "BGM",
+          "Preview": "Pratinjau"
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+          "Title": "Sumber Daya Diekspor"
         }
       },
       "Savers": {
