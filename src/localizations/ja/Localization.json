@@ -659,11 +659,11 @@
       "JudgmentErrorPlacement": {
         "Left": "左",
         "Right": "右",
-        "LeftRight": "Left + Right",
-        "Top": "Top",
-        "Bottom": "Bottom",
-        "TopBottom": "Top + Bottom",
-        "Center": "Center"
+        "LeftRight": "左右",
+        "Top": "上",
+        "Bottom": "下",
+        "TopBottom": "上下",
+        "Center": "中央"
       },
       "Visibility": "見た目",
       "Animation": "アニメーション",
