@@ -199,6 +199,15 @@
     "#SIMLINE_COLOR": "Color de la línea simultánea",
     "#SIMLINE_ALPHA": "Transparencia de línea simultánea",
     "#SIMLINE_ANIMATION": "Animación de línea simultánea",
+    "#PREVIEW_SCALE_VERTICAL": "Previsualizar escalado vertical",
+    "#PREVIEW_SCALE_HORIZONTAL": "Previsualizar escalado horizontal",
+    "#PREVIEW_TIME": "Previsualizar tiempo",
+    "#PREVIEW_SCORE": "Previsualizar puntuación",
+    "#PREVIEW_BPM": "Previsualizar BPM",
+    "#PREVIEW_TIMESCALE": "Previsualizar escalado de tiempo",
+    "#PREVIEW_BEAT": "Previsualizar ritmo",
+    "#PREVIEW_MEASURE": "Previsualizar medida",
+    "#PREVIEW_COMBO": "Previsualizar combo",
     "#NONE": "Ninguno",
     "#ANY": "Cualquiera",
     "#ALL": "Todos",
@@ -634,6 +643,8 @@
       },
       "JudgmentErrorStyle": {
         "None": "Ninguno",
+        "Late": "Tarde / Temprano",
+        "Early": "Temprano / Tarde",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -646,9 +657,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
-        "Both": "Ambos",
         "Left": "Izquierda",
-        "Right": "Derecha"
+        "Right": "Derecha",
+        "LeftRight": "Izquierda + Derecha",
+        "Top": "Arriba",
+        "Bottom": "Abajo",
+        "TopBottom": "Arriba + Abajo",
+        "Center": "Centro"
       },
       "Visibility": "Visibilidad",
       "Animation": "Animación",
@@ -3717,6 +3732,7 @@
           "Options": {
             "List": "Lista",
             "Details": "Detalles",
+            "Result": "Resultado",
             "Multiplayer": "Multijugador"
           }
         },
