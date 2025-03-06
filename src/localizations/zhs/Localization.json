@@ -199,6 +199,15 @@
     "#SIMLINE_COLOR": "同时击打线颜色",
     "#SIMLINE_ALPHA": "同时击打线透明度",
     "#SIMLINE_ANIMATION": "同时击打线动画",
+    "#PREVIEW_SCALE_VERTICAL": "垂直预览比例",
+    "#PREVIEW_SCALE_HORIZONTAL": "水平预览比例",
+    "#PREVIEW_TIME": "预览时间",
+    "#PREVIEW_SCORE": "预览分数",
+    "#PREVIEW_BPM": "预览 BPM",
+    "#PREVIEW_TIMESCALE": "预览倍速",
+    "#PREVIEW_BEAT": "预览节拍",
+    "#PREVIEW_MEASURE": "预览刻度",
+    "#PREVIEW_COMBO": "预览连击",
     "#NONE": "无",
     "#ANY": "任意",
     "#ALL": "全部",
@@ -634,6 +643,8 @@
       },
       "JudgmentErrorStyle": {
         "None": "无",
+        "Late": "Late / Early",
+        "Early": "Early / Late",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -646,9 +657,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
-        "Both": "两侧",
         "Left": "左侧",
-        "Right": "右侧"
+        "Right": "右侧",
+        "LeftRight": "左侧 + 右侧",
+        "Top": "顶部",
+        "Bottom": "底部",
+        "TopBottom": "顶部 + 底部",
+        "Center": "中央"
       },
       "Visibility": "可见",
       "Animation": "动画",
@@ -3717,6 +3732,7 @@
           "Options": {
             "List": "列表",
             "Details": "详情",
+            "Result": "结果",
             "Multiplayer": "多人游戏"
           }
         },
