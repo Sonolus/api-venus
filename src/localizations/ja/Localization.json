@@ -199,6 +199,15 @@
     "#SIMLINE_COLOR": "同時ノーツ線の色",
     "#SIMLINE_ALPHA": "同時ノーツ線の不透明度",
     "#SIMLINE_ANIMATION": "同時ノーツ線のアニメーション",
+    "#PREVIEW_SCALE_VERTICAL": "プレビュ－：縦方向の拡大率",
+    "#PREVIEW_SCALE_HORIZONTAL": "プレビュ－：横方向の拡大率",
+    "#PREVIEW_TIME": "プレビュー：時間",
+    "#PREVIEW_SCORE": "プレビュー：スコア",
+    "#PREVIEW_BPM": "プレビュー：BPM",
+    "#PREVIEW_TIMESCALE": "プレビュー：ハイスピード",
+    "#PREVIEW_BEAT": "プレビュー：拍子",
+    "#PREVIEW_MEASURE": "プレビュー：小節",
+    "#PREVIEW_COMBO": "プレビュー：コンボ",
     "#NONE": "無し",
     "#ANY": "未指定",
     "#ALL": "全て",
@@ -634,6 +643,8 @@
       },
       "JudgmentErrorStyle": {
         "None": "無し",
+        "Late": "Late / Early",
+        "Early": "Early / Late",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -646,9 +657,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
-        "Both": "左右",
         "Left": "左",
-        "Right": "右"
+        "Right": "右",
+        "LeftRight": "左右",
+        "Top": "上",
+        "Bottom": "下",
+        "TopBottom": "上下",
+        "Center": "中央"
       },
       "Visibility": "見た目",
       "Animation": "アニメーション",
@@ -3717,6 +3732,7 @@
           "Options": {
             "List": "一覧画面",
             "Details": "詳細画面",
+            "Result": "リザルト画面",
             "Multiplayer": "部屋"
           }
         },
