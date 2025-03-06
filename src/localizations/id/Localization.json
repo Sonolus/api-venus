@@ -199,6 +199,15 @@
     "#SIMLINE_COLOR": "Warna Line Simultan",
     "#SIMLINE_ALPHA": "Transparansi Line Simultan",
     "#SIMLINE_ANIMATION": "Animasi Line Simultan",
+    "#PREVIEW_SCALE_VERTICAL": "Skala Vertikal Pratinjau",
+    "#PREVIEW_SCALE_HORIZONTAL": "Skala Horizontal Pratinjau",
+    "#PREVIEW_TIME": "Waktu Pratinjau",
+    "#PREVIEW_SCORE": "Skor Pratinjau",
+    "#PREVIEW_BPM": "BPM Pratinjau",
+    "#PREVIEW_TIMESCALE": "Skala Waktu Pratinjau",
+    "#PREVIEW_BEAT": "Beat Pratinjau",
+    "#PREVIEW_MEASURE": "Measure Pratinjau",
+    "#PREVIEW_COMBO": "Kombo Pratinjau",
     "#NONE": "Tidak Ada",
     "#ANY": "Bebas",
     "#ALL": "Semua",
@@ -634,6 +643,8 @@
       },
       "JudgmentErrorStyle": {
         "None": "Tidak ada",
+        "Late": "Late / Early",
+        "Early": "Early / Late",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -646,9 +657,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
-        "Both": "Keduanya",
         "Left": "Kiri",
-        "Right": "Kanan"
+        "Right": "Kanan",
+        "LeftRight": "Kiri + Kanan",
+        "Top": "Atas",
+        "Bottom": "Bawah",
+        "TopBottom": "Atas + Bawah",
+        "Center": "Tengah"
       },
       "Visibility": "Visibilitas",
       "Animation": "Animasi",
@@ -3717,6 +3732,7 @@
           "Options": {
             "List": "List",
             "Details": "Detail",
+            "Result": "Hasil",
             "Multiplayer": "Multiplayer"
           }
         },
