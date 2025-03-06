@@ -199,6 +199,15 @@
     "#SIMLINE_COLOR": "동시입력선 색상",
     "#SIMLINE_ALPHA": "동시입력선 투명도",
     "#SIMLINE_ANIMATION": "동시입력선 애니메이션",
+    "#PREVIEW_SCALE_VERTICAL": "수직 배율 미리보기",
+    "#PREVIEW_SCALE_HORIZONTAL": "수평 배율 미리보기",
+    "#PREVIEW_TIME": "시간 미리보기",
+    "#PREVIEW_SCORE": "점수 미리보기",
+    "#PREVIEW_BPM": "BPM 미리보기",
+    "#PREVIEW_TIMESCALE": "시간 배율 미리보기",
+    "#PREVIEW_BEAT": "비트 미리보기",
+    "#PREVIEW_MEASURE": "측정 미리보기",
+    "#PREVIEW_COMBO": "콤보 미리보기",
     "#NONE": "없음",
     "#ANY": "전부",
     "#ALL": "전부",
@@ -634,6 +643,8 @@
       },
       "JudgmentErrorStyle": {
         "None": "없음",
+        "Late": "느림 / 빠름",
+        "Early": "빠름 / 느림",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -646,9 +657,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
-        "Both": "양쪽",
         "Left": "왼쪽",
-        "Right": "오른쪽"
+        "Right": "오른쪽",
+        "LeftRight": "왼쪽 + 오른쪽",
+        "Top": "위",
+        "Bottom": "아래",
+        "TopBottom": "위 + 아래",
+        "Center": "중앙"
       },
       "Visibility": "가시성",
       "Animation": "애니메이션",
@@ -3717,6 +3732,7 @@
           "Options": {
             "List": "목록",
             "Details": "세부정보",
+            "Result": "결과",
             "Multiplayer": "멀티플레이"
           }
         },
