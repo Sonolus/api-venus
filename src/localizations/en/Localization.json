@@ -199,6 +199,15 @@
         "#SIMLINE_COLOR": "Simultaneous Line Color",
         "#SIMLINE_ALPHA": "Simultaneous Line Transparency",
         "#SIMLINE_ANIMATION": "Simultaneous Line Animation",
+        "#PREVIEW_SCALE_VERTICAL": "Preview Vertical Scale",
+        "#PREVIEW_SCALE_HORIZONTAL": "Preview Horizontal Scale",
+        "#PREVIEW_TIME": "Preview Time",
+        "#PREVIEW_SCORE": "Preview Score",
+        "#PREVIEW_BPM": "Preview BPM",
+        "#PREVIEW_TIMESCALE": "Preview Time Scale",
+        "#PREVIEW_BEAT": "Preview Beat",
+        "#PREVIEW_MEASURE": "Preview Measure",
+        "#PREVIEW_COMBO": "Preview Combo",
         "#NONE": "None",
         "#ANY": "Any",
         "#ALL": "All",
@@ -634,6 +643,8 @@
             },
             "JudgmentErrorStyle": {
                 "None": "None",
+                "Late": "Late / Early",
+                "Early": "Early / Late",
                 "Plus": "+ / -",
                 "Minus": "- / +",
                 "ArrowUp": "↑ / ↓",
@@ -646,9 +657,13 @@
                 "TriangleRight": "► / ◄"
             },
             "JudgmentErrorPlacement": {
-                "Both": "Both",
                 "Left": "Left",
-                "Right": "Right"
+                "Right": "Right",
+                "LeftRight": "Left + Right",
+                "Top": "Top",
+                "Bottom": "Bottom",
+                "TopBottom": "Top + Bottom",
+                "Center": "Center"
             },
             "Visibility": "Visibility",
             "Animation": "Animation",
@@ -3717,6 +3732,7 @@
                     "Options": {
                         "List": "List",
                         "Details": "Details",
+                        "Result": "Result",
                         "Multiplayer": "Multiplayer"
                     }
                 },
