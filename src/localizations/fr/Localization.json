@@ -4,204 +4,532 @@
     "Title": "Français (French)"
   },
   "Texts": {
-    "Name": {
-      "#KEYWORDS": "Keywords",
-      "#NAME": "Nom",
-      "#RATING": "Note",
-      "#RATING_MINIMUM": "Note minimum",
-      "#RATING_MAXIMUM": "Note maximum ",
-      "#TITLE": "Titre",
-      "#SUBTITLE": "Sous-titre",
-      "#ARTISTS": "Artistes",
-      "#AUTHOR": "Auteurs",
-      "#GENRE": "Genre",
-      "#CATEGORY": "Catégorie",
-      "#LANGUAGE": "Language",
-      "#DIFFICULTY": "Difficulté",
-      "#LENGTH": "Longueur",
-      "#LENGTH_MINIMUM": "Longueur minimum",
-      "#LENGTH_MAXIMUM": "Longueur maximale",
-      "#SPEED": "Level Speed",
-      "#MIRROR": "Niveau Mirroir",
-      "#RANDOM": "Aléatoire",
-      "#HIDDEN": "Caché",
-      "#JUDGMENT_STRICT": "Jugement strict",
-      "#JUDGMENT_LOOSE": "Jugement lâche",
-      "#EFFECT": "SFX",
-      "#EFFECT_AUTO": "Auto SFX",
-      "#STAGE": "Visibilité de la scène",
-      "#STAGE_POSITION": "Position de scène",
-      "#STAGE_SIZE": "Taille de la scène",
-      "#STAGE_ROTATION": "Rotation de la scène",
-      "#STAGE_ALPHA": "Transparence des scènes",
-      "#STAGE_ANIMATION": "Animations scéniques",
-      "#STAGE_TILT": "Inclinaison de la scène",
-      "#STAGE_COVER_VERTICAL": "Couverture de scène verticale",
-      "#STAGE_COVER_HORIZONTAL": "Couverture horizontale du scène",
-      "#STAGE_COVER_ALPHA": "Transparence de couverture de scène",
-      "#STAGE_ASPECTRATIO_LOCK": "Verrouiller le format d'image de la scène",
-      "#STAGE_EFFECT": "Effet de la scène",
-      "#STAGE_EFFECT_POSITION": "Position de l'effet de scène",
-      "#STAGE_EFFECT_SIZE": "Taille de l'effet de la scène",
-      "#STAGE_EFFECT_ROTATION": "Rotation des effets de scène",
-      "#STAGE_EFFECT_ALPHA": "Transarence de l'effet de la scène",
-      "#LANE": "Visibilité de la voie",
-      "#LANE_POSITION": "Position de voie",
-      "#LANE_SIZE": "Taille de la voie",
-      "#LANE_ROTATION": "Rotation de la voie",
-      "#LANE_ALPHA": "Transparence des voies",
-      "#LANE_ANIMATION": "Animation de voie",
-      "#LANE_EFFECT": "Effet de voie",
-      "#LANE_EFFECT_POSITION": "Position de l'effet de voie",
-      "#LANE_EFFECT_SIZE": "Taille de l'effet de voie",
-      "#LANE_EFFECT_ROTATION": "Rotation de l'effet de voie",
-      "#LANE_EFFECT_ALPHA": "Transparence de l'effet de voie",
-      "#JUDGELINE": "Visibilité de la ligne de jugement",
-      "#JUDGELINE_POSITION": "Position de la ligne de jugement",
-      "#JUDGELINE_SIZE": "Taille de la ligne de jugement",
-      "#JUDGELINE_ROTATION": "Rotation de la ligne de jugement",
-      "#JUDGELINE_ALPHA": "Transparence de la ligne de jugement",
-      "#JUDGELINE_ANIMATION": "Animation de la ligne de jugement",
-      "#JUDGELINE_EFFECT": "Effet de ligne de jugement",
-      "#JUDGELINE_EFFECT_POSITION": "Position d'effet de la ligne de jugement",
-      "#JUDGELINE_EFFECT_SIZE": "Taille de l'effet de la ligne de jugement",
-      "#JUDGELINE_EFFECT_ROTATION": "Rotation de l'effet de la ligne de jugement",
-      "#JUDGELINE_EFFECT_ALPHA": "Transparence de l'effet de la ligne de jugement",
-      "#SLOT": "Visibilité de case",
-      "#SLOT_POSITION": "Position de la fente",
-      "#SLOT_SIZE": "Taille de case",
-      "#SLOT_ROTATION": "Rotation de case",
-      "#SLOT_ALPHA": "Transparence des cases",
-      "#SLOT_ANIMATION": "Animation de case",
-      "#SLOT_EFFECT": "Effet de case",
-      "#SLOT_EFFECT_POSITION": "Position de l'effet de fente",
-      "#SLOT_EFFECT_SIZE": "Taille de l'effet de case",
-      "#SLOT_EFFECT_ROTATION": "Rotation de l'effet de case",
-      "#SLOT_EFFECT_ALPHA": "Transparence de l'effet de case",
-      "#NOTE": "Visibilié des notes",
-      "#NOTE_SPEED": "Rapidité de la note",
-      "#NOTE_SPEED_RANDOM": "Rapidité aléatoire de la note",
-      "#NOTE_POSITION": "Position de la note",
-      "#NOTE_SIZE": "Taille de la note",
-      "#NOTE_ROTATION": "Rotation des notes",
-      "#NOTE_ALPHA": "Transparence de la note",
-      "#NOTE_ANIMATION": "Animation de note",
-      "#NOTE_EFFECT": "l'Effet de la note",
-      "#NOTE_EFFECT_POSITION": "Position de l'effet de la note",
-      "#NOTE_EFFECT_SIZE": "Taille effet de la note",
-      "#NOTE_EFFECT_ROTATION": "Rotation effet de la note",
-      "#NOTE_EFFECT_ALPHA": "Transparence effet de la note",
-      "#MARKER": "Visibilité du marqueur",
-      "#MARKER_POSITION": "Position du marqueur",
-      "#MARKER_SIZE": "Taille du marqueur",
-      "#MARKER_ROTATION": "Rotation du marqueur",
-      "#MARKER_ALPHA": "Transparence des marqueurs",
-      "#MARKER_ANIMATION": "Animation de marqueur",
-      "#CONNECTOR": "Visibilité du connecteur",
-      "#CONNECTOR_POSITION": "Position du connecteur",
-      "#CONNECTOR_SIZE": "Taille du connecteur",
-      "#CONNECTOR_ROTATION": "Rotation du connecteur",
-      "#CONNECTOR_ALPHA": "Transparence du connecteur",
-      "#CONNECTOR_ANIMATION": "Animation du connecteur",
-      "#SIMLINE": "Visibilité de ligne simultanée",
-      "#SIMLINE_POSITION": "Position de ligne simultanée",
-      "#SIMLINE_SIZE": "Taille de ligne simultanée",
-      "#SIMLINE_ROTATION": "Rotation de ligne simultanée",
-      "#SIMLINE_ALPHA": "Transparence de ligne simultanée",
-      "#SIMLINE_ANIMATION": "Animation de ligne simultanée"
-    },
-    "Value": {
-      "#NONE": "None",
-      "#ANY": "Any",
-      "#ALL": "All",
-      "#OTHERS": "Autres",
-      "#SHORT": "Court",
-      "#LONG": "Long",
-      "#HIGH": "High",
-      "#MID": "Mid",
-      "#LOW": "Low",
-      "#SMALL": "Petit",
-      "#MEDIUM": "Medium",
-      "#LARGE": "Long",
-      "#LEFT": "Gauche",
-      "#RIGHT": "Droit",
-      "#UP": "Haut",
-      "#DOWN": "Bas",
-      "#FRONT": "De face",
-      "#BACK": "Back",
-      "#CENTER": "Centre",
-      "#TOP": "Top",
-      "#BOTTOM": "En bas",
-      "#TOP_LEFT": "Top Gauche",
-      "#TOP_CENTER": "Top Centre",
-      "#TOP_RIGHT": "Top Droit",
-      "#CENTER_LEFT": "Centre Gauche",
-      "#CENTER_RIGHT": "Centre Droit",
-      "#BOTTOM_LEFT": "En bas à gauche",
-      "#BOTTOM_CENTER": "En bas au centre",
-      "#BOTTOM_RIGHT": "En bas à droite",
-      "#CLOCKWISE": "Sens des aiguilles d'une montre",
-      "#COUNTERCLOCKWISE": "Sens antihoraire",
-      "#FORWARD": "Vers l'avant",
-      "#BACKWARD": "En arrière",
-      "#SIMPLE": "Simple",
-      "#EASY": "Facile",
-      "#NORMAL": "Normal",
-      "#HARD": "Hard",
-      "#EXPERT": "Expert",
-      "#MASTER": "Maître",
-      "#PRO": "Pro",
-      "#TECHNICAL": "Technique",
-      "#SPECIAL": "Special"
-    },
-    "Placeholder": {
-      "#KEYWORDS": "Entrer le keywords...",
-      "#NAME": "Entrer le nom...",
-      "#RATING": "Entrer la note...",
-      "#RATING_MINIMUM": "Entrer la minimum note...",
-      "#RATING_MAXIMUM": "Entrez la note maximale...",
-      "#TITLE": "Entrez le titre...",
-      "#SUBTITLE": "Entrez le sous-titre...",
-      "#ARTISTS": "Entrez les artistes...",
-      "#AUTHOR": "Entrez l'auteur...",
-      "#GENRE": "Entrez le genre...",
-      "#CATEGORY": "Entrez la catégorie...",
-      "#LANGUAGE": "Entrez la langue...",
-      "#DIFFICULTY": "Entrez la difficulté...",
-      "#LENGTH": "Entrez la longueur...",
-      "#LENGTH_MINIMUM": "Entrez la longueur minimale...",
-      "#LENGTH_MAXIMUM": "Entrez la longueur maximale..."
-    },
-    "Unit": {
-      "#PERCENTAGE": "{0}%",
-      "#SECOND": "{0} s",
-      "#MILLISECOND": "{0} ms"
-    },
-    "Instruction": {
-      "#TAP": "Clique",
-      "#TAP_HOLD": "Clique et tu maintiens",
-      "#TAP_RELEASE": "Clique et tu laches",
-      "#TAP_FLICK": "Clique et tu glisses",
-      "#TAP_SLIDE": "Clique et tu suis",
-      "#HOLD": "Tu tiens",
-      "#HOLD_SLIDE": "Tu maintiens et tu glisses",
-      "#HOLD_FOLLOW": "Tu maintiens et tu suis",
-      "#RELEASE": "Tu laches\n",
-      "#FLICK": "Glisse",
-      "#SLIDE": "Slide",
-      "#SLIDE_FLICK": "Slide et Flick",
-      "#AVOID": "Évitement",
-      "#JIGGLE": "Secouement"
-    }
+    "#CUSTOM_SERVER": "Serveur Personnalisé",
+    "#COLLECTION": "Collection",
+    "#SERVER": "Serveur",
+    "#ADDRESS": "Adresse",
+    "#EXPIRATION": "Expiration",
+    "#STORAGE": "Stockage",
+    "#LOG": "Journaux",
+    "#INQUIRY": "Demande",
+    "#BANNER": "Bannière",
+    "#POST": "Publication",
+    "#PLAYLIST": "Playlist",
+    "#LEVEL": "Niveau",
+    "#SKIN": "Skin",
+    "#BACKGROUND": "Arrière-plan",
+    "#EFFECT": "SFX",
+    "#PARTICLE": "Particule",
+    "#ENGINE": "Moteur",
+    "#REPLAY": "Replay",
+    "#ROOM": "Salle",
+    "#POST_THUMBNAIL": "Vignette",
+    "#PLAYLIST_THUMBNAIL": "Vignette",
+    "#LEVEL_COVER": "Couverture",
+    "#LEVEL_BGM": "Musique",
+    "#LEVEL_PREVIEW": "Aperçu",
+    "#LEVEL_DATA": "Données",
+    "#SKIN_THUMBNAIL": "Vignette",
+    "#SKIN_DATA": "Données",
+    "#SKIN_TEXTURE": "Texture",
+    "#BACKGROUND_THUMBNAIL": "Vignette",
+    "#BACKGROUND_IMAGE": "Image",
+    "#BACKGROUND_DATA": "Données",
+    "#BACKGROUND_CONFIGURATION": "Configuration",
+    "#EFFECT_THUMBNAIL": "Vignette",
+    "#EFFECT_DATA": "Données",
+    "#EFFECT_AUDIO": "Audio",
+    "#PARTICLE_THUMBNAIL": "Vignette",
+    "#PARTICLE_DATA": "Données",
+    "#PARTICLE_TEXTURE": "Texture",
+    "#ENGINE_THUMBNAIL": "Vignette",
+    "#ENGINE_PLAYDATA": "Données de Jeu",
+    "#ENGINE_WATCHDATA": "Données de Visionnage ",
+    "#ENGINE_PREVIEWDATA": "Données de l' Aperçu",
+    "#ENGINE_TUTORIALDATA": "Données du Tutoriel ",
+    "#ENGINE_ROM": "ROM",
+    "#ENGINE_CONFIGURATION": "Configuration",
+    "#REPLAY_DATA": "Données",
+    "#REPLAY_CONFIGURATION": "Configuration",
+    "#ROOM_COVER": "Couverture",
+    "#ROOM_BGM": "BGM",
+    "#ROOM_PREVIEW": "Aperçu",
+    "#GRADE": "Note",
+    "#ARCADE_SCORE": "Score d'Arcade",
+    "#ACCURACY_SCORE": "Score de Précision",
+    "#COMBO": "Combo",
+    "#PERFECT": "Perfect",
+    "#GREAT": "Great",
+    "#GOOD": "Good",
+    "#MISS": "Miss",
+    "#FILTER": "Filtrer",
+    "#SORT": "Trier",
+    "#KEYWORDS": "Mots clés",
+    "#NAME": "Nom",
+    "#RATING": "Notation",
+    "#RATING_MINIMUM": "Note Minimale",
+    "#RATING_MAXIMUM": "Note Maximale",
+    "#TITLE": "Titre",
+    "#SUBTITLE": "Sous-titre",
+    "#ARTISTS": "Artistes",
+    "#TIME": "Temps",
+    "#AUTHOR": "Auteur",
+    "#DESCRIPTION": "Description",
+    "#GENRE": "Genre",
+    "#TYPE": "Type",
+    "#CATEGORY": "Catégorie",
+    "#STATUS": "État",
+    "#LANGUAGE": "Langue",
+    "#DIFFICULTY": "Difficulté",
+    "#VERSION": "Version",
+    "#LENGTH": "Durée",
+    "#LENGTH_MINIMUM": "Durée Minimale",
+    "#LENGTH_MAXIMUM": "Durée Maximale",
+    "#ADDITIONAL_INFORMATION": "Autres Informations",
+    "#TIMEZONE": "Fuseau Horaire",
+    "#REGION": "Région",
+    "#CONTENT": "Contenu",
+    "#COMMENT": "Commentaire",
+    "#MESSAGE": "Message",
+    "#ROLE": "Rôle",
+    "#PERMISSION": "Autorisation",
+    "#USER": "Utilisateur",
+    "#SPEED": "Vitesse du Niveau",
+    "#MIRROR": "Refléter le Niveau",
+    "#RANDOM": "Aléatoire",
+    "#HIDDEN": "Caché",
+    "#JUDGMENT_STRICT": "Jugement Strict",
+    "#JUDGMENT_LOOSE": "Jugement Relâché",
+    "#EFFECT_AUTO": "SFX Auto",
+    "#STAGE": "Scène",
+    "#STAGE_POSITION": "Position de la Scène",
+    "#STAGE_SIZE": "Taille de la scène",
+    "#STAGE_ROTATION": "Rotation de la Scène",
+    "#STAGE_DIRECTION": "Direction de la Scène",
+    "#STAGE_ALPHA": "Transparence de la Scène",
+    "#STAGE_ANIMATION": "Animation de la Scène",
+    "#STAGE_TILT": "Inclinaison de la Scène",
+    "#STAGE_COVER_VERTICAL": "Recouvrir Verticalement la Scène",
+    "#STAGE_COVER_HORIZONTAL": "Recouvrir Horizontalement la Scène",
+    "#STAGE_COVER_ALPHA": "Transparence de la Couverture de Scène",
+    "#STAGE_ASPECTRATIO_LOCK": "Verrouiller les Dimensions de la Scène",
+    "#STAGE_EFFECT": "Effets de Scène",
+    "#STAGE_EFFECT_POSITION": "Position des Effets de Scène",
+    "#STAGE_EFFECT_SIZE": "Taille Des Effets De Scène",
+    "#STAGE_EFFECT_ROTATION": "Rotation des Effets de Scène",
+    "#STAGE_EFFECT_DIRECTION": "Direction des Effets de Scène",
+    "#STAGE_EFFECT_ALPHA": "Transparence des Effets de Scène ",
+    "#LANE": "Voie ",
+    "#LANE_POSITION": "Position des Voies",
+    "#LANE_SIZE": "Taille des Voies",
+    "#LANE_ROTATION": "Rotation des Voies",
+    "#LANE_DIRECTION": "Direction des Voies",
+    "#LANE_ALPHA": "Transparence des Voies",
+    "#LANE_ANIMATION": "Animation des Voies",
+    "#LANE_EFFECT": "Effets des Voies",
+    "#LANE_EFFECT_POSITION": "Position des Effets des Voies",
+    "#LANE_EFFECT_SIZE": "Taille des Effets des Voies",
+    "#LANE_EFFECT_ROTATION": "Rotation des Effets des Voies",
+    "#LANE_EFFECT_DIRECTION": "Direction des Effets des Voies",
+    "#LANE_EFFECT_ALPHA": "Transparence des Effets des Voies m",
+    "#JUDGELINE_POSITION": "Position de la Ligne de Jugement",
+    "#JUDGELINE_SIZE": "Taille de la Ligne de Jugement",
+    "#JUDGELINE_ROTATION": "Rotation de la Ligne de Jugement",
+    "#JUDGELINE_DIRECTION": "Direction de la Ligne de Jugement",
+    "#JUDGELINE_ALPHA": "Transparence de la Ligne de Jugement ",
+    "#JUDGELINE_ANIMATION": "Animation de la Ligne de Jugement ",
+    "#JUDGELINE_EFFECT": "Effets de la Ligne de Jugement",
+    "#JUDGELINE_EFFECT_POSITION": "Position des Effets de la Ligne de Jugement ",
+    "#JUDGELINE_EFFECT_SIZE": "Taille des Effets de la Ligne de Jugement ",
+    "#JUDGELINE_EFFECT_ROTATION": "Rotation de la Ligne de Jugement ",
+    "#JUDGELINE_EFFECT_DIRECTION": "Direction des Effets de la Ligne de Jugement ",
+    "#JUDGELINE_EFFECT_ALPHA": "Transparence des Effets de la Ligne de Jugement ",
+    "#SLOT": "Fente",
+    "#SLOT_POSITION": "Position de la Fente",
+    "#SLOT_SIZE": "Taille de la Fente",
+    "#SLOT_ROTATION": "Rotation de la Fente",
+    "#SLOT_DIRECTION": "Direction de la Fente ",
+    "#SLOT_ALPHA": "Transparence de la Fente",
+    "#SLOT_ANIMATION": "Animation de la Fente",
+    "#SLOT_EFFECT": "Effets de la Fente",
+    "#SLOT_EFFECT_POSITION": "Positions des Effets de la Fente ",
+    "#SLOT_EFFECT_SIZE": "Taile des Effets de la Fente ",
+    "#SLOT_EFFECT_ROTATION": "Rotation des Effets de la Fente ",
+    "#SLOT_EFFECT_DIRECTION": "Direction des Effets de la Fente ",
+    "#SLOT_EFFECT_ALPHA": "Transparence des Effets de la Fente ",
+    "#NOTE": "Note",
+    "#NOTE_SPEED": "Vitesse des Notes",
+    "#NOTE_SPEED_RANDOM": "Vitesse des Notes Aléatoire",
+    "#NOTE_POSITION": "Position des Notes",
+    "#NOTE_SIZE": "Taille des Notes",
+    "#NOTE_ROTATION": "Rotation des Notes",
+    "#NOTE_DIRECTION": "Direction des Notes",
+    "#NOTE_COLOR": "Couleur des Notes ",
+    "#NOTE_ALPHA": "Transparence des Notes ",
+    "#NOTE_ANIMATION": "Animation des Notes ",
+    "#NOTE_EFFECT": "Effets des Notes ",
+    "#NOTE_EFFECT_POSITION": "Position des Effets des Notes",
+    "#NOTE_EFFECT_SIZE": "Taille des Effets des Notes ",
+    "#NOTE_EFFECT_ROTATION": "Rotation des Effets des Notes ",
+    "#NOTE_EFFECT_DIRECTION": "Direction des Effets des Notes ",
+    "#NOTE_EFFECT_COLOR": "Couleur des Effets des Notes ",
+    "#NOTE_EFFECT_ALPHA": "Transparence des Effets des Notes ",
+    "#MARKER": "Marqueur",
+    "#MARKER_POSITION": "Position des Marqueurs",
+    "#MARKER_SIZE": "Taille des Marqueurs",
+    "#MARKER_ROTATION": "Rotation des Marqueurs ",
+    "#MARKER_DIRECTION": "Direction des Marqueurs ",
+    "#MARKER_COLOR": "Couleur des Marqueurs",
+    "#MARKER_ALPHA": "Transparence des Marqueurs ",
+    "#MARKER_ANIMATION": "Animation des Marqueurs ",
+    "#CONNECTOR": "Connecteur",
+    "#CONNECTOR_POSITION": "Position des Connecteurs",
+    "#CONNECTOR_SIZE": "Taille des Connecteurs",
+    "#CONNECTOR_ROTATION": "Rotation des Connecteurs",
+    "#CONNECTOR_DIRECTION": "Direction des Connecteurs",
+    "#CONNECTOR_COLOR": "Couleur des Connecteurs ",
+    "#CONNECTOR_ALPHA": "Transparence des Connecteurs",
+    "#CONNECTOR_ANIMATION": "Animation des Connecteurs ",
+    "#SIMLINE": "Ligne simultanée",
+    "#SIMLINE_POSITION": "Simultaneous Line Position",
+    "#SIMLINE_SIZE": "Taille des Lignes Simultanées",
+    "#SIMLINE_ROTATION": "Rotation des Lignes Simultanées",
+    "#SIMLINE_DIRECTION": "Direction des Lignes Simultanées",
+    "#SIMLINE_COLOR": "Couleur des Lignes Simultanées",
+    "#SIMLINE_ALPHA": "Transparence des Lignes Simultanées",
+    "#SIMLINE_ANIMATION": "Animation des Lignes Simultanées",
+    "#PREVIEW_SCALE_VERTICAL": "Aperçu de l'Échelle Verticale",
+    "#PREVIEW_SCALE_HORIZONTAL": "Aperçu de l'Échelle Horizontale",
+    "#PREVIEW_TIME": "Aperçu du Temps",
+    "#PREVIEW_SCORE": "Aperçu du Score ",
+    "#PREVIEW_BPM": "Aperçu de la Musique",
+    "#PREVIEW_TIMESCALE": "Aperçu de l'Échelle de Temps",
+    "#PREVIEW_BEAT": "Aperçu du Rythme",
+    "#PREVIEW_MEASURE": "Aperçu des Mesures ",
+    "#PREVIEW_COMBO": "Aperçu du Combo",
+    "#NONE": "Aucun",
+    "#ANY": "N'importe lequel",
+    "#ALL": "Tous",
+    "#OTHERS": "Autres",
+    "#SHORT": "Court",
+    "#LONG": "Long",
+    "#HIGH": "Haut",
+    "#MID": "Milieu",
+    "#LOW": "Bas",
+    "#SMALL": "Petit",
+    "#MEDIUM": "Moyen",
+    "#LARGE": "Large",
+    "#LEFT": "Gauche",
+    "#RIGHT": "Droite",
+    "#UP": "En Haut",
+    "#DOWN": "En Bas ",
+    "#FRONT": "Devant",
+    "#BACK": "Derrière",
+    "#CENTER": "Centre",
+    "#TOP": "Haut",
+    "#BOTTOM": "Bas",
+    "#TOP_LEFT": "Haut Gauche",
+    "#TOP_CENTER": "Haut Centre",
+    "#TOP_RIGHT": "Haut Droit",
+    "#CENTER_LEFT": "Centre Gauche",
+    "#CENTER_RIGHT": "Centre Droit",
+    "#BOTTOM_LEFT": "Bad Gauche",
+    "#BOTTOM_CENTER": "Bas Centre",
+    "#BOTTOM_RIGHT": "Bas Droit",
+    "#CLOCKWISE": "Sens Horaire",
+    "#COUNTERCLOCKWISE": "Sens Anti-Horaire",
+    "#FORWARD": "Avant",
+    "#BACKWARD": "Arrière",
+    "#DEFAULT": "Défaut",
+    "#NEUTRAL": "Neutre",
+    "#RED": "Rouge",
+    "#GREEN": "Vert",
+    "#BLUE": "Bleu",
+    "#YELLOW": "Jaune",
+    "#PURPLE": "Violet",
+    "#CYAN": "Cyan",
+    "#SIMPLE": "Simple",
+    "#EASY": "Facile",
+    "#NORMAL": "Normal",
+    "#HARD": "Difficile",
+    "#EXPERT": "Expert",
+    "#MASTER": "Master",
+    "#PRO": "Pro",
+    "#TECHNICAL": "Technique",
+    "#SPECIAL": "Spécial",
+    "#KEYWORDS_PLACEHOLDER": "Entrez des mots clés...",
+    "#NAME_PLACEHOLDER": "Entrez le nom...",
+    "#RATING_PLACEHOLDER": "Entrez une notation...",
+    "#RATING_MINIMUM_PLACEHOLDER": "Entrez la notation minimale...",
+    "#RATING_MAXIMUM_PLACEHOLDER": "Entrez la notation maximale...",
+    "#TITLE_PLACEHOLDER": "Entrez le titre...",
+    "#SUBTITLE_PLACEHOLDER": "Entrez le sous-titre...",
+    "#ARTISTS_PLACEHOLDER": "Entrez les artistes...",
+    "#TIME_PLACEHOLDER": "Entrez le temps...",
+    "#AUTHOR_PLACEHOLDER": "Entrez l'auteur...",
+    "#DESCRIPTION_PLACEHOLDER": "Entrez la description...",
+    "#GENRE_PLACEHOLDER": "Entrez le genre...",
+    "#TYPE_PLACEHOLDER": "Entrez le type...",
+    "#CATEGORY_PLACEHOLDER": "Entrez la catégorie...",
+    "#LANGUAGE_PLACEHOLDER": "Entrez la langue...",
+    "#DIFFICULTY_PLACEHOLDER": "Entrez la difficulté...",
+    "#LENGTH_PLACEHOLDER": "Entrez la longueur...",
+    "#LENGTH_MINIMUM_PLACEHOLDER": "Entrez la duration minimale...",
+    "#LENGTH_MAXIMUM_PLACEHOLDER": "Entrez la duration maximale...",
+    "#ADDITIONAL_INFORMATION_PLACEHOLDER": "Entrez des informations supplémentaires...",
+    "#TIMEZONE_PLACEHOLDER": "Entrez le fuseau horaire...",
+    "#REGION_PLACEHOLDER": "Entrez la région...",
+    "#CONTENT_PLACEHOLDER": "Entrez le contenu...",
+    "#COMMENT_PLACEHOLDER": "Entrez un commentaire...",
+    "#REVIEW_PLACEHOLDER": "Entrer un avis...",
+    "#REPLY_PLACEHOLDER": "Entrez la réponse...",
+    "#MESSAGE_PLACEHOLDER": "Entrez un message...",
+    "#ROLE_PLACEHOLDER": "Entrez le rôle...",
+    "#PERMISSION_PLACEHOLDER": "Entrez la permission...",
+    "#USER_PLACEHOLDER": "Entrez l'utilisateur...",
+    "#PERCENTAGE_UNIT": "{0}%",
+    "#YEAR_UNIT": "{0} ans",
+    "#MONTH_UNIT": "{0} mois",
+    "#DAY_UNIT": "{0} j",
+    "#HOUR_UNIT": "{0} h",
+    "#MINUTE_UNIT": "{0} min",
+    "#SECOND_UNIT": "{0} s",
+    "#MILLISECOND_UNIT": "{0} ms",
+    "#YEAR_PAST": "Il y a {0} ans",
+    "#MONTH_PAST": "Il y a {0} mois",
+    "#DAY_PAST": "Il y a {0} j",
+    "#HOUR_PAST": "Il y a {0} h",
+    "#MINUTE_PAST": "Il y a {0} min",
+    "#SECOND_PAST": "Il y a {0} s",
+    "#MILLISECOND_PAST": "Il y a {0} ms",
+    "#YEAR_FUTURE": "dans {0} ans",
+    "#MONTH_FUTURE": "dans {0} mois",
+    "#DAY_FUTURE": "dans {0} jours ",
+    "#HOUR_FUTURE": "dans {0} h",
+    "#MINUTE_FUTURE": "dans {0} min",
+    "#SECOND_FUTURE": "dans {0} s",
+    "#MILLISECOND_FUTURE": "dans {0} ms",
+    "#TAP": "Appuyez",
+    "#TAP_HOLD": "Appuyez et Maintenez",
+    "#TAP_RELEASE": "Appuyez et Relâchez",
+    "#TAP_FLICK": "Appuyez et Balayez",
+    "#TAP_SLIDE": "Appuyez et Glissez",
+    "#HOLD": "Maintenez",
+    "#HOLD_SLIDE": "Maintenez et Glissez",
+    "#HOLD_FOLLOW": "Maintenez et Suivez ",
+    "#RELEASE": "Relâchez ",
+    "#FLICK": "Balayez",
+    "#SLIDE": "Glissez",
+    "#SLIDE_FLICK": "Glissez et Balayez ",
+    "#AVOID": "Évitez",
+    "#JIGGLE": "Secouez",
+    "#NEWEST": "Récent",
+    "#OLDEST": "Ancien",
+    "#RECOMMENDED": "Recommandé ",
+    "#POPULAR": "Populaire ",
+    "#FEATURED": "En Vedette",
+    "#COMPETITIVE": "Compétitif",
+    "#HOLIDAY": "Vacances",
+    "#LIMITED": "Limité",
+    "#ANNOUNCEMENT": "Annonce",
+    "#INFORMATION": "Information",
+    "#HELP": "Aide",
+    "#MAINTENANCE": "Maintenance",
+    "#EVENT": "Événement",
+    "#UPDATE": "Mise à Jour",
+    "#SEARCH": "Recherche",
+    "#ADVANCED": "Avancé",
+    "#RELATED": "Associé",
+    "#SAME_AUTHOR": "Même Auteur ",
+    "#SAME_ARTISTS": "Même Artiste",
+    "#SAME_RATING": "Même Note",
+    "#SAME_CATEGORY": "Même Catégorie",
+    "#SAME_DIFFICULTY": "Même Difficulté",
+    "#SAME_GENRE": "Même Genre",
+    "#SAME_VERSION": "Même Version",
+    "#OTHER_AUTHORS": "Autres Auteurs",
+    "#OTHER_ARTISTS": "Autres Artistes",
+    "#OTHER_RATINGS": "Autres Notes",
+    "#OTHER_CATEGORIES": "Autres Catégories ",
+    "#OTHER_DIFFICULTIES": "Autres Difficultés",
+    "#OTHER_GENRES": "Autres Genres ",
+    "#OTHER_VERSIONS": "Autres Versions ",
+    "#DRAFT": "Brouillon ",
+    "#PUBLIC": "Public",
+    "#PRIVATE": "Privé ",
+    "#POP": "Pop",
+    "#ROCK": "Rock",
+    "#HIPHOP": "Hip Hop",
+    "#COUNTRY": "Country",
+    "#ELECTRONIC": "Électronique",
+    "#METAL": "Métal",
+    "#CLASSICAL": "Classique ",
+    "#FOLK": "Folklorique",
+    "#INDIE": "Indé",
+    "#ANIME": "Anime",
+    "#VOCALOID": "Vocaloid",
+    "#REMIX": "Remix",
+    "#INSTRUMENTAL": "Instrumentale",
+    "#SHORT_VERSION": "Version Courte",
+    "#LONG_VERSION": "Version Longue",
+    "#LIVE_VERSION": "Version Live ",
+    "#REPORT": "Signaler",
+    "#REASON": "Raison",
+    "#ILLEGAL_ACTIVITIES": "Activités Illégales",
+    "#CHEATING": "Tricherie",
+    "#AFK": "Inactivité",
+    "#SPAMMING": "Spam",
+    "#VERBAL_ABUSE": "Violence Verbale",
+    "#INAPPROPRIATE_LANGUAGE": "Langage Inapproprié",
+    "#NEGATIVE_ATTITUDE": "Attitude Négative",
+    "#DNF": "N'a pas Terminé",
+    "#SUGGESTIONS": "Suggestions",
+    "#SUGGESTIONS_PER_PLAYER": "Suggestions par Joueur",
+    "#MATCH_SCORING": "Notation des Matchs",
+    "#MATCH_TIEBREAKER": "Départage des Matchs",
+    "#MATCH_COUNT": "Nombre de Matchs",
+    "#MATCH_LIMIT": "Limite des Matchs",
+    "#ROUND_SCORING": "Notation des manches ",
+    "#ROUND_TIEBREAKER": "Départage des Manches ",
+    "#ROUND_COUNT": "Nombre de Manches ",
+    "#ROUND_LIMIT": "Limite des Manches",
+    "#TEAM_SCORING": "Score des Équipes",
+    "#TEAM_TIEBREAKER": "Départage des Équipes ",
+    "#TEAM_COUNT": "Nombre d'Équipes ",
+    "#TEAM_LIMIT": "Limite des Équipes",
+    "#QUALIFIED": "Qualifié",
+    "#DISQUALIFIED": "Disqualifié",
+    "#RANKING": "Classement",
+    "#SCORE": "Score",
+    "#OWNER": "Propriétaire",
+    "#ADMIN": "Admin",
+    "#MODERATOR": "Modérateur",
+    "#REVIEWER": "Critique",
+    "#BANNED": "Banni",
+    "#PLAYER": "Joueur",
+    "#SPECTATOR": "Spectateur ",
+    "#REFEREE": "Arbitre",
+    "#ELIMINATED": "Éliminé",
+    "#FINALIST": "Finaliste",
+    "#FINISHED": "Fini",
+    "#WINNER": "Gagnant",
+    "#GOLD_MEDAL": "Médaille d'Or",
+    "#SILVER_MEDAL": "Médaille d'Argent",
+    "#BRONZE_MEDAL": "Médaille de Bronze",
+    "#TEAM_1": "Équipe 1",
+    "#TEAM_2": "Équipe 2",
+    "#TEAM_3": "Équipe 3\n",
+    "#TEAM_4": "Équipe 4",
+    "#TEAM_5": "Équipe 5",
+    "#TEAM_6": "Équipe 6",
+    "#TEAM_7": "Équipe 7",
+    "#TEAM_8": "Équipe 8",
+    "#TEAM_RED": "Équipe Rouge",
+    "#TEAM_GREEN": "Équipe Verte",
+    "#TEAM_BLUE": "Équipe Bleue ",
+    "#TEAM_YELLOW": "Équipe Jaune",
+    "#TEAM_PURPLE": "Équipe Violette ",
+    "#TEAM_CYAN": "Équipe Cyan",
+    "#TEAM_WHITE": "Équipe Blanche",
+    "#TEAM_BLACK": "Équipe Noire",
+    "#REPLY": "Répondre",
+    "#REPLIED": "Répondu",
+    "#REVIEW": "Examiner",
+    "#REVIEWING": "En Examination",
+    "#REVIEWED": "Examiné",
+    "#VERIFY": "Vérifier",
+    "#VERIFYING": "En Vérification",
+    "#VERIFIED": "Vérifié",
+    "#UPLOAD": "Envoyer",
+    "#UPLOADING": "En Cours d'Envoi ",
+    "#UPLOADED": "Envoyé",
+    "#SUBMIT": "Soumettre",
+    "#SUBMITTING": "En Soumission",
+    "#SUBMITTED": "Soumis",
+    "#EDIT": "Modifier",
+    "#EDITING": "En Modification",
+    "#EDITED": "Modifié",
+    "#LIKE": "Aimer",
+    "#LIKED": "Aimé",
+    "#DISLIKE": "Ne Pas Aimer",
+    "#DISLIKED": "Pas Aimé",
+    "#BOOKMARK": "Enregistrer",
+    "#BOOKMARKED": "Enregistré",
+    "#DELETE": "Supprimer",
+    "#DELETING": "En Supression",
+    "#DELETED": "Supprimé",
+    "#REMOVE": "Retirer",
+    "#REMOVING": "En Retirement ",
+    "#REMOVED": "Retiré",
+    "#RESTORE": "Restaurer",
+    "#RESTORING": "En Restauration",
+    "#RESTORED": "Restauré",
+    "#CONFIRM": "Confirmer",
+    "#CONFIRMED": "Confirmé",
+    "#CANCEL": "Annuler",
+    "#CANCELED": "Annulé",
+    "#INCREASE": "Augmenter",
+    "#DECREASE": "Diminuer",
+    "#UPVOTE": "Voter Pour",
+    "#UPVOTED": "Voté Pour ",
+    "#DOWNVOTE": "Voter Contre",
+    "#DOWNVOTED": "Voté Contre",
+    "#AGREE": "Accepter",
+    "#AGREED": "Accepté",
+    "#DISAGREE": "Ne Pas Accepter",
+    "#DISAGREED": "N'a Pas Accepté ",
+    "#LOCK": "Verrouiller",
+    "#LOCKED": "Verrouillé",
+    "#UNLOCK": "Déverrouiller",
+    "#UNLOCKED": "Déverrouillé",
+    "#PIN": "Épingler",
+    "#PINNED": "Épinglé",
+    "#UNPIN": "Détacher",
+    "#UNPINNED": "Détaché",
+    "#FOLLOW": "Suivre",
+    "#FOLLOWING": "Suivre",
+    "#FOLLOWED": "Suivi",
+    "#UNFOLLOW": "Ne Plus  Suivre",
+    "#SUBSCRIBE": "S'abonner",
+    "#SUBSCRIBING": "Abonnement",
+    "#SUBSCRIBED": "Abonné",
+    "#UNSUBSCRIBE": "Se Désabonner",
+    "#PUBLISH": "Publier",
+    "#PUBLISHING": "En Publication",
+    "#PUBLISHED": "Publié",
+    "#UNPUBLISH": "Dépublié",
+    "#SHOW": "Afficher",
+    "#HIDE": "Cacher",
+    "#ALLOW": "Autoriser",
+    "#ALLOWED": "Autorisé",
+    "#DISALLOW": "Refuser",
+    "#DISALLOWED": "Refusé",
+    "#APPROVE": "Approuver",
+    "#APPROVED": "Approuvé",
+    "#DENY": "Refuser",
+    "#DENIED": "Refusé",
+    "#ACCEPT": "Accepter",
+    "#ACCEPTED": "Accepté",
+    "#REJECT": "Rejeter",
+    "#REJECTED": "Rejeté",
+    "#STAR": "Étoiler",
+    "#STARRED": "Étoilé"
   },
   "Common": {
+    "Separator": ", ",
     "Loading": "Chargement...",
+    "Help": "Aide",
+    "More": "Plus",
     "On": "ON",
     "Off": "OFF",
+    "None": "Aucun ",
     "Select": "Sélectionner",
     "Reset": "Réinitialiser",
     "Edit": "Éditer",
     "View": "Voir",
+    "Create": "Créer ",
+    "Upload": "Envoyer",
+    "Submit": "Soumis",
     "Cancel": "Annuler",
     "Confirm": "Confirmer",
     "Retry": "Recommencer",
@@ -213,16 +541,18 @@
     },
     "Next": "Prochain",
     "Add": "Ajouter",
-    "Import": "Import",
+    "Import": "Importer",
     "Search": "Chercher",
-    "More": "Suite",
     "PullToRefresh": "Glisser pour rafraîchir",
     "Save": "Sauvegarder",
     "Share": "Partager",
     "Export": "Exporter",
     "Update": "Mise à jour",
     "Delete": "Effacer",
-    "Preview": "Preview",
+    "Copy": "Copier",
+    "CopySuccess": {
+      "Title": "Copié"
+    },
     "Judgment": "Jugement",
     "Accuracy": "Précision",
     "Grade": "Grade",
@@ -233,51 +563,63 @@
     "Great": "Great",
     "Good": "Good",
     "Miss": "Miss",
+    "RequiredOption": "C'est une option obligatoire.",
     "StandardOption": "Il s'agit d'une option standard.",
     "AdvancedOption": "Cette option est réservée aux joueurs avancés.",
     "Colors": "Couleurs",
     "ColorField": {
-      "Hex": "HEX",
-      "Rgb": "RGB",
-      "Hsv": "HSV",
-      "Components": {
-        "Hex": {
-          "Title": "Hex",
-          "Description": "#RRGGBB ou #RRGGBBAA, où chaque composant est compris entre 00 et FF.",
-          "Placeholder": "Entrez l'hex de couleur..."
-        },
-        "R": {
-          "Title": "Rouge",
-          "Description": "Rouge."
-        },
-        "G": {
-          "Title": "Vert",
-          "Description": "Vert."
-        },
-        "B": {
-          "Title": "Bleu",
-          "Description": "Bleu."
-        },
-        "H": {
-          "Title": "Teinte",
-          "Description": "Teinte."
-        },
-        "S": {
-          "Title": "Saturation",
-          "Description": "Saturation."
-        },
-        "V": {
-          "Title": "Valeur",
-          "Description": "Valeur."
-        },
-        "A": {
-          "Title": "Alpha",
-          "Description": "Alpha."
-        }
-      }
+      "Placeholder": "Entrez une couleur hexadécimale..."
     },
     "DeviceOffsetField": {
       "Calibrate": "Calibrez l'audio en ajustant le décalage audio du périphérique jusqu'à ce que l'audio et les graphiques soient synchronisés."
+    },
+    "MultiField": {
+      "Selected": "{0} Sélectionnés",
+      "AllSelected": "Tout Sélectionnés",
+      "SelectAll": "Tout Sélectionner",
+      "SelectNone": "Ne Rien Sélectionner"
+    },
+    "ItemFields": {
+      "Selected": "{0} Sélectionné",
+      "NoSelected": {
+        "Post": "Aucune Publication Sélectionnée",
+        "Playlist": "Aucune Playlist Sélectionnée",
+        "Level": "Aucun Niveau Sélectionné",
+        "Skin": "Aucun Skin Sélectionné",
+        "Background": "Aucun Arrière-plan Sélectionné",
+        "Effect": "Aucun Bruitage Sélectionné",
+        "Particle": "Aucune Particule Sélectionnée",
+        "Engine": "Aucun Moteur Sélectionné",
+        "Replay": "Aucun Replay Sélectionné",
+        "Room": "Aucune Salle Sélectionnée"
+      },
+      "NoSource": {
+        "Post": "Cette publication ne peut pas être sélectionnée car elle n'a pas de serveur source.\n\nVeuillez utiliser une autre publication ou contacter l'auteur pour signaler le problème.",
+        "Playlist": "Cette playlist ne peut pas être sélectionnée car elle n'a pas de serveur source.\n\nVeuillez utiliser une autre playlist ou contacter l'auteur pour signaler le problème.",
+        "Level": "Ce niveau ne peut pas être sélectionné car il n'a pas de serveur source.\n\nVeuillez utiliser un autre niveau ou contacter l'auteur pour signaler le problème.",
+        "Skin": "Ce skin ne peut pas être sélectionné car il n'a pas de serveur source.\n\nVeuillez utiliser un autre skin ou contacter l'auteur pour signaler le problème.",
+        "Background": "Cet arrière-plan ne peut pas être sélectionné car il n'a pas de serveur source.\n\nVeuillez utiliser un autre arrière-plan ou contacter l'auteur pour signaler le problème.",
+        "Effect": "Ce bruitage ne peut pas être sélectionné car il n'a pas de serveur source.\n\nVeuillez utiliser un autre bruitage ou contacter l'auteur pour signaler le problème.",
+        "Particle": "Ces particules ne peuvent pas être sélectionnées car elle n'ont pas de serveur source.\n\nVeuillez utiliser d'autres particules ou contacter l'auteur pour signaler le problème.",
+        "Engine": "Ce moteur ne peut pas être sélectionné car il n'a pas de serveur source.\n\nVeuillez utiliser un autre moteur ou contacter l'auteur pour signaler le problème.",
+        "Replay": "Ce replay ne peut pas être sélectionné car il n'a pas de serveur source.\n\nVeuillez utiliser un autre replay ou contacter l'auteur pour signaler le problème.",
+        "Room": "Cette salle ne peut pas être sélectionnée car elle n'a pas de serveur source.\n\nVeuillez utiliser une autre salle ou contacter l'auteur pour signaler le problème."
+      },
+      "NoOtherServers": {
+        "Post": "Cette publication ne peut pas être sélectionnée car elle provient d'un autre serveur.\n\nVeuillez utiliser une publication provenant du même serveur.",
+        "Playlist": "Cette playlist ne peut pas être sélectionnée car elle provient d'un autre serveur.\n\nVeuillez utiliser une playlist provenant du même serveur.",
+        "Level": "Ce niveau ne peut pas être sélectionné car il provient d'un autre serveur.\n\nVeuillez utiliser un  niveau provenant du même serveur.",
+        "Skin": "Ce skin ne peut pas être sélectionné car il provient d'un autre serveur.\n\nVeuillez utiliser un  skin provenant du même serveur.",
+        "Background": "Cet arrière-plan ne peut pas être sélectionné car il provient d'un autre serveur.\n\nVeuillez utiliser un  arrière-plan provenant du même serveur.",
+        "Effect": "Cet SFX ne peut pas être sélectionné car il provient d'un autre serveur.\n\nVeuillez utiliser un SFX provenant du même serveur.",
+        "Particle": "Ces particules ne peuvent pas être sélectionnées car elle proviennent d'un autre serveur.\n\nVeuillez utiliser des particules provenant du même serveur.",
+        "Engine": "Ce moteur ne peut pas être sélectionné car il provient d'un autre serveur.\n\nVeuillez utiliser un  moteur provenant du même serveur.",
+        "Replay": "Ce replay ne peut pas être sélectionné car il provient d'un autre serveur.\n\nVeuillez utiliser un  replay provenant du même serveur.",
+        "Room": "Cette salle ne peut pas être sélectionnée car elle provient d'un autre serveur.\n\nVeuillez utiliser une salle provenant du même serveur."
+      }
+    },
+    "FileField": {
+      "NoSelected": "Aucun Fichier Sélectionné"
     },
     "PullToLoad": {
       "None": "Rien de plus à charger",
@@ -286,13 +628,22 @@
     "UI": {
       "Metric": {
         "Arcade": "Arcade Score",
+        "ArcadePercentage": "Score d'Arcade %",
         "Accuracy": "Score de précision",
+        "AccuracyPercentage": "Score de Précision %",
         "Life": "Vie",
-        "PerfectRate": "Note Parfait",
+        "Perfect": "Perfect",
+        "PerfectPercentage": "Perfect %",
+        "GreatGoodMiss": "Great + Good + Miss",
+        "GreatGoodMissPercentage": "Great + Good + Miss %",
+        "Miss": "Miss",
+        "MissPercentage": "Miss %",
         "ErrorHeatmap": "Erreur Heatmap"
       },
       "JudgmentErrorStyle": {
         "None": "None",
+        "Late": "Tard / tôt",
+        "Early": "Tôt / Tard",
         "Plus": "+ / -",
         "Minus": "- / +",
         "ArrowUp": "↑ / ↓",
@@ -305,9 +656,13 @@
         "TriangleRight": "► / ◄"
       },
       "JudgmentErrorPlacement": {
-        "Both": "Both",
         "Left": "Gauche",
-        "Right": "Droit"
+        "Right": "Droit",
+        "LeftRight": "Gauche + Droite",
+        "Top": "Haut",
+        "Bottom": "Bas",
+        "TopBottom": "Haut + Bas",
+        "Center": "Centre"
       },
       "Visibility": "Visibilité",
       "Animation": "Animation",
@@ -352,11 +707,32 @@
         "OutInElastic": "Elastic (Out In)",
         "None": "Aucun"
       }
+    },
+    "AutoExit": {
+      "Title": "Sortie Auto",
+      "Description": "Quitte automatiquement le jeu lorsqu'un certain niveau ne peut plus être atteint.",
+      "Options": {
+        "Off": "Désactivée",
+        "Pass": "Pass",
+        "FullCombo": "Full Combo",
+        "AllPerfect": "All Perfect"
+      }
+    },
+    "PermissionError": {
+      "Description": "Sonolus ne parvient pas à obtenir les autorisations nécessaires pour effectuer cette action.\n\nVeuillez ouvrir les paramètres et accorder les autorisations à Sonolus.",
+      "Open": "Ouvrir"
     }
   },
   "Themes": {
     "Dark": "Dark",
     "Light": "Light"
+  },
+  "Web": {
+    "InternetConnectionError": "Aucune connexion Internet.\nVeuillez vérifier votre connexion Internet et l'autorisation de Sonolus pour accéder à Internet, et réessayer.",
+    "ServerConnectionError": "Impossible de se connecter au serveur.\nVérifiez si l'adresse du serveur est correcte, vérifiez la connexion Internet et réessayez, ou contactez le propriétaire du serveur pour signaler le problème.",
+    "ServerHttpError": "Réponse du serveur : {0}",
+    "ServerVersionTooOldError": "Ce serveur ne prend en charge qu'une ancienne version de Sonolus ({0}).\nVeuillez attendre que le serveur soit mis à jour ou contacter le propriétaire du serveur pour signaler le problème.",
+    "ServerVersionTooNewError": "Ce serveur ne prend en charge que la version Sonolus {0}.\n\nVeuillez mettre à jour votre application Sonolus ou contacter le propriétaire du serveur pour signaler le problème."
   },
   "Clients": {
     "Master": {
@@ -374,6 +750,7 @@
       }
     },
     "Service": {
+      "AuthenticationError": "Votre authentification Sonolus a expiré.\n\nVeuillez vous connecter avec votre compte Sonolus et réessayer.",
       "UserProfile": {
         "Loading": "Chargement du profil utilisateur...",
         "Error": "Échec du chargement du profil utilisateur de \"{0}\".\n\nVeuillez vérifier si l'ID utilisateur est correct ou vérifiez votre connexion Internet et réessayez."
@@ -425,9 +802,9 @@
           "Title": "Favoris modifiés"
         }
       },
-      "AuthenticateServer": {
+      "Authenticate": {
         "Loading": "Demande d'authentification Sonolus...",
-        "Error": "Échec de la demande d'authentification auprès de Sonolus.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez Sonolus pour signaler le problème."
+        "Error": "Échec de la demande d'authentification à Sonolus.\n\nVérifiez votre connexion Internet et réessayez, ou contactez Sonolus pour signaler le problème."
       },
       "Logout": {
         "Loading": "Déconnection...",
@@ -438,49 +815,242 @@
       }
     },
     "CustomServer": {
-      "SonolusVersionError": "Ce serveur ne prend en charge que la version {0} de Sonolus.\n\nVeuillez mettre à jour votre application Sonolus ou contacter le propriétaire du serveur pour signaler le problème.",
-      "SonolusVersionTooOld": "Ce serveur ne prend en charge qu'une ancienne version de Sonolus ({0}).\n\nVeuillez attendre que le serveur soit mis à jour ou contactez le propriétaire du serveur pour signaler le problème.",
-      "Session": {
-        "NeedAuthentication": {
+      "Authentication": {
+        "NotLoggedInError": {
+          "Description": "Vous n'êtes pas connecté à un compte Sonolus.\n\nVeuillez d'abord vous connecter à votre compte Sonolus et réessayer."
+        },
+        "Required": {
           "NotLoggedInError": {
-            "Description": "Ce serveur nécessite une authentification.\n\nVeuillez d'abord vous connecter et réessayer."
+            "Description": "Ce serveur nécessite une connexion à un compte Sonolus.\n\nVeuillez d'abord vous connecter avec votre compte Sonolus et réessayer."
           },
           "Confirmation": {
-            "Description": "Ce serveur nécessite une authentification.\n\nS'authentifier en tant que \"{0}\" et continuer ?"
+            "Description": "Ce serveur nécessite une connexion.\n\nConnectez-vous en tant que \"{0}\" et continuez ?"
           }
         },
-        "AuthenticationExpired": {
-          "Description": "Votre authentification a expiré.\n\nS'authentifier à nouveau en tant que \"{0}\" et continuer ?"
+        "Expired": {
+          "Description": "Votre session a expiré.\n\nConnectez-vous de nouveau en tant que \"{0}\"  et continuez ?"
         },
-        "AuthenticationRejected": {
-          "Description": "Votre authentification a été rejetée par le serveur.\n\nS'authentifier à nouveau en tant que \"{0}\" et continuer ?"
+        "Login": {
+          "Loading": "Connexion...",
+          "Error": "Échec de la connexion à \"{0}\"."
         },
-        "Authenticate": {
-          "Loading": "Demande d'authentification du serveur...",
-          "Error": "Échec de la demande d'authentification de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+        "AutoLogin": {
+          "Description": "Souhaitez-vous vous connecter automatiquement lorsque vous visitez ce serveur ?"
+        }
+      },
+      "Multiplayer": {
+        "NotLoggedInError": {
+          "Description": "Le mode multijoueur nécessite une connexion à un compte Sonolus.\n\nVeuillez d'abord vous connecter avec votre compte Sonolus et réessayer."
         },
-        "AddressMismatchError": {
-          "Description": "L'adresse d'authentification ne correspond pas.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
+        "CreateRoom": {
+          "Loading": "Création de la Salle…",
+          "Error": "Échec de la création de la salle dans \"{0}\"."
+        },
+        "JoinRoom": {
+          "Loading": "Chargement de la salle…",
+          "Error": "Impossible de rejoindre la salle \"{0}\"."
         }
       },
       "Server": {
         "Info": {
           "Loading": "Chargement des informations sur le serveur...",
-          "Error": "Échec du chargement des informations de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des informations du serveur \"{0}\"."
         },
         "Banner": {
           "Loading": "Chargement de la bannière du serveur...",
-          "Error": "Échec du chargement de la bannière de serveur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la bannière du serveur \"{0}\"."
+        }
+      },
+      "Post": {
+        "Info": {
+          "Loading": "Chargement des infos des publications...",
+          "Error": "Échec du chargement des infos des publications de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création de la publication…",
+          "Error": "Échec de la création de la publication dans \"{0}\"."
+        },
+        "List": {
+          "Loading": "Chargement des publications…",
+          "Error": "Échec du chargement des publications à la page {0}."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la publication...",
+          "Error": "Échec du chargement des détails de la publication de \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Soumission à la publication...",
+          "Error": "Échec de la soumission à la publication  \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos des publications de la communauté…",
+            "Error": "Échec du chargement des infos de la publication de la communauté \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Soumission à la communauté de publication...",
+            "Error": "Échec de l'envoi de la publication dans la communauté \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires de la publication...",
+              "Error": "Échec du chargement des commentaires de publication à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement de la publication...",
+            "Error": "Échec du chargement des détails du classement de la publication de {0}..."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements de la publication...",
+              "Error": "Échec du chargement des enregistrements de publication à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails des enregistrements de la publication...",
+              "Error": "Échec du chargement des détails des enregistrements de la publication \"{0}\"."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de la publication...",
+          "Error": "La publication \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez utiliser une autre publication ou contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de la publication...",
+          "Error": "Échec du chargement de la vignette de la publication \"{0}\"."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Chargement des infos des playlists...",
+          "Error": "Échec du chargement des infos des playlists de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création de la playlist...",
+          "Error": "Échec de la création de la playlist dans \"{0}\"."
+        },
+        "List": {
+          "Loading": "Chargement des playlists...",
+          "Error": "Échec du chargement des playlists à la page {0}."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la playlist…",
+          "Error": "Échec du chargement des détails de la playlist \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Envoi à la playlist...",
+          "Error": "Échec de l'envoi à la playlist {0}."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos de communauté de la playlist.",
+            "Error": "Échec du chargement des infos de la communauté de la playlist \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Envoi à la communauté de la playlist…",
+            "Error": "Échec de l'envoi de la playlist dans la communauté \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires de la playlist…",
+              "Error": "Échec du chargement des commentaires de la playlist à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement de la playlist…",
+            "Error": "Échec du chargement des détails du classement de la playlist \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements de la playlist…",
+              "Error": "Échec du chargement des enregistrements de la playlist à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails des enregistrements de la playlist…",
+              "Error": "Échec chargement des détails des enregistrements de la playlist…"
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de la playlist…",
+          "Error": "La playlist \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez utiliser une autre playlist ou contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de la playlist…",
+          "Error": "Échec du chargement de la vignette de la playlist \"{0}\"."
         }
       },
       "Level": {
+        "Info": {
+          "Loading": "Chargement des infos des niveaux...",
+          "Error": "Échec du chargement des infos des niveaux de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création du niveau...",
+          "Error": "Échec de la création du niveau dans \"{0}\"."
+        },
         "List": {
           "Loading": "Chargement des niveaux...",
-          "Error": "Échec du chargement des niveaux à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des niveaux à la page {0}."
         },
         "Details": {
           "Loading": "Chargement des détails du niveau...",
-          "Error": "Échec du chargement des détails du niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des détails du niveau \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Envoi au niveau...",
+          "Error": "Échec de l'envoi au niveau \"{0}\"."
+        },
+        "Result": {
+          "Info": {
+            "Loading": "Chargement des infos des résultats du niveau...",
+            "Error": "Échec du chargement des infos des résultats du niveau \"{0}\"."
+          },
+          "NotSupported": {
+            "Title": "Envoyer ",
+            "Description": "Ce serveur ne prend pas en charge l'envoi de résultats de niveau."
+          },
+          "Submit": {
+            "Loading": "Envoi des résultats du niveau…",
+            "Error": "Échec de l'envoi des résultats du niveau \"{0}\"."
+          }
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos de communauté du niveau...",
+            "Error": "Échec du chargement des informations de communauté du niveau \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Envoi à la communauté du niveau…",
+            "Error": "Échec de l'envoi à la communauté du niveau de \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires du niveau…",
+              "Error": "Échec du chargement des commentaires du niveau à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement du niveau…",
+            "Error": "Échec du chargement des détails du classement du niveau \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements du niveau…",
+              "Error": "Échec du chargement des enregistrements du niveau à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails de l'enregistrement du niveau…",
+              "Error": "Échec du chargement des détails de l'enregistrement de niveau \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Vérification de la compatibilité des niveaux...",
@@ -488,29 +1058,73 @@
         },
         "Cover": {
           "Loading": "Cover de niveau en chargement...",
-          "Error": "Échec du chargement du cover de niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la couverture du niveau \"{0}\"."
         },
         "Bgm": {
           "Loading": "Chargement du niveau de BGM...",
-          "Error": "Échec du chargement du niveau BGM de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la musique du niveau \"{0}\"."
         },
         "Preview": {
           "Loading": "Chargement de preview du niveau...",
-          "Error": "Échec du chargement du preview du niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de l'aperçu du niveau \"{0}\"."
         },
         "Data": {
           "Loading": "Chargement des données de niveau...",
-          "Error": "Échec du chargement des données de niveau de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données du niveau \"{0}\"."
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Chargement des infos des skins…",
+          "Error": "Échec du chargement des infos des skins de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création du skin…",
+          "Error": "Échec de la création du skin dans \"{0}\"."
+        },
         "List": {
           "Loading": "Chargement des skins...",
-          "Error": "Échec du chargement des skins à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des skins à la page {0}."
         },
         "Details": {
           "Loading": "Chargement des détails du skin...",
-          "Error": "Échec du chargement des détails de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des détails du skin \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Envoi du skin…",
+          "Error": "Échec de l'envoi du skin \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos de la communauté du skin...",
+            "Error": "Échec du chargement des infos de la communauté du skin \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Envoi à la communauté du skin…",
+            "Error": "Échec de l'envoi à la communauté du skin \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires du skin…",
+              "Error": "Échec du chargement des commentaires du skin à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement du skin...",
+            "Error": "Échec du chargement des détails du classement du skin \"{0}\"…"
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements du skin…",
+              "Error": "Échec du chargement des enregistrements du skin à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails de l'enregistrement du skin...",
+              "Error": "Échec du chargement des détails de l'enregistrement du skin \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Vérification de la compatibilité du skin...",
@@ -518,25 +1132,69 @@
         },
         "Thumbnail": {
           "Loading": "Chargement de la vignette de skin...",
-          "Error": "Échec du chargement de la vignette skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la vignette du skin \"{0}\"."
         },
         "Data": {
           "Loading": "Chargement des données de skin...",
-          "Error": "Échec du chargement des données de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données du skin \"{0}\"."
         },
         "Texture": {
           "Loading": "Chargement de la texture de skin...",
-          "Error": "Échec du chargement de la texture de skin de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la texture du skin \"{0}\"."
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Chargement des infos des arrière-plans…",
+          "Error": "Échec du chargement des infos des arrière-plans de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création de  l'arrière-plan...",
+          "Error": "Échec de la création de l'arrière-plan dans \"{0}\"."
+        },
         "List": {
           "Loading": "Chargement des arrière-plans...",
-          "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des arrière-plans à la page {0}."
         },
         "Details": {
           "Loading": "Chargement des détails d'arrière-plan...",
-          "Error": "Échec du chargement des détails d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des détails des arrière-plans de \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Soumission à l'arrière-plan…",
+          "Error": "Échec de la soumission à l'arrière-plan \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos de la communauté de l'arrière-plan…",
+            "Error": "Échec du chargement des infos de la communauté de l'arrière-plan \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Soumission à la communauté de l'arrière-plan de \"{0}\".",
+            "Error": "Échec de la soumission à la communauté de l'arrière-plan \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires de l'arrière-plan…",
+              "Error": "Échec du chargement des commentaires de l'arrière-plan à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement de l'arrière-plan...",
+            "Error": "Échec du chargement des détails du classement de l'arrière-plan \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements de l'arrière-plan…",
+              "Error": "Échec du chargement des enregistrements de l'arrière-plan à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails de l'enregistrement de l'arrière-plan...",
+              "Error": "Échec du chargement des détails de l'enregistrement de l'arrière-plan \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Vérification de la compatibilité de l'arrière-plan...",
@@ -544,29 +1202,73 @@
         },
         "Thumbnail": {
           "Loading": "Chargement de la vignette d'arrière-plan...",
-          "Error": "Échec du chargement de la vignette d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la vignette de l'arrière-plan \"{0}\"."
         },
         "Data": {
           "Loading": "Chargement des données d'arrière-plan...",
-          "Error": "Échec du chargement des données d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données de l'arrière-plan \"{0}\"."
         },
         "Image": {
           "Loading": "Chargement de l'image d'arrière-plan...",
-          "Error": "Échec du chargement de l'image d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de l'image de l''arrière-plan \"{0}\"."
         },
         "Configuration": {
           "Loading": "Chargement de la configuration d'arrière-plan...",
-          "Error": "Échec du chargement de la configuration d'arrière-plan de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la configuration de l'arrière-plan \"{0}\"."
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Chargement des infos des SFX…",
+          "Error": "Échec du chargement des infos des SFX de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création de l'SFX…",
+          "Error": "Échec de la création de l'SFX dans \"{0}\"."
+        },
         "List": {
           "Loading": "Chargement des SFX...",
-          "Error": "Échec du chargement de SFX à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des SFX à la page {0}."
         },
         "Details": {
           "Loading": "Chargement des détails SFX...",
-          "Error": "Échec du chargement des détails SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des détails de l'SFX \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Soumission à l'SFX…",
+          "Error": "Échec de la soumission à l'SFX \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos de la communauté de l'SFX...",
+            "Error": "Échec du chargement des infos de la communauté de l'SFX \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Soumission à la communauté de l'SFX…",
+            "Error": "Échec de la soumission à la communauté de l'SFX \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires de l'SFX...",
+              "Error": "Échec du chargement des commentaires de l'SFX à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement de l'SFX…",
+            "Error": "Échec du chargement des détails du classement de l'SFX \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements de l'SFX…",
+              "Error": "Échec du chargement des enregistrements de l'SFX à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails de l'enregistrement de l'SFX...",
+              "Error": "Échec du chargement des détails de l'enregistrement de l'SFX \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Vérification de la compatibilité SFX...",
@@ -574,25 +1276,69 @@
         },
         "Thumbnail": {
           "Loading": "Chargement de la vignette SFX...",
-          "Error": "Échec du chargement de la vignette SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la vignette de l'SFX \"{0}\"."
         },
         "Data": {
           "Loading": "Chargement des données SFX...",
-          "Error": "Échec du chargement des données SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données de l'SFX \"{0}\"."
         },
         "Audio": {
           "Loading": "Chargement de l'audio SFX...",
-          "Error": "Échec du chargement de l'audio SFX de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de l'audio de l'SFX \"{0}\"."
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Chargement des infos des particules...",
+          "Error": "Échec du changement des infos des particules de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création de la particule…",
+          "Error": "Échec de la création de la particule dans \"{0}\"."
+        },
         "List": {
           "Loading": "Chargement des particules...",
-          "Error": "Échec du chargement des particules à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des particules à la page {0}."
         },
         "Details": {
           "Loading": "Chargement des détails des particules...",
-          "Error": "Échec du chargement des détails des particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des détails de la particules \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Soumission à la particule…",
+          "Error": "Échec de la soumission à la particule \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos sur la communauté de la  particule…",
+            "Error": "Échec du chargement des infos de la communauté de la particule \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Soumission à la communauté de la particule…",
+            "Error": "Échec de la soumission à la communauté de la particule \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires de particule…",
+              "Error": "Échec du chargement des commentaires de la particules à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement de la  particule…",
+            "Error": "Échec du chargement des détails du classement de la particule \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements de la particule…",
+              "Error": "Échec du chargement des enregistrements de la particule à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails de l'enregistrement de la particule…",
+              "Error": "Échec du chargement des détails de l'enregistrement de la particules \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Vérification de la compatibilité des particules...",
@@ -600,25 +1346,68 @@
         },
         "Thumbnail": {
           "Loading": "Chargement de la vignette des particules...",
-          "Error": "Échec du chargement de la vignette de particule de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la vignette de la particule \"{0}\"."
         },
         "Data": {
           "Loading": "Chargement des données de particules...",
-          "Error": "Échec du chargement des données de particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données de la particules \"{0}\"."
         },
         "Texture": {
           "Loading": "Chargement de la texture des particules...",
-          "Error": "Échec du chargement de la texture des particules de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la texture de la  particules \"{0}\"."
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Chargement des infos des moteurs…",
+          "Error": "Échec du chargement des infos des moteurs de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création du moteur…",
+          "Error": "Échec de la création du moteur dans \"{0}\"."
+        },
         "List": {
-          "Loading": "Chargement des engines...",
-          "Error": "Échec du chargement des engines à la page {0}.\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Loading": "Chargement des engines..."
         },
         "Details": {
           "Loading": "Chargement des détails des engines...",
-          "Error": "Échec du chargement des détails de l'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des détails du moteur \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Soumission au moteur…",
+          "Error": "Échec de la soumission au moteur \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos sur la communauté du moteur…",
+            "Error": "Échec du chargement des infos sur la communauté du moteur \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Soumission à la communauté du moteur…",
+            "Error": "Échec de la soumission à la communauté du moteur \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires du moteur…",
+              "Error": "Échec du chargement des commentaires du moteur à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement du moteur…",
+            "Error": "Échec du chargement des détails du classement du moteur \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements du moteur…",
+              "Error": "Échec du chargement des enregistrements du moteur à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails de l'enregistrement du moteur…",
+              "Error": "Échec du chargement des détails de l'enregistrement du moteur \"{0}\"."
+            }
+          }
         },
         "Compatibility": {
           "Loading": "Vérification de la compatibilité d'engine...",
@@ -626,31 +1415,167 @@
         },
         "Thumbnail": {
           "Loading": "Chargement de la vignette d'engine...",
-          "Error": "Échec du chargement de la vignette d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la vignette du moteur  \"{0}\"."
         },
         "PlayData": {
           "Loading": "Chargement des données du mode de lecture du moteur...",
-          "Error": "Échec du chargement des données du mode de lecture du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données du mode  joueur du moteur \"{0}\"."
         },
         "WatchData": {
           "Loading": "Chargement des données du mode watch de l'engine...",
-          "Error": "Échec du chargement des données du mode watch de l'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contacter le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données du mode visionner du moteur \"{0}\"."
         },
         "PreviewData": {
           "Loading": "Chargement des données du mode preview du moteur...",
-          "Error": "Échec du chargement des données du mode preview du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contacter le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données du mode aperçu du moteur \"{0}\"."
         },
         "TutorialData": {
           "Loading": "Chargement des données du mode didacticiel du moteur...",
-          "Error": "Échec du chargement des données du mode didacticiel du moteur de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement des données du mode tutoriel du moteur \"{0}\"."
         },
         "Rom": {
           "Loading": "Chargement de la ROM d'engine...",
-          "Error": "Échec du chargement de la rom d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la ROM du moteur \"{0}\"."
         },
         "Configuration": {
           "Loading": "Chargement de la configuration d'engine...",
-          "Error": "Échec du chargement de la configuration d'engine de \"{0}\".\n\nVeuillez vérifier votre connexion Internet et réessayer, ou contactez le propriétaire du serveur pour signaler le problème."
+          "Error": "Échec du chargement de la configuration du moteur \"{0}\"."
+        }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Chargement des infos des replays…",
+          "Error": "Échec du chargement des infos du replay \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création du replay…",
+          "Error": "Échec de la création du replay dans \"{0}\"."
+        },
+        "List": {
+          "Loading": "Chargement des replays…",
+          "Error": "Échec du chargement des replays à la page {0}."
+        },
+        "Details": {
+          "Loading": "Chargement des détails du replay…",
+          "Error": "Échec du chargement des détails du replay \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Soumission au replay…",
+          "Error": "Échec de la soumission au replay \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos de la communauté du replay…",
+            "Error": "Échec du chargement des infos de la communauté du replay \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Soumission à la communauté du replay…",
+            "Error": "Échec de la soumission à la communauté du replay \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires du replay…",
+              "Error": "Échec du chargement des commentaires du replay à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement du replay…",
+            "Error": "Échec du chargement des détails du classement du replay \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements du replay…",
+              "Error": "Échec du chargement des enregistrements du replay à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails de l'enregistrement du replay…",
+              "Error": "Échec du chargement des détails de l'enregistrement du replay \"{0}\"."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité du replay…",
+          "Error": "Le replay \"{0}\"  n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez utiliser un autre replay ou contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Data": {
+          "Loading": "Chargement des données du replay…",
+          "Error": "Échec du chargement des données du replay \"{0}\"."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration du replay…",
+          "Error": "Échec du chargement de la configuration du replay \"{0}\"."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Chargement des infos des salles…",
+          "Error": "Échec du chargement des infos des salles de \"{0}\"."
+        },
+        "Create": {
+          "Loading": "Création de la salle…",
+          "Error": "Échec de la création de la salle dans \"{0}\"."
+        },
+        "List": {
+          "Loading": "Chargement des salles…",
+          "Error": "Échec du chargement des salles à la page {0}."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la salle…",
+          "Error": "Échec du chargement des détails de la salle \"{0}\"."
+        },
+        "Submit": {
+          "Loading": "Soumission à la salle…",
+          "Error": "Échec de la soumission à la salle \"{0}\"."
+        },
+        "Community": {
+          "Info": {
+            "Loading": "Chargement des infos sur la communauté de la salle…",
+            "Error": "Échec du chargement des infos de la communauté de la salle \"{0}\"."
+          },
+          "Submit": {
+            "Loading": "Soumission à la communauté de la salle…",
+            "Error": "Échec de la soumission à la communauté de salle \"{0}\"."
+          },
+          "Comment": {
+            "List": {
+              "Loading": "Chargement des commentaires de la salle…",
+              "Error": "Échec du chargement des commentaires de la salle à la page {0}."
+            }
+          }
+        },
+        "Leaderboard": {
+          "Details": {
+            "Loading": "Chargement des détails du classement de la salle…",
+            "Error": "Échec du chargement des détails du classement de la salle \"{0}\"."
+          },
+          "Record": {
+            "List": {
+              "Loading": "Chargement des enregistrements de la salle…",
+              "Error": "Échec du chargement des enregistrements de salle à la page {0}."
+            },
+            "Details": {
+              "Loading": "Chargement des détails de l'enregistrement de la salle…",
+              "Error": "Échec du chargement des détails de l'enregistrement de la salle \"{0}\"."
+            }
+          }
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de la salle...",
+          "Error": "La salle \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez utiliser une autre salle ou contacter le propriétaire du serveur pour signaler le problème."
+        },
+        "Cover": {
+          "Loading": "Chargement de la vignette du niveau de la salle…",
+          "Error": "Échec du chargement de la vignette du niveau de la salle \"{0}\"."
+        },
+        "Bgm": {
+          "Loading": "Chargement de la musique du niveau de la salle…",
+          "Error": "Échec du chargement de la musique du niveau de la salle \"{0}\"."
+        },
+        "Preview": {
+          "Loading": "Chargement de l'aperçu du niveau de la salle…",
+          "Error": "Échec du chargement de l'aperçu du niveau de la salle \"{0}\"."
         }
       }
     },
@@ -665,7 +1590,55 @@
           "Error": "Échec du chargement de la bannière de collection de \"{0}\".\n\nVotre collection est peut-être corrompue."
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "Chargement des infos des publications…",
+          "Error": "Échec du chargement des infos de la publication \"{0}'.\n\nVotre collection est peut-être corrompue."
+        },
+        "List": {
+          "Loading": "Chargement des publications…",
+          "Error": "Échec du chargement des publications des publications à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la publication…",
+          "Error": "Échec du changement des détails de la publication \"{0}'.\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de la publication…",
+          "Error": "La publication  \"{0}\" n'est pas compatible avec votre version actuelle de Sonolus.\n\nVeuillez mettre à jour cette publication ou en utiliser une autre."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de la publication…",
+          "Error": "Échec du chargement de la vignette de la publication \"{0}'.\n\nVeuillez mettre à jour cette publication ou en utiliser une autre."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Chargement des infos des playlists...",
+          "Error": "Échec du chargement des infos de la playlist \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "List": {
+          "Loading": "Chargement des playlists…",
+          "Error": "Échec du chargement des playlists à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la playlist...",
+          "Error": "Échec du chargement des détails de la playlist \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de la playlist…",
+          "Error": "La playlist \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour cette playlist ou en utiliser une autre."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de la playlist...",
+          "Error": "Échec du chargement de la vignette de la playlist \"{0}\".\n\nVeuillez mettre à jour cette playlist ou en utiliser une autre."
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "Chargement des infos des niveaux...",
+          "Error": "Échec du chargement des infos des niveaux de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
         "List": {
           "Loading": "Chargement des niveaux...",
           "Error": "Échec du chargement des niveaux à la page {0}.\n\nVotre collection est peut-être corrompue."
@@ -696,6 +1669,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Chargement des infos des skins...",
+          "Error": "Échec du chargement des infos des skins de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
         "List": {
           "Loading": "Chargement des skins...",
           "Error": "Échec du chargement des skins à la page {0}.\n\nVotre collection est peut-être corrompue."
@@ -722,6 +1699,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Chargement des infos des arrière-plans...",
+          "Error": "Échec du chargement des infos des arrière-plans de  \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
         "List": {
           "Loading": "Chargement des arrière-plans...",
           "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVotre collection est peut-être corrompue."
@@ -752,6 +1733,10 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Chargement des infos des SFX….",
+          "Error": "Échec du changement des infos des SFX de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
         "List": {
           "Loading": "Chargement des SFX...",
           "Error": "Échec du chargement de SFX à la page {0}.\n\nVotre collection est peut-être corrompue."
@@ -778,6 +1763,10 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Chargement des infos  des particules...",
+          "Error": "Échec du chargement des infos des particules de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
         "List": {
           "Loading": "Chargement des particules...",
           "Error": "Échec du chargement des particules à la page {0}.\n\nVotre collection est peut-être corrompue."
@@ -804,6 +1793,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Chargement des infos des moteurs...",
+          "Error": "Échec du chargement des infos des moteurs de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
         "List": {
           "Loading": "Chargement d'engines...",
           "Error": "Échec du chargement des engines à la page {0}.\n\nVotre collection est peut-être corrompue."
@@ -844,9 +1837,69 @@
           "Loading": "Chargement de la configuration d'engines...",
           "Error": "Échec du chargement de la configuration du engine de \"{0}\".\n\nVeuillez mettre à jour ce engine ou utiliser un autre engine."
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Chargement des infos des replays…",
+          "Error": "Échec du chargement des infos des replays de \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "List": {
+          "Loading": "Chargement des replays…",
+          "Error": "Échec du chargement des replays à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails du replay…",
+          "Error": "Échec du chargement des détails des replays de {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité du replay…",
+          "Error": "Le replay  \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour ce replay ou en utiliser un autre."
+        },
+        "Data": {
+          "Loading": "Chargement des données du replay...",
+          "Error": "Échec du changement des données deu replay \"{0}\".\n\nVeuillez mettre à jour ce replay ou en utiliser un autre."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration du replay...",
+          "Error": "Échec du chargement de la configuration du replay \"{0}\".\n\nVeuillez mettre à jour ce replay ou en utiliser un autre."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Chargement des infos des salles…",
+          "Error": "Échec du chargement des infos de la salle \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "List": {
+          "Loading": "Chargement des salles…",
+          "Error": "Échec du chargement des salles à la page {0}.\n\nVotre collection est peut-être corrompue."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la salle…",
+          "Error": "Échec du chargement des détails de la salle \"{0}\".\n\nVotre collection est peut-être corrompue."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de la salle…",
+          "Error": "La salle \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVeuillez mettre à jour cette salle ou en utiliser une autre."
+        },
+        "Cover": {
+          "Loading": "Chargement de la vignette du niveau de la salle…",
+          "Error": "Échec du chargement de la vignette du niveau \"{0}\" de la salle \n\nVeuillez mettre à jour cette salle ou en utiliser une autre."
+        },
+        "Bgm": {
+          "Loading": "Chargement de la musique de la salle…",
+          "Error": "Échec du chargement de la musique de la salle  \"{0}\".\n\nVeuillez mettre à jour cette salle ou en utiliser une autre."
+        },
+        "Preview": {
+          "Loading": "Chargement de l'aperçu du niveau de la salle…",
+          "Error": "Échec du chargement de l'aperçu du niveau de la salle  \"{0}\".\n\nVeuillez mettre à jour cette salle ou en utiliser une autre."
+        }
       }
     },
     "Scp": {
+      "PackageInfo": {
+        "Loading": "Chargement des infos du package…",
+        "Error": "Échec du chargement des informations du package \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+      },
       "Server": {
         "Info": {
           "Loading": "Chargement des informations sur le package...",
@@ -857,7 +1910,55 @@
           "Error": "Échec du chargement de la bannière du package \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
         }
       },
+      "Post": {
+        "Info": {
+          "Loading": "Chargement des infos  des publications…",
+          "Error": "Échec du chargement des informations de publication \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
+        "List": {
+          "Loading": "Chargement des publications…",
+          "Error": "Échec du chargement des publications sur la page {0}.\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la publication…",
+          "Error": "Échec du chargement des détails de la publication \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de la publication…",
+          "Error": "La publication \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de la publication…",
+          "Error": "Échec du chargement de la vignette de la publication  \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        }
+      },
+      "Playlist": {
+        "Info": {
+          "Loading": "Chargement des infos des playlists…",
+          "Error": "Échec du chargement des infos de la playlist \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
+        "List": {
+          "Loading": "Chargement des playlists…",
+          "Error": "Échec du chargement des playlists à la page {0}.\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la playlist…",
+          "Error": "Échec du chargement des détails de la playlist \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité de la playlist…",
+          "Error": "La playlist \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
+        "Thumbnail": {
+          "Loading": "Chargement de la vignette de la playlist…",
+          "Error": "Échec du chargement de la vignette de la playlist \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        }
+      },
       "Level": {
+        "Info": {
+          "Loading": "Chargement des infos des niveaux…",
+          "Error": "Échec du chargement des infos du niveau \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
         "List": {
           "Loading": "Chargement des niveaux...",
           "Error": "Échec du chargement des niveaux à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
@@ -888,6 +1989,10 @@
         }
       },
       "Skin": {
+        "Info": {
+          "Loading": "Chargement des infos des skins…",
+          "Error": "Échec du chargement des informations du skin \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
         "List": {
           "Loading": "Chargement des skins...",
           "Error": "Échec du chargement des skins à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
@@ -914,6 +2019,10 @@
         }
       },
       "Background": {
+        "Info": {
+          "Loading": "Chargement des infos des arrière-plans…",
+          "Error": "Échec du chargement des infos de l'arrière-plan \"{0}\".\n\nVotre package est peut-être non pris en charge ou corrompu."
+        },
         "List": {
           "Loading": "Chargement des arrière-plans...",
           "Error": "Échec du chargement des arrière-plans à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
@@ -944,6 +2053,10 @@
         }
       },
       "Effect": {
+        "Info": {
+          "Loading": "Chargement des infos des SFX…",
+          "Error": "Échec du chargement des infos de l'SFX \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
         "List": {
           "Loading": "Chargement des SFX...",
           "Error": "Échec du chargement de SFX à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
@@ -970,6 +2083,10 @@
         }
       },
       "Particle": {
+        "Info": {
+          "Loading": "Chargement des infos des particules...",
+          "Error": "Échec du chargement des infos des particules de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
         "List": {
           "Loading": "Chargement des particules...",
           "Error": "Échec du chargement des particules à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
@@ -996,6 +2113,10 @@
         }
       },
       "Engine": {
+        "Info": {
+          "Loading": "Chargement des infos des moteurs...",
+          "Error": "Échec du chargement des infos des moteurs de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
         "List": {
           "Loading": "Chargement des engines...",
           "Error": "Échec du chargement des engines à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
@@ -1036,7 +2157,71 @@
           "Loading": "Chargement de la configuration d'engine...",
           "Error": "Échec du chargement de la configuration d'engine de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
         }
+      },
+      "Replay": {
+        "Info": {
+          "Loading": "Chargement des infos des replays…",
+          "Error": "Échec du chargement des infos des replays de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "List": {
+          "Loading": "Chargement des replays…",
+          "Error": "Impossible de charger les replays à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails du replay…",
+          "Error": "Échec du chargement des détails du replay de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité du replay...",
+          "Error": "Le replay \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Data": {
+          "Loading": "Chargement des données du replay…",
+          "Error": "Échec du chargement des données du replay \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Configuration": {
+          "Loading": "Chargement de la configuration du replay...",
+          "Error": "Échec du chargement de la configuration du replay \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        }
+      },
+      "Room": {
+        "Info": {
+          "Loading": "Chargement des infos des salles…",
+          "Error": "Échec du chargement des infos des salles de \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "List": {
+          "Loading": "Chargement des salles...",
+          "Error": "Échec du chargement des salles à la page {0}.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Details": {
+          "Loading": "Chargement des détails de la salle...",
+          "Error": "Échec du chargement des détails de la salle \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Compatibility": {
+          "Loading": "Vérification de la compatibilité des salles...",
+          "Error": "La salle \"{0}\" n'est pas compatible avec la version actuelle de Sonolus.\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Cover": {
+          "Loading": "Chargement de la couverture du niveau de la salle…",
+          "Error": "Impossible de charger la couverture du niveau de salle \"{0}\".\n\nVotre package n'est peut-être pas pris en charge ou est corrompu."
+        },
+        "Bgm": {
+          "Loading": "Chargement de la musique du niveau de la salle…",
+          "Error": "Impossible de charger la musique de la salle \"{0}\".\n\nVotre collection n'est peut-être pas prise en charge ou est corrompue."
+        },
+        "Preview": {
+          "Loading": "Chargement de l'aperçu du niveau de la salle…",
+          "Error": "Impossible de charger l'aperçu de la salle \"{0}\".\n\nVotre collection n'est peut-être pas prise en charge ou est corrompue."
+        }
       }
+    },
+    "Multiplayer": {
+      "Connect": {
+        "Loading": "Connexion…",
+        "Error": "Impossible de se connecter à la salle  \"{0}\".\n\nVérifiez votre connexion Internet et réessayez, ou contactez le propriétaire du serveur pour signaler le problème."
+      },
+      "Disconnected": "Vous avez été déconnecté de la salle multijoueur.",
+      "Error": "Une erreur fatale s'est produite dans la salle multijoueur.\n\nVeuillez contacter le propriétaire du serveur pour signaler le problème."
     }
   },
   "DeepLink": {
@@ -1052,6 +2237,22 @@
     "Back": "Retour"
   },
   "Routes": {
+    "ExternalLogin": {
+      "NotLoggedInError": {
+        "Description": "Vous n'êtes pas connecté à un compte Sonolus.\n\nVeuillez d'abord vous connecter à votre compte Sonolus et réessayer."
+      },
+      "Confirmation": {
+        "Description": "Vous allez vous connecter au service externe :\n{0}\n\nSe connecter en tant que \"{1}\" ?"
+      },
+      "Login": {
+        "Loading": "Connexion...",
+        "Error": "Échec de la connexion au service externe \"{0}\"."
+      },
+      "Success": {
+        "Title": "Connecté",
+        "Description": "Réponse du serveur: {0}"
+      }
+    },
     "JumpToPage": {
       "Title": "Jump to Page",
       "Page": {
@@ -1090,6 +2291,14 @@
         "Description": "Sélectionnez un serveur personnalisé ou une collection pour commencer à jouer."
       },
       "ToSave": {
+        "Post": {
+          "Title": "Enregistrer la Publication",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cette publication."
+        },
+        "Playlist": {
+          "Title": "Enregistrer une Playlist",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cette playlist."
+        },
         "Level": {
           "Title": "Enregistrer le niveau",
           "Description": "Sélectionnez une collection dans laquelle enregistrer ce niveau."
@@ -1113,9 +2322,67 @@
         "Engine": {
           "Title": "Enregistrer le moteur",
           "Description": "Sélectionnez une collection dans laquelle enregistrer ce moteur."
+        },
+        "Replay": {
+          "Title": "Enregistrer le Replay ",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer ce replay."
+        },
+        "Room": {
+          "Title": "Enregistrer la Salle",
+          "Description": "Sélectionnez une collection dans laquelle enregistrer cette salle."
+        }
+      },
+      "ToCreate": {
+        "Post": {
+          "Title": "Créer une Publication",
+          "Description": "Sélectionnez une collection pour créer cette publication."
+        },
+        "Playlist": {
+          "Title": "Créer une Playlist",
+          "Description": "Sélectionnez une collection pour créer cette playlist."
+        },
+        "Level": {
+          "Title": "Créer un Niveau",
+          "Description": "Sélectionnez une collection pour créer ce niveau."
+        },
+        "Skin": {
+          "Title": "Créer un Skin ",
+          "Description": "Sélectionnez une collection pour créer ce skin."
+        },
+        "Background": {
+          "Title": "Créer un Arrière-plan",
+          "Description": "Sélectionnez une collection pour créer cet arrière-plan."
+        },
+        "Effect": {
+          "Title": "Créer un Effet",
+          "Description": "Sélectionnez une collection pour créer cet effet."
+        },
+        "Particle": {
+          "Title": "Créer une Particule",
+          "Description": "Sélectionnez une collection pour créer cette particule."
+        },
+        "Engine": {
+          "Title": "Créer un Moteur",
+          "Description": "Sélectionnez une collection pour créer ce moteur."
+        },
+        "Replay": {
+          "Title": "Créer un Replay ",
+          "Description": "Sélectionnez une collection pour créer ce replay."
+        },
+        "Room": {
+          "Title": "Créer une Salle",
+          "Description": "Sélectionnez une collection pour créer cette salle."
         }
       },
       "ToUse": {
+        "Post": {
+          "Title": "Sélectionnez une Publication",
+          "Description": "Sélectionnez un serveur ou une collection personnalisé pour utiliser ses publications."
+        },
+        "Playlist": {
+          "Title": "Choisir une Playlist",
+          "Description": "Sélectionnez un serveur ou une collection pour utiliser ses playlists."
+        },
         "Level": {
           "Title": "Choisir le niveau",
           "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses niveaux."
@@ -1139,33 +2406,19 @@
         "Engine": {
           "Title": "Sélectionnez l'engine\n",
           "Description": "Sélectionnez un serveur personnalisé ou une collection pour utiliser ses engines."
+        },
+        "Replay": {
+          "Title": "Choisir un Replay ",
+          "Description": "Sélectionnez un serveur ou une collection pour utiliser ses replays."
+        },
+        "Room": {
+          "Title": "Sélectionner une Salle",
+          "Description": "Sélectionnez un serveur ou une collection pour utiliser ses salles."
         }
       },
       "ToAddFavorite": {
-        "Level": {
-          "Title": "Ajouter un niveau favori",
-          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses niveaux aux favoris."
-        },
-        "Skin": {
-          "Title": "Ajouter un skin préféré",
-          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses skins aux favoris."
-        },
-        "Background": {
-          "Title": "Ajouter un arrière-plan favori",
-          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses arrière-plans aux favoris."
-        },
-        "Effect": {
-          "Title": "Ajouter un effet favori",
-          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses effets aux favoris."
-        },
-        "Particle": {
-          "Title": "Ajouter une particule préférée",
-          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses particules aux favoris."
-        },
-        "Engine": {
-          "Title": "Ajouter un engine favori",
-          "Description": "Sélectionnez un serveur personnalisé pour ajouter ses engines aux favoris."
-        }
+        "Title": "Ajouter aux Favoris ",
+        "Description": "Sélectionnez un serveur personnalisé pour ajouter ses éléments aux favoris."
       }
     },
     "EditCustomServer": {
@@ -1190,11 +2443,11 @@
     "EditCollection": {
       "Title": "Modifier la collection"
     },
-    "AddCollection": {
-      "Title": "Ajouter une collection",
+    "CreateCollection": {
+      "Title": "Créer une Collection",
       "Name": {
         "Title": "Nom",
-        "Description": "Vous pouvez le nommer comme vous voulez.",
+        "Description": "Vous pouvez le nommer comme vous le souhaitez.",
         "Placeholder": "Entrez le nom de la collection..."
       }
     },
@@ -1205,6 +2458,18 @@
       },
       "Success": {
         "Title": "Package importé"
+      }
+    },
+    "ExportScpConfiguration": {
+      "Title": "Exporter la Configuration",
+      "Mode": {
+        "Title": "Mode",
+        "Description": "Il est recommandé d'utiliser le mode standard.\n\nUn élément avec source peut être exporté sous forme de lien vers sa source, ce qui réduit considérablement la taille du fichier mais nécessite une connexion Internet lors de l'importation.\n\nLe mode standard exporte les éléments avec des sources sous forme de liens et les éléments sans sources dans leur intégralité.\nLe mode Source uniquement exporte uniquement les éléments avec des sources sous forme de liens.\nLe mode Complet exporte tous les éléments dans leur intégralité.",
+        "Options": {
+          "Standard": "Standard",
+          "SourceOnly": "Source Uniquement",
+          "Full": "Complet"
+        }
       }
     },
     "ExportScp": {
@@ -1274,6 +2539,7 @@
       "Play": "Play",
       "Players": "Joueurs",
       "Account": "Compte",
+      "Link": "Lien",
       "Settings": "Réglages",
       "UpdateAvailable": {
         "Title": "Mise à jour disponible",
@@ -1291,6 +2557,29 @@
           "Placeholder": "Entrez l'ID du joueur..."
         },
         "Lookup": "Chercher"
+      }
+    },
+    "Link": {
+      "Title": "Lier",
+      "QRCode": {
+        "Title": "QR Code",
+        "Camera": "Caméra",
+        "Gallery": "Galerie"
+      },
+      "Text": {
+        "Title": "Texte",
+        "TextLink": {
+          "Title": "Lien texte",
+          "Description": "Un lien \"sonolus://...\".",
+          "Placeholder": "Entrez le texte du lien..."
+        },
+        "Open": "Ouvrir"
+      },
+      "NotDeepLink": {
+        "Description": "Le lien « {0} » n'est pas un lien « sonolus://... ».\n\nVoulez-vous l'ouvrir en tant que serveur personnalisé ?"
+      },
+      "LinkError": {
+        "Description": "Aucun lien valide n'a été trouvé."
       }
     },
     "Account": {
@@ -1370,22 +2659,37 @@
       "AddFavorite": {
         "Title": "Ajouter un favori",
         "Description": "Sélectionnez le type de favori à ajouter :",
+        "Post": "Post",
+        "Playlist": "Playlist",
         "Level": "Niveau",
         "Skin": "Skin",
         "Background": "Arrière plan",
         "Effect": "SFX",
         "Particle": "Particule",
-        "Engine": "Engine"
+        "Engine": "Engine",
+        "Replay": "Replay",
+        "Room": "Salle"
       }
     },
     "Server": {
       "Home": {
-        "Levels": "Niveaux",
-        "Skins": "Skins",
-        "Backgrounds": "Arrière-plans",
-        "Effects": "SFX",
-        "Particles": "Particules",
-        "Engines": "Engines",
+        "Login": "Se connecter",
+        "Logout": "Se déconnecter",
+        "Multiplayer": "Multijoueur",
+        "Post": "Posts",
+        "Playlist": "Playlists",
+        "Level": "Niveaux",
+        "Skin": "Skins",
+        "Background": "Arrière-plans",
+        "Effect": "SFX",
+        "Particle": "Particules",
+        "Engine": "Moteurs",
+        "Replay": "Replays",
+        "Room": "Salles",
+        "Configuration": "Configuration",
+        "CollectionUpdateConfirmation": {
+          "Description": "Certains éléments de la collection doivent être mis à jour avant d'être utilisés.\n\nVoulez-vous effectuer la mise à jour maintenant ?"
+        },
         "SaveSuccess": {
           "Title": "Serveur enregistré"
         },
@@ -1396,9 +2700,132 @@
       "Search": {
         "Title": "Chercher"
       },
+      "Forms": {
+        "ValidationError": "Certaines informations obligatoires sont manquantes.\n\nVeuillez compléter les champs manquants et réessayer.",
+        "Confirmation": "Êtes-vous sûr de envoyer \"{0}\" ?"
+      },
+      "Configuration": {
+        "Options": {
+          "Title": "Options",
+          "AutoLogin": {
+            "Title": "Connexion automatique",
+            "Description": "Connectez-vous automatiquement lorsque vous visitez ce serveur."
+          }
+        }
+      },
+      "Infos": {
+        "Advanced": "Avancé",
+        "Post": {
+          "Title": "Articles",
+          "Create": {
+            "Title": "Créer un post",
+            "Success": {
+              "Title": "Posts créés"
+            }
+          }
+        },
+        "Playlist": {
+          "Title": "Playlists",
+          "Create": {
+            "Title": "Créer une playlist",
+            "Success": {
+              "Title": "Playlist créée"
+            }
+          }
+        },
+        "Level": {
+          "Title": "Niveaux",
+          "Create": {
+            "Title": "Créer un Niveau",
+            "Success": {
+              "Title": "Niveau Créé"
+            }
+          }
+        },
+        "Skin": {
+          "Title": "Skins",
+          "Create": {
+            "Title": "Créer un Skin",
+            "Success": {
+              "Title": "Skin Créé"
+            }
+          }
+        },
+        "Background": {
+          "Title": "Arrière-plans",
+          "Create": {
+            "Title": "Créer un Arrière-plan",
+            "Success": {
+              "Title": "Arrière-plan Créé"
+            }
+          }
+        },
+        "Effect": {
+          "Title": "SFX",
+          "Create": {
+            "Title": "Créer un SFX",
+            "Success": {
+              "Title": "SFX Créé"
+            }
+          }
+        },
+        "Particle": {
+          "Title": "Particules",
+          "Create": {
+            "Title": "Créer des Particules",
+            "Success": {
+              "Title": "Particules Créées"
+            }
+          }
+        },
+        "Engine": {
+          "Title": "Moteurs ",
+          "Create": {
+            "Title": "Créer un Moteur",
+            "Success": {
+              "Title": "Moteur Créé"
+            }
+          }
+        },
+        "Replay": {
+          "Title": "Replays",
+          "Create": {
+            "Title": "Créer un Replay",
+            "Success": {
+              "Title": "Replay Créé"
+            }
+          }
+        },
+        "Room": {
+          "Title": "Salles",
+          "Create": {
+            "Title": "Créer une Salle",
+            "Success": {
+              "Title": "Salle Créée"
+            },
+            "Description": "Créer la salle \"{0}\" vous permet d'inviter d'autres personnes à jouer ensemble en partageant le lien de la salle.",
+            "ShareSuccess": {
+              "Title": "Lien de la Salle Copié "
+            }
+          }
+        }
+      },
       "Lists": {
+        "SearchOption": "{0}: {1}",
         "DeleteConfirmation": {
           "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
+        },
+        "Post": {
+          "Title": "Publications",
+          "ShareSuccess": {
+            "Title": "Lien de la Publication Copié"
+          }
+        },
+        "Playlist": {
+          "Title": "Playlists",
+          "ShareSuccess": {
+            "Title": "Lien de la Playlist Copié"
+          }
         },
         "Level": {
           "Title": "Niveaux",
@@ -1435,27 +2862,89 @@
           "ShareSuccess": {
             "Title": "Lien engine copié"
           }
+        },
+        "Replay": {
+          "Title": "Replays",
+          "ShareSuccess": {
+            "Title": "Lien du replay copié"
+          }
+        },
+        "Room": {
+          "Title": "Salles",
+          "ShareSuccess": {
+            "Title": "Lien de la salle copié"
+          }
         }
       },
       "Details": {
         "Actions": {
-          "Configuration": "Configuration"
+          "Play": "Jouer",
+          "Watch": "Visionner",
+          "Preview": "Aperçu",
+          "Tutorial": "Tutoriel",
+          "Configuration": "Configuration",
+          "Resources": "Ressources"
         },
         "DeleteConfirmation": {
           "Description": "Voulez-vous vraiment supprimer \"{0}\" ?"
         },
-        "Description": {
-          "Title": "Description"
+        "Tags": {
+          "Title": "Mots-clés",
+          "NoTags": "Pas de mots-clés"
         },
-        "Recommended": {
-          "Title": "Recommandé"
+        "Description": {
+          "Title": "Description",
+          "NoDescription": "Aucune Description"
+        },
+        "Community": {
+          "Title": "Communauté",
+          "NoComments": "Aucun Commentaires"
+        },
+        "Leaderboard": {
+          "Title": "Classement",
+          "NoRecords": "Aucun enregistrement",
+          "NoReplays": "Aucun Replay "
+        },
+        "Post": {
+          "ShareSuccess": {
+            "Title": "Lien du post copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action Post envoyée"
+          }
+        },
+        "Playlist": {
+          "ShareSuccess": {
+            "Title": "Lien de la playlist copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action playlist envoyée"
+          },
+          "Watch": {
+            "Multiple": {
+              "Description": "Il existe plusieurs niveaux dans cette playlist.\n\nVeuillez sélectionner un niveau pour utiliser le visionnage."
+            }
+          },
+          "Preview": {
+            "Multiple": {
+              "Description": "Il existe plusieurs niveaux dans cette playlist.\n\nVeuillez sélectionner un niveau pour utiliser l'aperçu."
+            }
+          },
+          "Tutorial": {
+            "Multiple": {
+              "Description": "Il existe plusieurs niveaux dans cette playlist.\n\nVeuillez sélectionner un niveau pour utiliser le tutoriel."
+            }
+          },
+          "Configuration": {
+            "Multiple": {
+              "Description": "Il existe plusieurs niveaux dans cette playlist.\n\nVeuillez sélectionner un niveau pour utiliser la configuration."
+            }
+          },
+          "Levels": {
+            "Title": "Niveaux"
+          }
         },
         "Level": {
-          "Actions": {
-            "Play": "Play",
-            "Watch": "Watch",
-            "Preview": "Preview"
-          },
           "Play": {
             "Effect": {
               "Audio": {
@@ -1500,11 +2989,20 @@
           },
           "ShareSuccess": {
             "Title": "Lien du niveau copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action Niveau envoyée"
+          },
+          "Engine": {
+            "Title": "Moteur"
           }
         },
         "Skin": {
           "ShareSuccess": {
             "Title": "Lien du skin copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action Skin envoyée"
           }
         },
         "Background": {
@@ -1516,6 +3014,9 @@
           },
           "ShareSuccess": {
             "Title": "Lien d'arrière-plan copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action arrière-plan envoyée"
           }
         },
         "Effect": {
@@ -1531,17 +3032,20 @@
           },
           "ShareSuccess": {
             "Title": "Lien d'effet copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action Effets envoyé "
           }
         },
         "Particle": {
           "ShareSuccess": {
-            "Title": "Lien de particules copié"
+            "Title": "Lien des particules copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action Particule envoyée"
           }
         },
         "Engine": {
-          "Actions": {
-            "Tutorial": "Didacticiel"
-          },
           "Tutorial": {
             "Effect": {
               "Audio": {
@@ -1555,11 +3059,69 @@
             }
           },
           "ShareSuccess": {
-            "Title": "Lien engine copié"
+            "Title": "Lien du moteur copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action Moteur envoyée"
+          },
+          "Skin": {
+            "Title": "Skin"
+          },
+          "Background": {
+            "Title": "Arrière-plan"
+          },
+          "Effect": {
+            "Title": "SFX"
+          },
+          "Particle": {
+            "Title": "Particule"
+          }
+        },
+        "Replay": {
+          "Watch": {
+            "Effect": {
+              "Audio": {
+                "Loading": "Décodage de l'audio de l' SFX...",
+                "Error": "Impossible de décoder l'audio de l'SFX de « {0} ».\n\nVeuillez contacter l'auteur de l'SFX pour signaler le problème."
+              }
+            },
+            "Level": {
+              "Bgm": {
+                "Loading": "Décodage de la BGM du niveau",
+                "Error": "Impossible de décoder la BGM du niveau « {0} ».\n\nVeuillez contacter l'auteur du niveau pour signaler le problème."
+              }
+            },
+            "Boot": {
+              "Loading": "Démarrage du replay...",
+              "Error": "Échec du démarrage du replay « {0} ».\n\nVeuillez contacter l'auteur du replay pour signaler le problème."
+            }
+          },
+          "ShareSuccess": {
+            "Title": "Lien du replay copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action Replay envoyée"
+          },
+          "Level": {
+            "Title": "Niveau"
+          }
+        },
+        "Room": {
+          "ShareSuccess": {
+            "Title": "Lien de la salle copié"
+          },
+          "ActionSuccess": {
+            "Title": "Action Salle envoyée"
           }
         }
       },
       "Configurations": {
+        "Post": {
+          "Title": "Configuration du post"
+        },
+        "Playlist": {
+          "Title": "Configuration du replay"
+        },
         "Level": {
           "Title": "Configuration du niveau",
           "Offsets": {
@@ -1598,17 +3160,20 @@
         },
         "Engine": {
           "Title": "Engine Configuration",
-          "Skin": {
-            "Title": "Skin"
-          },
-          "Background": {
-            "Title": "Arrière plan"
-          },
-          "Effect": {
-            "Title": "SFX"
-          },
-          "Particle": {
-            "Title": "Particule"
+          "Items": {
+            "Title": "Moteur",
+            "Skin": {
+              "Title": "Skin"
+            },
+            "Background": {
+              "Title": "Arrière-plan"
+            },
+            "Effect": {
+              "Title": "SFX"
+            },
+            "Particle": {
+              "Title": "Particule"
+            }
           },
           "Options": {
             "Title": "Options"
@@ -1673,9 +3238,93 @@
               "Description": "Recommander d'utiliser 0.\n\nLe décalage d'entrée supplémentaire de ce moteur ne doit être utilisé que lorsque vous avez du mal à jouer avec ce moteur en particulier. Augmentez si vos entrées sont enregistrées trop tard, et diminuez sinon."
             }
           }
+        },
+        "Replay": {
+          "Title": "Configuration du replay"
+        },
+        "Room": {
+          "Title": "Configuration de la salle"
+        }
+      },
+      "Resources": {
+        "Post": {
+          "Title": "Ressources du post",
+          "Thumbnail": "Vignette"
+        },
+        "Playlist": {
+          "Title": "Ressources de la playlist",
+          "Thumbnail": "Vignette"
+        },
+        "Level": {
+          "Title": "Ressources du niveau",
+          "Cover": "Couverture",
+          "Bgm": "BGM",
+          "Preview": "Aperçu",
+          "Data": "Données"
+        },
+        "Skin": {
+          "Title": "Ressources du skin",
+          "Thumbnail": "Vignette",
+          "Data": "Données",
+          "Texture": "Texture"
+        },
+        "Background": {
+          "Title": "Ressources de l'arrière-plan ",
+          "Thumbnail": "Vignette",
+          "Image": "Image",
+          "Data": "Données",
+          "Configuration": "Configuration"
+        },
+        "Effect": {
+          "Title": "Ressources de l'effet",
+          "Thumbnail": "Vignette",
+          "Data": "Données",
+          "Audio": "Audio"
+        },
+        "Particle": {
+          "Title": "Ressources des particules",
+          "Thumbnail": "Vignette",
+          "Data": "Données",
+          "Texture": "Texture"
+        },
+        "Engine": {
+          "Title": "Ressources du Moteur",
+          "Thumbnail": "Vignette",
+          "PlayData": "Données de jeu",
+          "WatchData": "Données de visionnage",
+          "PreviewData": "Données de l'aperçu",
+          "TutorialData": "Données du tutoriel",
+          "Rom": "ROM",
+          "Configuration": "Configuration"
+        },
+        "Replay": {
+          "Title": "Ressources Du Replay",
+          "Data": "Données",
+          "Configuration": "Configuration"
+        },
+        "Room": {
+          "Title": "Ressources de la salle",
+          "Cover": "Couverture",
+          "Bgm": "BGM",
+          "Preview": "Aperçu"
+        }
+      },
+      "ResourceExporters": {
+        "Success": {
+          "Title": "Ressource exportée"
         }
       },
       "Savers": {
+        "Post": {
+          "Success": {
+            "Title": "Post enregistré"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Playlist enregistrée"
+          }
+        },
         "Level": {
           "Success": {
             "Title": "Niveau enregistré"
@@ -1705,6 +3354,316 @@
           "Success": {
             "Title": "Engine enregistré"
           }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Replay Enregistré"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Salle Enregistrée "
+          }
+        }
+      },
+      "Updaters": {
+        "Post": {
+          "Success": {
+            "Title": "Post mis à jour"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Playlist mise à jour"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "Niveau mis à jour "
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Skin mis à jour "
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Arrière-plan mis à jour "
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Effect mis à jour"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Particles mise à jour "
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Moteur Mis à Jour"
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Replay mis à jour "
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Salle mise à jour"
+          }
+        }
+      },
+      "CreateInfos": {
+        "Post": {
+          "Title": "Info Post "
+        },
+        "Playlist": {
+          "Title": "Info Playlist"
+        },
+        "Level": {
+          "Title": "Info Niveau"
+        },
+        "Skin": {
+          "Title": "Info Skin"
+        },
+        "Background": {
+          "Title": "Info Arrière-plan"
+        },
+        "Effect": {
+          "Title": "Info effect"
+        },
+        "Particle": {
+          "Title": "Info particules"
+        },
+        "Engine": {
+          "Title": "Informations du Moteur"
+        },
+        "Replay": {
+          "Title": "Informations du replay",
+          "Info": {
+            "Title": {
+              "Title": "Titre",
+              "Description": "Titre du replay",
+              "Placeholder": "Entrez le titre du replay..."
+            },
+            "Subtitle": {
+              "Title": "Sous-titre",
+              "Description": "Sous-titre du replay",
+              "Placeholder": "Entrez le sous-titre du replay…"
+            },
+            "Description": {
+              "Title": "Description",
+              "Description": "Description du replay",
+              "Placeholder": "Entrez la description du replay..."
+            }
+          }
+        },
+        "Room": {
+          "Title": "Informations de la salle"
+        }
+      },
+      "Creators": {
+        "Post": {
+          "Success": {
+            "Title": "Post créé"
+          }
+        },
+        "Playlist": {
+          "Success": {
+            "Title": "Playlist créée"
+          }
+        },
+        "Level": {
+          "Success": {
+            "Title": "Niveau créé"
+          }
+        },
+        "Skin": {
+          "Success": {
+            "Title": "Skin créé"
+          }
+        },
+        "Background": {
+          "Success": {
+            "Title": "Arrière-plan créé"
+          }
+        },
+        "Effect": {
+          "Success": {
+            "Title": "Effet créé"
+          }
+        },
+        "Particle": {
+          "Success": {
+            "Title": "Particule créée"
+          }
+        },
+        "Engine": {
+          "Success": {
+            "Title": "Moteur Créé "
+          }
+        },
+        "Replay": {
+          "Success": {
+            "Title": "Replay créé"
+          }
+        },
+        "Room": {
+          "Success": {
+            "Title": "Salle Créée"
+          }
+        }
+      },
+      "Multiplayer": {
+        "Connecting": "Connexion…",
+        "Reconnecting": "Reconnexion…",
+        "ExitConfirmation": {
+          "Description": "Etes-vous sûr de quitter la salle ?"
+        },
+        "Play": {
+          "Options": {
+            "Title": "Options"
+          },
+          "Selecting": {
+            "Title": "Sélection",
+            "Description": {
+              "Lead": "Vous sélectionnez...",
+              "Other": "{0} sélectionne...",
+              "Room": "Sélection de la salle…"
+            },
+            "Actions": {
+              "Select": "Sélectionner"
+            }
+          },
+          "Preparing": {
+            "Title": {
+              "Preparing": "Préparation",
+              "Ready": "Prêt",
+              "Skipped": "Passer"
+            },
+            "Description": "{0} en préparation, {1} prêts, {2} ont passé...",
+            "Actions": {
+              "Configuration": "Configuration",
+              "Ready": "Prêt",
+              "Skip": "Passer",
+              "Start": {
+                "Title": "Commencer",
+                "Confirmation": {
+                  "Description": "Êtes-vous sûr de vouloir commencer ?\n\nLes joueurs qui se préparent encore seront obligés de passer leur tour."
+                }
+              }
+            }
+          },
+          "Playing": {
+            "Title": "Jouant",
+            "Description": "{0} en cours de chargement, {1} en train de jouer...",
+            "Actions": {
+              "Finish": {
+                "Title": "Terminer",
+                "Confirmation": {
+                  "Description": "Êtes-vous sûr de vouloir terminer ?\n\nLes joueurs qui jouent encore perdront leurs résultats."
+                }
+              }
+            }
+          }
+        },
+        "Chat": {
+          "Title": "Chat",
+          "Overlay": {
+            "Room": "Salle: {0}",
+            "User": "{0}: {1}",
+            "Level": "Niveau modifié."
+          },
+          "Text": {
+            "Placeholder": "Entrez un message..."
+          },
+          "Quick": {
+            "Hello": {
+              "Title": "Hello",
+              "Text": "Hello!"
+            },
+            "Glhf": {
+              "Title": "Glhf",
+              "Text": "Good luck, have fun!"
+            },
+            "Gg": {
+              "Title": "Gg",
+              "Text": "Good game!"
+            },
+            "Ns": {
+              "Title": "Ns",
+              "Text": "Nice score!"
+            },
+            "Ty": {
+              "Title": "Ty",
+              "Text": "Thank you!"
+            }
+          },
+          "System": {
+            "Selecting": "Sélection...",
+            "Preparing": "Préparation...",
+            "Playing": "Jouant...",
+            "Master": "Le maître de la salle a été changé en {0}.",
+            "Lead": "Le chef de la salle a été changé en {0}.",
+            "Options": "Options de la salle modifiées.",
+            "Level": "Niveau changé en {0}.",
+            "LevelOptions": "Options du niveau modifiées.",
+            "AutoExit": "Sortie automatique modifiée.",
+            "Connected": {
+              "Self": "Connecté.",
+              "Other": "{0} connecté."
+            },
+            "Disconnected": "{0} déconnecté."
+          }
+        },
+        "Suggestions": {
+          "Title": "Suggestions",
+          "Actions": {
+            "Lock": "Verrouiller",
+            "Unlock": "Déverrouiller",
+            "Clear": "Effacer"
+          }
+        },
+        "Scoreboard": {
+          "Title": "Tableau des scores ",
+          "Actions": {
+            "Reset": {
+              "Title": "Réinitialiser",
+              "Confirmation": {
+                "Description": "Êtes-vous sûr de vouloir réinitialiser le tableau des scores"
+              }
+            }
+          },
+          "Result": {
+            "Title": "Résultat"
+          }
+        },
+        "Room": {
+          "EditOptions": "Modifier les options de la salle",
+          "Players": {
+            "Title": "Joueurs",
+            "UpdateMasterConfirmation": {
+              "Description": "Êtes-vous sûr de vouloir changer le maître de la salle en {0} ?"
+            },
+            "UpdateLeadConfirmation": {
+              "Description": "Êtes-vous sûr de vouloir changer le chef de la salle en {0} ?"
+            },
+            "KickConfirmation": {
+              "Description": "Êtes-vous sûr de vouloir expulser {0} ?"
+            },
+            "AddedToBlacklistSuccess": "Joueur bloqué",
+            "RemovedFromBlacklistSuccess": "Joueur débloqué",
+            "Report": {
+              "Title": "Signaler le joueur",
+              "Description": "Signaler le joueur {0} :",
+              "Success": "Joueur signalé"
+            }
+          }
         }
       }
     },
@@ -1713,15 +3672,15 @@
       "Graphics": {
         "Title": "Graphics",
         "TargetFps": {
-          "Title": "FPS cible",
-          "Description": "Nous vous recommandons d'utiliser le taux de rafraîchissement de l'écran de votre appareil.\n\nSonolus vise à fonctionner à ce FPS, mais il n'est pas garanti si l'appareil est incapable de le faire."
+          "Title": "IPS cible",
+          "Description": "Il est recommandé d'utiliser le taux de rafraîchissement de l'écran de votre appareil.\n\nSonolus essaiera de fonctionner à ce taux d'IPS, mais l'appareil peut ne pas en être capable."
         },
         "RenderMode": {
           "Title": "Mode de rendu",
           "Description": "Recommander d'utiliser le mode de rendu standard.\n\nLe mode de rendu standard fournit des graphiques précis, tandis que le mode de rendu léger fournit des graphiques légèrement imprécis mais des performances considérablement améliorées.",
           "Options": {
             "Standard": "Standard",
-            "Lightweight": "Poids léger"
+            "Lightweight": "Legé"
           }
         },
         "RenderScale": {
@@ -1729,10 +3688,10 @@
           "Description": "Recommander d'utiliser 100 %.\n\nSonolus rend à cette échelle et augmente ou réduit la taille de l'écran. Une échelle de rendu supérieure à 100 % peut améliorer les graphismes au prix de moins bonnes performances, tandis qu'une échelle de rendu inférieure à 100 % améliore les performances au prix de moins bons graphismes."
         },
         "AntiAliasing": {
-          "Title": "Anti-Aliasing",
+          "Title": "Anticrénelage",
           "Description": "Recommander d'utiliser off.\n\nL'anticrénelage améliore les graphismes en minimisant les artefacts, en particulier autour des bords des sprites, au prix de moins bonnes performances.",
           "Options": {
-            "Off": "Off",
+            "Off": "Désactivé",
             "TwoX": "2x",
             "FourX": "4x",
             "EightX": "8x"
@@ -1766,38 +3725,77 @@
           "Description": "Recommander d'éteindre.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode le niveau BGM uniquement si le format n'est pas pris en charge de manière native. Lorsqu'il est allumé, Sonolus décode toujours BGM."
         },
         "PreviewBgm": {
-          "Title": "Preview BGM",
-          "Description": "Où jouer aperçu BGM.",
+          "Title": "Aperçu de la BGM",
+          "Description": "Où jouer l'aperçu de la BGM.",
           "Options": {
-            "Off": "Off",
-            "DetailsOnly": "Détails uniquement",
-            "ListAndDetails": "Liste et détails"
+            "List": "Liste",
+            "Details": "Détails",
+            "Result": "Résultat",
+            "Multiplayer": "Multijoueur"
           }
         },
         "LevelBgmQuality": {
-          "Title": "Niveau de qualité BGM",
+          "Title": "Niveau de qualité de la BGM",
           "Description": "Recommander d'utiliser haut.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode le niveau BGM uniquement si le format n'est pas pris en charge de manière native. Le niveau BGM sera décodé à cette qualité.",
           "Options": {
-            "Low": "Low",
-            "Mid": "Mid",
-            "High": "High"
+            "Low": "Faible",
+            "Mid": "Moyenne",
+            "High": "Élevée"
           }
         },
         "PreviewBgmQuality": {
-          "Title": "Preview de la qualité BGM",
-          "Description": "Recommander d'utiliser le milieu.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode l'aperçu BGM uniquement si le format n'est pas pris en charge de manière native. L'aperçu BGM sera décodé avec cette qualité.",
+          "Title": "Qualité de l'aperçu de la BGM",
+          "Description": "Recommander d'utiliser la qualité moyenne.\n\nSonolus utilise par défaut les capacités audio natives du système d'exploitation pour de meilleures performances et décode l'aperçu BGM uniquement si le format n'est pas pris en charge de manière native. L'aperçu BGM sera décodé avec cette qualité.",
           "Options": {
-            "Low": "Low",
-            "Mid": "Mid",
-            "High": "High"
+            "Low": "Faible",
+            "Mid": "Moyenne",
+            "High": "Élevée"
           }
+        }
+      },
+      "Gameplay": {
+        "Title": "Gameplay",
+        "UnpauseDelay": {
+          "Title": "Durée de la dépause",
+          "Description": "Délai du compte à rebours lors de la dépause"
+        },
+        "MultiplayerPreload": {
+          "Title": "Préchargement multijoueur",
+          "Description": "Il est recommandé de l'activer.\n\nEn multijoueur, démarrez le préchargement une fois le niveau confirmé pour améliorer la vitesse de chargement."
+        },
+        "ReplayTitleTemplate": {
+          "Title": "Modèle du titre des replays",
+          "Description": "Modèle de titre lors de la création d'un replay.\n\nDes paramètres spéciaux sont disponibles et seront remplacés par les valeurs correspondantes.",
+          "Placeholder": "Entrez le modèle du titre..."
+        },
+        "ReplaySubtitleTemplate": {
+          "Title": "Modèle du sous-titres des replays ",
+          "Description": "Modèle du sous-titre lors de la création d'un replay.\n\nDes paramètres spéciaux sont disponibles et seront remplacés par les valeurs correspondantes.",
+          "Placeholder": "Entrez le modèle du sous-titre..."
+        },
+        "ReplayDescriptionTemplate": {
+          "Title": "Modèle de la description des replays",
+          "Description": "Modèle de ladescription lors de la création d'un replay.\n\nDes paramètres spéciaux sont disponibles et seront remplacés par les valeurs correspondantes.",
+          "Placeholder": "Entrez le modèle de la description..."
+        },
+        "ShowReplayTouches": {
+          "Title": "Afficher les touches du replay",
+          "Description": "Afficher les touches lors du visionnage du replay"
+        },
+        "OverwriteReplayOptions": {
+          "Title": "Écraser les options du replay ",
+          "Description": "Remplacez les options par les vôtres lorsque vous regardez un replay."
         }
       },
       "UI": {
         "Title": "UI",
-        "Localization": {
-          "Title": "Langue",
-          "Description": "Langue à utiliser."
+        "UILocalization": {
+          "Title": "Langue de l'interface",
+          "Description": "Langue à utiliser pour l'interface"
+        },
+        "ContentLocalization": {
+          "Title": "Langue du contenu",
+          "Description": "Langue à utiliser pour le contenu. Les serveurs personnalisés peuvent fournir du contenu dans cette langue si elle est disponible."
         },
         "Theme": {
           "Title": "Thème",
@@ -1806,10 +3804,6 @@
         "Scale": {
           "Title": "Échelle de l'interface utilisateur",
           "Description": "Échelle de l'interface utilisateur à utiliser. Augmentez si vous avez des difficultés à lire et diminuez pour afficher plus de contenu à la fois."
-        },
-        "UnpauseDelay": {
-          "Title": "Reprendre le délai",
-          "Description": "Délai de compte à rebours lors de la reprise."
         },
         "PerfectJudgmentColors": {
           "Title": "Couleurs du jugement parfait",
@@ -1858,6 +3852,10 @@
         "ShowZeroCombo": {
           "Title": "Afficher le combo zéro",
           "Description": "Afficher le combo lorsque le combo est égal à zéro."
+        },
+        "TouchStyle": {
+          "Title": "Style des touches",
+          "Description": "Style des indicateurs tactiles."
         }
       },
       "Offsets": {
@@ -1877,7 +3875,18 @@
         }
       },
       "Repository": {
-        "Title": "Dépôt",
+        "Title": "Répertoire",
+        "AutoClean": {
+          "Title": "Nettoyage automatique",
+          "Description": "Nettoyer automatiquement le répertoire au lancement en supprimant les ressources les plus anciennes.",
+          "Options": {
+            "OneHundredMB": "100 Mo",
+            "FiveHundredMB": "500 Mo",
+            "OneGB": "1 Go",
+            "FiveGB": "5 Go",
+            "TenGB": "10 Go"
+          }
+        },
         "Manage": "Manage"
       },
       "Cache": {
@@ -1891,20 +3900,16 @@
       "Developer": {
         "Title": "Développeur",
         "ShowFps": {
-          "Title": "Afficher fps",
-          "Description": "Afficher le compteur FPS en bas à gauche de l'écran."
+          "Title": "Afficher IPS",
+          "Description": "Afficher le compteur d'IPS en bas à gauche de l'écran."
         },
         "FpsStyle": {
-          "Title": "Style FPS",
-          "Description": "Style de compteur FPS."
+          "Title": "Style IPS",
+          "Description": "Style du compteur d'IPS."
         },
         "ShowTouches": {
           "Title": "Afficher les touches",
           "Description": "Afficher les indicateurs tactiles. Les indicateurs tactiles sont utiles pour afficher les entrées dans les enregistrements vidéo."
-        },
-        "TouchStyle": {
-          "Title": "Style tactile",
-          "Description": "Style des indicateurs tactiles."
         },
         "DebugMode": {
           "Title": "Mode débogage",
@@ -1913,6 +3918,10 @@
         "DebugLogStyle": {
           "Title": "Style du journal de débogage",
           "Description": "Style du journal de débogage."
+        },
+        "DiagnosticLogs": {
+          "Title": "Journaux de diagnostic",
+          "Description": "Les journaux de diagnostic peuvent aider à résoudre les problèmes de Sonolus."
         }
       }
     },
@@ -1923,14 +3932,23 @@
         "Description": "Le référentiel stocke toutes les ressources disponibles localement sur cet appareil.",
         "Size": "Taille : {0}"
       },
+      "RepairRepository": {
+        "Title": "Réparer le répertoire",
+        "Description": "Vérifiez toutes les ressources du répertoire pour détecter les fichiers corrompus et réparez-les.\nVous devrez peut-être mettre à jour les collections après la réparation.",
+        "Repair": "Réparer",
+        "Loading": "Réparation du répertoire ({0})...",
+        "Success": {
+          "Title": "Réparer le répertoire"
+        }
+      },
       "DeleteRepository": {
         "Title": "Supprimer le référentiel",
         "Description": "Supprimez toutes les ressources du référentiel qui entraînent le retéléchargement de Sonolus à la demande.",
-        "Delete": "Effacer",
-        "DeleteConfirmation": {
-          "Description": "Êtes-vous sûr de supprimer toutes les ressources du référentiel ?",
-          "Loading": "Suppression du référentiel..."
+        "Delete": "Supprimer",
+        "Confirmation": {
+          "Description": "Êtes-vous sûr de supprimer toutes les ressources du répertoire ?"
         },
+        "Loading": "Suppression du répertoire ({0})...",
         "Success": {
           "Title": "Dépôt supprimé"
         }
@@ -1965,85 +3983,79 @@
           "Title": "Cache supprimé"
         }
       }
-    }
-  },
-  "Scp": {
-    "PermissionError": {
-      "Description": "Sonolus ne parvient pas à obtenir les autorisations requises pour effectuer cette action.\n\nVeuillez ouvrir Paramètres et accorder les autorisations Sonolus.",
-      "Open": "Open"
+    },
+    "DiagnosticLogs": {
+      "Title": "Journaux de diagnostic"
     }
   },
   "Runtimes": {
+    "Pause": {
+      "Title": "Pause",
+      "Debug": {
+        "Title": "Débogage"
+      }
+    },
+    "Control": {
+      "Title": "Contrôle",
+      "Exit": "Quitter",
+      "Restart": "Recommencer"
+    },
     "Level": {
       "Play": {
         "Routes": {
+          "Playlist": {
+            "Title": "Playlist",
+            "Previous": "Précédent",
+            "Next": "Suivant"
+          },
           "Pause": {
-            "Title": "Pause",
-            "Control": {
-              "Title": "Control",
-              "Exit": "Sortir",
-              "Restart": "Recommencer"
-            },
             "Snapshot": {
               "Title": "Snapshot",
               "Mark": "Mark",
               "Jump": "Jump"
-            },
-            "Debug": {
-              "Title": "Debug"
             }
           },
           "Result": {
-            "Title": "Résultat",
             "Options": {
               "HasUsedPause": "Pause",
               "HasUsedSnapshot": "Snapshot"
             },
-            "Graphs": {
-              "Title": "Graphs",
-              "Judgment": {
-                "Title": "Graphique de jugement"
+            "Replay": {
+              "Title": "Replay",
+              "Description": {
+                "Normal": "Votre gameplay a été enregistré, cliquez sur Créer pour créer un replay à partir de celui-ci.",
+                "HasUsedPause": "Le replay ne peut pas être créé car la pause a été utilisée.",
+                "HasUsedSnapshot": "Le replay ne peut pas être créé car la snapshot a été utilisée."
               },
-              "Accuracy": {
-                "Title": "Graphique de précision",
-                "AbsValue": "Valeur absolue",
-                "Mean": "Mean",
-                "StDev": "St Dev",
-                "Min": "Min",
-                "Max": "Max"
-              },
-              "Bucket": {
-                "Title": "Graphique de compartiment"
+              "Submit": {
+                "Confirmation": {
+                  "Description": "Votre replay a été créée et enregistrée avec succès.\n\nSouhaitez-vous également l'envoyer au serveur \"{0}\" ?"
+                },
+                "Success": {
+                  "Title": "Résultat du niveau envoyé"
+                }
               }
             }
           }
         }
       },
-      "Watch": {
-        "Routes": {
-          "Pause": {
-            "Title": "Pause",
-            "Control": {
-              "Title": "Control",
-              "Exit": "Quitter"
-            },
-            "Debug": {
-              "Title": "Debug"
-            }
-          }
-        }
-      },
-      "Preview": {
-        "Routes": {
-          "Pause": {
-            "Title": "Pause",
-            "Control": {
-              "Title": "Contrôle",
-              "Exit": "Quitter"
-            },
-            "Debug": {
-              "Title": "Debug"
-            }
+      "Result": {
+        "Title": "Résultat",
+        "Graphs": {
+          "Title": "Graphiques",
+          "Judgment": {
+            "Title": "Graphique du jugement"
+          },
+          "Accuracy": {
+            "Title": "Graphique de la précision",
+            "AbsValue": "Valeur Abs",
+            "Mean": "Moyen",
+            "StDev": "St Dev",
+            "Min": "Min",
+            "Max": "Max"
+          },
+          "Bucket": {
+            "Title": "Graphique en Bucket"
           }
         }
       }
@@ -2053,22 +4065,6 @@
         "Routes": {
           "Preview": {
             "Play": "Jouer"
-          }
-        }
-      }
-    },
-    "Engine": {
-      "Tutorial": {
-        "Routes": {
-          "Pause": {
-            "Title": "Pause",
-            "Control": {
-              "Title": "Contrôle",
-              "Exit": "Sortie"
-            },
-            "Debug": {
-              "Title": "Déboguer"
-            }
           }
         }
       }
