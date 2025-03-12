@@ -132,6 +132,7 @@
     "#LANE_EFFECT_ROTATION": "Rotation des Effets des Voies",
     "#LANE_EFFECT_DIRECTION": "Direction des Effets des Voies",
     "#LANE_EFFECT_ALPHA": "Transparence des Effets des Voies m",
+    "#JUDGELINE": "Ligne de jugement",
     "#JUDGELINE_POSITION": "Position de la Ligne de Jugement",
     "#JUDGELINE_SIZE": "Taille de la Ligne de Jugement",
     "#JUDGELINE_ROTATION": "Rotation de la Ligne de Jugement",
@@ -1367,7 +1368,8 @@
           "Error": "Échec de la création du moteur dans \"{0}\"."
         },
         "List": {
-          "Loading": "Chargement des engines..."
+          "Loading": "Chargement des engines...",
+          "Error": "Échec du chargement des moteurs à la page {0}."
         },
         "Details": {
           "Loading": "Chargement des détails des engines...",
