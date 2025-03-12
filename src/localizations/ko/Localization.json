@@ -52,7 +52,7 @@
     "#REPLAY_DATA": "데이터",
     "#REPLAY_CONFIGURATION": "구성",
     "#ROOM_COVER": "커버",
-    "#ROOM_BGM": "BGM",
+    "#ROOM_BGM": "배경음",
     "#ROOM_PREVIEW": "미리보기",
     "#GRADE": "등급",
     "#ARCADE_SCORE": "아케이드 점수",
@@ -295,7 +295,7 @@
     "#HOUR_UNIT": "{0}시간",
     "#MINUTE_UNIT": "{0}분",
     "#SECOND_UNIT": "{0}초",
-    "#MILLISECOND_UNIT": "{0}ms",
+    "#MILLISECOND_UNIT": "{0}밀리초",
     "#YEAR_PAST": "{0}년 전",
     "#MONTH_PAST": "{0}개월 전",
     "#DAY_PAST": "{0}일 전",
@@ -317,8 +317,8 @@
     "#TAP_SLIDE": "탭하고 슬라이드",
     "#HOLD": "누르고 있기",
     "#HOLD_SLIDE": "누르며 슬라이드하기",
-    "#HOLD_FOLLOW": "누르며 쫓아가기",
-    "#RELEASE": "때기",
+    "#HOLD_FOLLOW": "누르며 따라가기",
+    "#RELEASE": "떼기",
     "#FLICK": "긋기",
     "#SLIDE": "슬라이드",
     "#SLIDE_FLICK": "슬라이드하고 긋기",
@@ -357,11 +357,11 @@
     "#OTHER_VERSIONS": "다른 버전",
     "#DRAFT": "초안",
     "#PUBLIC": "공개",
-    "#PRIVATE": "비공개",
+    "#PRIVATE": "일부 공개",
     "#POP": "팝",
-    "#ROCK": "락",
+    "#ROCK": "록",
     "#HIPHOP": "힙합",
-    "#COUNTRY": "컨트리리",
+    "#COUNTRY": "지역",
     "#ELECTRONIC": "일렉트로",
     "#METAL": "메탈",
     "#CLASSICAL": "클래식",
@@ -2805,9 +2805,9 @@
             "Success": {
               "Title": "방 생성됨"
             },
-            "Description": "Creating room \"{0}\", you can invite others to play together by sharing the room link.",
+            "Description": "\"{0}\" 방을 생성 중입니다. 방 링크를 공유하여 다른 이를 초대할 수 있습니다.",
             "ShareSuccess": {
-              "Title": "Room Link Copied"
+              "Title": "방 링크 복사됨"
             }
           }
         }
@@ -3182,20 +3182,20 @@
           },
           "UI": {
             "PrimaryMetric": {
-              "Title": "기본 메트릭",
-              "Description": "표시할 기본 메트릭."
+              "Title": "기본 측정값",
+              "Description": "표시할 기본 측정값입니다."
             },
             "SecondaryMetric": {
-              "Title": "보조 메트릭",
-              "Description": "표시할 보조 메트릭."
+              "Title": "보조 측정값",
+              "Description": "표시할 보조 측정값입이다."
             },
             "JudgmentErrorStyle": {
               "Title": "특수 판정 스타일",
-              "Description": "특수 판정의 스타일입니다. 긍정적 특수 판정은 왼쪽에 표시되고, 부정적 특수 판정은 오른쪽에 표시됩니다."
+              "Description": "특수 판정의 스타일입니다. 양의 특수 판정은 왼쪽에 표시되고, 음의 특수 판정은 오른쪽에 표시됩니다."
             },
             "JudgmentErrorPlacement": {
               "Title": "특수 판정 위치",
-              "Description": "특수 판정의 위치."
+              "Description": "특수 판정의 위치입니다."
             },
             "JudgmentErrorMin": {
               "Title": "특수 판정 최소값",
@@ -3203,31 +3203,31 @@
             },
             "MenuStyle": {
               "Title": "메뉴 스타일",
-              "Description": "메뉴의 스타일."
+              "Description": "메뉴의 스타일입니다."
             },
             "JudgmentStyle": {
               "Title": "판정 스타일",
-              "Description": "판정의 스타일."
+              "Description": "판정의 스타일입니다."
             },
             "ComboStyle": {
               "Title": "콤보 스타일",
-              "Description": "콤보의 스타일."
+              "Description": "콤보의 스타일입니다."
             },
             "PrimaryMetricStyle": {
-              "Title": "기본 메트릭 스타일",
-              "Description": "기본 메트릭의 스타일."
+              "Title": "기본 측정값 스타일",
+              "Description": "기본 측정값의 스타일입니다."
             },
             "SecondaryMetricStyle": {
-              "Title": "보조 메트릭 스타일",
-              "Description": "보조 메트릭의 스타일."
+              "Title": "보조 측정값 스타일",
+              "Description": "보조 측정값의 스타일."
             },
             "ProgressStyle": {
               "Title": "진행 바 스타일",
               "Description": "진행 바의 스타일입니다."
             },
             "TutorialNavigationStyle": {
-              "Title": "튜토리얼 안내 스타일",
-              "Description": "튜토리얼 안내의 스타일."
+              "Title": "튜토리얼 지시자 스타일",
+              "Description": "튜토리얼 지시자의 스타일입니다."
             },
             "TutorialInstructionStyle": {
               "Title": "튜토리얼 안내 스타일",
@@ -3307,7 +3307,7 @@
         "Room": {
           "Title": "방 자원",
           "Cover": "커버",
-          "Bgm": "BGM",
+          "Bgm": "배경음",
           "Preview": "미리보기"
         }
       },
@@ -3824,12 +3824,12 @@
           "Description": "Miss 판정 색상입니다."
         },
         "PositiveJudgmentErrorColors": {
-          "Title": "긍정적 특수 판정 색",
-          "Description": "긍정적 특수 판정의 색."
+          "Title": "양의 특수 판정 색",
+          "Description": "양의 특수 판정의 색입니다."
         },
         "NegativeJudgmentErrorColors": {
-          "Title": "부정적 특수 판정 색",
-          "Description": "부정적 특수 판정의 색."
+          "Title": "음의 특수 판정 색",
+          "Description": "음의 특수 판정의 색입니다."
         },
         "AllPerfectComboColors": {
           "Title": "올 퍼펙트 콤보 색상",
@@ -3865,7 +3865,7 @@
         "Device": {
           "Title": "기기",
           "Description": "스피커, 헤드셋, 블루투스 등을 통한 각각 다른 기기 환경에서 플레이를 위한 오프셋 저장을 위해 사용됩니다.",
-          "Option": "{0} 기기"
+          "Option": "기기 {0}"
         },
         "DeviceAudioOffset": {
           "Title": "기기 오디오 오프셋",
