@@ -534,6 +534,10 @@
         "Cancel": "Cancel",
         "Confirm": "Confirm",
         "Retry": "Retry",
+        "Ok": "Ok",
+        "Tip": {
+            "Title": "Tip"
+        },
         "Error": {
             "Title": "Error"
         },
@@ -545,6 +549,7 @@
         "Import": "Import",
         "Search": "Search",
         "PullToRefresh": "Pull to refresh",
+        "PullTip": "Tip: pull for more",
         "Save": "Save",
         "Share": "Share",
         "Export": "Export",
@@ -787,13 +792,6 @@
                 "Error": "Failed to edit about me.\n\nPlease check if your about me is legal and within length limit, or check your internet connection and try again.",
                 "Success": {
                     "Title": "About Me Edited"
-                }
-            },
-            "EditSocialLinks": {
-                "Loading": "Editing social links...",
-                "Error": "Failed to edit social links.\n\nPlease check if your social links are legal and within length limit, or check your internet connection and try again.",
-                "Success": {
-                    "Title": "Social Links Edited"
                 }
             },
             "EditFavorites": {
@@ -2606,13 +2604,6 @@
                 "AboutMe": {
                     "Title": "About Me"
                 },
-                "SocialLinks": {
-                    "Title": "Social Links",
-                    "None": "No social links.",
-                    "OpenConfirmation": {
-                        "Description": "This social link goes to:\n{0}\n\nAre you sure to visit?"
-                    }
-                },
                 "Favorites": {
                     "Title": "Favorites",
                     "None": "No favorites."
@@ -2643,19 +2634,6 @@
                     "Title": "About Me",
                     "Description": "A short description about yourself.",
                     "Placeholder": "Enter about me..."
-                }
-            },
-            "AddSocialLink": {
-                "Title": "Add Social Link",
-                "SocialLinkTitle": {
-                    "Title": "Title",
-                    "Description": "Title.",
-                    "Placeholder": "Enter social link title..."
-                },
-                "SocialLinkAddress": {
-                    "Title": "Address",
-                    "Description": "A web URL (\"https://...\") to link to.",
-                    "Placeholder": "Enter social link address..."
                 }
             },
             "AddFavorite": {
@@ -2707,6 +2685,9 @@
                 "Confirmation": "Are you sure to submit \"{0}\"?"
             },
             "Configuration": {
+                "Tip": {
+                    "Message": "Configuration contains options for this server.\n\nFor engine and level specific options such as note speed, you can find them in Configuration after selecting a level."
+                },
                 "Options": {
                     "Title": "Options",
                     "AutoLogin": {
@@ -2948,6 +2929,12 @@
                 },
                 "Level": {
                     "Play": {
+                        "TutorialTip": {
+                            "Message": "This is your first time playing the engine, would you like to view its tutorial?"
+                        },
+                        "ConfigurationTip": {
+                            "Message": "This is your first time playing the engine, would you like to configure its options such as note speed?"
+                        },
                         "Effect": {
                             "Audio": {
                                 "Loading": "Decoding SFX audio...",
@@ -3550,6 +3537,9 @@
                         },
                         "Description": "{0} preparing, {1} ready, {2} skipped...",
                         "Actions": {
+                            "ConfigurationTip": {
+                                "Message": "This is your first time playing the engine, would you like to configure its options such as note speed?"
+                            },
                             "Configuration": "Configuration",
                             "Ready": "Ready",
                             "Skip": "Skip",
@@ -3671,6 +3661,9 @@
         },
         "Settings": {
             "Title": "Settings",
+            "Tip": {
+                "Message": "Settings contains general options for the Sonolus app.\n\nFor engine and level specific options such as note speed, you can find them in Configuration after entering a server and selecting a level."
+            },
             "Graphics": {
                 "Title": "Graphics",
                 "TargetFps": {
@@ -3787,6 +3780,10 @@
                 "OverwriteReplayOptions": {
                     "Title": "Overwrite Replay Options",
                     "Description": "Overwrite options with your own when watching replay."
+                },
+                "TouchAbnormalityDetection": {
+                    "Title": "Touch Abnormality Detection",
+                    "Description": "Recommend to turn on.\n\nDetect touch abnormalities during gameplay."
                 }
             },
             "UI": {
@@ -4018,6 +4015,9 @@
                         }
                     },
                     "Result": {
+                        "TouchAbnormality": {
+                            "Description": "There were {0} touch abnormalities detected during gameplay. This is commonly caused by system features such as gesture, touch optimization, and notifications, and may cause judgment issues.\n\nTo ensure you have the best gameplay experience, it is recommended to resolve this issue by adjusting relevant system settings."
+                        },
                         "Options": {
                             "HasUsedPause": "Pause",
                             "HasUsedSnapshot": "Snapshot"
