@@ -5,39 +5,45 @@ fs.emptyDirSync('./dist')
 const info = fs.readJsonSync('./src/info.json')
 fs.outputJsonSync('./dist/info.json', info)
 
-const list = []
-fs.readdirSync('./src/localizations').forEach((name) => {
-    const localization = fs.readJsonSync(
-        `./src/localizations/${name}/Localization.json`
-    )
+const localizations = fs.readdirSync('./src/localizations').map((name) => {
+    const localization = fs.readJsonSync(`./src/localizations/${name}/Localization.json`)
 
-    list.push({ name: localization.Meta.Name, title: localization.Meta.Title })
-
-    fs.outputJsonSync(
-        `./dist/localizations/${localization.Meta.Name}.json`,
-        flatten(localization)
-    )
+    return {
+        info: {
+            name: localization.Meta.Name,
+            title: localization.Meta.Title,
+        },
+        entries: flatten(localization),
+    }
 })
 
-fs.outputJsonSync('./dist/localizations/list.json', list)
+const keys = new Set(
+    localizations.find(({ info }) => info.name === 'en').entries.map(({ key }) => key),
+)
 
-function flatten(data, path = [], entries = []) {
-    Object.entries(data).forEach(([key, value]) => {
+fs.outputJsonSync(
+    './dist/localizations/list.json',
+    localizations.map(({ info }) => info),
+)
+
+for (const { info, entries } of localizations) {
+    fs.outputJsonSync(
+        `./dist/localizations/${info.name}.json`,
+        entries.filter(({ key }) => keys.has(key)),
+    )
+}
+
+function flatten(data, path = []) {
+    return Object.entries(data).flatMap(([key, value]) => {
         const newPath = [...path, key]
 
         switch (typeof value) {
             case 'string':
-                entries.push({ key: newPath.join('.'), value })
-                break
+                return [{ key: newPath.join('.'), value }]
             case 'object':
-                flatten(value, newPath, entries)
-                break
+                return flatten(value, newPath)
             default:
-                throw new Error(
-                    `Unsupported type: ${typeof value} at ${newPath.join('.')}`
-                )
+                throw new Error(`Unsupported type: ${typeof value} at ${newPath.join('.')}`)
         }
     })
-
-    return entries
 }
