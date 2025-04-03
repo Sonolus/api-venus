@@ -534,6 +534,10 @@
     "Cancel": "取消",
     "Confirm": "确认",
     "Retry": "重试",
+    "Ok": "OK",
+    "Tip": {
+      "Title": "提示"
+    },
     "Error": {
       "Title": "错误"
     },
@@ -545,6 +549,7 @@
     "Import": "导入",
     "Search": "搜索",
     "PullToRefresh": "拉动刷新",
+    "PullTip": "提示：下拉以获取更多",
     "Save": "保存",
     "Share": "分享",
     "Export": "导出",
@@ -787,13 +792,6 @@
         "Error": "编辑关于我失败。\n\n请检查您的关于我是否合法并在长度范围内，或检查您的网络连接并重试。",
         "Success": {
           "Title": "关于我已编辑"
-        }
-      },
-      "EditSocialLinks": {
-        "Loading": "正在编辑社交链接…",
-        "Error": "编辑社交链接失败。\n\n请检查您的社交链接是否合法且在长度范围内，或检查您的网络连接并重试。",
-        "Success": {
-          "Title": "社交链接已编辑"
         }
       },
       "EditFavorites": {
@@ -2606,13 +2604,6 @@
         "AboutMe": {
           "Title": "关于我"
         },
-        "SocialLinks": {
-          "Title": "社交链接",
-          "None": "没有社交链接。",
-          "OpenConfirmation": {
-            "Description": "此社交链接指向：\n{0}\n\n你确定要打开吗？"
-          }
-        },
         "Favorites": {
           "Title": "最爱",
           "None": "没有最爱。"
@@ -2643,19 +2634,6 @@
           "Title": "个人资料",
           "Description": "关于你自己的一段简短介绍。",
           "Placeholder": "输入自我介绍…"
-        }
-      },
-      "AddSocialLink": {
-        "Title": "添加社交链接",
-        "SocialLinkTitle": {
-          "Title": "标题",
-          "Description": "标题。",
-          "Placeholder": "输入社交链接标题…"
-        },
-        "SocialLinkAddress": {
-          "Title": "地址",
-          "Description": "一个指向目标的 Web URL（https:// 开头）。",
-          "Placeholder": "输入社交链接地址…"
         }
       },
       "AddFavorite": {
@@ -2707,6 +2685,9 @@
         "Confirmation": "你确定要提交“{0}”吗?"
       },
       "Configuration": {
+        "Tip": {
+          "Message": "该设置界面仅包含针对于该服务器的选项。\n\n如需修改如音符流速等引擎或关卡相关选项，您可以在选择关卡后的配置界面中找到。"
+        },
         "Options": {
           "Title": "选项",
           "AutoLogin": {
@@ -2948,6 +2929,12 @@
         },
         "Level": {
           "Play": {
+            "TutorialTip": {
+              "Message": "这是您第一次游玩该引擎，您希望查看引擎教程吗？"
+            },
+            "ConfigurationTip": {
+              "Message": "这是您第一次游玩该引擎，您希望配置如音符流速等的选项吗？"
+            },
             "Effect": {
               "Audio": {
                 "Loading": "正在解码音效音频…",
@@ -3550,6 +3537,9 @@
             },
             "Description": "{0} 正在准备，{1} 已准备好，{2} 已跳过...",
             "Actions": {
+              "ConfigurationTip": {
+                "Message": "这是您第一次游玩该引擎，您希望配置如音符流速等的选项吗？"
+              },
               "Configuration": "配置",
               "Ready": "准备",
               "Skip": "跳过",
@@ -3671,6 +3661,9 @@
     },
     "Settings": {
       "Title": "设置",
+      "Tip": {
+        "Message": "该设置界面仅包含 Sonolus 应用相关选项。\n\n如需修改如音符流速等引擎或关卡相关选项，您可以在进入服务器并选择关卡后的配置界面中找到。"
+      },
       "Graphics": {
         "Title": "图像",
         "TargetFps": {
@@ -3787,6 +3780,10 @@
         "OverwriteReplayOptions": {
           "Title": "覆盖回放选项",
           "Description": "观看回放时用您自己的选项覆盖回放内的选项。"
+        },
+        "TouchAbnormalityDetection": {
+          "Title": "触摸异常检测",
+          "Description": "建议设置为开启。\n\n在游戏进行时检测异常触摸。"
         }
       },
       "UI": {
@@ -4018,6 +4015,9 @@
             }
           },
           "Result": {
+            "TouchAbnormality": {
+              "Description": "游戏进行时共有 {0} 项异常触摸被检测到。这通常是由如手势，触摸优化以及通知等的系统特性导致的，并可能导致判定错误。\n\n为了确保您有最好的游戏体验，建议通过调整相关系统设置解决这些问题。"
+            },
             "Options": {
               "HasUsedPause": "暂停",
               "HasUsedSnapshot": "快照"
