@@ -517,7 +517,7 @@
     "#STARRED": "Étoilé"
   },
   "Common": {
-    "Separator":",",
+    "Separator": ",",
     "Loading": "Chargement…",
     "Help": "Aide",
     "More": "Plus",
@@ -534,6 +534,10 @@
     "Cancel": "Annuler",
     "Confirm": "Confirmer",
     "Retry": "Recommencer",
+    "Ok": "Ok",
+    "Tip": {
+      "Title": "Astuce"
+    },
     "Error": {
       "Title": "Erreur"
     },
@@ -545,6 +549,7 @@
     "Import": "Importer",
     "Search": "Chercher",
     "PullToRefresh": "Glisser pour Actualiser",
+    "PullTip": "Astuce: glissez pour afficher plus",
     "Save": "Sauvegarder",
     "Share": "Partager",
     "Export": "Exporter",
@@ -787,13 +792,6 @@
         "Error": "Échec de la modification du \"À Propos\".\n\nVeuillez vérifier si votre \"À Propos\" est légal et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
         "Success": {
           "Title": "À Propos Modifié"
-        }
-      },
-      "EditSocialLinks": {
-        "Loading": "Modification des liens sociaux…",
-        "Error": "Échec de la modification des liens sociaux.\n\nVeuillez vérifier si vos liens sociaux sont légaux et dans la limite de longueur, ou vérifiez votre connexion Internet et réessayez.",
-        "Success": {
-          "Title": "Liens Sociaux Modifiés"
         }
       },
       "EditFavorites": {
@@ -2606,13 +2604,6 @@
         "AboutMe": {
           "Title": "À Propos de Moi"
         },
-        "SocialLinks": {
-          "Title": "Liens Sociaux",
-          "None": "Aucun lien social.",
-          "OpenConfirmation": {
-            "Description": "Ce lien social va à :\n{0}\n\nÊtes-vous sûr de visiter?"
-          }
-        },
         "Favorites": {
           "Title": "Favoris",
           "None": "Pas de favoris."
@@ -2643,19 +2634,6 @@
           "Title": "À Propos de Moi",
           "Description": "Une courte description de vous-même.",
           "Placeholder": "Entrez votre \"À Propos de Moi\"…"
-        }
-      },
-      "AddSocialLink": {
-        "Title": "Ajouter un Lien Social",
-        "SocialLinkTitle": {
-          "Title": "Titre",
-          "Description": "Titre.",
-          "Placeholder": "Saisissez le titre du lien social…"
-        },
-        "SocialLinkAddress": {
-          "Title": "Adresse",
-          "Description": "Une URL Web (\"https://…\") vers laquelle établir un lien.",
-          "Placeholder": "Entrez l'adresse du lien social…"
         }
       },
       "AddFavorite": {
@@ -2707,6 +2685,9 @@
         "Confirmation": "Êtes-vous sûr de envoyer \"{0}\" ?"
       },
       "Configuration": {
+        "Tip": {
+          "Message": "Configuration contient les options de ce serveur.\n\nPour les options spécifiques au moteur ou au niveau comme la vitesse des notes, vous les trouverez dans Configuration après avoir sélectionné un niveau."
+        },
         "Options": {
           "Title": "Options",
           "AutoLogin": {
@@ -2948,6 +2929,12 @@
         },
         "Level": {
           "Play": {
+            "TutorialTip": {
+              "Message": "C'est la première fois que vous jouez avec ce moteur, souhaitez-vous voir son tutoriel ?"
+            },
+            "ConfigurationTip": {
+              "Message": "C'est la première fois que vous jouez avec ce moteur, souhaitez-vous configurer ses options telles que la vitesse des notes ?"
+            },
             "Effect": {
               "Audio": {
                 "Loading": "Décodage audio de l'effet sonore…",
@@ -3146,7 +3133,8 @@
             "Title": "Image",
             "Blur": {
               "Title": "Flou",
-              "Description": "Floue l'image de l'arrière-plan pour réduire la distraction."},
+              "Description": "Floue l'image de l'arrière-plan pour réduire la distraction."
+            },
             "Mask": {
               "Title": "Masque",
               "Description": "Le masque peut être utilisé pour assombrir ou coloriser l'image de l'arrière-plan."
@@ -3549,6 +3537,9 @@
             },
             "Description": "{0} en préparation, {1} prêts, {2} ont passé…",
             "Actions": {
+              "ConfigurationTip": {
+                "Message": "C'est la première fois que vous jouez avec ce moteur, souhaitez-vous configurer ses options telles que la vitesse des notes ?"
+              },
               "Configuration": "Configuration",
               "Ready": "Prêt",
               "Skip": "Passer",
@@ -3670,6 +3661,9 @@
     },
     "Settings": {
       "Title": "Réglages",
+      "Tip": {
+        "Message": "Les paramètres contiennent les options générales de l'appli Sonolus.\n\nPour les options spécifiques au moteur ou au niveau, comme la vitesse des notes, vous les trouverez dans la section Configuration après avoir accédé à un serveur et sélectionné un niveau."
+      },
       "Graphics": {
         "Title": "Graphics",
         "TargetFps": {
@@ -3786,6 +3780,10 @@
         "OverwriteReplayOptions": {
           "Title": "Écraser les Options du Replay",
           "Description": "Remplacez les options du replay par les vôtres lorsque vous regardez un replay."
+        },
+        "TouchAbnormalityDetection": {
+          "Title": "Détection d'Anomalie Tactile",
+          "Description": "Activation recommandée.\n\nDétecte les anomalies tactiles pendant le jeu."
         }
       },
       "UI": {
@@ -4017,6 +4015,9 @@
             }
           },
           "Result": {
+            "TouchAbnormality": {
+              "Description": "{0} anomalies tactiles ont été détectées pendant le jeu. Ce problème est généralement dû à des fonctionnalités système telles que les gestes, l'optimisation tactile ou les notifications, et peut entraîner des problèmes de jugement.\n\nPour une expérience de jeu optimale, il est recommandé de résoudre ce problème en modifiant les paramètres système concernés."
+            },
             "Options": {
               "HasUsedPause": "Pause Utilisée",
               "HasUsedSnapshot": "Capture d'État Utilisée"
