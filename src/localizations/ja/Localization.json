@@ -534,6 +534,10 @@
     "Cancel": "キャンセル",
     "Confirm": "確認",
     "Retry": "リトライ",
+    "Ok": "OK",
+    "Tip": {
+      "Title": "ヒント"
+    },
     "Error": {
       "Title": "エラー"
     },
@@ -545,6 +549,7 @@
     "Import": "インポート",
     "Search": "検索",
     "PullToRefresh": "離すと更新",
+    "PullTip": "ヒント：引き下げると更新します",
     "Save": "保存",
     "Share": "共有",
     "Export": "エクスポート",
@@ -787,13 +792,6 @@
         "Error": "プロフィールの変更に失敗しました。\n\n他のプロフィールを指定するか、インターネット接続を確認してからもう一度お試しください。",
         "Success": {
           "Title": "プロフィールを変更しました"
-        }
-      },
-      "EditSocialLinks": {
-        "Loading": "SNSリンクを変更中...",
-        "Error": "SNSリンクの編集に失敗しました。\n\nリンクの長さとインターネット接続を確認してください。",
-        "Success": {
-          "Title": "ソーシャルリンクを変更しました"
         }
       },
       "EditFavorites": {
@@ -2606,13 +2604,6 @@
         "AboutMe": {
           "Title": "自己紹介"
         },
-        "SocialLinks": {
-          "Title": "ソーシャルリンク",
-          "None": "ソーシャルリンクはありません。",
-          "OpenConfirmation": {
-            "Description": "リンク先：{0}\n\n\nリンクを開きますか？"
-          }
-        },
         "Favorites": {
           "Title": "お気に入り",
           "None": "お気に入りはありません。"
@@ -2643,19 +2634,6 @@
           "Title": "自己紹介",
           "Description": "簡単な自己紹介。",
           "Placeholder": "..."
-        }
-      },
-      "AddSocialLink": {
-        "Title": "ソーシャルリンクの追加",
-        "SocialLinkTitle": {
-          "Title": "ラベル",
-          "Description": "タイトル。",
-          "Placeholder": "例：Twitter"
-        },
-        "SocialLinkAddress": {
-          "Title": "URL",
-          "Description": "https:// から始まるURL。",
-          "Placeholder": "例：https://twitter.com/sevenc_nanashi"
         }
       },
       "AddFavorite": {
@@ -2707,6 +2685,9 @@
         "Confirmation": "本当に \"{0}\" を送信しますか？"
       },
       "Configuration": {
+        "Tip": {
+          "Message": "これはサーバーに関する設定です。\n\nエンジンやレベル固有のオプション（ノーツ速度など）は、レベルを選択した後に設定で見つけることができます。"
+        },
         "Options": {
           "Title": "設定",
           "AutoLogin": {
@@ -2948,6 +2929,12 @@
         },
         "Level": {
           "Play": {
+            "TutorialTip": {
+              "Message": "このエンジンで初めてプレイするようです。チュートリアルを表示しますか？"
+            },
+            "ConfigurationTip": {
+              "Message": "このエンジンで初めてプレイするようです。設定を表示しますか？（ノーツ速度などが設定できます）"
+            },
             "Effect": {
               "Audio": {
                 "Loading": "効果音をデコード中...",
@@ -3550,6 +3537,9 @@
             },
             "Description": "準備中：{0} / 準備完了：{1} / パス：{2}",
             "Actions": {
+              "ConfigurationTip": {
+                "Message": "このエンジンで初めてプレイするようです。設定を表示しますか？（ノーツ速度などが設定できます）"
+              },
               "Configuration": "設定",
               "Ready": "準備完了",
               "Skip": "パス",
@@ -3671,6 +3661,9 @@
     },
     "Settings": {
       "Title": "設定",
+      "Tip": {
+        "Message": "これはSonolusアプリ自体の設定です。\n\nエンジン・レベル固有の設定（ノーツ速度など）は、サーバーに入ってレベルを選択した後の設定から行えます。"
+      },
       "Graphics": {
         "Title": "グラフィック",
         "TargetFps": {
@@ -3787,6 +3780,10 @@
         "OverwriteReplayOptions": {
           "Title": "リプレイ：オプションを上書きする",
           "Description": "リプレイを再生する際にオプションを上書きします。"
+        },
+        "TouchAbnormalityDetection": {
+          "Title": "タッチの異常検知",
+          "Description": "推奨：オン\n\nゲーム中のタッチの異常を検知します。"
         }
       },
       "UI": {
@@ -4018,6 +4015,9 @@
             }
           },
           "Result": {
+            "TouchAbnormality": {
+              "Description": "タッチの異常が {0} 件検出されました。これは、ジェスチャー、タッチ最適化、通知などのシステム機能が原因であることが多く、判定に影響を与える可能性があります。\n\nゲームプレイの体験を向上させるために、関連するシステム設定を調整してこの問題を解決することをお勧めします。"
+            },
             "Options": {
               "HasUsedPause": "一時停止使用",
               "HasUsedSnapshot": "区間練習使用"
