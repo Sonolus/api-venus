@@ -534,6 +534,10 @@
     "Cancel": "Batal",
     "Confirm": "Konfirmasi",
     "Retry": "Ulang",
+    "Ok": "Oke",
+    "Tip": {
+      "Title": "Tip"
+    },
     "Error": {
       "Title": "Error"
     },
@@ -545,6 +549,7 @@
     "Import": "Impor",
     "Search": "Cari",
     "PullToRefresh": "Tarik untuk menyegarkan",
+    "PullTip": "Tip: tarik untuk lebih banyak",
     "Save": "Simpan",
     "Share": "Bagikan",
     "Export": "Ekspor",
@@ -787,13 +792,6 @@
         "Error": "Gagal mengedit tentang saya.\n\nSilakan periksa apakah \"Tentang Saya\" Anda legal dan dalam batas panjang, atau periksa koneksi internet Anda dan coba lagi.",
         "Success": {
           "Title": "Tentang Saya Diedit"
-        }
-      },
-      "EditSocialLinks": {
-        "Loading": "Mengedit media sosial...",
-        "Error": "Gagal mengedit media sosial.\n\nSilakan periksa apakah media sosial Anda legal dan dalam batas panjang, atau periksa koneksi internet Anda dan coba lagi.",
-        "Success": {
-          "Title": "Media Sosial Diedit"
         }
       },
       "EditFavorites": {
@@ -2606,13 +2604,6 @@
         "AboutMe": {
           "Title": "Tentang Saya"
         },
-        "SocialLinks": {
-          "Title": "Media Sosial",
-          "None": "Tidak ada media sosial.",
-          "OpenConfirmation": {
-            "Description": "Media sosial ini menuju ke:\n{0}\n\nApakah Anda yakin untuk melihat?"
-          }
-        },
         "Favorites": {
           "Title": "Favorit",
           "None": "Tidak ada favorit"
@@ -2643,19 +2634,6 @@
           "Title": "Tentang Saya",
           "Description": "Deskripsi singkat tentang diri Anda.",
           "Placeholder": "Masukkan tentang saya..."
-        }
-      },
-      "AddSocialLink": {
-        "Title": "Tambah Media Sosial",
-        "SocialLinkTitle": {
-          "Title": "Judul",
-          "Description": "Judul.",
-          "Placeholder": "Masukkan judul media sosial..."
-        },
-        "SocialLinkAddress": {
-          "Title": "Link Media Sosial",
-          "Description": "URL web (\"https://...\") untuk ditautkan.",
-          "Placeholder": "Masukkan link media sosial..."
         }
       },
       "AddFavorite": {
@@ -2707,6 +2685,9 @@
         "Confirmation": "Apakah Anda yakin untuk mengirim \"{0}\"?"
       },
       "Configuration": {
+        "Tip": {
+          "Message": "Konfigurasi berisi opsi untuk server ini.\n\nUntuk opsi khusus mesin dan level seperti kecepatan note, Anda dapat menemukannya di Konfigurasi setelah memilih level."
+        },
         "Options": {
           "Title": "Opsi",
           "AutoLogin": {
@@ -2948,6 +2929,12 @@
         },
         "Level": {
           "Play": {
+            "TutorialTip": {
+              "Message": "Ini pertama kalinya Anda memainkan mesin ini, apakah Anda ingin melihat tutorialnya?"
+            },
+            "ConfigurationTip": {
+              "Message": "Ini adalah pertama kalinya Anda memainkan mesin ini, apakah Anda ingin mengonfigurasi opsinya seperti kecepatan note?"
+            },
             "Effect": {
               "Audio": {
                 "Loading": "Decoding audio SFX...",
@@ -3550,6 +3537,9 @@
             },
             "Description": "{0} bersiap, {1} siap, {2} skip...",
             "Actions": {
+              "ConfigurationTip": {
+                "Message": "Ini adalah pertama kalinya Anda memainkan mesin ini, apakah Anda ingin mengonfigurasi opsinya seperti kecepatan note?"
+              },
               "Configuration": "Konfigurasi",
               "Ready": "Siap",
               "Skip": "Skip",
@@ -3671,6 +3661,9 @@
     },
     "Settings": {
       "Title": "Pengaturan",
+      "Tip": {
+        "Message": "Pengaturan berisi opsi umum untuk aplikasi Sonolus.\n\nUntuk opsi khusus mesin dan level seperti kecepatan note, Anda dapat menemukannya di Konfigurasi setelah memasuki server dan memilih level."
+      },
       "Graphics": {
         "Title": "Grafik",
         "TargetFps": {
@@ -3787,6 +3780,10 @@
         "OverwriteReplayOptions": {
           "Title": "Opsi Overwrite Replay",
           "Description": "Opsi overwrite dengan opsi Anda sendiri saat menonton replay."
+        },
+        "TouchAbnormalityDetection": {
+          "Title": "Deteksi Kelainan Sentuhan",
+          "Description": "Disarankan untuk mengaktifkannya.\n\nMendeteksi ketidaknormalan sentuhan selama bermain game."
         }
       },
       "UI": {
@@ -4018,6 +4015,9 @@
             }
           },
           "Result": {
+            "TouchAbnormality": {
+              "Description": "Terdapat {0} kelainan sentuhan yang terdeteksi selama permainan. Hal ini umumnya disebabkan oleh fitur sistem seperti gestur, pengoptimalan sentuhan, dan notifikasi, serta dapat menyebabkan masalah penilaian.\n\nUntuk memastikan Anda memiliki pengalaman permainan terbaik, sebaiknya atasi masalah ini dengan menyesuaikan pengaturan sistem yang relevan."
+            },
             "Options": {
               "HasUsedPause": "Jeda",
               "HasUsedSnapshot": "Snapshot"
