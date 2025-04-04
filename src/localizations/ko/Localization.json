@@ -282,7 +282,7 @@
     "#REGION_PLACEHOLDER": "지역 입력...",
     "#CONTENT_PLACEHOLDER": "콘텐츠 입력...",
     "#COMMENT_PLACEHOLDER": "댓글 입력...",
-    "#REVIEW_PLACEHOLDER": "리뷰 입력...",
+    "#REVIEW_PLACEHOLDER": "검토 입력...",
     "#REPLY_PLACEHOLDER": "답글 입력...",
     "#MESSAGE_PLACEHOLDER": "메시지 입력...",
     "#ROLE_PLACEHOLDER": "역할 입력...",
@@ -435,9 +435,9 @@
     "#TEAM_BLACK": "검정 팀",
     "#REPLY": "답글",
     "#REPLIED": "답장됨",
-    "#REVIEW": "리뷰",
-    "#REVIEWING": "리뷰 중",
-    "#REVIEWED": "리뷰됨",
+    "#REVIEW": "검토",
+    "#REVIEWING": "검토 중",
+    "#REVIEWED": "검토됨",
     "#VERIFY": "인증",
     "#VERIFYING": "인증 중",
     "#VERIFIED": "인증됨",
@@ -534,6 +534,10 @@
     "Cancel": "취소",
     "Confirm": "확인",
     "Retry": "재시도",
+    "Ok": "확인",
+    "Tip": {
+      "Title": "팁"
+    },
     "Error": {
       "Title": "오류"
     },
@@ -545,6 +549,7 @@
     "Import": "불러오기",
     "Search": "검색",
     "PullToRefresh": "당겨서 새로고침",
+    "PullTip": "팁: 당겨서 더보기",
     "Save": "저장",
     "Share": "공유",
     "Export": "내보내기",
@@ -787,13 +792,6 @@
         "Error": "내 소개를 수정할 수 없습니다.\n\n내 소개가 규정 및 길이 제한을 준수하는지 확인하거나 인터넷 연결을 확인 후 재시도해 주십시오.",
         "Success": {
           "Title": "내 소개 수정됨"
-        }
-      },
-      "EditSocialLinks": {
-        "Loading": "SNS 링크를 수정하는 중...",
-        "Error": "SNS 링크를 수정할 수 없습니다.\n\nSNS 링크가 규정 및 길이 제한을 준수하는지 확인하거나 인터넷 연결을 확인 후 재시도해 주십시오.",
-        "Success": {
-          "Title": "SNS 링크 수정됨"
         }
       },
       "EditFavorites": {
@@ -2606,13 +2604,6 @@
         "AboutMe": {
           "Title": "내 소개"
         },
-        "SocialLinks": {
-          "Title": "SNS 링크",
-          "None": "SNS 링크가 없습니다.",
-          "OpenConfirmation": {
-            "Description": "이 SNS 링크는 {0}(으)로 연결됩니다.\n\n계속 방문하시겠습니까?"
-          }
-        },
         "Favorites": {
           "Title": "즐겨찾기",
           "None": "즐겨찾기가 없습니다."
@@ -2643,19 +2634,6 @@
           "Title": "내 소개",
           "Description": "자신에 대한 간단한 설명입니다.",
           "Placeholder": "내 소개 입력..."
-        }
-      },
-      "AddSocialLink": {
-        "Title": "SNS 링크 추가",
-        "SocialLinkTitle": {
-          "Title": "이름",
-          "Description": "이름.",
-          "Placeholder": "SNS 링크 이름 입력..."
-        },
-        "SocialLinkAddress": {
-          "Title": "주소",
-          "Description": "링크할 웹 URL (\"https://...\").",
-          "Placeholder": "SNS 링크 주소 입력..."
         }
       },
       "AddFavorite": {
@@ -2707,6 +2685,9 @@
         "Confirmation": "정말 \"{0}\" 항목을 제출하시겠습니까?"
       },
       "Configuration": {
+        "Tip": {
+          "Message": "구성은 이 서버에 대한 옵션을 포함합니다.\n\n엔진 및 노트 속도 같은 특정 레벨에 적용되는 옵션의 경우, 레벨을 선택 후  구성을 눌러 찾을 수 있습니다."
+        },
         "Options": {
           "Title": "옵션",
           "AutoLogin": {
@@ -2948,6 +2929,12 @@
         },
         "Level": {
           "Play": {
+            "TutorialTip": {
+              "Message": "이 엔진을 처음 플레이하시는 것 같습니다. 튜토리얼을 시작하시겠습니까?"
+            },
+            "ConfigurationTip": {
+              "Message": "이 엔진을 처음 플레이하시는 것 같습니다. 노트 속도와 같은 옵션을 구성하시겠습니까?"
+            },
             "Effect": {
               "Audio": {
                 "Loading": "효과음 오디오 디코딩 중...",
@@ -3550,6 +3537,9 @@
             },
             "Description": "{0}명 준비 중, {1}명 준비됨, {2}명 건너뜀...",
             "Actions": {
+              "ConfigurationTip": {
+                "Message": "이 엔진을 처음 플레이하시는 것 같습니다. 노트 속도와 같은 옵션을 구성하시겠습니까?"
+              },
               "Configuration": "구성",
               "Ready": "준비",
               "Skip": "건너뛰기",
@@ -3671,6 +3661,9 @@
     },
     "Settings": {
       "Title": "설정",
+      "Tip": {
+        "Message": "설정은 Sonolus 앱의 일반적인 옵션을 포함합니다.\n\n엔진 및 노트 속도 같은 특정 레벨에 적용되는 옵션의 경우, 서버에 접속하고 레벨을 선택 후 구성을 눌러 찾을 수 있습니다."
+      },
       "Graphics": {
         "Title": "그래픽",
         "TargetFps": {
@@ -3787,6 +3780,10 @@
         "OverwriteReplayOptions": {
           "Title": "다시보기 옵션 덮어쓰기",
           "Description": "다시보기 옵션을 현재 옵션으로 덮어 씁니다."
+        },
+        "TouchAbnormalityDetection": {
+          "Title": "비정상적 터치 감지",
+          "Description": "켜는 것을 권장합니다.\n\n게임플레이 중 터치 이상을 감지합니다."
         }
       },
       "UI": {
@@ -4018,6 +4015,9 @@
             }
           },
           "Result": {
+            "TouchAbnormality": {
+              "Description": "게임플레이 중에 {0}개의 터치 이상이 감지되었습니다. 이는 일반적으로 제스처, 터치 최적화, 알림과 같은 시스템 기능으로 인해 발생하며 판정 문제를 일으킬 수 있습니다.\n\n최상의 게임플레이 환경을 위해 관련 시스템 설정을 조정하여 이 문제를 해결하는 것이 좋습니다."
+            },
             "Options": {
               "HasUsedPause": "일시정지",
               "HasUsedSnapshot": "스냅샷"
