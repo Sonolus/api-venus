@@ -534,6 +534,10 @@
     "Cancel": "Cancelar",
     "Confirm": "Confirmar",
     "Retry": "Reintentar",
+    "Ok": "Ok",
+    "Tip": {
+      "Title": "Consejo"
+    },
     "Error": {
       "Title": "Error"
     },
@@ -545,6 +549,7 @@
     "Import": "Importar",
     "Search": "Buscar",
     "PullToRefresh": "Arrastre para actualizar",
+    "PullTip": "Consejo: arrastra para ver más",
     "Save": "Guardar",
     "Share": "Compartir",
     "Export": "Exportar",
@@ -787,13 +792,6 @@
         "Error": "Error al editar \"acerca de mí\".\n\nComprueba que tu \"acerca de mí\" esté permitido y dentro del límite de longitud, o comprueba tu conexión a internet e inténtalo de nuevo.",
         "Success": {
           "Title": "\"Acerca de mí\" editado"
-        }
-      },
-      "EditSocialLinks": {
-        "Loading": "Editando enlaces sociales...",
-        "Error": "Error al editar enlaces sociales.\n\nComprueba que tus enlaces sociales estén permitidos y dentro del límite de longitud, o revisa tu conexión a internet e inténtalo de nuevo.",
-        "Success": {
-          "Title": "Enlaces sociales editados"
         }
       },
       "EditFavorites": {
@@ -2606,13 +2604,6 @@
         "AboutMe": {
           "Title": "Acerca de mí"
         },
-        "SocialLinks": {
-          "Title": "Enlaces sociales",
-          "None": "Sin enlaces sociales.",
-          "OpenConfirmation": {
-            "Description": "Este enlace social va a:\n{0}\n\n¿Estás seguro de visitarlo?"
-          }
-        },
         "Favorites": {
           "Title": "Favoritos",
           "None": "Sin favoritos."
@@ -2643,19 +2634,6 @@
           "Title": "Acerca de mí",
           "Description": "Una pequeña descripción acerca de ti.",
           "Placeholder": "Introduce tu \"acerca de mí\"..."
-        }
-      },
-      "AddSocialLink": {
-        "Title": "Añadir enlace social",
-        "SocialLinkTitle": {
-          "Title": "Título",
-          "Description": "Título.",
-          "Placeholder": "Ingresar el título del enlace social..."
-        },
-        "SocialLinkAddress": {
-          "Title": "Dirección",
-          "Description": "Una URL web (\"https://...\") para vincular.",
-          "Placeholder": "Ingresa la dirección del enlace social..."
         }
       },
       "AddFavorite": {
@@ -2707,6 +2685,9 @@
         "Confirmation": "¿Estás seguro de enviar \"{0}\"?"
       },
       "Configuration": {
+        "Tip": {
+          "Message": "La configuración incluye opciones para este servidor.\n\nLas opciones específicas del motor y del nivel, como la velocidad de las notas, se encuentran en Configuración después de seleccionar un nivel."
+        },
         "Options": {
           "Title": "Opciones",
           "AutoLogin": {
@@ -2948,6 +2929,12 @@
         },
         "Level": {
           "Play": {
+            "TutorialTip": {
+              "Message": "Esta es tu primera vez jugando con este motor, ¿te gustaría ver su tutorial?"
+            },
+            "ConfigurationTip": {
+              "Message": "Esta es tu primera vez jugando con este motor, ¿te gustaría configurar opciones como la velocidad de las notas?"
+            },
             "Effect": {
               "Audio": {
                 "Loading": "Decodificando audio de efectos de sonido...",
@@ -3550,6 +3537,9 @@
             },
             "Description": "{0} preparando, {1} listo, {2} omitido...",
             "Actions": {
+              "ConfigurationTip": {
+                "Message": "Esta es tu primera vez jugando con este motor, ¿te gustaría configurar opciones como la velocidad de las notas?"
+              },
               "Configuration": "Configuración",
               "Ready": "Listo",
               "Skip": "Omitir",
@@ -3671,6 +3661,9 @@
     },
     "Settings": {
       "Title": "Opciones",
+      "Tip": {
+        "Message": "La configuración contiene opciones generales para la aplicación Sonolus.\n\nPara opciones específicas del motor y del nivel, como la velocidad de las notas, puedes encontrarlas en Configuración tras acceder a un servidor y seleccionar un nivel."
+      },
       "Graphics": {
         "Title": "Gráficos",
         "TargetFps": {
@@ -3787,6 +3780,10 @@
         "OverwriteReplayOptions": {
           "Title": "Sobrescribir opciones de repetición",
           "Description": "Sobrescribe las opciones con las tuyas cuando veas la repetición."
+        },
+        "TouchAbnormalityDetection": {
+          "Title": "Detección de anomalías táctiles",
+          "Description": "Se recomienda activar.\n\nDetecta anomalías táctiles durante el juego."
         }
       },
       "UI": {
@@ -4018,6 +4015,9 @@
             }
           },
           "Result": {
+            "TouchAbnormality": {
+              "Description": "Se detectaron {0} anomalías táctiles durante el juego. Esto suele deberse a funciones del sistema como los gestos, la optimización táctil y las notificaciones, y puede causar problemas de criterio.\n\nPara garantizar la mejor experiencia de juego, se recomienda solucionar este problema ajustando la configuración del sistema."
+            },
             "Options": {
               "HasUsedPause": "Pausa",
               "HasUsedSnapshot": "Snapshot"
