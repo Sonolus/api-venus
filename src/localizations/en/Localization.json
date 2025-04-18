@@ -2291,46 +2291,8 @@
                 "Description": "Select a custom server or collection to start playing."
             },
             "ToSave": {
-                "Post": {
-                    "Title": "Save Post",
-                    "Description": "Select a collection to save this post to."
-                },
-                "Playlist": {
-                    "Title": "Save Playlist",
-                    "Description": "Select a collection to save this playlist to."
-                },
-                "Level": {
-                    "Title": "Save Level",
-                    "Description": "Select a collection to save this level to."
-                },
-                "Skin": {
-                    "Title": "Save Skin",
-                    "Description": "Select a collection to save this skin to."
-                },
-                "Background": {
-                    "Title": "Save Background",
-                    "Description": "Select a collection to save this background to."
-                },
-                "Effect": {
-                    "Title": "Save Effect",
-                    "Description": "Select a collection to save this effect to."
-                },
-                "Particle": {
-                    "Title": "Save Particle",
-                    "Description": "Select a collection to save this particle to."
-                },
-                "Engine": {
-                    "Title": "Save Engine",
-                    "Description": "Select a collection to save this engine to."
-                },
-                "Replay": {
-                    "Title": "Save Replay",
-                    "Description": "Select a collection to save this replay to."
-                },
-                "Room": {
-                    "Title": "Save Room",
-                    "Description": "Select a collection to save this room to."
-                }
+                "Title": "Save Favorites",
+                "Description": "Select a collection to save favorites to."
             },
             "ToCreate": {
                 "Post": {
@@ -2449,6 +2411,15 @@
                 "Title": "Name",
                 "Description": "You can name it however you like.",
                 "Placeholder": "Enter collection name..."
+            },
+            "Description": {
+                "Title": "Description",
+                "Description": "Optional description for the collection.",
+                "Placeholder": "Enter collection description..."
+            },
+            "Banner": {
+                "Title": "Banner",
+                "Description": "Optional banner for the collection."
             }
         },
         "ImportScp": {
@@ -3303,6 +3274,38 @@
                     "Title": "Resource Exported"
                 }
             },
+            "SaveInfos": {
+                "Post": {
+                    "Title": "Save Post"
+                },
+                "Playlist": {
+                    "Title": "Save Playlist"
+                },
+                "Level": {
+                    "Title": "Save Level"
+                },
+                "Skin": {
+                    "Title": "Save Skin"
+                },
+                "Background": {
+                    "Title": "Save Background"
+                },
+                "Effect": {
+                    "Title": "Save Effect"
+                },
+                "Particle": {
+                    "Title": "Save Particle"
+                },
+                "Engine": {
+                    "Title": "Save Engine"
+                },
+                "Replay": {
+                    "Title": "Save Replay"
+                },
+                "Room": {
+                    "Title": "Save Room"
+                }
+            },
             "Savers": {
                 "Post": {
                     "Success": {
@@ -3514,6 +3517,9 @@
                 "ExitConfirmation": {
                     "Description": "Are you sure to leave the room?"
                 },
+                "Tip": {
+                    "Message": "Tip: switch between tabs"
+                },
                 "Play": {
                     "Options": {
                         "Title": "Options"
@@ -3684,13 +3690,7 @@
                 },
                 "AntiAliasing": {
                     "Title": "Anti-Aliasing",
-                    "Description": "Recommend to use off.\n\nAnti-aliasing improves graphics by minimizing artifacts in particular around sprite edges, at the cost of worse performance.",
-                    "Options": {
-                        "Off": "Off",
-                        "TwoX": "2x",
-                        "FourX": "4x",
-                        "EightX": "8x"
-                    }
+                    "Description": "Recommend to use off.\n\nAnti-aliasing improves graphics by minimizing artifacts in particular around sprite edges, at the cost of worse performance."
                 },
                 "GpuParticleSystem": {
                     "Title": "GPU Particle System",
@@ -3754,6 +3754,11 @@
                     "Title": "Unpause Delay",
                     "Description": "Countdown delay when unpausing."
                 },
+                "FavoriteCollection": {
+                    "Title": "Favorite Collection",
+                    "Description": "Collection to save favorites to.\n\nIf no collection is selected, a default collection will be created automatically.",
+                    "DefaultName": "Favorites"
+                },
                 "MultiplayerPreload": {
                     "Title": "Multiplayer Preload",
                     "Description": "Recommend to turn on.\n\nIn multiplayer, start preloading once level has been confirmed to improve loading speed."
@@ -3772,6 +3777,15 @@
                     "Title": "Replay Description Template",
                     "Description": "Template for description when creating a replay.\n\nSpecial parameters are available and will be replaced with corresponding values.",
                     "Placeholder": "Enter description template..."
+                },
+                "ReplayCollection": {
+                    "Title": "Replay Collection",
+                    "Description": "Collection to save replays to.\n\nIf no collection is selected, a default collection will be created automatically.",
+                    "DefaultName": "Replays"
+                },
+                "AutoSubmitReplay": {
+                    "Title": "Auto Submit Replay",
+                    "Description": "Automatically submit replays to the server if supported."
                 },
                 "ShowReplayTouches": {
                     "Title": "Show Replay Touches",
