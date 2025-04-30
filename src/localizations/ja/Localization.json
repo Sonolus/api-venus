@@ -2291,46 +2291,8 @@
         "Description": "カスタム サーバーまたはコレクションを選択して開始します。"
       },
       "ToSave": {
-        "Post": {
-          "Title": "投稿の保存",
-          "Description": "この投稿を保存するコレクションを選択してください。"
-        },
-        "Playlist": {
-          "Title": "プレイリストの保存",
-          "Description": "このプレイリストを保存するコレクションを選択してください。"
-        },
-        "Level": {
-          "Title": "レベルの保存",
-          "Description": "このレベルを保存するコレクションを選択してください。"
-        },
-        "Skin": {
-          "Title": "スキンの保存",
-          "Description": "このスキンを保存するコレクションを選択してください。"
-        },
-        "Background": {
-          "Title": "背景の保存",
-          "Description": "この背景を保存するコレクションを選択してください。"
-        },
-        "Effect": {
-          "Title": "効果音の保存",
-          "Description": "この効果音を保存するコレクションを選択してください。"
-        },
-        "Particle": {
-          "Title": "パーティクルの保存",
-          "Description": "このパーティクルを保存するコレクションを選択してください。"
-        },
-        "Engine": {
-          "Title": "エンジンの保存",
-          "Description": "このエンジンを保存するコレクションを選択してください。"
-        },
-        "Replay": {
-          "Title": "リプレイの保存",
-          "Description": "このリプレイを保存するコレクションを選択してください。"
-        },
-        "Room": {
-          "Title": "部屋の保存",
-          "Description": "この部屋を保存するコレクションを選択してください。"
-        }
+        "Title": "お気に入りを保存",
+        "Description": "お気に入りを保存するコレクションを選択してください。"
       },
       "ToCreate": {
         "Post": {
@@ -2449,6 +2411,15 @@
         "Title": "名前",
         "Description": "名前は自由につけることが出来ます。",
         "Placeholder": "例：コレクションA"
+      },
+      "Description": {
+        "Title": "説明",
+        "Description": "説明は任意でつけることが出来ます。",
+        "Placeholder": "例：自分の作った譜面"
+      },
+      "Banner": {
+        "Title": "バナー",
+        "Description": "バナーは任意でつけることが出来ます。"
       }
     },
     "ImportScp": {
@@ -3303,6 +3274,38 @@
           "Title": "リソースを書き出しました"
         }
       },
+      "SaveInfos": {
+        "Post": {
+          "Title": "投稿を保存"
+        },
+        "Playlist": {
+          "Title": "プレイリストを保存"
+        },
+        "Level": {
+          "Title": "レベルを保存"
+        },
+        "Skin": {
+          "Title": "スキンを保存"
+        },
+        "Background": {
+          "Title": "背景を保存"
+        },
+        "Effect": {
+          "Title": "効果音を保存"
+        },
+        "Particle": {
+          "Title": "パーティクルを保存"
+        },
+        "Engine": {
+          "Title": "エンジンを保存"
+        },
+        "Replay": {
+          "Title": "リプレイを保存"
+        },
+        "Room": {
+          "Title": "部屋を保存"
+        }
+      },
       "Savers": {
         "Post": {
           "Success": {
@@ -3514,6 +3517,9 @@
         "ExitConfirmation": {
           "Description": "部屋を退出してもよろしいですか？"
         },
+        "Tip": {
+          "Message": "左からタブを切り替えることが出来ます。"
+        },
         "Play": {
           "Options": {
             "Title": "設定"
@@ -3684,13 +3690,7 @@
         },
         "AntiAliasing": {
           "Title": "アンチエイリアス",
-          "Description": "推奨：オフ\n\nアンチエイリアスでスプライトの端のノイズを減らすことが出来ますが、パフォーマンスが低下します。",
-          "Options": {
-            "Off": "オフ",
-            "TwoX": "2倍",
-            "FourX": "4倍",
-            "EightX": "8倍"
-          }
+          "Description": "推奨：オフ\n\nアンチエイリアスでスプライトの端のノイズを減らすことが出来ますが、パフォーマンスが低下します。"
         },
         "GpuParticleSystem": {
           "Title": "GPUパーティクル",
@@ -3754,6 +3754,11 @@
           "Title": "一時停止解除時の猶予",
           "Description": "一時停止解除時の猶予時間。"
         },
+        "FavoriteCollection": {
+          "Title": "お気に入りコレクション",
+          "Description": "お気に入りを保存する先のコレクション。\n\nもしコレクションが選択されていない場合は、自動的にコレクションが作成されます。",
+          "DefaultName": "Favorites"
+        },
         "MultiplayerPreload": {
           "Title": "マルチプレイ：事前読み込み",
           "Description": "推奨：オン\n\nマルチプレイ時、レベルが確定した時点で読み込みを開始します。"
@@ -3772,6 +3777,15 @@
           "Title": "リプレイ：説明のテンプレート",
           "Description": "リプレイを作成する際の説明のテンプレート。\n\n波括弧で囲まれた区間は対応する値に置き換えられます。",
           "Placeholder": "説明のテンプレートを入力..."
+        },
+        "ReplayCollection": {
+          "Title": "リプレイ：デフォルトのコレクション",
+          "Description": "リプレイを保存する先のコレクション。\n\nもしコレクションが選択されていない場合は、自動的にコレクションが作成されます。",
+          "DefaultName": "Replays"
+        },
+        "AutoSubmitReplay": {
+          "Title": "リプレイ：自動提出",
+          "Description": "サーバーがサポートしている場合、リプレイを自動的に提出します。"
         },
         "ShowReplayTouches": {
           "Title": "リプレイ：タッチ表示",
