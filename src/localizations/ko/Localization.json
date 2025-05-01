@@ -2291,46 +2291,8 @@
         "Description": "맞춤 서버 또는 모음집을 선택해서 플레이를 시작하십시오."
       },
       "ToSave": {
-        "Post": {
-          "Title": "게시물 저장",
-          "Description": "게시물을 저장할 모음집을 선택하십시오."
-        },
-        "Playlist": {
-          "Title": "재생목록 저장",
-          "Description": "재생목록을 저장할 모음집을 선택하십시오."
-        },
-        "Level": {
-          "Title": "레벨 저장",
-          "Description": "레벨을 저장할 모음집을 선택하십시오."
-        },
-        "Skin": {
-          "Title": "스킨 저장",
-          "Description": "스킨을 저장할 모음집을 선택하십시오."
-        },
-        "Background": {
-          "Title": "배경 저장",
-          "Description": "배경을 저장할 모음집을 선택하십시오."
-        },
-        "Effect": {
-          "Title": "효과음 저장",
-          "Description": "효과음을 저장할 모음집을 선택하십시오."
-        },
-        "Particle": {
-          "Title": "입자 저장",
-          "Description": "입자를 저장할 모음집을 선택하십시오."
-        },
-        "Engine": {
-          "Title": "엔진 저장",
-          "Description": "엔진을 저장할 모음집을 선택하십시오."
-        },
-        "Replay": {
-          "Title": "다시보기 저장",
-          "Description": "다시보기를 저장할 모음집을 선택하십시오."
-        },
-        "Room": {
-          "Title": "방 저장",
-          "Description": "방을 저장할 모음집을 선택하십시오."
-        }
+        "Title": "즐겨찾기 저장",
+        "Description": "즐겨찾기를 저장할 모음집을 선택하십시오."
       },
       "ToCreate": {
         "Post": {
@@ -2449,6 +2411,15 @@
         "Title": "이름",
         "Description": "원하는 이름을 작성할 수 있습니다.",
         "Placeholder": "모음집 이름 입력..."
+      },
+      "Description": {
+        "Title": "설명",
+        "Description": "모음집을 위한 선택적 설명입니다.",
+        "Placeholder": "모음집 설명 입력..."
+      },
+      "Banner": {
+        "Title": "배너",
+        "Description": "모음집을 위한 선택적 배너입니다."
       }
     },
     "ImportScp": {
@@ -3303,6 +3274,38 @@
           "Title": "자원 추출됨"
         }
       },
+      "SaveInfos": {
+        "Post": {
+          "Title": "게시물 저장"
+        },
+        "Playlist": {
+          "Title": "재생목록 저장"
+        },
+        "Level": {
+          "Title": "레벨 저장"
+        },
+        "Skin": {
+          "Title": "스킨 저장"
+        },
+        "Background": {
+          "Title": "배경 저장"
+        },
+        "Effect": {
+          "Title": "효과 저장"
+        },
+        "Particle": {
+          "Title": "입자 저장"
+        },
+        "Engine": {
+          "Title": "엔진 저장"
+        },
+        "Replay": {
+          "Title": "다시보기 저장"
+        },
+        "Room": {
+          "Title": "방 저장"
+        }
+      },
       "Savers": {
         "Post": {
           "Success": {
@@ -3514,6 +3517,9 @@
         "ExitConfirmation": {
           "Description": "정말 방에서 나가시겠습니까?"
         },
+        "Tip": {
+          "Message": "팁: 탭 간 전환이 가능합니다"
+        },
         "Play": {
           "Options": {
             "Title": "옵션"
@@ -3684,13 +3690,7 @@
         },
         "AntiAliasing": {
           "Title": "계단현상 방지",
-          "Description": "끄는 것을 권장합니다.\n\n계단현상 방지는 물체의 가장자리 주변의 각진 부분을 최소화하여 그래픽을 향상시키는 대신 성능이 저하됩니다.",
-          "Options": {
-            "Off": "끄기",
-            "TwoX": "2x",
-            "FourX": "4x",
-            "EightX": "8x"
-          }
+          "Description": "끄는 것을 권장합니다.\n\n계단현상 방지는 물체의 가장자리 주변의 각진 부분을 최소화하여 그래픽을 향상시키는 대신 성능이 저하됩니다."
         },
         "GpuParticleSystem": {
           "Title": "GPU 파티클 시스템",
@@ -3754,6 +3754,11 @@
           "Title": "일시정지 해제 지연",
           "Description": "일시정지 해제 시 카운트다운 지연입니다."
         },
+        "FavoriteCollection": {
+          "Title": "즐겨찾기 모음집",
+          "Description": "즐겨찾기를 저장할 모음집입니다.\n\n선택된 모음집이 없으면 기본 모음집이 자동으로 생성됩니다.",
+          "DefaultName": "즐겨찾기"
+        },
         "MultiplayerPreload": {
           "Title": "멀티플레이 미리 불러오기",
           "Description": "켜 두는 것을 추천합니다.\n\n멀티플레이에서 레벨이 확인되면 미리 불러오기를 통해 불러오기 속도를 향상시킵니다."
@@ -3772,6 +3777,15 @@
           "Title": "다시보기 설명 형식",
           "Description": "다시보기를 생성할 때의 설명 형식입니다.\n\n특정 값으로 대체되는 특수 매개변수를 사용할 수 있습니다.",
           "Placeholder": "설명 형식 입력..."
+        },
+        "ReplayCollection": {
+          "Title": "다시보기 모음집",
+          "Description": "다시보기를 저장할 모음집입니다.\n\n선택된 모음집이 없으면 기본 모음집이 자동으로 생성됩니다.",
+          "DefaultName": "다시보기"
+        },
+        "AutoSubmitReplay": {
+          "Title": "다시보기 자동 제출",
+          "Description": "서버가 지원할 경우 자동으로 다시보기를 제출합니다."
         },
         "ShowReplayTouches": {
           "Title": "다시보기 터치 표시",
