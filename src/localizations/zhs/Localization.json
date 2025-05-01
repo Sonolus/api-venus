@@ -2291,46 +2291,8 @@
         "Description": "选择一个自定义服务器或收藏来开始游玩。"
       },
       "ToSave": {
-        "Post": {
-          "Title": "保存帖子",
-          "Description": "选择一个收藏来保存这个帖子。"
-        },
-        "Playlist": {
-          "Title": "保存游玩列表",
-          "Description": "选择一个收藏来保存这个游玩列表。"
-        },
-        "Level": {
-          "Title": "保存关卡",
-          "Description": "选择一个收藏来保存这个关卡。"
-        },
-        "Skin": {
-          "Title": "选择皮肤",
-          "Description": "选择一个收藏来保存这个皮肤。"
-        },
-        "Background": {
-          "Title": "保存背景",
-          "Description": "选择一个收藏来保存这个背景。"
-        },
-        "Effect": {
-          "Title": "保存音效",
-          "Description": "选择一个收藏来保存这个音效。"
-        },
-        "Particle": {
-          "Title": "保存粒子效果",
-          "Description": "选择一个收藏来保存这个粒子效果。"
-        },
-        "Engine": {
-          "Title": "保存引擎",
-          "Description": "选择一个收藏来保存这个引擎。"
-        },
-        "Replay": {
-          "Title": "保存回放",
-          "Description": "选择一个收藏来保存该回放。"
-        },
-        "Room": {
-          "Title": "保存房间",
-          "Description": "选择一个收藏来保存这个房间。"
-        }
+        "Title": "保存最爱",
+        "Description": "选择一个收藏以保存最爱。"
       },
       "ToCreate": {
         "Post": {
@@ -2449,6 +2411,15 @@
         "Title": "名称",
         "Description": "你可以给它取任何你喜欢的名字。",
         "Placeholder": "输入收藏包名称..."
+      },
+      "Description": {
+        "Title": "描述",
+        "Description": "此收藏的可选描述。",
+        "Placeholder": "输入收藏描述..."
+      },
+      "Banner": {
+        "Title": "横幅",
+        "Description": "此收藏的可选横幅。"
       }
     },
     "ImportScp": {
@@ -3303,6 +3274,38 @@
           "Title": "资源已导出"
         }
       },
+      "SaveInfos": {
+        "Post": {
+          "Title": "保存帖子"
+        },
+        "Playlist": {
+          "Title": "保存游玩列表"
+        },
+        "Level": {
+          "Title": "保存关卡"
+        },
+        "Skin": {
+          "Title": "保存皮肤"
+        },
+        "Background": {
+          "Title": "保存背景"
+        },
+        "Effect": {
+          "Title": "保存音效"
+        },
+        "Particle": {
+          "Title": "保存粒子效果"
+        },
+        "Engine": {
+          "Title": "保存引擎"
+        },
+        "Replay": {
+          "Title": "保存回放"
+        },
+        "Room": {
+          "Title": "保存房间"
+        }
+      },
       "Savers": {
         "Post": {
           "Success": {
@@ -3514,6 +3517,9 @@
         "ExitConfirmation": {
           "Description": "您确定要离开房间吗？"
         },
+        "Tip": {
+          "Message": "提示: 您可以在选项卡之间切换"
+        },
         "Play": {
           "Options": {
             "Title": "选项"
@@ -3684,13 +3690,7 @@
         },
         "AntiAliasing": {
           "Title": "抗锯齿",
-          "Description": "建议设置为关闭。\n\n抗锯齿通过最大限度地减少锯齿（尤其是精灵边缘周围的锯齿）来改善图形，但代价是性能变差。",
-          "Options": {
-            "Off": "关",
-            "TwoX": "2x",
-            "FourX": "4x",
-            "EightX": "8x"
-          }
+          "Description": "建议设置为关闭。\n\n抗锯齿通过最大限度地减少锯齿（尤其是精灵边缘周围的锯齿）来改善图形，但代价是性能变差。"
         },
         "GpuParticleSystem": {
           "Title": "GPU 粒子系统",
@@ -3754,6 +3754,11 @@
           "Title": "取消暂停延迟",
           "Description": "取消暂停时的倒计时。"
         },
+        "FavoriteCollection": {
+          "Title": "最爱收藏",
+          "Description": "选择一个收藏以保存最爱。\n\n如果没有收藏被选中，将会自动创建一个默认收藏。",
+          "DefaultName": "最爱"
+        },
         "MultiplayerPreload": {
           "Title": "多人游戏预加载",
           "Description": "建议开启。\n\n在多人游戏中，一旦确认关卡就开始预加载，以提高加载速度。"
@@ -3772,6 +3777,15 @@
           "Title": "回放描述模板",
           "Description": "创建回放时的描述模板。\n\n有特殊参数可用，它们将被替换为相应的值。",
           "Placeholder": "输入描述模板..."
+        },
+        "ReplayCollection": {
+          "Title": "回放收藏",
+          "Description": "选择一个收藏以保存回放。\n\n如果没有收藏被选中，将会自动创建一个默认收藏。",
+          "DefaultName": "回放"
+        },
+        "AutoSubmitReplay": {
+          "Title": "自动提交回放",
+          "Description": "若支持，将会自动向服务器提交回放。"
         },
         "ShowReplayTouches": {
           "Title": "显示回放触摸点",
