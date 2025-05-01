@@ -18,7 +18,7 @@
     "#LEVEL": "Niveau",
     "#SKIN": "Skin",
     "#BACKGROUND": "Arrière-plan",
-    "#EFFECT": "Effect Sonore",
+    "#EFFECT": "Effet Sonore",
     "#PARTICLE": "Particule",
     "#ENGINE": "Moteur",
     "#REPLAY": "Replay",
@@ -766,10 +766,10 @@
         "Error": "Échec de la connexion.\n\nS'il vous plaît, vérifiez votre connexion à internet et réessayez.",
         "Success": {
           "New": {
-            "Title": "Inscrit !"
+            "Title": "Inscrit"
           },
           "Old": {
-            "Title": "Incrire"
+            "Title": "Connecté"
           }
         }
       },
@@ -2288,49 +2288,11 @@
     "Selects": {
       "ToPlay": {
         "Title": "Jouer",
-        "Description": "Sélectionnez un serveur personnalisé ou une collection pour commencer le."
+        "Description": "Sélectionnez un serveur ou une collection personnalisée pour commencer à jouer."
       },
       "ToSave": {
-        "Post": {
-          "Title": "Enregistrer la Publication",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer cette publication."
-        },
-        "Playlist": {
-          "Title": "Enregistrer une Playlist",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer cette playlist."
-        },
-        "Level": {
-          "Title": "Enregistrer le Niveau",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer ce niveau."
-        },
-        "Skin": {
-          "Title": "Enregistrer le Skin",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer ce skin."
-        },
-        "Background": {
-          "Title": "Enregistrer l'Arrière-plan",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer cet arrière-plan."
-        },
-        "Effect": {
-          "Title": "Enregistrer l'Effet Sonore",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer cet effet."
-        },
-        "Particle": {
-          "Title": "Enregistrer la Particule",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer cette particule."
-        },
-        "Engine": {
-          "Title": "Enregistrer le Moteur",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer ce moteur."
-        },
-        "Replay": {
-          "Title": "Enregistrer le Replay",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer ce replay."
-        },
-        "Room": {
-          "Title": "Enregistrer la Salle",
-          "Description": "Sélectionnez une collection dans laquelle enregistrer cette salle."
-        }
+        "Title": "Enregistrer vos Favoris",
+        "Description": "Sélectionnez une collection dans laquelle enregistrer vos favoris."
       },
       "ToCreate": {
         "Post": {
@@ -2449,6 +2411,15 @@
         "Title": "Nom",
         "Description": "Vous pouvez la nommer comme vous le souhaitez.",
         "Placeholder": "Entrez le nom de la collection…"
+      },
+      "Description": {
+        "Title": "Description",
+        "Description": "Description optionnelle pour la collection.",
+        "Placeholder": "Entrez la description de la collection…"
+      },
+      "Banner": {
+        "Title": "Bannière",
+        "Description": "Bannière optionnelle pour la collection."
       }
     },
     "ImportScp": {
@@ -2532,7 +2503,7 @@
     "CalibrateInput": {
       "Title": "Calibrer les Touches",
       "Description": "Calibrez les entrées taclitles en appuyant avec votre doigt. Veuillez d'abord vous assurer que votre décalage audio est correctement calibré.\nSi vous êtes habitué aux jeux qui n'offrent pas cette option, vous pouvez le laisser à 0.",
-      "Result": "Recommended Offset: {0} (±{1})"
+      "Result": "Décalage Recommandé : {0} (±{1})"
     },
     "Home": {
       "Title": "Acceuil",
@@ -2544,7 +2515,7 @@
       "UpdateAvailable": {
         "Title": "Mise à Jour Disponible",
         "Description": "La version Sonolus {0} est disponible !\n\nVisitez notre site Internet:\nhttps://sonolus.com",
-        "Open": "Open"
+        "Open": "Ouvrir"
       }
     },
     "Players": {
@@ -2621,11 +2592,11 @@
         "Title": "Modifier l'Avatar",
         "Foreground": {
           "Title": "Premier plan",
-          "Description": "Avatar au premier plan."
+          "Description": "Premier plan de l'avatar"
         },
         "Background": {
           "Title": "Arrière-plan",
-          "Description": "Fond d'avatar."
+          "Description": "Arrière-plan de l'avatar."
         }
       },
       "EditAboutMe": {
@@ -3303,6 +3274,38 @@
           "Title": "Ressource Exportée"
         }
       },
+      "SaveInfos": {
+        "Post": {
+          "Title": "Enregistrer la Publication"
+        },
+        "Playlist": {
+          "Title": "Enregistrer la Playlist"
+        },
+        "Level": {
+          "Title": "Enregistrer le Niveau"
+        },
+        "Skin": {
+          "Title": "Enregistrer le Skin"
+        },
+        "Background": {
+          "Title": "Enregistrer l'Arrière-plan"
+        },
+        "Effect": {
+          "Title": "Enregistrer l'Effet Sonore"
+        },
+        "Particle": {
+          "Title": "Enregistrer la Particule"
+        },
+        "Engine": {
+          "Title": "Enregistrer le Moteur"
+        },
+        "Replay": {
+          "Title": "Enregistrer le Replay"
+        },
+        "Room": {
+          "Title": "Enregistrer la Salle"
+        }
+      },
       "Savers": {
         "Post": {
           "Success": {
@@ -3383,7 +3386,7 @@
         },
         "Effect": {
           "Success": {
-            "Title": "Effect Sonore Mis à Jour"
+            "Title": "Effet Sonore Mis à Jour"
           }
         },
         "Particle": {
@@ -3424,7 +3427,7 @@
           "Title": "Infos de l'Arrière-plan"
         },
         "Effect": {
-          "Title": "Infos de l'Effect Sonore"
+          "Title": "Infos de l'Effet Sonore"
         },
         "Particle": {
           "Title": "Infos de la Particule"
@@ -3513,6 +3516,9 @@
         "Reconnecting": "Reconnexion…",
         "ExitConfirmation": {
           "Description": "Etes-vous sûr de vouloir quitter la salle ?"
+        },
+        "Tip": {
+          "Message": "Astuce : basculer entre les onglets"
         },
         "Play": {
           "Options": {
@@ -3684,13 +3690,7 @@
         },
         "AntiAliasing": {
           "Title": "Anticrénelage",
-          "Description": "Désactivation recommandée.\n\nL'anticrénelage améliore les graphismes en minimisant les artefacts, en particulier autour des bords des sprites, au prix de moins bonnes performances.",
-          "Options": {
-            "Off": "Désactivé",
-            "TwoX": "2x",
-            "FourX": "4x",
-            "EightX": "8x"
-          }
+          "Description": "Désactivation recommandée.\n\nL'anticrénelage améliore les graphismes en minimisant les artefacts, en particulier autour des bords des sprites, au prix de moins bonnes performances."
         },
         "GpuParticleSystem": {
           "Title": "Système de Particules GPU",
@@ -3754,6 +3754,11 @@
           "Title": "Durée de la Reprise",
           "Description": "Délai du compte à rebours lorsque vous quittez la pause pour reprendre la partie."
         },
+        "FavoriteCollection": {
+          "Title": "Collection des Favoris",
+          "Description": "Collection dans laquelle enregistrer les favoris.\n\nSi aucune collection n'est sélectionnée, une collection par défaut sera créée automatiquement.",
+          "DefaultName": "Favoris"
+        },
         "MultiplayerPreload": {
           "Title": "Préchargement Multijoueur",
           "Description": "Activation recommandée.\n\nEn multijoueur, le préchargement des données commencera dès la confirmation du niveau pour améliorer la vitesse de chargement."
@@ -3772,6 +3777,15 @@
           "Title": "Modèle de la Description des Replays",
           "Description": "Modèle de la description lors de la création d'un replay.\n\nLes paramètres spéciaux disponibles seront remplacés par les valeurs correspondantes.",
           "Placeholder": "Entrez le modèle de la description…"
+        },
+        "ReplayCollection": {
+          "Title": "Collection des Replays",
+          "Description": "Collection dans laquelle enregistrer les replays.\n\nSi aucune collection n'est sélectionnée, une collection par défaut sera créée automatiquement.",
+          "DefaultName": "Replays"
+        },
+        "AutoSubmitReplay": {
+          "Title": "Soumission Auto du Replay",
+          "Description": "Soumettre automatiquement les replays au serveur s'il le supporte."
         },
         "ShowReplayTouches": {
           "Title": "Afficher les Touches du Replay",
