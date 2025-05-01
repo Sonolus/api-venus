@@ -2291,46 +2291,8 @@
         "Description": "Selecciona un servidor personalizado o una colección para empezar a jugar."
       },
       "ToSave": {
-        "Post": {
-          "Title": "Guardar publicación",
-          "Description": "Seleccione una colección para guardar esta publicación."
-        },
-        "Playlist": {
-          "Title": "Guardar lista de reproducción",
-          "Description": "Seleccione una colección para guardar esta lista de reproducción."
-        },
-        "Level": {
-          "Title": "Guardar nivel",
-          "Description": "Selecciona una colección en la cual guardar este nivel."
-        },
-        "Skin": {
-          "Title": "Guardar skin",
-          "Description": "Selecciona una colección en la cual guardar esta skin."
-        },
-        "Background": {
-          "Title": "Guardar fondo",
-          "Description": "Selecciona una colección en la cual guardar este fondo."
-        },
-        "Effect": {
-          "Title": "Guardar efecto",
-          "Description": "Selecciona una colección en la cual guardar este efecto."
-        },
-        "Particle": {
-          "Title": "Guardar partícula",
-          "Description": "Selecciona una colección en la cual guardar esta partícula."
-        },
-        "Engine": {
-          "Title": "Guardar motor",
-          "Description": "Selecciona una colección en la cual guardar este motor."
-        },
-        "Replay": {
-          "Title": "Guardar repetición",
-          "Description": "Selecciona una colección para guardar esta repetición."
-        },
-        "Room": {
-          "Title": "Guardar sala",
-          "Description": "Seleccione una colección para guardar esta habitación."
-        }
+        "Title": "Guardar favoritos",
+        "Description": "Selecciona una colección para guardar favoritos."
       },
       "ToCreate": {
         "Post": {
@@ -2449,6 +2411,15 @@
         "Title": "Nombre",
         "Description": "Puedes ponerle cualquier nombre.",
         "Placeholder": "Introduzca el nombre de la colección..."
+      },
+      "Description": {
+        "Title": "Descripción",
+        "Description": "Descripción opcional de la colección.",
+        "Placeholder": "Introduce la descripción de la colección..."
+      },
+      "Banner": {
+        "Title": "Encabezado",
+        "Description": "Encabezado opcional para la colección."
       }
     },
     "ImportScp": {
@@ -3303,6 +3274,38 @@
           "Title": "Recurso exportado"
         }
       },
+      "SaveInfos": {
+        "Post": {
+          "Title": "Guardar publicación"
+        },
+        "Playlist": {
+          "Title": "Guardar lista de reproducción"
+        },
+        "Level": {
+          "Title": "Guardar nivel"
+        },
+        "Skin": {
+          "Title": "Guardar skin"
+        },
+        "Background": {
+          "Title": "Guardar fondo de pantalla"
+        },
+        "Effect": {
+          "Title": "Guardar efecto"
+        },
+        "Particle": {
+          "Title": "Guardar partícula"
+        },
+        "Engine": {
+          "Title": "Guardar motor"
+        },
+        "Replay": {
+          "Title": "Guardar repetición"
+        },
+        "Room": {
+          "Title": "Guardar sala"
+        }
+      },
       "Savers": {
         "Post": {
           "Success": {
@@ -3514,6 +3517,9 @@
         "ExitConfirmation": {
           "Description": "¿Estás seguro de salir de la habitación?"
         },
+        "Tip": {
+          "Message": "Consejo: cambia entre pestañas"
+        },
         "Play": {
           "Options": {
             "Title": "Opciones"
@@ -3684,13 +3690,7 @@
         },
         "AntiAliasing": {
           "Title": "Anti-Aliasing",
-          "Description": "Se recomienda usarlo apagado.\n\nEl anti-aliasing mejora los gráficos al minimizar los artefactos, en particular alrededor de los bordes de los sprites, a costa de un peor rendimiento.",
-          "Options": {
-            "Off": "Apagado",
-            "TwoX": "2x",
-            "FourX": "4x",
-            "EightX": "8x"
-          }
+          "Description": "Se recomienda usarlo apagado.\n\nEl anti-aliasing mejora los gráficos al minimizar los artefactos, en particular alrededor de los bordes de los sprites, a costa de un peor rendimiento."
         },
         "GpuParticleSystem": {
           "Title": "Sistema GPU de partículas",
@@ -3754,6 +3754,11 @@
           "Title": "Retraso de reanudación",
           "Description": "Cuenta regresiva al reanudar la pausa."
         },
+        "FavoriteCollection": {
+          "Title": "Agregar colección a favoritos",
+          "Description": "Colección para guardar favoritos.\n\nSi no se selecciona ninguna colección, se creará una predeterminada automáticamente.",
+          "DefaultName": "Favoritos"
+        },
         "MultiplayerPreload": {
           "Title": "Precarga multijugador",
           "Description": "Se recomienda activar.\n\nEn el modo multijugador, comienza la precarga una vez que se haya confirmado el nivel para mejorar la velocidad de carga."
@@ -3772,6 +3777,15 @@
           "Title": "Plantilla de la descripción de la repetición",
           "Description": "Plantilla para la descripción al crear una repetición.\n\nHay parámetros especiales disponibles que serán reemplazados por los valores correspondientes.",
           "Placeholder": "Introduzca la plantilla de la descripción..."
+        },
+        "ReplayCollection": {
+          "Title": "Colección de repeticiones",
+          "Description": "Colección para guardar las repeticiones.\n\nSi no se selecciona ninguna colección, se creará una predeterminada automáticamente.",
+          "DefaultName": "Repeticiones"
+        },
+        "AutoSubmitReplay": {
+          "Title": "Enviar repetición automáticamente",
+          "Description": "Enviar repeticiones al servidor automáticamente si es compatible."
         },
         "ShowReplayTouches": {
           "Title": "Mostrar toques en la repetición",
