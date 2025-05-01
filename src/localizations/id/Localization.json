@@ -2414,10 +2414,12 @@
       },
       "Description": {
         "Title": "Deskripsi",
+        "Description": "Deskripsi opsional untuk koleksi.",
         "Placeholder": "Masukkan deskripsi koleksi..."
       },
       "Banner": {
-        "Title": "Banner"
+        "Title": "Banner",
+        "Description": "Banner opsional untuk koleksi."
       }
     },
     "ImportScp": {
@@ -3753,6 +3755,7 @@
           "Description": "Hitung mundur delay ketika membatalkan jeda."
         },
         "FavoriteCollection": {
+          "Title": "Koleksi Favorit",
           "Description": "Koleksi untuk menyimpan favorit.\n\nJika tidak ada koleksi yang dipilih, koleksi default akan dibuat secara otomatis.",
           "DefaultName": "Favorit"
         },
