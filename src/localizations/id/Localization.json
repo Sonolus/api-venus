@@ -2291,46 +2291,8 @@
         "Description": "Pilih kustom server atau koleksi untuk mulai bermain."
       },
       "ToSave": {
-        "Post": {
-          "Title": "Simpan Post",
-          "Description": "Pilih koleksi untuk menyimpan post ini."
-        },
-        "Playlist": {
-          "Title": "Simpan Playlist",
-          "Description": "Pilih koleksi untuk menyiman playlist ini."
-        },
-        "Level": {
-          "Title": "Simpan Level",
-          "Description": "Pilih koleksi untuk menyimpan level ini."
-        },
-        "Skin": {
-          "Title": "Simpan Skin",
-          "Description": "Pilih koleksi untuk menyimpan skin ini."
-        },
-        "Background": {
-          "Title": "Simpan Latar",
-          "Description": "Pilih koleksi untuk menyimpan latar ini."
-        },
-        "Effect": {
-          "Title": "Simpan Efek",
-          "Description": "Pilih koleksi untuk menyimpan efek ini."
-        },
-        "Particle": {
-          "Title": "Simpan Partikel",
-          "Description": "Pilih koleksi untuk menyimpan partikel ini."
-        },
-        "Engine": {
-          "Title": "Simpan Mesin",
-          "Description": "Pilih koleksi untuk menyimpan mesin ini."
-        },
-        "Replay": {
-          "Title": "Simpan Replay",
-          "Description": "Pilih koleksi untuk menyimpan replay ini."
-        },
-        "Room": {
-          "Title": "Simpan Ruang",
-          "Description": "Pilih koleksi untuk menyimpan ruang ini."
-        }
+        "Title": "Simpan Favorit",
+        "Description": "Pilih koleksi untuk menyimpan favorit."
       },
       "ToCreate": {
         "Post": {
@@ -2449,6 +2411,15 @@
         "Title": "Nama",
         "Description": "Anda dapat menamainya sesuka Anda",
         "Placeholder": "Masukkan nama koleksi..."
+      },
+      "Description": {
+        "Title": "Deskripsi",
+        "Description": "Deskripsi opsional untuk koleksi.",
+        "Placeholder": "Masukkan deskripsi koleksi..."
+      },
+      "Banner": {
+        "Title": "Banner",
+        "Description": "Banner opsional untuk koleksi."
       }
     },
     "ImportScp": {
@@ -3303,6 +3274,38 @@
           "Title": "Sumber Daya Diekspor"
         }
       },
+      "SaveInfos": {
+        "Post": {
+          "Title": "Simpan Post"
+        },
+        "Playlist": {
+          "Title": "Simpan Playlist"
+        },
+        "Level": {
+          "Title": "Simpan Level"
+        },
+        "Skin": {
+          "Title": "Simpan Skin"
+        },
+        "Background": {
+          "Title": "Simpan Latar"
+        },
+        "Effect": {
+          "Title": "Simpan Efek"
+        },
+        "Particle": {
+          "Title": "Simpan Partikel"
+        },
+        "Engine": {
+          "Title": "Simpan Mesin"
+        },
+        "Replay": {
+          "Title": "Simpan Replay"
+        },
+        "Room": {
+          "Title": "Simpan Ruang"
+        }
+      },
       "Savers": {
         "Post": {
           "Success": {
@@ -3514,6 +3517,9 @@
         "ExitConfirmation": {
           "Description": "Apakah Anda yakin ingin meninggalkan ruang ini?"
         },
+        "Tip": {
+          "Message": "Tips: beralih antar tab"
+        },
         "Play": {
           "Options": {
             "Title": "Opsi"
@@ -3684,13 +3690,7 @@
         },
         "AntiAliasing": {
           "Title": "Anti-Aliasing",
-          "Description": "Direkomendasikan untuk dimatikan.\n\nAnti-aliasing meningkatkan grafik dengan meminimalkan artefak khususnya di sekitar tepi sprite, dengan mengorbankan kinerja yang lebih buruk.",
-          "Options": {
-            "Off": "Off",
-            "TwoX": "2x",
-            "FourX": "4x",
-            "EightX": "8x"
-          }
+          "Description": "Direkomendasikan untuk dimatikan.\n\nAnti-aliasing meningkatkan grafik dengan meminimalkan artefak khususnya di sekitar tepi sprite, dengan mengorbankan kinerja yang lebih buruk."
         },
         "GpuParticleSystem": {
           "Title": "Sistem Partikel GPU",
@@ -3754,6 +3754,11 @@
           "Title": "Delay Jeda",
           "Description": "Hitung mundur delay ketika membatalkan jeda."
         },
+        "FavoriteCollection": {
+          "Title": "Koleksi Favorit",
+          "Description": "Koleksi untuk menyimpan favorit.\n\nJika tidak ada koleksi yang dipilih, koleksi default akan dibuat secara otomatis.",
+          "DefaultName": "Favorit"
+        },
         "MultiplayerPreload": {
           "Title": "Preload Multiplayer",
           "Description": "Direkomendasikan untuk dihidupkan.\n\nDi multiplayer, memulai preloading ketika level dikonfirmasi untuk meningkatkan kecepatan memuat."
@@ -3772,6 +3777,15 @@
           "Title": "Template Deskripsi Replay",
           "Description": "Template untuk deskripsi ketika membuat replay.\n\nParameter spesial tersedia dan akan digantikan dengan nilai yang sesuai.",
           "Placeholder": "Masukkan template deksripsi..."
+        },
+        "ReplayCollection": {
+          "Title": "Koleksi Replay",
+          "Description": "Koleksi untuk menyimpan replay.\n\nJika tidak ada koleksi yang dipilih, koleksi default akan dibuat secara otomatis.",
+          "DefaultName": "Replay"
+        },
+        "AutoSubmitReplay": {
+          "Title": "Otomatis Kirim Replay",
+          "Description": "Otomatis kirim replay ke server jika didukung."
         },
         "ShowReplayTouches": {
           "Title": "Tampilkan Sentuhan Replay",
