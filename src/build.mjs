@@ -2,9 +2,6 @@ import fs from 'fs-extra'
 
 fs.emptyDirSync('./dist')
 
-const info = fs.readJsonSync('./src/info.json')
-fs.outputJsonSync('./dist/info.json', info)
-
 const localizations = fs.readdirSync('./src/localizations').map((name) => {
     const localization = fs.readJsonSync(`./src/localizations/${name}/Localization.json`)
 
@@ -22,13 +19,13 @@ const keys = new Set(
 )
 
 fs.outputJsonSync(
-    './dist/localizations/list.json',
+    './dist/list.json',
     localizations.map(({ info }) => info),
 )
 
 for (const { info, entries } of localizations) {
     fs.outputJsonSync(
-        `./dist/localizations/${info.name}.json`,
+        `./dist/${info.name}.json`,
         entries.filter(({ key }) => keys.has(key)),
     )
 }
