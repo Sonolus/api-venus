@@ -1,11 +1,8 @@
-import 'zx/globals'
 import fs from 'fs-extra'
 
 fs.emptyDirSync('./dist')
 
-const contributors = [...new Set((await $`git log --pretty="%aN"`).stdout.split('\n'))]
-    .filter((line) => !!line)
-    .sort()
+const contributors = fs.readJsonSync('./src/contributors.json')
 fs.outputJsonSync('./dist/contributors.json', contributors)
 
 const localizations = fs.readdirSync('./src/localizations').map((name) => {
