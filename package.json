@@ -1,12 +1,14 @@
 {
-  "name": "sonolus-api-venus",
+  "name": "sonolus-i18n",
   "private": true,
-  "scripts": {
-    "build": "node src/build.mjs"
-  },
+  "type": "module",
   "author": "NonSpicyBurrito",
   "license": "MIT",
+  "scripts": {
+    "build": "node ./src/build.js"
+  },
   "devDependencies": {
-    "fs-extra": "^10.1.0"
+    "fs-extra": "^11.3.0",
+    "zx": "^8.5.4"
   }
 }
