@@ -5,6 +5,7 @@
   "author": "NonSpicyBurrito",
   "license": "MIT",
   "scripts": {
+    "update-contributors": "node ./src/update-contributors.js",
     "build": "node ./src/build.js"
   },
   "devDependencies": {
