@@ -1,10 +1,11 @@
 {
   "name": "sonolus-i18n",
   "private": true,
+  "type": "module",
   "author": "NonSpicyBurrito",
   "license": "MIT",
   "scripts": {
-    "build": "node ./src/build.mjs"
+    "build": "node ./src/build.js"
   },
   "devDependencies": {
     "fs-extra": "^11.3.0",
