@@ -741,11 +741,13 @@
         "ServerVersionTooNewError": "This server only supports Sonolus version {0}.\n\nPlease update your Sonolus app, or contact server owner to report the problem."
     },
     "Clients": {
-        "Master": {
+        "Content": {
             "Info": {
                 "Loading": "Loading Sonolus info...",
                 "Error": "Failed to load Sonolus info.\n\nPlease check your internet connection and try again."
-            },
+            }
+        },
+        "I18n": {
             "List": {
                 "Loading": "Loading languages...",
                 "Error": "Failed to load languages.\n\nPlease check your internet connection and try again."
@@ -753,6 +755,10 @@
             "Localization": {
                 "Loading": "Loading language...",
                 "Error": "Failed to load language \"{0}\".\n\nPlease check your internet connection and try again."
+            },
+            "Contributors": {
+                "Loading": "Loading contributors...",
+                "Error": "Failed to load contributors.\n\nPlease check your internet connection and try again."
             }
         },
         "Service": {
@@ -2511,6 +2517,7 @@
             "Players": "Players",
             "Account": "Account",
             "Link": "Link",
+            "About": "About",
             "Settings": "Settings",
             "UpdateAvailable": {
                 "Title": "Update Available",
@@ -2620,6 +2627,19 @@
                 "Engine": "Engine",
                 "Replay": "Replay",
                 "Room": "Room"
+            }
+        },
+        "About": {
+            "Title": "About Sonolus",
+            "Letter": {
+                "Title": "A Letter from the Developer"
+            },
+            "Music": {
+                "Title": "Music"
+            },
+            "Translation": {
+                "Title": "Translation",
+                "Description": "Help translate Sonolus to your language!\nhttps://github.com/Sonolus/i18n\n\nThank you to all the contributors:"
             }
         },
         "Server": {
@@ -3674,7 +3694,8 @@
                 "Title": "Graphics",
                 "TargetFps": {
                     "Title": "Target FPS",
-                    "Description": "Recommend to use your device's screen refresh rate.\n\nSonolus targets to run at this FPS, however it is not guaranteed if device is incapable of doing so."
+                    "Description": "Recommend to use your device's screen refresh rate.\n\nSonolus targets to run at this FPS, however it is not guaranteed if device is incapable of doing so.",
+                    "Default": "Default"
                 },
                 "RenderMode": {
                     "Title": "Render Mode",
