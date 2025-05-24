@@ -741,18 +741,24 @@
     "ServerVersionTooNewError": "このサーバーはSonolus {0}のみをサポートしています。\n\nお使いのSonolusアプリを更新するか、サーバーの管理者にお問い合わせください。"
   },
   "Clients": {
-    "Master": {
+    "Content": {
       "Info": {
-        "Loading": "Sonolusの最新情報を読み込み中...",
-        "Error": "Sonolusの最新情報の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
-      },
+        "Loading": "Sonolusの情報を読み込み中...",
+        "Error": "Sonolusの情報を読み込めませんでした。\n\nインターネット接続を確認してもう一度お試しください。"
+      }
+    },
+    "I18n": {
       "List": {
         "Loading": "言語一覧を読み込み中...",
-        "Error": "言語一覧の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
+        "Error": "言語一覧を読み込めませんでした。\n\nインターネット接続を確認してもう一度お試しください。"
       },
       "Localization": {
-        "Loading": "言語情報を読み込み中...",
-        "Error": "言語\"{0}\"の読み込みに失敗しました。\n\nインターネット接続を確認してもう一度お試しください。"
+        "Loading": "言語を読み込み中...",
+        "Error": "言語 \"{0}\" を読み込めませんでした。\n\nインターネット接続を確認してもう一度お試しください。"
+      },
+      "Contributors": {
+        "Loading": "コントリビューター一覧を読み込み中...",
+        "Error": "コントリビューター一覧を読み込めませんでした。\n\nインターネット接続を確認してもう一度お試しください。"
       }
     },
     "Service": {
@@ -2511,6 +2517,7 @@
       "Players": "プレイヤー",
       "Account": "アカウント",
       "Link": "リンク",
+      "About": "概要",
       "Settings": "全体設定",
       "UpdateAvailable": {
         "Title": "アップデート通知",
@@ -2620,6 +2627,19 @@
         "Engine": "エンジン",
         "Replay": "リプレイ",
         "Room": "部屋"
+      }
+    },
+    "About": {
+      "Title": "概要",
+      "Letter": {
+        "Title": "開発者からのメッセージ"
+      },
+      "Music": {
+        "Title": "音楽"
+      },
+      "Translation": {
+        "Title": "翻訳",
+        "Description": "Sonolusの翻訳を手伝ってください！\nhttps://github.com/Sonolus/i18n\n\n以下のコントリビューターの皆様に感謝します："
       }
     },
     "Server": {
@@ -3674,7 +3694,8 @@
         "Title": "グラフィック",
         "TargetFps": {
           "Title": "FPS",
-          "Description": "推奨：デバイスのFPS\n\nSonolusはこのFPSを対象に動作しますが、デバイスが対応していない場合はこのFPSより低い値になります。"
+          "Description": "推奨：デバイスのFPS\n\nSonolusはこのFPSを対象に動作しますが、デバイスが対応していない場合はこのFPSより低い値になります。",
+          "Default": "デフォルト"
         },
         "RenderMode": {
           "Title": "描画モード",
@@ -3757,7 +3778,7 @@
         "FavoriteCollection": {
           "Title": "お気に入りコレクション",
           "Description": "お気に入りを保存する先のコレクション。\n\nもしコレクションが選択されていない場合は、自動的にコレクションが作成されます。",
-          "DefaultName": "Favorites"
+          "DefaultName": "お気に入り"
         },
         "MultiplayerPreload": {
           "Title": "マルチプレイ：事前読み込み",
@@ -3781,7 +3802,7 @@
         "ReplayCollection": {
           "Title": "リプレイ：デフォルトのコレクション",
           "Description": "リプレイを保存する先のコレクション。\n\nもしコレクションが選択されていない場合は、自動的にコレクションが作成されます。",
-          "DefaultName": "Replays"
+          "DefaultName": "リプレイ"
         },
         "AutoSubmitReplay": {
           "Title": "リプレイ：自動提出",
